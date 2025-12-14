@@ -119,6 +119,41 @@ export default function CoachingHomepage() {
     }
   ];
 
+  const results = {
+    "10thBoard": {
+      title: "10th Board Results",
+      students: [
+        { name: "Reyansh", score: "98%", board: "CBSE" },
+        { name: "Neel", score: "96%", board: "CBSE" },
+        { name: "Ram", score: "97%", board: "CBSE" }
+      ]
+    },
+    "12thBoard": {
+      title: "12th Board Results",
+      students: [
+        { name: "Pavan", score: "97%", board: "CBSE" },
+        { name: "Akshita", score: "99%", board: "CBSE" },
+        { name: "Kavya", score: "96%", board: "CBSE" }
+      ]
+    },
+    "jee": {
+      title: "JEE Main Results",
+      students: [
+        { name: "Vedant", score: "AIR 187", board: "JEE Main" },
+        { name: "Isha", score: "AIR 542", board: "JEE Main" },
+        { name: "Arjun", score: "AIR 1024", board: "JEE Main" }
+      ]
+    },
+    "neet": {
+      title: "NEET Results",
+      students: [
+        { name: "Sakshi", score: "AIR 312", board: "NEET" },
+        { name: "Rohan", score: "AIR 2847", board: "NEET" },
+        { name: "Divya", score: "AIR 1156", board: "NEET" }
+      ]
+    }
+  };
+
   // Scroll to top handler
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -321,6 +356,106 @@ export default function CoachingHomepage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Results Section */}
+      <section id="results" className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Outstanding Results</h2>
+            <p className="text-xl text-gray-600">Excellence in Every Board, Every Exam</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            {/* 10th Board */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-r from-blue-600 to-cyan-600 p-6 text-white">
+                <h3 className="text-2xl font-bold">{results["10thBoard"].title}</h3>
+              </div>
+              <div className="p-8">
+                <div className="space-y-4">
+                  {results["10thBoard"].students.map((student, idx) => (
+                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border-l-4 border-blue-600">
+                      <div>
+                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
+                        <p className="text-sm text-gray-600">{student.board}</p>
+                      </div>
+                      <div className="bg-gradient-to-br from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-lg font-bold text-center">
+                        {student.score}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* 12th Board */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-6 text-white">
+                <h3 className="text-2xl font-bold">{results["12thBoard"].title}</h3>
+              </div>
+              <div className="p-8">
+                <div className="space-y-4">
+                  {results["12thBoard"].students.map((student, idx) => (
+                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg border-l-4 border-green-600">
+                      <div>
+                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
+                        <p className="text-sm text-gray-600">{student.board}</p>
+                      </div>
+                      <div className="bg-gradient-to-br from-green-600 to-emerald-600 text-white px-4 py-2 rounded-lg font-bold text-center">
+                        {student.score}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* JEE Results */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-r from-yellow-500 to-orange-500 p-6 text-white">
+                <h3 className="text-2xl font-bold">{results.jee.title}</h3>
+              </div>
+              <div className="p-8">
+                <div className="space-y-4">
+                  {results.jee.students.map((student, idx) => (
+                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border-l-4 border-yellow-500">
+                      <div>
+                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
+                        <p className="text-sm text-gray-600">{student.board}</p>
+                      </div>
+                      <div className="bg-gradient-to-br from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-lg font-bold text-center">
+                        {student.score}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* NEET Results */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-r from-pink-600 to-red-600 p-6 text-white">
+                <h3 className="text-2xl font-bold">{results.neet.title}</h3>
+              </div>
+              <div className="p-8">
+                <div className="space-y-4">
+                  {results.neet.students.map((student, idx) => (
+                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-pink-50 to-red-50 rounded-lg border-l-4 border-pink-600">
+                      <div>
+                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
+                        <p className="text-sm text-gray-600">{student.board}</p>
+                      </div>
+                      <div className="bg-gradient-to-br from-pink-600 to-red-600 text-white px-4 py-2 rounded-lg font-bold text-center">
+                        {student.score}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
