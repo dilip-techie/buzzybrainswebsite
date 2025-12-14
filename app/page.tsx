@@ -369,9 +369,9 @@ export default function CoachingHomepage() {
                         </li>
                       ))}
                     </ul>
-                    <button className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl">
+                    <a href={index === 0 ? "/foundation" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
                       Learn More
-                    </button>
+                    </a>
                   </div>
                 </div>
               );
