@@ -197,6 +197,9 @@ export default function CoachingHomepage() {
     }
   };
 
+  // CTA Modal state
+  const [showCtaModal, setShowCtaModal] = useState(false);
+
   // Contact form state
   const [formData, setFormData] = useState({
     name: '',
@@ -222,13 +225,27 @@ export default function CoachingHomepage() {
     
     window.open(whatsappUrl, '_blank');
     
-    // Reset form
+    // Reset form and close modal
     setFormData({
       name: '',
       number: '',
       class: '',
       query: ''
     });
+    setShowCtaModal(false);
+  };
+
+  const handleCtaModalWhatsApp = () => {
+    setShowCtaModal(false);
+    window.open('https://wa.me/919850570525', '_blank');
+  };
+
+  const handleCtaModalForm = () => {
+    setShowCtaModal(false);
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -262,7 +279,10 @@ export default function CoachingHomepage() {
                 <span className="hidden md:inline">9850570525</span>
               </a>
             </div>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+            <button 
+              onClick={() => setShowCtaModal(true)}
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+            >
               Enroll Now
             </button>
           </div>
@@ -286,11 +306,17 @@ export default function CoachingHomepage() {
               Learn from IITians who mentor you personally in ultra-small batches!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold">
+              <button 
+                onClick={() => setShowCtaModal(true)}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold"
+              >
                 <span>Start Your Journey</span>
                 <ChevronRight className="w-5 h-5" />
               </button>
-              <button className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold">
+              <button 
+                onClick={() => setShowCtaModal(true)}
+                className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold"
+              >
                 Schedule a Demo
               </button>
             </div>
@@ -603,7 +629,10 @@ export default function CoachingHomepage() {
           <p className="text-xl text-blue-100 mb-8">
             Join BuzzyBrains Academy today and transform your academic dreams into reality
           </p>
-          <button className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold">
+          <button 
+            onClick={() => setShowCtaModal(true)}
+            className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold"
+          >
             Book Free Counselling
           </button>
         </div>
@@ -831,6 +860,44 @@ export default function CoachingHomepage() {
           <p>&copy; 2025 BuzzyBrains Academy. All rights reserved.</p>
         </div>
       </footer>
+
+      {/* CTA Modal */}
+      {showCtaModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Connect With Us! 👋</h2>
+              <p className="text-gray-600">Choose how you'd like to reach out to BuzzyBrains Academy</p>
+            </div>
+            
+            <div className="space-y-4">
+              <button
+                onClick={handleCtaModalForm}
+                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
+              >
+                <span>📝 Contact Form</span>
+                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+              </button>
+              
+              <button
+                onClick={handleCtaModalWhatsApp}
+                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
+              >
+                <span>💬 WhatsApp Chat</span>
+                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+              </button>
+            </div>
+            
+            <button
+              onClick={() => setShowCtaModal(false)}
+              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
+            >
+              Maybe Later
+            </button>
+          </div>
+        </div>
+      )}
+
     {/* Floating WhatsApp Chat Button */}
     <a
       href="https://wa.me/919850570525"
