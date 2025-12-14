@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { GraduationCap, Award, Users, BookOpen, TrendingUp, Star, ChevronRight, Phone, Mail, MapPin } from 'lucide-react';
 
@@ -117,6 +119,14 @@ export default function CoachingHomepage() {
     }
   ];
 
+  // Scroll to top handler
+  const scrollToTop = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Navigation */}
@@ -130,7 +140,15 @@ export default function CoachingHomepage() {
               </span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-blue-600 transition">Home</a>
+              <button
+                type="button"
+                className="text-gray-700 hover:text-blue-600 transition bg-transparent border-none outline-none cursor-pointer p-0 m-0 font-inherit"
+                style={{ background: 'none' }}
+                onClick={scrollToTop}
+              >
+                Home
+              </button>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="#courses" className="text-gray-700 hover:text-blue-600 transition">Courses</a>
               <a href="#results" className="text-gray-700 hover:text-blue-600 transition">Results</a>
               <a href="#faculty" className="text-gray-700 hover:text-blue-600 transition">Faculty</a>
