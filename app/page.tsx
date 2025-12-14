@@ -40,7 +40,7 @@ export default function CoachingHomepage() {
     {
       name: "Rahul Sharma",
       course: "IIT JEE",
-      text: "The faculty here transformed my approach to problem-solving. Secured AIR 247!",
+      text: "I would like to thank Dilip Sir because of which i secured a very good rank in JEE Advanced (AIR 247) !",
       rating: 5
     },
     {
