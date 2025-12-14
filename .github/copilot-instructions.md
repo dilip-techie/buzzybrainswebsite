@@ -1,63 +1,57 @@
+yarn dev
+---
 # AI Coding Agent Guidelines for BuzzyBrains Website
 
-Welcome to the BuzzyBrains website codebase! This document provides essential guidelines for AI coding agents to be productive and aligned with the project's structure and conventions.
+Welcome! This document provides concise, actionable instructions for AI coding agents working on the BuzzyBrains marketing website.
 
-## Project Overview
+## Project Architecture & Big Picture
+- **Single-page marketing site** built with [Next.js App Router](https://nextjs.org/docs/app/building-your-application/routing).
+- All main content and logic is in `app/page.tsx` (the homepage). No API routes, backend, or state management libraries are present.
+- **Key files:**
+  - `app/page.tsx`: Main homepage component (all sections: hero, courses, founder, testimonials, CTA, footer).
+  - `app/layout.tsx`: App-wide layout wrapper.
+  - `app/globals.css`: Global Tailwind CSS styles.
+  - `public/`: Static assets (images, fonts).
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with `create-next-app`. It is designed for the marketing needs of a coaching institute. The project uses the App Router (`app/` directory) and leverages modern Next.js features like server components and optimized fonts.
-
-### Key Directories
-- **`app/`**: Contains the core application logic, including pages, layouts, and global styles.
-  - `coaching-homepage.tsx`: Main component for the coaching homepage.
-  - `layout.tsx`: Defines the layout structure for the app.
-  - `globals.css`: Global CSS styles.
-- **`public/`**: Static assets like images and fonts.
-
-### External Dependencies
-- **Next.js**: Framework for building the application.
-- **`next/font`**: Used for optimizing and loading fonts.
-- **Geist Font**: A custom font family for branding.
+## Core Conventions & Patterns
+- **File-based routing:** Add new pages by creating files in `app/` (e.g., `app/about.tsx` → `/about`).
+- **Server components:** Use server components by default for performance.
+- **Styling:**
+  - Use Tailwind CSS utility classes for all styling (see `globals.css` for customizations).
+  - Co-locate any component-specific styles in the same directory if needed.
+- **Icons:** Use [Lucide React](https://lucide.dev/icons/) icons (imported in `page.tsx`).
+- **Fonts:** Managed via `next/font` (Geist font for branding).
 
 ## Developer Workflows
+- **Start dev server:**
+  ```bash
+  npm run dev # or yarn dev / pnpm dev / bun dev
+  ```
+  Visit [http://localhost:3000](http://localhost:3000)
+- **Build for production:**
+  ```bash
+  npm run build
+  ```
+- **Debugging:** Use browser dev tools and Next.js error overlay.
 
-### Running the Development Server
-Use one of the following commands to start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-The server runs at [http://localhost:3000](http://localhost:3000).
+## Project-Specific Examples
+- **Add a navigation link:** Edit the `<nav>` in `app/page.tsx` and add an `<a>` tag with the appropriate href.
+- **Update hero/CTA/testimonials:** All homepage sections are in `app/page.tsx` as React components/JSX blocks. Update or add to the relevant section.
+- **Add a new course:** Extend the `courses` array in `app/page.tsx` and update the rendering logic if needed.
+- **Modify the footer:** Edit the `<footer>` in `app/page.tsx` directly.
+- **Update global styles:** Edit `app/globals.css`.
 
-### Building the Project
-To create a production build:
-```bash
-npm run build
-```
+## Integration & External Dependencies
+- **Lucide React** for icons (see imports in `app/page.tsx`).
+- **Tailwind CSS** for all styling (configured in `postcss.config.mjs` and `globals.css`).
+- **No custom data fetching, API routes, or client-side state management**—all data is static in the component files.
 
-### Debugging
-- Use the browser's developer tools for inspecting components and styles.
-- Leverage Next.js's built-in error overlay for runtime and build-time errors.
+## Notes for AI Agents
+- Follow Next.js and Tailwind conventions as used in this codebase.
+- When adding dependencies, ensure they fit the current stack and document major changes in `README.md`.
+- Reference the [README.md](../../README.md) for basic Next.js workflows, but use this file for project-specific patterns.
 
-## Project-Specific Conventions
-
-### Component Structure
-- Follow the file-based routing system of Next.js.
-- Use server components where possible to optimize performance.
-- Co-locate component-specific styles within the same directory.
-
-### Styling
-- Global styles are defined in `globals.css`.
-- Use CSS modules or inline styles for component-specific styling.
-
-### Fonts
-- Fonts are managed using `next/font` for automatic optimization.
-
-## Examples
+For more, see [Next.js Documentation](https://nextjs.org/docs).
 
 ### Adding a New Page
 1. Create a new file in the `app/` directory, e.g., `app/new-page.tsx`.
