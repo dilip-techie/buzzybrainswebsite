@@ -9,15 +9,27 @@ export default function CoachingHomepage() {
       description: "Build a rock-solid foundation in Maths, Science, Chemistry & Biology with IITian mentors",
       icon: BookOpen,
       gradient: "from-blue-600 to-cyan-600",
-      features: ["Ultra-small batches (max 10)", "Personal attention guaranteed", "Concept mastery focus"]
+      features: [
+        "Ultra-small batches (max 10)",
+        "Personal attention guaranteed",
+        "Concept mastery focus",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
     },
     {
-      title: "Excellence Track",
-      subtitle: "Classes 11-12",
-      description: "Advanced preparation for JEE Main, MHT-CET with strategic problem-solving techniques",
-      icon: TrendingUp,
-      gradient: "from-purple-600 to-pink-600",
-      features: ["IITian mentorship", "Concept clarity sessions", "Regular mock tests"]
+      title: "IIT-JEE Preparation",
+      subtitle: "Engineering Entrance",
+      description: "Comprehensive JEE Main & Advanced coaching with rigorous practice and expert mentorship.",
+      icon: GraduationCap,
+      gradient: "from-yellow-500 to-orange-500",
+      features: [
+        "AIR-400 ranker guidance",
+        "Topic-wise test series",
+        "Doubt-solving sessions",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
     },
     {
       title: "NEET Preparation",
@@ -25,7 +37,55 @@ export default function CoachingHomepage() {
       description: "Intensive coaching for NEET with focus on Biology, Physics, Chemistry and quick calculations",
       icon: Award,
       gradient: "from-green-600 to-emerald-600",
-      features: ["Vedic maths advantage", "Doubt resolution sessions", "Year-round strategy guidance"]
+      features: [
+        "Vedic maths advantage",
+        "Doubt resolution sessions",
+        "Year-round strategy guidance",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
+    },
+    {
+      title: "10th Board Preparation",
+      subtitle: "SSC/CBSE/ICSE",
+      description: "Focused board exam preparation for Class 10 with concept clarity and exam strategies.",
+      icon: BookOpen,
+      gradient: "from-pink-500 to-red-500",
+      features: [
+        "Board-specific study material",
+        "Regular assessments",
+        "Revision bootcamps",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
+    },
+    {
+      title: "12th Board Preparation",
+      subtitle: "HSC/CBSE/ISC",
+      description: "Targeted coaching for Class 12 boards with expert faculty and personalized feedback.",
+      icon: BookOpen,
+      gradient: "from-green-500 to-lime-500",
+      features: [
+        "Personalized study plans",
+        "Model paper practice",
+        "Performance tracking",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
+    },
+    {
+      title: "Maths Excellence Prog.",
+      subtitle: "Advanced Maths",
+      description: "Specialized program for students aiming for advanced mathematics competitions.",
+      icon: TrendingUp,
+      gradient: "from-purple-600 to-pink-600",
+      features: [
+        "Olympiad-level problem solving",
+        "Advanced concepts",
+        "Mentorship by IITians",
+        "Test Series",
+        "Advanced Algebra Module"
+      ]
     }
   ];
 
