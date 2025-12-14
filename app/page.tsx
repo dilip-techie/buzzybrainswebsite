@@ -154,6 +154,41 @@ export default function CoachingHomepage() {
     }
   };
 
+  const faculty = [
+    {
+      name: "Dilip Sir",
+      subject: "Mathematics",
+      qualification: "IIT Kanpur | JEE AIR 400",
+      expertise: "25+ Years, Expert Problem Solver",
+      color: "from-blue-600 to-cyan-600",
+      bgColor: "from-blue-50 to-cyan-50"
+    },
+    {
+      name: "Sourav Sir",
+      subject: "Physics",
+      qualification: "IIT Bombay",
+      expertise: "Physics Wizard, Conceptual Clarity",
+      color: "from-purple-600 to-pink-600",
+      bgColor: "from-purple-50 to-pink-50"
+    },
+    {
+      name: "Deepti Madam",
+      subject: "Chemistry",
+      qualification: "IIT Delhi",
+      expertise: "Organic & Inorganic Expert",
+      color: "from-green-600 to-emerald-600",
+      bgColor: "from-green-50 to-emerald-50"
+    },
+    {
+      name: "Dr. Aditi",
+      subject: "Biology",
+      qualification: "AIIMS | MD (Medicine)",
+      expertise: "Medical Expert, NEET Specialist",
+      color: "from-rose-600 to-red-600",
+      bgColor: "from-rose-50 to-red-50"
+    }
+  ];
+
   // Scroll to top handler
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -456,6 +491,44 @@ export default function CoachingHomepage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Faculty Section */}
+      <section id="faculty" className="py-20 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Elite Faculty</h2>
+            <p className="text-xl text-gray-600">IITians & Medical Experts Dedicated to Your Success</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {faculty.map((member, index) => (
+              <div key={index} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                {/* Header with gradient */}
+                <div className={`bg-gradient-to-r ${member.color} p-8 text-white relative overflow-hidden h-40 flex flex-col justify-between`}>
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -mr-12 -mt-12"></div>
+                  <div className="relative z-10">
+                    <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
+                    <p className="text-lg font-semibold text-white/90">{member.subject}</p>
+                  </div>
+                </div>
+                
+                {/* Content */}
+                <div className={`p-6 bg-gradient-to-br ${member.bgColor}`}>
+                  <div className="mb-4 pb-4 border-b border-gray-300">
+                    <p className="text-sm font-semibold text-gray-600">Qualifications</p>
+                    <p className="text-gray-900 font-bold mt-1">{member.qualification}</p>
+                  </div>
+                  
+                  <div>
+                    <p className="text-sm font-semibold text-gray-600">Expertise</p>
+                    <p className="text-gray-900 font-bold mt-1 text-sm leading-relaxed">{member.expertise}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
