@@ -10,11 +10,11 @@ export default function CoachingHomepage() {
       icon: BookOpen,
       gradient: "from-blue-600 to-cyan-600",
       features: [
-        "Ultra-small batches (max 10)",
-        "Personal attention guaranteed",
-        "Concept mastery focus",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Max 10 students per batch",
+        "Personal 1:1 attention",
+        "Master every concept",
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     },
     {
@@ -24,11 +24,11 @@ export default function CoachingHomepage() {
       icon: GraduationCap,
       gradient: "from-yellow-500 to-orange-500",
       features: [
-        "AIR-400 ranker guidance",
-        "Topic-wise test series",
-        "Doubt-solving sessions",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Guidance from AIR-400 mentor",
+        "Topicwise test series",
+        "Live doubt-solving",
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     },
     {
@@ -39,10 +39,10 @@ export default function CoachingHomepage() {
       gradient: "from-green-600 to-emerald-600",
       features: [
         "Vedic maths advantage",
-        "Doubt resolution sessions",
-        "Year-round strategy guidance",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Quick doubt resolution",
+        "Year-round strategy guide",
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     },
     {
@@ -55,8 +55,8 @@ export default function CoachingHomepage() {
         "Board-specific study material",
         "Regular assessments",
         "Revision bootcamps",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     },
     {
@@ -69,8 +69,8 @@ export default function CoachingHomepage() {
         "Personalized study plans",
         "Model paper practice",
         "Performance tracking",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     },
     {
@@ -81,10 +81,10 @@ export default function CoachingHomepage() {
       gradient: "from-purple-600 to-pink-600",
       features: [
         "Olympiad-level problem solving",
-        "Advanced concepts",
+        "Advanced math concepts",
         "Mentorship by IITians",
-        "Test Series",
-        "Advanced Algebra Module"
+        "Comprehensive test series",
+        "Advanced algebra module"
       ]
     }
   ];
@@ -212,9 +212,11 @@ export default function CoachingHomepage() {
                     <p className="text-gray-600 mb-6">{course.description}</p>
                     <ul className="space-y-3 mb-6">
                       {course.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-start">
-                          <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
-                          <span className="text-gray-700">{feature}</span>
+                        <li key={idx} className="flex items-center group/bullet">
+                          <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 group-hover/bullet:from-blue-200 group-hover/bullet:to-blue-400 shadow-sm mr-3">
+                            <Star className="w-4 h-4 text-blue-600" />
+                          </span>
+                          <span className="text-gray-800 font-medium tracking-tight text-base whitespace-nowrap overflow-hidden text-ellipsis" style={{letterSpacing: '0.01em'}}>{feature}</span>
                         </li>
                       ))}
                     </ul>
