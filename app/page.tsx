@@ -257,9 +257,7 @@ export default function CoachingHomepage() {
                       <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
                     ))}
                   </div>
-                  <span className="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full font-semibold">
-                    {testimonial.achievement}
-                  </span>
+               
                 </div>
                 <p className="text-gray-700 mb-6 italic leading-relaxed">"{testimonial.text}"</p>
                 <div className="border-t pt-4">
