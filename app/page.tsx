@@ -88,6 +88,48 @@ export default function CoachingHomepage() {
         "Comprehensive test series",
         "Advanced algebra module"
       ]
+    },
+    {
+      title: "IGCSE Preparation",
+      subtitle: "Classes 6-12 (Cambridge/Edexcel)",
+      description: "Expert coaching for IGCSE with focus on Maths, Science, Computers, Social Studies, Economics & Accounting.",
+      icon: GraduationCap,
+      gradient: "from-indigo-600 to-blue-600",
+      features: [
+        "Cambridge & Edexcel curriculum",
+        "Maths, Science, Computers",
+        "Economics & Accounting",
+        "Grade A/A* focused coaching",
+        "Past papers & mark schemes"
+      ]
+    },
+    {
+      title: "IB Diploma Programme",
+      subtitle: "Classes 6-12 (MYP & DP)",
+      description: "Comprehensive IB coaching for Maths, Science, Computers, Social Studies, Economics & Accounting.",
+      icon: Award,
+      gradient: "from-teal-600 to-cyan-600",
+      features: [
+        "MYP & DP curriculum",
+        "Maths, Science, Computers",
+        "Economics & Accounting",
+        "IA & EE guidance included",
+        "Score 7 strategies"
+      ]
+    },
+    {
+      title: "AP Exams Preparation",
+      subtitle: "Advanced Placement",
+      description: "Score 5 in AP exams with targeted coaching for AP Calculus, Physics, Chemistry, and Biology.",
+      icon: TrendingUp,
+      gradient: "from-rose-600 to-pink-600",
+      features: [
+        "AP Calculus AB/BC coverage",
+        "AP Physics 1/2/C focused",
+        "AP Chemistry & Biology",
+        "Score 5 exam strategies",
+        "College credit preparation"
+      ]
     }
   ];
 
