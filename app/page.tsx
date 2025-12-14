@@ -823,10 +823,10 @@ export default function CoachingHomepage() {
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition">Courses</a></li>
-              <li><a href="#" className="hover:text-white transition">Results</a></li>
-              <li><a href="#" className="hover:text-white transition">Admissions</a></li>
+              <li><a href="/about" className="hover:text-white transition">About Us</a></li>
+              <li><a href="#courses" className="hover:text-white transition">Courses</a></li>
+              <li><a href="#results" className="hover:text-white transition">Results</a></li>
+              <li><a href="/admissions" className="hover:text-white transition">Admissions</a></li>
             </ul>
           </div>
           <div>
