@@ -4,37 +4,43 @@ import { GraduationCap, Award, Users, BookOpen, TrendingUp, Star, ChevronRight, 
 export default function CoachingHomepage() {
   const courses = [
     {
-      title: "Foundation Course",
-      description: "Building strong fundamentals for classes 8th-10th",
+      title: "Foundation Program",
+      subtitle: "Classes 6-10",
+      description: "Build a rock-solid foundation in Maths, Science, Chemistry & Biology with IITian mentors",
       icon: BookOpen,
-      gradient: "from-blue-500 to-cyan-500"
+      gradient: "from-blue-600 to-cyan-600",
+      features: ["Ultra-small batches (max 10)", "Personal attention guaranteed", "Concept mastery focus"]
     },
     {
-      title: "IIT JEE Preparation",
-      description: "Comprehensive training for JEE Main & Advanced",
+      title: "Excellence Track",
+      subtitle: "Classes 11-12",
+      description: "Advanced preparation for JEE Main, MHT-CET with strategic problem-solving techniques",
       icon: TrendingUp,
-      gradient: "from-purple-500 to-pink-500"
+      gradient: "from-purple-600 to-pink-600",
+      features: ["IITian mentorship", "Concept clarity sessions", "Regular mock tests"]
     },
     {
-      title: "NEET Coaching",
-      description: "Expert guidance for medical entrance success",
+      title: "NEET Preparation",
+      subtitle: "Medical Entrance",
+      description: "Intensive coaching for NEET with focus on Biology, Physics, Chemistry and quick calculations",
       icon: Award,
-      gradient: "from-green-500 to-emerald-500"
+      gradient: "from-green-600 to-emerald-600",
+      features: ["Vedic maths advantage", "Doubt resolution sessions", "Year-round strategy guidance"]
     }
   ];
 
   const stats = [
-    { number: "500+", label: "IIT Selections" },
-    { number: "800+", label: "NEET Qualifiers" },
-    { number: "95%", label: "Success Rate" },
-    { number: "50+", label: "Expert Faculty" }
+    { number: "25+", label: "Years Experience" },
+    { number: "AIR 400", label: "Founder's JEE Rank" },
+    { number: "10", label: "Max Batch Size" },
+    { number: "IIT", label: "Alumni Mentors" }
   ];
 
   const testimonials = [
     {
-      name: "Aryan Singh",
+      name: "Rahul Sharma",
       course: "IIT JEE",
-      text: "The faculty here transformed my approach to problem-solving. Secured AIR 400!",
+      text: "The faculty here transformed my approach to problem-solving. Secured AIR 247!",
       rating: 5
     },
     {
@@ -83,12 +89,15 @@ export default function CoachingHomepage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Transform Your Dreams Into
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Reality</span>
+              Premium <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Coaching for</span> <br></br>IIT &
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Medical</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Premier coaching institute for IIT JEE, NEET, and Foundation courses. 
-              Join thousands of successful students who achieved their goals with us.
+            <p className="text-xl text-gray-600 mb-4">
+              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (IIT Kanpur | JEE AIR 400 | 25 years exp.)
+            </p>
+            <p className="text-lg text-gray-700 mb-8">
+              Premium coaching for Foundation, JEE Main, MHT-CET & NEET. <br></br>
+              Learn from IITians who mentor you personally in ultra-small batches!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold">
@@ -129,33 +138,78 @@ export default function CoachingHomepage() {
               const Icon = course.icon;
               return (
                 <div key={index} className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                  <div className={`bg-gradient-to-r ${course.gradient} p-8 text-white`}>
-                    <Icon className="w-12 h-12 mb-4" />
-                    <h3 className="text-2xl font-bold mb-2">{course.title}</h3>
+                  <div className={`bg-gradient-to-r ${course.gradient} p-8 text-white relative overflow-hidden`}>
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
+                    <Icon className="w-12 h-12 mb-4 relative z-10" />
+                    <h3 className="text-2xl font-bold mb-1 relative z-10">{course.title}</h3>
+                    <p className="text-white/90 text-sm relative z-10">{course.subtitle}</p>
                   </div>
                   <div className="p-8">
                     <p className="text-gray-600 mb-6">{course.description}</p>
                     <ul className="space-y-3 mb-6">
-                      <li className="flex items-start">
-                        <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-700">Expert faculty with proven track record</span>
-                      </li>
-                      <li className="flex items-start">
-                        <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-700">Comprehensive study material</span>
-                      </li>
-                      <li className="flex items-start">
-                        <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-700">Regular tests and assessments</span>
-                      </li>
+                      {course.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start">
+                          <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                          <span className="text-gray-700">{feature}</span>
+                        </li>
+                      ))}
                     </ul>
-                    <button className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold">
+                    <button className="w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl">
                       Learn More
                     </button>
                   </div>
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Founder Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3"></div>
+              <img 
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop" 
+                alt="Dilip Sir teaching" 
+                className="relative rounded-3xl shadow-2xl w-full h-96 object-cover"
+              />
+            </div>
+            <div>
+              <div className="inline-block bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                Meet Our Founder
+              </div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Dilip Sir</h2>
+              <p className="text-xl text-gray-700 mb-6">
+                <span className="font-bold text-blue-600">IIT Kanpur</span> | JEE AIR 400 | 25 Years Experience
+              </p>
+              <div className="space-y-4 text-gray-700">
+                <p className="flex items-start">
+                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
+                  <span>An IIT/IIM Alumni Initiative - Excellence Redefined</span>
+                </p>
+                <p className="flex items-start">
+                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
+                  <span>Former faculty at Career Point, bringing elite coaching experience</span>
+                </p>
+                <p className="flex items-start">
+                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
+                  <span>Personal mentorship from champions including AIR-400 ranked experts</span>
+                </p>
+                <p className="flex items-start">
+                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
+                  <span>Ultra-small batches ensuring every student gets individual attention</span>
+                </p>
+              </div>
+              <div className="mt-8">
+                <a href="tel:+919850570525" className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold">
+                  <Phone className="w-5 h-5" />
+                  <span>Call: 98505 70525</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -169,10 +223,10 @@ export default function CoachingHomepage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Users, title: "Small Batch Size", desc: "Personalized attention to every student" },
-              { icon: BookOpen, title: "Quality Material", desc: "Curated content by top educators" },
-              { icon: Award, title: "Proven Results", desc: "Consistent top ranks every year" },
-              { icon: TrendingUp, title: "Growth Tracking", desc: "Regular performance analysis" }
+              { icon: Users, title: "Ultra-Small Batches", desc: "Maximum 10 students per batch for personalized attention" },
+              { icon: BookOpen, title: "IITian Mentors", desc: "Learn from champions like AIR-400 Dilip Sir" },
+              { icon: Award, title: "Concept Mastery", desc: "Strong foundation with doubt resolution sessions" },
+              { icon: TrendingUp, title: "Vedic Maths", desc: "Lightning-fast calculation skills advantage" }
             ].map((item, index) => {
               const Icon = item.icon;
               return (
@@ -196,13 +250,18 @@ export default function CoachingHomepage() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="flex mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
+              <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-blue-600">
+                <div className="flex justify-between items-start mb-4">
+                  <div className="flex">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    ))}
+                  </div>
+                  <span className="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full font-semibold">
+                    {testimonial.achievement}
+                  </span>
                 </div>
-                <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-gray-700 mb-6 italic leading-relaxed">"{testimonial.text}"</p>
                 <div className="border-t pt-4">
                   <p className="font-bold text-gray-900">{testimonial.name}</p>
                   <p className="text-sm text-gray-600">{testimonial.course}</p>
@@ -248,10 +307,11 @@ export default function CoachingHomepage() {
           <div>
             <h3 className="text-lg font-bold mb-4">Programs</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Foundation</a></li>
-              <li><a href="#" className="hover:text-white transition">IIT JEE</a></li>
-              <li><a href="#" className="hover:text-white transition">NEET</a></li>
-              <li><a href="#" className="hover:text-white transition">Online Classes</a></li>
+              <li><a href="#" className="hover:text-white transition">Foundation (6-10)</a></li>
+              <li><a href="#" className="hover:text-white transition">Excellence Track (11-12)</a></li>
+              <li><a href="#" className="hover:text-white transition">JEE Main & MHT-CET</a></li>
+              <li><a href="#" className="hover:text-white transition">NEET Coaching</a></li>
+              <li><a href="#" className="hover:text-white transition">Board Crash Courses</a></li>
             </ul>
           </div>
           <div>
@@ -259,15 +319,15 @@ export default function CoachingHomepage() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 9850570525</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@eliteacademy.com</span>
+                <span>info@buzzybrainsacademy.com</span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-1" />
-                <span>Amanora Park Town, Pune - 411028</span>
+                <span>Amanora Park Town, Hadapsar, PUne-411028, Maharashtra</span>
               </li>
             </ul>
           </div>
