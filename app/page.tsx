@@ -32,7 +32,7 @@ export default function CoachingHomepage() {
 
   const testimonials = [
     {
-      name: "Dilip Sah",
+      name: "Aryan Singh",
       course: "IIT JEE",
       text: "The faculty here transformed my approach to problem-solving. Secured AIR 400!",
       rating: 5
@@ -60,7 +60,7 @@ export default function CoachingHomepage() {
             <div className="flex items-center space-x-2">
               <GraduationCap className="w-8 h-8 text-blue-600" />
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Elite Academy
+                BuzzyBrains Academy
               </span>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -164,7 +164,7 @@ export default function CoachingHomepage() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Elite Academy?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose BuzzyBrains Academy?</h2>
             <p className="text-xl text-gray-600">Excellence in every aspect of learning</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -218,7 +218,7 @@ export default function CoachingHomepage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Success Journey?</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join Elite Academy today and transform your academic dreams into reality
+            Join BuzzyBrains Academy today and transform your academic dreams into reality
           </p>
           <button className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold">
             Book Free Counselling
@@ -232,7 +232,7 @@ export default function CoachingHomepage() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <GraduationCap className="w-8 h-8" />
-              <span className="text-xl font-bold">Elite Academy</span>
+              <span className="text-xl font-bold">BuzzyBrains Academy</span>
             </div>
             <p className="text-gray-400">Transforming students into achievers since 2010</p>
           </div>
@@ -267,13 +267,13 @@ export default function CoachingHomepage() {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-1" />
-                <span>123 Education Street, Nagpur, Maharashtra</span>
+                <span>Amanora Park Town, Pune - 411028</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2024 Elite Academy. All rights reserved.</p>
+          <p>&copy; 2025 BuzzyBrains Academy. All rights reserved.</p>
         </div>
       </footer>
     </div>
