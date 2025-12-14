@@ -369,7 +369,7 @@ export default function CoachingHomepage() {
                         </li>
                       ))}
                     </ul>
-                    <a href={index === 0 ? "/foundation" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
+                    <a href={index === 0 ? "/foundation" : index === 3 ? "/10th-board" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
                       Learn More
                     </a>
                   </div>
@@ -832,7 +832,7 @@ export default function CoachingHomepage() {
           <div>
             <h3 className="text-lg font-bold mb-4">Programs</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#courses" className="hover:text-white transition">Foundation (6-10)</a></li>
+              <li><a href="#foundation" className="hover:text-white transition">Foundation (6-10)</a></li>
               <li><a href="#courses" className="hover:text-white transition">Excellence Track (11-12)</a></li>
               <li><a href="#courses" className="hover:text-white transition">JEE Main & MHT-CET</a></li>
               <li><a href="#courses" className="hover:text-white transition">NEET Coaching</a></li>
