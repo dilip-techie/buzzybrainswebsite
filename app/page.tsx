@@ -369,7 +369,7 @@ export default function CoachingHomepage() {
                         </li>
                       ))}
                     </ul>
-                    <a href={index === 0 ? "/foundation" : index === 3 ? "/10th-board" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
+                    <a href={index === 0 ? "/foundation" : index === 3 ? "/10th-board" : index === 4 ? "/12th-board" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
                       Learn More
                     </a>
                   </div>
