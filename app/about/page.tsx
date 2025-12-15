@@ -97,12 +97,12 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <button
-                onClick={scrollToTop}
-                className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition cursor-pointer border-none bg-transparent outline-none p-0 m-0"
+              <a
+                href="/"
+                className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition"
               >
                 BuzzyBrains Academy
-              </button>
+              </a>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="/" className="text-gray-700 hover:text-blue-600 transition">Home</a>
