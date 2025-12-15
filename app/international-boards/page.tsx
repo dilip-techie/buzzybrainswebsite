@@ -33,7 +33,7 @@ export default function InternationalBoardsPage() {
     {
       icon: Users,
       title: "Ultra-Small Batches",
-      description: "Just 10 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
+      description: "Just 12 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
     },
     {
       icon: Globe,
@@ -271,7 +271,7 @@ export default function InternationalBoardsPage() {
               <p className="text-gray-500 mt-2">Maths, Sciences, CS, Economics, Accounting</p>
             </div>
             <div className={`bg-white rounded-xl p-8 shadow-lg text-center border-2 ${borderColor}`}>
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 10 Students</div>
+              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>

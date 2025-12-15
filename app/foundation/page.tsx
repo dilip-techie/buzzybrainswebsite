@@ -32,7 +32,7 @@ export default function FoundationPage() {
     {
       icon: Users,
       title: "Ultra-Small Batches",
-      description: "Just 10 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching)."
+      description: "Just 12 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching)."
     },
     {
       icon: Lightbulb,
@@ -174,7 +174,7 @@ export default function FoundationPage() {
               <p className="text-gray-500 mt-2">Build concepts that last a lifetime</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 10 Students</div>
+              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>

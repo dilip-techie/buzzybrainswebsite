@@ -32,7 +32,7 @@ export default function Class10BoardPage() {
     {
       icon: Users,
       title: "Ultra-Small Batches",
-      description: "Just 10 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
+      description: "Just 12 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
     },
     {
       icon: Trophy,
@@ -93,7 +93,7 @@ export default function Class10BoardPage() {
     { metric: "90%+", description: "Average Score in Maths & Science" },
     { metric: "100%", description: "Student Satisfaction Rate" },
     { metric: "Consistent", description: "Year on Year Excellence" },
-    { metric: "Small", description: "Batches (Max 10 students)" }
+    { metric: "Small", description: "Batches (Max 12 students)" }
   ];
 
   const boardExamTips = [
@@ -185,7 +185,7 @@ export default function Class10BoardPage() {
               <p className="text-gray-500 mt-2">Board exam + Competitive exam prep</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 10 Students</div>
+              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>

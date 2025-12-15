@@ -12,7 +12,7 @@ export default function CoachingHomepage() {
       icon: BookOpen,
       gradient: "from-blue-600 to-cyan-600",
       features: [
-        "Max 10 students per batch",
+        "Max 12 students per batch",
         "Personal 1:1 attention",
         "Master every concept",
         "Comprehensive test series",
@@ -466,7 +466,7 @@ export default function CoachingHomepage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Users, title: "Ultra-Small Batches", desc: "Maximum 10 students per batch for personalized attention" },
+              { icon: Users, title: "Ultra-Small Batches", desc: "Maximum 12 students per batch for personalized attention" },
               { icon: BookOpen, title: "IITian Mentors", desc: "Learn from champions like AIR-400 Dilip Sir" },
               { icon: Award, title: "Concept Mastery", desc: "Strong foundation with doubt resolution sessions" },
               { icon: TrendingUp, title: "Vedic Maths", desc: "Lightning-fast calculation skills advantage" }
