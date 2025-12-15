@@ -306,7 +306,7 @@ export default function CoachingHomepage() {
               <a href="/foundation" className="text-gray-700 hover:text-blue-600 transition">Foundation Courses</a>
               <a href="/12th-board" className="text-gray-700 hover:text-blue-600 transition">Indian Boards</a>
               <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">International Boards</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">1-1 Class</a>
+              <a href="/one-on-one" className="text-gray-700 hover:text-blue-600 transition">1-1 Class</a>
               <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admission Enquiry</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
               <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition" title="Chat on WhatsApp">
