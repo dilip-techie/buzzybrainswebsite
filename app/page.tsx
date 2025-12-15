@@ -314,12 +314,6 @@ export default function CoachingHomepage() {
                 <span className="hidden md:inline">9850570525</span>
               </a>
             </div>
-            <button 
-              onClick={() => setShowCtaModal(true)}
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
-            >
-              Enroll Now
-            </button>
           </div>
         </div>
       </nav>
