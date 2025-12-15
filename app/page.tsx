@@ -136,7 +136,7 @@ export default function CoachingHomepage() {
   const stats = [
     { number: "25+", label: "Years Experience" },
     { number: "AIR 400", label: "Founder's JEE Rank" },
-    { number: "10", label: "Max Batch Size" },
+    { number: "12", label: "Max Batch Size" },
     { number: "IIT", label: "Alumni Mentors" }
   ];
 
