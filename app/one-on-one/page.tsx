@@ -36,7 +36,7 @@ export default function OneOnOneClassesPage() {
     },
     {
       icon: Trophy,
-      title: "IITian Mentors",
+      title: "IIT & IIM Mentors",
       description: "Learn directly from Dilip Sir (IIT Kanpur) and expert educators with proven track records."
     },
     {
@@ -190,7 +190,7 @@ export default function OneOnOneClassesPage() {
             </h1>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Grades 6-12 • Indian & International Boards</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Custom-tailored education. Your pace. Your schedule. IITian Mentor.
+              Custom-tailored education. Your pace. Your schedule. IIT & IIM Expert.
             </p>
             <button 
               onClick={() => setShowCtaModal(true)}
@@ -252,7 +252,7 @@ export default function OneOnOneClassesPage() {
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <div className="text-4xl font-bold text-pink-600 mb-3">Expert Mentors</div>
-              <p className="text-gray-600 text-lg">IIT Graduates</p>
+              <p className="text-gray-600 text-lg">IIT & IIM Graduates</p>
               <p className="text-gray-500 mt-2">Learn from the best educators in town</p>
             </div>
           </div>
