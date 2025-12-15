@@ -190,7 +190,7 @@ export default function OneOnOneClassesPage() {
             </h1>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Grades 6-12 • Indian & International Boards</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Custom-tailored education. Your pace. Your schedule. Your mentor.
+              Custom-tailored education. Your pace. Your schedule. IITian Mentor.
             </p>
             <button 
               onClick={() => setShowCtaModal(true)}
