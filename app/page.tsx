@@ -307,7 +307,7 @@ export default function CoachingHomepage() {
               <a href="/12th-board" className="text-gray-700 hover:text-blue-600 transition">Indian Boards</a>
               <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">International Boards</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">1-1 Class</a>
-              <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admissions</a>
+              <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admission Enquiry</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
               <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition" title="Chat on WhatsApp">
                 <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
@@ -854,7 +854,7 @@ export default function CoachingHomepage() {
               <li><a href="/about" className="hover:text-white transition">About Us</a></li>
               <li><a href="#courses" className="hover:text-white transition">Courses</a></li>
               <li><a href="#results" className="hover:text-white transition">Results</a></li>
-              <li><a href="/admissions" className="hover:text-white transition">Admissions</a></li>
+              <li><a href="/admissions" className="hover:text-white transition">Admission Enquiry</a></li>
             </ul>
           </div>
           <div>
