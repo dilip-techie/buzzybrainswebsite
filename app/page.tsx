@@ -315,6 +315,7 @@ export default function CoachingHomepage() {
               <a href="#courses" className="text-gray-700 hover:text-blue-600 transition">Courses</a>
               <a href="#results" className="text-gray-700 hover:text-blue-600 transition">Results</a>
               <a href="#faculty" className="text-gray-700 hover:text-blue-600 transition">Faculty</a>
+              <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">IGCSE/IB Board</a>
               <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admissions</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
               <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition" title="Chat on WhatsApp">
