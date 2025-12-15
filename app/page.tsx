@@ -303,19 +303,10 @@ export default function CoachingHomepage() {
               </span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <button
-                type="button"
-                className="text-gray-700 hover:text-blue-600 transition bg-transparent border-none outline-none cursor-pointer p-0 m-0 font-inherit"
-                style={{ background: 'none' }}
-                onClick={scrollToTop}
-              >
-                Home
-              </button>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="#courses" className="text-gray-700 hover:text-blue-600 transition">Courses</a>
-              <a href="#results" className="text-gray-700 hover:text-blue-600 transition">Results</a>
-              <a href="#faculty" className="text-gray-700 hover:text-blue-600 transition">Faculty</a>
-              <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">IGCSE/IB Board</a>
+              <a href="/foundation" className="text-gray-700 hover:text-blue-600 transition">Foundation Courses</a>
+              <a href="/12th-board" className="text-gray-700 hover:text-blue-600 transition">Indian Boards</a>
+              <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">International Boards</a>
+              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">1-1 Class</a>
               <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admissions</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
               <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition" title="Chat on WhatsApp">
