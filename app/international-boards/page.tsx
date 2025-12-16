@@ -179,12 +179,12 @@ export default function InternationalBoardsPage() {
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
+            <a href="/" className="flex items-center space-x-2 hover:opacity-80 transition">
               <GraduationCap className="w-8 h-8 text-blue-600" />
               <div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">BuzzyBrains Academy (Grades 6-12)</span>
               </div>
-            </div>
+            </a>
             <div className="hidden md:flex space-x-8">
               <a href="/foundation" className={isActive('/foundation') ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600 transition"}>Foundation Courses</a>
               <a href="/12th-board" className={isActive('/12th-board') ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600 transition"}>Indian Boards</a>
