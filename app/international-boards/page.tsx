@@ -201,36 +201,16 @@ export default function InternationalBoardsPage() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="relative py-24 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
-        <div className="max-w-7xl mx-auto relative">
-          <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-6 inline-block">
-              <span className={`${badgeColor} px-4 py-2 rounded-full text-sm font-bold`}>
-                {currentEmoji} {currentTitle}
-              </span>
-              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Excel in <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>International Boards</span>
-            </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-12 • IGCSE | IB | AP</h2>
-            <h3 className="text-3xl font-bold text-gray-800 mb-4">IGCSE, IB Diploma & AP Exams</h3>
-            <p className="text-xl text-gray-600 mb-4">
-              Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for international curriculum
-            </p>
-            <p className="text-lg text-gray-700 mb-8">
-              Small batches. World-class mentorship. A*/Score 7/Score 5 results.
-            </p>
-
-            {/* Tab Switcher */}
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
+      {/* Tab Switcher - Top Navigation */}
+      <section className="bg-white border-b-2 border-gray-200 sticky top-16 z-40 py-4 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex justify-center items-center gap-4 relative">
+            <div className="flex gap-4">
               <button
                 onClick={() => setActiveTab('IGCSE')}
-                className={`px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'IGCSE'
-                    ? 'bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-xl scale-105'
+                    ? 'bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-indigo-600'
                 }`}
               >
@@ -238,9 +218,9 @@ export default function InternationalBoardsPage() {
               </button>
               <button
                 onClick={() => setActiveTab('IB')}
-                className={`px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'IB'
-                    ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-xl scale-105'
+                    ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-teal-600'
                 }`}
               >
@@ -248,15 +228,36 @@ export default function InternationalBoardsPage() {
               </button>
               <button
                 onClick={() => setActiveTab('AP')}
-                className={`px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'AP'
-                    ? 'bg-gradient-to-r from-rose-600 to-pink-600 text-white shadow-xl scale-105'
+                    ? 'bg-gradient-to-r from-rose-600 to-pink-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-rose-600'
                 }`}
               >
                 🏆 AP Exams
               </button>
             </div>
+            <span className="absolute right-0 bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap">💻 Online Available</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Section */}
+      <section className="relative py-6 px-4 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
+        <div className="max-w-7xl mx-auto relative">
+          <div className="text-center max-w-4xl mx-auto">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
+              Excel in <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>International Boards</span>
+            </h1>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grades 6-12 • IGCSE | IB | AP</h2>
+            <h3 className="text-3xl font-bold text-gray-800 mb-2">IGCSE, IB Diploma & AP Exams</h3>
+            <p className="text-xl text-gray-600 mb-2">
+              Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for international curriculum
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              Small batches. World-class mentorship. A*/Score 7/Score 5 results.
+            </p>
 
             <button 
               onClick={() => setShowCtaModal(true)}
