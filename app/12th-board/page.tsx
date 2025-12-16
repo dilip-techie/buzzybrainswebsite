@@ -183,10 +183,10 @@ export default function Class12BoardPage() {
   const currentSubjects = activeTab === 'PCM' ? pcmSubjects : pcbSubjects;
   const currentTips = activeTab === 'PCM' ? pcmTips : pcbTips;
   const currentSuitableFor = activeTab === 'PCM' ? pcmSuitableFor : pcbSuitableFor;
-  const gradientColors = activeTab === 'PCM' ? 'from-blue-600 to-purple-600' : 'from-pink-600 to-red-600';
+  const gradientColors = activeTab === 'PCM' ? 'from-blue-600 to-purple-600' : 'from-cyan-600 to-teal-600';
   const badgeColor = activeTab === 'PCM' ? 'bg-blue-100 text-blue-800' : 'bg-pink-100 text-pink-800';
-  const highlightColor = activeTab === 'PCM' ? 'text-blue-600' : 'text-pink-600';
-  const borderColor = activeTab === 'PCM' ? 'border-blue-600' : 'border-pink-600';
+  const highlightColor = activeTab === 'PCM' ? 'text-blue-600' : 'text-cyan-600';
+  const borderColor = activeTab === 'PCM' ? 'border-blue-600' : 'border-cyan-600';
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -236,8 +236,8 @@ export default function Class12BoardPage() {
                 onClick={() => setActiveTab('PCB')}
                 className={`w-60 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'PCB'
-                    ? 'bg-gradient-to-r from-pink-600 to-red-600 text-white shadow-xl'
-                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-pink-600'
+                    ? 'bg-gradient-to-r from-cyan-600 to-teal-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-cyan-600'
                 }`}
               >
                 🧬 PCB (Medical)
