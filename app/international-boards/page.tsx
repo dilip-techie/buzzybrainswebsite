@@ -285,7 +285,7 @@ export default function InternationalBoardsPage() {
               onClick={() => setShowCtaModal(true)}
               className={`bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition flex items-center justify-center space-x-2 text-lg font-semibold mx-auto`}
             >
-              <span>Start Your International Journey</span>
+              <span>Enroll in IGCSE/IB/AP Coaching</span>
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>
