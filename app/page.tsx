@@ -298,9 +298,9 @@ export default function CoachingHomepage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <GraduationCap className="w-8 h-8 text-blue-600" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                BuzzyBrains Academy
-              </span>
+              <div>
+                <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">BuzzyBrains Academy (Grades 6-12)</span>
+              </div>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="/foundation" className="text-gray-700 hover:text-blue-600 transition">Foundation Courses</a>
@@ -323,9 +323,12 @@ export default function CoachingHomepage() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+         
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
+              
               Premium <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Coaching for</span> <br></br>IIT &
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Medical</span>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Medical</span> <br></br>
+              <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> <br></br>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
               Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (IIT Kanpur | JEE AIR 400 | 25 years exp.)

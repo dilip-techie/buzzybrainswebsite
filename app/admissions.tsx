@@ -116,7 +116,7 @@ export default function AdmissionsPage() {
                 onClick={scrollToTop}
                 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition cursor-pointer border-none bg-transparent outline-none p-0 m-0"
               >
-                BuzzyBrains Academy
+                BuzzyBrains Academy (Grades 6-12)
               </button>
             </div>
             <div className="hidden md:flex space-x-8">
