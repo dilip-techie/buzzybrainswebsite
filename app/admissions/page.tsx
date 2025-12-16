@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Award, CheckCircle, GraduationCap, BookOpen, Zap, Trophy, ArrowRight, ChevronRight, Phone, Mail, MapPin } from 'lucide-react';
+import { Award, CheckCircle, GraduationCap, BookOpen, Zap, Trophy, ArrowRight, ChevronRight, Phone, Mail, MapPin, Menu, X } from 'lucide-react';
 
 export default function AdmissionsPage() {
   const pathname = usePathname();
   const [showCtaModal, setShowCtaModal] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   const isActive = (href: string) => {
     if (href === '#contact') return false;
@@ -115,7 +116,7 @@ export default function AdmissionsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
+      <nav className="bg-white shadow-m sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <a href="/" className="flex items-center space-x-2 hover:opacity-80 transition">
@@ -124,6 +125,8 @@ export default function AdmissionsPage() {
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">BuzzyBrains Academy (Grades 6-12)</span>
               </div>
             </a>
+            
+            {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
               <a href="/foundation" className={isActive('/foundation') ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600 transition"}>Foundation Courses</a>
               <a href="/12th-board" className={isActive('/12th-board') ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600 transition"}>Indian Boards</a>
@@ -136,7 +139,28 @@ export default function AdmissionsPage() {
                 <span className="hidden md:inline">9850570525</span>
               </a>
             </div>
+            
+            {/* Mobile Menu Button */}
+            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-lg transition">
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
+          
+          {/* Mobile Menu */}
+          {mobileMenuOpen && (
+            <div className="md:hidden bg-white border-t border-gray-200 py-4 space-y-3">
+              <a href="/foundation" onClick={() => setMobileMenuOpen(false)} className={`block px-4 py-2 rounded ${isActive('/foundation') ? "text-blue-600 font-semibold bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>Foundation Courses</a>
+              <a href="/12th-board" onClick={() => setMobileMenuOpen(false)} className={`block px-4 py-2 rounded ${isActive('/12th-board') ? "text-blue-600 font-semibold bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>Indian Boards</a>
+              <a href="/international-boards" onClick={() => setMobileMenuOpen(false)} className={`block px-4 py-2 rounded ${isActive('/international-boards') ? "text-blue-600 font-semibold bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>International Boards</a>
+              <a href="/one-on-one" onClick={() => setMobileMenuOpen(false)} className={`block px-4 py-2 rounded ${isActive('/one-on-one') ? "text-blue-600 font-semibold bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>1-1 Class</a>
+              <a href="/admissions" onClick={() => setMobileMenuOpen(false)} className={`block px-4 py-2 rounded ${isActive('/admissions') ? "text-blue-600 font-semibold bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>Admission Enquiry</a>
+              <a href="/#contact" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">Contact Us</a>
+              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded text-green-600 hover:bg-green-50 flex items-center space-x-2">
+                <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
+                <span>WhatsApp: 9850570525</span>
+              </a>
+            </div>
+          )}
         </div>
       </nav>
 
