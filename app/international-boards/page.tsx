@@ -250,8 +250,7 @@ export default function InternationalBoardsPage() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
               Excel in <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>International Boards</span>
             </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grades 6-12 • IGCSE | IB | AP</h2>
-            <h3 className="text-3xl font-bold text-gray-800 mb-2">IGCSE, IB Diploma & AP Exams</h3>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grades 6-12 • IGCSE | IB | AP Exams</h2>
             <p className="text-xl text-gray-600 mb-2">
               Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for international curriculum
             </p>
