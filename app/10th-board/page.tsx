@@ -27,7 +27,7 @@ export default function Class10BoardPage() {
     {
       icon: Brain,
       title: "IITian-Led Curriculum",
-      description: "Designed by Dilip Sir (IIT Kanpur) with proven board exam success record and deep subject expertise."
+      description: "Designed by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with proven board exam success record and deep subject expertise."
     },
     {
       icon: Users,
@@ -161,7 +161,7 @@ export default function Class10BoardPage() {
             <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grade 10 • Maths & Science</h2>
             <h3 className="text-3xl font-bold text-gray-800 mb-4">Mastery Program</h3>
             <p className="text-xl text-gray-600 mb-4">
-              Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> with proven board exam expertise
+              Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> with proven board exam expertise
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Small batches. Expert mentorship. Structured approach. Real results.

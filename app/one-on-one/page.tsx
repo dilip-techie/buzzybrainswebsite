@@ -37,7 +37,7 @@ export default function OneOnOneClassesPage() {
     {
       icon: Trophy,
       title: "IIT & IIM Mentors",
-      description: "Learn directly from Dilip Sir (IIT Kanpur) and expert educators with proven track records."
+      description: "Learn directly from Dilip Sir (IIT Kanpur | IIM Ahmedabad) and expert educators with proven track records."
     },
     {
       icon: Zap,

@@ -28,7 +28,7 @@ export default function Class12BoardPage() {
     {
       icon: Brain,
       title: "IITian-Led Curriculum",
-      description: "Designed by Dilip Sir (IIT Kanpur) with proven JEE + Board exam success record and deep subject expertise."
+      description: "Designed by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with proven JEE + Board exam success record and deep subject expertise."
     },
     {
       icon: Users,
@@ -61,7 +61,7 @@ export default function Class12BoardPage() {
     {
       icon: Brain,
       title: "IITian-Led Curriculum",
-      description: "Designed by Dilip Sir (IIT Kanpur) with deep understanding of Biology, Chemistry & Physics for NEET + Boards."
+      description: "Designed by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with deep understanding of Biology, Chemistry & Physics for NEET + Boards."
     },
     {
       icon: Users,
@@ -230,7 +230,7 @@ export default function Class12BoardPage() {
               {activeTab === 'PCM' ? 'Physics, Chemistry & Maths Mastery' : 'Physics, Chemistry & Biology Mastery'}
             </h3>
             <p className="text-xl text-gray-600 mb-4">
-              Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> for {activeTab === 'PCM' ? 'engineering' : 'medical'} aspirants
+              Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for {activeTab === 'PCM' ? 'engineering' : 'medical'} aspirants
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Dual preparation: Excel in boards + Build strong {activeTab === 'PCM' ? 'JEE' : 'NEET'} foundation

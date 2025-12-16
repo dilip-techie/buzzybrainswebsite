@@ -28,7 +28,7 @@ export default function InternationalBoardsPage() {
     {
       icon: Brain,
       title: "IITian-Led International Curriculum",
-      description: "Designed and taught by Dilip Sir (IIT Kanpur) with deep understanding of Cambridge, IB, and AP syllabi."
+      description: "Designed and taught by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with deep understanding of Cambridge, IB, and AP syllabi."
     },
     {
       icon: Users,
@@ -212,7 +212,7 @@ export default function InternationalBoardsPage() {
             <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-12 • IGCSE | IB | AP</h2>
             <h3 className="text-3xl font-bold text-gray-800 mb-4">IGCSE, IB Diploma & AP Exams</h3>
             <p className="text-xl text-gray-600 mb-4">
-              Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> for international curriculum
+              Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for international curriculum
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Small batches. World-class mentorship. A*/Score 7/Score 5 results.
