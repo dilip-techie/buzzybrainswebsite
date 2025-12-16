@@ -224,7 +224,7 @@ export default function Class12BoardPage() {
             <div className="flex gap-4">
               <button
                 onClick={() => setActiveTab('PCM')}
-                className={`w-60 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-72 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'PCM'
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
@@ -234,7 +234,7 @@ export default function Class12BoardPage() {
               </button>
               <button
                 onClick={() => setActiveTab('PCB')}
-                className={`w-60 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-72 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'PCB'
                     ? 'bg-gradient-to-r from-cyan-600 to-teal-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-cyan-600'
