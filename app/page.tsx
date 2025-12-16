@@ -200,7 +200,7 @@ export default function CoachingHomepage() {
     {
       name: "Dilip Sir",
       subject: "Mathematics",
-      qualification: "IIT Kanpur | JEE AIR 400",
+      qualification: "IIT Kanpur | IIM Ahmedabad | JEE AIR 400",
       expertise: "25+ Years, Expert Problem Solver",
       color: "from-blue-600 to-cyan-600",
       bgColor: "from-blue-50 to-cyan-50"
@@ -334,7 +334,7 @@ export default function CoachingHomepage() {
               <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> <br></br>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
-              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (IIT Kanpur | JEE AIR 400 | 25 years exp.)
+              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (IIT Kanpur | IIM Ahmedabad | JEE AIR 400 | 25 years exp.)
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Premium coaching for Foundation, JEE Main, MHT-CET & NEET. <br></br>
@@ -432,7 +432,7 @@ export default function CoachingHomepage() {
               </div>
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Dilip Sir</h2>
               <p className="text-xl text-gray-700 mb-6">
-                <span className="font-bold text-blue-600">IIT Kanpur</span> | JEE AIR 400 | 25 Years Experience
+                <span className="font-bold text-blue-600">IIT Kanpur</span> | <span className="font-bold text-blue-600">IIM Ahmedabad</span> | JEE AIR 400 | 25 Years Experience
               </p>
               <div className="space-y-4 text-gray-700">
                 <p className="flex items-start">
