@@ -220,43 +220,40 @@ export default function Class12BoardPage() {
       {/* Tab Switcher - Top Navigation */}
       <section className="bg-white border-b-2 border-gray-200 sticky top-16 z-40 py-4 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-center gap-4">
-            <button
-              onClick={() => setActiveTab('PCM')}
-              className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                activeTab === 'PCM'
-                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xl scale-105'
-                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
-              }`}
-            >
-              🔬 PCM (Engineering)
-            </button>
-            <button
-              onClick={() => setActiveTab('PCB')}
-              className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                activeTab === 'PCB'
-                  ? 'bg-gradient-to-r from-pink-600 to-red-600 text-white shadow-xl scale-105'
-                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-pink-600'
-              }`}
-            >
-              🧬 PCB (Medical)
-            </button>
+          <div className="flex justify-center items-center gap-4 relative">
+            <div className="flex gap-4">
+              <button
+                onClick={() => setActiveTab('PCM')}
+                className={`w-60 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
+                  activeTab === 'PCM'
+                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
+                }`}
+              >
+                🔬 PCM (Engineering)
+              </button>
+              <button
+                onClick={() => setActiveTab('PCB')}
+                className={`w-60 px-8 py-3 rounded-xl font-bold text-lg transition-all ${
+                  activeTab === 'PCB'
+                    ? 'bg-gradient-to-r from-pink-600 to-red-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-pink-600'
+                }`}
+              >
+                🧬 PCB (Medical)
+              </button>
+            </div>
+            <span className="absolute right-0 bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap">💻 Online Available</span>
           </div>
         </div>
       </section>
 
       {/* Hero Section */}
-      <section className="relative py-24 px-4 overflow-hidden">
+      <section className="relative py-12 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-6 inline-block">
-              <span className={`${badgeColor} px-4 py-2 rounded-full text-sm font-bold`}>
-                {activeTab === 'PCM' ? '🎓 12th Board PCM Excellence' : '🩺 12th Board PCB Excellence'}
-              </span>
-              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
               Score <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>90%+</span> {activeTab === 'PCM' ? '+ Crack JEE' : '+ Crack NEET'}
             </h1>
             <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grade 12 • {activeTab === 'PCM' ? 'PCM' : 'PCB'}</h2>
