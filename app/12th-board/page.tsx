@@ -252,24 +252,24 @@ export default function Class12BoardPage() {
       <section className="relative py-6 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
+          <div className="text-center mx-auto w-full max-w-3xl">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2 min-h-20">
               Score <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>90%+</span> {activeTab === 'PCM' ? '+ Crack JEE' : '+ Crack NEET'}
             </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grade 12 • {activeTab === 'PCM' ? 'PCM' : 'PCB'}</h2>
-            <h3 className="text-3xl font-bold text-gray-800 mb-2">
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2 min-h-12">Grade 12 • {activeTab === 'PCM' ? 'PCM' : 'PCB'}</h2>
+            <h3 className="text-3xl font-bold text-gray-800 mb-2 min-h-12">
               {activeTab === 'PCM' ? 'Physics, Chemistry & Maths Mastery' : 'Physics, Chemistry & Biology Mastery'}
             </h3>
-            <p className="text-xl text-gray-600 mb-2">
+            <p className="text-xl text-gray-600 mb-2 min-h-8">
               Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for {activeTab === 'PCM' ? 'engineering' : 'medical'} aspirants
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-700 mb-4 min-h-8">
               Dual preparation: Excel in boards + Build strong {activeTab === 'PCM' ? 'JEE' : 'NEET'} foundation
             </p>
 
             <button 
               onClick={() => setShowCtaModal(true)}
-              className={`bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition flex items-center justify-center space-x-2 text-lg font-semibold mx-auto`}
+              className={`bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition flex items-center justify-center space-x-2 text-lg font-semibold mx-auto w-full max-w-sm`}
             >
               <span>Start Your {activeTab === 'PCM' ? 'Engineering' : 'Medical'} Journey</span>
               <ChevronRight className="w-5 h-5" />
@@ -311,11 +311,11 @@ export default function Class12BoardPage() {
             <p className="text-xl text-gray-600">Proven approach. Real results. Personalized mentorship.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-96">
             {currentFeatures.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border-2 border-transparent hover:border-blue-600 transition-all">
+                <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border-2 border-transparent hover:border-blue-600 transition-all h-full">
                   <div className={`bg-gradient-to-r ${gradientColors} w-14 h-14 rounded-lg flex items-center justify-center mb-4`}>
                     <Icon className="w-7 h-7 text-white" />
                   </div>
@@ -336,9 +336,9 @@ export default function Class12BoardPage() {
             <p className="text-xl text-gray-600">Comprehensive {activeTab} curriculum for boards + {activeTab === 'PCM' ? 'JEE' : 'NEET'}</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 min-h-96">
             {currentSubjects.map((subject, index) => (
-              <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
+              <div key={index} className="bg-white rounded-xl p-8 shadow-lg h-full">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
                   <BookOpen className={`w-6 h-6 ${highlightColor}`} />
                   <span>{subject.name}</span>
@@ -368,9 +368,9 @@ export default function Class12BoardPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 text-center">💡 Board + {activeTab === 'PCM' ? 'JEE' : 'NEET'} Success Tips</h2>
           
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-4 gap-6 min-h-64">
             {currentTips.map((tip, index) => (
-              <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 h-full">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="w-6 h-6 text-yellow-300 flex-shrink-0 mt-1" />
                   <p className="text-white font-semibold">{tip}</p>
