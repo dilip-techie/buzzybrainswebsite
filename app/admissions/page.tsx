@@ -35,13 +35,13 @@ export default function AdmissionsPage() {
   const scholarshipTiers = [
     {
       name: "Merit Scholarship",
-      percentage: "Up to 50%",
-      description: "For students scoring 85%+ in entrance test",
+      percentage: "20%",
+      description: "For students scoring 80%+ in entrance test",
       color: "from-yellow-600 to-yellow-500",
       bgColor: "bg-yellow-50",
       borderColor: "border-yellow-200",
       perks: [
-        "50% tuition fee waiver",
+        "20% tuition fee waiver",
         "Premium study material",
         "Doubt solving priority",
         "Monthly performance review"
@@ -49,27 +49,27 @@ export default function AdmissionsPage() {
     },
     {
       name: "Excellence Scholarship",
-      percentage: "Up to 75%",
+      percentage: "40%",
       description: "For students scoring 90%+ in entrance test",
       color: "from-blue-600 to-blue-500",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
       perks: [
-        "75% tuition fee waiver",
+        "40% tuition fee waiver",
         "1:1 mentoring sessions",
         "Advanced modules access",
         "Free study material"
       ]
     },
     {
-      name: "Premier Scholarship",
-      percentage: "100%",
+      name: "Premium Scholarship",
+      percentage: "50%",
       description: "For students scoring 95%+ in entrance test",
       color: "from-purple-600 to-purple-500",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
       perks: [
-        "Full tuition fee waiver",
+        "50% tuition fee waiver",
         "Personal IITian mentor",
         "Exclusive masterclasses",
         "Career guidance program"
@@ -177,7 +177,7 @@ export default function AdmissionsPage() {
             </h1>
             <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-12 <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">●</span> Online Available</span></h2>
             <p className="text-xl text-gray-600 mb-4">
-              Get rewarded for your merit. BuzzyBrains Academy offers up to <span className="font-bold text-blue-600">100% scholarships</span> based on entrance test scores.
+              Get rewarded for your merit. BuzzyBrains Academy offers scholarships up to <span className="font-bold text-blue-600">50%</span> based on entrance test scores.
             </p>
             <p className="text-lg text-gray-700 mb-8">
               No hidden charges. Transparent evaluation. Direct admissions.
@@ -273,8 +273,8 @@ export default function AdmissionsPage() {
                     <span>Merit Scholarship</span>
                   </h3>
                   <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-                    <p className="text-gray-700"><strong>Score: 85%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get up to 50% fee waiver</p>
+                    <p className="text-gray-700"><strong>Score: 80%+</strong> in entrance test</p>
+                    <p className="text-gray-600 text-sm mt-1">Get 20% fee waiver</p>
                   </div>
                 </div>
 
@@ -285,18 +285,18 @@ export default function AdmissionsPage() {
                   </h3>
                   <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
                     <p className="text-gray-700"><strong>Score: 90%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get up to 75% fee waiver + perks</p>
+                    <p className="text-gray-600 text-sm mt-1">Get 40% fee waiver + perks</p>
                   </div>
                 </div>
 
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
                     <Trophy className="w-6 h-6 text-yellow-600" />
-                    <span>Premier Scholarship</span>
+                    <span>Premium Scholarship</span>
                   </h3>
                   <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-600">
                     <p className="text-gray-700"><strong>Score: 95%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get 100% fee waiver + premium benefits</p>
+                    <p className="text-gray-600 text-sm mt-1">Get 50% fee waiver + premium benefits</p>
                   </div>
                 </div>
               </div>
