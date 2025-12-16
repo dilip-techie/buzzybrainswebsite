@@ -277,9 +277,8 @@ export default function Class12BoardPage() {
           <div className="text-center mx-auto w-full max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2 min-h-20">
               Score <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>90%+</span> {activeTab === 'PCM' ? '+ Crack JEE' : '+ Crack NEET'}
-              <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">•</span> Online</span>
             </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2 min-h-12">Grade 12 • {activeTab === 'PCM' ? 'PCM' : 'PCB'}</h2>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2 min-h-12">Grade 12 • {activeTab === 'PCM' ? 'PCM' : 'PCB'} <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">•</span> Online Available</span></h2>
             <h3 className="text-3xl font-bold text-gray-800 mb-2 min-h-12">
               {activeTab === 'PCM' ? 'Physics, Chemistry & Maths Mastery' : 'Physics, Chemistry & Biology Mastery'}
             </h3>
