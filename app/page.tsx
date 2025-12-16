@@ -358,7 +358,7 @@ export default function CoachingHomepage() {
               <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> <br></br>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
-              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (IIT Kanpur | IIM Ahmedabad | JEE AIR 400 | 25 years exp.)
+              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (<span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">IIT Kanpur</span> | <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-semibold">IIM Ahmedabad</span> | JEE AIR 400 | 25 years exp.)
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Premium coaching for Foundation, JEE Main, MHT-CET & NEET. <br></br>
