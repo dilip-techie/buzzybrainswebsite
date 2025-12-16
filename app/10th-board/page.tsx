@@ -5,7 +5,13 @@ import { usePathname } from 'next/navigation';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, Mail, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, GraduationCap } from 'lucide-react';
 
 export default function Class10BoardPage() {
+  const pathname = usePathname();
   const [showCtaModal, setShowCtaModal] = useState(false);
+
+  const isActive = (href: string) => {
+    if (href === '#contact') return false;
+    return pathname === href;
+  };
 
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
