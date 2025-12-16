@@ -162,10 +162,10 @@ export default function InternationalBoardsPage() {
     "Students wanting A*/A, Score 7, or Score 5 in their subjects"
   ];
 
-  const gradientColors = activeTab === 'IGCSE' ? 'from-indigo-600 to-blue-600' : activeTab === 'IB' ? 'from-teal-600 to-cyan-600' : 'from-purple-600 to-violet-600';
+  const gradientColors = activeTab === 'IGCSE' ? 'from-blue-600 to-cyan-600' : activeTab === 'IB' ? 'from-emerald-600 to-green-600' : 'from-purple-600 to-violet-600';
   const badgeColor = activeTab === 'IGCSE' ? 'bg-indigo-100 text-indigo-800' : activeTab === 'IB' ? 'bg-teal-100 text-teal-800' : 'bg-rose-100 text-rose-800';
-  const highlightColor = activeTab === 'IGCSE' ? 'text-indigo-600' : activeTab === 'IB' ? 'text-teal-600' : 'text-purple-600';
-  const borderColor = activeTab === 'IGCSE' ? 'border-indigo-600' : activeTab === 'IB' ? 'border-teal-600' : 'border-purple-600';
+  const highlightColor = activeTab === 'IGCSE' ? 'text-blue-600' : activeTab === 'IB' ? 'text-emerald-600' : 'text-purple-600';
+  const borderColor = activeTab === 'IGCSE' ? 'border-blue-600' : activeTab === 'IB' ? 'border-emerald-600' : 'border-purple-600';
 
   const currentFeatures = activeTab === 'IGCSE' ? igcseFeatures : activeTab === 'IB' ? ibFeatures : apFeatures;
   const currentTitle = activeTab === 'IGCSE' ? 'Cambridge IGCSE' : activeTab === 'IB' ? 'IB Diploma Programme' : 'AP Exams';
@@ -210,8 +210,8 @@ export default function InternationalBoardsPage() {
                 onClick={() => setActiveTab('IGCSE')}
                 className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'IGCSE'
-                    ? 'bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-xl'
-                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-indigo-600'
+                    ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
                 }`}
               >
                 🌍 IGCSE
@@ -220,8 +220,8 @@ export default function InternationalBoardsPage() {
                 onClick={() => setActiveTab('IB')}
                 className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
                   activeTab === 'IB'
-                    ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-xl'
-                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-teal-600'
+                    ? 'bg-gradient-to-r from-emerald-600 to-green-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-emerald-600'
                 }`}
               >
                 🎓 IB Diploma
