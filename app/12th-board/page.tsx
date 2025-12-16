@@ -217,6 +217,34 @@ export default function Class12BoardPage() {
         </div>
       </nav>
 
+      {/* Tab Switcher - Top Navigation */}
+      <section className="bg-white border-b-2 border-gray-200 sticky top-16 z-40 py-4 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex justify-center gap-4">
+            <button
+              onClick={() => setActiveTab('PCM')}
+              className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
+                activeTab === 'PCM'
+                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xl scale-105'
+                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
+              }`}
+            >
+              🔬 PCM (Engineering)
+            </button>
+            <button
+              onClick={() => setActiveTab('PCB')}
+              className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
+                activeTab === 'PCB'
+                  ? 'bg-gradient-to-r from-pink-600 to-red-600 text-white shadow-xl scale-105'
+                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-pink-600'
+              }`}
+            >
+              🧬 PCB (Medical)
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="relative py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
@@ -241,30 +269,6 @@ export default function Class12BoardPage() {
             <p className="text-lg text-gray-700 mb-8">
               Dual preparation: Excel in boards + Build strong {activeTab === 'PCM' ? 'JEE' : 'NEET'} foundation
             </p>
-
-            {/* Tab Switcher */}
-            <div className="flex justify-center gap-4 mb-8">
-              <button
-                onClick={() => setActiveTab('PCM')}
-                className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                  activeTab === 'PCM'
-                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xl scale-105'
-                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
-                }`}
-              >
-                PCM (Engineering)
-              </button>
-              <button
-                onClick={() => setActiveTab('PCB')}
-                className={`px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                  activeTab === 'PCB'
-                    ? 'bg-gradient-to-r from-pink-600 to-red-600 text-white shadow-xl scale-105'
-                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-pink-600'
-                }`}
-              >
-                PCB (Medical)
-              </button>
-            </div>
 
             <button 
               onClick={() => setShowCtaModal(true)}
