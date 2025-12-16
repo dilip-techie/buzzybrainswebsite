@@ -188,6 +188,7 @@ export default function OneOnOneClassesPage() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">Personalized Learning</span> for Every Student
             </h1>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-12</h2>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Grades 6-12 • Indian & International Boards</h2>
             <p className="text-xl text-gray-600 mb-8">
               Custom-tailored education. Your pace. Your schedule. IIT & IIM Expert.

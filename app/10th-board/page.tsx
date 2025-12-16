@@ -157,7 +157,8 @@ export default function Class10BoardPage() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Score <span className="bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">90%+</span> in Board Exams
             </h1>
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Maths & Science Mastery Program</h2>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grade 10 • Maths & Science</h2>
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">Mastery Program</h3>
             <p className="text-xl text-gray-600 mb-4">
               Built by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> with proven board exam expertise
             </p>
