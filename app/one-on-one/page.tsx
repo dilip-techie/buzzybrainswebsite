@@ -184,6 +184,7 @@ export default function OneOnOneClassesPage() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-6 inline-block">
               <span className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-bold">🎯 One-on-One Classes</span>
+              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online & Offline</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">Personalized Learning</span> for Every Student

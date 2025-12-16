@@ -204,6 +204,7 @@ export default function InternationalBoardsPage() {
               <span className={`${badgeColor} px-4 py-2 rounded-full text-sm font-bold`}>
                 {currentEmoji} {currentTitle}
               </span>
+              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Excel in <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>International Boards</span>

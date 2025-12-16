@@ -220,6 +220,7 @@ export default function Class12BoardPage() {
               <span className={`${badgeColor} px-4 py-2 rounded-full text-sm font-bold`}>
                 {activeTab === 'PCM' ? '🎓 12th Board PCM Excellence' : '🩺 12th Board PCB Excellence'}
               </span>
+              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Score <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>90%+</span> {activeTab === 'PCM' ? '+ Crack JEE' : '+ Crack NEET'}
