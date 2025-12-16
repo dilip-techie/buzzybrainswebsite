@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BuzzyBrains Academy: A Premier IIT-JEE/NEET Coaching Institute",
-  description: "Join BuzzyBrains Academy for top-notch IITJEE and NEET coaching. We also offer premium coaching experience for Foundation and Olompiad preparation. We have Expert faculty, comprehensive study materials, and proven success strategies to help you achieve your dreams.",
+  title: "BuzzyBrains Academy: A Premier IIT-JEE/NEET Coaching Institute | Mentorship by IIT Alumni",
+  description: "Join BuzzyBrains Academy for top-notch IITJEE, NEET coaching and Foundation Programs. We also offer premium coaching experience for Foundation and Olompiad preparation. We have Expert faculty, comprehensive study materials, and proven success strategies to help you achieve your dreams.",
 };
 
 export default function RootLayout({
