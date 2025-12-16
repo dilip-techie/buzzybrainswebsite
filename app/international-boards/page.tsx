@@ -260,7 +260,7 @@ export default function InternationalBoardsPage() {
                 🏆 AP Exams
               </button>
             </div>
-            <span className="absolute right-0 bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap">💻 Online Available</span>
+            <span className="absolute right-0 bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap"><span className="blink-icon inline-block">•</span> Online Available</span>
           </div>
         </div>
       </section>
