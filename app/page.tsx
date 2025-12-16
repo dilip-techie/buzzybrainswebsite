@@ -343,19 +343,17 @@ export default function CoachingHomepage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-20 px-4 overflow-hidden">
+      <section className="relative py-8 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-6 inline-block">
-              <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">📚 Grades 6-12</span>
-              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold"><span className="blink-icon inline-block">●</span> Online Available</span>
-            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
               
               Premium <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Coaching for</span> <br></br>IIT &
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Medical</span> <br></br>
-              <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> <br></br>
+              <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> 
+              <span className="ml-6 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">●</span> Online Available</span>
+              <br></br>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
               Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (<span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">IIT Kanpur</span> | <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-semibold">IIM Ahmedabad</span> | JEE AIR 400 | 25 years exp.)
