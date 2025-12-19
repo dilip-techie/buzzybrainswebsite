@@ -17,8 +17,11 @@ export const metadata: Metadata = {
   title: "BuzzyBrains Academy: Mentorship by IIT/IIM Alumni | A Premier IIT-JEE/NEET Coaching Institute.",
   description: "Join BuzzyBrains Academy for top-notch IIT-JEE, NEET and Foundation Programs. We also offer premium coaching experience for Foundation and Olompiad preparation. We have Expert faculty, comprehensive study materials, and proven success strategies to help you achieve your dreams.",
   icons: {
-    icon: "/images/favicon.png",
-    apple: "/images/favicon.png",
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "BuzzyBrains Academy | Premium Coaching by IITian Mentor",
