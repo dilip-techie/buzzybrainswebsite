@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/buzzybrains_social.jpg",
+        url: "https://buzzybrainsacademy.com/images/buzzybrains_social.jpg",
         width: 1200,
         height: 630,
         alt: "BuzzyBrains Academy - Premium Coaching by IITian Mentor",
