@@ -498,7 +498,7 @@ export default function OneOnOneClassesPage() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+919850570525" className="hover:text-white transition">+91 9850570525</a>
+                  <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Contact Us</a>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />

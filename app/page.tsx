@@ -475,7 +475,7 @@ export default function CoachingHomepage() {
                 </p>
               </div>
               <div className="mt-8">
-                <a href="tel:+919850570525" className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold">
+                <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold">
                   <Phone className="w-5 h-5" />
                   <span>Call: 98505 70525</span>
                 </a>
@@ -714,7 +714,7 @@ export default function CoachingHomepage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-                    <a href="tel:+919850570525" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+                    <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
                       +91 98505 70525
                     </a>
                   </div>
@@ -902,7 +902,7 @@ export default function CoachingHomepage() {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+919850570525" className="hover:text-white transition">+91 9850570525</a>
+                <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Contact Us</a>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
