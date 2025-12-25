@@ -732,7 +732,7 @@ export default function CoachingHomepage() {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">WhatsApp</h3>
                     <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-semibold text-lg">
-                      Chat with us on WhatsApp
+                      Chat with us
                     </a>
                   </div>
                 </div>
