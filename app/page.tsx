@@ -715,7 +715,7 @@ export default function CoachingHomepage() {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
                     <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
-                      +91 98505 70525
+                      Contact Us
                     </a>
                   </div>
                 </div>
