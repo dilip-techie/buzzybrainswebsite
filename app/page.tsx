@@ -477,7 +477,7 @@ export default function CoachingHomepage() {
               <div className="mt-8">
                 <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold">
                   <Phone className="w-5 h-5" />
-                  <span>Call: 98505 70525</span>
+                  <span>Contact Us</span>
                 </a>
               </div>
             </div>

@@ -327,14 +327,14 @@ export default function AdmissionsPage() {
               <ul className="space-y-2 text-sm">
                 <li><a href="/#contact" className="hover:text-white transition">Contact Us</a></li>
                 <li><a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">WhatsApp</a></li>
-                <li>Phone: +91 9850570525</li>
+                <li>Contact Us</li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-bold mb-4">Contact</h3>
               <ul className="space-y-3 text-sm">
                 <li>📧 info@buzzybrains.com</li>
-                <li>📞 +91 9850570525</li>
+                <li>Contact Us</li>
                 <li>💬 Chat on WhatsApp</li>
               </ul>
             </div>
