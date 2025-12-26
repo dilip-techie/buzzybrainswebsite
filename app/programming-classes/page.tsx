@@ -115,10 +115,10 @@ export default function ProgrammingClassesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent leading-tight">
-                Master Coding with an IIT Kanpur Expert
+                Master Coding with an IIT Expert
               </h1>
               <p className="text-xl text-gray-300 mb-6">
-                Programming Classes for Grades 6-12 | Python, Java, Web Development & More | Aligned with CBSE, ICSE, IGCSE, IB & All International Boards
+                Programming Classes for Grades 6-12 | Python, Web Development & More | CBSE, ICSE, IGCSE, IB Boards
               </p>
               
               {/* Trust Badges */}
@@ -269,17 +269,6 @@ export default function ProgrammingClassesPage() {
               <span className="inline-block bg-blue-500/30 text-blue-300 px-3 py-1 rounded-full text-sm font-semibold">Aligned with CBSE Syllabus</span>
             </div>
 
-            {/* ICSE/ISC */}
-            <div className="bg-gradient-to-br from-green-500/20 to-green-500/10 rounded-lg border border-green-500/30 p-8 hover:border-green-400/60 transition">
-              <h3 className="text-2xl font-bold text-green-400 mb-4">ICSE/ISC (Indian Certificate)</h3>
-              <ul className="space-y-2 text-gray-300 mb-6">
-                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 6-8:</strong> Fundamentals of Computing</span></li>
-                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 9-10:</strong> Java & OOP Basics</span></li>
-                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 11-12:</strong> Advanced Java, Data Structures, Swing/AWT</span></li>
-              </ul>
-              <span className="inline-block bg-green-500/30 text-green-300 px-3 py-1 rounded-full text-sm font-semibold">Java-Focused Track</span>
-            </div>
-
             {/* IGCSE */}
             <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/10 rounded-lg border border-purple-500/30 p-8 hover:border-purple-400/60 transition">
               <h3 className="text-2xl font-bold text-purple-400 mb-4">IGCSE (Cambridge)</h3>
@@ -311,6 +300,17 @@ export default function ProgrammingClassesPage() {
                 <li className="flex items-start"><span className="text-red-400 mr-2">•</span> <span><strong>Exam Prep:</strong> Full practice tests & time management</span></li>
               </ul>
               <span className="inline-block bg-red-500/30 text-red-300 px-3 py-1 rounded-full text-sm font-semibold">US Curriculum</span>
+            </div>
+
+            {/* ICSE/ISC */}
+            <div className="bg-gradient-to-br from-green-500/20 to-green-500/10 rounded-lg border border-green-500/30 p-8 hover:border-green-400/60 transition">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">ICSE/ISC (Indian Certificate)</h3>
+              <ul className="space-y-2 text-gray-300 mb-6">
+                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 6-8:</strong> Fundamentals of Computing</span></li>
+                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 9-10:</strong> Java & OOP Basics</span></li>
+                <li className="flex items-start"><span className="text-green-400 mr-2">•</span> <span><strong>Classes 11-12:</strong> Advanced Java, Data Structures, Swing/AWT</span></li>
+              </ul>
+              <span className="inline-block bg-green-500/30 text-green-300 px-3 py-1 rounded-full text-sm font-semibold">Java-Focused Track</span>
             </div>
 
             {/* State & Custom */}
