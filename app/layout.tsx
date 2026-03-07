@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "BuzzyBrains Academy | Premium Coaching by IITian Mentor",
-    description: "Experience premium academic mentorship led by IITian (IIT Kanpur) & IIM Ahmedabad alumni. Expert coaching for IIT-JEE, NEET, and Board exams.",
+    title: "BuzzyBrains Academy | Premium Coaching by <strong>IITian</strong> Mentor",
+    description: "Experience premium academic mentorship led by <strong>IITian</strong> (IIT Kanpur) & IIM Ahmedabad alumni. Expert coaching for IIT-JEE, NEET, and Board exams.",
     url: "https://buzzybrainsacademy.com",
     type: "website",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "https://buzzybrainsacademy.com/images/buzzybrains_social.jpg",
         width: 1200,
         height: 630,
-        alt: "BuzzyBrains Academy - Premium Coaching by IITian Mentor",
+        alt: "BuzzyBrains Academy - Premium Coaching by <strong>IITian</strong> Mentor",
       },
     ],
   },

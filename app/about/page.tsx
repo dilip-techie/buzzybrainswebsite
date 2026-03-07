@@ -83,7 +83,7 @@ export default function AboutPage() {
     "Teachers who actually know your child (max 10 per batch)",
     "Founded by someone who left comfort for purpose",
     "No spam ads, just students telling their friends",
-    "IITians who teach because they want to, not just for paycheck",
+    "<strong>IITians</strong> who teach because they want to, not just for paycheck",
     "Honest results: we don't exaggerate, we show real scores",
     "Custom approach for each student, not one-size-fits-all",
     "Scholarships for merit, not just marketing",

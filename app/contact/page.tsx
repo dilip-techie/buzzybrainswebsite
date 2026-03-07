@@ -146,7 +146,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-lg font-bold text-purple-400 mb-2">Do you offer online classes?</h3>
               <p className="text-gray-300">
-                Yes! We offer both online and offline coaching options. Our experienced mentors (IITian and IIM graduates) provide personalized guidance through multiple formats to suit your needs.
+                Yes! We offer both online and offline coaching options. Our experienced mentors (<strong>IITian</strong> and IIM graduates) provide personalized guidance through multiple formats to suit your needs.
               </p>
             </div>
 
@@ -190,7 +190,7 @@ export default function ContactPage() {
             {/* Brand */}
             <div>
               <h3 className="font-bold text-lg bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">BuzzyBrains</h3>
-              <p className="text-gray-400 text-sm">Expert coaching by IITian and IIM mentors</p>
+              <p className="text-gray-400 text-sm">Expert coaching by <strong>IITian</strong> and IIM mentors</p>
             </div>
 
             {/* Programs */}

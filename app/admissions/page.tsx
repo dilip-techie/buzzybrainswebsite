@@ -70,7 +70,7 @@ export default function AdmissionsPage() {
       borderColor: "border-purple-200",
       perks: [
         "50% tuition fee waiver",
-        "Personal IITian mentor",
+        "Personal <strong>IITian</strong> mentor",
         "Exclusive masterclasses",
         "Career guidance program"
       ]

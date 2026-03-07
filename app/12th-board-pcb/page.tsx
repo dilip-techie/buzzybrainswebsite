@@ -26,7 +26,7 @@ export default function Class12BoardPCBPage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: "IITian-Led Curriculum",
+      title: \"IITian-Led Curriculum\",
       description: "Designed by Dilip Sir (IIT Kanpur) with deep understanding of Biology, Chemistry & Physics for NEET + Boards."
     },
     {
