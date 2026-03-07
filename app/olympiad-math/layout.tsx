@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   keywords: 'olympiad mathematics, INMO, RMO, IOQM, AMC, IMO, advanced mathematics, problem solving',
   openGraph: {
     title: 'Build Mathematical Thinking Early - BuzzyBrains Olympiad Math',
-    description: 'Advanced mathematics program with <strong>IITian</strong> mentorship focused on olympiad preparation and mathematical excellence.',
+    description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
     type: 'website',
   }
 };

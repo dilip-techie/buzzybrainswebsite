@@ -35,7 +35,7 @@ export default function InternationalBoardsPage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: \"IITian-Led International Curriculum\",
+      title: "IITian-Led International Curriculum",
       description: "Designed and taught by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with deep understanding of Cambridge, IB, and AP syllabi."
     },
     {

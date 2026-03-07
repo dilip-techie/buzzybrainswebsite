@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | BuzzyBrains - Expert Coaching by <strong>IITian</strong> Mentor',
-  description: 'Get in touch with BuzzyBrains. Connect with our expert <strong>IITian</strong> and IIM mentors for personalized coaching guidance.',
+  title: 'Contact Us | BuzzyBrains - Expert Coaching by IITian Mentor',
+  description: 'Get in touch with BuzzyBrains. Connect with our expert IITian and IIM mentors for personalized coaching guidance.',
   openGraph: {
     title: 'Contact Us | BuzzyBrains',
     description: 'Get in touch with our expert mentors',
