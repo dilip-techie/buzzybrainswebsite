@@ -8,6 +8,14 @@ export const metadata: Metadata = {
     title: 'Build Mathematical Thinking Early - BuzzyBrains Olympiad Math',
     description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
     type: 'website',
+    images: [
+      {
+        url: '/images/Maths Excellence Program.png',
+        width: 1200,
+        height: 630,
+        alt: 'Maths Excellence Program - BuzzyBrains Academy'
+      }
+    ]
   }
 };
 
