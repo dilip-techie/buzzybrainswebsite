@@ -11,25 +11,29 @@ export default function OlympiadMathLanding() {
       title: 'Advanced Algebra',
       subtitle: 'Deep concept mastery',
       topics: ['Functional equations', 'Polynomials', 'Inequalities'],
-      gradient: 'from-blue-500 to-cyan-500'
+      gradient: 'from-blue-500 to-cyan-500',
+      icon: '∑'
     },
     {
       title: 'Number Theory',
       subtitle: 'Structure & pattern recognition',
       topics: ['Divisibility', 'Modular arithmetic', 'Diophantine equations'],
-      gradient: 'from-purple-500 to-pink-500'
+      gradient: 'from-purple-500 to-pink-500',
+      icon: '#'
     },
     {
       title: 'Geometry',
       subtitle: 'Rigorous spatial reasoning',
       topics: ['Euclidean geometry', 'Angle chasing', 'Transformations'],
-      gradient: 'from-orange-500 to-red-500'
+      gradient: 'from-orange-500 to-red-500',
+      icon: '◆'
     },
     {
       title: 'Combinatorics',
       subtitle: 'Logical counting techniques',
       topics: ['Counting techniques', 'Pigeonhole principle', 'Graph thinking'],
-      gradient: 'from-green-500 to-emerald-500'
+      gradient: 'from-green-500 to-emerald-500',
+      icon: '∏'
     }
   ];
 
