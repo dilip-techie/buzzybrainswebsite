@@ -251,13 +251,13 @@ export default function HomePage() {
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
-  const [showOlympiadPopup, setShowOlympiadPopup] = useState(true);
+  const [isOlympiadPopupExpanded, setIsOlympiadPopupExpanded] = useState(true);
 
   useEffect(() => {
-    if (!showOlympiadPopup) return;
-    const timer = window.setTimeout(() => setShowOlympiadPopup(false), 4800);
+    if (!isOlympiadPopupExpanded) return;
+    const timer = window.setTimeout(() => setIsOlympiadPopupExpanded(false), 4800);
     return () => window.clearTimeout(timer);
-  }, [showOlympiadPopup]);
+  }, [isOlympiadPopupExpanded]);
 
   useEffect(() => {
     const io = new IntersectionObserver(
@@ -362,15 +362,23 @@ export default function HomePage() {
 
   return (
     <main className="bb-landing" id="top">
-      <div className={`olympiad-popup ${showOlympiadPopup ? 'show' : 'hide'}`} role="status" aria-live="polite">
-        <div className="olympiad-popup__icon">🏅</div>
-        <div>
-          <p className="olympiad-popup__title">Olympiad batches are now open</p>
-          <p className="olympiad-popup__text">Join our upcoming classes for IMO, ISO and IOQM with expert guidance.</p>
-        </div>
-        <button type="button" className="olympiad-popup__close" onClick={() => setShowOlympiadPopup(false)} aria-label="Dismiss popup">
-          ×
+      <div className={`olympiad-popup ${isOlympiadPopupExpanded ? 'expanded' : 'collapsed'}`} role="status" aria-live="polite">
+        <button
+          type="button"
+          className="olympiad-popup__toggle"
+          onClick={() => setIsOlympiadPopupExpanded((value) => !value)}
+          aria-label={isOlympiadPopupExpanded ? 'Minimize olympiad notice' : 'Expand olympiad notice'}
+        >
+          <span className="olympiad-popup__icon">🏅</span>
+          <span className="olympiad-popup__label">Olympiad batches open</span>
+          <span className="olympiad-popup__chevron">{isOlympiadPopupExpanded ? '−' : '+'}</span>
         </button>
+        {isOlympiadPopupExpanded && (
+          <div className="olympiad-popup__content">
+            <p className="olympiad-popup__title">Olympiad batches are now open</p>
+            <p className="olympiad-popup__text">Join our upcoming classes for IMO, ISO, and IOQM with expert guidance.</p>
+          </div>
+        )}
       </div>
 
       {/* ============ HERO ============ */}
