@@ -1,11 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Menu, X, ArrowRight, CheckCircle2, Award, Users, BookOpen, Zap, Globe, Star, Phone, Mail, GraduationCap } from 'lucide-react';
+import React from 'react';
+import { ArrowRight, CheckCircle2, Award, Users, BookOpen, Zap, Globe, Star } from 'lucide-react';
 
 export default function OlympiadMathLanding() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const subjects = [
     {
       title: 'Advanced Algebra',
@@ -103,55 +101,8 @@ export default function OlympiadMathLanding() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30 text-slate-900">
-      {/* Navigation */}
-      <nav className="bg-white/80 backdrop-blur-xl sticky top-0 z-50 border-b border-slate-100/50 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2 hover:opacity-80 transition">
-              <GraduationCap className="w-8 h-8 text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text" />
-              <div>
-                <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">BuzzyBrains</span>
-              </div>
-            </div>
-            
-            {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-8 items-center">
-              <a href="/foundation" className="text-slate-700 hover:text-blue-600 transition-colors font-medium text-sm">Foundation</a>
-              <a href="/olympiad-math" className="text-blue-600 font-bold text-sm">Maths Excellence</a>
-              <a href="/12th-board" className="text-slate-700 hover:text-blue-600 transition-colors font-medium text-sm">Boards</a>
-              <a href="/international-boards" className="text-slate-700 hover:text-blue-600 transition-colors font-medium text-sm">International</a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 text-slate-700 hover:text-green-600 transition-colors font-medium text-sm">
-                <svg className="w-4 h-4" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-              </a>
-              <button className="px-6 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:shadow-lg hover:shadow-blue-200 transition-all duration-300 text-sm">
-                Book Demo
-              </button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 text-slate-900 hover:bg-slate-100 rounded-lg transition">
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-          
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden bg-white/95 backdrop-blur border-t border-slate-100 py-4 space-y-3">
-              <a href="/foundation" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-slate-700 hover:bg-blue-50 transition">Foundation</a>
-              <a href="/olympiad-math" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-blue-600 font-bold bg-blue-50">Maths Excellence</a>
-              <a href="/12th-board" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-slate-700 hover:bg-blue-50 transition">Boards</a>
-              <a href="/international-boards" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-slate-700 hover:bg-blue-50 transition">International</a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded text-green-600 hover:bg-green-50 flex items-center space-x-2">
-                <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                <span>WhatsApp</span>
-              </a>
-            </div>
-          )}
-        </div>
-      </nav>
-
       {/* Hero Section */}
-      <section className="pt-24 pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <section className="pt-[calc(74px+6rem)] pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Premium animated background */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
@@ -530,64 +481,6 @@ export default function OlympiadMathLanding() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-20 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-12 mb-16">
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4 flex items-center gap-2">
-                <GraduationCap className="w-6 h-6 text-blue-400" />
-                BuzzyBrains
-              </h3>
-              <p className="text-sm mb-3">Elite mathematics education rooted in <strong>IITian</strong> excellence</p>
-              <p className="text-xs text-slate-500">Building the next generation of mathematical thinkers since day one.</p>
-            </div>
-
-            <div>
-              <h4 className="text-white font-bold mb-4">Programs</h4>
-              <ul className="space-y-3 text-sm">
-                <li><a href="/olympiad-math" className="hover:text-white transition-colors">Maths Excellence</a></li>
-                <li><a href="/foundation" className="hover:text-white transition-colors">Foundation Courses</a></li>
-                <li><a href="/12th-board" className="hover:text-white transition-colors">Board Preparation</a></li>
-                <li><a href="/international-boards" className="hover:text-white transition-colors">International</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-white font-bold mb-4">Resources</h4>
-              <ul className="space-y-3 text-sm">
-                <li><a href="#" className="hover:text-white transition-colors">Curriculum</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Student Stories</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">FAQ</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-white font-bold mb-4">Contact</h4>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <Mail size={16} className="text-blue-400" />
-                  <a href="mailto:info@buzzybrains.com" className="hover:text-white transition-colors">info@buzzybrains.com</a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Phone size={16} className="text-blue-400" />
-                  <a href="tel:+919850570525" className="hover:text-white transition-colors">+91 9850 570 525</a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                  <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-            <p>&copy; 2024 BuzzyBrains Academy. All rights reserved.</p>
-            <p>Excellence in Mathematics Education</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

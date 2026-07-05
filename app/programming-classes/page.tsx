@@ -1,16 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { Menu, X, Phone, Mail, MapPin, MessageCircle, ChevronDown, Code, Users, Trophy, BookOpen, Zap, Target } from 'lucide-react';
+import { Mail, MapPin, MessageCircle, ChevronDown, Code, Users, Trophy, BookOpen, Zap, Target } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ProgrammingClassesPage() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   const toggleFAQ = (index: number) => {
     setOpenFAQ(openFAQ === index ? null : index);
@@ -31,7 +26,7 @@ export default function ProgrammingClassesPage() {
     },
     {
       question: 'What is the batch size?',
-      answer: 'We maintain small batch sizes of maximum 8-10 students to ensure personalized attention, individual code reviews, and adequate doubt-clearing time for each student.'
+      answer: 'We maintain small batch sizes of maximum 15 students to ensure personalized attention, individual code reviews, and adequate doubt-clearing time for each student.'
     },
     {
       question: 'Do you provide study materials?',
@@ -53,64 +48,8 @@ export default function ProgrammingClassesPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/919850570525"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition transform hover:scale-110"
-      >
-        <MessageCircle className="w-6 h-6" />
-      </a>
-
-      {/* Navigation */}
-      <nav className="bg-slate-900 bg-opacity-80 backdrop-blur-md sticky top-0 z-40 border-b border-purple-500/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <Link href="/" className="font-bold text-xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              BuzzyBrains
-            </Link>
-
-            {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-8">
-              <Link href="/" className="hover:text-purple-400 transition">Home</Link>
-              <Link href="/programming-classes" className="text-purple-400 border-b-2 border-purple-400">Programming</Link>
-              <Link href="/foundation" className="hover:text-purple-400 transition">Foundation</Link>
-              <Link href="/12th-board" className="hover:text-purple-400 transition">12th Board</Link>
-              <Link href="/international-boards" className="hover:text-purple-400 transition">International</Link>
-              <Link href="/admissions" className="hover:text-purple-400 transition">Admissions</Link>
-              <Link href="/contact" className="hover:text-purple-400 transition">Contact</Link>
-            </div>
-
-            {/* WhatsApp Button (Desktop) */}
-            <div className="hidden md:flex items-center space-x-4">
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">WhatsApp</a>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button className="md:hidden" onClick={toggleMenu}>
-              {isMenuOpen ? <X /> : <Menu />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {isMenuOpen && (
-            <div className="md:hidden pb-4 space-y-2">
-              <Link href="/" className="block hover:text-purple-400 transition py-2">Home</Link>
-              <Link href="/programming-classes" className="block text-purple-400 py-2">Programming</Link>
-              <Link href="/foundation" className="block hover:text-purple-400 transition py-2">Foundation</Link>
-              <Link href="/12th-board" className="block hover:text-purple-400 transition py-2">12th Board</Link>
-              <Link href="/international-boards" className="block hover:text-purple-400 transition py-2">International</Link>
-              <Link href="/admissions" className="block hover:text-purple-400 transition py-2">Admissions</Link>
-              <Link href="/contact" className="block hover:text-purple-400 transition py-2">Contact</Link>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="block hover:text-purple-400 transition py-2">WhatsApp</a>
-            </div>
-          )}
-        </div>
-      </nav>
-
       {/* Hero Section */}
-      <section className="relative pt-12 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative pt-[calc(74px+3rem)] pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -455,7 +394,7 @@ export default function ProgrammingClassesPage() {
             <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg border border-purple-500/30 p-8 hover:border-purple-400/60 transition">
               <Users className="w-12 h-12 text-green-400 mb-4" />
               <h3 className="text-xl font-bold mb-3 text-green-400">Small Batch Sizes</h3>
-              <p className="text-gray-300">Maximum 8-10 students per batch ensuring personalized attention, individual code reviews, and adequate doubt-clearing</p>
+              <p className="text-gray-300">Maximum 15 students per batch ensuring personalized attention, individual code reviews, and adequate doubt-clearing</p>
             </div>
 
             {/* Benefit 5 */}
@@ -658,7 +597,7 @@ export default function ProgrammingClassesPage() {
               <ul className="space-y-3 mb-8 text-gray-300">
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> 3 or 6 months duration</li>
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> 2 classes per week</li>
-                <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Maximum 10 students</li>
+                <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Maximum 15 students</li>
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Foundation building focus</li>
               </ul>
               <button className="w-full bg-purple-600 hover:bg-purple-700 font-bold py-3 rounded-lg transition">Enquire Now</button>
@@ -784,54 +723,6 @@ export default function ProgrammingClassesPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-slate-900 border-t border-purple-500/20 mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            {/* Brand */}
-            <div>
-              <h3 className="font-bold text-lg bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">BuzzyBrains</h3>
-              <p className="text-gray-400 text-sm">Expert programming classes by IIT Kanpur mentors</p>
-            </div>
-
-            {/* Programs */}
-            <div>
-              <h4 className="font-bold mb-4 text-purple-400">Programs</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link href="/programming-classes" className="hover:text-white transition">Programming Classes</Link></li>
-                <li><Link href="/foundation" className="hover:text-white transition">Foundation</Link></li>
-                <li><Link href="/12th-board" className="hover:text-white transition">Board Exams</Link></li>
-                <li><Link href="/international-boards" className="hover:text-white transition">International</Link></li>
-              </ul>
-            </div>
-
-            {/* Quick Links */}
-            <div>
-              <h4 className="font-bold mb-4 text-purple-400">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link href="/" className="hover:text-white transition">Home</Link></li>
-                <li><Link href="/admissions" className="hover:text-white transition">Admissions</Link></li>
-                <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
-              </ul>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="font-bold mb-4 text-purple-400">Get in Touch</h4>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-center space-x-2">
-                  <Phone className="w-4 h-4" />
-                  <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2024 BuzzyBrains. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

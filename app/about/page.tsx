@@ -80,7 +80,7 @@ export default function AboutPage() {
   ];
 
   const whyChooseUs = [
-    "Teachers who actually know your child (max 10 per batch)",
+    "Teachers who actually know your child (max 15 per batch)",
     "Founded by someone who left comfort for purpose",
     "No spam ads, just students telling their friends",
     "<strong>IITians</strong> who teach because they want to, not just for paycheck",
@@ -92,42 +92,8 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <a
-                href="/"
-                className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition"
-              >
-                BuzzyBrains Academy
-              </a>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="/" className="text-gray-700 hover:text-blue-600 transition">Home</a>
-              <a href="/about" className="text-blue-600 font-semibold">About</a>
-              <a href="/#courses" className="text-gray-700 hover:text-blue-600 transition">Courses</a>
-              <a href="/#results" className="text-gray-700 hover:text-blue-600 transition">Results</a>
-              <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admission Enquiry</a>
-              <a href="/#contact" className="text-gray-700 hover:text-blue-600 transition">Contact</a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition">
-                <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                <span className="hidden md:inline">Chat</span>
-              </a>
-            </div>
-            <button 
-              onClick={() => setShowCtaModal(true)}
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
-            >
-              Get Started
-            </button>
-          </div>
-        </div>
-      </nav>
-
       {/* Hero Section */}
-      <section className="relative py-24 px-4 overflow-hidden">
+      <section className="relative pt-[74px] py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
@@ -235,7 +201,7 @@ export default function AboutPage() {
                   "First batch scored 85-92% in boards (2022)",
                   "First JEE qualifier in 2023 (huge celebration!)",
                   "Built a team of 5 passionate IITian teachers",
-                  "Still maintain max 10 per batch (no compromise)",
+                  "Still maintain max 15 per batch (no compromise)",
                   "Grew through referrals, not advertisements",
                   "Still making financial sacrifices for quality"
                 ].map((point, index) => (
@@ -351,46 +317,6 @@ export default function AboutPage() {
           </button>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h3 className="text-lg font-bold text-white mb-4">BuzzyBrains Academy</h3>
-              <p className="text-sm">Transforming lives through quality education since 2021. In just 5 years, we've become a beacon of excellence.</p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/" className="hover:text-white transition">Home</a></li>
-                <li><a href="/about" className="hover:text-white transition">About</a></li>
-                <li><a href="/#courses" className="hover:text-white transition">Courses</a></li>
-                <li><a href="/admissions" className="hover:text-white transition">Admission Enquiry</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold mb-4">Support</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/#contact" className="hover:text-white transition">Contact Us</a></li>
-                <li><a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">WhatsApp</a></li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold mb-4">Contact</h3>
-              <ul className="space-y-3 text-sm">
-                <li>📧 info@buzzybrains.com</li>
-                <li>📞 Contact Us</li>
-                <li>💬 Chat on WhatsApp</li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 pt-8">
-            <p className="text-center text-sm">&copy; 2025 BuzzyBrains Academy. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
 
       {/* CTA Modal */}
       {showCtaModal && (

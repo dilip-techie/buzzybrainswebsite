@@ -1,979 +1,940 @@
 'use client';
 
-import React, { useState } from 'react';
-import { GraduationCap, Award, Users, BookOpen, TrendingUp, Star, ChevronRight, Phone, Mail, MapPin, Menu, X } from 'lucide-react';
+import Link from 'next/link';
+import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react';
 
-export default function CoachingHomepage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const courses = [
-    {
-      title: "Foundation Program",
-      subtitle: "Classes 6-10",
-      description: "Build a rock-solid foundation in Maths, Science, Chemistry & Biology with IITian mentors",
-      icon: BookOpen,
-      gradient: "from-blue-600 to-cyan-600",
-      features: [
-        "Max 12 students per batch",
-        "Personal 1:1 attention",
-        "Master every concept",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "IIT-JEE Preparation",
-      subtitle: "Engineering Entrance",
-      description: "Comprehensive JEE Main & Advanced coaching with rigorous practice and expert mentorship.",
-      icon: GraduationCap,
-      gradient: "from-yellow-500 to-orange-500",
-      features: [
-        "Guidance from AIR-400 mentor",
-        "Topicwise test series",
-        "Live doubt-solving",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "NEET Preparation",
-      subtitle: "Medical Entrance",
-      description: "Intensive coaching for NEET with focus on Biology, Physics, Chemistry and quick calculations",
-      icon: Award,
-      gradient: "from-green-600 to-emerald-600",
-      features: [
-        "Vedic maths advantage",
-        "Quick doubt resolution",
-        "Year-round strategy guide",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "10th Board Preparation",
-      subtitle: "SSC/CBSE/ICSE",
-      description: "Focused board exam preparation for Class 10 with concept clarity and exam strategies.",
-      icon: BookOpen,
-      gradient: "from-pink-500 to-red-500",
-      features: [
-        "Board-specific study material",
-        "Regular assessments",
-        "Revision bootcamps",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "12th Board Preparation",
-      subtitle: "HSC/CBSE/ISC",
-      description: "Targeted coaching for Class 12 boards with expert faculty and personalized feedback.",
-      icon: BookOpen,
-      gradient: "from-green-500 to-lime-500",
-      features: [
-        "Personalized study plans",
-        "Model paper practice",
-        "Performance tracking",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "Maths Excellence Prog.",
-      subtitle: "Advanced Maths",
-      description: "Specialized program for students aiming for advanced mathematics competitions.",
-      icon: TrendingUp,
-      gradient: "from-purple-600 to-pink-600",
-      features: [
-        "Olympiad-level problem solving",
-        "Advanced math concepts",
-        "Mentorship by <strong>IITians</strong>",
-        "Comprehensive test series",
-        "Advanced algebra module"
-      ]
-    },
-    {
-      title: "IGCSE Preparation",
-      subtitle: "Classes 6-12 (Cambridge/Edexcel)",
-      description: "Expert coaching for IGCSE with focus on Maths, Science, Computers, Social Studies, Economics & Accounting.",
-      icon: GraduationCap,
-      gradient: "from-indigo-600 to-blue-600",
-      features: [
-        "Cambridge & Edexcel curriculum",
-        "Maths, Science, Computers",
-        "Economics & Accounting",
-        "Grade A/A* focused coaching",
-        "Past papers & mark schemes"
-      ]
-    },
-    {
-      title: "IB Diploma Programme",
-      subtitle: "Classes 6-12 (MYP & DP)",
-      description: "Comprehensive IB coaching for Maths, Science, Computers, Social Studies, Economics & Accounting.",
-      icon: Award,
-      gradient: "from-teal-600 to-cyan-600",
-      features: [
-        "MYP & DP curriculum",
-        "Maths, Science, Computers",
-        "Economics & Accounting",
-        "IA & EE guidance included",
-        "Score 7 strategies"
-      ]
-    },
-    {
-      title: "AP Exams Preparation",
-      subtitle: "Advanced Placement",
-      description: "Score 5 in AP exams with targeted coaching for AP Calculus, Physics, Chemistry, and Biology.",
-      icon: TrendingUp,
-      gradient: "from-rose-600 to-pink-600",
-      features: [
-        "AP Calculus AB/BC coverage",
-        "AP Physics 1/2/C focused",
-        "AP Chemistry & Biology",
-        "Score 5 exam strategies",
-        "College credit preparation"
-      ]
-    }
-  ];
+const PROGRAMS = [
+  {
+    grade: 'Grades 6–10',
+    title: 'Foundation Program',
+    description: 'Build rock-solid concepts early and get a head start on competitive exams.',
+    highlights: ['Mathematics & Science mastery', 'Logical reasoning skills', 'Olympiad & NTSE preparation', 'Runway to future IIT-JEE'],
+    href: '/foundation',
+    accent: '#7C3AED',
+    pc: 'linear-gradient(90deg,#7C3AED,#2563EB)',
+    pcbg: 'rgba(124,58,237,.1)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#7C3AED" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h20" /><path d="M5 20V9l7-5 7 5v11" /><path d="M9 20v-6h6v6" /></svg>
+    ),
+  },
+  {
+    grade: 'Grades 11–12 · Droppers',
+    title: 'IIT-JEE',
+    description: 'Deep conceptual learning in PCM with rigorous problem solving.',
+    highlights: ['Physics · Chemistry · Maths', 'Concept-first teaching', 'Advanced problem solving', 'JEE Main + Advanced test series'],
+    href: '/12th-board-pcm',
+    accent: '#2563EB',
+    pc: 'linear-gradient(90deg,#2563EB,#0EA5E9)',
+    pcbg: 'var(--blue-050)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 6.2L21 9l-5 4.4L17.5 20 12 16.5 6.5 20 8 13.4 3 9l6.6-.8z" /></svg>
+    ),
+  },
+  {
+    grade: 'Grades 11–12 · Droppers',
+    title: 'NEET',
+    description: 'Complete medical entrance preparation with NCERT at the core.',
+    highlights: ['Physics · Chemistry · Biology', 'Line-by-line NCERT mastery', 'High-yield revision systems', 'NEET-pattern mock tests'],
+    href: '/12th-board-pcb',
+    accent: '#10B981',
+    pc: 'linear-gradient(90deg,#10B981,#0D9488)',
+    pcbg: 'rgba(16,185,129,.1)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M5 8c3 0 5 2 7 2s4-2 7-2M5 16c3 0 5-2 7-2s4 2 7 2" /><circle cx="12" cy="12" r="9" /></svg>
+    ),
+  },
+  {
+    grade: 'National & International',
+    title: 'Olympiads',
+    description: "Train for the world's most prestigious math & science competitions.",
+    highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'Olympiad-level problem sets', 'Path to international rounds'],
+    href: '/olympiad-math',
+    accent: '#F59E0B',
+    pc: 'linear-gradient(90deg,#F59E0B,#EA580C)',
+    pcbg: 'rgba(245,158,11,.12)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg>
+    ),
+  },
+  {
+    grade: 'Maths · Problem Solving',
+    title: 'Maths Excellence Program',
+    description: 'A focused program for students who want deeper mathematical thinking, faster problem solving and exam confidence.',
+    highlights: ['Advanced maths practice', 'Olympiad-style reasoning', 'Board + entrance readiness', 'Concept-driven mentoring'],
+    href: '/olympiad-math',
+    accent: '#0EA5E9',
+    pc: 'linear-gradient(90deg,#0EA5E9,#2563EB)',
+    pcbg: 'rgba(14,165,233,.12)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19h16" /><path d="M7 16V8" /><path d="M12 16V4" /><path d="M17 16v-6" /></svg>
+    ),
+  },
+  {
+    grade: 'International Boards',
+    title: 'IGCSE Program',
+    description: 'Structured coaching for Cambridge-style assessments with strong conceptual pacing and exam strategy.',
+    highlights: ['Cambridge/Edexcel preparation', 'Core + extended modules', 'Exam-style practice', 'Personalized support'],
+    href: '/international-boards',
+    accent: '#6366F1',
+    pc: 'linear-gradient(90deg,#6366F1,#8B5CF6)',
+    pcbg: 'rgba(99,102,241,.12)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7h18" /><path d="M7 3v18" /><path d="M17 3v18" /><path d="M3 17h18" /></svg>
+    ),
+  },
+  {
+    grade: 'International Boards',
+    title: 'IB Program',
+    description: 'Premium coaching for IB MYP and DP students with expert support for internal assessments and exam performance.',
+    highlights: ['IB HL/SL guidance', 'IA/EE/TOK support', 'Concept-heavy teaching', 'Score 7 strategies'],
+    href: '/international-boards',
+    accent: '#10B981',
+    pc: 'linear-gradient(90deg,#10B981,#059669)',
+    pcbg: 'rgba(16,185,129,.12)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5h16" /><path d="M7 5v14" /><path d="M17 5v14" /><path d="M4 19h16" /></svg>
+    ),
+  },
+  {
+    grade: 'International Boards',
+    title: 'AP Exams',
+    description: 'Focused preparation for AP subjects with clear frameworks, timed practice and college-credit readiness.',
+    highlights: ['AP Calculus · Physics · Chem', 'Exam pattern mastery', 'High-scoring practice sets', 'College-ready preparation'],
+    href: '/international-boards',
+    accent: '#EC4899',
+    pc: 'linear-gradient(90deg,#EC4899,#8B5CF6)',
+    pcbg: 'rgba(236,72,153,.12)',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7z" /><path d="M9 12l2 2 4-4" /></svg>
+    ),
+  },
+];
 
-  const stats = [
-    { number: "25+", label: "Years Experience" },
-    { number: "AIR 400", label: "Founder's JEE Rank" },
-    { number: "12", label: "Max Batch Size" },
-    { number: "IIT", label: "Alumni Mentors" }
-  ];
+const TRUST_CARDS = [
+  { title: '25+ Years of Excellence', desc: 'Over two decades of guiding students to top ranks in JEE, NEET and Olympiads.', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg> },
+  { title: 'IITian Faculty', desc: 'Learn directly from IIT alumni and subject experts who love teaching.', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" /></svg> },
+  { title: 'Small Batches — Max 15', desc: 'Every child is seen, heard and mentored. No one gets lost in the crowd.', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M21 21v-2a4 4 0 0 0-3-3.87" /></svg> },
+  { title: 'Personalized Mentoring', desc: 'Individual learning plans, one-on-one doubt sessions and constant guidance.', gradient: 'linear-gradient(135deg,#10B981,#059669)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg> },
+  { title: 'Weekly Tests', desc: 'Regular assessments that build exam temperament and track true progress.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3 8-8" /><path d="M21 12v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11" /></svg> },
+  { title: 'Parent Progress Reports', desc: 'Transparent updates so parents always know exactly how their child is doing.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg> },
+  { title: 'AI-Powered Learning', desc: "Smart practice engines that adapt to every student's pace and weak areas.", gradient: 'linear-gradient(135deg,#8B5CF6,#7C3AED)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="3" /><path d="M9 9h6v6H9z" /><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" /></svg> },
+  { title: 'Digital Notes', desc: 'Beautifully designed digital notes and revision material, always accessible.', gradient: 'linear-gradient(135deg,#F59E0B,#EA580C)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg> },
+  { title: 'Interactive Classes', desc: 'Digital boards, simulations and animations that make every concept click.', gradient: 'linear-gradient(135deg,#10B981,#0D9488)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="14" rx="2" /><path d="M8 21h8M12 18v3" /><path d="M7 10l3 3 5-5" /></svg> },
+];
 
-  const testimonials = [
-    {
-      name: "Rahul Sharma",
-      course: "IIT JEE",
-      text: "I would like to thank Dilip Sir because of which i secured a very good rank in JEE Advanced (AIR 247) !",
-      rating: 5
-    },
-    {
-      name: "Priya Patel",
-      course: "NEET",
-      text: "Excellent study material and personalized attention helped me crack NEET with flying colors.",
-      rating: 5
-    },
-    {
-      name: "Arjun Singh",
-      course: "Foundation",
-      text: "Building my foundation here gave me the confidence to aim for top engineering colleges.",
-      rating: 5
-    }
-  ];
+const METHOD_STEPS = [
+  { label: 'Discover', desc: 'Every topic opens with a hook — a story, demo or real-world puzzle that makes students ask "why?"', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" /><path d="M11 8v6M8 11h6" /></svg> },
+  { label: 'Understand', desc: 'Visual explanations, animations and first-principles teaching turn "how?" into deep intuition.', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg> },
+  { label: 'Practice', desc: 'AI-graded problem sets adapt to each student, from basics to Olympiad-level challenges.', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1.4" fill="currentColor" /></svg> },
+  { label: 'Excel', desc: 'Weekly tests, analytics and mentoring translate mastery into ranks, medals and confidence.', gradient: 'linear-gradient(135deg,#10B981,#059669)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg> },
+];
 
-  const results = {
-    "10thBoard": {
-      title: "10th Board Results",
-      students: [
-        { name: "Reyansh", score: "98%", board: "CBSE" },
-        { name: "Neel", score: "96%", board: "CBSE" },
-        { name: "Ram", score: "97%", board: "CBSE" }
-      ]
-    },
-    "12thBoard": {
-      title: "12th Board Results",
-      students: [
-        { name: "Pavan", score: "97%", board: "CBSE" },
-        { name: "Akshita", score: "99%", board: "CBSE" },
-        { name: "Kavya", score: "96%", board: "CBSE" }
-      ]
-    },
-    "jee": {
-      title: "JEE Main Results",
-      students: [
-        { name: "Vedant", score: "AIR 187", board: "JEE Main" },
-        { name: "Isha", score: "AIR 542", board: "JEE Main" },
-        { name: "Arjun", score: "AIR 1024", board: "JEE Main" }
-      ]
-    },
-    "neet": {
-      title: "NEET Results",
-      students: [
-        { name: "Sakshi", score: "AIR 312", board: "NEET" },
-        { name: "Rohan", score: "AIR 2847", board: "NEET" },
-        { name: "Divya", score: "AIR 1156", board: "NEET" }
-      ]
-    }
+const JOURNEY_STEPS = [
+  { badge: 'Step 1', title: 'Admission', desc: "Meet our counsellors, tour the campus, and pick the program that fits your child's goals.", icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6M9 15l2 2 4-4" /></svg> },
+  { badge: 'Step 2', title: 'Diagnostic Test', desc: 'A friendly assessment maps current strengths, gaps and learning style — no marks, just insight.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3M11 8v3l2 2" /></svg> },
+  { badge: 'Step 3', title: 'Personal Learning Plan', desc: "Mentors design a custom roadmap with milestones tailored to your child's pace and targets.", icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg> },
+  { badge: 'Step 4', title: 'Weekly Coaching', desc: 'Interactive classes, doubt sessions and adaptive practice — a steady weekly rhythm of growth.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="17" rx="2" /><path d="M8 2v4M16 2v4M3 10h18M9 15l2 2 4-4" /></svg> },
+  { badge: 'Step 5', title: 'Performance Tracking', desc: 'Weekly tests plus progress analytics; parents get transparent updates every step of the way.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg> },
+  { badge: 'Step 6', title: 'Success', desc: 'Olympiad medals, NTSE scholarships, JEE and NEET ranks — and the confidence to keep going.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>, success: true },
+];
+
+const TESTIMONIALS = [
+  {
+    name: 'Rahul Sharma',
+    course: 'IIT-JEE Program',
+    text: 'The visual explanations and patient mentoring helped me build long-term confidence and secure an excellent rank.',
+    avatar: 'RS',
+    gradient: 'linear-gradient(135deg,#2563EB,#7C3AED)',
+  },
+  {
+    name: 'Priya Patel',
+    course: 'NEET Program',
+    text: 'The classes felt premium, focused, and encouraging. My biology and chemistry concepts became much clearer.',
+    avatar: 'PP',
+    gradient: 'linear-gradient(135deg,#F59E0B,#EA580C)',
+  },
+  {
+    name: 'Arjun Singh',
+    course: 'Foundation Program',
+    text: 'The foundation program made problem-solving feel exciting and gave me a strong base for competitive exams.',
+    avatar: 'AS',
+    gradient: 'linear-gradient(135deg,#10B981,#0D9488)',
+  },
+];
+
+const REVIEWS = [
+  {
+    name: 'Kavita Khurana',
+    text: 'My son is taking coaching for his 10th standard. Both the teachers of Maths & Science are amazing. They are very supportive & provide professional guidance. I highly recommend BuzzyBrains Academy.',
+  },
+  {
+    name: 'Pinky Singhal',
+    text: 'I highly recommend Dilip Sir for his clear and simple teaching methods. He explains complex topics in a way that is perfect for students, and my daughter is very happy with her progress. Thank you!',
+  },
+  {
+    name: 'Rishi Raj',
+    text: 'Dilip sir is extremely talented and efficient. We had very good experience with our kids. Will highly recommend him.',
+  },
+  {
+    name: 'Manish Bajpai',
+    text: 'Dilip Sir - Thank you for your dedication and clear explanation of concepts. My child has gained more confidence for her CBSE board preparation in Mathematics.',
+  },
+  {
+    name: 'Krishnan Duraisamy',
+    text: 'My son has been attending Further Mathematics (AS level) and has absolutely benefitted from the structured and in-depth learning experience.',
+  },
+  {
+    name: 'Ekku Anish',
+    text: 'We truly feel blessed to have you in Arohi’s learning journey, Dilip sir. The dedication, patience, and sincere support have made a lasting difference.',
+  },
+];
+
+const FACULTY = [
+  { name: 'Dilip Sir', subject: 'Mathematics', qualification: 'IIT Kanpur · IIM Ahmedabad · JEE AIR 400', expertise: '25+ years of teaching excellence with a love for concept-first learning.', initials: 'DS', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
+  { name: 'Sourav Sir', subject: 'Physics', qualification: 'IIT Bombay', expertise: 'Renowned for turning complex topics into simple, visual explanations.', initials: 'SS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { name: 'Agarwal Sir', subject: 'Chemistry', qualification: 'PhD in Education Psychology · IIT Bombay · BTech Chemical Engineering · ICT Mumbai', expertise: '13+ years of experience teaching chemistry to JEE & NEET aspirants with proven results.', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
+  { name: 'Dr. Todkar', subject: 'Biology', qualification: 'NEET Biology Expert', expertise: '25+ years of experience in teaching NEET candidates with a strong focus on conceptual clarity and exam readiness.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { name: 'Deepti Maam', subject: 'Chemistry', qualification: 'IIT Delhi', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Dr. Aditi', subject: 'Biology', qualification: 'AIIMS · Medical Expert', expertise: 'Brings scientific depth, clarity, and confidence for all medical aspirants.', initials: 'DA', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
+];
+
+const STATS = [
+  { count: 25, suffix: '+', label: 'Years of Teaching Excellence' },
+  { count: 150, suffix: '+', label: 'Students Mentored' },
+  { count: 15, suffix: '', label: 'Max Students per Batch' },
+  { count: 100, suffix: '%', label: 'Personalized Mentoring' },
+];
+
+type FormState = {
+  studentName: string;
+  parentName: string;
+  grade: string;
+  school: string;
+  phone: string;
+  email: string;
+  program: string;
+};
+
+const INITIAL_FORM: FormState = {
+  studentName: '',
+  parentName: '',
+  grade: '',
+  school: '',
+  phone: '',
+  email: '',
+  program: '',
+};
+
+const VALIDATORS: Partial<Record<keyof FormState, (v: string) => boolean>> = {
+  studentName: (v) => v.trim().length >= 2,
+  parentName: (v) => v.trim().length >= 2,
+  grade: (v) => v !== '',
+  phone: (v) => /^[6-9]\d{9}$/.test(v.replace(/[\s-]/g, '')),
+  email: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v),
+  program: (v) => v !== '',
+};
+
+const FIELD_ERRORS: Partial<Record<keyof FormState, string>> = {
+  studentName: "Please enter the student's name",
+  parentName: "Please enter the parent's name",
+  grade: 'Please select a grade',
+  phone: 'Enter a valid 10-digit mobile number',
+  email: 'Enter a valid email address',
+  program: 'Please select a program',
+};
+
+export default function HomePage() {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [formData, setFormData] = useState<FormState>(INITIAL_FORM);
+  const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
+  const [submitted, setSubmitted] = useState(false);
+  const [playVideo, setPlayVideo] = useState(false);
+
+  useEffect(() => {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+    const counterIo = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          counterIo.unobserve(entry.target);
+          const el = entry.target as HTMLElement;
+          const target = Number(el.dataset.count);
+          const dur = 1600;
+          const t0 = performance.now();
+          const fmt = (n: number) => (n >= 1000 ? n.toLocaleString('en-IN') : String(n));
+          const tick = (t: number) => {
+            const p = Math.min((t - t0) / dur, 1);
+            const ease = 1 - Math.pow(1 - p, 3);
+            el.textContent = fmt(Math.round(target * ease));
+            if (p < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        });
+      },
+      { threshold: 0.5 }
+    );
+    document.querySelectorAll('.count').forEach((el) => counterIo.observe(el));
+
+    return () => {
+      io.disconnect();
+      counterIo.disconnect();
+    };
+  }, []);
+
+  const scrollCarousel = (dir: 1 | -1) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const card = track.querySelector('.tcard') as HTMLElement | null;
+    const step = (card?.offsetWidth ?? 360) + 22;
+    track.scrollBy({ left: dir * step, behavior: 'smooth' });
   };
 
-  const faculty = [
-    {
-      name: "Dilip Sir",
-      subject: "Mathematics",
-      qualification: "IIT Kanpur | IIM Ahmedabad | JEE AIR 400",
-      expertise: "25+ Years, Expert Problem Solver",
-      color: "from-blue-600 to-cyan-600",
-      bgColor: "from-blue-50 to-cyan-50"
-    },
-    {
-      name: "Sourav Sir",
-      subject: "Physics",
-      qualification: "IIT Bombay",
-      expertise: "Physics Wizard, Conceptual Clarity",
-      color: "from-purple-600 to-pink-600",
-      bgColor: "from-purple-50 to-pink-50"
-    },
-    {
-      name: "Deepti Madam",
-      subject: "Chemistry",
-      qualification: "IIT Delhi",
-      expertise: "Organic & Inorganic Expert",
-      color: "from-green-600 to-emerald-600",
-      bgColor: "from-green-50 to-emerald-50"
-    },
-    {
-      name: "Dr. Aditi",
-      subject: "Biology",
-      qualification: "AIIMS | MD (Medicine)",
-      expertise: "Medical Expert, NEET Specialist",
-      color: "from-rose-600 to-red-600",
-      bgColor: "from-rose-50 to-red-50"
-    }
-  ];
-
-  // Scroll to top handler
-  const scrollToTop = (e?: React.MouseEvent) => {
-    if (e) e.preventDefault();
-    if (typeof window !== 'undefined') {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+  const validateField = (name: keyof FormState, value: string) => {
+    const validator = VALIDATORS[name];
+    const ok = validator ? validator(value) : true;
+    setInvalidFields((prev) => ({ ...prev, [name]: !ok }));
+    return ok;
   };
 
-  // CTA Modal state
-  const [showCtaModal, setShowCtaModal] = useState(false);
-
-  // Contact form state
-  const [formData, setFormData] = useState({
-    name: '',
-    number: '',
-    class: '',
-    query: ''
-  });
-
-  const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    const message = `Hello, I have a query!\n\nName: ${formData.name}\nPhone: ${formData.number}\nClass: ${formData.class}\n\nQuery: ${formData.query}`;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/919850570525?text=${encodedMessage}`;
-    
-    window.open(whatsappUrl, '_blank');
-    
-    // Reset form and close modal
-    setFormData({
-      name: '',
-      number: '',
-      class: '',
-      query: ''
-    });
-    setShowCtaModal(false);
-  };
-
-  const handleCtaModalWhatsApp = () => {
-    setShowCtaModal(false);
-    window.open('https://wa.me/919850570525', '_blank');
-  };
-
-  const handleCtaModalForm = () => {
-    setShowCtaModal(false);
-    const contactSection = document.getElementById('contact');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    if (invalidFields[name as keyof FormState]) {
+      validateField(name as keyof FormState, value);
     }
+  };
+
+  const handleBlur = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    validateField(e.target.name as keyof FormState, e.target.value);
+  };
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const fields = Object.keys(formData) as (keyof FormState)[];
+    let allOk = true;
+    let firstBad: keyof FormState | null = null;
+    fields.forEach((field) => {
+      const ok = validateField(field, formData[field]);
+      if (!ok && !firstBad) firstBad = field;
+      allOk = allOk && ok;
+    });
+    if (!allOk) {
+      const el = document.getElementById(firstBad!);
+      el?.focus();
+      return;
+    }
+
+    const message = [
+      'Hello! I would like to book a free demo class.',
+      '',
+      `Student Name: ${formData.studentName}`,
+      `Parent Name: ${formData.parentName}`,
+      `Grade: ${formData.grade}`,
+      `School: ${formData.school}`,
+      `Phone: ${formData.phone}`,
+      `Email: ${formData.email}`,
+      `Program: ${formData.program}`,
+    ].join('\n');
+    window.open(`https://wa.me/919850570525?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+    setSubmitted(true);
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2 hover:opacity-80 transition">
-              <GraduationCap className="w-8 h-8 text-blue-600" />
+    <main className="bb-landing" id="top">
+      {/* ============ HERO ============ */}
+      <section className="hero">
+        <div className="eq-field" aria-hidden="true">
+          <span className="eq" style={{ top: '14%', left: '5%', fontSize: 26, ['--rot' as string]: '-8deg' }}>E = mc²</span>
+          <span className="eq amber" style={{ top: '26%', left: '44%', fontSize: 20, ['--rot' as string]: '6deg', animationDelay: '2s' }}>∫ f(x) dx</span>
+          <span className="eq" style={{ top: '64%', left: '3%', fontSize: 22, ['--rot' as string]: '4deg', animationDelay: '4s' }}>a² + b² = c²</span>
+          <span className="eq green" style={{ top: '8%', left: '70%', fontSize: 24, ['--rot' as string]: '-5deg', animationDelay: '1s' }}>π ≈ 3.14159</span>
+          <span className="eq" style={{ top: '80%', left: '56%', fontSize: 20, ['--rot' as string]: '7deg', animationDelay: '3s' }}>F = ma</span>
+          <span className="eq amber" style={{ top: '48%', left: '90%', fontSize: 22, ['--rot' as string]: '-6deg', animationDelay: '5s' }}>H₂O</span>
+          <span className="eq green" style={{ top: '88%', left: '24%', fontSize: 19, ['--rot' as string]: '5deg', animationDelay: '2.5s' }}>Δx · Δp ≥ ħ/2</span>
+          <span className="eq" style={{ top: '38%', left: '26%', fontSize: 18, ['--rot' as string]: '-4deg', animationDelay: '6s' }}>√(x² + y²)</span>
+        </div>
+
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <span className="eyebrow reveal">Pune&apos;s Premium Coaching Institute</span>
+            <h1 className="reveal" data-delay="1">Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span></h1>
+            <p className="lede reveal" data-delay="2">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
+            <div className="hero-chips reveal" data-delay="2">
+              <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> IIT-JEE</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> NEET</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Olympiads</span>
+              <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Foundation · Grades 6–10</span>
+            </div>
+            <div className="hero-ctas reveal" data-delay="3">
+              <Link href="/#contact" className="btn btn-primary">Book Free Demo
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </Link>
+              <Link href="/#programs" className="btn btn-ghost">Explore Programs</Link>
+            </div>
+            <div className="hero-proof reveal" data-delay="4">
+              <div className="avatars" aria-hidden="true">
+                <span style={{ background: '#2563EB' }}>A</span><span style={{ background: '#7C3AED' }}>S</span><span style={{ background: '#F59E0B' }}>R</span><span style={{ background: '#10B981' }}>K</span>
+              </div>
               <div>
-                <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">BuzzyBrains Academy (Grades 6-12)</span>
+                <span className="stars" aria-label="Rated highly by parents">★★★★★</span><br />
+                Trusted by <strong>150+ families</strong> across Pune
               </div>
             </div>
-            
-            {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-8">
-              <a href="/foundation" className="text-gray-700 hover:text-blue-600 transition">Foundation Courses</a>
-              <a href="/olympiad-math" className="text-gray-700 hover:text-blue-600 transition">Maths Excellence Program</a>
-              <a href="/12th-board" className="text-gray-700 hover:text-blue-600 transition">Indian Boards</a>
-              <a href="/international-boards" className="text-gray-700 hover:text-blue-600 transition">International Boards</a>
-              <a href="/one-on-one" className="text-gray-700 hover:text-blue-600 transition">1-1 Class</a>
-              <a href="/admissions" className="text-gray-700 hover:text-blue-600 transition">Admission Enquiry</a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-green-500 transition" title="Chat on WhatsApp">
-                <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                <span className="hidden md:inline">WhatsApp</span>
+
+            <div className="stats-shell reveal" data-delay="4">
+              <div className="stats-copy">
+                <span className="eyebrow">Trusted Outcomes</span>
+                <h3>Premium guidance, measurable growth, and real student confidence.</h3>
+                <p>Every number reflects the care, consistency and personal attention that define our classrooms.</p>
+              </div>
+              <div className="stats-grid">
+                {STATS.map((stat) => (
+                  <div className="stat" key={stat.label}>
+                    <b><span className="count" data-count={stat.count}>0</span>{stat.suffix}</b>
+                    <span>{stat.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="hero-visual reveal" data-delay="2">
+            <div className="hero-visual-flex">
+              <div className="board" role="img" aria-label="Illustration of a digital classroom with a teacher, smart board, and students learning with tablets, AI, science and coding">
+                <div className="board-top">
+                  <div className="board-dots" aria-hidden="true"><i style={{ background: '#EF4444' }} /><i style={{ background: '#F59E0B' }} /><i style={{ background: '#10B981' }} /></div>
+                  <span className="board-tag">Live · Smart Class</span>
+                </div>
+                <svg className="lesson" viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stopColor="#16233F" /><stop offset="1" stopColor="#0F1B33" />
+                    </linearGradient>
+                    <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stopColor="#1D4ED8" /><stop offset="1" stopColor="#7C3AED" />
+                    </linearGradient>
+                  </defs>
+                  <rect width="520" height="340" rx="16" fill="url(#bgGrad)" />
+                  <rect x="40" y="34" width="290" height="170" rx="14" fill="url(#screenGrad)" opacity="0.92" />
+                  <rect x="40" y="34" width="290" height="170" rx="14" fill="none" stroke="#93C5FD" strokeOpacity="0.35" strokeWidth="1.5" />
+                  <polyline points="66,176 110,132 150,150 196,96 240,116 292,64" fill="none" stroke="#FBBF24" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                  <circle cx="292" cy="64" r="7" fill="#FBBF24" />
+                  <text x="66" y="70" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="17" fill="#E0EAFF">y = f(x)</text>
+                  <text x="234" y="188" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="13" fill="#BBD3FF" opacity="0.85">score →</text>
+                  <circle cx="415" cy="72" r="30" fill="#1E3A8A" />
+                  <ellipse cx="415" cy="72" rx="46" ry="12" fill="none" stroke="#F59E0B" strokeWidth="3" transform="rotate(-18 415 72)" />
+                  <circle cx="404" cy="64" r="5" fill="#93C5FD" opacity="0.8" />
+                  <path d="M468 132 l14 -26 14 26 -8 4 v14 h-12 v-14 z" fill="#F8FAFC" transform="rotate(24 482 122)" />
+                  <path d="M480 152 q4 12 -2 20 q-2 -10 -8 -14 z" fill="#F59E0B" transform="rotate(24 476 158)" />
+                  <g transform="translate(392 178)">
+                    <ellipse rx="34" ry="13" fill="none" stroke="#34D399" strokeWidth="2.5" />
+                    <ellipse rx="34" ry="13" fill="none" stroke="#34D399" strokeWidth="2.5" transform="rotate(60)" />
+                    <ellipse rx="34" ry="13" fill="none" stroke="#34D399" strokeWidth="2.5" transform="rotate(120)" />
+                    <circle r="6" fill="#34D399" />
+                  </g>
+                  <circle cx="72" cy="242" r="17" fill="#FBBF24" />
+                  <path d="M48 302 q0 -38 24 -38 q24 0 24 38 z" fill="#2563EB" />
+                  <rect x="90" y="252" width="5" height="42" rx="2.5" fill="#94A3B8" />
+                  <g>
+                    <circle cx="190" cy="258" r="14" fill="#F8B4B4" />
+                    <path d="M170 306 q0 -30 20 -30 q20 0 20 30 z" fill="#10B981" />
+                    <rect x="176" y="284" width="28" height="18" rx="3" fill="#0EA5E9" stroke="#E0F2FE" strokeWidth="1.5" />
+                  </g>
+                  <g>
+                    <circle cx="268" cy="258" r="14" fill="#FDE68A" />
+                    <path d="M248 306 q0 -30 20 -30 q20 0 20 30 z" fill="#7C3AED" />
+                    <rect x="254" y="284" width="28" height="18" rx="3" fill="#F59E0B" stroke="#FEF3C7" strokeWidth="1.5" />
+                  </g>
+                  <g>
+                    <circle cx="346" cy="258" r="14" fill="#FCA5A5" />
+                    <path d="M326 306 q0 -30 20 -30 q20 0 20 30 z" fill="#2563EB" />
+                    <rect x="332" y="284" width="28" height="18" rx="3" fill="#34D399" stroke="#D1FAE5" strokeWidth="1.5" />
+                  </g>
+                  <rect x="404" y="222" width="94" height="70" rx="10" fill="#0B1120" stroke="#334155" strokeWidth="1.5" />
+                  <rect x="414" y="236" width="52" height="6" rx="3" fill="#60A5FA" />
+                  <rect x="414" y="250" width="70" height="6" rx="3" fill="#F59E0B" />
+                  <rect x="414" y="264" width="40" height="6" rx="3" fill="#34D399" />
+                  <text x="418" y="286" fontFamily="monospace" fontSize="10" fill="#64748B">&lt;/&gt; code</text>
+                </svg>
+              </div>
+
+              <div className="phone-container">
+                {!playVideo ? (
+                  <div className="video-thumbnail-wrapper" onClick={() => setPlayVideo(true)} role="button" aria-label="Play video">
+                    <img src="/images/oardefault.avif" alt="Video Thumbnail" className="video-thumbnail" />
+                    <div className="custom-play-btn" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                ) : (
+                  <iframe
+                    src="https://www.youtube.com/embed/oDdeTp54_7M?autoplay=1&rel=0&modestbranding=1"
+                    title="BuzzyBrains Video Introduction"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                )}
+              </div>
+            </div>
+
+            <div className="float-card fc-1">
+              <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)' }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg>
+              </span>
+              <div><b>AI Tutor Active</b><small>Adapting to each student</small></div>
+            </div>
+            <div className="float-card fc-2">
+              <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#10B981,#059669)' }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg>
+              </span>
+              <div><b>Steady Score Growth</b><small>Tracked every month</small></div>
+            </div>
+            <div className="float-card fc-3">
+              <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#F59E0B,#D97706)' }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>
+              </span>
+              <div><b>Max 15 / Batch</b><small>Truly personal mentoring</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ PARENT REVIEWS ============ */}
+      <section className="bb-section" id="reviews" aria-labelledby="reviews-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Parents Love Us</span>
+            <h2 className="section-title reveal" id="reviews-title">Trusted by families who value clarity, care and results</h2>
+            <p className="section-sub reveal">A few of the heartfelt reviews parents have shared about their experience with BuzzyBrains Academy.</p>
+          </div>
+          <div className="review-grid">
+            {REVIEWS.map((review, i) => (
+              <article className="review-card reveal" data-delay={String((i % 3) + 1)} key={review.name}>
+                <div className="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>&quot;{review.text}&quot;</p>
+                <strong>{review.name}</strong>
+                <small>Parent Review</small>
+              </article>
+            ))}
+          </div>
+          <div className="center" style={{ marginTop: 24 }}>
+            <a href="https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews" target="_blank" rel="noopener noreferrer" className="review-link">
+              Read more reviews on Google
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ TRUST ============ */}
+      <section className="bb-section" id="trust" aria-labelledby="trust-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Why Parents Trust Us</span>
+            <h2 className="section-title reveal" id="trust-title">Built on excellence, powered by technology</h2>
+            <p className="section-sub reveal">Everything we do is designed around one goal — helping every student master concepts deeply and perform at their best.</p>
+          </div>
+          <div className="trust-grid">
+            {TRUST_CARDS.map((card, i) => (
+              <div className="trust-card reveal" data-delay={String((i % 3) + 1)} key={card.title}>
+                <div className="trust-icon" style={{ background: card.gradient }}>{card.icon}</div>
+                <h3>{card.title}</h3>
+                <p>{card.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ PROGRAMS ============ */}
+      <section className="programs bb-section" id="programs" aria-labelledby="prog-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Our Programs</span>
+            <h2 className="section-title reveal" id="prog-title">A program for every ambition</h2>
+            <p className="section-sub reveal">From strong foundations in middle school to cracking India&apos;s toughest entrance exams — we&apos;ve built the full journey.</p>
+          </div>
+          <div className="prog-grid">
+            {PROGRAMS.map((program, i) => (
+              <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: program.pc, ['--pcbg' as string]: program.pcbg }} key={program.title}>
+                <div className="prog-icon">{program.icon}</div>
+                <div className="grade">{program.grade}</div>
+                <h3>{program.title}</h3>
+                <p>{program.description}</p>
+                <ul>
+                  {program.highlights.map((h) => <li key={h}>{h}</li>)}
+                </ul>
+                <Link href={program.href} className="prog-link" style={{ color: program.accent }}>Learn more
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ WHY CHOOSE ============ */}
+      <section className="bb-section" id="why" aria-labelledby="why-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Why BuzzyBrains</span>
+            <h2 className="section-title reveal" id="why-title">Learning that actually sticks</h2>
+            <p className="section-sub reveal">We replaced rote learning with stories, visuals, technology and mentorship — and the results speak for themselves.</p>
+          </div>
+
+          <div className="why-row">
+            <div className="why-copy reveal">
+              <h3>Concepts through stories &amp; real life</h3>
+              <p>Newton&apos;s laws through cricket. Chemistry through cooking. Geometry through architecture. When learning connects to the real world, students never forget it.</p>
+              <ul className="why-list">
+                {['Learning through stories and real-life examples', 'Visual learning with animations and simulations', 'Concept-based teaching, never rote memorization'].map((item) => (
+                  <li key={item}><span className="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg></span> {item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="why-visual reveal" data-delay="1">
+              <div className="illus">
+                <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of visual storytelling in learning">
+                  <rect width="480" height="300" fill="var(--bg-alt)" />
+                  <rect x="40" y="40" width="250" height="160" rx="14" fill="var(--card)" stroke="var(--line)" />
+                  <circle cx="90" cy="90" r="22" fill="#F59E0B" opacity="0.9" />
+                  <path d="M90 68 v-10 M90 122 v-10 M68 90 h-10 M122 90 h-10 M74 74 l-7 -7 M113 113 l-7 -7 M106 74 l7 -7 M74 106 l-7 7" stroke="#F59E0B" strokeWidth="3" strokeLinecap="round" />
+                  <path d="M140 150 Q170 80 220 120 T270 90" fill="none" stroke="#2563EB" strokeWidth="4" strokeLinecap="round" strokeDasharray="2 9" />
+                  <circle cx="270" cy="90" r="9" fill="#2563EB" />
+                  <text x="60" y="180" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="15" fill="var(--text-2)">The sun → energy → life</text>
+                  <rect x="310" y="70" width="130" height="180" rx="14" fill="var(--card)" stroke="var(--line)" />
+                  <circle cx="375" cy="115" r="20" fill="#FDE68A" />
+                  <path d="M355 190 q0 -40 20 -40 q20 0 20 40 z" fill="#2563EB" />
+                  <path d="M340 218 q35 22 70 0" stroke="#10B981" strokeWidth="4" fill="none" strokeLinecap="round" />
+                  <text x="336" y="240" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="13" fill="var(--text-2)">&quot;Now I get it!&quot;</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div className="why-row reverse">
+            <div className="why-copy reveal">
+              <h3>AI-powered, digital-first classrooms</h3>
+              <p>Our digital platform tracks every question a student attempts, spots weak areas early, and adapts practice automatically — so no gap goes unnoticed.</p>
+              <ul className="why-list">
+                {['AI-powered adaptive practice and analytics', 'Digital classrooms with smart boards', 'Performance updates for parents'].map((item) => (
+                  <li key={item}><span className="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg></span> {item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="why-visual reveal" data-delay="1">
+              <div className="illus">
+                <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an AI analytics dashboard">
+                  <rect width="480" height="300" fill="var(--bg-alt)" />
+                  <rect x="50" y="36" width="380" height="228" rx="16" fill="var(--card)" stroke="var(--line)" />
+                  <rect x="74" y="60" width="150" height="10" rx="5" fill="var(--line)" />
+                  <rect x="74" y="90" width="160" height="120" rx="10" fill="rgba(37,99,235,.08)" />
+                  <polyline points="88,190 116,158 142,170 168,132 196,146 220,108" fill="none" stroke="#2563EB" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                  <rect x="252" y="90" width="154" height="26" rx="8" fill="rgba(16,185,129,.12)" />
+                  <rect x="252" y="126" width="154" height="26" rx="8" fill="rgba(245,158,11,.14)" />
+                  <rect x="252" y="162" width="154" height="26" rx="8" fill="rgba(124,58,237,.12)" />
+                  <rect x="260" y="98" width="96" height="10" rx="5" fill="#10B981" />
+                  <rect x="260" y="134" width="66" height="10" rx="5" fill="#F59E0B" />
+                  <rect x="260" y="170" width="120" height="10" rx="5" fill="#7C3AED" />
+                  <circle cx="404" cy="60" r="14" fill="none" stroke="#2563EB" strokeWidth="2.5" />
+                  <rect x="398" y="54" width="12" height="12" rx="3" fill="#2563EB" />
+                  <text x="76" y="242" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="14" fill="var(--text-2)">Insight: revise thermodynamics before Friday&apos;s test</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div className="why-row">
+            <div className="why-copy reveal">
+              <h3>Mentorship, not mass coaching</h3>
+              <p>With a maximum of 15 students per batch and experienced faculty, every doubt gets solved, every strength gets sharpened, and every child gets a mentor who knows them by name.</p>
+              <ul className="why-list">
+                {['Personal mentorship in small batches', 'Dedicated doubt-solving sessions', 'Regular assessments with detailed feedback'].map((item) => (
+                  <li key={item}><span className="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg></span> {item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="why-visual reveal" data-delay="1">
+              <div className="illus">
+                <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a mentor guiding a small group of students">
+                  <rect width="480" height="300" fill="var(--bg-alt)" />
+                  <circle cx="240" cy="110" r="26" fill="#FBBF24" />
+                  <path d="M204 190 q0 -52 36 -52 q36 0 36 52 z" fill="#2563EB" />
+                  <g opacity="0.95">
+                    <circle cx="120" cy="200" r="17" fill="#F8B4B4" /><path d="M96 250 q0 -34 24 -34 q24 0 24 34 z" fill="#10B981" />
+                    <circle cx="200" cy="216" r="17" fill="#FDE68A" /><path d="M176 266 q0 -34 24 -34 q24 0 24 34 z" fill="#7C3AED" />
+                    <circle cx="280" cy="216" r="17" fill="#FCA5A5" /><path d="M256 266 q0 -34 24 -34 q24 0 24 34 z" fill="#F59E0B" />
+                    <circle cx="360" cy="200" r="17" fill="#BFDBFE" /><path d="M336 250 q0 -34 24 -34 q24 0 24 34 z" fill="#0EA5E9" />
+                  </g>
+                  <path d="M150 120 q90 -70 180 0" fill="none" stroke="#F59E0B" strokeWidth="3" strokeDasharray="3 8" strokeLinecap="round" />
+                  <circle cx="150" cy="120" r="5" fill="#F59E0B" /><circle cx="330" cy="120" r="5" fill="#F59E0B" />
+                  <text x="176" y="56" fontFamily="Manrope,sans-serif" fontWeight="800" fontSize="16" fill="var(--text-2)">1 mentor · 10 minds</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ METHODOLOGY ============ */}
+      <section className="method bb-section" id="method" aria-labelledby="method-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Our Methodology</span>
+            <h2 className="section-title reveal" id="method-title">Four steps from curiosity to mastery</h2>
+            <p className="section-sub reveal">Every topic at BuzzyBrains follows the same proven rhythm — spark curiosity, build understanding, drill deep, then perform.</p>
+          </div>
+          <div className="method-steps">
+            {METHOD_STEPS.map((step, i) => (
+              <div className="step reveal" data-delay={String(i)} key={step.label}>
+                <span className="num">{i + 1}</span>
+                <div className="step-orb" style={{ background: step.gradient }}>{step.icon}</div>
+                <h3>{step.label}</h3>
+                <p>{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ STUDENT JOURNEY ============ */}
+      <section className="bb-section" id="journey" aria-labelledby="journey-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Student Journey</span>
+            <h2 className="section-title reveal" id="journey-title">From first visit to first rank</h2>
+            <p className="section-sub reveal">A clear, structured path so students and parents always know what comes next.</p>
+          </div>
+          <div className="journey-track">
+            {JOURNEY_STEPS.map((step) => (
+              <div className="jstep reveal" data-delay="1" key={step.badge}>
+                <div className="jstep-dot" style={step.success ? { borderColor: 'var(--green)' } : undefined}>{step.icon}</div>
+                <div className="jstep-body">
+                  <span className="badge" style={step.success ? { color: 'var(--green)' } : undefined}>{step.badge}</span>
+                  <h3>{step.title}</h3>
+                  <p>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ TESTIMONIALS ============ */}
+      <section className="testis bb-section" id="testimonials" aria-labelledby="testi-title">
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+          <div className="center">
+            <span className="eyebrow reveal">Success Stories</span>
+            <h2 className="section-title reveal" id="testi-title" style={{ color: '#fff' }}>Students shine. Parents smile.</h2>
+            <p className="section-sub reveal" style={{ marginInline: 'auto' }}>Real results from real families across Pune.</p>
+          </div>
+          <div className="carousel">
+            <div className="carousel-track" id="carTrack" ref={trackRef} tabIndex={0} aria-label="Testimonials carousel, scroll horizontally">
+              {TESTIMONIALS.map((t) => (
+                <article className="tcard" key={t.name}>
+                  <span className="tach">{t.course}</span>
+                  <p className="quote">&quot;{t.text}&quot;</p>
+                  <div className="rating" aria-label="5 out of 5 stars">★★★★★</div>
+                  <div className="tperson">
+                    <span className="tavatar" style={{ background: t.gradient }}>{t.avatar}</span>
+                    <div><b>{t.name}</b><small>{t.course}</small></div>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <div className="car-nav">
+              <button className="car-btn" aria-label="Previous testimonial" onClick={() => scrollCarousel(-1)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M11 18l-6-6 6-6" /></svg>
+              </button>
+              <button className="car-btn" aria-label="Next testimonial" onClick={() => scrollCarousel(1)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FACULTY ============ */}
+      <section className="bb-section" id="faculty" aria-labelledby="fac-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Meet the Mentors</span>
+            <h2 className="section-title reveal" id="fac-title">Taught by people who&apos;ve been there</h2>
+            <p className="section-sub reveal">IIT alumni and passionate educators with 25+ years of combined excellence.</p>
+          </div>
+          <div className="fac-grid">
+            {FACULTY.map((member, i) => (
+              <article className="fac-card reveal" data-delay={String(i)} key={member.name}>
+                <div className="fac-photo" style={{ background: member.gradient }}>{member.initials}</div>
+                <h3>{member.name}</h3>
+                <div className="role">{member.subject}</div>
+                <p>{member.qualification}</p>
+                <p style={{ color: 'var(--text-3)', fontSize: 13 }}>{member.expertise}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ CAMPUS ============ */}
+      <section className="campus bb-section" id="campus" aria-labelledby="campus-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Campus Experience</span>
+            <h2 className="section-title reveal" id="campus-title">A space designed for deep learning</h2>
+            <p className="section-sub reveal">Smart classrooms, digital boards and comfortable spaces where students love to spend time.</p>
+          </div>
+          <div className="gal">
+            <div className="gal-item w2 h2 reveal">
+              <div className="gal-bg" style={{ background: 'linear-gradient(140deg,#1E3A8A,#2563EB 55%,#7C3AED)' }}>
+                <svg viewBox="0 0 400 400" style={{ width: '100%', height: '100%', opacity: 0.55 }} preserveAspectRatio="xMidYMid slice"><rect x="60" y="70" width="280" height="150" rx="12" fill="#0F172A" opacity=".55" /><polyline points="90,190 140,140 180,160 230,110 280,130 320,90" fill="none" stroke="#FBBF24" strokeWidth="5" strokeLinecap="round" /><circle cx="120" cy="290" r="16" fill="#FDE68A" /><path d="M96 348 q0 -36 24 -36 q24 0 24 36z" fill="#10B981" /><circle cx="210" cy="290" r="16" fill="#F8B4B4" /><path d="M186 348 q0 -36 24 -36 q24 0 24 36z" fill="#F59E0B" /><circle cx="300" cy="290" r="16" fill="#BFDBFE" /><path d="M276 348 q0 -36 24 -36 q24 0 24 36z" fill="#0EA5E9" /></svg>
+              </div>
+              <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="14" rx="2" /><path d="M8 21h8M12 18v3" /></svg> Smart Classrooms</span>
+            </div>
+            <div className="gal-item w2 reveal" data-delay="1">
+              <div className="gal-bg" style={{ background: 'linear-gradient(135deg,#0F172A,#334155)' }}>
+                <svg viewBox="0 0 400 180" style={{ width: '100%', height: '100%', opacity: 0.6 }} preserveAspectRatio="xMidYMid slice"><rect x="40" y="26" width="320" height="120" rx="10" fill="#1D4ED8" opacity=".8" /><text x="64" y="80" fontFamily="Manrope,sans-serif" fontWeight="800" fontSize="26" fill="#E0EAFF">∫ x² = ?</text><path d="M220 110 q30 -50 80 -20" stroke="#FBBF24" strokeWidth="4" fill="none" strokeLinecap="round" /></svg>
+              </div>
+              <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="14" rx="2" /><path d="M12 17v4M8 21h8" /></svg> Digital Boards</span>
+            </div>
+            <div className="gal-item reveal" data-delay="2">
+              <div className="gal-bg" style={{ background: 'linear-gradient(135deg,#059669,#10B981)' }}>
+                <svg viewBox="0 0 200 180" style={{ width: '100%', height: '100%', opacity: 0.5 }} preserveAspectRatio="xMidYMid slice"><circle cx="70" cy="70" r="14" fill="#ECFDF5" /><circle cx="130" cy="70" r="14" fill="#FDE68A" /><path d="M46 130 q0 -32 24 -32t24 32zM106 130 q0 -32 24 -32t24 32z" fill="#065F46" /><path d="M84 96 h32" stroke="#fff" strokeWidth="4" strokeLinecap="round" strokeDasharray="2 7" /></svg>
+              </div>
+              <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /></svg> Collaborative Learning</span>
+            </div>
+            <div className="gal-item reveal" data-delay="3">
+              <div className="gal-bg" style={{ background: 'linear-gradient(135deg,#D97706,#F59E0B)' }}>
+                <svg viewBox="0 0 200 180" style={{ width: '100%', height: '100%', opacity: 0.5 }} preserveAspectRatio="xMidYMid slice"><rect x="36" y="90" width="130" height="50" rx="12" fill="#78350F" /><rect x="46" y="60" width="110" height="36" rx="10" fill="#FEF3C7" /><circle cx="160" cy="46" r="16" fill="#FDE68A" /></svg>
+              </div>
+              <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 11l9-8 9 8" /><path d="M5 10v10h14V10" /></svg> Comfortable Environment</span>
+            </div>
+            <div className="gal-item w2 reveal" data-delay="2">
+              <div className="gal-bg" style={{ background: 'linear-gradient(135deg,#4C1D95,#7C3AED)' }}>
+                <svg viewBox="0 0 400 180" style={{ width: '100%', height: '100%', opacity: 0.5 }} preserveAspectRatio="xMidYMid slice"><rect x="50" y="40" width="90" height="110" rx="10" fill="#2E1065" /><rect x="160" y="40" width="90" height="110" rx="10" fill="#2E1065" /><rect x="270" y="40" width="90" height="110" rx="10" fill="#2E1065" /><rect x="64" y="56" width="62" height="8" rx="4" fill="#A78BFA" /><rect x="174" y="56" width="62" height="8" rx="4" fill="#A78BFA" /><rect x="284" y="56" width="62" height="8" rx="4" fill="#A78BFA" /><rect x="64" y="74" width="42" height="8" rx="4" fill="#C4B5FD" /><rect x="174" y="74" width="42" height="8" rx="4" fill="#C4B5FD" /><rect x="284" y="74" width="42" height="8" rx="4" fill="#C4B5FD" /></svg>
+              </div>
+              <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 6.2L21 9l-5 4.4L17.5 20 12 16.5 6.5 20 8 13.4 3 9l6.6-.8z" /></svg> Premium Infrastructure</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ CTA + LEAD FORM ============ */}
+      <section className="cta bb-section" id="contact" aria-labelledby="cta-title">
+        <div className="container cta-grid">
+          <div className="reveal">
+            <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 15 per Batch</span>
+            <h2 id="cta-title">Ready to unlock your child&apos;s potential?</h2>
+            <p className="lede">Book a FREE demo class today. Experience our teaching style, meet the mentors, and see the difference — no commitment needed.</p>
+            <div className="cta-btns">
+              <a href="#leadForm" className="btn btn-amber">Book Free Demo
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.7 2z" /></svg>
+                Call Now
+              </a>
+              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="btn btn-green">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.4.9-.9 1-.7 1.4.9 1.5 2 2.5 3.4 3.1.4.2.6.2.8-.1.2-.2.9-1 1.1-1.3.2-.3.4-.3.7-.2l2 1c.3.1.5.2.6.3 0 .2 0 .8-.2 1.5z" /></svg>
+                WhatsApp
               </a>
             </div>
-            
-            {/* Mobile Menu Button */}
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-lg transition">
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
+            <ul className="cta-points">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg> Free diagnostic assessment included</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg> Meet IITian faculty face-to-face</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg> Personalized program recommendation</li>
+            </ul>
           </div>
-          
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden bg-white border-t border-gray-200 py-4 space-y-3">
-              <a href="/foundation" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">Foundation Courses</a>
-              <a href="/olympiad-math" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">Maths Excellence Program</a>
-              <a href="/12th-board" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">Indian Boards</a>
-              <a href="/international-boards" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">International Boards</a>
-              <a href="/one-on-one" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">1-1 Class</a>
-              <a href="/admissions" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded text-gray-700 hover:bg-gray-50">Admission Enquiry</a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded text-green-600 hover:bg-green-50 flex items-center space-x-2">
-                <svg className="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                <span>WhatsApp: 9850570525</span>
-              </a>
-            </div>
-          )}
-        </div>
-      </nav>
 
-      {/* Hero Section */}
-      <section className="relative py-8 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
-        <div className="max-w-7xl mx-auto relative">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
-              
-              Premium <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Coaching for</span> <br></br>IIT &
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Medical</span> <br></br>
-              <span className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Grades 6-12</span> 
-              <span className="ml-6 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">●</span> Online Available</span>
-              <br></br>
-            </h1>
-            <p className="text-xl text-gray-600 mb-4">
-              Founded by <span className="font-bold text-gray-900">Dilip Sir</span> (<span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">IIT Kanpur</span> | <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-semibold">IIM Ahmedabad</span> | JEE AIR 400 | 25 years exp.)
-            </p>
-            <p className="text-lg text-gray-700 mb-8">
-              Premium coaching for Foundation, JEE Main, MHT-CET & NEET. <br></br>
-              Learn from <span className="font-bold">IITians</span> who mentor you personally in ultra-small batches!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={() => setShowCtaModal(true)}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold"
-              >
-                <span>Start Your Journey</span>
-                <ChevronRight className="w-5 h-5" />
-              </button>
-              <button 
-                onClick={() => setShowCtaModal(true)}
-                className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold"
-              >
-                Schedule a Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-white mb-2">{stat.number}</div>
-                <div className="text-blue-100 text-sm md:text-base">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Courses Section */}
-      <section id="courses" className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Premium Courses</h2>
-            <p className="text-xl text-gray-600">Expertly designed programs for every aspiring student</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {courses.map((course, index) => {
-              const Icon = course.icon;
-              return (
-                <div key={index} className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                  <div className={`bg-gradient-to-r ${course.gradient} p-8 text-white relative overflow-hidden`}>
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
-                    <Icon className="w-12 h-12 mb-4 relative z-10" />
-                    <h3 className="text-2xl font-bold mb-1 relative z-10">{course.title}</h3>
-                    <p className="text-white/90 text-sm relative z-10">{course.subtitle}</p>
+          <form className="lead-form reveal" data-delay="1" id="leadForm" noValidate onSubmit={handleSubmit}>
+            {!submitted ? (
+              <div id="formFields">
+                <h3>Book Your FREE Demo Class</h3>
+                <p className="fsub">Fill in the details below — our team will call you within 24 hours.</p>
+                <div className="f-row">
+                  <div className={`f-field${invalidFields.studentName ? ' invalid' : ''}`}>
+                    <label htmlFor="studentName">Student Name *</label>
+                    <input type="text" id="studentName" name="studentName" placeholder="Aarav Sharma" autoComplete="name" required value={formData.studentName} onChange={handleChange} onBlur={handleBlur} />
+                    <span className="err">{FIELD_ERRORS.studentName}</span>
                   </div>
-                  <div className="p-8">
-                    <p className="text-gray-600 mb-6">{course.description}</p>
-                    <ul className="space-y-3 mb-6">
-                      {course.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center group/bullet">
-                          <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 group-hover/bullet:from-blue-200 group-hover/bullet:to-blue-400 shadow-sm mr-3">
-                            <Star className="w-4 h-4 text-blue-600" />
-                          </span>
-                          <span className="text-gray-800 font-medium tracking-tight text-base whitespace-nowrap overflow-hidden text-ellipsis" style={{letterSpacing: '0.01em'}}>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <a href={index === 0 ? "/foundation" : index === 3 ? "/10th-board" : index === 4 ? "/12th-board" : "#"} className="block w-full bg-gray-900 text-white py-3 rounded-lg hover:bg-gray-800 transition font-semibold shadow-lg hover:shadow-xl text-center">
-                      Learn More
-                    </a>
+                  <div className={`f-field${invalidFields.parentName ? ' invalid' : ''}`}>
+                    <label htmlFor="parentName">Parent Name *</label>
+                    <input type="text" id="parentName" name="parentName" placeholder="Rajesh Sharma" required value={formData.parentName} onChange={handleChange} onBlur={handleBlur} />
+                    <span className="err">{FIELD_ERRORS.parentName}</span>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Founder Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop" 
-                alt="Dilip Sir teaching" 
-                className="relative rounded-3xl shadow-2xl w-full h-96 object-cover"
-              />
-            </div>
-            <div>
-              <div className="inline-block bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                Meet Our Founder
-              </div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Dilip Sir</h2>
-              <p className="text-xl text-gray-700 mb-6">
-                <span className="font-bold text-blue-600">IIT Kanpur</span> | <span className="font-bold text-blue-600">IIM Ahmedabad</span> | JEE AIR 400 | 25 Years Experience
-              </p>
-              <div className="space-y-4 text-gray-700">
-                <p className="flex items-start">
-                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
-                  <span>An IIT/IIM Alumni Initiative - Excellence Redefined</span>
-                </p>
-                <p className="flex items-start">
-                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
-                  <span>Former faculty at Career Point, bringing elite coaching experience</span>
-                </p>
-                <p className="flex items-start">
-                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
-                  <span>Personal mentorship from champions including AIR-400 ranked experts</span>
-                </p>
-                <p className="flex items-start">
-                  <ChevronRight className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-1" />
-                  <span>Ultra-small batches ensuring every student gets individual attention</span>
-                </p>
-              </div>
-              <div className="mt-8">
-                <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold">
-                  <Phone className="w-5 h-5" />
-                  <span>Contact Us</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose BuzzyBrains Academy?</h2>
-            <p className="text-xl text-gray-600">Excellence in every aspect of learning</p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: Users, title: "Ultra-Small Batches", desc: "Maximum 12 students per batch for personalized attention" },
-              { icon: BookOpen, title: "IITian Mentors", desc: "Learn from champions like AIR-400 Dilip Sir" },
-              { icon: Award, title: "Concept Mastery", desc: "Strong foundation with doubt resolution sessions" },
-              { icon: TrendingUp, title: "Vedic Maths", desc: "Lightning-fast calculation skills advantage" }
-            ].map((item, index) => {
-              const Icon = item.icon;
-              return (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-                  <Icon className="w-12 h-12 text-blue-600 mb-4" />
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="text-gray-600">{item.desc}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Results Section */}
-      <section id="results" className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Outstanding Results</h2>
-            <p className="text-xl text-gray-600">Excellence in Every Board, Every Exam</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {/* 10th Board */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
-              <div className="bg-gradient-to-r from-blue-600 to-cyan-600 p-6 text-white">
-                <h3 className="text-2xl font-bold">{results["10thBoard"].title}</h3>
-              </div>
-              <div className="p-8">
-                <div className="space-y-4">
-                  {results["10thBoard"].students.map((student, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border-l-4 border-blue-600">
-                      <div>
-                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
-                        <p className="text-sm text-gray-600">{student.board}</p>
-                      </div>
-                      <div className="bg-gradient-to-br from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-lg font-bold text-center">
-                        {student.score}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* 12th Board */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
-              <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-6 text-white">
-                <h3 className="text-2xl font-bold">{results["12thBoard"].title}</h3>
-              </div>
-              <div className="p-8">
-                <div className="space-y-4">
-                  {results["12thBoard"].students.map((student, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg border-l-4 border-green-600">
-                      <div>
-                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
-                        <p className="text-sm text-gray-600">{student.board}</p>
-                      </div>
-                      <div className="bg-gradient-to-br from-green-600 to-emerald-600 text-white px-4 py-2 rounded-lg font-bold text-center">
-                        {student.score}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* JEE Results */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
-              <div className="bg-gradient-to-r from-yellow-500 to-orange-500 p-6 text-white">
-                <h3 className="text-2xl font-bold">{results.jee.title}</h3>
-              </div>
-              <div className="p-8">
-                <div className="space-y-4">
-                  {results.jee.students.map((student, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border-l-4 border-yellow-500">
-                      <div>
-                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
-                        <p className="text-sm text-gray-600">{student.board}</p>
-                      </div>
-                      <div className="bg-gradient-to-br from-yellow-500 to-orange-500 text-white px-4 py-2 rounded-lg font-bold text-center">
-                        {student.score}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* NEET Results */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
-              <div className="bg-gradient-to-r from-pink-600 to-red-600 p-6 text-white">
-                <h3 className="text-2xl font-bold">{results.neet.title}</h3>
-              </div>
-              <div className="p-8">
-                <div className="space-y-4">
-                  {results.neet.students.map((student, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-4 bg-gradient-to-r from-pink-50 to-red-50 rounded-lg border-l-4 border-pink-600">
-                      <div>
-                        <p className="font-bold text-gray-900 text-lg">{student.name}</p>
-                        <p className="text-sm text-gray-600">{student.board}</p>
-                      </div>
-                      <div className="bg-gradient-to-br from-pink-600 to-red-600 text-white px-4 py-2 rounded-lg font-bold text-center">
-                        {student.score}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Faculty Section */}
-      <section id="faculty" className="py-20 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Elite Faculty</h2>
-            <p className="text-xl text-gray-600"><span className="font-bold">IITians</span> & Medical Experts Dedicated to Your Success</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {faculty.map((member, index) => (
-              <div key={index} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                {/* Header with gradient */}
-                <div className={`bg-gradient-to-r ${member.color} p-8 text-white relative overflow-hidden h-40 flex flex-col justify-between`}>
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -mr-12 -mt-12"></div>
-                  <div className="relative z-10">
-                    <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-                    <p className="text-lg font-semibold text-white/90">{member.subject}</p>
+                <div className="f-row">
+                  <div className={`f-field${invalidFields.grade ? ' invalid' : ''}`}>
+                    <label htmlFor="grade">Grade *</label>
+                    <select id="grade" name="grade" required value={formData.grade} onChange={handleChange} onBlur={handleBlur}>
+                      <option value="">Select grade</option>
+                      <option>Grade 6</option><option>Grade 7</option><option>Grade 8</option>
+                      <option>Grade 9</option><option>Grade 10</option><option>Grade 11</option>
+                      <option>Grade 12</option><option>Dropper / Repeater</option>
+                    </select>
+                    <span className="err">{FIELD_ERRORS.grade}</span>
+                  </div>
+                  <div className="f-field">
+                    <label htmlFor="school">School</label>
+                    <input type="text" id="school" name="school" placeholder="Your school name" value={formData.school} onChange={handleChange} />
+                    <span className="err" />
                   </div>
                 </div>
-                
-                {/* Content */}
-                <div className={`p-6 bg-gradient-to-br ${member.bgColor}`}>
-                  <div className="mb-4 pb-4 border-b border-gray-300">
-                    <p className="text-sm font-semibold text-gray-600">Qualifications</p>
-                    <p className="text-gray-900 font-bold mt-1">{member.qualification}</p>
+                <div className="f-row">
+                  <div className={`f-field${invalidFields.phone ? ' invalid' : ''}`}>
+                    <label htmlFor="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" placeholder="98XXXXXXXX" autoComplete="tel" required value={formData.phone} onChange={handleChange} onBlur={handleBlur} />
+                    <span className="err">{FIELD_ERRORS.phone}</span>
                   </div>
-                  
-                  <div>
-                    <p className="text-sm font-semibold text-gray-600">Expertise</p>
-                    <p className="text-gray-900 font-bold mt-1 text-sm leading-relaxed">{member.expertise}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Student Success Stories</h2>
-            <p className="text-xl text-gray-600">Hear from our achievers</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-blue-600">
-                <div className="flex justify-between items-start mb-4">
-                  <div className="flex">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-               
-                </div>
-                <p className="text-gray-700 mb-6 italic leading-relaxed">"{testimonial.text}"</p>
-                <div className="border-t pt-4">
-                  <p className="font-bold text-gray-900">{testimonial.name}</p>
-                  <p className="text-sm text-gray-600">{testimonial.course}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Success Journey?</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Join BuzzyBrains Academy today and transform your academic dreams into reality
-          </p>
-          <button 
-            onClick={() => setShowCtaModal(true)}
-            className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold"
-          >
-            Book Free Counselling
-          </button>
-        </div>
-      </section>
-
-      {/* Contact Us Section */}
-      <section id="contact" className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
-            <p className="text-xl text-gray-600">Get in touch with our team</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Contact Information */}
-            <div className="space-y-8">
-              {/* Phone */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-blue-600 to-cyan-600 p-4 rounded-lg text-white flex-shrink-0">
-                    <Phone className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-                    <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
-                      Contact Us
-                    </a>
+                  <div className={`f-field${invalidFields.email ? ' invalid' : ''}`}>
+                    <label htmlFor="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" autoComplete="email" required value={formData.email} onChange={handleChange} onBlur={handleBlur} />
+                    <span className="err">{FIELD_ERRORS.email}</span>
                   </div>
                 </div>
-              </div>
-
-              {/* WhatsApp */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-green-600 to-emerald-600 p-4 rounded-lg text-white flex-shrink-0">
-                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">WhatsApp</h3>
-                    <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-semibold text-lg">
-                      Chat with us
-                    </a>
+                <div className="f-row">
+                  <div className={`f-field full${invalidFields.program ? ' invalid' : ''}`}>
+                    <label htmlFor="program">Program Interested In *</label>
+                    <select id="program" name="program" required value={formData.program} onChange={handleChange} onBlur={handleBlur}>
+                      <option value="">Select a program</option>
+                      <option>Foundation (Grades 6–10)</option>
+                      <option>IIT-JEE</option>
+                      <option>NEET</option>
+                      <option>Olympiads (IMO / NSO / IOQM / PRMO / NMTC)</option>
+                      <option>Not sure — help me choose</option>
+                    </select>
+                    <span className="err">{FIELD_ERRORS.program}</span>
                   </div>
                 </div>
-              </div>
-
-              {/* Email */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-yellow-500 to-orange-500 p-4 rounded-lg text-white flex-shrink-0">
-                    <Mail className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-                    <a href="mailto:info@buzzybrainsacademy.com" className="text-blue-600 hover:text-blue-700 font-semibold">
-                      info@buzzybrainsacademy.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Address */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-gradient-to-br from-pink-600 to-red-600 p-4 rounded-lg text-white flex-shrink-0">
-                    <MapPin className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Address</h3>
-                    <p className="text-gray-700 font-semibold">
-                      Amanora Park Town<br />
-                      Hadapsar, Pune-411028<br />
-                      Maharashtra, India
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Contact Form */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
-              <form onSubmit={handleFormSubmit} className="space-y-6">
-                {/* Name */}
-                <div>
-                  <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
-                    Full Name <span className="text-red-600">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleFormChange}
-                    required
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:outline-none transition"
-                    placeholder="Your name"
-                  />
-                </div>
-
-                {/* Phone Number */}
-                <div>
-                  <label htmlFor="number" className="block text-gray-700 font-semibold mb-2">
-                    Phone Number <span className="text-red-600">*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    id="number"
-                    name="number"
-                    value={formData.number}
-                    onChange={handleFormChange}
-                    required
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:outline-none transition"
-                    placeholder="Your phone number"
-                  />
-                </div>
-
-                {/* Class */}
-                <div>
-                  <label htmlFor="class" className="block text-gray-700 font-semibold mb-2">
-                    Class <span className="text-red-600">*</span>
-                  </label>
-                  <select
-                    id="class"
-                    name="class"
-                    value={formData.class}
-                    onChange={handleFormChange}
-                    required
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:outline-none transition bg-white"
-                  >
-                    <option value="">Select your class</option>
-                    <option value="6">Class 6</option>
-                    <option value="7">Class 7</option>
-                    <option value="8">Class 8</option>
-                    <option value="9">Class 9</option>
-                    <option value="10">Class 10</option>
-                    <option value="11">Class 11</option>
-                    <option value="12">Class 12</option>
-                  </select>
-                </div>
-
-                {/* Query */}
-                <div>
-                  <label htmlFor="query" className="block text-gray-700 font-semibold mb-2">
-                    Your Query <span className="text-red-600">*</span>
-                  </label>
-                  <textarea
-                    id="query"
-                    name="query"
-                    value={formData.query}
-                    onChange={handleFormChange}
-                    required
-                    rows={4}
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:outline-none transition resize-none"
-                    placeholder="Tell us about your query or interest..."
-                  ></textarea>
-                </div>
-
-                {/* Submit Button */}
-                <button
-                  type="submit"
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg hover:shadow-xl transition font-bold text-lg flex items-center justify-center space-x-2"
-                >
-                  <span>Send via WhatsApp</span>
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/>
-                  </svg>
+                <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: 8 }}>Book Your FREE Demo Class
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </button>
-              </form>
-            </div>
-          </div>
+                <p style={{ fontSize: 12.5, color: 'var(--text-3)', textAlign: 'center', marginTop: 14 }}>No spam, ever. We&apos;ll only contact you about your demo class.</p>
+              </div>
+            ) : (
+              <div className="form-success show" role="status">
+                <div className="ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg></div>
+                <h3 style={{ color: 'var(--text)' }}>You&apos;re all set! 🎉</h3>
+                <p style={{ color: 'var(--text-2)', fontSize: 15, marginTop: 8 }}>Thanks for booking a free demo. Our team will call you within 24 hours to confirm your slot.</p>
+              </div>
+            )}
+          </form>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
-          <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <GraduationCap className="w-8 h-8" />
-              <span className="text-xl font-bold">BuzzyBrains Academy</span>
-            </div>
-            <p className="text-gray-400">Transforming students into achievers since 2010</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="/about" className="hover:text-white transition">About Us</a></li>
-              <li><a href="#courses" className="hover:text-white transition">Courses</a></li>
-              <li><a href="#results" className="hover:text-white transition">Results</a></li>
-              <li><a href="/admissions" className="hover:text-white transition">Admission Enquiry</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Programs</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#foundation" className="hover:text-white transition">Foundation (6-10)</a></li>
-              <li><a href="#courses" className="hover:text-white transition">Excellence Track (11-12)</a></li>
-              <li><a href="#courses" className="hover:text-white transition">JEE Main & MHT-CET</a></li>
-              <li><a href="#courses" className="hover:text-white transition">NEET Coaching</a></li>
-              <li><a href="#courses" className="hover:text-white transition">10th Board Programs</a></li>
-              <li><a href="#courses" className="hover:text-white transition">12th Board Programs</a></li>
-              <li><a href="#courses" className="hover:text-white transition">Board Crash Courses</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4">Contact</h3>
-            <ul className="space-y-3 text-gray-400">
-              <li className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Contact Us</a>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
-                <span>info@buzzybrainsacademy.com</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/></svg>
-                <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">WhatsApp</a>
-              </li>
-              <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-1" />
-                <span>Amanora Park Town, Hadapsar, PUne-411028, Maharashtra</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2025 BuzzyBrains Academy. All rights reserved.</p>
-        </div>
-      </footer>
-
-      {/* CTA Modal */}
-      {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Connect With Us! 👋</h2>
-              <p className="text-gray-600">Choose how you'd like to reach out to BuzzyBrains Academy</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-            </div>
-            
-            <button
-              onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
-
-    {/* Floating WhatsApp Chat Button */}
-    <a
-      href="https://wa.me/919850570525"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 transition-all group"
-      title="Chat on WhatsApp"
-    >
-      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.67.15-.198.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.2 5.077 4.363.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.617h-.001a9.87 9.87 0 01-4.985-1.357l-.361-.214-3.708.982.991-3.617-.235-.372a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.987c-.003 5.45-4.437 9.884-9.884 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.876 11.876 0 005.735 1.463h.005c6.554 0 11.889-5.335 11.892-11.892a11.82 11.82 0 00-3.484-8.463z"/>
-      </svg>
-      <span className="sr-only">Chat on WhatsApp</span>
-    </a>
-  </div>
+    </main>
   );
 }
