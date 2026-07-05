@@ -18,17 +18,11 @@ export default function Footer() {
             </Link>
             <p>Premium coaching for IIT-JEE, NEET, Olympiads and Foundation — where learning is fun, conceptual and powered by technology.</p>
             <div className="foot-social">
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61590943110329" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
               </a>
-              <a href="#" aria-label="Instagram">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4.5" /><circle cx="17.5" cy="6.5" r="1.4" fill="currentColor" stroke="none" /></svg>
-              </a>
-              <a href="#" aria-label="YouTube">
+              <a href="https://www.youtube.com/@BuzzyBrainsAcademy" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.9 4 12 4 12 4s-6.9 0-8.5.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.6 2.8 2.8 0 0 0 2 2c1.6.4 8.5.4 8.5.4s6.9 0 8.5-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.6zM9.8 15.5v-7l6 3.5z" /></svg>
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.9 5.9 0 0 1 16 8zM6 21H2V8h4zM4 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" /></svg>
               </a>
             </div>
           </div>

@@ -194,7 +194,9 @@ const FACULTY = [
   { name: 'Sourav Sir', subject: 'Physics', qualification: 'IIT Bombay', expertise: 'Renowned for turning complex topics into simple, visual explanations.', initials: 'SS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
   { name: 'Agarwal Sir', subject: 'Chemistry', qualification: 'PhD in Education Psychology · IIT Bombay · BTech Chemical Engineering · ICT Mumbai', expertise: '13+ years of experience teaching chemistry to JEE & NEET aspirants with proven results.', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
   { name: 'Dr. Todkar', subject: 'Biology', qualification: 'NEET Biology Expert', expertise: '25+ years of experience in teaching NEET candidates with a strong focus on conceptual clarity and exam readiness.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
-  { name: 'Deepti Maam', subject: 'Chemistry', qualification: 'IIT Delhi', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Dr. Urmila', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Experienced educator with a strong academic foundation and a passion for making chemistry clear, structured and exam-focused.', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Specialized in chemistry teaching with a strong research background and a calm, concept-driven approach for exam preparation.', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
+  { name: 'Deepti Maam', subject: 'Chemistry', qualification: 'IIT Delhi', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
   { name: 'Dr. Aditi', subject: 'Biology', qualification: 'AIIMS · Medical Expert', expertise: 'Brings scientific depth, clarity, and confidence for all medical aspirants.', initials: 'DA', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
 ];
 
@@ -730,40 +732,6 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ============ TESTIMONIALS ============ */}
-      <section className="testis bb-section" id="testimonials" aria-labelledby="testi-title">
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="center">
-            <span className="eyebrow reveal">Success Stories</span>
-            <h2 className="section-title reveal" id="testi-title" style={{ color: '#fff' }}>Students shine. Parents smile.</h2>
-            <p className="section-sub reveal" style={{ marginInline: 'auto' }}>Real results from real families across Pune.</p>
-          </div>
-          <div className="carousel">
-            <div className="carousel-track" id="carTrack" ref={trackRef} tabIndex={0} aria-label="Testimonials carousel, scroll horizontally">
-              {TESTIMONIALS.map((t) => (
-                <article className="tcard" key={t.name}>
-                  <span className="tach">{t.course}</span>
-                  <p className="quote">&quot;{t.text}&quot;</p>
-                  <div className="rating" aria-label="5 out of 5 stars">★★★★★</div>
-                  <div className="tperson">
-                    <span className="tavatar" style={{ background: t.gradient }}>{t.avatar}</span>
-                    <div><b>{t.name}</b><small>{t.course}</small></div>
-                  </div>
-                </article>
-              ))}
-            </div>
-            <div className="car-nav">
-              <button className="car-btn" aria-label="Previous testimonial" onClick={() => scrollCarousel(-1)}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M11 18l-6-6 6-6" /></svg>
-              </button>
-              <button className="car-btn" aria-label="Next testimonial" onClick={() => scrollCarousel(1)}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-              </button>
-            </div>
           </div>
         </div>
       </section>

@@ -166,7 +166,7 @@ export default function InternationalBoardsPage() {
   const currentSubtitle = activeTab === 'IGCSE' ? 'Grades 6-10 (Cambridge/Edexcel)' : activeTab === 'IB' ? 'MYP (6-10) & DP (11-12)' : 'Advanced Placement Exams';
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <div className="min-h-screen bb-page-shell">
       {/* Tab Switcher - Top Navigation */}
       <section className="bg-white border-b-2 border-gray-200 sticky top-[74px] z-40 pb-4 px-4 pt-[90px]">
         <div className="max-w-7xl mx-auto">

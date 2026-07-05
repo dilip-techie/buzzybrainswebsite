@@ -100,7 +100,7 @@ export default function OlympiadMathLanding() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30 text-slate-900">
+    <div className="min-h-screen bb-page-shell text-slate-900">
       {/* Hero Section */}
       <section className="pt-[calc(74px+6rem)] pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Premium animated background */}

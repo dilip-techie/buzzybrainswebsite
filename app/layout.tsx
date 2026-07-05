@@ -131,9 +131,8 @@ export default function RootLayout({
               },
               openingHours: 'Mo-Sa 09:00-20:00',
               sameAs: [
-                'https://www.facebook.com/buzzybrainsacademy',
-                'https://www.instagram.com/buzzybrainsacademy',
-                'https://www.youtube.com/@buzzybrainsacademy',
+                'https://www.facebook.com/profile.php?id=61590943110329',
+                'https://www.youtube.com/@BuzzyBrainsAcademy',
               ],
             }),
           }}
