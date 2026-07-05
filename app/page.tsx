@@ -196,7 +196,7 @@ const FACULTY = [
   { name: 'Dr. Todkar', subject: 'Biology', qualification: 'NEET Biology Expert', expertise: '25+ years of experience in teaching NEET candidates with a strong focus on conceptual clarity and exam readiness.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
   { name: 'Dr. Urmila', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Experienced educator with a strong academic foundation and a passion for making chemistry clear, structured and exam-focused.', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
   { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Specialized in chemistry teaching with a strong research background and a calm, concept-driven approach for exam preparation.', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
-  { name: 'Deepti Maam', subject: 'Chemistry', qualification: 'IIT Delhi', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { name: 'Shivangi Saxena', subject: 'Chemistry', qualification: 'BE MIT', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
   { name: 'Dr. Aditi', subject: 'Biology', qualification: 'AIIMS · Medical Expert', expertise: 'Brings scientific depth, clarity, and confidence for all medical aspirants.', initials: 'DA', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
 ];
 
