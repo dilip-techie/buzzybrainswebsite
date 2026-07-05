@@ -430,7 +430,10 @@ export default function HomePage() {
               <div className="stats-grid">
                 {STATS.map((stat) => (
                   <div className="stat" key={stat.label}>
-                    <b><span className="count" data-count={stat.count}>0</span>{stat.suffix}</b>
+                    <b>
+                      <span className="count" data-count={stat.count}>0</span>
+                      {stat.suffix ? <span className="stat-suffix">{stat.suffix}</span> : null}
+                    </b>
                     <span>{stat.label}</span>
                   </div>
                 ))}
