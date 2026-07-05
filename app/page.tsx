@@ -251,6 +251,13 @@ export default function HomePage() {
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
+  const [showOlympiadPopup, setShowOlympiadPopup] = useState(true);
+
+  useEffect(() => {
+    if (!showOlympiadPopup) return;
+    const timer = window.setTimeout(() => setShowOlympiadPopup(false), 4800);
+    return () => window.clearTimeout(timer);
+  }, [showOlympiadPopup]);
 
   useEffect(() => {
     const io = new IntersectionObserver(
@@ -355,6 +362,17 @@ export default function HomePage() {
 
   return (
     <main className="bb-landing" id="top">
+      <div className={`olympiad-popup ${showOlympiadPopup ? 'show' : 'hide'}`} role="status" aria-live="polite">
+        <div className="olympiad-popup__icon">🏅</div>
+        <div>
+          <p className="olympiad-popup__title">Olympiad batches are now open</p>
+          <p className="olympiad-popup__text">Join our upcoming classes for IMO, ISO and IOQM with expert guidance.</p>
+        </div>
+        <button type="button" className="olympiad-popup__close" onClick={() => setShowOlympiadPopup(false)} aria-label="Dismiss popup">
+          ×
+        </button>
+      </div>
+
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="eq-field" aria-hidden="true">

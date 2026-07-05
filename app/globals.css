@@ -180,6 +180,52 @@ button{font-family:inherit;cursor:pointer}
   .nav-cta{display:none}
 }
 
+/* ============ OLYMPIAD POPUP ============ */
+.olympiad-popup{
+  position: fixed;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  z-index: 95;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: min(92vw, 560px);
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(37,99,235,.96), rgba(124,58,237,.95));
+  color: #fff;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s var(--ease), transform .6s var(--ease);
+}
+.olympiad-popup.show{
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+.olympiad-popup.hide{
+  opacity: 0;
+  transform: translateX(-50%) translateY(-10px);
+  pointer-events: none;
+}
+.olympiad-popup__icon{font-size:24px;line-height:1;flex-shrink:0}
+.olympiad-popup__title{font-size:15px;font-weight:800;margin:0;letter-spacing:-.01em}
+.olympiad-popup__text{font-size:13px;margin:2px 0 0;color:rgba(255,255,255,.92)}
+.olympiad-popup__close{
+  margin-left:auto;
+  border:0;
+  background:rgba(255,255,255,.16);
+  color:#fff;
+  width:30px;height:30px;border-radius:999px;
+  display:grid;place-items:center;font-size:18px;line-height:1;
+}
+@media(max-width:720px){
+  .olympiad-popup{top:84px;padding:12px 14px}
+  .olympiad-popup__text{font-size:12px}
+}
+
 /* ============ HERO ============ */
 .hero{
   position:relative;padding:140px 0 90px;overflow:hidden;
