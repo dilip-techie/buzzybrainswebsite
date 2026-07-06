@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useMemo } from 'react';
 import { Bot, Save, CheckCircle2, AlertCircle, Loader2, Sparkles, Wand2, Upload, FileText, X, Trophy, BookOpen, ShieldCheck, ChevronDown } from 'lucide-react';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 // ── Curriculum Data ──────────────────────────────────────────────────
 type DiffKey = 'Easy' | 'Medium' | 'Hard' | 'Olympiad';
@@ -533,7 +534,7 @@ export default function AISeederPage() {
 
                   <div className="pr-28">
                     <span className="font-bold text-indigo-600 mr-2">Q{idx+1}.</span>
-                    <span className="font-semibold text-slate-800 text-sm">{q.content}</span>
+                    <div className="font-semibold text-slate-800 text-sm"><LatexContent content={q.content} /></div>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">

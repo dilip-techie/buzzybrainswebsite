@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Search, Filter, X, Check } from 'lucide-react';
 import { Difficulty, QuestionType } from '@prisma/client';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 export default function QuestionBank() {
   const [questions, setQuestions] = useState<any[]>([]);
@@ -223,7 +224,7 @@ export default function QuestionBank() {
                       <span className="text-slate-400 block text-[10px]">{q.board} • {q.subject}</span>
                     </td>
                     <td className="p-3.5 max-w-md">
-                      <p className="text-slate-900 dark:text-slate-100 font-medium line-clamp-2">{q.content}</p>
+                        <div className="text-slate-900 dark:text-slate-100 font-medium line-clamp-2"><LatexContent content={q.content} /></div>
                       {q.options && Array.isArray(q.options) && (
                         <div className="flex flex-wrap gap-1.5 mt-1 text-[10px] text-slate-500">
                           {q.options.map((o: string, oI: number) => (

@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Award, Clock, CheckCircle2, BellRing, X, Check, ListOrdered, Trophy, Loader2 } from 'lucide-react';
 import { useDialog } from '@/components/exams/ui/DialogProvider';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 interface StudentDashboardProps {
   onStartAttempt: (testId: string) => void;
@@ -323,9 +324,10 @@ export default function StudentDashboard({ onStartAttempt, userId, userName, aut
                     return (
                       <div key={ans.id} className="p-4 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 space-y-3">
                         <div className="flex items-start justify-between gap-4">
-                          <span className="text-xs font-bold text-slate-900 dark:text-slate-100 flex-1">
-                            Q{idx + 1}. {q.content}
-                          </span>
+                          <div className="text-xs font-bold leading-relaxed text-slate-900 dark:text-slate-100 flex mb-3">
+                            <span className="mr-2">Q{idx + 1}.</span>
+                            <LatexContent content={q.content} />
+                          </div>
                           <span className={`text-[10px] font-extrabold px-2 py-0.5 rounded shrink-0 ${
                             ans.isCorrect ? 'bg-emerald-50 text-emerald-600' : 'bg-red-50 text-red-600'
                           }`}>
@@ -349,7 +351,7 @@ export default function StudentDashboard({ onStartAttempt, userId, userName, aut
 
                               return (
                                 <div key={opt} className={`p-2.5 rounded-lg border text-xs flex items-center justify-between gap-2 ${styleClass}`}>
-                                  <span className="truncate">{opt}</span>
+                                  <div className="flex-1 text-xs leading-snug"><LatexContent content={opt} /></div>
                                   <div className="flex items-center gap-1 shrink-0">
                                     {isChecked && <span className="text-[9px] uppercase font-bold tracking-wider opacity-80">(Your Answer)</span>}
                                     {isCorrectTarget && <Check className="w-3.5 h-3.5 text-emerald-600 shrink-0" />}

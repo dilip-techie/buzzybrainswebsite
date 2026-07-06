@@ -7,6 +7,7 @@ import * as z from 'zod';
 import { ArrowLeft, ArrowRight, Check, Sparkles, RefreshCw, X } from 'lucide-react';
 import { Difficulty } from '@prisma/client';
 import { useDialog } from '@/components/exams/ui/DialogProvider';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 const step1Schema = z.object({
   title: z.string().min(3, 'Title is required'),
@@ -544,7 +545,7 @@ export default function TestWizard({ onComplete, onCancel, userId }: TestWizardP
                             <span className="text-slate-400">({item.marks} Marks)</span>
                           </div>
                           <p className="text-slate-800 dark:text-slate-200 font-medium">
-                            {q?.content || 'Question prompt placeholder'}
+                            <LatexContent content={q?.content || 'Question prompt placeholder'} />
                           </p>
                           {q?.options && Array.isArray(q.options) && (
                             <div className="flex flex-wrap gap-2 pt-1 text-[10px] text-slate-500">

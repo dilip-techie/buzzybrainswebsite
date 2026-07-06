@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Check, X, ChevronRight, Bookmark, Loader2, Trophy, RotateCcw, Home } from 'lucide-react';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 interface PracticeSessionProps {
   config: { grade: string; subject: string; chapter: string; difficulty: string };
@@ -169,8 +170,8 @@ export default function PracticeSession({ config, questions: preloaded, userId, 
 
       {/* Question */}
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
-        <p className="text-slate-900 dark:text-slate-100 font-semibold text-sm leading-relaxed">
-          Q{currentIdx + 1}. {current?.content}
+        <p className="text-slate-900 dark:text-slate-100 font-semibold text-sm leading-relaxed flex">
+          <span className="mr-2">Q{currentIdx + 1}.</span> <LatexContent content={current?.content} />
         </p>
       </div>
 
@@ -195,7 +196,7 @@ export default function PracticeSession({ config, questions: preloaded, userId, 
               <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 ${revealed && isThisCorrect ? 'bg-emerald-500 text-white' : revealed && isThisSelected ? 'bg-red-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500'}`}>
                 {revealed && isThisCorrect ? <Check className="w-3.5 h-3.5" /> : revealed && isThisSelected ? <X className="w-3.5 h-3.5" /> : letter}
               </span>
-              <span className="text-xs leading-snug">{opt}</span>
+              <div className="flex-1 text-xs leading-snug"><LatexContent content={opt} /></div>
             </button>
           );
         })}
@@ -212,7 +213,12 @@ export default function PracticeSession({ config, questions: preloaded, userId, 
               <p className={`text-xs font-bold ${isCorrect ? 'text-emerald-700' : 'text-red-600'}`}>
                 {isCorrect ? 'Correct!' : 'Incorrect'}
               </p>
-              {!isCorrect && <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">Correct: <span className="font-bold">{current?.correctAnswer}</span></p>}
+              {!isCorrect && <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">Correct: <LatexContent content={current?.correctAnswer} /></p>}
+              {current?.explanation && (
+                <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+                  <LatexContent content={current?.explanation} />
+                </div>
+              )}
             </div>
           </div>
           <div className="flex items-center gap-2">

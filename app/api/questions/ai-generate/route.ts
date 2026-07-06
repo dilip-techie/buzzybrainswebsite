@@ -231,10 +231,9 @@ Rules for generation:
 2. Provide exactly 4 distinct options. Do not make the correct answer obviously stand out by length or format.
 3. Include common misconceptions as distractors in the wrong options.
 4. Provide a detailed, step-by-step explanation.
-5. IMPORTANT: DO NOT use LaTeX formatting or dollar signs ($) for math. Write equations as plain text (e.g. x^2 + 2x = 0).
+5. IMPORTANT: USE LaTeX formatting for ALL math equations and symbols. Enclose inline math in single dollar signs (e.g., $x^2 + 2x = 0$) and block math in double dollar signs ($$ ... $$).
 6. CRITICAL: The correctAnswer MUST be the EXACT same string as one of the 4 options. Double-check this.
 7. CRITICAL: Solve the question yourself before writing the answer. Make sure the correctAnswer is mathematically correct.
-
 Return the result matching the requested JSON schema perfectly.`;
 
     // ── Pass 1: Generate ──────────────────────────────────────────────

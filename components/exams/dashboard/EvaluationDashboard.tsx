@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Activity, Search, RefreshCw, BarChart2, CheckCircle2, XCircle, Clock, X, Check } from 'lucide-react';
+import LatexContent from '@/components/exams/ui/LatexContent';
 
 export default function EvaluationDashboard() {
   const [tests, setTests] = useState<any[]>([]);
@@ -248,9 +249,10 @@ export default function EvaluationDashboard() {
                       className="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950"
                     >
                       <div className="flex items-start justify-between gap-4">
-                        <p className="text-xs font-bold leading-relaxed text-slate-900 dark:text-slate-100">
-                          Q{idx + 1}. {q?.content || 'Question text unavailable'}
-                        </p>
+                        <div className="text-xs font-bold leading-relaxed text-slate-900 dark:text-slate-100 flex">
+                          <span className="mr-2">Q{idx + 1}.</span>
+                          <LatexContent content={q?.content || 'Question text unavailable'} />
+                        </div>
                         <span
                           className={`shrink-0 rounded px-2 py-0.5 text-[10px] font-extrabold ${
                             answer.isCorrect

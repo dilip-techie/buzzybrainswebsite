@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect, useCallback } from 'react';
+import LatexContent from '@/components/exams/ui/LatexContent';
 import { Zap, ChevronRight, ChevronLeft, AlertCircle, CheckCircle2, RefreshCw, Layers, BookOpen, Clock, Target, Timer, Send, Shuffle, ChevronDown, X } from 'lucide-react';
 
 interface BatchOpt { id: string; name: string; grade: string; _count: { enrollments: number }; }
@@ -381,7 +382,7 @@ export default function QuickTestWizard({ userId, onComplete }: { userId: string
                           {isSelected && <CheckCircle2 className="w-3 h-3 text-white" />}
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="text-xs font-medium text-slate-900 dark:text-slate-100">{q.content}</p>
+                          <div className="text-xs font-medium text-slate-900 dark:text-slate-100"><LatexContent content={q.content} /></div>
                           <p className="text-[10px] text-slate-400 mt-1">{q.topic}{q.chapter ? ` • ${q.chapter}` : ''}</p>
                           {q.options && Array.isArray(q.options) && (
                             <div className="mt-2 space-y-1">

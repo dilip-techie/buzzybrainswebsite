@@ -2,6 +2,7 @@
 import React, { useCallback, useEffect, useState, useMemo } from 'react';
 import { Clock, Send, ChevronLeft, ChevronRight, AlertTriangle, X, ShieldCheck, Eye } from 'lucide-react';
 import { QuestionType } from '@prisma/client';
+import LatexContent from '@/components/exams/ui/LatexContent';
 import { useDialog } from '@/components/exams/ui/DialogProvider';
 
 // Simple hash to generate a seed from a string (attemptId)
@@ -380,7 +381,7 @@ export default function TestInterface({
                 {/* Main Prompt Statement */}
                 <div className="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
                   <p className="text-slate-900 dark:text-slate-100 font-semibold text-base sm:text-lg leading-relaxed whitespace-pre-line">
-                    {q?.content || 'Question Prompt Missing'}
+                      <LatexContent content={q?.content || 'Question Prompt Missing'} />
                   </p>
                 </div>
 
@@ -413,7 +414,7 @@ export default function TestInterface({
                             }`}>
                               {choiceLetter}
                             </span>
-                            <span className="text-sm font-medium break-words leading-snug">{optionText}</span>
+                            <div className="flex-1 text-sm"><LatexContent content={optionText} /></div>
                           </button>
                         );
                       })}
