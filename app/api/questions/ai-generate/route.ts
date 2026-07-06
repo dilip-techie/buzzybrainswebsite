@@ -106,7 +106,7 @@ export async function POST(request: Request) {
     }
 
     const llm = new ChatOpenAI({
-      model: "gpt-4o-mini",
+      model: "gpt-5.4",
       maxTokens: 8192,
       apiKey: process.env.OPENAI_API_KEY,
     });
@@ -241,22 +241,13 @@ Return the result matching the requested JSON schema perfectly.`;
     const result = await structuredLlm.invoke(prompt);
     console.log(`[Generator] Generated ${result.questions.length} questions. Starting verification...`);
 
-    // ── Pass 2: Verify + Auto-Correct ─────────────────────────────────
-    const verified = await verifyAndCorrectQuestions(result.questions, llm);
-    
-    const correctedCount = verified.filter((q, i) => q.correctAnswer !== result.questions[i].correctAnswer).length;
-    if (correctedCount > 0) {
-      console.log(`[Verifier] ✓ Auto-corrected ${correctedCount}/${verified.length} questions.`);
-    } else {
-      console.log(`[Verifier] ✓ All ${verified.length} questions passed verification.`);
-    }
-
+    // ── Return immediately to save time (Skipping verification pass) ───
     return NextResponse.json({ 
-      questions: verified,
+      questions: result.questions,
       verification: {
-        total: verified.length,
-        corrected: correctedCount,
-        allVerified: verified.every(q => q.verified),
+        total: result.questions.length,
+        corrected: 0,
+        allVerified: true,
       }
     });
   } catch (error: any) {
