@@ -59,6 +59,37 @@ export default function ContactPage() {
           </div>
         </div>
 
+        {/* Branches Section */}
+        <div className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-lg border border-purple-500/30 p-8 mb-16">
+          <h2 className="text-2xl font-bold mb-8">Our Branches</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-lg border border-purple-400/30 bg-slate-950/40 p-6">
+              <h3 className="text-xl font-semibold mb-2">Branch 1: Wisdom World Centre</h3>
+              <p className="text-gray-300 mb-4">Visit our premium learning centre at Wisdom World Centre for admissions, demo classes, and campus guidance.</p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+Wisdom+World+Centre+Pune"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-purple-300 font-semibold hover:text-purple-200 transition"
+              >
+                View on Google
+              </a>
+            </div>
+            <div className="rounded-lg border border-purple-400/30 bg-slate-950/40 p-6">
+              <h3 className="text-xl font-semibold mb-2">Branch 2: Aspire Towers</h3>
+              <p className="text-gray-300 mb-4">Meet our mentors and explore programs at Aspire Towers for focused coaching and personalized support.</p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+Aspire+Towers+Pune"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-purple-300 font-semibold hover:text-purple-200 transition"
+              >
+                View on Google
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* FAQ Section */}
         <div className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-lg border border-purple-500/30 p-8 mb-16">
           <h2 className="text-2xl font-bold mb-8">Frequently Asked Questions</h2>

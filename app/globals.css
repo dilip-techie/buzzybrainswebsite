@@ -801,7 +801,7 @@ button{font-family:inherit;cursor:pointer}
 
 /* ============ FOOTER ============ */
 .bb-footer{background:#0B1120;color:#94A3B8;padding:72px 0 32px}
-.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:48px;margin-bottom:52px}
+.foot-grid{display:grid;grid-template-columns:1.25fr 0.8fr 0.9fr 1fr 1fr;gap:36px;margin-bottom:52px}
 .foot-brand p{font-size:14.5px;margin:18px 0 22px;max-width:300px;line-height:1.7}
 .foot-social{display:flex;gap:11px}
 .foot-social a{
@@ -815,27 +815,53 @@ button{font-family:inherit;cursor:pointer}
 .foot-links{list-style:none;display:grid;gap:12px;margin:0;padding:0}
 .foot-links a{font-size:14.5px;transition:color .2s,padding-left .2s}
 .foot-links a:hover{color:#fff;padding-left:5px}
-.foot-contact{list-style:none;display:grid;gap:16px;margin:0;padding:0}
+
+/* Locations column */
+.foot-address-main{display:flex;gap:8px;align-items:center;font-size:14.5px;font-weight:700;color:#fff;margin-bottom:16px;line-height:1.4}
+.foot-address-main .addr-icon{
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  width:26px;height:26px;border-radius:8px;background:rgba(59,130,246,.16);
+}
+.foot-address-main svg{width:13px;height:13px;color:var(--blue-soft)}
+.foot-branches{list-style:none;display:grid;gap:10px;margin:0;padding:0}
+.foot-branch-card{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:11px 14px;border-radius:12px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(148,163,184,.14);
+  transition:background .2s,border-color .2s,transform .2s;
+}
+.foot-branch-card:hover{background:rgba(255,255,255,.08);border-color:rgba(59,130,246,.4);transform:translateY(-2px)}
+.foot-branch-card .branch-text{display:flex;flex-direction:column;gap:5px;min-width:0}
+.foot-branch-card .branch-label{
+  font-size:10.5px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--blue-soft);line-height:1;
+}
+.foot-branch-card .branch-address{font-size:13.5px;line-height:1.45;color:#CBD6EC}
+.foot-branch-card:hover .branch-address{color:#fff}
+.foot-branch-card .branch-arrow{flex-shrink:0;width:14px;height:14px;color:#64748B;transition:color .2s,transform .2s}
+.foot-branch-card:hover .branch-arrow{color:var(--blue-soft);transform:translate(2px,-2px)}
+
+/* Contact column */
+.foot-contact{list-style:none;display:grid;gap:16px;margin:0 0 20px;padding:0}
 .foot-contact li{display:flex;gap:12px;font-size:14.5px;line-height:1.55}
 .foot-contact svg{width:18px;height:18px;color:var(--blue-soft);flex-shrink:0;margin-top:2px}
-.foot-map{
-  margin-top:20px;height:120px;border-radius:14px;overflow:hidden;position:relative;
-  border:1px solid rgba(148,163,184,.2);
-  background:linear-gradient(135deg,#12203E,#1A2C52);
+.foot-whatsapp{
+  display:flex;align-items:center;gap:12px;padding:14px 16px;
+  border-radius:14px;background:rgba(37,211,102,.12);border:1px solid rgba(37,211,102,.3);
+  transition:background .2s,transform .2s;
 }
-.foot-map .pin{
-  position:absolute;left:50%;top:42%;transform:translate(-50%,-100%);
-  color:var(--amber);animation:pinBounce 2.2s ease-in-out infinite;
+.foot-whatsapp:hover{background:rgba(37,211,102,.2);transform:translateY(-2px)}
+.foot-whatsapp .fw-icon{
+  width:40px;height:40px;border-radius:12px;background:#25D366;color:#fff;
+  display:grid;place-items:center;flex-shrink:0;
 }
-@keyframes pinBounce{0%,100%{transform:translate(-50%,-100%)}50%{transform:translate(-50%,-118%)}}
-.foot-map .roads{position:absolute;inset:0;opacity:.35}
-.foot-map span{
-  position:absolute;left:12px;bottom:10px;font-size:11.5px;font-weight:600;color:#C9D5EF;
-}
+.foot-whatsapp .fw-icon svg{width:22px;height:22px}
+.foot-whatsapp .fw-text{font-size:14px;font-weight:600;color:#E9EEF9}
 .foot-bottom{
   border-top:1px solid rgba(148,163,184,.14);padding-top:28px;
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:13.5px;
 }
+@media(max-width:1180px){.foot-grid{grid-template-columns:1.1fr 1fr 1fr}}
 @media(max-width:920px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.foot-grid{grid-template-columns:1fr}}
 
@@ -844,7 +870,7 @@ button{font-family:inherit;cursor:pointer}
   position:fixed;right:22px;bottom:22px;z-index:90;
   width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
   background:#25D366;color:#fff;box-shadow:0 10px 30px rgba(37,211,102,.45);
-  transition:transform .25s var(--ease);
+  transition:transform .25s var(--ease),bottom .15s linear;
 }
 .wa-float:hover{transform:scale(1.1) rotate(6deg)}
 .wa-float svg{width:28px;height:28px}

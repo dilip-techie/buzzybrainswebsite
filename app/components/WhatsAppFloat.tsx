@@ -1,10 +1,47 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+const GAP = 22;
+
 export default function WhatsAppFloat() {
+  const [bottom, setBottom] = useState(GAP);
+
+  useEffect(() => {
+    let ticking = false;
+
+    const update = () => {
+      ticking = false;
+      const footer = document.getElementById('footer');
+      if (!footer) return;
+      const footerTop = footer.getBoundingClientRect().top;
+      const overlap = window.innerHeight - footerTop;
+      setBottom(overlap > 0 ? overlap + GAP : GAP);
+    };
+
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    };
+
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+    };
+  }, []);
+
   return (
     <a
       href="https://wa.me/919850570525"
       target="_blank"
       rel="noopener noreferrer"
       className="wa-float"
+      style={{ bottom }}
       aria-label="Chat on WhatsApp"
     >
       <svg viewBox="0 0 24 24" fill="currentColor">
