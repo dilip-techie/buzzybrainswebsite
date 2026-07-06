@@ -47,7 +47,7 @@ const PROGRAMS = [
     grade: 'National & International',
     title: 'Olympiads',
     description: "Train for the world's most prestigious math & science competitions.",
-    highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'Olympiad-level problem sets', 'Path to international rounds'],
+    highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'SOF · Kangaroo Maths', 'AMC 8/10 · Physics Olympiad'],
     href: '/olympiad-math',
     accent: '#F59E0B',
     pc: 'linear-gradient(90deg,#F59E0B,#EA580C)',
@@ -625,6 +625,9 @@ export default function HomePage() {
             <span className="eyebrow reveal">Why BuzzyBrains</span>
             <h2 className="section-title reveal" id="why-title">Learning that actually sticks</h2>
             <p className="section-sub reveal">We replaced rote learning with stories, visuals, technology and mentorship — and the results speak for themselves.</p>
+            <div className="hero-chips reveal" style={{ justifyContent: 'center', marginTop: 20, marginBottom: 0 }}>
+              <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Mentored by IITian</span>
+            </div>
           </div>
 
           <div className="why-row">
