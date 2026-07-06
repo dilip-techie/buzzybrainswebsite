@@ -10,11 +10,11 @@ const PROGRAMS = [
     description: 'Build rock-solid concepts early and get a head start on competitive exams.',
     highlights: ['Mathematics & Science mastery', 'Logical reasoning skills', 'Olympiad & NTSE preparation', 'Runway to future IIT-JEE'],
     href: '/foundation',
-    accent: '#7C3AED',
-    pc: 'linear-gradient(90deg,#7C3AED,#2563EB)',
-    pcbg: 'rgba(124,58,237,.1)',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#7C3AED" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h20" /><path d="M5 20V9l7-5 7 5v11" /><path d="M9 20v-6h6v6" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h20" /><path d="M5 20V9l7-5 7 5v11" /><path d="M9 20v-6h6v6" /></svg>
     ),
   },
   {
@@ -23,11 +23,11 @@ const PROGRAMS = [
     description: 'Deep conceptual learning in PCM with rigorous problem solving.',
     highlights: ['Physics · Chemistry · Maths', 'Concept-first teaching', 'Advanced problem solving', 'JEE Main + Advanced test series'],
     href: '/12th-board-pcm',
-    accent: '#2563EB',
-    pc: 'linear-gradient(90deg,#2563EB,#0EA5E9)',
-    pcbg: 'var(--blue-050)',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 6.2L21 9l-5 4.4L17.5 20 12 16.5 6.5 20 8 13.4 3 9l6.6-.8z" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 6.2L21 9l-5 4.4L17.5 20 12 16.5 6.5 20 8 13.4 3 9l6.6-.8z" /></svg>
     ),
   },
   {
@@ -36,11 +36,11 @@ const PROGRAMS = [
     description: 'Complete medical entrance preparation with NCERT at the core.',
     highlights: ['Physics · Chemistry · Biology', 'Line-by-line NCERT mastery', 'High-yield revision systems', 'NEET-pattern mock tests'],
     href: '/12th-board-pcb',
-    accent: '#10B981',
-    pc: 'linear-gradient(90deg,#10B981,#0D9488)',
-    pcbg: 'rgba(16,185,129,.1)',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M5 8c3 0 5 2 7 2s4-2 7-2M5 16c3 0 5-2 7-2s4 2 7 2" /><circle cx="12" cy="12" r="9" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M5 8c3 0 5 2 7 2s4-2 7-2M5 16c3 0 5-2 7-2s4 2 7 2" /><circle cx="12" cy="12" r="9" /></svg>
     ),
   },
   {
@@ -49,11 +49,11 @@ const PROGRAMS = [
     description: "Train for the world's most prestigious math & science competitions.",
     highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'SOF · Kangaroo Maths', 'AMC 8/10 · Physics Olympiad'],
     href: '/olympiad-math',
-    accent: '#F59E0B',
-    pc: 'linear-gradient(90deg,#F59E0B,#EA580C)',
-    pcbg: 'rgba(245,158,11,.12)',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg>
     ),
   },
   {
@@ -62,11 +62,11 @@ const PROGRAMS = [
     description: 'A focused program for students who want deeper mathematical thinking, faster problem solving and exam confidence.',
     highlights: ['Advanced maths practice', 'Olympiad-style reasoning', 'Board + entrance readiness', 'Concept-driven mentoring'],
     href: '/olympiad-math',
-    accent: '#0EA5E9',
-    pc: 'linear-gradient(90deg,#0EA5E9,#2563EB)',
-    pcbg: 'rgba(14,165,233,.12)',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#0EA5E9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19h16" /><path d="M7 16V8" /><path d="M12 16V4" /><path d="M17 16v-6" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19h16" /><path d="M7 16V8" /><path d="M12 16V4" /><path d="M17 16v-6" /></svg>
     ),
   },
   {
@@ -75,11 +75,11 @@ const PROGRAMS = [
     description: 'Structured coaching for Cambridge-style assessments with strong conceptual pacing and exam strategy.',
     highlights: ['Cambridge/Edexcel preparation', 'Core + extended modules', 'Exam-style practice', 'Personalized support'],
     href: '/international-boards',
-    accent: '#6366F1',
-    pc: 'linear-gradient(90deg,#6366F1,#8B5CF6)',
-    pcbg: 'rgba(99,102,241,.12)',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7h18" /><path d="M7 3v18" /><path d="M17 3v18" /><path d="M3 17h18" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7h18" /><path d="M7 3v18" /><path d="M17 3v18" /><path d="M3 17h18" /></svg>
     ),
   },
   {
@@ -88,11 +88,11 @@ const PROGRAMS = [
     description: 'Premium coaching for IB MYP and DP students with expert support for internal assessments and exam performance.',
     highlights: ['IB HL/SL guidance', 'IA/EE/TOK support', 'Concept-heavy teaching', 'Score 7 strategies'],
     href: '/international-boards',
-    accent: '#10B981',
-    pc: 'linear-gradient(90deg,#10B981,#059669)',
-    pcbg: 'rgba(16,185,129,.12)',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5h16" /><path d="M7 5v14" /><path d="M17 5v14" /><path d="M4 19h16" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5h16" /><path d="M7 5v14" /><path d="M17 5v14" /><path d="M4 19h16" /></svg>
     ),
   },
   {
@@ -101,11 +101,11 @@ const PROGRAMS = [
     description: 'Focused preparation for AP subjects with clear frameworks, timed practice and college-credit readiness.',
     highlights: ['AP Calculus · Physics · Chem', 'Exam pattern mastery', 'High-scoring practice sets', 'College-ready preparation'],
     href: '/international-boards',
-    accent: '#EC4899',
-    pc: 'linear-gradient(90deg,#EC4899,#8B5CF6)',
-    pcbg: 'rgba(236,72,153,.12)',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7z" /><path d="M9 12l2 2 4-4" /></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7z" /><path d="M9 12l2 2 4-4" /></svg>
     ),
   },
 ];
@@ -601,7 +601,7 @@ export default function HomePage() {
           </div>
           <div className="prog-grid">
             {PROGRAMS.map((program, i) => (
-              <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: program.pc, ['--pcbg' as string]: program.pcbg }} key={program.title}>
+              <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: program.pc, ['--pcbg' as string]: program.pcbg, ['--pc-glow' as string]: program.glow }} key={program.title}>
                 <div className="prog-icon">{program.icon}</div>
                 <div className="grade">{program.grade}</div>
                 <h3>{program.title}</h3>
@@ -609,7 +609,7 @@ export default function HomePage() {
                 <ul>
                   {program.highlights.map((h) => <li key={h}>{h}</li>)}
                 </ul>
-                <Link href={program.href} className="prog-link" style={{ color: program.accent }}>Learn more
+                <Link href={program.href} className="prog-link">Learn more
                   <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </Link>
               </article>
