@@ -1,17 +1,129 @@
 'use client';
 
-import React, { useState } from 'react';
-import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import {
+  BookOpen,
+  Target,
+  Users,
+  Zap,
+  CheckCircle,
+  Phone,
+  MapPin,
+  ChevronRight,
+  Lightbulb,
+  Brain,
+  Rocket,
+  Play,
+  Layers,
+} from 'lucide-react';
+
+const HIGHLIGHTS = [
+  { value: '6–10', label: 'Grades Covered', icon: BookOpen, gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
+  { value: '15', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { value: '4', label: 'Core Subjects', icon: Layers, gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { value: '100%', label: 'Concept-First Teaching', icon: Lightbulb, gradient: 'linear-gradient(135deg,#10B981,#059669)' },
+];
+
+const WHY_CHOOSE = [
+  {
+    icon: Brain,
+    title: 'Top IITian Mentorship',
+    description: 'Personal guidance by IITian faculty, including Dilip Sir (IIT Kanpur), with a proven concept-first approach.',
+    gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)',
+  },
+  {
+    icon: Users,
+    title: 'Ultra-Small Batches',
+    description: 'Just 15 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching).',
+    gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)',
+  },
+  {
+    icon: Lightbulb,
+    title: 'Strong Conceptual Foundation',
+    description: 'Perfect preparation for IIT-JEE, NEET, Olympiads, and Boards — no rote learning, only deep understanding.',
+    gradient: 'linear-gradient(135deg,#F59E0B,#D97706)',
+  },
+  {
+    icon: Zap,
+    title: 'Maths the IIT Way',
+    description: 'Vedic maths techniques and logical shortcuts to build speed, accuracy, and confidence.',
+    gradient: 'linear-gradient(135deg,#10B981,#059669)',
+  },
+  {
+    icon: BookOpen,
+    title: 'Physics Made Simple',
+    description: 'Complex ideas broken down into clear, intuitive concepts — fundamentals built early, stress reduced later.',
+    gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)',
+  },
+  {
+    icon: Target,
+    title: 'Premium Offline Learning',
+    description: 'Focused, distraction-free offline classes at Amanora, designed for maximum learning effectiveness.',
+    gradient: 'linear-gradient(135deg,#EF4444,#DC2626)',
+  },
+];
+
+const GRADE_DETAILS = [
+  {
+    grade: 'Grade 6–7',
+    title: 'Foundation Building Starts',
+    focus: ['Number Systems', 'Basic Algebra', 'Geometry Fundamentals', 'Scientific Method'],
+    highlight: 'Build confidence and curiosity',
+    pc: 'linear-gradient(90deg,#2563EB,#0EA5E9)',
+    pcbg: 'var(--blue-050)',
+  },
+  {
+    grade: 'Grade 8–9',
+    title: 'Conceptual Deepening',
+    focus: ['Advanced Algebra', 'Trigonometry Introduction', 'Physics Laws', 'Chemistry Basics'],
+    highlight: 'Start thinking like IITians',
+    pc: 'linear-gradient(90deg,#7C3AED,#2563EB)',
+    pcbg: 'rgba(124,58,237,.1)',
+  },
+  {
+    grade: 'Grade 10',
+    title: 'Board Mastery + JEE Prep',
+    focus: ['Board Exam Excellence', 'JEE Main Foundation', 'NEET Basics', 'Problem-Solving'],
+    highlight: 'Score high in boards + prepare for competitive exams',
+    pc: 'linear-gradient(90deg,#F59E0B,#EA580C)',
+    pcbg: 'rgba(245,158,11,.12)',
+  },
+];
+
+const CURRICULUM = [
+  { subject: 'Mathematics', topics: 'Algebra, Geometry, Trigonometry, Number Theory, Vedic Maths shortcuts', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
+  { subject: 'Physics', topics: 'Mechanics, Heat, Light, Electricity, Modern Physics concepts', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { subject: 'Chemistry', topics: 'Atomic Structure, Bonding, Reactions, Periodic Table mastery', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { subject: 'Biology', topics: 'Cell Biology, Genetics, Human Body Systems, Ecology', gradient: 'linear-gradient(135deg,#10B981,#059669)' },
+];
+
+const SUITABLE_FOR = [
+  'Parents who want a strong academic base, not last-minute exam panic',
+  'Students aiming for IIT-JEE / NEET / Olympiads',
+  'Bright students who want to learn ahead of school level',
+  'Learners who enjoy understanding why, not just what',
+  'Children who are anxious about Maths and Science',
+  'Students who want personalized attention and guidance',
+];
 
 export default function FoundationPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
-  const scrollToTop = (e?: React.MouseEvent) => {
-    if (e) e.preventDefault();
-    if (typeof window !== 'undefined') {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
+  useEffect(() => {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
@@ -23,326 +135,227 @@ export default function FoundationPage() {
     window.location.href = '/#contact';
   };
 
-  const whyChooseFeatures = [
-    {
-      icon: Brain,
-      title: "Top IITian Mentorship",
-      description: "Personal guidance by IITian faculty, including Dilip Sir (IIT Kanpur), with a proven concept-first approach."
-    },
-    {
-      icon: Users,
-      title: "Ultra-Small Batches",
-      description: "Just 15 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching)."
-    },
-    {
-      icon: Lightbulb,
-      title: "Strong Conceptual Foundation",
-      description: "Perfect preparation for IIT-JEE, NEET, Olympiads, and Boards — no rote learning, only deep understanding."
-    },
-    {
-      icon: Zap,
-      title: "Maths the IIT Way",
-      description: "Vedic maths techniques and logical shortcuts to build speed, accuracy, and confidence."
-    },
-    {
-      icon: BookOpen,
-      title: "Physics Made Simple",
-      description: "Complex ideas broken down into clear, intuitive concepts — fundamentals built early, stress reduced later."
-    },
-    {
-      icon: Target,
-      title: "Premium Offline Learning",
-      description: "Focused, distraction-free offline classes at Amanora, designed for maximum learning effectiveness."
-    }
-  ];
-
-  const gradeDetails = [
-    {
-      grade: "Grade 6-7",
-      title: "Foundation Building Starts",
-      focus: ["Number Systems", "Basic Algebra", "Geometry Fundamentals", "Scientific Method"],
-      highlight: "Build confidence and curiosity"
-    },
-    {
-      grade: "Grade 8-9",
-      title: "Conceptual Deepening",
-      focus: ["Advanced Algebra", "Trigonometry Introduction", "Physics Laws", "Chemistry Basics"],
-      highlight: "Start thinking like IITians"
-    },
-    {
-      grade: "10",
-      title: "Board Mastery + JEE Prep",
-      focus: ["Board Exam Excellence", "JEE Main Foundation", "NEET Basics", "Problem-Solving"],
-      highlight: "Score high in boards + prepare for competitive exams"
-    }
-  ];
-
-  const curriculum = [
-    {
-      subject: "Mathematics",
-      topics: "Algebra, Geometry, Trigonometry, Number Theory, Vedic Maths shortcuts"
-    },
-    {
-      subject: "Physics",
-      topics: "Mechanics, Heat, Light, Electricity, Modern Physics concepts"
-    },
-    {
-      subject: "Chemistry",
-      topics: "Atomic Structure, Bonding, Reactions, Periodic Table mastery"
-    },
-    {
-      subject: "Biology",
-      topics: "Cell Biology, Genetics, Human Body Systems, Ecology"
-    }
-  ];
-
-  const suitableFor = [
-    "Parents who want a strong academic base, not last-minute exam panic",
-    "Students aiming for IIT-JEE / NEET / Olympiads",
-    "Bright students who want to learn ahead of school level",
-    "Learners who enjoy understanding why, not just what",
-    "Children who are anxious about Maths and Science",
-    "Students who want personalized attention and guidance"
-  ];
-
   return (
-    <div className="min-h-screen bb-page-shell">
-      {/* Hero Section */}
-      <section className="relative pt-[74px] py-24 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
-        <div className="max-w-7xl mx-auto relative">
-          <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-6 inline-block">
-              <span className="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-bold">🌟 Foundation Programs</span>
+    <main className="bb-landing bb-page-shell">
+      {/* ============ HERO ============ */}
+      <section className="hero">
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <span className="eyebrow reveal">🌟 Foundation Program · Grades 6–10</span>
+            <h1 className="reveal" data-delay="1">Build the <span className="grad">Right Foundation</span></h1>
+            <p className="lede reveal" data-delay="2">
+              Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
+              <strong style={{ color: 'var(--blue)' }}>Dilip Sir (B.Tech, IIT Kanpur)</strong>. Because strong fundamentals today decide tomorrow&apos;s success.
+            </p>
+
+            <div className="hero-chips reveal" data-delay="2">
+              <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Grades 6–10</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Max 15 / Batch</span>
+              <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> 4 Subjects</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Online Available</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Build the <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Right Foundation</span>
-            </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-10 <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">●</span> Online Available</span></h2>
-            <h3 className="text-3xl font-bold text-gray-800 mb-4">Creating Future <span className="text-blue-600">IITians</span> & Doctors</h3>
-            <p className="text-xl text-gray-600 mb-4">
-              Start Early. Start Right. With <span className="font-bold text-blue-600">Mentorship by Dilip Sir (B.Tech, IIT Kanpur)</span>
-            </p>
-            <p className="text-lg text-gray-700 mb-8">
-              Because strong fundamentals today decide tomorrow's success.
-            </p>
-            <button 
-              onClick={() => setShowCtaModal(true)}
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold mx-auto"
-            >
-              <span>Unlock Your Child's Potential</span>
-              <ChevronRight className="w-5 h-5" />
+
+            <div className="hero-ctas reveal" data-delay="3">
+              <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
+                Unlock Your Child&apos;s Potential
+                <ChevronRight size={19} />
+              </button>
+              <a href="tel:+919850570525" className="btn btn-ghost">
+                <Phone size={17} /> Call Us
+              </a>
+            </div>
+          </div>
+
+          <div className="hero-visual reveal" data-delay="2">
+            <div className="short-embed-wrap" style={{ margin: '0 auto' }}>
+              <span className="short-embed-badge">
+                <Play size={15} fill="currentColor" /> Watch: Inside a Foundation Class
+              </span>
+              <div className="short-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/oDdeTp54_7M"
+                  title="BuzzyBrains Academy — Foundation Program Shorts"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  loading="lazy"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ KEY HIGHLIGHTS ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="stat-cards">
+            {HIGHLIGHTS.map((h, i) => (
+              <div className="stat-card reveal" data-delay={String(i % 2)} key={h.label}>
+                <div className="stat-card-icon" style={{ background: h.gradient }}>
+                  <h.icon size={22} color="#fff" />
+                </div>
+                <div>
+                  <b>{h.value}</b>
+                  <span>{h.label}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ WHY CHOOSE ============ */}
+      <section className="bb-section">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Why Parents Choose Us</span>
+            <h2 className="section-title reveal">Why Parents Choose BuzzyBrains</h2>
+            <p className="section-sub reveal">Proven approach. Real results. Personalized mentorship.</p>
+          </div>
+          <div className="trust-grid">
+            {WHY_CHOOSE.map((feature, i) => (
+              <div className="trust-card reveal" data-delay={String((i % 3) + 1)} key={feature.title}>
+                <div className="trust-icon" style={{ background: feature.gradient }}>
+                  <feature.icon size={24} color="#fff" />
+                </div>
+                <h3>{feature.title}</h3>
+                <p>{feature.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ GRADE-WISE BREAKDOWN ============ */}
+      <section className="programs bb-section">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Program Structure</span>
+            <h2 className="section-title reveal">Grade-wise Program Overview</h2>
+            <p className="section-sub reveal">Progressive learning from Grade 6 to Grade 10.</p>
+          </div>
+          <div className="prog-grid" style={{ gridTemplateColumns: 'repeat(3,1fr)' }}>
+            {GRADE_DETAILS.map((g, i) => (
+              <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: g.pc, ['--pcbg' as string]: g.pcbg }} key={g.grade}>
+                <div className="grade">{g.grade}</div>
+                <h3>{g.title}</h3>
+                <p style={{ fontWeight: 700, color: 'var(--text)', marginBottom: 6 }}>Focus Areas</p>
+                <ul>
+                  {g.focus.map((item) => <li key={item}>{item}</li>)}
+                </ul>
+                <p style={{ background: 'rgba(245,158,11,.12)', borderLeft: '3px solid var(--amber)', padding: '10px 14px', borderRadius: 10, fontWeight: 600, fontSize: 14 }}>
+                  ✨ {g.highlight}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ CURRICULUM ============ */}
+      <section className="bb-section">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Curriculum</span>
+            <h2 className="section-title reveal">What Your Child Will Learn</h2>
+            <p className="section-sub reveal">Comprehensive curriculum designed for deep understanding.</p>
+          </div>
+          <div className="trust-grid" style={{ gridTemplateColumns: 'repeat(2,1fr)' }}>
+            {CURRICULUM.map((c, i) => (
+              <div className="trust-card reveal" data-delay={String((i % 2) + 1)} key={c.subject}>
+                <div className="trust-icon" style={{ background: c.gradient }}>
+                  <BookOpen size={24} color="#fff" />
+                </div>
+                <h3>{c.subject}</h3>
+                <p>{c.topics}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ WHO IS THIS FOR ============ */}
+      <section className="testis bb-section">
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+          <div className="center">
+            <span className="eyebrow reveal">Is This For You?</span>
+            <h2 className="section-title reveal" style={{ color: '#fff' }}>Who Is This Program For?</h2>
+          </div>
+          <ul className="cta-points reveal" style={{ maxWidth: 880, margin: '40px auto 0', gridTemplateColumns: 'repeat(2,1fr)', display: 'grid', gap: '16px 32px' }}>
+            {SUITABLE_FOR.map((point) => (
+              <li key={point}><CheckCircle size={19} style={{ color: 'var(--amber-soft)' }} /> {point}</li>
+            ))}
+          </ul>
+          <p className="reveal" style={{ textAlign: 'center', maxWidth: 640, margin: '36px auto 0', fontSize: 17, fontWeight: 600, color: '#fff' }}>
+            <Rocket size={20} style={{ verticalAlign: '-4px', marginRight: 8, color: 'var(--amber-soft)' }} />
+            If your answer is YES to any of the above, BuzzyBrains Foundation Program is perfect for your child!
+          </p>
+        </div>
+      </section>
+
+      {/* ============ FINAL CTA ============ */}
+      <section className="cta bb-section">
+        <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
+          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 15 per Batch</span>
+          <h2 style={{ marginBottom: 14 }}>Ready to Start Your Child&apos;s Journey?</h2>
+          <p className="lede" style={{ margin: '0 auto 28px' }}>
+            Seats fill fast due to small batch sizes. Don&apos;t miss out on your child&apos;s transformation.
+          </p>
+          <div className="cta-btns" style={{ justifyContent: 'center', marginBottom: 28 }}>
+            <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
+              Book Your Free Consultation <ChevronRight size={19} />
             </button>
+            <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
+              <Phone size={17} /> 98505 70525
+            </a>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 8, alignItems: 'center', color: '#C9D5EF', fontSize: 14.5 }}>
+            <MapPin size={17} style={{ color: 'var(--blue-soft)' }} /> Amanora, Hadapsar, Pune
           </div>
         </div>
       </section>
 
-      {/* Key Highlights */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Grades 6-10</div>
-              <p className="text-gray-600 text-lg">Ages 11-16 years</p>
-              <p className="text-gray-500 mt-2">Build concepts that last a lifetime</p>
-            </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 15 Students</div>
-              <p className="text-gray-600 text-lg">Per Batch</p>
-              <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
-            </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-3">4 Subjects</div>
-              <p className="text-gray-600 text-lg">Math, Physics, Chemistry, Biology</p>
-              <p className="text-gray-500 mt-2">Complete holistic development</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">🎓 Why Parents Choose BuzzyBrains</h2>
-            <p className="text-xl text-gray-600">Proven approach. Real results. Personalized mentorship.</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {whyChooseFeatures.map((feature, index) => {
-              const Icon = feature.icon;
-              return (
-                <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border-2 border-transparent hover:border-blue-600 transition-all">
-                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
-                    <Icon className="w-7 h-7 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-                  <p className="text-gray-700">{feature.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Grade-wise Breakdown */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">📚 Grade-wise Program Overview</h2>
-            <p className="text-xl text-gray-600">Progressive learning from Grade 6 to Grade 10</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {gradeDetails.map((grade, index) => (
-              <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-600 inline-block px-4 py-2 rounded-lg text-white font-bold mb-4">
-                  {grade.grade}
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{grade.title}</h3>
-                <div className="mb-6">
-                  <p className="text-sm font-semibold text-blue-600 mb-3">Focus Areas:</p>
-                  <ul className="space-y-2">
-                    {grade.focus.map((item, i) => (
-                      <li key={i} className="flex items-center space-x-2 text-gray-700">
-                        <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
-                  <p className="text-gray-900 font-semibold">✨ {grade.highlight}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Curriculum */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">📖 What Your Child Will Learn</h2>
-            <p className="text-xl text-gray-600">Comprehensive curriculum designed for deep understanding</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {curriculum.map((course, index) => (
-              <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border-l-4 border-blue-600">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
-                  <BookOpen className="w-6 h-6 text-blue-600" />
-                  <span>{course.subject}</span>
-                </h3>
-                <p className="text-gray-700">{course.topics}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Who is this for */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">🚀 Who Is This Program For?</h2>
-          
-          <div className="grid md:grid-cols-2 gap-6 mb-12">
-            {suitableFor.map((point, index) => (
-              <div key={index} className="flex items-start space-x-4 bg-white/10 rounded-lg p-6 backdrop-blur-sm">
-                <CheckCircle className="w-6 h-6 text-yellow-300 flex-shrink-0 mt-1" />
-                <p className="text-white text-lg">{point}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 text-center border-2 border-white/30">
-            <Rocket className="w-12 h-12 text-white mx-auto mb-4" />
-            <p className="text-white text-xl font-semibold">
-              If your answer is YES to any of the above, BuzzyBrains Foundation Program is perfect for your child!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Limited Seats */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-4xl mx-auto text-center bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-12 border-2 border-yellow-200">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">⏳ Limited Seats Available</h2>
-          <p className="text-xl text-gray-700 mb-8">
-            Seats fill fast due to small batch sizes. <span className="font-bold text-blue-600">Don't miss out on your child's transformation.</span>
-          </p>
-          <div className="space-y-4">
-            <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
-              <Phone className="w-6 h-6 text-blue-600" />
-              <span className="font-bold">98505 70525</span>
-            </div>
-            <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
-              <MapPin className="w-6 h-6 text-blue-600" />
-              <span className="font-bold">Amanora, Hadapsar, Pune</span>
-            </div>
-          </div>
-          <button 
-            onClick={() => setShowCtaModal(true)}
-            className="mt-8 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition text-lg font-semibold"
-          >
-            Book Your Free Consultation Today
-          </button>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Start?</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Join hundreds of students who have transformed their learning with BuzzyBrains Foundation Program
-          </p>
-          <button 
-            onClick={() => setShowCtaModal(true)}
-            className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold"
-          >
-            Get Started Now
-          </button>
-        </div>
-      </section>
-
-      {/* CTA Modal */}
+      {/* ============ CTA MODAL ============ */}
       {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Ready to Enroll? 🎓</h2>
-              <p className="text-gray-600">Choose how you'd like to connect with us</p>
+        <div
+          style={{
+            position: 'fixed', inset: 0, background: 'rgba(15,23,42,.6)', zIndex: 200,
+            display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16,
+          }}
+          onClick={() => setShowCtaModal(false)}
+        >
+          <div
+            style={{
+              background: 'var(--card)', borderRadius: 'var(--r-lg)', boxShadow: 'var(--shadow-lg)',
+              maxWidth: 420, width: '100%', padding: 32,
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="center" style={{ marginBottom: 24 }}>
+              <h2 className="bb-landing" style={{ fontSize: 26, fontFamily: 'var(--font-display)', fontWeight: 800, marginBottom: 8 }}>Ready to Enroll? 🎓</h2>
+              <p style={{ color: 'var(--text-2)' }}>Choose how you&apos;d like to connect with us</p>
             </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
+
+            <div style={{ display: 'grid', gap: 12 }}>
+              <button onClick={handleCtaModalForm} className="btn btn-primary" style={{ width: '100%', justifyContent: 'space-between' }}>
                 <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+                <ChevronRight size={19} />
               </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
+              <button onClick={handleCtaModalWhatsApp} className="btn btn-green" style={{ width: '100%', justifyContent: 'space-between' }}>
                 <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+                <ChevronRight size={19} />
               </button>
             </div>
-            
+
             <button
               onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
+              style={{ width: '100%', marginTop: 20, color: 'var(--text-3)', fontWeight: 600, padding: '8px 0', background: 'none', border: 'none' }}
             >
               Maybe Later
             </button>
           </div>
         </div>
       )}
-    </div>
+    </main>
   );
 }

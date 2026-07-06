@@ -105,6 +105,35 @@ button{font-family:inherit;cursor:pointer}
   color: var(--text);
 }
 
+/* ============ VERTICAL VIDEO EMBED (Shorts/Reels) ============ */
+.short-embed-wrap{max-width:300px;margin:0 auto 28px}
+.short-embed-badge{
+  display:inline-flex;align-items:center;gap:7px;margin-bottom:14px;
+  font-size:13px;font-weight:700;font-family:var(--font-display);
+  color:var(--blue);background:var(--blue-050);padding:7px 15px;border-radius:999px;
+}
+.short-embed-badge svg{width:15px;height:15px}
+.short-embed{
+  position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;
+  border-radius:var(--r-lg);box-shadow:var(--shadow-lg);
+  border:1px solid var(--line);background:#000;
+}
+.short-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* ============ STAT CARDS (2-column) ============ */
+.stat-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.stat-card{
+  display:flex;align-items:center;gap:16px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);
+  padding:22px 26px;box-shadow:var(--shadow-sm);
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease);
+}
+.stat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.stat-card-icon{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;flex-shrink:0}
+.stat-card b{display:block;font-family:var(--font-display);font-weight:800;font-size:26px;color:var(--text);line-height:1.15}
+.stat-card span{font-size:13.5px;color:var(--text-3);font-weight:600}
+@media(max-width:560px){.stat-cards{grid-template-columns:1fr}}
+
 /* ============ BUTTONS ============ */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:10px;
