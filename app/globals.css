@@ -506,32 +506,46 @@ button{font-family:inherit;cursor:pointer}
   display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;
 }
 .stat{
-  background:linear-gradient(180deg,#fff 0%,rgba(248,250,252,.96) 100%);
-  border:1px solid rgba(148,163,184,.18);
+  --glow:var(--acc-glow,37,99,235);
+  position:relative;overflow:hidden;
+  background:linear-gradient(165deg, rgba(var(--glow),.16) 0%, rgba(var(--glow),.03) 45%, var(--card) 78%);
+  border:1px solid rgba(var(--glow),.32);
   border-radius:20px;
-  padding:24px 20px;
+  padding:28px 22px 24px;
   text-align:left;
-  box-shadow:0 10px 24px rgba(15,23,42,.04);
+  box-shadow:0 12px 28px -8px rgba(var(--glow),.22);
   min-height:180px;
   display:flex;flex-direction:column;justify-content:center;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease);
+}
+[data-theme="dark"] .stat{
+  background:linear-gradient(165deg, rgba(var(--glow),.28) 0%, rgba(var(--glow),.06) 45%, var(--card) 78%);
+}
+.stat::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:4px;
+  background:var(--acc-grad,linear-gradient(90deg,var(--blue),#7C3AED));
+}
+.stat:hover{
+  transform:translateY(-6px);border-color:rgba(var(--glow),.55);
+  box-shadow:0 20px 42px -8px rgba(var(--glow),.35);
 }
 .stat b{
-  font-family:var(--font-display);font-weight:800;font-size:clamp(88px,10.2vw,132px);
+  font-family:var(--font-display);font-weight:800;font-size:clamp(92px,11vw,142px);
   display:flex;align-items:flex-end;gap:6px;letter-spacing:-.03em;
-  background:linear-gradient(120deg,var(--blue),#7C3AED);
+  background:var(--acc-grad,linear-gradient(120deg,var(--blue),#7C3AED));
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  line-height:0.9;
+  line-height:0.88;
   margin-bottom:10px;
-  filter:drop-shadow(0 4px 18px rgba(37,99,235,.28));
+  filter:drop-shadow(0 6px 22px rgba(var(--glow),.45));
 }
 .stat-suffix{
   display:inline-block;
-  font-size:clamp(34px,4.2vw,58px);
+  font-size:clamp(36px,4.6vw,64px);
   line-height:0.9;
   margin-bottom:4px;
-  opacity:.9;
+  opacity:.95;
 }
-.stat span{font-size:14px;color:var(--text-3);font-weight:600;line-height:1.4}
+.stat span{font-size:14.5px;color:var(--text);font-weight:700;line-height:1.4}
 @media(max-width:960px){
   .stats-shell{grid-template-columns:1fr;gap:18px;padding:22px;margin-top:18px}
   .stats-copy{padding:0}

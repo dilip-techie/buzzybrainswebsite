@@ -201,10 +201,10 @@ const FACULTY = [
 ];
 
 const STATS = [
-  { count: 25, suffix: '+', label: 'Years of Teaching Excellence' },
-  { count: 150, suffix: '+', label: 'Students Mentored' },
-  { count: 15, suffix: '', label: 'Max Students per Batch' },
-  { count: 100, suffix: '%', label: 'Personalized Mentoring' },
+  { count: 25, suffix: '+', label: 'Years of Teaching Excellence', pc: 'linear-gradient(120deg,#1E3A8A,#2563EB)', glow: '37,99,235' },
+  { count: 150, suffix: '+', label: 'Students Mentored', pc: 'linear-gradient(120deg,#6D28D9,#A855F7)', glow: '124,58,237' },
+  { count: 15, suffix: '', label: 'Max Students per Batch', pc: 'linear-gradient(120deg,#B45309,#F59E0B)', glow: '245,158,11' },
+  { count: 100, suffix: '%', label: 'Personalized Mentoring', pc: 'linear-gradient(120deg,#065F46,#10B981)', glow: '16,185,129' },
 ];
 
 type FormState = {
@@ -536,7 +536,7 @@ export default function HomePage() {
             </div>
             <div className="stats-grid">
               {STATS.map((stat) => (
-                <div className="stat" key={stat.label}>
+                <div className="stat" style={{ ['--acc-grad' as string]: stat.pc, ['--acc-glow' as string]: stat.glow }} key={stat.label}>
                   <b>
                     <span className="count" data-count={stat.count}>0</span>
                     {stat.suffix ? <span className="stat-suffix">{stat.suffix}</span> : null}
