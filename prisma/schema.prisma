@@ -1,0 +1,257 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  Admin
+  Teacher
+  Student
+  Parent
+}
+
+enum Difficulty {
+  Easy
+  Medium
+  Hard
+  Olympiad
+}
+
+enum QuestionType {
+  MCQ
+  Short
+  Long
+}
+
+enum TestStatus {
+  Draft
+  Published
+}
+
+enum AttemptStatus {
+  In_Progress
+  Submitted
+  Evaluated
+}
+
+model User {
+  id                 String          @id @default(uuid())
+  role               Role
+  name               String
+  email              String          @unique
+  passwordHash       String          @map("password_hash")
+  phone              String?
+  grade              String?
+  board              String?         @default("CBSE")
+  targetExam         String?         @map("target_exam")
+  mustChangePassword Boolean         @default(false) @map("must_change_password")
+  createdAt          DateTime        @default(now()) @map("created_at")
+
+  // Relations
+  createdTests       Test[]          @relation("TestCreator")
+  attempts           Attempt[]       @relation("StudentAttempts")
+  evaluatedAnswers   AttemptAnswer[] @relation("TeacherEvaluator")
+  assignments        TestAssignment[] @relation("StudentAssignments")
+  bookmarks          BookmarkedQuestion[] @relation("UserBookmarks")
+  practiceSessions   PracticeSession[]    @relation("StudentPractice")
+  createdBatches     Batch[]         @relation("BatchCreator")
+  batchEnrollments   BatchEnrollment[] @relation("StudentEnrollments")
+
+  @@map("users")
+}
+
+model Question {
+  id            String          @id @default(uuid())
+  board         String
+  grade         String
+  subject       String
+  topic         String
+  chapter       String?
+  difficulty    Difficulty
+  type          QuestionType
+  content       String          // Text or Markdown
+  options       Json?           // JSONB for MCQ choices e.g. ["A", "B", "C", "D"]
+  correctAnswer String?         @map("correct_answer")
+  explanation   String?          // Answer explanation text
+  tags          String[]        // Array of string tags
+  createdAt     DateTime        @default(now()) @map("created_at")
+
+  // Relations
+  testQuestions TestQuestion[]
+  attemptAnswers AttemptAnswer[]
+  bookmarks     BookmarkedQuestion[] @relation("QuestionBookmarks")
+
+  @@index([grade, subject, chapter])
+  @@map("questions")
+}
+
+model Test {
+  id           String          @id @default(uuid())
+  title        String
+  board        String
+  grade        String
+  subject      String
+  durationMins Int             @map("duration_mins")
+  totalMarks   Int             @map("total_marks")
+  createdById  String          @map("created_by")
+  status       TestStatus      @default(Draft)
+  expiresAt    DateTime?       @map("expires_at")
+  createdAt    DateTime        @default(now()) @map("created_at")
+
+  // Relations
+  createdBy       User            @relation("TestCreator", fields: [createdById], references: [id])
+  questions       TestQuestion[]
+  attempts        Attempt[]
+  assignments     TestAssignment[]
+  batchDispatches BatchTestDispatch[]
+
+  @@map("tests")
+}
+
+model TestQuestion {
+  testId     String @map("test_id")
+  questionId String @map("question_id")
+  orderIndex Int    @map("order_index")
+  marks      Int
+
+  // Relations
+  test       Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([testId, questionId])
+  @@map("test_questions")
+}
+
+model Attempt {
+  id         String        @id @default(uuid())
+  testId     String        @map("test_id")
+  studentId  String        @map("student_id")
+  startTime  DateTime      @default(now()) @map("start_time")
+  endTime    DateTime?     @map("end_time")
+  totalScore Float         @default(0) @map("total_score")
+  status     AttemptStatus @default(In_Progress)
+  tabSwitchCount Int       @default(0) @map("tab_switch_count")
+
+  // Relations
+  test       Test          @relation(fields: [testId], references: [id], onDelete: Cascade)
+  student    User          @relation("StudentAttempts", fields: [studentId], references: [id], onDelete: Cascade)
+  answers    AttemptAnswer[]
+
+  @@index([studentId])
+  @@index([testId])
+  @@index([studentId, testId])
+  @@map("attempts")
+}
+
+model AttemptAnswer {
+  id            String   @id @default(uuid())
+  attemptId     String   @map("attempt_id")
+  questionId    String   @map("question_id")
+  studentAnswer String?  @map("student_answer") // Text or JSON string
+  isCorrect     Boolean? @map("is_correct")
+  marksAwarded  Float    @default(0) @map("marks_awarded")
+  evaluatedById String?  @map("evaluated_by")
+
+  // Relations
+  attempt       Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question      Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  evaluatedBy   User?    @relation("TeacherEvaluator", fields: [evaluatedById], references: [id], onDelete: SetNull)
+
+  @@index([attemptId])
+  @@map("attempt_answers")
+}
+
+model TestAssignment {
+  id        String   @id @default(uuid())
+  testId    String   @map("test_id")
+  studentId String   @map("student_id")
+  emailSent   Boolean  @default(false) @map("email_sent")
+  emailSentAt DateTime? @map("email_sent_at")
+  assignedAt DateTime @default(now()) @map("assigned_at")
+
+  test      Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+  student   User     @relation("StudentAssignments", fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([testId, studentId])
+  @@index([studentId])
+  @@index([testId])
+  @@map("test_assignments")
+}
+
+model BookmarkedQuestion {
+  id         String   @id @default(uuid())
+  userId     String   @map("user_id")
+  questionId String   @map("question_id")
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  user       User     @relation("UserBookmarks", fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation("QuestionBookmarks", fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@map("bookmarked_questions")
+}
+
+model PracticeSession {
+  id                 String   @id @default(uuid())
+  userId             String   @map("user_id")
+  grade              String
+  subject            String
+  chapter            String
+  questionsAttempted Int      @map("questions_attempted")
+  correctCount       Int      @map("correct_count")
+  totalQuestions     Int      @map("total_questions")
+  completedAt        DateTime @default(now()) @map("completed_at")
+
+  user               User     @relation("StudentPractice", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("practice_sessions")
+}
+
+model Batch {
+  id          String   @id @default(uuid())
+  name        String
+  grade       String
+  board       String   @default("CBSE")
+  description String?
+  inviteCode  String?  @unique @map("invite_code")
+  createdById String   @map("created_by")
+  isActive    Boolean  @default(true) @map("is_active")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  createdBy   User              @relation("BatchCreator", fields: [createdById], references: [id])
+  enrollments BatchEnrollment[]
+  dispatches  BatchTestDispatch[]
+
+  @@map("batches")
+}
+
+model BatchEnrollment {
+  id         String   @id @default(uuid())
+  batchId    String   @map("batch_id")
+  studentId  String   @map("student_id")
+  enrolledAt DateTime @default(now()) @map("enrolled_at")
+
+  batch   Batch @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  student User  @relation("StudentEnrollments", fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([batchId, studentId])
+  @@map("batch_enrollments")
+}
+
+model BatchTestDispatch {
+  id           String   @id @default(uuid())
+  batchId      String   @map("batch_id")
+  testId       String   @map("test_id")
+  dispatchedAt DateTime @default(now()) @map("dispatched_at")
+  totalSent    Int      @default(0) @map("total_sent")
+  totalFailed  Int      @default(0) @map("total_failed")
+
+  batch Batch @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  test  Test  @relation(fields: [testId], references: [id], onDelete: Cascade)
+
+  @@map("batch_test_dispatches")
+}

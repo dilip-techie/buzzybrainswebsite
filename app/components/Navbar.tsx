@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: '/#method', label: 'Methodology' },
   { href: '/#faculty', label: 'Faculty' },
   { href: '/#campus', label: 'Campus' },
+  { href: '/exams', label: 'Exams Portal' },
   { href: '/#contact', label: 'Contact' },
 ];
 
