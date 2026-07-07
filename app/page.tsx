@@ -420,25 +420,6 @@ export default function HomePage() {
                 Trusted by <strong>150+ families</strong> across Pune
               </div>
             </div>
-
-            <div className="stats-shell reveal" data-delay="4">
-              <div className="stats-copy">
-                <span className="eyebrow">Trusted Outcomes</span>
-                <h3>Premium guidance, measurable growth, and real student confidence.</h3>
-                <p>Every number reflects the care, consistency and personal attention that define our classrooms.</p>
-              </div>
-              <div className="stats-grid">
-                {STATS.map((stat) => (
-                  <div className="stat" key={stat.label}>
-                    <b>
-                      <span className="count" data-count={stat.count}>0</span>
-                      {stat.suffix ? <span className="stat-suffix">{stat.suffix}</span> : null}
-                    </b>
-                    <span>{stat.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           <div className="hero-visual reveal" data-delay="2">
@@ -526,7 +507,7 @@ export default function HomePage() {
               <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)' }}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg>
               </span>
-              <div><b>AI Tutor Active</b><small>Adapting to each student</small></div>
+              <div><b>Personalized Attention for Every Student</b><small>Small batches, real mentors</small></div>
             </div>
             <div className="float-card fc-2">
               <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#10B981,#059669)' }}>
@@ -539,6 +520,30 @@ export default function HomePage() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>
               </span>
               <div><b>Max 15 / Batch</b><small>Truly personal mentoring</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ TRUSTED OUTCOMES ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="stats-shell reveal">
+            <div className="stats-copy">
+              <span className="eyebrow">Trusted Outcomes</span>
+              <h3>Premium guidance, measurable growth, and real student confidence.</h3>
+              <p>Every number reflects the care, consistency and personal attention that define our classrooms.</p>
+            </div>
+            <div className="stats-grid">
+              {STATS.map((stat) => (
+                <div className="stat" key={stat.label}>
+                  <b>
+                    <span className="count" data-count={stat.count}>0</span>
+                    {stat.suffix ? <span className="stat-suffix">{stat.suffix}</span> : null}
+                  </b>
+                  <span>{stat.label}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -627,6 +632,7 @@ export default function HomePage() {
             <p className="section-sub reveal">We replaced rote learning with stories, visuals, technology and mentorship — and the results speak for themselves.</p>
             <div className="hero-chips reveal" style={{ justifyContent: 'center', marginTop: 20, marginBottom: 0 }}>
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Mentored by IITian</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Top 1% Faculty · IIT/IIM Alumni</span>
             </div>
           </div>
 
