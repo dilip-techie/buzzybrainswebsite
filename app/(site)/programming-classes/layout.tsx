@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Programming Classes | Master Coding with IIT Kanpur Expert',
     description: 'Learn programming from an IIT Kanpur graduate. Complete curriculum for all boards, small batches, hands-on projects.',
-    url: 'https://buzzybrains.com/programming-classes',
-    siteName: 'BuzzyBrains',
+    url: 'https://buzzybrainsacademy.com/programming-classes',
+    siteName: 'BuzzyBrains Academy',
     images: [
       {
-        url: 'https://buzzybrains.com/images/buzzybrains_social.jpg',
+        url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
         width: 1200,
         height: 630,
       },

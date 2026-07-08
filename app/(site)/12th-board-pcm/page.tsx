@@ -153,17 +153,17 @@ export default function Class12BoardPCMPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Grade 12</div>
+              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Grade 12</div>
               <p className="text-gray-600 text-lg">Age 17-18 years</p>
               <p className="text-gray-500 mt-2">Board exam + Engineering entrance prep</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
+              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-3">3 Subjects</div>
+              <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">3 Subjects</div>
               <p className="text-gray-600 text-lg">Physics, Chemistry, Mathematics</p>
               <p className="text-gray-500 mt-2">Board focused + Engineering ready</p>
             </div>
@@ -175,7 +175,7 @@ export default function Class12BoardPCMPage() {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">🎓 Why Parents Choose BuzzyBrains for 12th Board PCM</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">🎓 Why Parents Choose BuzzyBrains Academy for 12th Board PCM</h2>
             <p className="text-xl text-gray-600">Proven approach. Real results. Personalized mentorship.</p>
           </div>
 

@@ -130,7 +130,7 @@ button{font-family:inherit;cursor:pointer}
 }
 .stat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
 .stat-card-icon{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;flex-shrink:0}
-.stat-card b{display:block;font-family:var(--font-display);font-weight:800;font-size:26px;color:var(--text);line-height:1.15}
+.stat-card b{display:block;font-family:var(--font-display);font-weight:800;font-size:clamp(34px,4vw,44px);color:var(--text);line-height:1.1}
 .stat-card span{font-size:13.5px;color:var(--text-3);font-weight:600}
 @media(max-width:560px){.stat-cards{grid-template-columns:1fr}}
 
@@ -206,6 +206,12 @@ button{font-family:inherit;cursor:pointer}
 }
 .logo-mark svg{width:22px;height:22px}
 .logo b{color:var(--blue)}
+.logo-suffix{
+  margin-left:6px;padding-left:8px;border-left:1.5px solid var(--line);
+  font-family:var(--font-body);font-weight:600;font-size:12.5px;
+  letter-spacing:.04em;text-transform:uppercase;color:var(--text-3);
+}
+@media(max-width:520px){.logo-suffix{display:none}}
 .nav-links{display:flex;gap:32px;list-style:none;margin:0;padding:0}
 .nav-links a{font-weight:600;font-size:15px;color:var(--text-2);transition:color .2s;position:relative}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--blue);border-radius:2px;transition:width .25s var(--ease)}
@@ -290,7 +296,20 @@ button{font-family:inherit;cursor:pointer}
   position:relative;padding:174px 0 90px;overflow:hidden;
   background:var(--hero-grad),var(--bg);
 }
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
+.hero::after{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:radial-gradient(520px circle at var(--mx,50%) var(--my,20%),
+    rgba(37,99,235,.16), rgba(124,58,237,.10) 45%, transparent 68%);
+  opacity:0;transition:opacity .4s var(--ease);
+}
+.hero.spotlight-on::after{opacity:1}
+[data-theme="dark"] .hero::after{
+  background:radial-gradient(520px circle at var(--mx,50%) var(--my,20%),
+    rgba(59,130,246,.28), rgba(124,58,237,.16) 45%, transparent 68%);
+}
+@media(prefers-reduced-motion:reduce){.hero::after{display:none}}
+@media(hover:none){.hero::after{display:none}}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
 .hero h1{font-size:clamp(38px,5.6vw,66px);margin-bottom:24px}
 .hero h1 .grad{
   background:linear-gradient(120deg,var(--blue) 10%,#7C3AED 55%,var(--amber) 100%);
@@ -662,6 +681,19 @@ button{font-family:inherit;cursor:pointer}
 @media(max-width:1080px){.prog-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.prog-grid{grid-template-columns:1fr}}
 
+.prog-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
+@media(max-width:900px){.prog-grid-3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.prog-grid-3{grid-template-columns:1fr}}
+
+.prog-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:56px}
+@media(max-width:620px){.prog-grid-2{grid-template-columns:1fr}}
+
+.trust-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:56px}
+@media(max-width:600px){.trust-grid-2{grid-template-columns:1fr}}
+
+.cta-points-2col{grid-template-columns:repeat(2,1fr)}
+@media(max-width:640px){.cta-points-2col{grid-template-columns:1fr}}
+
 /* ============ WHY / ALTERNATING ============ */
 .why-row{
   display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;
@@ -721,6 +753,10 @@ button{font-family:inherit;cursor:pointer}
   .method-steps::before{display:none}
 }
 @media(max-width:520px){.method-steps{grid-template-columns:1fr}}
+
+.method-steps-5{display:grid;grid-template-columns:repeat(5,1fr);gap:22px;margin-top:64px;position:relative}
+@media(max-width:900px){.method-steps-5{grid-template-columns:repeat(2,1fr);gap:40px 22px}}
+@media(max-width:520px){.method-steps-5{grid-template-columns:1fr}}
 
 /* ============ JOURNEY ============ */
 .journey-track{position:relative;max-width:760px;margin:64px auto 0}

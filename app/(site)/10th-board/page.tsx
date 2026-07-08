@@ -153,17 +153,17 @@ export default function Class10BoardPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-green-600 mb-3">Grade 10</div>
+              <div className="text-5xl md:text-6xl font-black text-green-600 mb-3">Grade 10</div>
               <p className="text-gray-600 text-lg">Age 15-16 years</p>
               <p className="text-gray-500 mt-2">Board exam + Competitive exam prep</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
+              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-3">2 Subjects</div>
+              <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">2 Subjects</div>
               <p className="text-gray-600 text-lg">Maths & Science (Physics, Chemistry)</p>
               <p className="text-gray-500 mt-2">Board focused + Competitive ready</p>
             </div>
@@ -175,7 +175,7 @@ export default function Class10BoardPage() {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">🎓 Why Parents Choose BuzzyBrains for 10th Board</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">🎓 Why Parents Choose BuzzyBrains Academy for 10th Board</h2>
             <p className="text-xl text-gray-600">Proven approach. Real results. Personalized mentorship.</p>
           </div>
 

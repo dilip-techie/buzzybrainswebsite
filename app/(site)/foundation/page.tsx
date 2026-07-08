@@ -209,7 +209,7 @@ export default function FoundationPage() {
         <div className="container">
           <div className="center">
             <span className="eyebrow reveal">Why Parents Choose Us</span>
-            <h2 className="section-title reveal">Why Parents Choose BuzzyBrains</h2>
+            <h2 className="section-title reveal">Why Parents Choose BuzzyBrains Academy</h2>
             <p className="section-sub reveal">Proven approach. Real results. Personalized mentorship.</p>
           </div>
           <div className="trust-grid">
@@ -234,7 +234,7 @@ export default function FoundationPage() {
             <h2 className="section-title reveal">Grade-wise Program Overview</h2>
             <p className="section-sub reveal">Progressive learning from Grade 6 to Grade 10.</p>
           </div>
-          <div className="prog-grid" style={{ gridTemplateColumns: 'repeat(3,1fr)' }}>
+          <div className="prog-grid-3">
             {GRADE_DETAILS.map((g, i) => (
               <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: g.pc, ['--pcbg' as string]: g.pcbg }} key={g.grade}>
                 <div className="grade">{g.grade}</div>
@@ -260,7 +260,7 @@ export default function FoundationPage() {
             <h2 className="section-title reveal">What Your Child Will Learn</h2>
             <p className="section-sub reveal">Comprehensive curriculum designed for deep understanding.</p>
           </div>
-          <div className="trust-grid" style={{ gridTemplateColumns: 'repeat(2,1fr)' }}>
+          <div className="trust-grid-2">
             {CURRICULUM.map((c, i) => (
               <div className="trust-card reveal" data-delay={String((i % 2) + 1)} key={c.subject}>
                 <div className="trust-icon" style={{ background: c.gradient }}>
@@ -281,14 +281,14 @@ export default function FoundationPage() {
             <span className="eyebrow reveal">Is This For You?</span>
             <h2 className="section-title reveal" style={{ color: '#fff' }}>Who Is This Program For?</h2>
           </div>
-          <ul className="cta-points reveal" style={{ maxWidth: 880, margin: '40px auto 0', gridTemplateColumns: 'repeat(2,1fr)', display: 'grid', gap: '16px 32px' }}>
+          <ul className="cta-points cta-points-2col reveal" style={{ maxWidth: 880, margin: '40px auto 0', gap: '16px 32px' }}>
             {SUITABLE_FOR.map((point) => (
               <li key={point}><CheckCircle size={19} style={{ color: 'var(--amber-soft)' }} /> {point}</li>
             ))}
           </ul>
           <p className="reveal" style={{ textAlign: 'center', maxWidth: 640, margin: '36px auto 0', fontSize: 17, fontWeight: 600, color: '#fff' }}>
             <Rocket size={20} style={{ verticalAlign: '-4px', marginRight: 8, color: 'var(--amber-soft)' }} />
-            If your answer is YES to any of the above, BuzzyBrains Foundation Program is perfect for your child!
+            If your answer is YES to any of the above, BuzzyBrains Academy&apos;s Foundation Program is perfect for your child!
           </p>
         </div>
       </section>

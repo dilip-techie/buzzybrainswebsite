@@ -14,7 +14,7 @@ export default function Footer() {
                   <path d="M10 9l2 2 2-2" />
                 </svg>
               </span>
-              Buzzy<b style={{ color: '#60A5FA' }}>Brains</b>
+              Buzzy<b style={{ color: '#60A5FA' }}>Brains</b><span className="logo-suffix">Academy</span>
             </Link>
             <p>Premium coaching for IIT-JEE, NEET, Olympiads and Foundation — where learning is fun, conceptual and powered by technology.</p>
             <div className="foot-social">
@@ -45,10 +45,11 @@ export default function Footer() {
               <li><Link href="/foundation">Foundation (6–10)</Link></li>
               <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link href="/12th-board-pcb">NEET</Link></li>
-              <li><Link href="/olympiad-math">Olympiads</Link></li>
+              <li><Link href="/olympiads">Olympiads</Link></li>
+              <li><Link href="/olympiad-math">Maths Excellence</Link></li>
               <li><Link href="/international-boards">International Boards</Link></li>
               <li><Link href="/one-on-one">One-on-One</Link></li>
-              <li><Link href="/programming-classes">Programming Classes</Link></li>
+              <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
             </ul>
           </nav>
           <div>

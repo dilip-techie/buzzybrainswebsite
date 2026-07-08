@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'r
 
 const PROGRAMS = [
   {
+    id: 'foundation-program',
     grade: 'Grades 6–10',
     title: 'Foundation Program',
     description: 'Build rock-solid concepts early and get a head start on competitive exams.',
@@ -18,6 +19,35 @@ const PROGRAMS = [
     ),
   },
   {
+    id: 'maths-excellence',
+    grade: 'Maths · Problem Solving',
+    title: 'Maths Excellence Program',
+    description: 'A focused program for students who want deeper mathematical thinking, faster problem solving and exam confidence.',
+    highlights: ['Advanced maths practice', 'Olympiad-style reasoning', 'Board + entrance readiness', 'Concept-driven mentoring'],
+    href: '/olympiad-math',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19h16" /><path d="M7 16V8" /><path d="M12 16V4" /><path d="M17 16v-6" /></svg>
+    ),
+  },
+  {
+    id: 'olympiads',
+    grade: 'National & International',
+    title: 'Olympiads',
+    description: "Train for the world's most prestigious math & science competitions.",
+    highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'SOF · Kangaroo Maths', 'AMC 8/10 · Physics Olympiad'],
+    href: '/olympiads',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg>
+    ),
+  },
+  {
+    id: 'iit-jee',
     grade: 'Grades 11–12 · Droppers',
     title: 'IIT-JEE',
     description: 'Deep conceptual learning in PCM with rigorous problem solving.',
@@ -31,6 +61,7 @@ const PROGRAMS = [
     ),
   },
   {
+    id: 'neet',
     grade: 'Grades 11–12 · Droppers',
     title: 'NEET',
     description: 'Complete medical entrance preparation with NCERT at the core.',
@@ -44,32 +75,7 @@ const PROGRAMS = [
     ),
   },
   {
-    grade: 'National & International',
-    title: 'Olympiads',
-    description: "Train for the world's most prestigious math & science competitions.",
-    highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'SOF · Kangaroo Maths', 'AMC 8/10 · Physics Olympiad'],
-    href: '/olympiad-math',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
-    pcbg: 'rgba(16,185,129,.14)',
-    glow: '16,185,129',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 21h8M12 17v4" /><path d="M7 4h10v6a5 5 0 0 1-10 0z" /><path d="M7 6H4a2 2 0 0 0 2 4h1M17 6h3a2 2 0 0 1-2 4h-1" /></svg>
-    ),
-  },
-  {
-    grade: 'Maths · Problem Solving',
-    title: 'Maths Excellence Program',
-    description: 'A focused program for students who want deeper mathematical thinking, faster problem solving and exam confidence.',
-    highlights: ['Advanced maths practice', 'Olympiad-style reasoning', 'Board + entrance readiness', 'Concept-driven mentoring'],
-    href: '/olympiad-math',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
-    pcbg: 'rgba(37,99,235,.12)',
-    glow: '37,99,235',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19h16" /><path d="M7 16V8" /><path d="M12 16V4" /><path d="M17 16v-6" /></svg>
-    ),
-  },
-  {
+    id: 'igcse',
     grade: 'International Boards',
     title: 'IGCSE Program',
     description: 'Structured coaching for Cambridge-style assessments with strong conceptual pacing and exam strategy.',
@@ -83,6 +89,7 @@ const PROGRAMS = [
     ),
   },
   {
+    id: 'ib-program',
     grade: 'International Boards',
     title: 'IB Program',
     description: 'Premium coaching for IB MYP and DP students with expert support for internal assessments and exam performance.',
@@ -96,6 +103,7 @@ const PROGRAMS = [
     ),
   },
   {
+    id: 'ap-exams',
     grade: 'International Boards',
     title: 'AP Exams',
     description: 'Focused preparation for AP subjects with clear frameworks, timed practice and college-credit readiness.',
@@ -106,6 +114,34 @@ const PROGRAMS = [
     glow: '16,185,129',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7z" /><path d="M9 12l2 2 4-4" /></svg>
+    ),
+  },
+  {
+    id: 'sat-exam',
+    grade: 'US College Admissions',
+    title: 'SAT Exam',
+    description: 'Focused SAT prep to strengthen college applications with score-driven practice and strategy.',
+    highlights: ['Reading & Writing mastery', 'Math section strategy', 'Full-length timed mocks', 'Score improvement tracking'],
+    href: '/international-boards',
+    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pcbg: 'rgba(37,99,235,.12)',
+    glow: '37,99,235',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M9 15l2 2 4-4" /></svg>
+    ),
+  },
+  {
+    id: 'codehive',
+    grade: 'Grades 5–12',
+    title: 'CodeHive · Coding & AI',
+    description: 'A dedicated coding, AI foundations and logic-building track — Python, Java, Web Dev and competitive programming.',
+    highlights: ['Python · Java · Web Dev', 'AI & Machine Learning basics', 'Logic & algorithmic thinking', 'Competitive programming path'],
+    href: '/coding-lab',
+    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pcbg: 'rgba(16,185,129,.14)',
+    glow: '16,185,129',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 9l-4 3 4 3" /><path d="M16 9l4 3-4 3" /><path d="M13 5l-2 14" /></svg>
     ),
   },
 ];
@@ -247,6 +283,7 @@ const FIELD_ERRORS: Partial<Record<keyof FormState, string>> = {
 
 export default function HomePage() {
   const trackRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLElement>(null);
   const [formData, setFormData] = useState<FormState>(INITIAL_FORM);
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -299,6 +336,30 @@ export default function HomePage() {
     return () => {
       io.disconnect();
       counterIo.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const hero = heroRef.current;
+    if (!hero) return;
+
+    const handleMove = (e: MouseEvent) => {
+      const rect = hero.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      hero.style.setProperty('--mx', `${x}%`);
+      hero.style.setProperty('--my', `${y}%`);
+    };
+    const handleEnter = () => hero.classList.add('spotlight-on');
+    const handleLeave = () => hero.classList.remove('spotlight-on');
+
+    hero.addEventListener('mousemove', handleMove);
+    hero.addEventListener('mouseenter', handleEnter);
+    hero.addEventListener('mouseleave', handleLeave);
+    return () => {
+      hero.removeEventListener('mousemove', handleMove);
+      hero.removeEventListener('mouseenter', handleEnter);
+      hero.removeEventListener('mouseleave', handleLeave);
     };
   }, []);
 
@@ -382,7 +443,7 @@ export default function HomePage() {
       </div>
 
       {/* ============ HERO ============ */}
-      <section className="hero">
+      <section className="hero" ref={heroRef}>
         <div className="eq-field" aria-hidden="true">
           <span className="eq" style={{ top: '14%', left: '5%', fontSize: 26, ['--rot' as string]: '-8deg' }}>E = mc²</span>
           <span className="eq amber" style={{ top: '26%', left: '44%', fontSize: 20, ['--rot' as string]: '6deg', animationDelay: '2s' }}>∫ f(x) dx</span>
@@ -400,10 +461,11 @@ export default function HomePage() {
             <h1 className="reveal" data-delay="1">Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span></h1>
             <p className="lede reveal" data-delay="2">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
             <div className="hero-chips reveal" data-delay="2">
-              <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> IIT-JEE</span>
-              <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> NEET</span>
-              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Olympiads</span>
-              <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Foundation · Grades 6–10</span>
+              {PROGRAMS.map((program) => (
+                <Link key={program.id} href={`/#${program.id}`} className="chip">
+                  <i className="dot" style={{ background: `rgb(${program.glow})` }} /> {program.title}
+                </Link>
+              ))}
             </div>
             <div className="hero-ctas reveal" data-delay="3">
               <Link href="/#contact" className="btn btn-primary">Book Free Demo
@@ -495,7 +557,7 @@ export default function HomePage() {
                 ) : (
                   <iframe
                     src="https://www.youtube.com/embed/oDdeTp54_7M?autoplay=1&rel=0&modestbranding=1"
-                    title="BuzzyBrains Video Introduction"
+                    title="BuzzyBrains Academy Video Introduction"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                   ></iframe>
@@ -552,6 +614,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ============ PROGRAMS ============ */}
+      <section className="programs bb-section" id="programs" aria-labelledby="prog-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Our Programs</span>
+            <h2 className="section-title reveal" id="prog-title">A program for every ambition</h2>
+            <p className="section-sub reveal">From strong foundations in middle school to cracking India&apos;s toughest entrance exams — we&apos;ve built the full journey.</p>
+          </div>
+          <div className="prog-grid">
+            {PROGRAMS.map((program, i) => (
+              <article id={program.id} className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: program.pc, ['--pcbg' as string]: program.pcbg, ['--pc-glow' as string]: program.glow }} key={program.title}>
+                <div className="prog-icon">{program.icon}</div>
+                <div className="grade">{program.grade}</div>
+                <h3>{program.title}</h3>
+                <p>{program.description}</p>
+                <ul>
+                  {program.highlights.map((h) => <li key={h}>{h}</li>)}
+                </ul>
+                <Link href={program.href} className="prog-link">Learn more
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ============ PARENT REVIEWS ============ */}
       <section className="bb-section" id="reviews" aria-labelledby="reviews-title">
         <div className="container">
@@ -599,38 +688,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============ PROGRAMS ============ */}
-      <section className="programs bb-section" id="programs" aria-labelledby="prog-title">
-        <div className="container">
-          <div className="center">
-            <span className="eyebrow reveal">Our Programs</span>
-            <h2 className="section-title reveal" id="prog-title">A program for every ambition</h2>
-            <p className="section-sub reveal">From strong foundations in middle school to cracking India&apos;s toughest entrance exams — we&apos;ve built the full journey.</p>
-          </div>
-          <div className="prog-grid">
-            {PROGRAMS.map((program, i) => (
-              <article className="prog-card reveal" data-delay={String(i)} style={{ ['--pc' as string]: program.pc, ['--pcbg' as string]: program.pcbg, ['--pc-glow' as string]: program.glow }} key={program.title}>
-                <div className="prog-icon">{program.icon}</div>
-                <div className="grade">{program.grade}</div>
-                <h3>{program.title}</h3>
-                <p>{program.description}</p>
-                <ul>
-                  {program.highlights.map((h) => <li key={h}>{h}</li>)}
-                </ul>
-                <Link href={program.href} className="prog-link">Learn more
-                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </Link>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ============ WHY CHOOSE ============ */}
       <section className="bb-section" id="why" aria-labelledby="why-title">
         <div className="container">
           <div className="center">
-            <span className="eyebrow reveal">Why BuzzyBrains</span>
+            <span className="eyebrow reveal">Why BuzzyBrains Academy</span>
             <h2 className="section-title reveal" id="why-title">Learning that actually sticks</h2>
             <p className="section-sub reveal">We replaced rote learning with stories, visuals, technology and mentorship — and the results speak for themselves.</p>
             <div className="hero-chips reveal" style={{ justifyContent: 'center', marginTop: 20, marginBottom: 0 }}>
@@ -739,7 +801,7 @@ export default function HomePage() {
           <div className="center">
             <span className="eyebrow reveal">Our Methodology</span>
             <h2 className="section-title reveal" id="method-title">Four steps from curiosity to mastery</h2>
-            <p className="section-sub reveal">Every topic at BuzzyBrains follows the same proven rhythm — spark curiosity, build understanding, drill deep, then perform.</p>
+            <p className="section-sub reveal">Every topic at BuzzyBrains Academy follows the same proven rhythm — spark curiosity, build understanding, drill deep, then perform.</p>
           </div>
           <div className="method-steps">
             {METHOD_STEPS.map((step, i) => (

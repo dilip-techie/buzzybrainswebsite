@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { href: '/#programs', label: 'Programs' },
   { href: '/#why', label: 'Why Us' },
   { href: '/#faculty', label: 'Faculty' },
+  { href: '/achievements', label: 'Achievements' },
   { href: '/exams', label: 'Exams Portal' },
   { href: '/#contact', label: 'Contact Us' },
 ];
@@ -16,6 +17,8 @@ const STRIP_MESSAGES = [
   '✅ Top 1% Faculty Led by Dilip Sir',
   '✅ Maximum Batch Size: 12 Students',
   '✅ Personal Attention Guaranteed',
+  '🏆 Olympiad Batches Open',
+  '💻 CodeHive: Coding Lab Now Open',
 ];
 
 export default function Navbar() {
@@ -62,7 +65,7 @@ export default function Navbar() {
                   <path d="M10 9l2 2 2-2" />
                 </svg>
               </span>
-              Buzzy<b>Brains</b>
+              Buzzy<b>Brains</b><span className="logo-suffix">Academy</span>
             </Link>
           </div>
           <nav aria-label="Primary">
