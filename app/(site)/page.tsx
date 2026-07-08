@@ -237,10 +237,26 @@ const FACULTY = [
 ];
 
 const STATS = [
-  { count: 25, suffix: '+', label: 'Years of Teaching Excellence', pc: 'linear-gradient(120deg,#1E3A8A,#2563EB)', glow: '37,99,235' },
-  { count: 150, suffix: '+', label: 'Students Mentored', pc: 'linear-gradient(120deg,#6D28D9,#A855F7)', glow: '124,58,237' },
-  { count: 12, suffix: '', label: 'Max Students per Batch', pc: 'linear-gradient(120deg,#B45309,#F59E0B)', glow: '245,158,11' },
-  { count: 100, suffix: '%', label: 'Personalized Mentoring', pc: 'linear-gradient(120deg,#065F46,#10B981)', glow: '16,185,129' },
+  {
+    count: 25, suffix: '+', label: 'Years of Teaching Excellence',
+    gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>,
+  },
+  {
+    count: 150, suffix: '+', label: 'Students Mentored',
+    gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
+    icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" /></svg>,
+  },
+  {
+    count: 12, suffix: '', label: 'Max Students per Batch',
+    gradient: 'linear-gradient(135deg,#B45309,#F59E0B)',
+    icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M21 21v-2a4 4 0 0 0-3-3.87" /></svg>,
+  },
+  {
+    count: 100, suffix: '%', label: 'Personalized Mentoring',
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>,
+  },
 ];
 
 type FormState = {
@@ -593,23 +609,24 @@ export default function HomePage() {
       {/* ============ TRUSTED OUTCOMES ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
         <div className="container">
-          <div className="stats-shell reveal">
-            <div className="stats-copy">
-              <span className="eyebrow">Trusted Outcomes</span>
-              <h3>Premium guidance, measurable growth, and real student confidence.</h3>
-              <p>Every number reflects the care, consistency and personal attention that define our classrooms.</p>
-            </div>
-            <div className="stats-grid">
-              {STATS.map((stat) => (
-                <div className="stat" style={{ ['--acc-grad' as string]: stat.pc, ['--acc-glow' as string]: stat.glow }} key={stat.label}>
+          <div className="center">
+            <span className="eyebrow reveal">Trusted Outcomes</span>
+            <h2 className="section-title reveal">Premium guidance, measurable growth</h2>
+            <p className="section-sub reveal">Every number reflects the care, consistency and personal attention that define our classrooms.</p>
+          </div>
+          <div className="stat-cards-lg" style={{ marginTop: 44 }}>
+            {STATS.map((stat, i) => (
+              <div className="stat-card-lg reveal" data-delay={String(i % 2)} style={{ ['--acc' as string]: stat.gradient }} key={stat.label}>
+                <div className="stat-card-icon" style={{ background: stat.gradient }}>{stat.icon}</div>
+                <div>
                   <b>
                     <span className="count" data-count={stat.count}>0</span>
-                    {stat.suffix ? <span className="stat-suffix">{stat.suffix}</span> : null}
+                    {stat.suffix ? <span className="stat-suffix-lg">{stat.suffix}</span> : null}
                   </b>
-                  <span>{stat.label}</span>
+                  <span className="stat-label">{stat.label}</span>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
