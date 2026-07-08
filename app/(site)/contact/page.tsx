@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-[calc(74px+4rem)]">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-[calc(108px+4rem)]">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">

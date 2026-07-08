@@ -102,7 +102,7 @@ export default function OlympiadMathLanding() {
   return (
     <div className="min-h-screen bb-page-shell text-slate-900">
       {/* Hero Section */}
-      <section className="pt-[calc(74px+6rem)] pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <section className="pt-[calc(108px+6rem)] pb-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Premium animated background */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>

@@ -33,7 +33,7 @@ export default function Class12BoardPage() {
     {
       icon: Users,
       title: "Ultra-Small Batches",
-      description: "Just 15 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
+      description: "Just 12 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
     },
     {
       icon: Trophy,
@@ -66,7 +66,7 @@ export default function Class12BoardPage() {
     {
       icon: Users,
       title: "Ultra-Small Batches",
-      description: "Just 15 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
+      description: "Just 12 students per class — ensuring individual attention, personalized doubt-solving, and true mentoring."
     },
     {
       icon: Heart,
@@ -184,7 +184,7 @@ export default function Class12BoardPage() {
   return (
     <div className="min-h-screen bb-page-shell">
       {/* Tab Switcher - Top Navigation */}
-      <section className="bg-white border-b-2 border-gray-200 sticky top-[74px] z-40 pb-4 px-4 pt-[90px]">
+      <section className="bg-white border-b-2 border-gray-200 sticky top-[108px] z-40 pb-4 px-4 pt-[90px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center items-center gap-4 relative">
             <div className="flex gap-4">
@@ -253,7 +253,7 @@ export default function Class12BoardPage() {
               <p className="text-gray-500 mt-2">Board exam + {activeTab === 'PCM' ? 'JEE' : 'NEET'} preparation</p>
             </div>
             <div className={`bg-white rounded-xl p-8 shadow-lg text-center border-2 ${borderColor}`}>
-              <div className="text-4xl font-bold text-blue-600 mb-3">Max 15 Students</div>
+              <div className="text-4xl font-bold text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>

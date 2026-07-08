@@ -80,7 +80,7 @@ export default function AboutPage() {
   ];
 
   const whyChooseUs = [
-    "Teachers who actually know your child (max 15 per batch)",
+    "Teachers who actually know your child (max 12 per batch)",
     "Founded by someone who left comfort for purpose",
     "No spam ads, just students telling their friends",
     "<strong>IITians</strong> who teach because they want to, not just for paycheck",
@@ -93,7 +93,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bb-page-shell">
       {/* Hero Section */}
-      <section className="relative pt-[74px] py-24 px-4 overflow-hidden">
+      <section className="relative pt-[108px] py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
@@ -201,7 +201,7 @@ export default function AboutPage() {
                   "First batch scored 85-92% in boards (2022)",
                   "First JEE qualifier in 2023 (huge celebration!)",
                   "Built a team of 5 passionate IITian teachers",
-                  "Still maintain max 15 per batch (no compromise)",
+                  "Still maintain max 12 per batch (no compromise)",
                   "Grew through referrals, not advertisements",
                   "Still making financial sacrifices for quality"
                 ].map((point, index) => (

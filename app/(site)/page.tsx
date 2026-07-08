@@ -113,7 +113,7 @@ const PROGRAMS = [
 const TRUST_CARDS = [
   { title: '25+ Years of Excellence', desc: 'Over two decades of guiding students to top ranks in JEE, NEET and Olympiads.', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg> },
   { title: 'IITian Faculty', desc: 'Learn directly from IIT alumni and subject experts who love teaching.', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" /></svg> },
-  { title: 'Small Batches — Max 15', desc: 'Every child is seen, heard and mentored. No one gets lost in the crowd.', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M21 21v-2a4 4 0 0 0-3-3.87" /></svg> },
+  { title: 'Small Batches — Max 12', desc: 'Every child is seen, heard and mentored. No one gets lost in the crowd.', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M21 21v-2a4 4 0 0 0-3-3.87" /></svg> },
   { title: 'Personalized Mentoring', desc: 'Individual learning plans, one-on-one doubt sessions and constant guidance.', gradient: 'linear-gradient(135deg,#10B981,#059669)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg> },
   { title: 'Weekly Tests', desc: 'Regular assessments that build exam temperament and track true progress.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3 8-8" /><path d="M21 12v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11" /></svg> },
   { title: 'Parent Progress Reports', desc: 'Transparent updates so parents always know exactly how their child is doing.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg> },
@@ -203,7 +203,7 @@ const FACULTY = [
 const STATS = [
   { count: 25, suffix: '+', label: 'Years of Teaching Excellence', pc: 'linear-gradient(120deg,#1E3A8A,#2563EB)', glow: '37,99,235' },
   { count: 150, suffix: '+', label: 'Students Mentored', pc: 'linear-gradient(120deg,#6D28D9,#A855F7)', glow: '124,58,237' },
-  { count: 15, suffix: '', label: 'Max Students per Batch', pc: 'linear-gradient(120deg,#B45309,#F59E0B)', glow: '245,158,11' },
+  { count: 12, suffix: '', label: 'Max Students per Batch', pc: 'linear-gradient(120deg,#B45309,#F59E0B)', glow: '245,158,11' },
   { count: 100, suffix: '%', label: 'Personalized Mentoring', pc: 'linear-gradient(120deg,#065F46,#10B981)', glow: '16,185,129' },
 ];
 
@@ -507,7 +507,10 @@ export default function HomePage() {
               <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)' }}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg>
               </span>
-              <div><b>Personalized Attention for Every Student</b><small>Small batches, real mentors</small></div>
+              <div>
+                <b style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>Personalized Attention for Every Student</b>
+                <small>Small batches, real mentors</small>
+              </div>
             </div>
             <div className="float-card fc-2">
               <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#10B981,#059669)' }}>
@@ -519,7 +522,7 @@ export default function HomePage() {
               <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#F59E0B,#D97706)' }}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>
               </span>
-              <div><b>Max 15 / Batch</b><small>Truly personal mentoring</small></div>
+              <div><b>Max 12 / Batch</b><small>Truly personal mentoring</small></div>
             </div>
           </div>
         </div>
@@ -701,7 +704,7 @@ export default function HomePage() {
           <div className="why-row">
             <div className="why-copy reveal">
               <h3>Mentorship, not mass coaching</h3>
-              <p>With a maximum of 15 students per batch and experienced faculty, every doubt gets solved, every strength gets sharpened, and every child gets a mentor who knows them by name.</p>
+              <p>With a maximum of 12 students per batch and experienced faculty, every doubt gets solved, every strength gets sharpened, and every child gets a mentor who knows them by name.</p>
               <ul className="why-list">
                 {['Personal mentorship in small batches', 'Dedicated doubt-solving sessions', 'Regular assessments with detailed feedback'].map((item) => (
                   <li key={item}><span className="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg></span> {item}</li>
@@ -843,7 +846,7 @@ export default function HomePage() {
       <section className="cta bb-section" id="contact" aria-labelledby="cta-title">
         <div className="container cta-grid">
           <div className="reveal">
-            <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 15 per Batch</span>
+            <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
             <h2 id="cta-title">Ready to unlock your child&apos;s potential?</h2>
             <p className="lede">Book a FREE demo class today. Experience our teaching style, meet the mentors, and see the difference — no commitment needed.</p>
             <div className="cta-btns">

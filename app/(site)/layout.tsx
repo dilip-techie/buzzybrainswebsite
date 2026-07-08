@@ -85,7 +85,7 @@ export default function SiteLayout({
                 name: 'What is the batch size at BuzzyBrains Academy?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Every batch is capped at a maximum of 10 students, ensuring personalized attention and mentoring for each child.',
+                  text: 'Every batch is capped at a maximum of 12 students, ensuring personalized attention and mentoring for each child.',
                 },
               },
               {

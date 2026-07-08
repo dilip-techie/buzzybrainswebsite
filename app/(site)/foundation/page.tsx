@@ -19,7 +19,7 @@ import {
 
 const HIGHLIGHTS = [
   { value: '6–10', label: 'Grades Covered', icon: BookOpen, gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
-  { value: '15', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
   { value: '4', label: 'Core Subjects', icon: Layers, gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
   { value: '100%', label: 'Concept-First Teaching', icon: Lightbulb, gradient: 'linear-gradient(135deg,#10B981,#059669)' },
 ];
@@ -34,7 +34,7 @@ const WHY_CHOOSE = [
   {
     icon: Users,
     title: 'Ultra-Small Batches',
-    description: 'Just 15 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching).',
+    description: 'Just 12 students per class — ensuring individual attention, doubt-solving, and true mentoring (not crowd teaching).',
     gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)',
   },
   {
@@ -150,7 +150,7 @@ export default function FoundationPage() {
 
             <div className="hero-chips reveal" data-delay="2">
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Grades 6–10</span>
-              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Max 15 / Batch</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Max 12 / Batch</span>
               <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> 4 Subjects</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Online Available</span>
             </div>
@@ -296,7 +296,7 @@ export default function FoundationPage() {
       {/* ============ FINAL CTA ============ */}
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 15 per Batch</span>
+          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
           <h2 style={{ marginBottom: 14 }}>Ready to Start Your Child&apos;s Journey?</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
             Seats fill fast due to small batch sizes. Don&apos;t miss out on your child&apos;s transformation.

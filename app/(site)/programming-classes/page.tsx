@@ -26,7 +26,7 @@ export default function ProgrammingClassesPage() {
     },
     {
       question: 'What is the batch size?',
-      answer: 'We maintain small batch sizes of maximum 15 students to ensure personalized attention, individual code reviews, and adequate doubt-clearing time for each student.'
+      answer: 'We maintain small batch sizes of maximum 12 students to ensure personalized attention, individual code reviews, and adequate doubt-clearing time for each student.'
     },
     {
       question: 'Do you provide study materials?',
@@ -49,7 +49,7 @@ export default function ProgrammingClassesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       {/* Hero Section */}
-      <section className="relative pt-[calc(74px+3rem)] pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative pt-[calc(108px+3rem)] pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -394,7 +394,7 @@ export default function ProgrammingClassesPage() {
             <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg border border-purple-500/30 p-8 hover:border-purple-400/60 transition">
               <Users className="w-12 h-12 text-green-400 mb-4" />
               <h3 className="text-xl font-bold mb-3 text-green-400">Small Batch Sizes</h3>
-              <p className="text-gray-300">Maximum 15 students per batch ensuring personalized attention, individual code reviews, and adequate doubt-clearing</p>
+              <p className="text-gray-300">Maximum 12 students per batch ensuring personalized attention, individual code reviews, and adequate doubt-clearing</p>
             </div>
 
             {/* Benefit 5 */}
@@ -597,7 +597,7 @@ export default function ProgrammingClassesPage() {
               <ul className="space-y-3 mb-8 text-gray-300">
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> 3 or 6 months duration</li>
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> 2 classes per week</li>
-                <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Maximum 15 students</li>
+                <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Maximum 12 students</li>
                 <li className="flex items-start"><span className="text-purple-400 mr-3">•</span> Foundation building focus</li>
               </ul>
               <button className="w-full bg-purple-600 hover:bg-purple-700 font-bold py-3 rounded-lg transition">Enquire Now</button>

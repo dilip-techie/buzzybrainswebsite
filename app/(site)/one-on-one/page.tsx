@@ -151,7 +151,7 @@ export default function OneOnOneClassesPage() {
   return (
     <div className="min-h-screen bb-page-shell">
       {/* Hero Section */}
-      <section className="relative pt-[74px] py-24 px-4 overflow-hidden">
+      <section className="relative pt-[108px] py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/10 to-pink-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://buzzybrainsacademy.com'),
   title: 'BuzzyBrains Academy — Best IIT JEE, NEET & Olympiad Coaching in Pune | Foundation Classes',
   description:
-    'Premium IIT JEE, NEET, Olympiad & Foundation coaching in Pune. IITian faculty, batches of max 15 students, AI-powered learning & 25+ years of excellence. Book a free demo class today.',
+    'Premium IIT JEE, NEET, Olympiad & Foundation coaching in Pune. IITian faculty, batches of max 12 students, AI-powered learning & 25+ years of excellence. Book a free demo class today.',
   keywords: [
     'IIT JEE Coaching Pune',
     'NEET Coaching Pune',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BuzzyBrains Academy — Learn Smarter. Dream Bigger. Achieve More.',
     description:
-      'Elite coaching for IIT-JEE, NEET, Olympiads & Foundation (Grades 6–10) in Pune. IITian faculty, max 15 students per batch, AI-powered learning.',
+      'Elite coaching for IIT-JEE, NEET, Olympiads & Foundation (Grades 6–10) in Pune. IITian faculty, max 12 students per batch, AI-powered learning.',
     url: 'https://buzzybrainsacademy.com',
     type: 'website',
     locale: 'en_IN',
