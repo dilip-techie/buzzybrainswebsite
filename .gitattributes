@@ -1,0 +1,21 @@
+# Auto detect text files and normalize line endings to LF in the repository
+* text=auto eol=lf
+
+# Explicit source file types
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Binary files should never be normalized
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.avif binary
+*.svg binary
+*.ico binary
+*.woff binary
+*.woff2 binary

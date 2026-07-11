@@ -48,6 +48,7 @@ export default function Footer() {
               <li><Link href="/olympiads">Olympiads</Link></li>
               <li><Link href="/olympiad-math">Maths Excellence</Link></li>
               <li><Link href="/international-boards">International Boards</Link></li>
+              <li><Link href="/sat-exam">SAT Exam</Link></li>
               <li><Link href="/one-on-one">One-on-One</Link></li>
               <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
             </ul>

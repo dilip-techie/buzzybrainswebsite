@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: 'BuzzyBrains Academy',
     images: [
       {
-        url: 'https://buzzybrainsacademy.com/images/og-image.jpg',
+        url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
         width: 1200,
         height: 630,
         alt: 'BuzzyBrains Academy - Premium coaching for JEE, NEET and Olympiads',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'BuzzyBrains Academy — Premium Coaching in Pune',
     description: 'IIT-JEE • NEET • Olympiads • Foundation. Where curiosity meets technology and academic excellence.',
-    images: ['https://buzzybrainsacademy.com/images/og-image.jpg'],
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
   robots: {
     index: true,

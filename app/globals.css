@@ -355,9 +355,17 @@ button{font-family:inherit;cursor:pointer}
   font-size:13.5px;font-weight:700;font-family:var(--font-display);
   padding:8px 16px;border-radius:999px;border:1.5px solid var(--line);
   background:var(--card);color:var(--text-2);box-shadow:var(--shadow-sm);
-  display:inline-flex;align-items:center;gap:7px;
+  display:inline-flex;align-items:center;gap:7px;cursor:pointer;
+  transition:transform .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease,background .22s ease;
 }
-.chip .dot{width:7px;height:7px;border-radius:50%}
+.chip:hover,.chip:focus-visible{
+  transform:translateY(-3px);
+  border-color:var(--blue);color:var(--blue);
+  box-shadow:0 10px 22px rgba(37,99,235,.2);
+  background:rgba(37,99,235,.06);
+}
+.chip:hover .dot,.chip:focus-visible .dot{transform:scale(1.25)}
+.chip .dot{width:7px;height:7px;border-radius:50%;transition:transform .22s ease}
 .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:36px}
 .hero-proof{display:flex;align-items:center;gap:14px;color:var(--text-3);font-size:14px}
 .avatars{display:flex}

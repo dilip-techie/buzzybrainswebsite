@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 const HIGHLIGHTS = [
-  { value: '25+', label: 'Years Faculty Experience', icon: Award, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
+  { value: '5★', label: 'Highest Rating by Parents', icon: Award, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
   { value: '150-200', label: 'Active Students (2025)', icon: Users, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
   { value: '35+', label: 'Olympiad Qualifiers', icon: Trophy, gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
   { value: '95%+', label: 'Top Board Scorers', icon: TrendingUp, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
@@ -91,8 +91,35 @@ export default function AchievementsPage() {
         </div>
       </section>
 
+      {/* ============ REVIEWS ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }} id="reviews" aria-labelledby="reviews-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Parents &amp; Student Reviews</span>
+            <h2 className="section-title reveal" id="reviews-title">What families are actually saying</h2>
+            <p className="section-sub reveal">Genuine reviews shared by BuzzyBrains Academy parents and students.</p>
+          </div>
+          <div className="review-grid">
+            {REVIEWS.map((review, i) => (
+              <article className="review-card reveal" data-delay={String((i % 3) + 1)} key={review.name}>
+                <div className="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>&quot;{review.text}&quot;</p>
+                <strong>{review.name}</strong>
+                <small>Parent Review</small>
+              </article>
+            ))}
+          </div>
+          <div className="center" style={{ marginTop: 24 }}>
+            <a href="https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews" target="_blank" rel="noopener noreferrer" className="review-link">
+              Read more reviews on Google
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ============ KEY HIGHLIGHTS ============ */}
-      <section className="bb-section" style={{ paddingTop: 0 }}>
+      <section className="bb-section">
         <div className="container">
           <div className="stat-cards">
             {HIGHLIGHTS.map((h, i) => (
@@ -131,33 +158,6 @@ export default function AchievementsPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ============ REVIEWS ============ */}
-      <section className="bb-section" id="reviews" aria-labelledby="reviews-title">
-        <div className="container">
-          <div className="center">
-            <span className="eyebrow reveal">Parents &amp; Student Reviews</span>
-            <h2 className="section-title reveal" id="reviews-title">What families are actually saying</h2>
-            <p className="section-sub reveal">Genuine reviews shared by BuzzyBrains Academy parents and students.</p>
-          </div>
-          <div className="review-grid">
-            {REVIEWS.map((review, i) => (
-              <article className="review-card reveal" data-delay={String((i % 3) + 1)} key={review.name}>
-                <div className="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
-                <p>&quot;{review.text}&quot;</p>
-                <strong>{review.name}</strong>
-                <small>Parent Review</small>
-              </article>
-            ))}
-          </div>
-          <div className="center" style={{ marginTop: 24 }}>
-            <a href="https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews" target="_blank" rel="noopener noreferrer" className="review-link">
-              Read more reviews on Google
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
-            </a>
           </div>
         </div>
       </section>

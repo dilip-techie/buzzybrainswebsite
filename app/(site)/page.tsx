@@ -122,7 +122,7 @@ const PROGRAMS = [
     title: 'SAT Exam',
     description: 'Focused SAT prep to strengthen college applications with score-driven practice and strategy.',
     highlights: ['Reading & Writing mastery', 'Math section strategy', 'Full-length timed mocks', 'Score improvement tracking'],
-    href: '/international-boards',
+    href: '/sat-exam',
     pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',

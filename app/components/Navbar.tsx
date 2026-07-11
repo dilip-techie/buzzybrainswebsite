@@ -57,7 +57,7 @@ export default function Navbar() {
       <header className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
         <div className="container nav-inner">
           <div className="nav-left">
-            <Link href="/#top" className="logo" aria-label="BuzzyBrains Academy home">
+            <Link href="/" className="logo" aria-label="BuzzyBrains Academy home">
               <span className="logo-mark" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 2a7 7 0 0 1 7 7c0 2.4-1.2 4.5-3 5.7V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.3C6.2 13.5 5 11.4 5 9a7 7 0 0 1 7-7z" />
