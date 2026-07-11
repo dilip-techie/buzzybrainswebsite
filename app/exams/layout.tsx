@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'BuzzyBrains Exams | Interactive Learning & Assessment Platform',
   description:
-    'Empowering students in classes 7-12 with engaging, NCERT-aligned assessments and real-time analytics.',
+    'Empowering students in classes 4-12 with engaging, NCERT-aligned assessments and real-time analytics.',
 };
 
 export default function ExamsLayout({

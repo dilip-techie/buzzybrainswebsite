@@ -76,7 +76,7 @@ export default function LoginPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300">adventure.</span>
             </h2>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
-              Empowering students in classes 7–12 with engaging, NCERT-aligned assessments, real-time analytics, and a structured learning journey.
+              Empowering students in classes 4–12 with engaging, NCERT-aligned assessments, real-time analytics, and a structured learning journey.
             </p>
           </div>
 
