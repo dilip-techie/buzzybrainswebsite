@@ -478,7 +478,7 @@ export default function HomePage() {
             <p className="lede reveal" data-delay="2">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
             <div className="hero-chips reveal" data-delay="2">
               {PROGRAMS.map((program) => (
-                <Link key={program.id} href={`/#${program.id}`} className="chip">
+                <Link key={program.id} href={`/#${program.id}`} className="chip chip-link">
                   <i className="dot" style={{ background: `rgb(${program.glow})` }} /> {program.title}
                 </Link>
               ))}
@@ -715,6 +715,7 @@ export default function HomePage() {
             <div className="hero-chips reveal" style={{ justifyContent: 'center', marginTop: 20, marginBottom: 0 }}>
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Mentored by IITian</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Top 1% Faculty · IIT/IIM Alumni</span>
+              <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Tech. Driven Platform</span>
             </div>
           </div>
 

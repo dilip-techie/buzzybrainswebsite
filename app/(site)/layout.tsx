@@ -26,23 +26,6 @@ export default function SiteLayout({
       <Script id="theme-init" strategy="beforeInteractive">
         {themeInitScript}
       </Script>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-9SGR78TX74"
-        strategy="afterInteractive"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-9SGR78TX74');
-          `,
-        }}
-      />
       <JsonLd
         data={{
           '@context': 'https://schema.org',

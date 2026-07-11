@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Geist_Mono, Manrope, Inter } from 'next/font/google';
 import './globals.css';
 
@@ -71,6 +72,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9SGR78TX74"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9SGR78TX74');
+            `,
+          }}
+        />
+      </head>
       <body className={`${manrope.variable} ${inter.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>

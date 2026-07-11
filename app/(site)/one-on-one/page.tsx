@@ -1,10 +1,17 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Clock, Star } from 'lucide-react';
 
 export default function OneOnOneClassesPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
+  const [isPricePopupExpanded, setIsPricePopupExpanded] = useState(true);
+
+  useEffect(() => {
+    if (!isPricePopupExpanded) return;
+    const timer = window.setTimeout(() => setIsPricePopupExpanded(false), 5000);
+    return () => window.clearTimeout(timer);
+  }, [isPricePopupExpanded]);
 
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -103,6 +110,7 @@ export default function OneOnOneClassesPage() {
     "One-to-one attention and customized learning path",
     "Live interactive sessions (online or offline at Amanora)",
     "Flexible duration: 45 min, 60 min, or 90 min sessions",
+    "Plans starting at just ₹800 per hour",
     "Weekly progress reports and assessments",
     "Revision sessions before exams",
     "Doubt-clearing sessions anytime (WhatsApp support)",
@@ -150,6 +158,24 @@ export default function OneOnOneClassesPage() {
 
   return (
     <div className="min-h-screen bb-page-shell">
+      <div className={`price-popup ${isPricePopupExpanded ? 'expanded' : 'collapsed'}`} role="status" aria-live="polite">
+        <button
+          type="button"
+          className="price-popup__toggle"
+          onClick={() => setIsPricePopupExpanded((value) => !value)}
+          aria-label={isPricePopupExpanded ? 'Minimize pricing notice' : 'Expand pricing notice'}
+        >
+          <span className="price-popup__icon">💰</span>
+          <span className="price-popup__label">₹800/hr plans</span>
+          <span className="price-popup__chevron">{isPricePopupExpanded ? '−' : '+'}</span>
+        </button>
+        {isPricePopupExpanded && (
+          <div className="price-popup__content">
+            <p className="price-popup__title">Plans starting at just ₹800/hour</p>
+            <p className="price-popup__text">Personalized 1-on-1 mentoring with flexible scheduling.</p>
+          </div>
+        )}
+      </div>
       {/* Hero Section */}
       <section className="relative pt-[108px] py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-600/10 to-pink-600/10"></div>
@@ -158,6 +184,7 @@ export default function OneOnOneClassesPage() {
             <div className="mb-6 inline-block">
               <span className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-bold">🎯 One-on-One Classes</span>
               <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online & Offline</span>
+              <span className="ml-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold inline-block mt-2 md:mt-0">🏆 Top 1% Faculty led by Dilip Sir</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">Personalized Learning</span> for Every Student

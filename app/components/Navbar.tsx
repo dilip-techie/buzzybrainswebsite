@@ -3,8 +3,20 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
+const PROGRAM_LINKS = [
+  { href: '/foundation', label: 'Foundation Program' },
+  { href: '/olympiad-math', label: 'Mathematical Excellence' },
+  { href: '/olympiads', label: 'Olympiads' },
+  { href: '/12th-board-pcm', label: 'IIT-JEE' },
+  { href: '/12th-board-pcb', label: 'NEET' },
+  { href: '/coding-lab', label: 'CodeHive (Coding & AI)' },
+  { href: '/international-boards', label: 'International Boards' },
+  { href: '/sat-exam', label: 'SAT Exam' },
+  { href: '/one-on-one', label: 'One-on-One' },
+];
+
 const NAV_LINKS = [
-  { href: '/#programs', label: 'Programs' },
+  { href: '/#programs', label: 'Programs', children: PROGRAM_LINKS },
   { href: '/#why', label: 'Why Us' },
   { href: '/#faculty', label: 'Faculty' },
   { href: '/achievements', label: 'Achievements' },
@@ -70,11 +82,27 @@ export default function Navbar() {
           </div>
           <nav aria-label="Primary">
             <ul className="nav-links">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href}>{link.label}</Link>
-                </li>
-              ))}
+              {NAV_LINKS.map((link) =>
+                link.children ? (
+                  <li key={link.href} className="nav-dropdown-wrap">
+                    <Link href={link.href} className="nav-dropdown-trigger">
+                      {link.label}
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+                    </Link>
+                    <ul className="nav-dropdown">
+                      {link.children.map((child) => (
+                        <li key={child.href}>
+                          <Link href={child.href}>{child.label}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                ) : (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                )
+              )}
             </ul>
           </nav>
           <div className="nav-actions">
