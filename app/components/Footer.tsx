@@ -49,12 +49,12 @@ export default function Footer() {
               <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link href="/12th-board-pcb">NEET</Link></li>
               <li><Link href="/olympiad-math">Maths Excellence</Link></li>
-              <li><Link href="/one-on-one">One-on-One</Link></li>
-              <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
+              <li><Link href="/olympiads">Olympiads</Link></li>
               <li><Link href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
               <li><Link href="/neet-coaching-pune">NEET Coaching Pune — Guide</Link></li>
               <li><Link href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>
               <li><Link href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
+              <li><Link href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer commerce links">
@@ -68,13 +68,19 @@ export default function Footer() {
           <nav aria-label="Footer international pathways links">
             <h4>International Pathways</h4>
             <ul className="foot-links">
+              <li><Link href="/international-boards#igcse">IGCSE (Cambridge)</Link></li>
+              <li><Link href="/international-boards#ib">IB Diploma</Link></li>
+              <li><Link href="/international-boards#a-level">A Level / AS Level</Link></li>
+              <li><Link href="/international-boards#ap">AP Exams</Link></li>
               <li><Link href="/sat-exam">SAT Exam</Link></li>
-              <li><Link href="/international-boards">AP Exams</Link></li>
-              <li><Link href="/olympiads">Olympiads</Link></li>
-              <li><Link href="/international-boards">IGCSE Program</Link></li>
-              <li><Link href="/international-boards">IB Program</Link></li>
-              <li><Link href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
               <li><Link href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
+            </ul>
+          </nav>
+          <nav aria-label="Footer specialized tracks links">
+            <h4>Specialized Tracks</h4>
+            <ul className="foot-links">
+              <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
+              <li><Link href="/one-on-one">One-on-One Coaching</Link></li>
             </ul>
           </nav>
         </div>

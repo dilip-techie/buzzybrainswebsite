@@ -1,11 +1,26 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Globe, Calculator, Microscope, Code, DollarSign, BookOpenCheck } from 'lucide-react';
+
+type BoardTab = 'IGCSE' | 'IB' | 'A-Level' | 'AP';
+
+const HASH_TO_TAB: Record<string, BoardTab> = {
+  igcse: 'IGCSE',
+  ib: 'IB',
+  'a-level': 'A-Level',
+  ap: 'AP',
+};
 
 export default function InternationalBoardsPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
-  const [activeTab, setActiveTab] = useState<'IGCSE' | 'IB' | 'AP'>('IGCSE');
+  const [activeTab, setActiveTab] = useState<BoardTab>('IGCSE');
+
+  useEffect(() => {
+    const hash = window.location.hash.replace('#', '').toLowerCase();
+    const matchedTab = HASH_TO_TAB[hash];
+    if (matchedTab) setActiveTab(matchedTab);
+  }, []);
 
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -28,7 +43,7 @@ export default function InternationalBoardsPage() {
     {
       icon: Brain,
       title: "IITian-Led International Curriculum",
-      description: "Designed and taught by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with deep understanding of Cambridge, IB, and AP syllabi."
+      description: "Designed and taught by Dilip Sir (IIT Kanpur | IIM Ahmedabad) with deep understanding of Cambridge IGCSE/A Level, IB, and AP syllabi."
     },
     {
       icon: Users,
@@ -43,7 +58,7 @@ export default function InternationalBoardsPage() {
     {
       icon: Trophy,
       title: "Top Grades Track Record",
-      description: "Our students consistently achieve A*/A in IGCSE, Score 7 in IB, and Score 5 in AP exams."
+      description: "Our students consistently achieve A*/A in IGCSE and A Level, Score 7 in IB, and Score 5 in AP exams."
     },
     {
       icon: BookOpen,
@@ -117,6 +132,15 @@ export default function InternationalBoardsPage() {
     "Score 5 strategies & college credit prep"
   ];
 
+  const alFeatures = [
+    "AS Level (Year 12) & A Level (Year 13) coverage",
+    "Cambridge International & Edexcel A Level boards",
+    "Maths, Further Maths, Physics, Chemistry, Biology, Economics",
+    "Grade A*/A focused exam strategy",
+    "Past papers & mark scheme mastery",
+    "UCAS-ready subject combinations for UK university applications"
+  ];
+
   const studyApproach = [
     {
       phase: "Phase 1: Foundation Building",
@@ -149,21 +173,34 @@ export default function InternationalBoardsPage() {
   const suitableFor = [
     "Students enrolled in Cambridge IGCSE schools",
     "IB MYP and IB Diploma Programme students",
+    "A Level and AS Level students (Cambridge International & Edexcel)",
     "Students preparing for AP exams for college credit",
     "Those aiming for top universities (Ivy League, Oxbridge, etc.)",
     "Learners who need personalized attention in international curriculum",
     "Students wanting A*/A, Score 7, or Score 5 in their subjects"
   ];
 
-  const gradientColors = activeTab === 'IGCSE' ? 'from-blue-600 to-cyan-600' : activeTab === 'IB' ? 'from-emerald-600 to-green-600' : 'from-purple-600 to-violet-600';
-  const badgeColor = activeTab === 'IGCSE' ? 'bg-indigo-100 text-indigo-800' : activeTab === 'IB' ? 'bg-teal-100 text-teal-800' : 'bg-rose-100 text-rose-800';
-  const highlightColor = activeTab === 'IGCSE' ? 'text-blue-600' : activeTab === 'IB' ? 'text-emerald-600' : 'text-purple-600';
-  const borderColor = activeTab === 'IGCSE' ? 'border-blue-600' : activeTab === 'IB' ? 'border-emerald-600' : 'border-purple-600';
+  const TAB_STYLE: Record<BoardTab, { gradient: string; badge: string; highlight: string; border: string }> = {
+    IGCSE: { gradient: 'from-blue-600 to-cyan-600', badge: 'bg-indigo-100 text-indigo-800', highlight: 'text-blue-600', border: 'border-blue-600' },
+    IB: { gradient: 'from-emerald-600 to-green-600', badge: 'bg-teal-100 text-teal-800', highlight: 'text-emerald-600', border: 'border-emerald-600' },
+    'A-Level': { gradient: 'from-amber-600 to-orange-600', badge: 'bg-amber-100 text-amber-800', highlight: 'text-amber-600', border: 'border-amber-600' },
+    AP: { gradient: 'from-purple-600 to-violet-600', badge: 'bg-rose-100 text-rose-800', highlight: 'text-purple-600', border: 'border-purple-600' },
+  };
+  const gradientColors = TAB_STYLE[activeTab].gradient;
+  const badgeColor = TAB_STYLE[activeTab].badge;
+  const highlightColor = TAB_STYLE[activeTab].highlight;
+  const borderColor = TAB_STYLE[activeTab].border;
 
-  const currentFeatures = activeTab === 'IGCSE' ? igcseFeatures : activeTab === 'IB' ? ibFeatures : apFeatures;
-  const currentTitle = activeTab === 'IGCSE' ? 'Cambridge IGCSE' : activeTab === 'IB' ? 'IB Diploma Programme' : 'AP Exams';
-  const currentEmoji = activeTab === 'IGCSE' ? '🌍' : activeTab === 'IB' ? '🎓' : '🏆';
-  const currentSubtitle = activeTab === 'IGCSE' ? 'Grades 6-10 (Cambridge/Edexcel)' : activeTab === 'IB' ? 'MYP (6-10) & DP (11-12)' : 'Advanced Placement Exams';
+  const TAB_CONTENT: Record<BoardTab, { features: string[]; title: string; emoji: string; subtitle: string }> = {
+    IGCSE: { features: igcseFeatures, title: 'Cambridge IGCSE', emoji: '🌍', subtitle: 'Grades 4-12 (Cambridge/Edexcel)' },
+    IB: { features: ibFeatures, title: 'IB Diploma Programme', emoji: '🎓', subtitle: 'Grades 4-12 (MYP & DP)' },
+    'A-Level': { features: alFeatures, title: 'A Level / AS Level', emoji: '📐', subtitle: 'AS (Year 12) & A Level (Year 13)' },
+    AP: { features: apFeatures, title: 'AP Exams', emoji: '🏆', subtitle: 'Advanced Placement Exams' },
+  };
+  const currentFeatures = TAB_CONTENT[activeTab].features;
+  const currentTitle = TAB_CONTENT[activeTab].title;
+  const currentEmoji = TAB_CONTENT[activeTab].emoji;
+  const currentSubtitle = TAB_CONTENT[activeTab].subtitle;
 
   return (
     <div className="min-h-screen bb-page-shell">
@@ -171,10 +208,11 @@ export default function InternationalBoardsPage() {
       <section className="bg-white border-b-2 border-gray-200 sticky top-[108px] z-40 pb-4 px-4 pt-[90px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center items-center gap-4 relative">
-            <div className="flex gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <button
+                id="igcse"
                 onClick={() => setActiveTab('IGCSE')}
-                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-48 px-6 py-3 rounded-xl font-bold text-lg transition-all scroll-mt-[220px] ${
                   activeTab === 'IGCSE'
                     ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-600'
@@ -183,8 +221,9 @@ export default function InternationalBoardsPage() {
                 🌍 IGCSE
               </button>
               <button
+                id="ib"
                 onClick={() => setActiveTab('IB')}
-                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-48 px-6 py-3 rounded-xl font-bold text-lg transition-all scroll-mt-[220px] ${
                   activeTab === 'IB'
                     ? 'bg-gradient-to-r from-emerald-600 to-green-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-emerald-600'
@@ -193,8 +232,20 @@ export default function InternationalBoardsPage() {
                 🎓 IB Diploma
               </button>
               <button
+                id="a-level"
+                onClick={() => setActiveTab('A-Level')}
+                className={`w-48 px-6 py-3 rounded-xl font-bold text-lg transition-all scroll-mt-[220px] ${
+                  activeTab === 'A-Level'
+                    ? 'bg-gradient-to-r from-amber-600 to-orange-600 text-white shadow-xl'
+                    : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-amber-600'
+                }`}
+              >
+                📐 A Level
+              </button>
+              <button
+                id="ap"
                 onClick={() => setActiveTab('AP')}
-                className={`w-56 px-6 py-3 rounded-xl font-bold text-lg transition-all ${
+                className={`w-48 px-6 py-3 rounded-xl font-bold text-lg transition-all scroll-mt-[220px] ${
                   activeTab === 'AP'
                     ? 'bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-xl'
                     : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-purple-600'
@@ -215,7 +266,7 @@ export default function InternationalBoardsPage() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-2">
               Excel in <span className={`bg-gradient-to-r ${gradientColors} bg-clip-text text-transparent`}>International Boards</span>
             </h1>
-            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grades 6-12 • IGCSE | IB | AP Exams <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">•</span> Online Available</span></h2>
+            <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-2">Grades 4-12 • IGCSE | IB | A Level | AP <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">•</span> Online Available</span></h2>
             <p className="text-xl text-gray-600 mb-2">
               Expert coaching by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur | IIM Ahmedabad)</span> for international curriculum
             </p>
@@ -227,7 +278,7 @@ export default function InternationalBoardsPage() {
               onClick={() => setShowCtaModal(true)}
               className={`bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition flex items-center justify-center space-x-2 text-lg font-semibold mx-auto`}
             >
-              <span>Enroll in IGCSE/IB/AP Coaching</span>
+              <span>Enroll in IGCSE/IB/A Level/AP Coaching</span>
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>

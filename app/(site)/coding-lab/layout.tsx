@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'CodeHive — Coding, AI & Logic Labs for Grades 5-12 | BuzzyBrains Academy',
+  title: 'CodeHive — Coding, AI & Logic Labs for Grades 6-12 | BuzzyBrains Academy',
   description:
-    'CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 5-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate.',
+    'CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate.',
   keywords:
-    'coding classes, AI classes for kids, logic classes, computational thinking, Python, Java, web development, competitive programming, coding olympiad, grades 5-12, IIT Kanpur mentor',
+    'coding classes, AI classes for kids, logic classes, computational thinking, Python, Java, web development, competitive programming, coding olympiad, grades 6-12, IIT Kanpur mentor',
   alternates: { canonical: 'https://buzzybrainsacademy.com/coding-lab' },
   openGraph: {
-    title: 'CodeHive — Coding, AI & Logic Labs for Grades 5-12',
-    description: 'A dedicated coding, AI and logic-building track for Grades 5-12, led by an IIT Kanpur graduate.',
+    title: 'CodeHive — Coding, AI & Logic Labs for Grades 6-12',
+    description: 'A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
     url: 'https://buzzybrainsacademy.com/coding-lab',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -31,7 +31,7 @@ export default function CodingLabLayout({ children }: { children: React.ReactNod
       <ProgramJsonLd
         type="Course"
         name="CodeHive — Coding, AI & Logic Labs"
-        description="CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 5-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate."
+        description="CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate."
         path="/coding-lab"
       />
       {children}

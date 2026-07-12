@@ -36,7 +36,7 @@ const PILLARS = [
 
 const TRACKS = [
   {
-    grade: 'Grades 5–7',
+    grade: 'Grades 6–7',
     title: 'Logic Foundations',
     focus: ['Block-based coding', 'Intro to Python', 'Computational thinking', 'Puzzle-based logic building'],
     highlight: 'Build the coding mindset early',
@@ -111,10 +111,10 @@ export default function CodingLabPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">💻 CodeHive · Coding, AI &amp; Logic Labs · Grades 5–12</span>
+          <span className="eyebrow reveal">💻 CodeHive · Coding, AI &amp; Logic Labs · Grades 6–12</span>
           <h1 className="reveal" data-delay="1">Code. Create. <span className="grad">Compute.</span></h1>
           <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
-            A dedicated coding track from <strong style={{ color: 'var(--blue)' }}>Grade 5 to Grade 12</strong> — programming,
+            A dedicated coding track from <strong style={{ color: 'var(--blue)' }}>Grade 6 to Grade 12</strong> — programming,
             AI foundations and computational logic, mentored by an <strong style={{ color: 'var(--blue)' }}>IIT Kanpur graduate</strong>.
           </p>
           <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>

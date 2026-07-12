@@ -3,26 +3,60 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const PROGRAM_LINKS = [
-  { href: '/foundation', label: 'Foundation Program' },
-  { href: '/olympiad-math', label: 'Mathematical Excellence' },
-  { href: '/olympiads', label: 'Olympiads' },
-  { href: '/12th-board-pcm', label: 'IIT-JEE' },
-  { href: '/12th-board-pcb', label: 'NEET' },
-  { href: '/commerce-tuitions', label: 'BuzzyBrains Commerce Tuitions' },
-  { href: '/coding-lab', label: 'CodeHive (Coding & AI)' },
-  { href: '/international-boards', label: 'International Boards' },
-  { href: '/sat-exam', label: 'SAT Exam' },
-  { href: '/one-on-one', label: 'One-on-One' },
+interface MegaMenuItem {
+  href: string;
+  label: string;
+}
+
+interface MegaMenuGroup {
+  title: string;
+  subtitle: string;
+  items: MegaMenuItem[];
+  footerLink?: MegaMenuItem;
+}
+
+const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
+  {
+    title: 'Indian Boards & Competitive Exams',
+    subtitle: 'CBSE · ICSE · State',
+    items: [
+      { href: '/foundation', label: 'Foundation (Grades 6–10)' },
+      { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 11–12)' },
+      { href: '/12th-board-pcb', label: 'NEET (Grades 11–12)' },
+      { href: '/commerce-tuitions', label: 'Commerce Tuitions (Grades 11–12)' },
+      { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
+      { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
+    ],
+  },
+  {
+    title: 'International Pathways',
+    subtitle: 'Global Curricula',
+    items: [
+      { href: '/international-boards#igcse', label: 'IGCSE (Grades 4–12)' },
+      { href: '/international-boards#ib', label: 'IB Diploma (Grades 4–12)' },
+      { href: '/international-boards#a-level', label: 'A Level / AS Level' },
+      { href: '/international-boards#ap', label: 'AP Exams' },
+      { href: '/sat-exam', label: 'SAT' },
+    ],
+    footerLink: { href: '/international-boards', label: 'Compare pathways →' },
+  },
+  {
+    title: 'Specialized Tracks',
+    subtitle: 'Skills & Format',
+    items: [
+      { href: '/coding-lab', label: 'CodeHive (Grades 6–12)' },
+      { href: '/one-on-one', label: 'One-on-One Coaching' },
+    ],
+    footerLink: { href: '/#contact', label: 'Book a free demo →' },
+  },
 ];
 
 const NAV_LINKS = [
-  { href: '/#programs', label: 'Programs', children: PROGRAM_LINKS },
-  { href: '/#why', label: 'Why Us' },
-  { href: '/#faculty', label: 'Faculty' },
+  { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
   { href: '/exams', label: 'Exams Portal' },
+  { href: '/about', label: 'About' },
   { href: '/#contact', label: 'Contact Us' },
 ];
 
@@ -38,6 +72,7 @@ const STRIP_MESSAGES = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
 
   useEffect(() => {
@@ -85,19 +120,32 @@ export default function Navbar() {
           <nav aria-label="Primary">
             <ul className="nav-links">
               {NAV_LINKS.map((link) =>
-                link.children ? (
+                link.groups ? (
                   <li key={link.href} className="nav-dropdown-wrap">
                     <Link href={link.href} className="nav-dropdown-trigger">
                       {link.label}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
-                    <ul className="nav-dropdown">
-                      {link.children.map((child) => (
-                        <li key={child.href}>
-                          <Link href={child.href}>{child.label}</Link>
-                        </li>
+                    <div className="nav-mega">
+                      {link.groups.map((group) => (
+                        <div className="nav-mega-group" key={group.title}>
+                          <h4>{group.title}</h4>
+                          <span className="nav-mega-sub">{group.subtitle}</span>
+                          <ul>
+                            {group.items.map((item) => (
+                              <li key={item.href}>
+                                <Link href={item.href}>{item.label}</Link>
+                              </li>
+                            ))}
+                          </ul>
+                          {group.footerLink && (
+                            <div className="nav-mega-footer">
+                              <Link href={group.footerLink.href}>{group.footerLink.label}</Link>
+                            </div>
+                          )}
+                        </div>
                       ))}
-                    </ul>
+                    </div>
                   </li>
                 ) : (
                   <li key={link.href}>
@@ -134,11 +182,37 @@ export default function Navbar() {
           </div>
         </div>
         <div className={`mobile-menu${menuOpen ? ' open' : ''}`}>
-          {NAV_LINKS.map((link) => (
-            <Link key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) =>
+            link.groups ? (
+              <div className="mobile-menu-programs" key={link.href}>
+                <button
+                  type="button"
+                  className="mobile-menu-programs-trigger"
+                  aria-expanded={mobileProgramsOpen}
+                  onClick={() => setMobileProgramsOpen((prev) => !prev)}
+                >
+                  {link.label}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+                </button>
+                <div className={`mobile-menu-programs-panel${mobileProgramsOpen ? ' open' : ''}`}>
+                  {link.groups.map((group) => (
+                    <div className="mobile-menu-group" key={group.title}>
+                      <span className="mobile-menu-group-title">{group.title}</span>
+                      {group.items.map((item) => (
+                        <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>
+                {link.label}
+              </Link>
+            )
+          )}
           <Link href="/#contact" style={{ color: 'var(--blue)', fontWeight: 700 }} onClick={() => setMenuOpen(false)}>
             Book Free Demo →
           </Link>
