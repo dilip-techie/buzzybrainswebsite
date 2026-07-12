@@ -14,7 +14,10 @@ export default function Footer() {
                   <path d="M10 9l2 2 2-2" />
                 </svg>
               </span>
-              Buzzy<b style={{ color: '#60A5FA' }}>Brains</b><span className="logo-suffix">Academy</span>
+              <span className="logo-text">
+                <span className="logo-word">Buzzy <b style={{ color: '#60A5FA' }}>Brains</b></span>
+                <span className="logo-suffix" style={{ color: '#60A5FA' }}>Academy</span>
+              </span>
             </Link>
             <p>Premium coaching for IIT-JEE, NEET, Olympiads and Foundation — where learning is fun, conceptual and powered by technology.</p>
             <div className="foot-social">

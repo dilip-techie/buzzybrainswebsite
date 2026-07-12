@@ -114,7 +114,10 @@ export default function Navbar() {
                   <path d="M10 9l2 2 2-2" />
                 </svg>
               </span>
-              Buzzy<b>Brains</b><span className="logo-suffix">Academy</span>
+              <span className="logo-text">
+                <span className="logo-word">Buzzy <b>Brains</b></span>
+                <span className="logo-suffix">Academy</span>
+              </span>
             </Link>
           </div>
           <nav aria-label="Primary">
