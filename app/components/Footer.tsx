@@ -43,7 +43,7 @@ export default function Footer() {
             </ul>
           </nav>
           <nav aria-label="Footer program links">
-            <h4>Programs</h4>
+            <h4>Indian Boards &amp; Competitive Exams</h4>
             <ul className="foot-links">
               <li><Link href="/foundation">Foundation (6–10)</Link></li>
               <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>

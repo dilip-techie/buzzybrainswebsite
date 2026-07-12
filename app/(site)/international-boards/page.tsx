@@ -205,7 +205,7 @@ export default function InternationalBoardsPage() {
   return (
     <div className="min-h-screen bb-page-shell">
       {/* Tab Switcher - Top Navigation */}
-      <section className="bg-white border-b-2 border-gray-200 sticky top-[108px] z-40 pb-4 px-4 pt-[90px]">
+      <section className="bg-white border-b-2 border-gray-200 sticky top-[108px] z-40 pb-4 px-4 pt-4 mt-[108px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center items-center gap-4 relative">
             <div className="flex flex-wrap justify-center gap-4">
@@ -288,19 +288,19 @@ export default function InternationalBoardsPage() {
       {/* Key Highlights */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className={`text-4xl font-bold ${highlightColor} mb-3`}>{currentSubtitle}</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-8 shadow-lg text-center min-w-0">
+              <div className={`text-3xl md:text-4xl font-bold ${highlightColor} mb-3 break-words`}>{currentSubtitle}</div>
               <p className="text-gray-600 text-lg">All subjects covered</p>
               <p className="text-gray-500 mt-2">Maths, Sciences, CS, Economics, Accounting</p>
             </div>
-            <div className={`bg-white rounded-xl p-8 shadow-lg text-center border-2 ${borderColor}`}>
-              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
+            <div className={`bg-white rounded-xl p-8 shadow-lg text-center border-2 ${borderColor} min-w-0`}>
+              <div className="text-4xl md:text-6xl font-black text-blue-600 mb-3 break-words">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
               <p className="text-gray-500 mt-2">Personalized attention guaranteed</p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">A*/7/5</div>
+            <div className="bg-white rounded-xl p-8 shadow-lg text-center min-w-0">
+              <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3 break-words">A*/7/5</div>
               <p className="text-gray-600 text-lg">Top Grades Focused</p>
               <p className="text-gray-500 mt-2">International standards excellence</p>
             </div>

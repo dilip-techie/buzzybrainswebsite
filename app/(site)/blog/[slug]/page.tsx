@@ -82,9 +82,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <span className="article-byline-avatar" style={{ background: style.gradient }}>BB</span>
               BuzzyBrains Academy Faculty
             </span>
-            <span>&middot;</span>
             <span>{new Date(post.datePublished).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-            <span>&middot;</span>
             <span><Clock size={13} style={{ verticalAlign: -2, marginRight: 3 }} />{post.readingMinutes} min read</span>
           </div>
         </div>

@@ -526,6 +526,8 @@ button{font-family:inherit;cursor:pointer}
 
 .article-shell{max-width:720px;margin:0 auto}
 .article-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;color:var(--text-3);font-size:13.5px;margin-bottom:8px}
+.article-meta > span:not(:first-child)::before{content:"\00b7";margin-right:12px}
+.article-meta svg{display:inline-block;vertical-align:-2px;margin-right:3px}
 .article-meta .blog-card-cat{margin-right:2px}
 .article-body{font-size:17px;line-height:1.85;color:var(--text-2);margin-top:32px}
 .article-body h2{font-family:var(--font-display);font-weight:800;font-size:24px;letter-spacing:-.01em;color:var(--text);margin:38px 0 14px;line-height:1.25;scroll-margin-top:100px}
