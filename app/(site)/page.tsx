@@ -75,6 +75,20 @@ const PROGRAMS = [
     ),
   },
   {
+    id: 'commerce-tuitions',
+    grade: 'Grades 11–12',
+    title: 'BuzzyBrains Commerce Tuitions',
+    description: 'Accountancy, Economics, Business Studies and more — for CBSE, ICSE, State Board, IGCSE and IB — plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
+    highlights: ['Accountancy · Economics · BST', 'IGCSE & IB Commerce subjects', 'CUET · CA Foundation · IPMAT', 'Small batches, max 10'],
+    href: '/commerce-tuitions',
+    pc: 'linear-gradient(135deg,#92400E,#F59E0B)',
+    pcbg: 'rgba(245,158,11,.14)',
+    glow: '245,158,11',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3v18h18" /><path d="M7 15l4-4 3 3 5-6" /></svg>
+    ),
+  },
+  {
     id: 'igcse',
     grade: 'International Boards',
     title: 'IGCSE Program',

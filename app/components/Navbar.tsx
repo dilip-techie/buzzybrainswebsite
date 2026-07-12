@@ -9,6 +9,7 @@ const PROGRAM_LINKS = [
   { href: '/olympiads', label: 'Olympiads' },
   { href: '/12th-board-pcm', label: 'IIT-JEE' },
   { href: '/12th-board-pcb', label: 'NEET' },
+  { href: '/commerce-tuitions', label: 'BuzzyBrains Commerce Tuitions' },
   { href: '/coding-lab', label: 'CodeHive (Coding & AI)' },
   { href: '/international-boards', label: 'International Boards' },
   { href: '/sat-exam', label: 'SAT Exam' },

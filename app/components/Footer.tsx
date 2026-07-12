@@ -36,7 +36,10 @@ export default function Footer() {
               <li><Link href="/about">About Us</Link></li>
               <li><Link href="/admissions">Admissions</Link></li>
               <li><Link href="/#faculty">Faculty</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/contact">Contact Us</Link></li>
+              <li><Link href="/coaching-in-amanora">Coaching in Amanora</Link></li>
+              <li><Link href="/coaching-in-kharadi">Coaching in Kharadi</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer program links">
@@ -45,12 +48,21 @@ export default function Footer() {
               <li><Link href="/foundation">Foundation (6–10)</Link></li>
               <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link href="/12th-board-pcb">NEET</Link></li>
+              <li><Link href="/commerce-tuitions">Commerce Tuitions (11–12)</Link></li>
               <li><Link href="/olympiads">Olympiads</Link></li>
               <li><Link href="/olympiad-math">Maths Excellence</Link></li>
               <li><Link href="/international-boards">International Boards</Link></li>
               <li><Link href="/sat-exam">SAT Exam</Link></li>
               <li><Link href="/one-on-one">One-on-One</Link></li>
               <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
+              <li><Link href="/cuet-commerce-coaching-pune">CUET Commerce Coaching Pune — Guide</Link></li>
+              <li><Link href="/ca-foundation-coaching-pune">CA Foundation Coaching Pune — Guide</Link></li>
+              <li><Link href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
+              <li><Link href="/neet-coaching-pune">NEET Coaching Pune — Guide</Link></li>
+              <li><Link href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>
+              <li><Link href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
+              <li><Link href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
+              <li><Link href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
             </ul>
           </nav>
           <div>

@@ -1,0 +1,64 @@
+import { PillarPage } from '../../components/PillarPage';
+
+export default function NeetPillarPage() {
+  return (
+    <PillarPage
+      eyebrow="NEET Coaching Pune"
+      h1={<>NEET Coaching in Pune: What Actually Determines the Score</>}
+      lede="NCERT depth, structured revision, and exam-day time management decide more of the final NEET score than most families expect. Here's what to look for in a coaching program."
+      primaryProgram={{ href: '/12th-board-pcb', label: 'NEET Program' }}
+      secondaryPrograms={[
+        { href: '/foundation', label: 'Foundation Program (Grades 6-10)' },
+        { href: '/one-on-one', label: 'One-on-One Coaching' },
+      ]}
+      faq={[
+        {
+          question: 'Why does NCERT matter so much for NEET?',
+          answer: 'NEET Biology in particular draws heavily and directly from NCERT phrasing — students who master NCERT line-by-line consistently outperform those who rely only on reference books that reframe the same content differently.',
+        },
+        {
+          question: 'Can NEET and board exam preparation happen together?',
+          answer: 'Yes, and it should — a well-structured NEET program builds board-exam clarity and NEET-level depth from the same NCERT foundation, rather than treating them as two separate syllabi.',
+        },
+        {
+          question: 'Is a dropper year worth it for NEET?',
+          answer: 'For students who fell short by a correctable margin — weak in one subject, or let down by exam-day time management — a focused dropper year with small-batch mentoring often closes that gap. It’s a bigger commitment and should be a considered decision, not a default.',
+        },
+      ]}
+      body={[
+        {
+          kind: 'p',
+          text: 'NEET rewards a specific kind of preparation: exhaustive command over NCERT, especially in Biology, combined with fast, accurate Physics and Chemistry problem-solving under a strict per-question time budget. Coaching quality shows up most clearly in how directly a program targets that combination, rather than in generic "we cover everything" claims.',
+        },
+        { kind: 'h2', text: 'NCERT-first teaching, not NCERT-adjacent teaching' },
+        {
+          kind: 'p',
+          text: 'A large share of NEET Biology questions are drawn close to NCERT’s exact phrasing and diagrams. Reference books that reorganize the same content into their own structure can actually work against a student on exam day, when recognizing a familiar NCERT sentence is what triggers instant recall. BuzzyBrains Academy’s NEET program is built around line-by-line NCERT mastery first, with reference material used to deepen understanding — not replace the source.',
+        },
+        { kind: 'h2', text: 'The three-subject balancing act' },
+        {
+          kind: 'ul',
+          items: [
+            'Biology carries the largest weight and rewards volume + precision — the more of NCERT a student has internalized, the faster they move.',
+            'Chemistry rewards a mix of memorization (Inorganic) and mechanism-based reasoning (Organic, Physical) — treating all of Chemistry the same way is a common and costly mistake.',
+            'Physics is usually the differentiator between an average NEET score and a strong one — it needs the most numerical practice per topic, not the most theory revision.',
+          ],
+        },
+        { kind: 'h2', text: 'What good NEET mentoring looks like week to week' },
+        {
+          kind: 'ul',
+          items: [
+            'Weekly tests that mirror the real NEET time pressure — not untimed chapter quizzes.',
+            'High-yield revision systems that flag which NCERT lines get tested most often, so revision time is spent where it returns the most marks.',
+            'Small batches so a mentor notices when a student is strong on paper but slow under time pressure — a gap most large-batch coaching never catches until the real exam.',
+          ],
+        },
+        { kind: 'h2', text: 'Board exams and NEET, prepared together' },
+        {
+          kind: 'p',
+          text: 'Because NEET and Class 12 boards draw from an overlapping core, a program that treats them as two unrelated syllabi wastes a student’s limited study hours. BuzzyBrains Academy’s NEET program is designed so board-exam clarity and NEET-level depth build from the same foundation, rather than requiring two separate preparation tracks.',
+        },
+      ]}
+    />
+  );
+}
