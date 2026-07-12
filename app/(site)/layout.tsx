@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppFloat from '../components/WhatsAppFloat';
 import JsonLd from '../components/JsonLd';
+import RevealObserver from '../components/RevealObserver';
 
 const themeInitScript = `
 (function(){
@@ -94,6 +95,7 @@ export default function SiteLayout({
       {children}
       <Footer />
       <WhatsAppFloat />
+      <RevealObserver />
     </>
   );
 }

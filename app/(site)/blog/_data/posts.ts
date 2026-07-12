@@ -32,6 +32,17 @@ export const CATEGORY_PILLAR_HREF: Record<BlogCategory, string> = {
   commerce: '/commerce-tuitions',
 };
 
+export const CATEGORY_STYLE: Record<BlogCategory, { gradient: string; glow: string; solid: string }> = {
+  'iit-jee': { gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)', glow: '37,99,235', solid: '#2563EB' },
+  neet: { gradient: 'linear-gradient(135deg,#991B1B,#EF4444)', glow: '239,68,68', solid: '#EF4444' },
+  commerce: { gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', glow: '245,158,11', solid: '#F59E0B' },
+  foundation: { gradient: 'linear-gradient(135deg,#065F46,#10B981)', glow: '16,185,129', solid: '#10B981' },
+  olympiad: { gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', glow: '124,58,237', solid: '#A855F7' },
+  'maths-tuition': { gradient: 'linear-gradient(135deg,#0369A1,#0EA5E9)', glow: '14,165,233', solid: '#0EA5E9' },
+  'international-sat': { gradient: 'linear-gradient(135deg,#3730A3,#6366F1)', glow: '99,102,241', solid: '#6366F1' },
+  coding: { gradient: 'linear-gradient(135deg,#334155,#0F172A)', glow: '51,65,85', solid: '#334155' },
+};
+
 export type BlogBlock =
   | { kind: 'p'; text: string }
   | { kind: 'h2'; text: string }

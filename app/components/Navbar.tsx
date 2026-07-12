@@ -21,6 +21,7 @@ const NAV_LINKS = [
   { href: '/#why', label: 'Why Us' },
   { href: '/#faculty', label: 'Faculty' },
   { href: '/achievements', label: 'Achievements' },
+  { href: '/blog', label: 'Blogs' },
   { href: '/exams', label: 'Exams Portal' },
   { href: '/#contact', label: 'Contact Us' },
 ];

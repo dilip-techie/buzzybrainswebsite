@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Geist_Mono, Manrope, Inter } from 'next/font/google';
 import './globals.css';
 
@@ -93,6 +94,7 @@ export default function RootLayout({
       </head>
       <body className={`${manrope.variable} ${inter.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
