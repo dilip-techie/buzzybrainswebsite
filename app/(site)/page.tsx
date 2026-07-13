@@ -501,7 +501,10 @@ export default function HomePage() {
 
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow reveal">Pune&apos;s Premium Coaching Institute</span>
+            <div className="hero-badges reveal">
+              <span className="eyebrow eyebrow-highlight">⭐ Pune&apos;s Premium IIT-Led Coaching Institute</span>
+              <span className="eyebrow eyebrow-location">📍 Near Amanora Mall, Pune</span>
+            </div>
             <h1 className="reveal" data-delay="1">
               Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span>
               <span className="hero-tagline-sub">🎓 <span className="hero-tagline-sub-text">With IITian Mentorship.</span></span>

@@ -86,6 +86,33 @@ button{font-family:inherit;cursor:pointer}
   padding:7px 16px;border-radius:999px;margin-bottom:20px;
 }
 .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--amber)}
+
+.hero-badges{display:flex;flex-wrap:wrap;gap:11px;margin:-10px 0 24px}
+.hero-badges .eyebrow{margin-bottom:0}
+.eyebrow-highlight,.eyebrow-location{
+  font-size:14.5px;font-weight:800;padding:11px 22px;
+  border:1.5px solid rgba(255,255,255,.3);
+}
+.eyebrow-highlight{
+  background:linear-gradient(120deg,var(--blue),#7C3AED);
+  color:#fff;
+  animation:heroTagPop .6s var(--ease) both,heroBadgeGlowBlue 2.6s ease-in-out .6s infinite;
+}
+.eyebrow-highlight::before{display:none}
+.eyebrow-location{
+  background:linear-gradient(120deg,#D97706,var(--amber));
+  color:#fff;
+  animation:heroTagPop .6s var(--ease) .15s both,heroBadgeGlowAmber 2.6s ease-in-out .8s infinite;
+}
+.eyebrow-location::before{display:none}
+@keyframes heroBadgeGlowBlue{
+  0%,100%{box-shadow:0 8px 22px rgba(37,99,235,.32)}
+  50%{box-shadow:0 12px 32px rgba(124,58,237,.55)}
+}
+@keyframes heroBadgeGlowAmber{
+  0%,100%{box-shadow:0 8px 22px rgba(217,119,6,.28)}
+  50%{box-shadow:0 12px 32px rgba(245,158,11,.55)}
+}
 .section-title{font-size:clamp(30px,4.2vw,46px);margin-bottom:16px}
 .section-sub{font-size:18px;color:var(--text-2);max-width:640px}
 .center{text-align:center}
@@ -373,7 +400,7 @@ button{font-family:inherit;cursor:pointer}
 /* ============ OLYMPIAD POPUP ============ */
 .olympiad-popup{
   position: fixed;
-  top: 118px;
+  top: 112px;
   right: clamp(16px, 3vw, 24px);
   left: auto;
   transform: none;
@@ -403,14 +430,14 @@ button{font-family:inherit;cursor:pointer}
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 14px;
+  padding: 10px 14px;
   text-align: left;
 }
 .olympiad-popup__icon{font-size:20px;line-height:1;flex-shrink:0}
 .olympiad-popup__label{font-size:13px;font-weight:800;letter-spacing:-.01em}
 .olympiad-popup__chevron{margin-left:auto;font-size:16px;font-weight:700;opacity:.9}
-.olympiad-popup__content{padding:0 14px 14px;border-top:1px solid rgba(255,255,255,.16)}
-.olympiad-popup__title{font-size:14px;font-weight:800;margin:10px 0 0;letter-spacing:-.01em}
+.olympiad-popup__content{padding:0 14px 12px;border-top:1px solid rgba(255,255,255,.16)}
+.olympiad-popup__title{font-size:14px;font-weight:800;margin:8px 0 0;letter-spacing:-.01em}
 .olympiad-popup__text{font-size:12.5px;margin:0;color:rgba(255,255,255,.92)}
 /* ============ BLOG ============ */
 .blog-cluster{margin-top:56px;display:flex;flex-direction:column;gap:44px}
