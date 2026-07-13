@@ -4,7 +4,7 @@ import { LocalBusinessJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Coaching Classes in Amanora, Pune | BuzzyBrains Academy',
   description:
-    'BuzzyBrains Academy is based in Amanora, Hadapsar — IIT-JEE, NEET, Foundation, Olympiad and Maths Tuition coaching with small batches (max 12) and IIT/IIM alumni faculty.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. BuzzyBrains Academy is based in Amanora, Hadapsar — IIT-JEE, NEET, Foundation, Olympiad and Maths Tuition coaching with small batches (max 12) and IIT/IIM alumni faculty.',
   keywords: 'coaching classes Amanora, coaching institute Amanora Pune, tuition classes Amanora, JEE NEET coaching Amanora',
   alternates: { canonical: 'https://buzzybrainsacademy.com/coaching-in-amanora' },
   openGraph: {

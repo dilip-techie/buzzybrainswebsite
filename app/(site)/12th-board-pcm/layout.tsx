@@ -4,7 +4,7 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers | BuzzyBrains Academy',
   description:
-    'Deep conceptual IIT-JEE coaching in Physics, Chemistry & Maths for Grades 11-12 and droppers. Concept-first teaching, advanced problem solving and JEE Main + Advanced test series with IITian faculty.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Deep conceptual IIT-JEE coaching in Physics, Chemistry & Maths for Grades 11-12 and droppers. Concept-first teaching, advanced problem solving and JEE Main + Advanced test series with IITian faculty.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/12th-board-pcm' },
   openGraph: {
     title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',

@@ -4,7 +4,7 @@ import { BreadcrumbJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
   description:
-    "Learn how BuzzyBrains Academy began: Dilip Sir's mission to fix a broken education system with small batches, IITian mentors and student-first teaching in Pune.",
+    "IITian Mentorship. Gateway to Top IITs and AIIMS. Learn how BuzzyBrains Academy began: Dilip Sir's mission to fix a broken education system with small batches, IITian mentors and student-first teaching in Pune.",
   alternates: { canonical: 'https://buzzybrainsacademy.com/about' },
   openGraph: {
     title: 'About Us — Our Story & Mission | BuzzyBrains Academy',

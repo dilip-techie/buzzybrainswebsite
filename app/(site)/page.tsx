@@ -502,7 +502,10 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow reveal">Pune&apos;s Premium Coaching Institute</span>
-            <h1 className="reveal" data-delay="1">Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span></h1>
+            <h1 className="reveal" data-delay="1">
+              Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span>
+              <span className="hero-tagline-sub">🎓 <span className="hero-tagline-sub-text">With IITian Mentorship.</span></span>
+            </h1>
             <p className="lede reveal" data-delay="2">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
             <div className="hero-chips reveal" data-delay="2">
               {PROGRAMS.map((program) => (

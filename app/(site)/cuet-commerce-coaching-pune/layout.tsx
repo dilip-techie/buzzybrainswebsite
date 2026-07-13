@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'CUET Commerce Coaching Pune | Accountancy, Economics, Business Studies | BuzzyBrains Academy',
   description:
-    'How to prepare for the CUET Commerce domain papers alongside Class 12 board exams — what the exam tests, how it differs from board prep, and how BuzzyBrains Academy structures CUET Commerce coaching in Pune.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. How to prepare for the CUET Commerce domain papers alongside Class 12 board exams — what the exam tests, how it differs from board prep, and how BuzzyBrains Academy structures CUET Commerce coaching in Pune.',
   keywords: 'CUET Commerce coaching Pune, CUET Commerce classes Pune, CUET Accountancy coaching, CUET Economics coaching Pune, CUET Business Studies coaching',
   alternates: { canonical: 'https://buzzybrainsacademy.com/cuet-commerce-coaching-pune' },
   openGraph: {

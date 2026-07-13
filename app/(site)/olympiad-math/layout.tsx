@@ -3,7 +3,7 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Olympiad Mathematics Program | BuzzyBrains Academy',
-  description: 'Elite mathematics training focused on olympiad problem solving, logical reasoning, and deep conceptual foundations. IIT Kanpur mentored program for grades 6-12.',
+  description: 'IITian Mentorship. Gateway to Top IITs and AIIMS. Elite mathematics training focused on olympiad problem solving, logical reasoning, and deep conceptual foundations. IIT Kanpur mentored program for grades 6-12.',
   keywords: 'olympiad mathematics, INMO, RMO, IOQM, AMC, IMO, advanced mathematics, problem solving',
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-math' },
   openGraph: {

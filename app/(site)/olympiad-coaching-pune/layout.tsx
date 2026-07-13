@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Olympiad Coaching Pune | Math, Physics, Chemistry, Biology & Coding | BuzzyBrains Academy',
   description:
-    'A guide to olympiad coaching in Pune across every subject — IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more — and how BuzzyBrains Academy structures olympiad prep.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. A guide to olympiad coaching in Pune across every subject — IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more — and how BuzzyBrains Academy structures olympiad prep.',
   keywords: 'olympiad coaching Pune, olympiad classes Pune, IOQM coaching Pune, science olympiad coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-coaching-pune' },
   openGraph: {

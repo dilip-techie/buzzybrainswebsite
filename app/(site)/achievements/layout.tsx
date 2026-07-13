@@ -4,7 +4,7 @@ import { BreadcrumbJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Our Achievements — Results & Reviews | BuzzyBrains Academy',
   description:
-    'See BuzzyBrains Academy\'s real track record: board results, olympiad qualifiers, our growth story since 2020, and genuine reviews from parents and students in Pune.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. See BuzzyBrains Academy\'s real track record: board results, olympiad qualifiers, our growth story since 2020, and genuine reviews from parents and students in Pune.',
   keywords: 'BuzzyBrains Academy results, BuzzyBrains Academy reviews, coaching institute Pune results, JEE NEET olympiad results Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/achievements' },
   openGraph: {

@@ -626,10 +626,53 @@ button{font-family:inherit;cursor:pointer}
 @media(prefers-reduced-motion:reduce){.hero::after{display:none}}
 @media(hover:none){.hero::after{display:none}}
 .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
-.hero h1{font-size:clamp(38px,5.6vw,66px);margin-bottom:24px}
+.hero h1{font-size:clamp(34px,5vw,60px);margin-bottom:24px}
 .hero h1 .grad{
   background:linear-gradient(120deg,var(--blue) 10%,#7C3AED 55%,var(--amber) 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-tagline-sub{
+  position:relative;overflow:hidden;isolation:isolate;
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--font-display);font-weight:800;letter-spacing:-.01em;
+  font-size:clamp(20px,2.8vw,30px);
+  margin-top:18px;padding:10px 24px;border-radius:999px;
+  background:linear-gradient(120deg,rgba(37,99,235,.15),rgba(124,58,237,.18) 50%,rgba(245,158,11,.15));
+  background-size:220% 100%;
+  border:1.5px solid rgba(124,58,237,.22);
+  animation:
+    heroTagShift 5s ease-in-out infinite,
+    heroTagGlow 2.6s ease-in-out infinite,
+    heroTagPop .6s var(--ease) .5s both;
+}
+.hero-tagline-sub::after{
+  content:"";position:absolute;top:0;left:-60%;width:45%;height:100%;
+  background:linear-gradient(115deg,transparent,rgba(255,255,255,.75),transparent);
+  transform:skewX(-20deg);
+  animation:heroTagShimmer 3.4s ease-in-out .8s infinite;
+  pointer-events:none;
+}
+[data-theme="dark"] .hero-tagline-sub::after{background:linear-gradient(115deg,transparent,rgba(255,255,255,.35),transparent)}
+.hero-tagline-sub-text{
+  position:relative;z-index:1;
+  background:linear-gradient(120deg,var(--blue) 10%,#7C3AED 55%,var(--amber) 100%);
+  background-size:220% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:heroTagShift 5s ease-in-out infinite;
+}
+@keyframes heroTagShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@keyframes heroTagGlow{
+  0%,100%{box-shadow:0 6px 20px rgba(124,58,237,.16)}
+  50%{box-shadow:0 8px 30px rgba(124,58,237,.36),0 0 0 3px rgba(37,99,235,.08)}
+}
+@keyframes heroTagShimmer{
+  0%{left:-60%}
+  45%{left:130%}
+  100%{left:130%}
+}
+@keyframes heroTagPop{
+  0%{opacity:0;transform:scale(.85) translateY(6px)}
+  100%{opacity:1;transform:scale(1) translateY(0)}
 }
 .hero p.lede{font-size:19px;color:var(--text-2);max-width:540px;margin-bottom:20px}
 .hero-chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}

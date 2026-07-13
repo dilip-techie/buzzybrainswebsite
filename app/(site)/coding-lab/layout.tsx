@@ -4,7 +4,7 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'CodeHive — Coding, AI & Logic Labs for Grades 6-12 | BuzzyBrains Academy',
   description:
-    'CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. CodeHive by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate.',
   keywords:
     'coding classes, AI classes for kids, logic classes, computational thinking, Python, Java, web development, competitive programming, coding olympiad, grades 6-12, IIT Kanpur mentor',
   alternates: { canonical: 'https://buzzybrainsacademy.com/coding-lab' },

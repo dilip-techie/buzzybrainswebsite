@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'IIT JEE Coaching Pune | Small Batches, IITian Faculty | BuzzyBrains Academy',
   description:
-    'Everything Pune parents ask before choosing IIT-JEE coaching — batch sizes, faculty, Main vs Advanced strategy, and how BuzzyBrains Academy structures JEE prep for Grades 11-12 and droppers.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Everything Pune parents ask before choosing IIT-JEE coaching — batch sizes, faculty, Main vs Advanced strategy, and how BuzzyBrains Academy structures JEE prep for Grades 11-12 and droppers.',
   keywords: 'IIT JEE coaching Pune, JEE coaching institute Pune, best JEE coaching Pune, JEE Main Advanced coaching',
   alternates: { canonical: 'https://buzzybrainsacademy.com/iit-jee-coaching-pune' },
   openGraph: {

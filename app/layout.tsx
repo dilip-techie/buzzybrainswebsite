@@ -23,9 +23,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://buzzybrainsacademy.com'),
-  title: 'BuzzyBrains Academy — Best IIT JEE, NEET & Olympiad Coaching in Pune | Foundation Classes',
+  title: 'BuzzyBrains Academy — IITian Mentorship. Gateway to Top IITs and AIIMS. | Best IIT JEE, NEET & Olympiad Coaching in Pune',
   description:
-    'Premium IIT JEE, NEET, Olympiad & Foundation coaching in Pune. IITian faculty, batches of max 12 students, AI-powered learning & 25+ years of excellence. Book a free demo class today.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Premium IIT JEE, NEET, Olympiad & Foundation coaching in Pune. IITian faculty, batches of max 12 students, AI-powered learning & 25+ years of excellence. Book a free demo class today.',
   keywords: [
     'IIT JEE Coaching Pune',
     'NEET Coaching Pune',

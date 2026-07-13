@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {};
   return {
     title: `${post.title} | BuzzyBrains Academy`,
-    description: post.description,
+    description: `IITian Mentorship. Gateway to Top IITs and AIIMS. ${post.description}`,
     alternates: { canonical: `https://buzzybrainsacademy.com/blog/${post.slug}` },
     openGraph: {
       title: post.title,

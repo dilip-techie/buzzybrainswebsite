@@ -3,7 +3,7 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Programming Classes Grades 6-12 | IIT Kanpur Expert | Python, Java, Web Dev',
-  description: 'Master coding with IIT Kanpur expert mentor. Programming classes for Grades 6-12 aligned with CBSE, ICSE, IGCSE, IB & international boards. Learn Python, Java, Web Development & more.',
+  description: 'IITian Mentorship. Gateway to Top IITs and AIIMS. Master coding with IIT Kanpur expert mentor. Programming classes for Grades 6-12 aligned with CBSE, ICSE, IGCSE, IB & international boards. Learn Python, Java, Web Development & more.',
   keywords: 'programming classes, coding classes, Python, Java, CBSE, ICSE, IGCSE, IB, computer science coaching, grades 6-12',
   alternates: { canonical: 'https://buzzybrainsacademy.com/programming-classes' },
   openGraph: {

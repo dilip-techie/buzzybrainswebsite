@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'CA Foundation Coaching Pune | Class 12 Commerce Students | BuzzyBrains Academy',
   description:
-    'What CA Foundation actually covers, when a Class 12 Commerce student should register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation in Pune.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. What CA Foundation actually covers, when a Class 12 Commerce student should register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation in Pune.',
   keywords: 'CA Foundation coaching Pune, CA Foundation classes Pune, CA Foundation for Class 12 students, CA Foundation Accounting coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ca-foundation-coaching-pune' },
   openGraph: {

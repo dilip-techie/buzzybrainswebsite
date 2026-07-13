@@ -4,7 +4,7 @@ import { BreadcrumbJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Blog — JEE, NEET, Commerce, Olympiad & Foundation Guides | BuzzyBrains Academy',
   description:
-    'Guides on IIT-JEE, NEET, Commerce (CUET/CA Foundation), Olympiad, Foundation and Maths Tuition preparation from BuzzyBrains Academy — written by IIT/IIM alumni faculty in Pune.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Guides on IIT-JEE, NEET, Commerce (CUET/CA Foundation), Olympiad, Foundation and Maths Tuition preparation from BuzzyBrains Academy — written by IIT/IIM alumni faculty in Pune.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/blog' },
   openGraph: {
     title: 'BuzzyBrains Academy Blog',

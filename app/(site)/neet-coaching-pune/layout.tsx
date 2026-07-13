@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'NEET Coaching Pune | Small Batches, NCERT-First Teaching | BuzzyBrains Academy',
   description:
-    'How to evaluate NEET coaching in Pune, why NCERT depth matters more than extra reference books, and how BuzzyBrains Academy structures NEET prep for Grades 11-12 and droppers.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. How to evaluate NEET coaching in Pune, why NCERT depth matters more than extra reference books, and how BuzzyBrains Academy structures NEET prep for Grades 11-12 and droppers.',
   keywords: 'NEET coaching Pune, NEET coaching institute Pune, best NEET coaching Pune, NEET Biology coaching',
   alternates: { canonical: 'https://buzzybrainsacademy.com/neet-coaching-pune' },
   openGraph: {

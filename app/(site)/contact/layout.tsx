@@ -3,7 +3,7 @@ import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Contact Us | BuzzyBrains Academy - Expert Coaching by IITian Mentor',
-  description: 'Get in touch with BuzzyBrains Academy. Connect with our expert IITian and IIM mentors for personalized coaching guidance.',
+  description: 'IITian Mentorship. Gateway to Top IITs and AIIMS. Get in touch with BuzzyBrains Academy. Connect with our expert IITian and IIM mentors for personalized coaching guidance.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/contact' },
   openGraph: {
     title: 'Contact Us | BuzzyBrains Academy',

@@ -4,7 +4,7 @@ import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Foundation Classes Pune (Grades 6-10) | BuzzyBrains Academy',
   description:
-    'Why starting foundation-level maths and science coaching early changes JEE/NEET outcomes later, and how BuzzyBrains Academy structures Foundation classes for Grades 6-10 in Pune.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Why starting foundation-level maths and science coaching early changes JEE/NEET outcomes later, and how BuzzyBrains Academy structures Foundation classes for Grades 6-10 in Pune.',
   keywords: 'foundation classes Pune, foundation coaching Pune, grade 6 7 8 9 10 coaching Pune, NTSE coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/foundation-classes-pune' },
   openGraph: {

@@ -3,7 +3,7 @@ import { ProgramJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Foundation Program (Grades 6-10) | Expert IITian Mentor Coaching | BuzzyBrains Academy",
-  description: "Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results.",
+  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results.",
   alternates: { canonical: "https://buzzybrainsacademy.com/foundation" },
   openGraph: {
     title: "Foundation Program (Grades 6-10) | Expert IITian Mentor Coaching",

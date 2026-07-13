@@ -4,7 +4,7 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'NEET Coaching — Grade 11-12 PCB & Droppers | BuzzyBrains Academy',
   description:
-    'Complete NEET medical entrance preparation for Grades 11-12 and droppers, with NCERT at the core. Line-by-line NCERT mastery, high-yield revision systems and NEET-pattern mock tests with expert faculty.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Complete NEET medical entrance preparation for Grades 11-12 and droppers, with NCERT at the core. Line-by-line NCERT mastery, high-yield revision systems and NEET-pattern mock tests with expert faculty.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/12th-board-pcb' },
   openGraph: {
     title: 'NEET Coaching — Grade 11-12 PCB & Droppers',

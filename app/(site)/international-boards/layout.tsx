@@ -3,7 +3,7 @@ import { ProgramJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
   title: "IGCSE, IB & AP Exam Coaching | A*/7/5 Results | IITian Mentor Guidance | BuzzyBrains Academy",
-  description: "Premier coaching for IGCSE, IB, and AP exams with expert guidance from IITian mentor. Achieve A*/7/5 grades with personalized mentorship, comprehensive curriculum, and proven international board expertise.",
+  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Premier coaching for IGCSE, IB, and AP exams with expert guidance from IITian mentor. Achieve A*/7/5 grades with personalized mentorship, comprehensive curriculum, and proven international board expertise.",
   alternates: { canonical: "https://buzzybrainsacademy.com/international-boards" },
   openGraph: {
     title: "IGCSE, IB & AP Exam Coaching | A*/7/5 Results",

@@ -4,7 +4,7 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'SAT Exam Prep — Score 1400+ on the Digital SAT | BuzzyBrains Academy',
   description:
-    'Structured Digital SAT preparation covering Reading & Writing and Math, with adaptive-format strategy, timed full-length mocks and score tracking — mentored by IIT/IIM alumni faculty.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Structured Digital SAT preparation covering Reading & Writing and Math, with adaptive-format strategy, timed full-length mocks and score tracking — mentored by IIT/IIM alumni faculty.',
   keywords:
     'SAT exam prep, digital SAT, SAT coaching Pune, SAT Reading Writing, SAT Math, SAT score 1400, SAT score 1500, SAT full length mock tests, SAT coaching for Indian students',
   alternates: { canonical: 'https://buzzybrainsacademy.com/sat-exam' },

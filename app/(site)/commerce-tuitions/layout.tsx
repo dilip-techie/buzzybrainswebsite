@@ -4,7 +4,7 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'BuzzyBrains Commerce Tuitions | Class 11-12 Commerce Coaching Pune | IGCSE & IB | BuzzyBrains Academy',
   description:
-    'Commerce coaching in Pune for Class 11-12 CBSE, ICSE, State Board, IGCSE and IB Diploma students — Accountancy, Economics, Business Studies, Applied Maths and more, plus CUET, CA Foundation, IPMAT, NPAT and SET preparation support. Small batches, max 10 students.',
+    'IITian Mentorship. Gateway to Top IITs and AIIMS. Commerce coaching in Pune for Class 11-12 CBSE, ICSE, State Board, IGCSE and IB Diploma students — Accountancy, Economics, Business Studies, Applied Maths and more, plus CUET, CA Foundation, IPMAT, NPAT and SET preparation support. Small batches, max 10 students.',
   keywords:
     'Commerce coaching Pune, Commerce classes Pune, Class 11 Commerce coaching, Class 12 Commerce coaching, Accountancy classes Pune, Economics tuition Pune, Business Studies tuition Pune, Applied Maths coaching Pune, CUET commerce coaching, CA Foundation coaching Pune, IPMAT preparation Pune, IGCSE Business Studies tuition Pune, IGCSE Economics coaching Pune, IB Business Management tuition Pune, IB Economics coaching Pune, IB Diploma Commerce coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/commerce-tuitions' },
