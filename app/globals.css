@@ -87,7 +87,7 @@ button{font-family:inherit;cursor:pointer}
 }
 .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--amber)}
 
-.hero-badges{display:flex;flex-wrap:wrap;gap:11px;margin:-10px 0 24px}
+.hero-badges{display:flex;flex-wrap:wrap;gap:11px;margin:-26px 0 18px}
 .hero-badges .eyebrow{margin-bottom:0}
 .eyebrow-highlight,.eyebrow-location{
   font-size:14.5px;font-weight:800;padding:11px 22px;
@@ -732,7 +732,7 @@ button{font-family:inherit;cursor:pointer}
   display:inline-flex;align-items:center;gap:8px;
   font-family:var(--font-display);font-weight:800;letter-spacing:-.01em;
   font-size:clamp(20px,2.8vw,30px);
-  margin-top:18px;padding:10px 24px;border-radius:999px;
+  margin-top:10px;padding:10px 24px;border-radius:999px;
   background:linear-gradient(120deg,rgba(37,99,235,.15),rgba(124,58,237,.18) 50%,rgba(245,158,11,.15));
   background-size:220% 100%;
   border:1.5px solid rgba(124,58,237,.22);
@@ -940,6 +940,13 @@ button{font-family:inherit;cursor:pointer}
 .float-card .fc-icon svg{width:20px;height:20px;color:#fff}
 .float-card b{display:block;font-size:14.5px;line-height:1.2}
 .float-card small{font-size:12px;color:var(--text-3);font-family:var(--font-body)}
+.float-card-highlight{
+  background:linear-gradient(135deg,#0B1224,#1E3A8A);
+  border:1px solid rgba(96,165,250,.35);
+  box-shadow:0 12px 28px rgba(15,23,42,.4);
+  backdrop-filter:none;-webkit-backdrop-filter:none;
+}
+.float-card-highlight b{color:#fff}
 .fc-1{top:-24px;left:-34px;animation-delay:.6s;max-width:220px}
 .fc-2{bottom:34px;right:-30px;animation-delay:1.4s}
 .fc-3{bottom:-26px;left:12%;animation-delay:2.2s}

@@ -615,13 +615,12 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="float-card fc-1">
-              <span className="fc-icon" style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)' }}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg>
+            <div className="float-card float-card-highlight fc-1">
+              <span className="fc-icon" style={{ background: 'rgba(96,165,250,.28)' }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 1 6 6c0 2-1 3.6-2.4 4.8L15 15h-6l-.6-1.2A6 6 0 0 1 12 3z" /><path d="M9 18h6M10 21h4" /></svg>
               </span>
               <div>
-                <b style={{ background: 'linear-gradient(135deg,#7C3AED,#2563EB)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>Personalized Attention for Every Student</b>
-                <small>Small batches, real mentors</small>
+                <b>Personalized Attention for Every Student</b>
               </div>
             </div>
             <div className="float-card fc-2">
