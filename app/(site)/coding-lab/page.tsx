@@ -111,7 +111,7 @@ export default function CodingLabPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">💻 CodeHive · Coding, AI &amp; Logic Labs · Grades 6–12</span>
+          <span className="eyebrow reveal">💻 Code Ninja · Coding, AI &amp; Logic Labs · Grades 6–12</span>
           <h1 className="reveal" data-delay="1">Code. Create. <span className="grad">Compute.</span></h1>
           <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             A dedicated coding track from <strong style={{ color: 'var(--blue)' }}>Grade 6 to Grade 12</strong> — programming,
@@ -163,7 +163,7 @@ export default function CodingLabPage() {
       <section className="bb-section">
         <div className="container">
           <div className="center">
-            <span className="eyebrow reveal">The CodeHive Method</span>
+            <span className="eyebrow reveal">The Code Ninja Method</span>
             <h2 className="section-title reveal">Three pillars, one connected skillset</h2>
             <p className="section-sub reveal">Coding, AI and logic aren&apos;t taught in isolation — every track weaves all three together.</p>
           </div>
@@ -209,7 +209,7 @@ export default function CodingLabPage() {
       <section className="bb-section">
         <div className="container">
           <div className="center">
-            <span className="eyebrow reveal">Why CodeHive</span>
+            <span className="eyebrow reveal">Why Code Ninja</span>
             <h2 className="section-title reveal">Built for makers, not memorizers</h2>
           </div>
           <div className="trust-grid">
@@ -228,7 +228,7 @@ export default function CodingLabPage() {
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
           <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
-          <h2 style={{ marginBottom: 14 }}>Ready to Join CodeHive?</h2>
+          <h2 style={{ marginBottom: 14 }}>Ready to Join Code Ninja?</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
             Book a free demo and see how your child learns to code, think and build with AI.
           </p>

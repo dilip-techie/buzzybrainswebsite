@@ -44,7 +44,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     title: 'Specialized Tracks',
     subtitle: 'Skills & Format',
     items: [
-      { href: '/coding-lab', label: 'CodeHive (Grades 6–12)' },
+      { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
       { href: '/one-on-one', label: 'One-on-One Coaching' },
     ],
     footerLink: { href: '/#contact', label: 'Book a free demo →' },
@@ -60,13 +60,15 @@ const NAV_LINKS = [
   { href: '/#contact', label: 'Contact Us' },
 ];
 
-const STRIP_MESSAGES = [
-  '🎓 An IIT/IIM Alumni Initiative',
-  '✅ Top 1% Faculty Led by Dilip Sir',
-  '✅ Maximum Batch Size: 12 Students',
-  '✅ Personal Attention Guaranteed',
-  '🏆 Olympiad Batches Open',
-  '💻 CodeHive: Coding Lab Now Open',
+const STRIP_MESSAGES: { text: string; live?: boolean }[] = [
+  { text: '🎓 An IIT/IIM Alumni Initiative' },
+  { text: '✅ Top 1% Faculty Led by Dilip Sir' },
+  { text: '✅ Maximum Batch Size: 12 Students' },
+  { text: '✅ Personal Attention Guaranteed' },
+  { text: '🏆 Olympiad Batches Open' },
+  { text: '💻 Code Ninja: Coding Lab Now Open' },
+  { text: 'Online & Offline Batches', live: true },
+  { text: '🧑‍🏫 1-on-1 Classes Available Now' },
 ];
 
 export default function Navbar() {
@@ -99,7 +101,10 @@ export default function Navbar() {
       <div className="top-strip" aria-label="BuzzyBrains Academy highlights">
         <div className="top-strip-track" aria-hidden="true">
           {[...STRIP_MESSAGES, ...STRIP_MESSAGES].map((msg, i) => (
-            <span key={i}>{msg}</span>
+            <span key={i}>
+              {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+              {msg.text}
+            </span>
           ))}
         </div>
       </div>

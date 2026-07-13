@@ -9,7 +9,7 @@ export default function OlympiadPillarPage() {
       primaryProgram={{ href: '/olympiads', label: 'Olympiad Program' }}
       secondaryPrograms={[
         { href: '/olympiad-math', label: 'Maths Excellence Program' },
-        { href: '/coding-lab', label: 'CodeHive (Coding & AI)' },
+        { href: '/coding-lab', label: 'Code Ninja (Coding & AI)' },
       ]}
       relatedPosts={[{ href: '/blog/ioqm-syllabus-preparation-guide', label: 'IOQM Syllabus and Preparation Guide' }]}
       faq={[

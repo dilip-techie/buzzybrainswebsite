@@ -15,7 +15,7 @@ export const CATEGORY_LABELS: Record<BlogCategory, string> = {
   olympiad: 'Olympiad',
   'maths-tuition': 'Maths Tuition',
   'international-sat': 'International & SAT',
-  coding: 'CodeHive / Coding',
+  coding: 'Code Ninja / Coding',
   commerce: 'Commerce',
 };
 

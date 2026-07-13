@@ -161,7 +161,7 @@ const PROGRAMS = [
   {
     id: 'codehive',
     grade: 'Grades 6–12',
-    title: 'CodeHive · Coding & AI',
+    title: 'Code Ninja · Coding & AI',
     description: 'A dedicated coding, AI foundations and logic-building track — Python, Java, Web Dev and competitive programming.',
     highlights: ['Python · Java · Web Dev', 'AI & Machine Learning basics', 'Logic & algorithmic thinking', 'Competitive programming path'],
     href: '/coding-lab',

@@ -82,7 +82,7 @@ export default function Footer() {
           <nav aria-label="Footer specialized tracks links">
             <h4>Specialized Tracks</h4>
             <ul className="foot-links">
-              <li><Link href="/coding-lab">CodeHive (Coding &amp; AI)</Link></li>
+              <li><Link href="/coding-lab">Code Ninja (Coding &amp; AI)</Link></li>
               <li><Link href="/one-on-one">One-on-One Coaching</Link></li>
             </ul>
           </nav>
