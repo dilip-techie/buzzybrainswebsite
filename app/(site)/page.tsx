@@ -747,6 +747,7 @@ export default function HomePage() {
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Mentored by IITian</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Top 1% Faculty · IIT/IIM Alumni</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Tech. Driven Platform</span>
+              <Link href="/best-coaching-institute-pune" className="chip chip-link">Why we're the best coaching institute in Pune →</Link>
             </div>
           </div>
 

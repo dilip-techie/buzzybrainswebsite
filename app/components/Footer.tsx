@@ -36,6 +36,7 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <ul className="foot-links">
               <li><Link href="/#programs">Programs</Link></li>
+              <li><Link href="/best-coaching-institute-pune">Best Coaching Institute in Pune</Link></li>
               <li><Link href="/about">About Us</Link></li>
               <li><Link href="/admissions">Admissions</Link></li>
               <li><Link href="/#faculty">Faculty</Link></li>
@@ -140,6 +141,7 @@ export default function Footer() {
         <div className="foot-bottom">
           <span>© {new Date().getFullYear()} BuzzyBrains Academy. All rights reserved.</span>
           <span>Learn Smarter. Dream Bigger. Achieve More.</span>
+          <Link href="/sitemap">Sitemap</Link>
         </div>
       </div>
     </footer>

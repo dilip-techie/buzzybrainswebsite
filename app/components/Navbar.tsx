@@ -69,6 +69,7 @@ const STRIP_MESSAGES: { text: string; live?: boolean }[] = [
   { text: '💻 Code Ninja: Coding Lab Now Open' },
   { text: 'Online & Offline Batches', live: true },
   { text: '🧑‍🏫 1-on-1 Classes Available Now' },
+  { text: '📍 Available Near Amanora Mall, Pune' },
 ];
 
 export default function Navbar() {

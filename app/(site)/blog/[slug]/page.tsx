@@ -120,6 +120,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
           <ShareBar title={post.title} />
 
+          {post.relatedGuides && post.relatedGuides.length > 0 && (
+            <div style={{ marginTop: 28, display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+              {post.relatedGuides.map((g) => (
+                <Link key={g.href} href={g.href} className="chip chip-link">
+                  {g.label}
+                </Link>
+              ))}
+            </div>
+          )}
+
           <div className="article-cta">
             <p>Want personalized guidance on this? Talk to our {post.relatedProgramLabel} mentors.</p>
             <Link href={post.relatedProgramHref} className="btn btn-primary">

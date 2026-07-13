@@ -151,6 +151,40 @@ export function LocalBusinessJsonLd({
 }
 
 /**
+ * For founder/faculty bio sections — makes credentials (alma mater, role)
+ * machine-readable so AI assistants can answer "who founded/teaches at
+ * BuzzyBrains Academy" directly from structured data.
+ */
+export function PersonJsonLd({
+  name,
+  jobTitle,
+  description,
+  alumniOf,
+  path,
+}: {
+  name: string;
+  jobTitle: string;
+  description: string;
+  alumniOf: string[];
+  path: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name,
+        jobTitle,
+        description,
+        alumniOf: alumniOf.map((school) => ({ '@type': 'CollegeOrUniversity', name: school })),
+        worksFor: { '@type': 'EducationalOrganization', name: 'BuzzyBrains Academy', url: SITE_URL },
+        url: `${SITE_URL}${path}`,
+      }}
+    />
+  );
+}
+
+/**
  * For pillar guides, blog posts, comparison pages and parent/student
  * resource pages — anything long-form and editorial rather than a
  * commercial program page (use ProgramJsonLd for those instead).
