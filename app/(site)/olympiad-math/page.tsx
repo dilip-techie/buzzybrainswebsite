@@ -408,21 +408,26 @@ export default function OlympiadMathPage() {
             </div>
             <div className="why-visual reveal" data-delay="1">
               <div className="illus">
-                <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a written mathematical proof being reviewed, ending in QED">
+                <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an actual written proof that if n squared is even then n is even, reviewed by a mentor and ending in QED">
                   <rect width="480" height="300" fill="var(--bg-alt)" />
-                  <rect x="60" y="40" width="360" height="220" rx="14" fill="var(--card)" stroke="var(--line)" />
-                  <rect x="88" y="70" width="180" height="10" rx="5" fill="var(--line)" />
-                  <rect x="88" y="100" width="300" height="9" rx="4.5" fill="rgba(37,99,235,.28)" />
-                  <rect x="88" y="124" width="260" height="9" rx="4.5" fill="rgba(37,99,235,.2)" />
-                  <rect x="88" y="148" width="280" height="9" rx="4.5" fill="rgba(124,58,237,.24)" />
-                  <circle cx="330" cy="152" r="12" fill="none" stroke="#EF4444" strokeWidth="2.5" />
-                  <rect x="88" y="172" width="230" height="9" rx="4.5" fill="rgba(124,58,237,.18)" />
-                  <rect x="88" y="196" width="150" height="9" rx="4.5" fill="rgba(16,185,129,.28)" />
-                  <g transform="translate(300 205)">
-                    <circle r="20" fill="#10B981" />
-                    <path d="M-8 0 l6 6 10 -12" stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  <rect x="52" y="34" width="376" height="232" rx="14" fill="var(--card)" stroke="var(--line)" />
+                  <rect x="76" y="52" width="60" height="21" rx="10.5" fill="rgba(37,99,235,.12)" />
+                  <text x="88" y="66.5" fontFamily="Manrope,sans-serif" fontWeight="700" fontSize="10.5" fill="var(--blue)">PROOF</text>
+                  <text x="76" y="97" fontFamily="Manrope,sans-serif" fontWeight="800" fontSize="15" fill="var(--text)">Claim: if n&#178; is even, n is even.</text>
+                  <text x="76" y="120" fontFamily="Manrope,sans-serif" fontWeight="600" fontSize="11.5" fill="var(--text-3)">Proof (contrapositive):</text>
+                  <text x="76" y="146" fontFamily="ui-monospace,monospace" fontSize="13" fill="var(--text-2)">Assume n is odd: n = 2k + 1</text>
+                  <text x="76" y="168" fontFamily="ui-monospace,monospace" fontSize="13" fill="var(--text-2)">n&#178; = 4k&#178; + 4k + 1</text>
+                  <text x="76" y="190" fontFamily="ui-monospace,monospace" fontSize="13" fill="var(--text-2)">&#160;&#160;&#160;= 2(2k&#178; + 2k) + 1</text>
+                  <text x="76" y="214" fontFamily="ui-monospace,monospace" fontWeight="700" fontSize="13.5" fill="var(--text)">&#8658; n&#178; is odd.</text>
+                  <g transform="translate(372 148) rotate(-8)">
+                    <path d="M-11 1 l7 8 15 -18" stroke="#EF4444" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                   </g>
-                  <text x="330" y="235" fontFamily="Manrope,sans-serif" fontWeight="800" fontSize="16" fill="var(--text-2)">Q.E.D.</text>
+                  <text x="330" y="172" fontFamily="Manrope,sans-serif" fontWeight="600" fontSize="10.5" fill="#EF4444">mentor-checked</text>
+                  <g transform="translate(392 238)">
+                    <circle r="18" fill="#10B981" />
+                    <path d="M-7 0 l5 5.5 9 -11" stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  </g>
+                  <text x="284" y="243" fontFamily="Manrope,sans-serif" fontWeight="800" fontSize="15" fill="var(--text-2)">Q.E.D.</text>
                 </svg>
               </div>
             </div>
