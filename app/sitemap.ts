@@ -28,6 +28,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
 
   // International pathways
   { path: '/international-boards', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/ap-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/sat-exam', changeFrequency: 'monthly', priority: 0.7 },
 
   // Specialized tracks

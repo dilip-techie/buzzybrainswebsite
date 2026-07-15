@@ -136,7 +136,7 @@ const PROGRAMS = [
     title: 'AP Exams',
     description: 'Focused preparation for AP subjects with clear frameworks, timed practice and college-credit readiness.',
     highlights: ['AP Calculus · Physics · Chem', 'Exam pattern mastery', 'High-scoring practice sets', 'College-ready preparation'],
-    href: '/international-boards#ap',
+    href: '/ap-exam',
     pc: 'linear-gradient(135deg,#065F46,#10B981)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',

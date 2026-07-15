@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Globe, Calculator, Microscope, Code, DollarSign, BookOpenCheck } from 'lucide-react';
 
 type BoardTab = 'IGCSE' | 'IB' | 'A-Level' | 'AP';
@@ -349,6 +350,18 @@ export default function InternationalBoardsPage() {
               </div>
             ))}
           </div>
+
+          {activeTab === 'AP' && (
+            <div className="text-center mt-10">
+              <Link
+                href="/ap-exam"
+                className={`inline-flex items-center gap-2 bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold`}
+              >
+                See the full AP Exams page — subjects, FRQ prep &amp; score-5 method
+                <ChevronRight className="w-5 h-5" />
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 

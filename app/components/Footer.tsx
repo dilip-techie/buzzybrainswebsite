@@ -75,7 +75,7 @@ export default function Footer() {
               <li><Link href="/international-boards#igcse">IGCSE (Cambridge)</Link></li>
               <li><Link href="/international-boards#ib">IB Diploma</Link></li>
               <li><Link href="/international-boards#a-level">A Level / AS Level</Link></li>
-              <li><Link href="/international-boards#ap">AP Exams</Link></li>
+              <li><Link href="/ap-exam">AP Exams</Link></li>
               <li><Link href="/sat-exam">SAT Exam</Link></li>
               <li><Link href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
             </ul>

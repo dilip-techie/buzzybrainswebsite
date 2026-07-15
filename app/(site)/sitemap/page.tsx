@@ -45,7 +45,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/international-boards#igcse', label: 'IGCSE (Cambridge)' },
       { href: '/international-boards#ib', label: 'IB Diploma' },
       { href: '/international-boards#a-level', label: 'A Level / AS Level' },
-      { href: '/international-boards#ap', label: 'AP Exams' },
+      { href: '/ap-exam', label: 'AP Exams' },
       { href: '/sat-exam', label: 'SAT Exam' },
     ],
   },

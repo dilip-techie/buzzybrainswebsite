@@ -35,7 +35,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/international-boards#igcse', label: 'IGCSE (Grades 4–12)' },
       { href: '/international-boards#ib', label: 'IB Diploma (Grades 4–12)' },
       { href: '/international-boards#a-level', label: 'A Level / AS Level' },
-      { href: '/international-boards#ap', label: 'AP Exams' },
+      { href: '/ap-exam', label: 'AP Exams' },
       { href: '/sat-exam', label: 'SAT' },
     ],
     footerLink: { href: '/international-boards', label: 'Compare pathways →' },
