@@ -29,7 +29,7 @@ import {
 } from 'lucide-react';
 
 const HIGHLIGHTS = [
-  { value: '30+', label: 'AP Subjects Coached', icon: Trophy, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
+  { value: '24', label: 'AP Subjects Coached', icon: Trophy, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
   { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
   { value: 'IIT Kanpur', label: 'Founder-Led Teaching', icon: Award, gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
   { value: '25+', label: 'Years Faculty Experience', icon: Trophy, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
@@ -109,8 +109,14 @@ const CATEGORY_COLOR: Record<string, string> = {
 
 const TIER_2 = [
   { name: 'AP Precalculus', cat: 'Mathematics', icon: Calculator },
+  { name: 'AP Physics C: Electricity & Magnetism', cat: 'Sciences', icon: Atom },
+  { name: 'AP Physics 2', cat: 'Sciences', icon: Atom },
   { name: 'AP Biology', cat: 'Sciences', icon: Dna },
   { name: 'AP Environmental Science', cat: 'Sciences', icon: Leaf },
+  { name: 'AP Computer Science Principles (CSP)', cat: 'Computer Science', icon: Code2 },
+];
+
+const TIER_3 = [
   { name: 'AP Psychology', cat: 'Social Science', icon: Brain },
   { name: 'AP Microeconomics', cat: 'Social Science', icon: DollarSign },
   { name: 'AP Macroeconomics', cat: 'Social Science', icon: TrendingUp },
@@ -119,14 +125,9 @@ const TIER_2 = [
   { name: 'AP US History', cat: 'History', icon: Landmark },
   { name: 'AP World History: Modern', cat: 'History', icon: Globe },
   { name: 'AP US Government & Politics', cat: 'Social Science', icon: Scale },
-  { name: 'AP Human Geography', cat: 'Social Science', icon: MapPin },
-];
-
-const TIER_3 = [
-  { name: 'AP Physics 2', cat: 'Sciences', icon: Atom },
-  { name: 'AP Computer Science Principles', cat: 'Computer Science', icon: Code2 },
   { name: 'AP Comparative Government & Politics', cat: 'Social Science', icon: Scale },
   { name: 'AP European History', cat: 'History', icon: Landmark },
+  { name: 'AP Human Geography', cat: 'Social Science', icon: MapPin },
 ];
 
 const METHODOLOGY = [
@@ -289,14 +290,34 @@ export default function ApExamPage() {
             ))}
           </div>
 
-          {/* ---- Tier 2: more AP subjects ---- */}
+          {/* ---- Tier 2: STEM AP subjects ---- */}
           <div className="subject-tier reveal">
             <div className="subject-tier-head">
-              <span className="subject-tier-badge" style={{ background: 'linear-gradient(135deg,#92400E,#F59E0B)' }}>Tier 2</span>
-              <span className="subject-tier-title">More AP subjects our mentors coach</span>
+              <span className="subject-tier-badge" style={{ background: 'linear-gradient(135deg,#065F46,#10B981)' }}>Tier 2 · STEM</span>
+              <span className="subject-tier-title">Every STEM AP subject we coach, including CSP</span>
+            </div>
+            <div className="subject-grid-4">
+              {TIER_2.map((s) => (
+                <div className="subject-card-lg" key={s.name}>
+                  <div className="subject-card-lg-icon" style={{ background: `linear-gradient(135deg,${CATEGORY_COLOR[s.cat]})` }}>
+                    <s.icon size={24} />
+                  </div>
+                  <h4>{s.name}</h4>
+                  <span>{s.cat}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* ---- Tier 3: humanities & social science AP subjects, on request ---- */}
+          <div className="subject-tier reveal">
+            <div className="subject-tier-head">
+              <span className="subject-tier-badge" style={{ background: 'linear-gradient(135deg,#334155,#0F172A)' }}>Tier 3</span>
+              <span className="subject-tier-title">Humanities &amp; Social Science AP subjects</span>
+              <span className="subject-tier-note">Available on request, subject to mentor availability</span>
             </div>
             <div className="subject-grid">
-              {TIER_2.map((s) => (
+              {TIER_3.map((s) => (
                 <div className="subject-card" key={s.name}>
                   <div className="subject-card-icon" style={{ background: `linear-gradient(135deg,${CATEGORY_COLOR[s.cat]})` }}>
                     <s.icon size={18} />
@@ -305,26 +326,6 @@ export default function ApExamPage() {
                     <b>{s.name}</b>
                     <span>{s.cat}</span>
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* ---- Tier 3: additional AP subjects, on request ---- */}
-          <div className="subject-tier reveal">
-            <div className="subject-tier-head">
-              <span className="subject-tier-badge" style={{ background: 'linear-gradient(135deg,#334155,#0F172A)' }}>Tier 3</span>
-              <span className="subject-tier-title">Additional AP subjects</span>
-              <span className="subject-tier-note">Available on request, subject to mentor availability</span>
-            </div>
-            <div className="subject-grid-4">
-              {TIER_3.map((s) => (
-                <div className="subject-card-lg" key={s.name}>
-                  <div className="subject-card-lg-icon" style={{ background: `linear-gradient(135deg,${CATEGORY_COLOR[s.cat]})` }}>
-                    <s.icon size={24} />
-                  </div>
-                  <h4>{s.name}</h4>
-                  <span>{s.cat}</span>
                 </div>
               ))}
             </div>
