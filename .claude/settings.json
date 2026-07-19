@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(taskkill //F //PID 17144)"
+      "Bash(taskkill //F //PID 17144)",
+      "Bash(node -e ' *)",
+      "Bash(node splice.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3457/blog/how-to-prepare-for-ioqm-from-grade-8)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3457/blog/ib-mathematics-aa-vs-ai-which-should-you-choose)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3457/blog)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npm init *)",
+      "Bash(npx playwright *)",
+      "Bash(node screenshot.js)",
+      "Bash(node check404.js)",
+      "Bash(node screenshot2.js)"
     ]
   }
 }

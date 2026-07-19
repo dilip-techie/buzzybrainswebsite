@@ -11,7 +11,19 @@ export default function OlympiadPillarPage() {
         { href: '/olympiad-math', label: 'Maths Excellence Program' },
         { href: '/coding-lab', label: 'Code Ninja (Coding & AI)' },
       ]}
-      relatedPosts={[{ href: '/blog/ioqm-syllabus-preparation-guide', label: 'IOQM Syllabus and Preparation Guide' }]}
+      relatedPosts={[
+        { href: '/blog/ioqm-syllabus-preparation-guide', label: 'IOQM Syllabus and Preparation Guide' },
+        { href: '/blog/complete-guide-maths-olympiad-preparation-class-6-10', label: 'Complete Guide to Maths Olympiad Prep (Class 6–10)' },
+        { href: '/blog/how-to-prepare-for-ioqm-from-grade-8', label: 'How to Prepare for IOQM from Grade 8' },
+        { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },
+        { href: '/blog/science-olympiad-preparation-strategy-middle-school', label: 'Science Olympiad Preparation Strategy' },
+        { href: '/blog/common-mistakes-students-make-in-olympiad-mathematics', label: 'Common Mistakes in Olympiad Mathematics' },
+        { href: '/blog/why-olympiad-preparation-improves-jee-success', label: 'Why Olympiad Preparation Improves JEE Success' },
+        { href: '/blog/best-books-for-maths-olympiad-preparation', label: 'Best Books for Maths Olympiad Preparation' },
+        { href: '/blog/how-parents-can-support-olympiad-preparation', label: 'How Parents Can Support Olympiad Preparation' },
+        { href: '/blog/olympiad-vs-school-mathematics-key-differences', label: 'Olympiad vs School Mathematics' },
+        { href: '/blog/mental-maths-techniques-every-olympiad-student-should-know', label: 'Mental Maths Techniques for Olympiad Students' },
+      ]}
       faq={[
         {
           question: 'Which olympiad should my child start with?',

@@ -11,6 +11,13 @@ export default function InternationalPillarPage() {
         { href: '/sat-exam', label: 'SAT Exam Prep' },
         { href: '/coding-lab', label: 'Code Ninja (Coding & AI)' },
       ]}
+      relatedPosts={[
+        { href: '/blog/complete-guide-cambridge-igcse-mathematics-0580', label: 'Complete Guide to Cambridge IGCSE Mathematics (0580)' },
+        { href: '/blog/how-to-score-a-star-igcse-additional-mathematics-0606', label: 'How to Score A* in IGCSE Additional Mathematics (0606)' },
+        { href: '/blog/ib-mathematics-aa-vs-ai-which-should-you-choose', label: 'IB Mathematics AA vs AI: Which Should You Choose?' },
+        { href: '/blog/top-strategies-score-7-ib-physics', label: 'Top Strategies to Score a 7 in IB Physics' },
+        { href: '/blog/how-personalized-tutoring-improves-igcse-ib-results', label: 'How Personalized Tutoring Improves IGCSE and IB Results' },
+      ]}
       faq={[
         {
           question: 'How is IGCSE/IB/AP coaching different from CBSE/ICSE coaching?',
