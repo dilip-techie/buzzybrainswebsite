@@ -50,6 +50,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
 
   // Blog
   { path: '/blog', changeFrequency: 'weekly', priority: 0.6 },
+  { path: '/board-exam-study-planner', changeFrequency: 'monthly', priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -38,6 +38,21 @@ enum AttemptStatus {
   Evaluated
 }
 
+model Lead {
+  id         String    @id @default(uuid())
+  name       String
+  email      String
+  phone      String
+  board      String?
+  grade      String?
+  source     String    @default("board-exam-study-planner") @map("source")
+  pdfSentAt  DateTime? @map("pdf_sent_at")
+  createdAt  DateTime  @default(now()) @map("created_at")
+
+  @@index([email])
+  @@map("leads")
+}
+
 model User {
   id                 String          @id @default(uuid())
   role               Role

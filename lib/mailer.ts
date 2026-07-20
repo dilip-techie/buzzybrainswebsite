@@ -29,6 +29,12 @@ interface SendTestNotificationParams {
   loginUrl: string;
 }
 
+interface SendStudyPlannerParams {
+  to: string;
+  name: string;
+  pdfBuffer: Buffer;
+}
+
 // ── Shared Design Tokens ──────────────────────────────────────────────
 
 const BRAND = {
@@ -106,9 +112,15 @@ function getTransporter() {
   });
 }
 
-async function trySend(to: string, subject: string, html: string, label: string): Promise<{ success: boolean; message: string; messageId?: string }> {
+async function trySend(
+  to: string,
+  subject: string,
+  html: string,
+  label: string,
+  attachments?: { filename: string; content: Buffer; contentType?: string }[]
+): Promise<{ success: boolean; message: string; messageId?: string }> {
   console.log(`\n======== 📧 ${label} ========`);
-  console.log(`To: ${to} | Subject: ${subject}`);
+  console.log(`To: ${to} | Subject: ${subject}${attachments?.length ? ` | Attachments: ${attachments.map(a => a.filename).join(', ')}` : ''}`);
   console.log('================================\n');
 
   const transporter = getTransporter();
@@ -124,6 +136,7 @@ async function trySend(to: string, subject: string, html: string, label: string)
         to,
         subject,
         html,
+        attachments,
       });
       console.log(`✅ Email SENT (attempt ${attempt}). MessageID: ${info.messageId}`);
       return { success: true, message: 'Sent', messageId: info.messageId };
@@ -291,4 +304,41 @@ export async function sendTestNotification({
     <p style="text-align:center;color:${BRAND.textMuted};font-size:13px;margin:0;">Best wishes for your preparation!</p>`;
 
   return trySend(to, `📝 New Assignment: ${testTitle} – BuzzyBrains`, emailShell(inner), 'TEST NOTIFICATION');
+}
+
+// ── 4. Board Exam Study Planner (Lead Magnet PDF) ──────────────────────
+
+export async function sendStudyPlannerPdf({ to, name, pdfBuffer }: SendStudyPlannerParams): Promise<{ success: boolean; message: string; messageId?: string }> {
+  const inner = `
+    <div style="background:${BRAND.bgCard};padding:24px;border-radius:12px;margin-bottom:20px;">
+      <p style="font-size:16px;margin:0 0 16px;color:${BRAND.textPrimary};">Hi <strong>${name}</strong>,</p>
+      <p style="color:${BRAND.textSecondary};font-size:14px;line-height:1.7;margin:0 0 16px;">
+        Here's your <strong style="color:${BRAND.primaryColor};">Board Exam Study Planner</strong> — covering Class 10
+        (CBSE, ICSE &amp; Maharashtra Board) and Class 12 (CBSE &amp; Maharashtra Board).
+      </p>
+      <p style="color:${BRAND.textSecondary};font-size:14px;line-height:1.7;margin:0 0 20px;">
+        It's attached to this email as a printable PDF — a weekly planning template, our spaced-revision framework,
+        month-by-month roadmaps for your board, and a final-week exam-readiness checklist.
+      </p>
+      <div style="background:${BRAND.bgInset};padding:18px 20px;border-radius:10px;border:1px solid ${BRAND.border};margin:0 0 20px;">
+        <p style="margin:0 0 6px;font-size:12px;color:${BRAND.textMuted};text-transform:uppercase;letter-spacing:1px;">Attached</p>
+        <p style="margin:0;font-size:14px;color:${BRAND.textPrimary};font-weight:600;">📄 BuzzyBrains-Board-Exam-Study-Planner.pdf</p>
+      </div>
+      <p style="color:${BRAND.textSecondary};font-size:14px;line-height:1.7;margin:0 0 4px;">
+        If you'd like a personalized version of this plan for your child's specific board and subjects, we're happy to
+        talk it through on a free demo class.
+      </p>
+    </div>
+
+    ${ctaButton('https://buzzybrainsacademy.com/#contact', '📞  Book a Free Demo Class')}
+
+    <p style="text-align:center;color:${BRAND.textMuted};font-size:13px;margin:0;">Wishing you a focused, confident exam season!</p>`;
+
+  return trySend(
+    to,
+    `📄 Your Board Exam Study Planner – BuzzyBrains Academy`,
+    emailShell(inner),
+    'STUDY PLANNER PDF',
+    [{ filename: 'BuzzyBrains-Board-Exam-Study-Planner.pdf', content: pdfBuffer, contentType: 'application/pdf' }]
+  );
 }

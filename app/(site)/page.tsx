@@ -664,6 +664,40 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ============ STUDY PLANNER LEAD MAGNET ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <Link
+            href="/board-exam-study-planner"
+            className="reveal"
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap',
+              background: 'linear-gradient(135deg,#0F172A,#1a1a3e)', borderRadius: 'var(--r-lg)',
+              padding: '30px 36px', boxShadow: 'var(--shadow-lg)', border: '1px solid rgba(245,158,11,.25)',
+              textDecoration: 'none',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+              <div style={{
+                width: 54, height: 54, borderRadius: 14, background: 'rgba(245,158,11,.15)',
+                display: 'grid', placeItems: 'center', flexShrink: 0,
+              }}>
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" /></svg>
+              </div>
+              <div>
+                <span style={{ fontSize: 12, fontWeight: 700, color: '#FBBF24', letterSpacing: 1, textTransform: 'uppercase' }}>Free Printable Download</span>
+                <h3 style={{ color: '#fff', fontSize: 20, margin: '4px 0 4px' }}>The Board Exam Study Planner — Class 10 &amp; 12</h3>
+                <p style={{ color: '#CBD5E1', fontSize: 14, margin: 0 }}>Month-by-month roadmaps for CBSE, ICSE &amp; Maharashtra Board. Instant PDF, no cost.</p>
+              </div>
+            </div>
+            <span className="btn btn-amber" style={{ flexShrink: 0 }}>
+              Get It Free
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* ============ PROGRAMS ============ */}
       <section className="programs bb-section" id="programs" aria-labelledby="prog-title">
         <div className="container">
