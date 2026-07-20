@@ -11,7 +11,14 @@ export default function IitJeePillarPage() {
         { href: '/foundation', label: 'Foundation Program (Grades 6-10)' },
         { href: '/one-on-one', label: 'One-on-One Coaching' },
       ]}
-      relatedPosts={[{ href: '/blog/jee-main-vs-advanced-explained', label: 'JEE Main vs JEE Advanced: What’s Actually Different' }]}
+      relatedPosts={[
+        { href: '/blog/jee-main-vs-advanced-explained', label: 'JEE Main vs JEE Advanced: What’s Actually Different' },
+        { href: '/blog/jee-main-exam-pattern-and-marking-scheme-explained', label: 'JEE Main Exam Pattern and Marking Scheme Explained' },
+        { href: '/blog/balancing-physics-chemistry-maths-for-jee', label: 'How to Balance Physics, Chemistry and Maths for JEE' },
+        { href: '/blog/why-ncert-is-non-negotiable-for-jee-preparation', label: 'Why NCERT Is Non-Negotiable for JEE Preparation' },
+        { href: '/blog/jee-dropper-year-how-to-structure-a-successful-repeat-attempt', label: 'JEE Dropper Year: How to Structure a Successful Repeat Attempt' },
+        { href: '/blog/time-management-strategies-for-jee-exam-day', label: 'Time Management Strategies for JEE Exam Day' },
+      ]}
       faq={[
         {
           question: 'What makes JEE coaching in Pune different from self-study?',

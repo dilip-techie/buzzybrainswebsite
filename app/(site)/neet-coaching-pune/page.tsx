@@ -11,6 +11,13 @@ export default function NeetPillarPage() {
         { href: '/foundation', label: 'Foundation Program (Grades 6-10)' },
         { href: '/one-on-one', label: 'One-on-One Coaching' },
       ]}
+      relatedPosts={[
+        { href: '/blog/neet-biology-preparation-strategy-ncert-first-approach', label: 'NEET Biology Preparation Strategy: NCERT-First Approach' },
+        { href: '/blog/how-to-master-neet-physics-numericals', label: 'How to Master NEET Physics Numericals Without Fear' },
+        { href: '/blog/neet-organic-chemistry-concept-first-study-plan', label: 'NEET Organic Chemistry: A Concept-First Study Plan' },
+        { href: '/blog/neet-dropper-year-building-a-realistic-comeback-plan', label: 'NEET Dropper Year: Building a Realistic Comeback Plan' },
+        { href: '/blog/neet-class-11-vs-class-12-syllabus-where-to-focus-first', label: 'NEET Class 11 vs Class 12 Syllabus: Where to Focus First' },
+      ]}
       faq={[
         {
           question: 'Why does NCERT matter so much for NEET?',

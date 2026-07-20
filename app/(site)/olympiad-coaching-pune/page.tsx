@@ -23,6 +23,11 @@ export default function OlympiadPillarPage() {
         { href: '/blog/how-parents-can-support-olympiad-preparation', label: 'How Parents Can Support Olympiad Preparation' },
         { href: '/blog/olympiad-vs-school-mathematics-key-differences', label: 'Olympiad vs School Mathematics' },
         { href: '/blog/mental-maths-techniques-every-olympiad-student-should-know', label: 'Mental Maths Techniques for Olympiad Students' },
+        { href: '/blog/geometry-problem-solving-techniques-for-maths-olympiads', label: 'Geometry Problem-Solving Techniques for Maths Olympiads' },
+        { href: '/blog/combinatorics-for-beginners-counting-techniques-olympiad-maths', label: 'Combinatorics for Beginners' },
+        { href: '/blog/from-ioqm-to-inmo-what-changes-at-the-next-level', label: 'From IOQM to INMO: What Changes at the Next Level' },
+        { href: '/blog/how-to-build-an-effective-olympiad-practice-routine', label: 'How to Build an Effective Olympiad Practice Routine' },
+        { href: '/blog/kangaroo-math-olympiad-what-it-is-and-how-to-prepare', label: 'Kangaroo Math Olympiad: What It Is and How to Prepare' },
       ]}
       faq={[
         {
