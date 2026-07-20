@@ -27,6 +27,7 @@ export default function NeetPillarPage() {
         { href: '/blog/neet-coaching-vs-self-study-how-to-choose', label: 'NEET Coaching vs Self-Study: How to Choose' },
         { href: '/blog/neet-inorganic-chemistry-high-yield-low-time-strategy', label: 'NEET Inorganic Chemistry: A High-Yield Strategy' },
         { href: '/blog/how-early-should-neet-preparation-actually-start', label: 'How Early Should NEET Preparation Actually Start?' },
+        { href: '/blog/re-neet-paper-leak-year-exam-proof-preparation', label: 'Re-NEET: What a Paper-Leak Year Teaches About Exam-Proof Prep' },
       ]}
       faq={[
         {

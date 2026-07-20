@@ -28,6 +28,8 @@ export default function IitJeePillarPage() {
         { href: '/blog/jee-advanced-multi-concept-problem-solving', label: 'JEE Advanced Problem-Solving: Multi-Concept Thinking' },
         { href: '/blog/how-early-should-jee-preparation-actually-start', label: 'How Early Should JEE Preparation Actually Start?' },
         { href: '/blog/from-jee-main-result-to-jee-advanced-what-changes', label: 'From JEE Main Result to JEE Advanced: What Changes' },
+        { href: '/blog/iit-vs-nit-vs-iiit-closing-ranks-what-they-mean-for-grade-9', label: 'IIT vs NIT vs IIIT: The Closing-Rank Squeeze' },
+        { href: '/blog/95-percentile-jee-main-honest-college-map', label: '95 Percentile in JEE Main Gets You... What Exactly?' },
       ]}
       faq={[
         {

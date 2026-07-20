@@ -28,6 +28,7 @@ export default function OlympiadPillarPage() {
         { href: '/blog/from-ioqm-to-inmo-what-changes-at-the-next-level', label: 'From IOQM to INMO: What Changes at the Next Level' },
         { href: '/blog/how-to-build-an-effective-olympiad-practice-routine', label: 'How to Build an Effective Olympiad Practice Routine' },
         { href: '/blog/kangaroo-math-olympiad-what-it-is-and-how-to-prepare', label: 'Kangaroo Math Olympiad: What It Is and How to Prepare' },
+        { href: '/blog/olympiad-advantage-ioqm-nso-toppers-build-their-iit-edge', label: 'The Olympiad Advantage: Building the IIT Edge Before Class 12' },
       ]}
       faq={[
         {

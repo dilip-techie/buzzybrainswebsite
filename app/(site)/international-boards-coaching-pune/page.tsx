@@ -17,6 +17,7 @@ export default function InternationalPillarPage() {
         { href: '/blog/ib-mathematics-aa-vs-ai-which-should-you-choose', label: 'IB Mathematics AA vs AI: Which Should You Choose?' },
         { href: '/blog/top-strategies-score-7-ib-physics', label: 'Top Strategies to Score a 7 in IB Physics' },
         { href: '/blog/how-personalized-tutoring-improves-igcse-ib-results', label: 'How Personalized Tutoring Improves IGCSE and IB Results' },
+        { href: '/blog/cbse-icse-igcse-ibdp-which-board-prepares-for-jee-neet', label: 'CBSE vs ICSE vs IGCSE vs IBDP: Which Board Prepares for JEE/NEET?' },
       ]}
       faq={[
         {
