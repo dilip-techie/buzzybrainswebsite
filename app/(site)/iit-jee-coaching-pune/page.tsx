@@ -18,6 +18,16 @@ export default function IitJeePillarPage() {
         { href: '/blog/why-ncert-is-non-negotiable-for-jee-preparation', label: 'Why NCERT Is Non-Negotiable for JEE Preparation' },
         { href: '/blog/jee-dropper-year-how-to-structure-a-successful-repeat-attempt', label: 'JEE Dropper Year: How to Structure a Successful Repeat Attempt' },
         { href: '/blog/time-management-strategies-for-jee-exam-day', label: 'Time Management Strategies for JEE Exam Day' },
+        { href: '/blog/how-to-crack-jee-in-the-first-attempt', label: 'How to Crack JEE in the First Attempt' },
+        { href: '/blog/why-foundation-is-important-for-cracking-jee', label: 'Why Foundation Is Important for Cracking JEE' },
+        { href: '/blog/jee-mock-test-strategy-how-to-learn-from-every-attempt', label: 'JEE Mock Test Strategy' },
+        { href: '/blog/common-jee-preparation-mistakes-that-cost-a-rank', label: 'Common JEE Preparation Mistakes That Cost a Rank' },
+        { href: '/blog/jee-revision-strategy-for-the-final-3-months', label: 'JEE Revision Strategy for the Final 3 Months' },
+        { href: '/blog/jee-coaching-vs-self-study-how-to-choose', label: 'JEE Coaching vs Self-Study: How to Choose' },
+        { href: '/blog/how-many-hours-a-day-should-you-study-for-jee', label: 'How Many Hours a Day Should You Study for JEE?' },
+        { href: '/blog/jee-advanced-multi-concept-problem-solving', label: 'JEE Advanced Problem-Solving: Multi-Concept Thinking' },
+        { href: '/blog/how-early-should-jee-preparation-actually-start', label: 'How Early Should JEE Preparation Actually Start?' },
+        { href: '/blog/from-jee-main-result-to-jee-advanced-what-changes', label: 'From JEE Main Result to JEE Advanced: What Changes' },
       ]}
       faq={[
         {

@@ -17,6 +17,16 @@ export default function NeetPillarPage() {
         { href: '/blog/neet-organic-chemistry-concept-first-study-plan', label: 'NEET Organic Chemistry: A Concept-First Study Plan' },
         { href: '/blog/neet-dropper-year-building-a-realistic-comeback-plan', label: 'NEET Dropper Year: Building a Realistic Comeback Plan' },
         { href: '/blog/neet-class-11-vs-class-12-syllabus-where-to-focus-first', label: 'NEET Class 11 vs Class 12 Syllabus: Where to Focus First' },
+        { href: '/blog/how-to-crack-neet-in-the-first-attempt', label: 'How to Crack NEET in the First Attempt' },
+        { href: '/blog/why-foundation-is-important-for-cracking-neet', label: 'Why Foundation Is Important for Cracking NEET' },
+        { href: '/blog/neet-physical-chemistry-building-calculation-fluency', label: 'NEET Physical Chemistry: Building Calculation Fluency' },
+        { href: '/blog/how-many-hours-a-day-should-you-study-for-neet', label: 'How Many Hours a Day Should You Study for NEET?' },
+        { href: '/blog/neet-mock-test-strategy-how-to-learn-from-every-attempt', label: 'NEET Mock Test Strategy' },
+        { href: '/blog/common-neet-preparation-mistakes-that-cost-a-rank', label: 'Common NEET Preparation Mistakes That Cost a Rank' },
+        { href: '/blog/neet-revision-strategy-for-the-final-3-months', label: 'NEET Revision Strategy for the Final 3 Months' },
+        { href: '/blog/neet-coaching-vs-self-study-how-to-choose', label: 'NEET Coaching vs Self-Study: How to Choose' },
+        { href: '/blog/neet-inorganic-chemistry-high-yield-low-time-strategy', label: 'NEET Inorganic Chemistry: A High-Yield Strategy' },
+        { href: '/blog/how-early-should-neet-preparation-actually-start', label: 'How Early Should NEET Preparation Actually Start?' },
       ]}
       faq={[
         {
