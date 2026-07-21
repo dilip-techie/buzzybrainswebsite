@@ -70,5 +70,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticEntries, ...blogEntries];
+  const categoriesWithPosts = [...new Set(BLOG_POSTS.map((post) => post.category))];
+  const categoryEntries = categoriesWithPosts.map((category) => ({
+    url: `${SITE_URL}/blog/${category}`,
+    lastModified,
+    changeFrequency: 'weekly' as ChangeFreq,
+    priority: 0.6,
+  }));
+
+  return [...staticEntries, ...categoryEntries, ...blogEntries];
 }

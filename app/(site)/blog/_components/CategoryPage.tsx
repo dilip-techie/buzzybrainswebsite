@@ -1,0 +1,109 @@
+import Link from 'next/link';
+import { Clock } from 'lucide-react';
+import { CollectionPageJsonLd, FaqJsonLd } from '../../../components/JsonLd';
+import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory, type BlogPost } from '../_data/posts';
+import { CATEGORY_CONTENT } from '../_data/categoryContent';
+
+function formatDate(iso: string) {
+  return new Date(iso).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+export function CategoryPage({ category, posts }: { category: BlogCategory; posts: BlogPost[] }) {
+  const content = CATEGORY_CONTENT[category];
+  const style = CATEGORY_STYLE[category];
+  const pillarHref = CATEGORY_PILLAR_HREF[category];
+  const sorted = [...posts].sort((a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime());
+
+  return (
+    <main className="bb-landing bb-page-shell">
+      <CollectionPageJsonLd
+        name={content.h1}
+        description={content.metaDescription}
+        path={`/blog/${category}`}
+        breadcrumbName={CATEGORY_LABELS[category]}
+        items={sorted.map((p) => ({ title: p.title, path: `/blog/${p.slug}` }))}
+      />
+      <FaqJsonLd items={content.faqs} />
+
+      <section className="hero" style={{ paddingBottom: 32 }}>
+        <div className="container article-shell">
+          <nav className="blog-breadcrumb reveal" aria-label="Breadcrumb">
+            <Link href="/">Home</Link>
+            <span>/</span>
+            <Link href="/blog">Blog</Link>
+            <span>/</span>
+            <span>{CATEGORY_LABELS[category]}</span>
+          </nav>
+          <span className="article-cat-badge reveal" style={{ background: style.gradient }}>
+            {CATEGORY_LABELS[category]}
+          </span>
+          <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{content.h1}</h1>
+          <p className="lede reveal" style={{ maxWidth: 680, marginTop: 6 }}>
+            {posts.length} {posts.length === 1 ? 'guide' : 'guides'} · Updated {sorted.length ? formatDate(sorted[0].datePublished) : ''}
+          </p>
+        </div>
+      </section>
+
+      <section className="bb-section" style={{ paddingTop: 0 }}>
+        <div className="container article-shell">
+          <div className="answer-block reveal">{content.quickAnswer}</div>
+
+          {content.intro.map((p, i) => (
+            <p key={i} style={{ color: 'var(--text-2)', fontSize: 15.5, lineHeight: 1.75, marginBottom: 16 }}>
+              {p}
+            </p>
+          ))}
+
+          <div className="article-cta" style={{ marginTop: 8, marginBottom: 40 }}>
+            <p>Want personalized guidance in {CATEGORY_LABELS[category]}? Talk to our mentors.</p>
+            <Link href={pillarHref} className="btn btn-primary">
+              Explore {CATEGORY_LABELS[category]}
+            </Link>
+          </div>
+
+          {sorted.length > 0 ? (
+            <div className="blog-grid blog-grid-rich">
+              {sorted.map((post, i) => {
+                const postStyle = CATEGORY_STYLE[post.category];
+                return (
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="blog-card blog-card-rich reveal"
+                    data-delay={String((i % 3) + 1)}
+                    key={post.slug}
+                  >
+                    <div className="blog-card-accent" style={{ background: postStyle.gradient }} />
+                    <span className="blog-card-cat" style={{ color: postStyle.solid }}>{CATEGORY_LABELS[post.category]}</span>
+                    <h3>{post.title}</h3>
+                    <p>{post.description}</p>
+                    <span className="blog-card-meta">
+                      <span>{formatDate(post.datePublished)}</span>
+                      <span className="blog-stat-dot" aria-hidden="true" />
+                      <span><Clock size={12} /> {post.readingMinutes} min</span>
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="blog-cluster-empty">More {CATEGORY_LABELS[category]} guides are on the way.</div>
+          )}
+
+          <div className="article-faq" style={{ marginTop: 56 }}>
+            <h2>Frequently asked questions</h2>
+            {content.faqs.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ marginTop: 40, textAlign: 'center' }}>
+            <Link href="/blog" className="chip chip-link">← All guides</Link>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

@@ -4,16 +4,52 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Clock } from 'lucide-react';
 import { ArticleJsonLd, FaqJsonLd } from '../../../components/JsonLd';
-import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_STYLE, getPostBySlug, type BlogPost } from '../_data/posts';
+import {
+  BLOG_POSTS,
+  CATEGORY_LABELS,
+  CATEGORY_STYLE,
+  getPostBySlug,
+  getPostsByCategory,
+  type BlogPost,
+  type BlogCategory,
+} from '../_data/posts';
 import { ReadingProgress } from '../_components/ReadingProgress';
 import { ShareBar } from '../_components/ShareBar';
+import { CategoryPage } from '../_components/CategoryPage';
+
+const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS) as BlogCategory[];
+
+function isBlogCategory(slug: string): slug is BlogCategory {
+  return (CATEGORY_KEYS as string[]).includes(slug);
+}
 
 export function generateStaticParams() {
-  return BLOG_POSTS.map((post) => ({ slug: post.slug }));
+  const postParams = BLOG_POSTS.map((post) => ({ slug: post.slug }));
+  const categoryParams = CATEGORY_KEYS.map((category) => ({ slug: category }));
+  return [...postParams, ...categoryParams];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+
+  if (isBlogCategory(slug)) {
+    const { CATEGORY_CONTENT } = await import('../_data/categoryContent');
+    const content = CATEGORY_CONTENT[slug];
+    const url = `https://buzzybrainsacademy.com/blog/${slug}`;
+    return {
+      title: `${content.metaTitle} | BuzzyBrains Academy`,
+      description: content.metaDescription,
+      alternates: { canonical: url },
+      openGraph: {
+        title: content.h1,
+        description: content.metaDescription,
+        url,
+        siteName: 'BuzzyBrains Academy',
+        type: 'website',
+      },
+    };
+  }
+
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
@@ -80,6 +116,11 @@ function renderInline(text: string): ReactNode[] {
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+
+  if (isBlogCategory(slug)) {
+    return <CategoryPage category={slug} posts={getPostsByCategory(slug)} />;
+  }
+
   const post = getPostBySlug(slug);
   if (!post) notFound();
 

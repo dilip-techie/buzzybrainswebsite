@@ -185,6 +185,62 @@ export function PersonJsonLd({
 }
 
 /**
+ * For blog category/listing pages — emits a CollectionPage with an ItemList
+ * of the posts it contains, plus a matching Breadcrumb. Lets search engines
+ * and AI crawlers understand the page as a curated collection (not a single
+ * article) and surface its member articles directly.
+ */
+export function CollectionPageJsonLd({
+  name,
+  description,
+  path,
+  breadcrumbName,
+  items,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  breadcrumbName: string;
+  items: { title: string; path: string }[];
+}) {
+  const url = `${SITE_URL}${path}`;
+  return (
+    <>
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name,
+          description,
+          url,
+          isPartOf: { '@type': 'Blog', name: 'BuzzyBrains Academy Blog', url: `${SITE_URL}/blog` },
+          mainEntity: {
+            '@type': 'ItemList',
+            itemListElement: items.map((item, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              url: `${SITE_URL}${item.path}`,
+              name: item.title,
+            })),
+          },
+        }}
+      />
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+            { '@type': 'ListItem', position: 3, name: breadcrumbName, item: url },
+          ],
+        }}
+      />
+    </>
+  );
+}
+
+/**
  * For pillar guides, blog posts, comparison pages and parent/student
  * resource pages — anything long-form and editorial rather than a
  * commercial program page (use ProgramJsonLd for those instead).
