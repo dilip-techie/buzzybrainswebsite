@@ -52,6 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const ogImage = `https://buzzybrainsacademy.com/images/og/${post.slug}.png`;
   return {
     title: `${post.title} | BuzzyBrains Academy`,
     description: `IITian Mentorship. Gateway to Top IITs and AIIMS. ${post.description}`,
@@ -62,6 +63,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: `https://buzzybrainsacademy.com/blog/${post.slug}`,
       siteName: 'BuzzyBrains Academy',
       type: 'article',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+      images: [ogImage],
     },
   };
 }

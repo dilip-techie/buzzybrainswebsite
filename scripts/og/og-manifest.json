@@ -1,0 +1,762 @@
+[
+  {
+    "title": "JEE Main vs JEE Advanced: What's Actually Different",
+    "slug": "jee-main-vs-advanced-explained",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-vs-advanced-explained.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IOQM Syllabus and Preparation Guide",
+    "slug": "ioqm-syllabus-preparation-guide",
+    "category": "Olympiad",
+    "path": "/images/og/ioqm-syllabus-preparation-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Vedic Maths Shortcuts That Actually Help in Exams",
+    "slug": "vedic-maths-shortcuts-that-help-in-exams",
+    "category": "Maths Tuition",
+    "path": "/images/og/vedic-maths-shortcuts-that-help-in-exams.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CUET Commerce Section: What It Actually Tests and How to Prepare",
+    "slug": "cuet-commerce-section-preparation-guide",
+    "category": "Commerce",
+    "path": "/images/og/cuet-commerce-section-preparation-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CA Foundation vs a CUET-Based B.Com: Choosing a Path After Class 12 Commerce",
+    "slug": "ca-foundation-vs-cuet-bcom-after-12th-commerce",
+    "category": "Commerce",
+    "path": "/images/og/ca-foundation-vs-cuet-bcom-after-12th-commerce.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "When Should You Start Foundation Coaching? A Grade-by-Grade Guide",
+    "slug": "when-to-start-foundation-coaching",
+    "category": "Foundation",
+    "path": "/images/og/when-to-start-foundation-coaching.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Foundation Programme vs Regular School Tuition: What’s Actually Different",
+    "slug": "foundation-programme-vs-school-tuition",
+    "category": "Foundation",
+    "path": "/images/og/foundation-programme-vs-school-tuition.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Class 8-10 Foundation Concepts Quietly Decide JEE/NEET Success Later",
+    "slug": "foundation-concepts-that-decide-jee-neet-success",
+    "category": "Foundation",
+    "path": "/images/og/foundation-concepts-that-decide-jee-neet-success.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Most Common Foundation-Level Gaps That Trip Up Class 11 Students",
+    "slug": "common-foundation-gaps-class-11",
+    "category": "Foundation",
+    "path": "/images/og/common-foundation-gaps-class-11.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CBSE vs ICSE vs State Board: What It Means for Foundation-Level Coaching",
+    "slug": "cbse-icse-state-board-foundation-coaching",
+    "category": "Foundation",
+    "path": "/images/og/cbse-icse-state-board-foundation-coaching.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "What Is a Maths Excellence Programme, and Who Actually Needs One?",
+    "slug": "what-is-maths-excellence-programme",
+    "category": "Maths Tuition",
+    "path": "/images/og/what-is-maths-excellence-programme.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "From Board Maths to Olympiad Maths: How the Jump Actually Works",
+    "slug": "from-board-maths-to-olympiad-maths",
+    "category": "Maths Tuition",
+    "path": "/images/og/from-board-maths-to-olympiad-maths.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Know If Your Child Is Ready for Advanced Mathematics",
+    "slug": "is-my-child-ready-for-advanced-maths",
+    "category": "Maths Tuition",
+    "path": "/images/og/is-my-child-ready-for-advanced-maths.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Number Theory, Algebra, Geometry, Combinatorics: The Four Pillars of Competition Maths",
+    "slug": "four-pillars-of-competition-maths",
+    "category": "Maths Tuition",
+    "path": "/images/og/four-pillars-of-competition-maths.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Building Genuine Problem-Solving Speed Without Losing Understanding",
+    "slug": "problem-solving-speed-without-losing-understanding",
+    "category": "Maths Tuition",
+    "path": "/images/og/problem-solving-speed-without-losing-understanding.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "A Parent's Guide to Olympiad Exams in India: IMO, NSO, IOQM Explained",
+    "slug": "parents-guide-to-olympiad-exams-india",
+    "category": "Olympiad",
+    "path": "/images/og/parents-guide-to-olympiad-exams-india.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "PRMO vs IOQM: What Changed and What It Means for Your Child",
+    "slug": "prmo-vs-ioqm-what-changed",
+    "category": "Olympiad",
+    "path": "/images/og/prmo-vs-ioqm-what-changed.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NMTC and SOF Olympiads: Are They Worth Preparing For?",
+    "slug": "nmtc-sof-olympiads-worth-it",
+    "category": "Olympiad",
+    "path": "/images/og/nmtc-sof-olympiads-worth-it.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Early Should Olympiad Preparation Start?",
+    "slug": "how-early-should-olympiad-prep-start",
+    "category": "Olympiad",
+    "path": "/images/og/how-early-should-olympiad-prep-start.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "From Olympiad Training to JEE Advanced: The Hidden Overlap",
+    "slug": "olympiad-training-to-jee-advanced-overlap",
+    "category": "Olympiad",
+    "path": "/images/og/olympiad-training-to-jee-advanced-overlap.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Complete Guide to Maths Olympiad Preparation for Class 6–10",
+    "slug": "complete-guide-maths-olympiad-preparation-class-6-10",
+    "category": "Olympiad",
+    "path": "/images/og/complete-guide-maths-olympiad-preparation-class-6-10.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Prepare for IOQM from Grade 8",
+    "slug": "how-to-prepare-for-ioqm-from-grade-8",
+    "category": "Olympiad",
+    "path": "/images/og/how-to-prepare-for-ioqm-from-grade-8.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AMC 8 Preparation Guide for Beginners",
+    "slug": "amc-8-preparation-guide-for-beginners",
+    "category": "Olympiad",
+    "path": "/images/og/amc-8-preparation-guide-for-beginners.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Science Olympiad Preparation Strategy for Middle School",
+    "slug": "science-olympiad-preparation-strategy-middle-school",
+    "category": "Olympiad",
+    "path": "/images/og/science-olympiad-preparation-strategy-middle-school.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common Mistakes Students Make in Olympiad Mathematics",
+    "slug": "common-mistakes-students-make-in-olympiad-mathematics",
+    "category": "Olympiad",
+    "path": "/images/og/common-mistakes-students-make-in-olympiad-mathematics.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why Olympiad Preparation Improves JEE Success",
+    "slug": "why-olympiad-preparation-improves-jee-success",
+    "category": "Olympiad",
+    "path": "/images/og/why-olympiad-preparation-improves-jee-success.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Best Books for Maths Olympiad Preparation",
+    "slug": "best-books-for-maths-olympiad-preparation",
+    "category": "Olympiad",
+    "path": "/images/og/best-books-for-maths-olympiad-preparation.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Parents Can Support Olympiad Preparation",
+    "slug": "how-parents-can-support-olympiad-preparation",
+    "category": "Olympiad",
+    "path": "/images/og/how-parents-can-support-olympiad-preparation.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Olympiad vs School Mathematics: Key Differences",
+    "slug": "olympiad-vs-school-mathematics-key-differences",
+    "category": "Olympiad",
+    "path": "/images/og/olympiad-vs-school-mathematics-key-differences.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Mental Maths Techniques Every Olympiad Student Should Know",
+    "slug": "mental-maths-techniques-every-olympiad-student-should-know",
+    "category": "Olympiad",
+    "path": "/images/og/mental-maths-techniques-every-olympiad-student-should-know.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Complete Guide to Cambridge IGCSE Mathematics (0580)",
+    "slug": "complete-guide-cambridge-igcse-mathematics-0580",
+    "category": "International & SAT",
+    "path": "/images/og/complete-guide-cambridge-igcse-mathematics-0580.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Score A* in Cambridge IGCSE Additional Mathematics (0606)",
+    "slug": "how-to-score-a-star-igcse-additional-mathematics-0606",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-score-a-star-igcse-additional-mathematics-0606.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IB Mathematics AA vs AI: Which Should You Choose?",
+    "slug": "ib-mathematics-aa-vs-ai-which-should-you-choose",
+    "category": "International & SAT",
+    "path": "/images/og/ib-mathematics-aa-vs-ai-which-should-you-choose.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Top Strategies to Score a 7 in IB Physics",
+    "slug": "top-strategies-score-7-ib-physics",
+    "category": "International & SAT",
+    "path": "/images/og/top-strategies-score-7-ib-physics.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Personalized Tutoring Improves IGCSE and IB Results",
+    "slug": "how-personalized-tutoring-improves-igcse-ib-results",
+    "category": "International & SAT",
+    "path": "/images/og/how-personalized-tutoring-improves-igcse-ib-results.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Main Exam Pattern and Marking Scheme Explained",
+    "slug": "jee-main-exam-pattern-and-marking-scheme-explained",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-exam-pattern-and-marking-scheme-explained.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Balance Physics, Chemistry and Maths for JEE",
+    "slug": "balancing-physics-chemistry-maths-for-jee",
+    "category": "IIT-JEE",
+    "path": "/images/og/balancing-physics-chemistry-maths-for-jee.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why NCERT Is Non-Negotiable for JEE Preparation",
+    "slug": "why-ncert-is-non-negotiable-for-jee-preparation",
+    "category": "IIT-JEE",
+    "path": "/images/og/why-ncert-is-non-negotiable-for-jee-preparation.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Dropper Year: How to Structure a Successful Repeat Attempt",
+    "slug": "jee-dropper-year-how-to-structure-a-successful-repeat-attempt",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-dropper-year-how-to-structure-a-successful-repeat-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Time Management Strategies for JEE Exam Day",
+    "slug": "time-management-strategies-for-jee-exam-day",
+    "category": "IIT-JEE",
+    "path": "/images/og/time-management-strategies-for-jee-exam-day.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Biology Preparation Strategy: NCERT-First Approach",
+    "slug": "neet-biology-preparation-strategy-ncert-first-approach",
+    "category": "NEET",
+    "path": "/images/og/neet-biology-preparation-strategy-ncert-first-approach.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Master NEET Physics Numericals Without Fear",
+    "slug": "how-to-master-neet-physics-numericals",
+    "category": "NEET",
+    "path": "/images/og/how-to-master-neet-physics-numericals.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Organic Chemistry: A Concept-First Study Plan",
+    "slug": "neet-organic-chemistry-concept-first-study-plan",
+    "category": "NEET",
+    "path": "/images/og/neet-organic-chemistry-concept-first-study-plan.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Dropper Year: Building a Realistic Comeback Plan",
+    "slug": "neet-dropper-year-building-a-realistic-comeback-plan",
+    "category": "NEET",
+    "path": "/images/og/neet-dropper-year-building-a-realistic-comeback-plan.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Class 11 vs Class 12 Syllabus: Where to Focus First",
+    "slug": "neet-class-11-vs-class-12-syllabus-where-to-focus-first",
+    "category": "NEET",
+    "path": "/images/og/neet-class-11-vs-class-12-syllabus-where-to-focus-first.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Geometry Problem-Solving Techniques for Maths Olympiads",
+    "slug": "geometry-problem-solving-techniques-for-maths-olympiads",
+    "category": "Olympiad",
+    "path": "/images/og/geometry-problem-solving-techniques-for-maths-olympiads.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Combinatorics for Beginners: Counting Techniques for Olympiad Maths",
+    "slug": "combinatorics-for-beginners-counting-techniques-olympiad-maths",
+    "category": "Olympiad",
+    "path": "/images/og/combinatorics-for-beginners-counting-techniques-olympiad-maths.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "From IOQM to INMO: What Changes at the Next Level",
+    "slug": "from-ioqm-to-inmo-what-changes-at-the-next-level",
+    "category": "Olympiad",
+    "path": "/images/og/from-ioqm-to-inmo-what-changes-at-the-next-level.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Build an Effective Olympiad Practice Routine",
+    "slug": "how-to-build-an-effective-olympiad-practice-routine",
+    "category": "Olympiad",
+    "path": "/images/og/how-to-build-an-effective-olympiad-practice-routine.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Kangaroo Math Olympiad: What It Is and How to Prepare",
+    "slug": "kangaroo-math-olympiad-what-it-is-and-how-to-prepare",
+    "category": "Olympiad",
+    "path": "/images/og/kangaroo-math-olympiad-what-it-is-and-how-to-prepare.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Crack NEET in the First Attempt: A Complete Strategy",
+    "slug": "how-to-crack-neet-in-the-first-attempt",
+    "category": "NEET",
+    "path": "/images/og/how-to-crack-neet-in-the-first-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Crack JEE in the First Attempt: A Complete Strategy",
+    "slug": "how-to-crack-jee-in-the-first-attempt",
+    "category": "IIT-JEE",
+    "path": "/images/og/how-to-crack-jee-in-the-first-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why Foundation Is Important for Cracking NEET",
+    "slug": "why-foundation-is-important-for-cracking-neet",
+    "category": "NEET",
+    "path": "/images/og/why-foundation-is-important-for-cracking-neet.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why Foundation Is Important for Cracking JEE",
+    "slug": "why-foundation-is-important-for-cracking-jee",
+    "category": "IIT-JEE",
+    "path": "/images/og/why-foundation-is-important-for-cracking-jee.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Physical Chemistry: Building Calculation Fluency from the Basics",
+    "slug": "neet-physical-chemistry-building-calculation-fluency",
+    "category": "NEET",
+    "path": "/images/og/neet-physical-chemistry-building-calculation-fluency.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Mock Test Strategy: How to Actually Learn From Every Attempt",
+    "slug": "jee-mock-test-strategy-how-to-learn-from-every-attempt",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-mock-test-strategy-how-to-learn-from-every-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Many Hours a Day Should You Study for NEET? A Realistic Answer",
+    "slug": "how-many-hours-a-day-should-you-study-for-neet",
+    "category": "NEET",
+    "path": "/images/og/how-many-hours-a-day-should-you-study-for-neet.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common JEE Preparation Mistakes That Cost Students a Rank",
+    "slug": "common-jee-preparation-mistakes-that-cost-a-rank",
+    "category": "IIT-JEE",
+    "path": "/images/og/common-jee-preparation-mistakes-that-cost-a-rank.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Mock Test Strategy: How to Actually Learn From Every Attempt",
+    "slug": "neet-mock-test-strategy-how-to-learn-from-every-attempt",
+    "category": "NEET",
+    "path": "/images/og/neet-mock-test-strategy-how-to-learn-from-every-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Revision Strategy for the Final 3 Months",
+    "slug": "jee-revision-strategy-for-the-final-3-months",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-revision-strategy-for-the-final-3-months.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common NEET Preparation Mistakes That Cost Students a Rank",
+    "slug": "common-neet-preparation-mistakes-that-cost-a-rank",
+    "category": "NEET",
+    "path": "/images/og/common-neet-preparation-mistakes-that-cost-a-rank.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Coaching vs Self-Study: How to Choose",
+    "slug": "jee-coaching-vs-self-study-how-to-choose",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-coaching-vs-self-study-how-to-choose.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Revision Strategy for the Final 3 Months",
+    "slug": "neet-revision-strategy-for-the-final-3-months",
+    "category": "NEET",
+    "path": "/images/og/neet-revision-strategy-for-the-final-3-months.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Many Hours a Day Should You Study for JEE? A Realistic Answer",
+    "slug": "how-many-hours-a-day-should-you-study-for-jee",
+    "category": "IIT-JEE",
+    "path": "/images/og/how-many-hours-a-day-should-you-study-for-jee.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Coaching vs Self-Study: How to Choose",
+    "slug": "neet-coaching-vs-self-study-how-to-choose",
+    "category": "NEET",
+    "path": "/images/og/neet-coaching-vs-self-study-how-to-choose.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Advanced Problem-Solving: Moving from Formula Recall to Multi-Concept Thinking",
+    "slug": "jee-advanced-multi-concept-problem-solving",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-advanced-multi-concept-problem-solving.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy",
+    "slug": "neet-inorganic-chemistry-high-yield-low-time-strategy",
+    "category": "NEET",
+    "path": "/images/og/neet-inorganic-chemistry-high-yield-low-time-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Early Should JEE Preparation Actually Start?",
+    "slug": "how-early-should-jee-preparation-actually-start",
+    "category": "IIT-JEE",
+    "path": "/images/og/how-early-should-jee-preparation-actually-start.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Early Should NEET Preparation Actually Start?",
+    "slug": "how-early-should-neet-preparation-actually-start",
+    "category": "NEET",
+    "path": "/images/og/how-early-should-neet-preparation-actually-start.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "From JEE Main Result to JEE Advanced: What Changes in Your Prep",
+    "slug": "from-jee-main-result-to-jee-advanced-what-changes",
+    "category": "IIT-JEE",
+    "path": "/images/og/from-jee-main-result-to-jee-advanced-what-changes.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IIT vs NIT vs IIIT: The Closing-Rank Squeeze, and What It Means for Your Child in Grade 9",
+    "slug": "iit-vs-nit-vs-iiit-closing-ranks-what-they-mean-for-grade-9",
+    "category": "IIT-JEE",
+    "path": "/images/og/iit-vs-nit-vs-iiit-closing-ranks-what-they-mean-for-grade-9.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Re-NEET: What a Paper-Leak Year Teaches Every Parent About Exam-Proof Preparation",
+    "slug": "re-neet-paper-leak-year-exam-proof-preparation",
+    "category": "NEET",
+    "path": "/images/og/re-neet-paper-leak-year-exam-proof-preparation.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Olympiad Advantage: How IOQM & NSO Toppers Build Their IIT Edge Before Class 12",
+    "slug": "olympiad-advantage-ioqm-nso-toppers-build-their-iit-edge",
+    "category": "Olympiad",
+    "path": "/images/og/olympiad-advantage-ioqm-nso-toppers-build-their-iit-edge.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "95 Percentile in JEE Main Gets You... What Exactly? The Honest College Map",
+    "slug": "95-percentile-jee-main-honest-college-map",
+    "category": "IIT-JEE",
+    "path": "/images/og/95-percentile-jee-main-honest-college-map.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CBSE vs ICSE vs IGCSE vs IBDP: Which Board Actually Prepares Your Child for JEE/NEET?",
+    "slug": "cbse-icse-igcse-ibdp-which-board-prepares-for-jee-neet",
+    "category": "International & SAT",
+    "path": "/images/og/cbse-icse-igcse-ibdp-which-board-prepares-for-jee-neet.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Crack the Digital SAT: A Complete Strategy",
+    "slug": "how-to-crack-the-digital-sat-complete-strategy",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-crack-the-digital-sat-complete-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Calculus AB vs BC: Which Should You Take?",
+    "slug": "ap-calculus-ab-vs-bc-which-should-you-take",
+    "category": "International & SAT",
+    "path": "/images/og/ap-calculus-ab-vs-bc-which-should-you-take.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Digital SAT Math: Why the Built-In Calculator Changes Everything",
+    "slug": "digital-sat-math-built-in-calculator-changes-everything",
+    "category": "International & SAT",
+    "path": "/images/og/digital-sat-math-built-in-calculator-changes-everything.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Master AP Calculus FRQs (Free-Response Questions)",
+    "slug": "how-to-master-ap-calculus-frqs",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-master-ap-calculus-frqs.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Digital SAT Reading & Writing: How to Handle Short Passages Fast",
+    "slug": "digital-sat-reading-writing-short-passages-fast",
+    "category": "International & SAT",
+    "path": "/images/og/digital-sat-reading-writing-short-passages-fast.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The AP Calculus Topics That Decide Your Score (and Where Students Lose Points)",
+    "slug": "ap-calculus-topics-that-decide-your-score",
+    "category": "International & SAT",
+    "path": "/images/og/ap-calculus-topics-that-decide-your-score.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)",
+    "slug": "understanding-digital-sat-adaptive-modules",
+    "category": "International & SAT",
+    "path": "/images/og/understanding-digital-sat-adaptive-modules.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Computer Science A: What the Exam Actually Tests (Java-Based FRQs Explained)",
+    "slug": "ap-computer-science-a-what-the-exam-tests",
+    "category": "International & SAT",
+    "path": "/images/og/ap-computer-science-a-what-the-exam-tests.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "What SAT Score Do You Actually Need for Top US Universities?",
+    "slug": "what-sat-score-do-you-need-for-top-us-universities",
+    "category": "International & SAT",
+    "path": "/images/og/what-sat-score-do-you-need-for-top-us-universities.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Prepare for AP CSA Without Prior Coding Experience",
+    "slug": "how-to-prepare-for-ap-csa-without-prior-coding-experience",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-prepare-for-ap-csa-without-prior-coding-experience.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SAT Prep Timeline: When to Start and How Long It Really Takes",
+    "slug": "sat-prep-timeline-when-to-start-how-long-it-takes",
+    "category": "International & SAT",
+    "path": "/images/og/sat-prep-timeline-when-to-start-how-long-it-takes.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Computer Science Principles: Understanding the Create Performance Task",
+    "slug": "ap-computer-science-principles-create-performance-task",
+    "category": "International & SAT",
+    "path": "/images/og/ap-computer-science-principles-create-performance-task.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common Digital SAT Mistakes That Cost Students Points",
+    "slug": "common-digital-sat-mistakes-that-cost-points",
+    "category": "International & SAT",
+    "path": "/images/og/common-digital-sat-mistakes-that-cost-points.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP CSP vs AP CSA: Which Should Your Child Take First?",
+    "slug": "ap-csp-vs-ap-csa-which-should-your-child-take-first",
+    "category": "International & SAT",
+    "path": "/images/og/ap-csp-vs-ap-csa-which-should-your-child-take-first.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SAT vs ACT: Which Should Indian Students Take?",
+    "slug": "sat-vs-act-which-should-indian-students-take",
+    "category": "International & SAT",
+    "path": "/images/og/sat-vs-act-which-should-indian-students-take.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Physics 1 vs Physics C: Understanding the Real Difference",
+    "slug": "ap-physics-1-vs-physics-c-the-real-difference",
+    "category": "International & SAT",
+    "path": "/images/og/ap-physics-1-vs-physics-c-the-real-difference.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Use Official Bluebook Practice Tests Effectively",
+    "slug": "how-to-use-official-bluebook-practice-tests-effectively",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-use-official-bluebook-practice-tests-effectively.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Score a 5 on AP Physics: FRQ Strategy That Actually Works",
+    "slug": "how-to-score-a-5-on-ap-physics-frq-strategy",
+    "category": "International & SAT",
+    "path": "/images/og/how-to-score-a-5-on-ap-physics-frq-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SAT Prep for Students Also Doing IGCSE, IB or CBSE: Balancing Both",
+    "slug": "sat-prep-while-doing-igcse-ib-cbse-balancing-both",
+    "category": "International & SAT",
+    "path": "/images/og/sat-prep-while-doing-igcse-ib-cbse-balancing-both.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Physics C: Mechanics vs E&M — Choosing and Preparing for Both",
+    "slug": "ap-physics-c-mechanics-vs-em-choosing-and-preparing",
+    "category": "International & SAT",
+    "path": "/images/og/ap-physics-c-mechanics-vs-em-choosing-and-preparing.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  }
+]

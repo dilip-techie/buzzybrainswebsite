@@ -1,0 +1,572 @@
+[
+  {
+    "slug": "jee-main-vs-advanced-explained",
+    "title": "JEE Main vs JEE Advanced: What's Actually Different",
+    "category": "IIT-JEE",
+    "datePublished": "2026-01-15"
+  },
+  {
+    "slug": "ioqm-syllabus-preparation-guide",
+    "title": "IOQM Syllabus and Preparation Guide",
+    "category": "Olympiad",
+    "datePublished": "2026-01-22"
+  },
+  {
+    "slug": "vedic-maths-shortcuts-that-help-in-exams",
+    "title": "Vedic Maths Shortcuts That Actually Help in Exams",
+    "category": "Maths Tuition",
+    "datePublished": "2026-02-03"
+  },
+  {
+    "slug": "cuet-commerce-section-preparation-guide",
+    "title": "CUET Commerce Section: What It Actually Tests and How to Prepare",
+    "category": "Commerce",
+    "datePublished": "2026-02-18"
+  },
+  {
+    "slug": "ca-foundation-vs-cuet-bcom-after-12th-commerce",
+    "title": "CA Foundation vs a CUET-Based B.Com: Choosing a Path After Class 12 Commerce",
+    "category": "Commerce",
+    "datePublished": "2026-02-25"
+  },
+  {
+    "slug": "when-to-start-foundation-coaching",
+    "title": "When Should You Start Foundation Coaching? A Grade-by-Grade Guide",
+    "category": "Foundation",
+    "datePublished": "2026-03-04"
+  },
+  {
+    "slug": "foundation-programme-vs-school-tuition",
+    "title": "Foundation Programme vs Regular School Tuition: What’s Actually Different",
+    "category": "Foundation",
+    "datePublished": "2026-03-11"
+  },
+  {
+    "slug": "foundation-concepts-that-decide-jee-neet-success",
+    "title": "How Class 8-10 Foundation Concepts Quietly Decide JEE/NEET Success Later",
+    "category": "Foundation",
+    "datePublished": "2026-03-18"
+  },
+  {
+    "slug": "common-foundation-gaps-class-11",
+    "title": "The Most Common Foundation-Level Gaps That Trip Up Class 11 Students",
+    "category": "Foundation",
+    "datePublished": "2026-03-25"
+  },
+  {
+    "slug": "cbse-icse-state-board-foundation-coaching",
+    "title": "CBSE vs ICSE vs State Board: What It Means for Foundation-Level Coaching",
+    "category": "Foundation",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "slug": "what-is-maths-excellence-programme",
+    "title": "What Is a Maths Excellence Programme, and Who Actually Needs One?",
+    "category": "Maths Tuition",
+    "datePublished": "2026-03-06"
+  },
+  {
+    "slug": "from-board-maths-to-olympiad-maths",
+    "title": "From Board Maths to Olympiad Maths: How the Jump Actually Works",
+    "category": "Maths Tuition",
+    "datePublished": "2026-03-13"
+  },
+  {
+    "slug": "is-my-child-ready-for-advanced-maths",
+    "title": "How to Know If Your Child Is Ready for Advanced Mathematics",
+    "category": "Maths Tuition",
+    "datePublished": "2026-03-20"
+  },
+  {
+    "slug": "four-pillars-of-competition-maths",
+    "title": "Number Theory, Algebra, Geometry, Combinatorics: The Four Pillars of Competition Maths",
+    "category": "Maths Tuition",
+    "datePublished": "2026-03-27"
+  },
+  {
+    "slug": "problem-solving-speed-without-losing-understanding",
+    "title": "Building Genuine Problem-Solving Speed Without Losing Understanding",
+    "category": "Maths Tuition",
+    "datePublished": "2026-04-03"
+  },
+  {
+    "slug": "parents-guide-to-olympiad-exams-india",
+    "title": "A Parent's Guide to Olympiad Exams in India: IMO, NSO, IOQM Explained",
+    "category": "Olympiad",
+    "datePublished": "2026-03-05"
+  },
+  {
+    "slug": "prmo-vs-ioqm-what-changed",
+    "title": "PRMO vs IOQM: What Changed and What It Means for Your Child",
+    "category": "Olympiad",
+    "datePublished": "2026-03-12"
+  },
+  {
+    "slug": "nmtc-sof-olympiads-worth-it",
+    "title": "NMTC and SOF Olympiads: Are They Worth Preparing For?",
+    "category": "Olympiad",
+    "datePublished": "2026-03-19"
+  },
+  {
+    "slug": "how-early-should-olympiad-prep-start",
+    "title": "How Early Should Olympiad Preparation Start?",
+    "category": "Olympiad",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "slug": "olympiad-training-to-jee-advanced-overlap",
+    "title": "From Olympiad Training to JEE Advanced: The Hidden Overlap",
+    "category": "Olympiad",
+    "datePublished": "2026-04-02"
+  },
+  {
+    "slug": "complete-guide-maths-olympiad-preparation-class-6-10",
+    "title": "Complete Guide to Maths Olympiad Preparation for Class 6–10",
+    "category": "Olympiad",
+    "datePublished": "2026-04-09"
+  },
+  {
+    "slug": "how-to-prepare-for-ioqm-from-grade-8",
+    "title": "How to Prepare for IOQM from Grade 8",
+    "category": "Olympiad",
+    "datePublished": "2026-04-16"
+  },
+  {
+    "slug": "amc-8-preparation-guide-for-beginners",
+    "title": "AMC 8 Preparation Guide for Beginners",
+    "category": "Olympiad",
+    "datePublished": "2026-04-23"
+  },
+  {
+    "slug": "science-olympiad-preparation-strategy-middle-school",
+    "title": "Science Olympiad Preparation Strategy for Middle School",
+    "category": "Olympiad",
+    "datePublished": "2026-04-30"
+  },
+  {
+    "slug": "common-mistakes-students-make-in-olympiad-mathematics",
+    "title": "Common Mistakes Students Make in Olympiad Mathematics",
+    "category": "Olympiad",
+    "datePublished": "2026-05-07"
+  },
+  {
+    "slug": "why-olympiad-preparation-improves-jee-success",
+    "title": "Why Olympiad Preparation Improves JEE Success",
+    "category": "Olympiad",
+    "datePublished": "2026-05-14"
+  },
+  {
+    "slug": "best-books-for-maths-olympiad-preparation",
+    "title": "Best Books for Maths Olympiad Preparation",
+    "category": "Olympiad",
+    "datePublished": "2026-05-21"
+  },
+  {
+    "slug": "how-parents-can-support-olympiad-preparation",
+    "title": "How Parents Can Support Olympiad Preparation",
+    "category": "Olympiad",
+    "datePublished": "2026-05-28"
+  },
+  {
+    "slug": "olympiad-vs-school-mathematics-key-differences",
+    "title": "Olympiad vs School Mathematics: Key Differences",
+    "category": "Olympiad",
+    "datePublished": "2026-06-04"
+  },
+  {
+    "slug": "mental-maths-techniques-every-olympiad-student-should-know",
+    "title": "Mental Maths Techniques Every Olympiad Student Should Know",
+    "category": "Olympiad",
+    "datePublished": "2026-06-11"
+  },
+  {
+    "slug": "complete-guide-cambridge-igcse-mathematics-0580",
+    "title": "Complete Guide to Cambridge IGCSE Mathematics (0580)",
+    "category": "International & SAT",
+    "datePublished": "2026-06-18"
+  },
+  {
+    "slug": "how-to-score-a-star-igcse-additional-mathematics-0606",
+    "title": "How to Score A* in Cambridge IGCSE Additional Mathematics (0606)",
+    "category": "International & SAT",
+    "datePublished": "2026-06-25"
+  },
+  {
+    "slug": "ib-mathematics-aa-vs-ai-which-should-you-choose",
+    "title": "IB Mathematics AA vs AI: Which Should You Choose?",
+    "category": "International & SAT",
+    "datePublished": "2026-07-02"
+  },
+  {
+    "slug": "top-strategies-score-7-ib-physics",
+    "title": "Top Strategies to Score a 7 in IB Physics",
+    "category": "International & SAT",
+    "datePublished": "2026-07-09"
+  },
+  {
+    "slug": "how-personalized-tutoring-improves-igcse-ib-results",
+    "title": "How Personalized Tutoring Improves IGCSE and IB Results",
+    "category": "International & SAT",
+    "datePublished": "2026-07-16"
+  },
+  {
+    "slug": "jee-main-exam-pattern-and-marking-scheme-explained",
+    "title": "JEE Main Exam Pattern and Marking Scheme Explained",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-04"
+  },
+  {
+    "slug": "balancing-physics-chemistry-maths-for-jee",
+    "title": "How to Balance Physics, Chemistry and Maths for JEE",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-05"
+  },
+  {
+    "slug": "why-ncert-is-non-negotiable-for-jee-preparation",
+    "title": "Why NCERT Is Non-Negotiable for JEE Preparation",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-06"
+  },
+  {
+    "slug": "jee-dropper-year-how-to-structure-a-successful-repeat-attempt",
+    "title": "JEE Dropper Year: How to Structure a Successful Repeat Attempt",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-07"
+  },
+  {
+    "slug": "time-management-strategies-for-jee-exam-day",
+    "title": "Time Management Strategies for JEE Exam Day",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-08"
+  },
+  {
+    "slug": "neet-biology-preparation-strategy-ncert-first-approach",
+    "title": "NEET Biology Preparation Strategy: NCERT-First Approach",
+    "category": "NEET",
+    "datePublished": "2026-07-10"
+  },
+  {
+    "slug": "how-to-master-neet-physics-numericals",
+    "title": "How to Master NEET Physics Numericals Without Fear",
+    "category": "NEET",
+    "datePublished": "2026-07-11"
+  },
+  {
+    "slug": "neet-organic-chemistry-concept-first-study-plan",
+    "title": "NEET Organic Chemistry: A Concept-First Study Plan",
+    "category": "NEET",
+    "datePublished": "2026-07-12"
+  },
+  {
+    "slug": "neet-dropper-year-building-a-realistic-comeback-plan",
+    "title": "NEET Dropper Year: Building a Realistic Comeback Plan",
+    "category": "NEET",
+    "datePublished": "2026-07-13"
+  },
+  {
+    "slug": "neet-class-11-vs-class-12-syllabus-where-to-focus-first",
+    "title": "NEET Class 11 vs Class 12 Syllabus: Where to Focus First",
+    "category": "NEET",
+    "datePublished": "2026-07-14"
+  },
+  {
+    "slug": "geometry-problem-solving-techniques-for-maths-olympiads",
+    "title": "Geometry Problem-Solving Techniques for Maths Olympiads",
+    "category": "Olympiad",
+    "datePublished": "2026-07-15"
+  },
+  {
+    "slug": "combinatorics-for-beginners-counting-techniques-olympiad-maths",
+    "title": "Combinatorics for Beginners: Counting Techniques for Olympiad Maths",
+    "category": "Olympiad",
+    "datePublished": "2026-07-17"
+  },
+  {
+    "slug": "from-ioqm-to-inmo-what-changes-at-the-next-level",
+    "title": "From IOQM to INMO: What Changes at the Next Level",
+    "category": "Olympiad",
+    "datePublished": "2026-07-18"
+  },
+  {
+    "slug": "how-to-build-an-effective-olympiad-practice-routine",
+    "title": "How to Build an Effective Olympiad Practice Routine",
+    "category": "Olympiad",
+    "datePublished": "2026-07-19"
+  },
+  {
+    "slug": "kangaroo-math-olympiad-what-it-is-and-how-to-prepare",
+    "title": "Kangaroo Math Olympiad: What It Is and How to Prepare",
+    "category": "Olympiad",
+    "datePublished": "2026-07-20"
+  },
+  {
+    "slug": "how-to-crack-neet-in-the-first-attempt",
+    "title": "How to Crack NEET in the First Attempt: A Complete Strategy",
+    "category": "NEET",
+    "datePublished": "2026-06-10"
+  },
+  {
+    "slug": "how-to-crack-jee-in-the-first-attempt",
+    "title": "How to Crack JEE in the First Attempt: A Complete Strategy",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-12"
+  },
+  {
+    "slug": "why-foundation-is-important-for-cracking-neet",
+    "title": "Why Foundation Is Important for Cracking NEET",
+    "category": "NEET",
+    "datePublished": "2026-06-13"
+  },
+  {
+    "slug": "why-foundation-is-important-for-cracking-jee",
+    "title": "Why Foundation Is Important for Cracking JEE",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-14"
+  },
+  {
+    "slug": "neet-physical-chemistry-building-calculation-fluency",
+    "title": "NEET Physical Chemistry: Building Calculation Fluency from the Basics",
+    "category": "NEET",
+    "datePublished": "2026-06-15"
+  },
+  {
+    "slug": "jee-mock-test-strategy-how-to-learn-from-every-attempt",
+    "title": "JEE Mock Test Strategy: How to Actually Learn From Every Attempt",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-16"
+  },
+  {
+    "slug": "how-many-hours-a-day-should-you-study-for-neet",
+    "title": "How Many Hours a Day Should You Study for NEET? A Realistic Answer",
+    "category": "NEET",
+    "datePublished": "2026-06-17"
+  },
+  {
+    "slug": "common-jee-preparation-mistakes-that-cost-a-rank",
+    "title": "Common JEE Preparation Mistakes That Cost Students a Rank",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-19"
+  },
+  {
+    "slug": "neet-mock-test-strategy-how-to-learn-from-every-attempt",
+    "title": "NEET Mock Test Strategy: How to Actually Learn From Every Attempt",
+    "category": "NEET",
+    "datePublished": "2026-06-20"
+  },
+  {
+    "slug": "jee-revision-strategy-for-the-final-3-months",
+    "title": "JEE Revision Strategy for the Final 3 Months",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-21"
+  },
+  {
+    "slug": "common-neet-preparation-mistakes-that-cost-a-rank",
+    "title": "Common NEET Preparation Mistakes That Cost Students a Rank",
+    "category": "NEET",
+    "datePublished": "2026-06-22"
+  },
+  {
+    "slug": "jee-coaching-vs-self-study-how-to-choose",
+    "title": "JEE Coaching vs Self-Study: How to Choose",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-23"
+  },
+  {
+    "slug": "neet-revision-strategy-for-the-final-3-months",
+    "title": "NEET Revision Strategy for the Final 3 Months",
+    "category": "NEET",
+    "datePublished": "2026-06-24"
+  },
+  {
+    "slug": "how-many-hours-a-day-should-you-study-for-jee",
+    "title": "How Many Hours a Day Should You Study for JEE? A Realistic Answer",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-26"
+  },
+  {
+    "slug": "neet-coaching-vs-self-study-how-to-choose",
+    "title": "NEET Coaching vs Self-Study: How to Choose",
+    "category": "NEET",
+    "datePublished": "2026-06-27"
+  },
+  {
+    "slug": "jee-advanced-multi-concept-problem-solving",
+    "title": "JEE Advanced Problem-Solving: Moving from Formula Recall to Multi-Concept Thinking",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-28"
+  },
+  {
+    "slug": "neet-inorganic-chemistry-high-yield-low-time-strategy",
+    "title": "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy",
+    "category": "NEET",
+    "datePublished": "2026-06-29"
+  },
+  {
+    "slug": "how-early-should-jee-preparation-actually-start",
+    "title": "How Early Should JEE Preparation Actually Start?",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-30"
+  },
+  {
+    "slug": "how-early-should-neet-preparation-actually-start",
+    "title": "How Early Should NEET Preparation Actually Start?",
+    "category": "NEET",
+    "datePublished": "2026-07-01"
+  },
+  {
+    "slug": "from-jee-main-result-to-jee-advanced-what-changes",
+    "title": "From JEE Main Result to JEE Advanced: What Changes in Your Prep",
+    "category": "IIT-JEE",
+    "datePublished": "2026-07-03"
+  },
+  {
+    "slug": "iit-vs-nit-vs-iiit-closing-ranks-what-they-mean-for-grade-9",
+    "title": "IIT vs NIT vs IIIT: The Closing-Rank Squeeze, and What It Means for Your Child in Grade 9",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-05"
+  },
+  {
+    "slug": "re-neet-paper-leak-year-exam-proof-preparation",
+    "title": "Re-NEET: What a Paper-Leak Year Teaches Every Parent About Exam-Proof Preparation",
+    "category": "NEET",
+    "datePublished": "2026-06-06"
+  },
+  {
+    "slug": "olympiad-advantage-ioqm-nso-toppers-build-their-iit-edge",
+    "title": "The Olympiad Advantage: How IOQM & NSO Toppers Build Their IIT Edge Before Class 12",
+    "category": "Olympiad",
+    "datePublished": "2026-06-07"
+  },
+  {
+    "slug": "95-percentile-jee-main-honest-college-map",
+    "title": "95 Percentile in JEE Main Gets You... What Exactly? The Honest College Map",
+    "category": "IIT-JEE",
+    "datePublished": "2026-06-08"
+  },
+  {
+    "slug": "cbse-icse-igcse-ibdp-which-board-prepares-for-jee-neet",
+    "title": "CBSE vs ICSE vs IGCSE vs IBDP: Which Board Actually Prepares Your Child for JEE/NEET?",
+    "category": "International & SAT",
+    "datePublished": "2026-06-09"
+  },
+  {
+    "slug": "how-to-crack-the-digital-sat-complete-strategy",
+    "title": "How to Crack the Digital SAT: A Complete Strategy",
+    "category": "International & SAT",
+    "datePublished": "2026-05-13"
+  },
+  {
+    "slug": "ap-calculus-ab-vs-bc-which-should-you-take",
+    "title": "AP Calculus AB vs BC: Which Should You Take?",
+    "category": "International & SAT",
+    "datePublished": "2026-05-15"
+  },
+  {
+    "slug": "digital-sat-math-built-in-calculator-changes-everything",
+    "title": "Digital SAT Math: Why the Built-In Calculator Changes Everything",
+    "category": "International & SAT",
+    "datePublished": "2026-05-16"
+  },
+  {
+    "slug": "how-to-master-ap-calculus-frqs",
+    "title": "How to Master AP Calculus FRQs (Free-Response Questions)",
+    "category": "International & SAT",
+    "datePublished": "2026-05-17"
+  },
+  {
+    "slug": "digital-sat-reading-writing-short-passages-fast",
+    "title": "Digital SAT Reading & Writing: How to Handle Short Passages Fast",
+    "category": "International & SAT",
+    "datePublished": "2026-05-18"
+  },
+  {
+    "slug": "ap-calculus-topics-that-decide-your-score",
+    "title": "The AP Calculus Topics That Decide Your Score (and Where Students Lose Points)",
+    "category": "International & SAT",
+    "datePublished": "2026-05-19"
+  },
+  {
+    "slug": "understanding-digital-sat-adaptive-modules",
+    "title": "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)",
+    "category": "International & SAT",
+    "datePublished": "2026-05-20"
+  },
+  {
+    "slug": "ap-computer-science-a-what-the-exam-tests",
+    "title": "AP Computer Science A: What the Exam Actually Tests (Java-Based FRQs Explained)",
+    "category": "International & SAT",
+    "datePublished": "2026-05-22"
+  },
+  {
+    "slug": "what-sat-score-do-you-need-for-top-us-universities",
+    "title": "What SAT Score Do You Actually Need for Top US Universities?",
+    "category": "International & SAT",
+    "datePublished": "2026-05-23"
+  },
+  {
+    "slug": "how-to-prepare-for-ap-csa-without-prior-coding-experience",
+    "title": "How to Prepare for AP CSA Without Prior Coding Experience",
+    "category": "International & SAT",
+    "datePublished": "2026-05-24"
+  },
+  {
+    "slug": "sat-prep-timeline-when-to-start-how-long-it-takes",
+    "title": "SAT Prep Timeline: When to Start and How Long It Really Takes",
+    "category": "International & SAT",
+    "datePublished": "2026-05-25"
+  },
+  {
+    "slug": "ap-computer-science-principles-create-performance-task",
+    "title": "AP Computer Science Principles: Understanding the Create Performance Task",
+    "category": "International & SAT",
+    "datePublished": "2026-05-26"
+  },
+  {
+    "slug": "common-digital-sat-mistakes-that-cost-points",
+    "title": "Common Digital SAT Mistakes That Cost Students Points",
+    "category": "International & SAT",
+    "datePublished": "2026-05-27"
+  },
+  {
+    "slug": "ap-csp-vs-ap-csa-which-should-your-child-take-first",
+    "title": "AP CSP vs AP CSA: Which Should Your Child Take First?",
+    "category": "International & SAT",
+    "datePublished": "2026-05-29"
+  },
+  {
+    "slug": "sat-vs-act-which-should-indian-students-take",
+    "title": "SAT vs ACT: Which Should Indian Students Take?",
+    "category": "International & SAT",
+    "datePublished": "2026-05-30"
+  },
+  {
+    "slug": "ap-physics-1-vs-physics-c-the-real-difference",
+    "title": "AP Physics 1 vs Physics C: Understanding the Real Difference",
+    "category": "International & SAT",
+    "datePublished": "2026-05-31"
+  },
+  {
+    "slug": "how-to-use-official-bluebook-practice-tests-effectively",
+    "title": "How to Use Official Bluebook Practice Tests Effectively",
+    "category": "International & SAT",
+    "datePublished": "2026-06-01"
+  },
+  {
+    "slug": "how-to-score-a-5-on-ap-physics-frq-strategy",
+    "title": "How to Score a 5 on AP Physics: FRQ Strategy That Actually Works",
+    "category": "International & SAT",
+    "datePublished": "2026-06-02"
+  },
+  {
+    "slug": "sat-prep-while-doing-igcse-ib-cbse-balancing-both",
+    "title": "SAT Prep for Students Also Doing IGCSE, IB or CBSE: Balancing Both",
+    "category": "International & SAT",
+    "datePublished": "2026-06-03"
+  },
+  {
+    "slug": "ap-physics-c-mechanics-vs-em-choosing-and-preparing",
+    "title": "AP Physics C: Mechanics vs E&M — Choosing and Preparing for Both",
+    "category": "International & SAT",
+    "datePublished": "2026-07-21"
+  }
+]
