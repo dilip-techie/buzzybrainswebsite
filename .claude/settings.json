@@ -12,7 +12,14 @@
       "Bash(npx playwright *)",
       "Bash(node screenshot.js)",
       "Bash(node check404.js)",
-      "Bash(node screenshot2.js)"
+      "Bash(node screenshot2.js)",
+      "Bash(node generate-batch2.js)",
+      "Bash(node splice2.js)",
+      "Bash(node screenshot3.js)",
+      "Bash(node generate-batch3.js)",
+      "Bash(node screenshot4.js)",
+      "Bash(node generate-batch4.js)",
+      "Bash(curl -s -o /dev/null -w \"iit-nit-iiit retry: %{http_code}\\\\n\" http://localhost:3460/blog/iit-vs-nit-vs-iiit-closing-ranks-what-they-mean-for-grade-9)"
     ]
   }
 }

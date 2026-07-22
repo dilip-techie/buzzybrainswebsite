@@ -22,6 +22,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/12th-board-pcm', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/12th-board-pcb', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/commerce-tuitions', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/ipmat-cat', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/olympiad-math', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/olympiads', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/one-on-one', changeFrequency: 'monthly', priority: 0.7 },
@@ -30,6 +31,8 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/international-boards', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/ap-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/sat-exam', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/clat-exam', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/ivy-league-counselling', changeFrequency: 'monthly', priority: 0.7 },
 
   // Specialized tracks
   { path: '/coding-lab', changeFrequency: 'monthly', priority: 0.7 },

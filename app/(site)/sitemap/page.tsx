@@ -33,9 +33,11 @@ const SECTIONS: SiteSection[] = [
       { href: '/12th-board-pcm', label: 'IIT-JEE Coaching' },
       { href: '/12th-board-pcb', label: 'NEET Coaching' },
       { href: '/commerce-tuitions', label: 'BuzzyBrains Commerce Tuitions' },
+      { href: '/ipmat-cat', label: 'IPMAT & CAT Coaching' },
       { href: '/olympiad-math', label: 'Maths Excellence Program' },
       { href: '/olympiads', label: 'Olympiad Program' },
       { href: '/one-on-one', label: 'One-on-One Coaching' },
+      { href: '/clat-exam', label: 'CLAT Coaching' },
     ],
   },
   {
@@ -47,6 +49,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/international-boards#a-level', label: 'A Level / AS Level' },
       { href: '/ap-exam', label: 'AP Exams' },
       { href: '/sat-exam', label: 'SAT Exam' },
+      { href: '/ivy-league-counselling', label: 'Ivy League Counselling' },
     ],
   },
   {
@@ -79,10 +82,16 @@ const BLOG_CATEGORY_ORDER: BlogCategory[] = [
   'iit-jee',
   'neet',
   'commerce',
+  'ipmat-cat',
   'foundation',
   'olympiad',
   'maths-tuition',
-  'international-sat',
+  'sat-exam',
+  'ap-exam',
+  'igcse',
+  'ib',
+  'clat',
+  'ivy-colleges',
   'coding',
 ];
 

@@ -108,22 +108,112 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'Is a Maths Excellence Programme only for Olympiad students?', answer: 'No — it also serves strong students who find the regular syllabus understimulating, and students who are solid at board-style questions but have never been challenged with genuinely unfamiliar problems.' },
     ],
   },
-  'international-sat': {
-    metaTitle: 'International Boards & SAT Guides — IGCSE, IB, A-Level, AP',
+  'sat-exam': {
+    metaTitle: 'SAT Exam Prep Guides — Digital SAT Strategy',
     metaDescription:
-      'Guides comparing IGCSE, IB Diploma, A-Level and AP, plus Digital SAT prep and how CBSE/ICSE compare to international boards for JEE/NEET readiness.',
-    h1: 'International Boards & SAT Guides',
+      'Digital SAT preparation guides — adaptive module strategy, calculator-inclusive Math, short-passage Reading & Writing, prep timelines, and honest score-vs-college expectations.',
+    h1: 'SAT Exam Preparation Guides',
     quickAnswer:
-      'These are BuzzyBrains Academy\'s International Boards guides — articles comparing Cambridge IGCSE, the IB Diploma Programme, A-Level and AP, Digital SAT preparation, and how each board compares to CBSE and ICSE for students also targeting JEE or NEET.',
+      'These are BuzzyBrains Academy\'s SAT guides — practical articles on the Digital SAT\'s adaptive, module-based format, Bluebook-specific preparation, Math and Reading & Writing strategy, realistic prep timelines, and how to weigh the SAT against the ACT for Indian students applying to US universities.',
     intro: [
-      'IGCSE, IB, A-Level and AP each build genuinely valuable but different skills — and none of them are built around NCERT, which matters if a student is also targeting JEE or NEET. These guides cover board-specific preparation (IGCSE Maths tiers, IB AA vs AI, IB Physics scoring) and how to bridge deliberately toward India\'s competitive exams when needed.',
-      'BuzzyBrains Academy is one of the few institutes that genuinely teaches across CBSE, ICSE, IGCSE and IB — written by founder Dilip Sah and the International Boards faculty team.',
+      'The Digital SAT is a genuinely different exam from the paper SAT it replaced — adaptive modules, a calculator allowed throughout Math, and short, single-question Reading & Writing passages. These guides cover exactly how that format changes strategy, and how to build a realistic, multi-month preparation timeline around it.',
+      'Written by founder Dilip Sah, an IIT Kanpur alumnus with 25+ years of mentoring experience, and the BuzzyBrains Academy SAT faculty team.',
     ],
     faqs: [
-      { question: 'Which international board is best for JEE/NEET readiness?', answer: 'None are built around NCERT, so all need deliberate bridging — but a strong IGCSE Extended or IB Maths AA background transfers reasoning skill well, provided NCERT-specific content is covered separately.' },
-      { question: 'What is the difference between IB Maths AA and AI?', answer: 'Analysis & Approaches (AA) is theoretical and proof-oriented, suited to engineering/physics-bound students; Applications & Interpretation (AI) is applied and technology-integrated, suited to business, social science or design-bound students — the choice should follow intended university major, not perceived difficulty.' },
-      { question: 'Is the Digital SAT very different from the old paper SAT?', answer: 'Yes — it\'s a two-section, adaptive test taken on the Bluebook app where the second module\'s difficulty depends on the first module\'s performance, which genuinely changes pacing strategy compared to older, non-adaptive paper-SAT material.' },
-      { question: 'Can a CBSE or ICSE student switch to IGCSE or IB later?', answer: 'It\'s far easier before Class 9, when curricula haven\'t diverged much — after that, IGCSE/IB\'s independent, application-based assessment style needs deliberate bridging support for a late switch to work smoothly.' },
+      { question: 'What is the Digital SAT, and how is it different from the old SAT?', answer: 'It\'s an adaptive, computer-based exam taken via the Bluebook app, with shorter Reading & Writing passages, a calculator allowed for the entire Math section, and module-based adaptive difficulty — all genuine changes from the older paper format.' },
+      { question: 'How does the adaptive module system affect my score?', answer: 'Each section has two modules; performance on module 1 determines whether module 2 is the harder, higher-scoring version or the easier, capped version — module 1 accuracy is strategically important, not just "the first half."' },
+      { question: 'How long does SAT preparation genuinely take?', answer: 'Meaningful score improvement typically needs several months of structured practice — diagnostic, foundational skills, timed practice, then full adaptive mocks — not a few weeks of cramming.' },
+      { question: 'Should I take the SAT or the ACT?', answer: 'Both are widely accepted by US universities that consider standardized testing; the right choice depends on personal fit (adaptive strategy versus consistent fast pacing) more than either exam\'s general reputation.' },
+    ],
+  },
+  'ap-exam': {
+    metaTitle: 'AP Exam Guides — Calculus, Computer Science & Physics',
+    metaDescription:
+      'AP preparation guides covering Calculus AB/BC, Computer Science A and Principles, and Physics 1/C — course selection, FRQ strategy, and scoring a 5.',
+    h1: 'AP Exam Preparation Guides',
+    quickAnswer:
+      'These are BuzzyBrains Academy\'s AP guides — articles on AP Calculus AB vs BC, AP Computer Science A and Principles, and AP Physics 1 and C, covering course-selection decisions, free-response question (FRQ) strategy, and how each exam is actually scored.',
+    intro: [
+      'AP exams reward complete, justified free-response answers, not just a correct final result — and course choices like AB vs BC Calculus, or CSP vs CSA, depend on genuine readiness, not just ambition. These guides break down what each exam actually tests and how to prepare for its specific FRQ format.',
+      'Written by founder Dilip Sah, an IIT Kanpur alumnus with 25+ years of mentoring experience, and the BuzzyBrains Academy AP faculty team.',
+    ],
+    faqs: [
+      { question: 'What is the difference between AP Calculus AB and BC?', answer: 'BC includes everything in AB plus additional topics (series, parametric/polar calculus) at a faster pace, and BC students also receive a separate AB subscore — the right choice depends on math foundation and pace comfort, not just ambition.' },
+      { question: 'Do AP free-response questions need full written work, or just the final answer?', answer: 'Complete, justified reasoning — including correct notation and, where relevant, explicitly stated principles — is required for full credit; a correct final answer alone loses real points on most FRQs.' },
+      { question: 'Should my child start with AP Computer Science Principles or AP CSA?', answer: 'CSP\'s broader, conceptual approach generally suits genuine beginners better, while a student with existing coding comfort can reasonably start directly with the Java-specific, code-writing-intensive CSA.' },
+      { question: 'What is the difference between AP Physics 1 and Physics C?', answer: 'Physics 1 is algebra-based mechanics; Physics C is calculus-based and split into two separate exams (Mechanics, and Electricity & Magnetism) — Physics C assumes concurrent or prior calculus coursework.' },
+    ],
+  },
+  igcse: {
+    metaTitle: 'Cambridge IGCSE Guides — Maths, Additional Maths & Tiers',
+    metaDescription:
+      'Cambridge IGCSE preparation guides covering Mathematics (0580) Core vs Extended, Additional Mathematics (0606), mark-scheme strategy, and personalized tutoring outcomes.',
+    h1: 'Cambridge IGCSE Guides',
+    quickAnswer:
+      'These are BuzzyBrains Academy\'s Cambridge IGCSE guides — articles on IGCSE Mathematics (0580) Core versus Extended tier selection, scoring A* in Additional Mathematics (0606), Cambridge\'s method-marks system, and how personalized tutoring improves IGCSE outcomes.',
+    intro: [
+      'Cambridge IGCSE rewards genuine content mastery combined with familiarity with Cambridge\'s specific mark-scheme style, where showing complete working matters as much as the final answer. These guides cover tier selection, the content jump into Additional Mathematics, and practical exam-technique strategy.',
+      'BuzzyBrains Academy is one of the few institutes that genuinely teaches across CBSE, ICSE and IGCSE — written by founder Dilip Sah and the International Boards faculty team.',
+    ],
+    faqs: [
+      { question: 'What is the difference between Core and Extended IGCSE Maths?', answer: 'Core caps at grade C and covers foundational content; Extended opens the full A*-E range and includes more advanced topics, suited to students continuing to A Level or IB Mathematics.' },
+      { question: 'How to score A* in Cambridge IGCSE Additional Mathematics?', answer: 'Genuine mastery of calculus, trigonometric identities, algebraic techniques and coordinate geometry, combined with extensive past-paper practice reviewed against official mark schemes.' },
+      { question: 'Why do method marks matter so much in Cambridge assessment?', answer: 'Cambridge\'s mark schemes reward clear, complete working — a student who shows correct method often earns partial credit even with a minor arithmetic slip, which is different from board exams that weight the final answer more heavily.' },
+      { question: 'How important are past papers for IGCSE preparation?', answer: 'Extremely important — they are the single most valuable resource, but only when reviewed carefully against the official mark scheme, not just attempted for a score.' },
+    ],
+  },
+  ib: {
+    metaTitle: 'IB Diploma Guides — Maths AA vs AI & IB Physics',
+    metaDescription:
+      'IB Diploma Programme guides covering Mathematics AA vs AI course selection, scoring a 7 in IB Physics, and how personalized tutoring improves IB outcomes.',
+    h1: 'IB Diploma Guides',
+    quickAnswer:
+      'These are BuzzyBrains Academy\'s IB Diploma guides — articles on choosing between IB Mathematics Analysis & Approaches (AA) and Applications & Interpretation (AI), strategies for scoring a 7 in IB Physics, and the specific mechanisms behind why personalized, small-batch tutoring genuinely improves IB results.',
+    intro: [
+      'IB rewards precise command-term compliance and genuine conceptual depth — in Mathematics, Physics, and the Internal Assessment components that carry real, distinct weight. These guides cover the AA-versus-AI decision, IB Physics FRQ-style strategy, and how tutoring should actually support the Diploma\'s specific demands.',
+      'BuzzyBrains Academy is one of the few institutes that genuinely teaches across CBSE, ICSE and the IB Diploma Programme — written by founder Dilip Sah and the International Boards faculty team.',
+    ],
+    faqs: [
+      { question: 'What is the difference between IB Maths AA and AI?', answer: 'Analysis & Approaches (AA) is theoretical and proof-oriented, suited to engineering or physics-bound students; Applications & Interpretation (AI) is applied and technology-integrated, suited to business, social science or design-bound students — the choice should follow intended university major, not perceived difficulty.' },
+      { question: 'How do I score a 7 in IB Physics?', answer: 'Genuine conceptual understanding across core topics, precise command-term awareness (what "justify" versus "calculate" actually requires), strong data-analysis skill for Paper 3, and a thoughtfully executed Internal Assessment.' },
+      { question: 'Does personalized tutoring really improve IB results?', answer: 'Through specific mechanisms — faster gap identification, individualized pacing, and direct mark-scheme and command-term coaching — not just generically "more attention," which is why genuinely small batch sizes matter.' },
+      { question: 'Can a CBSE or ICSE student switch to IB later?', answer: 'It\'s far easier before Class 9, when curricula haven\'t diverged much — after that, IB\'s independent, application-based assessment style needs deliberate bridging support for a late switch to work smoothly.' },
+    ],
+  },
+  clat: {
+    metaTitle: 'CLAT Guides — India\'s National Law Entrance Exam',
+    metaDescription:
+      'CLAT (Common Law Admission Test) preparation guides — exam format, section-wise strategy, and how to build the reading and reasoning skills the exam actually tests.',
+    h1: 'CLAT Guides',
+    quickAnswer:
+      'CLAT (Common Law Admission Test) is India\'s national entrance exam for admission to the National Law Universities (NLUs) and other law schools, testing English Language, Current Affairs including General Knowledge, Legal Reasoning, Logical Reasoning, and Quantitative Techniques through a fully passage-based format. BuzzyBrains Academy runs a dedicated CLAT coaching program built around this exact format.',
+    intro: [
+      'CLAT rewards a genuinely different skill set from JEE, NEET or board exams — reading comprehension under time pressure, applying legal principles to unfamiliar fact patterns, and structured logical reasoning, rather than curriculum-based content mastery alone. The guides in this category cover exam format, section-wise strategy and preparation timelines.',
+      'For structured CLAT preparation — passage-first practice, full-length mocks and small batches capped at 12 students — see the BuzzyBrains Academy CLAT coaching program below.',
+    ],
+    faqs: [
+      { question: 'What is CLAT?', answer: 'CLAT (Common Law Admission Test) is India\'s centralized national entrance exam for admission to the National Law Universities and other participating law schools, for both undergraduate (five-year integrated law) and postgraduate law programmes.' },
+      { question: 'What sections does the CLAT UG exam cover?', answer: 'The exam is passage-based and covers English Language, Current Affairs including General Knowledge, Legal Reasoning, Logical Reasoning, and Quantitative Techniques — exact section weightage and format are set by the Consortium of NLUs and should be confirmed from the official CLAT website each year.' },
+      { question: 'Does BuzzyBrains Academy offer dedicated CLAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured CLAT coaching program covering all five sections, with passage-first practice, full-length mocks and batches capped at 12 students. See the CLAT program page for details.' },
+      { question: 'What skills does CLAT preparation genuinely require?', answer: 'Fast, precise reading comprehension, applying general legal principles to unfamiliar scenarios (not prior legal knowledge), and structured logical and quantitative reasoning under real time pressure.' },
+    ],
+  },
+  'ivy-colleges': {
+    metaTitle: 'Ivy League & Top US College Guides',
+    metaDescription:
+      'Guides on what it genuinely takes to be competitive for Ivy League and other top US universities — SAT/AP context, holistic admissions, academic profile strategy and honest score expectations.',
+    h1: 'Ivy League & Top US College Guides',
+    quickAnswer:
+      'The Ivy League refers to eight highly selective US universities (Harvard, Yale, Princeton, Columbia, Penn, Brown, Dartmouth and Cornell) that evaluate applicants holistically — academic record, essays, extracurriculars and recommendations together, not a single test score. This category collects guides on the academic side of that preparation — course strategy, SAT/AP scores, and realistic expectations — which is also what BuzzyBrains Academy\'s Ivy League & Top US University Counselling program is scoped to.',
+    intro: [
+      'No single SAT or AP score guarantees admission to an Ivy League or similarly selective US university — these institutions evaluate applications holistically, and published "typical score ranges" shift by year and should always be checked from a university\'s own official data. These guides focus on the part of that preparation BuzzyBrains Academy genuinely supports: course and curriculum strategy, and building strong Digital SAT and AP performance as real components of a competitive application.',
+      'For families targeting top US universities, our SAT and AP guides are a good starting point alongside this category — and our dedicated Ivy League Counselling program coordinates all three into one grade-by-grade roadmap.',
+    ],
+    faqs: [
+      { question: 'What SAT score do I need for an Ivy League university?', answer: 'There is no single required score — Ivy League admissions are holistic, and "typical ranges" vary by university and year, so checking a specific target institution\'s current, official data is essential rather than relying on a general number.' },
+      { question: 'Does a high SAT or AP score guarantee Ivy League admission?', answer: 'No — these universities evaluate the full application holistically, including academic record, essays, extracurriculars and recommendations, not test scores alone.' },
+      { question: 'Which US universities are in the Ivy League?', answer: 'Harvard, Yale, Princeton, Columbia, the University of Pennsylvania, Brown, Dartmouth and Cornell — eight specific, historically defined universities, distinct from other selective US universities sometimes discussed alongside them.' },
+      { question: 'Does BuzzyBrains Academy offer Ivy League admissions counseling?', answer: 'Yes — BuzzyBrains Academy\'s Ivy League & Top US University Counselling program builds the academic profile (course strategy, SAT/AP scores, grade-by-grade roadmap) that supports a competitive application. It does not cover essay editing or extracurricular consulting; see the program page for exactly what is included.' },
     ],
   },
   coding: {
@@ -158,6 +248,24 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'Do I need to prepare separately for CUET and board exams?', answer: 'Not from scratch — both draw on the same NCERT Commerce syllabus. What\'s needed is dedicated, timed MCQ practice alongside regular board preparation, since CUET\'s objective format and pace genuinely differ from the board exam\'s written-answer style.' },
       { question: 'Should I choose CA Foundation or a CUET-based B.Com after Class 12?', answer: 'CA Foundation suits students reasonably confident about a CA career and comfortable with independent, exam-heavy study; a CUET-based B.Com keeps more options open at 18, including deciding on CA later alongside the degree.' },
       { question: 'Which Commerce subjects does CUET test as separate papers?', answer: 'Accountancy, Business Studies, and Economics/Business Economics are each tested as separate CUET domain subject papers, alongside the compulsory Languages and General Test sections most students also attempt.' },
+    ],
+  },
+  'ipmat-cat': {
+    metaTitle: 'IPMAT & CAT Guides — India\'s Top B-School Entrances',
+    metaDescription:
+      'IPMAT and CAT preparation guides — exam pattern, section-wise strategy, and how to decide between the 5-year integrated IPM route and the traditional post-graduate CAT/MBA route.',
+    h1: 'IPMAT & CAT Guides',
+    quickAnswer:
+      'IPMAT (Integrated Program in Management Aptitude Test) is the entrance exam for 5-year integrated BBA+MBA programmes at IIMs like Indore and Rohtak, taken right after Class 12. CAT (Common Admission Test) is the entrance exam for 2-year MBA/PGP programmes at the IIMs and other top B-schools, taken after a bachelor\'s degree. BuzzyBrains Academy runs a dedicated coaching program covering both exams.',
+    intro: [
+      'IPMAT and CAT test overlapping skills — quantitative ability, verbal ability, and (for CAT) data interpretation and logical reasoning — but they serve genuinely different stages of a student\'s journey: IPMAT right after Class 12, CAT after graduation. These guides cover exam format, section-wise strategy, and how to decide which path fits a given student\'s timeline.',
+      'For structured, track-specific preparation for either exam — with small batches capped at 12 students — see the BuzzyBrains Academy IPMAT & CAT coaching program below.',
+    ],
+    faqs: [
+      { question: 'What is the difference between IPMAT and CAT?', answer: 'IPMAT is taken right after Class 12 for admission to 5-year integrated BBA+MBA programmes at IIMs like Indore and Rohtak; CAT is taken after a bachelor\'s degree for admission to 2-year MBA/PGP programmes at the IIMs and other top B-schools.' },
+      { question: 'What does the IPMAT exam cover?', answer: 'IPMAT generally tests Quantitative Ability and Verbal Ability, followed by a Written Ability Test (WAT) and Personal Interview for shortlisted candidates — the exact pattern varies by IIM and year, so it should always be confirmed from that IIM\'s official notification.' },
+      { question: 'What does the CAT exam cover?', answer: 'CAT tests Verbal Ability & Reading Comprehension (VARC), Data Interpretation & Logical Reasoning (DILR), and Quantitative Ability (QA), through a mix of MCQ and Type-In-The-Answer (TITA) questions under sectional time limits.' },
+      { question: 'Does BuzzyBrains Academy offer dedicated IPMAT and CAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured coaching program covering both exams, with track-specific preparation, full-length mocks and batches capped at 12 students. See the IPMAT & CAT program page for details.' },
     ],
   },
 };

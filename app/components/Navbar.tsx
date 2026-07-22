@@ -24,8 +24,10 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 11–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 11–12)' },
       { href: '/commerce-tuitions', label: 'Commerce Tuitions (Grades 11–12)' },
+      { href: '/ipmat-cat', label: 'IPMAT & CAT Coaching' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
+      { href: '/clat-exam', label: 'CLAT (Grades 11–12)' },
     ],
   },
   {
@@ -37,6 +39,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/international-boards#a-level', label: 'A Level / AS Level' },
       { href: '/ap-exam', label: 'AP Exams' },
       { href: '/sat-exam', label: 'SAT' },
+      { href: '/ivy-league-counselling', label: 'Ivy League Counselling' },
     ],
     footerLink: { href: '/international-boards', label: 'Compare pathways →' },
   },

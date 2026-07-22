@@ -44,7 +44,8 @@ const HIGHLIGHTS = [
 const EXAMS = [
   { label: 'CUET', href: '/cuet-commerce-coaching-pune' },
   { label: 'CA Foundation', href: '/ca-foundation-coaching-pune' },
-  { label: 'IPMAT', href: null },
+  { label: 'IPMAT', href: '/ipmat-cat' },
+  { label: 'CAT', href: '/ipmat-cat' },
   { label: 'NPAT', href: null },
   { label: 'SET', href: null },
   { label: 'BBA Entrance', href: null },

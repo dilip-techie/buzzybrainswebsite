@@ -39,7 +39,9 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
           </span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{content.h1}</h1>
           <p className="lede reveal" style={{ maxWidth: 680, marginTop: 6 }}>
-            {posts.length} {posts.length === 1 ? 'guide' : 'guides'} · Updated {sorted.length ? formatDate(sorted[0].datePublished) : ''}
+            {sorted.length > 0
+              ? `${posts.length} ${posts.length === 1 ? 'guide' : 'guides'} · Updated ${formatDate(sorted[0].datePublished)}`
+              : 'New content track · Guides coming soon'}
           </p>
         </div>
       </section>

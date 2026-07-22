@@ -59,12 +59,14 @@ export default function Footer() {
               <li><Link href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>
               <li><Link href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
               <li><Link href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
+              <li><Link href="/clat-exam">CLAT Coaching</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer commerce links">
             <h4>Commerce</h4>
             <ul className="foot-links">
               <li><Link href="/commerce-tuitions">Commerce Tuitions (11–12)</Link></li>
+              <li><Link href="/ipmat-cat">IPMAT & CAT Coaching</Link></li>
               <li><Link href="/cuet-commerce-coaching-pune">CUET Commerce Coaching Pune — Guide</Link></li>
               <li><Link href="/ca-foundation-coaching-pune">CA Foundation Coaching Pune — Guide</Link></li>
             </ul>
@@ -77,6 +79,7 @@ export default function Footer() {
               <li><Link href="/international-boards#a-level">A Level / AS Level</Link></li>
               <li><Link href="/ap-exam">AP Exams</Link></li>
               <li><Link href="/sat-exam">SAT Exam</Link></li>
+              <li><Link href="/ivy-league-counselling">Ivy League Counselling</Link></li>
               <li><Link href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
             </ul>
           </nav>
