@@ -10,7 +10,8 @@
     "lint": "eslint",
     "agent:seed": "npx tsx scripts/agent.ts",
     "db:push": "prisma db push",
-    "db:seed": "tsx prisma/seed.ts"
+    "db:seed": "tsx prisma/seed.ts",
+    "generate:og": "tsx scripts/og/generate-og-images.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -47,6 +48,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "playwright": "^1.61.1",
     "prisma": "^6.19.3",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
