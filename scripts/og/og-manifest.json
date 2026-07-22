@@ -885,7 +885,7 @@
     "category": "IPMAT & CAT",
     "path": "/images/og/ipmat-exam-pattern-syllabus-complete-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT Exam Pattern and Syllabus: The Complete Guide",
@@ -893,7 +893,7 @@
     "category": "IPMAT & CAT",
     "path": "/images/og/cat-exam-pattern-syllabus-complete-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IPMAT vs CAT: Which Path Is Right for Your Child?",
@@ -901,7 +901,7 @@
     "category": "IPMAT & CAT",
     "path": "/images/og/ipmat-vs-cat-which-path-is-right-for-your-child.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT Data Interpretation & Logical Reasoning: A Strategy Guide",
@@ -909,13 +909,125 @@
     "category": "IPMAT & CAT",
     "path": "/images/og/cat-dilr-strategy-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IPMAT Preparation Timeline: When to Start in Class 11 and 12",
     "slug": "ipmat-preparation-timeline-class-11-12",
     "category": "IPMAT & CAT",
     "path": "/images/og/ipmat-preparation-timeline-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "IIT-JEE Preparation Guides",
+    "slug": "category-iit-jee",
+    "category": "IIT-JEE",
+    "path": "/images/og/category-iit-jee.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Preparation Guides",
+    "slug": "category-neet",
+    "category": "NEET",
+    "path": "/images/og/category-neet.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Foundation Coaching Guides (Grades 6–10)",
+    "slug": "category-foundation",
+    "category": "Foundation",
+    "path": "/images/og/category-foundation.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Maths & Science Olympiad Guides",
+    "slug": "category-olympiad",
+    "category": "Olympiad",
+    "path": "/images/og/category-olympiad.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Maths Excellence & Advanced Problem-Solving Guides",
+    "slug": "category-maths-tuition",
+    "category": "Maths Tuition",
+    "path": "/images/og/category-maths-tuition.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SAT Exam Preparation Guides",
+    "slug": "category-sat-exam",
+    "category": "SAT Exam",
+    "path": "/images/og/category-sat-exam.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AP Exam Preparation Guides",
+    "slug": "category-ap-exam",
+    "category": "AP Exam",
+    "path": "/images/og/category-ap-exam.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Cambridge IGCSE Guides",
+    "slug": "category-igcse",
+    "category": "IGCSE",
+    "path": "/images/og/category-igcse.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IB Diploma Guides",
+    "slug": "category-ib",
+    "category": "IB",
+    "path": "/images/og/category-ib.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CLAT Guides",
+    "slug": "category-clat",
+    "category": "CLAT",
+    "path": "/images/og/category-clat.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Ivy League & Top US College Guides",
+    "slug": "category-ivy-colleges",
+    "category": "Ivy Colleges",
+    "path": "/images/og/category-ivy-colleges.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Coding & AI Guides",
+    "slug": "category-coding",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/category-coding.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Commerce & CUET Guides",
+    "slug": "category-commerce",
+    "category": "Commerce",
+    "path": "/images/og/category-commerce.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IPMAT & CAT Guides",
+    "slug": "category-ipmat-cat",
+    "category": "IPMAT & CAT",
+    "path": "/images/og/category-ipmat-cat.png",
     "dimensions": "1200x630",
     "status": "created"
   }

@@ -36,6 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const { CATEGORY_CONTENT } = await import('../_data/categoryContent');
     const content = CATEGORY_CONTENT[slug];
     const url = `https://buzzybrainsacademy.com/blog/${slug}`;
+    const ogImage = `https://buzzybrainsacademy.com/images/og/category-${slug}.png`;
     return {
       title: `${content.metaTitle} | BuzzyBrains Academy`,
       description: content.metaDescription,
@@ -46,6 +47,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         url,
         siteName: 'BuzzyBrains Academy',
         type: 'website',
+        images: [{ url: ogImage, width: 1200, height: 630, alt: content.h1 }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: content.h1,
+        description: content.metaDescription,
+        images: [ogImage],
       },
     };
   }
@@ -171,6 +179,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span>{new Date(post.datePublished).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
             <span><Clock size={13} style={{ verticalAlign: -2, marginRight: 3 }} />{post.readingMinutes} min read</span>
           </div>
+          <img
+            className="article-hero-image reveal"
+            src={`/images/og/${post.slug}.png`}
+            alt={post.title}
+            width={1200}
+            height={630}
+            loading="eager"
+            fetchPriority="high"
+          />
         </div>
       </section>
 

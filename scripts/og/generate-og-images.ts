@@ -1,16 +1,20 @@
 /**
- * Generates Open Graph share-card PNGs for every BuzzyBrains Academy blog post.
+ * Generates Open Graph share-card PNGs for every BuzzyBrains Academy blog
+ * post AND every blog category page.
  *
  * Usage:
  *   npx tsx scripts/og/generate-og-images.ts            # generate missing only
  *   npx tsx scripts/og/generate-og-images.ts --force     # regenerate all
  *
- * Output: public/images/og/{slug}.png (1200x630)
+ * Output:
+ *   public/images/og/{slug}.png                 (1200x630, per post)
+ *   public/images/og/category-{category}.png     (1200x630, per category)
  */
 import fs from 'fs';
 import path from 'path';
 import { chromium } from 'playwright';
-import { BLOG_POSTS, CATEGORY_LABELS } from '../../app/(site)/blog/_data/posts';
+import { BLOG_POSTS, CATEGORY_LABELS, type BlogCategory } from '../../app/(site)/blog/_data/posts';
+import { CATEGORY_CONTENT } from '../../app/(site)/blog/_data/categoryContent';
 import { renderOgHtml } from './template';
 
 const OUT_DIR = path.join(__dirname, '..', '..', 'public', 'images', 'og');
@@ -58,6 +62,31 @@ async function main() {
     }
   }
 
+  const categoryKeys = Object.keys(CATEGORY_LABELS) as BlogCategory[];
+  for (const category of categoryKeys) {
+    const content = CATEGORY_CONTENT[category];
+    const categoryLabel = CATEGORY_LABELS[category];
+    const slug = `category-${category}`;
+    const outPath = path.join(OUT_DIR, `${slug}.png`);
+    const relPath = `/images/og/${slug}.png`;
+
+    if (!FORCE && fs.existsSync(outPath)) {
+      rows.push({ title: content.h1, slug, category: categoryLabel, path: relPath, dimensions: `${WIDTH}x${HEIGHT}`, status: 'skipped' });
+      continue;
+    }
+
+    try {
+      const html = renderOgHtml({ title: content.h1, category: categoryLabel, width: WIDTH, height: HEIGHT });
+      await page.setContent(html, { waitUntil: 'networkidle' });
+      await page.evaluate(() => (document as any).fonts?.ready);
+      await page.screenshot({ path: outPath, type: 'png' });
+      rows.push({ title: content.h1, slug, category: categoryLabel, path: relPath, dimensions: `${WIDTH}x${HEIGHT}`, status: 'created' });
+    } catch (err) {
+      console.error(`Failed to render ${slug}:`, err);
+      rows.push({ title: content.h1, slug, category: categoryLabel, path: relPath, dimensions: `${WIDTH}x${HEIGHT}`, status: 'failed' });
+    }
+  }
+
   await browser.close();
 
   // Write a machine-readable manifest alongside the human summary.
@@ -68,7 +97,7 @@ async function main() {
   const failed = rows.filter((r) => r.status === 'failed').length;
 
   console.log('\n=== OG Image Generation Summary ===');
-  console.log(`Total posts: ${rows.length} | Created: ${created} | Skipped (already existed): ${skipped} | Failed: ${failed}\n`);
+  console.log(`Total posts + categories: ${rows.length} | Created: ${created} | Skipped (already existed): ${skipped} | Failed: ${failed}\n`);
 
   const colWidth = (key: keyof Row) => Math.max(...rows.map((r) => String(r[key]).length), key.length) + 2;
   const titleW = Math.min(colWidth('title'), 50);

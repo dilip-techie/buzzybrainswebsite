@@ -43,6 +43,15 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
               ? `${posts.length} ${posts.length === 1 ? 'guide' : 'guides'} · Updated ${formatDate(sorted[0].datePublished)}`
               : 'New content track · Guides coming soon'}
           </p>
+          <img
+            className="article-hero-image reveal"
+            src={`/images/og/category-${category}.png`}
+            alt={content.h1}
+            width={1200}
+            height={630}
+            loading="eager"
+            fetchPriority="high"
+          />
         </div>
       </section>
 

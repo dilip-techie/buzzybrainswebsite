@@ -626,6 +626,11 @@ button{font-family:inherit;cursor:pointer}
 .article-meta > span:not(:first-child)::before{content:"\00b7";margin-right:12px}
 .article-meta svg{display:inline-block;vertical-align:-2px;margin-right:3px}
 .article-meta .blog-card-cat{margin-right:2px}
+.article-hero-image{
+  display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;
+  margin-top:24px;border-radius:var(--r-lg);border:1px solid var(--line);
+  box-shadow:var(--shadow-md);background:var(--bg-alt);
+}
 .article-body{font-size:17px;line-height:1.85;color:var(--text-2);margin-top:32px}
 .article-body h2{font-family:var(--font-display);font-weight:800;font-size:24px;letter-spacing:-.01em;color:var(--text);margin:38px 0 14px;line-height:1.25;scroll-margin-top:100px}
 .article-body p{margin:0 0 20px}
