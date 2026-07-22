@@ -318,10 +318,10 @@ button{font-family:inherit;cursor:pointer}
 /* ---- Programs mega-menu ---- */
 .nav-mega{
   position:absolute;top:100%;left:50%;margin-top:14px;
-  width:660px;max-width:88vw;
+  width:860px;max-width:92vw;
   background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
   box-shadow:var(--shadow-lg);padding:30px 32px;
-  display:grid;grid-template-columns:repeat(3,1fr);gap:32px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:28px;
   opacity:0;visibility:hidden;pointer-events:none;
   transform:translateX(-50%) translateY(-6px);
   transition:opacity .2s var(--ease),transform .2s var(--ease),visibility .2s;

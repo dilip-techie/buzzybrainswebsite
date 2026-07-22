@@ -25,9 +25,6 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 11–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 11–12)' },
-      { href: '/commerce-tuitions', label: 'Commerce Tuitions (Grades 11–12)' },
-      { href: '/ipmat-exam', label: 'IPMAT Coaching' },
-      { href: '/cat-exam', label: 'CAT Coaching' },
       { href: '/clat-exam', label: 'CLAT (Grades 11–12)' },
     ],
   },
@@ -43,6 +40,16 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/ivy-league-counselling', label: 'Ivy League Counselling' },
     ],
     footerLink: { href: '/international-boards', label: 'Compare pathways →' },
+  },
+  {
+    title: 'Commerce & MBA Prep',
+    subtitle: 'Commerce · IPMAT · CAT',
+    items: [
+      { href: '/commerce-tuitions', label: 'Commerce Tuitions (Grades 11–12)' },
+      { href: '/ipmat-exam', label: 'IPMAT Coaching' },
+      { href: '/cat-exam', label: 'CAT Coaching' },
+    ],
+    footerLink: { href: '/commerce-tuitions', label: 'Explore Commerce →' },
   },
   {
     title: 'Specialized Tracks',
