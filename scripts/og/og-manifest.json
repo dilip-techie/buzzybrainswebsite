@@ -1013,7 +1013,7 @@
     "category": "Coding Olympiads",
     "path": "/images/og/competitive-programming-for-school-students-introduction.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "The Informatics Olympiad Pipeline: ZIO to INOI to IOI Explained",
@@ -1021,7 +1021,7 @@
     "category": "Coding Olympiads",
     "path": "/images/og/informatics-olympiad-pipeline-zio-inoi-ioi-explained.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "USACO for Indian Students: A Beginner's Guide",
@@ -1029,7 +1029,7 @@
     "category": "Coding Olympiads",
     "path": "/images/og/usaco-for-indian-students-beginners-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How Competitive Programming Builds Skills Beyond Coding",
@@ -1037,13 +1037,53 @@
     "category": "Coding Olympiads",
     "path": "/images/og/how-competitive-programming-builds-skills-beyond-coding.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Common Mistakes Students Make in Coding Contests",
     "slug": "common-mistakes-students-make-in-coding-contests",
     "category": "Coding Olympiads",
     "path": "/images/og/common-mistakes-students-make-in-coding-contests.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Which Programming Language Should Your Child Learn First?",
+    "slug": "which-programming-language-should-your-child-learn-first",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/which-programming-language-should-your-child-learn-first.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Coding for Kids: When and How to Start",
+    "slug": "coding-for-kids-when-and-how-to-start",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/coding-for-kids-when-and-how-to-start.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Scratch to Python: A Realistic Learning Path for School Students",
+    "slug": "scratch-to-python-realistic-learning-path-for-school-students",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/scratch-to-python-realistic-learning-path-for-school-students.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "AI Literacy for School Students: What It Actually Means",
+    "slug": "ai-literacy-for-school-students-what-it-actually-means",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/ai-literacy-for-school-students-what-it-actually-means.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Coding Skills Support Maths, Science and Problem-Solving",
+    "slug": "how-coding-skills-support-maths-science-and-problem-solving",
+    "category": "Code Ninja / Coding",
+    "path": "/images/og/how-coding-skills-support-maths-science-and-problem-solving.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -1173,6 +1213,6 @@
     "category": "Coding Olympiads",
     "path": "/images/og/category-coding-olympiad.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   }
 ]
