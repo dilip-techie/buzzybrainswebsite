@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useMemo } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
-  Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2,
+  Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3,
   type LucideIcon,
 } from 'lucide-react';
 import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/posts';
@@ -20,7 +20,8 @@ const CATEGORY_ORDER: BlogCategory[] = [
   'igcse',
   'ib',
   'commerce',
-  'ipmat-cat',
+  'ipmat',
+  'cat',
   'coding',
   'clat',
   'ivy-colleges',
@@ -40,7 +41,8 @@ const CATEGORY_ICON: Record<BlogCategory, LucideIcon> = {
   'ivy-colleges': Landmark,
   coding: Code2,
   commerce: Briefcase,
-  'ipmat-cat': Building2,
+  ipmat: Building2,
+  cat: BarChart3,
 };
 
 const CATEGORY_BLURB: Record<BlogCategory, string> = {
@@ -57,7 +59,8 @@ const CATEGORY_BLURB: Record<BlogCategory, string> = {
   'ivy-colleges': 'Holistic US admissions, honestly explained',
   coding: 'Programming & AI for school students',
   commerce: 'CUET, CA Foundation & B.Com',
-  'ipmat-cat': "India's top B-school entrances",
+  ipmat: '5-year integrated IIM entrance, after Class 12',
+  cat: 'MBA/PGP entrance, after graduation',
 };
 
 const POSTS_BY_DATE = [...BLOG_POSTS].sort(

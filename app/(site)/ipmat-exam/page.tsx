@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import {
-  BarChart3,
+  Calculator,
+  BookOpen,
   Target,
   TrendingUp,
   Award,
@@ -10,74 +11,75 @@ import {
   ChevronRight,
   Phone,
   Clock,
+  BarChart3,
   Brain,
   Layers,
   Repeat,
   Building2,
   MessageSquare,
+  FileEdit,
 } from 'lucide-react';
 
 const HIGHLIGHTS = [
-  { value: '2', label: 'Elite B-School Entrances', icon: Building2, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
-  { value: '20+', label: 'IIMs Accept CAT Scores', icon: Award, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
+  { value: '5-Yr', label: 'Integrated BBA + MBA', icon: Building2, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
+  { value: '2', label: 'Written Test Sections', icon: Target, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
   { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
   { value: '25+', label: 'Years Mentoring Experience', icon: Award, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
 ];
 
-const TRACKS = [
+const SECTIONS = [
   {
-    title: 'IPMAT',
-    subtitle: 'After Class 12 · 5-Year Integrated BBA + MBA',
-    icon: Target,
+    title: 'Quantitative Ability',
+    subtitle: 'MCQ & short-answer · Class 10–11 level',
+    icon: Calculator,
     gradient: 'linear-gradient(90deg,#9F1239,#E11D48)',
     pcbg: 'rgba(225,29,72,.12)',
     topics: [
-      'Quantitative Ability — MCQ & short-answer',
-      'Verbal Ability — reading comprehension & grammar',
-      'Written Ability Test (WAT) & Personal Interview for shortlisted candidates',
+      'Arithmetic, algebra, geometry and number systems',
+      'Short-answer (non-MCQ) questions — no elimination-based guessing',
+      'Genuine calculation accuracy and speed under time pressure',
       'Exact pattern varies by IIM and year — always confirm from the official notification',
     ],
   },
   {
-    title: 'CAT',
-    subtitle: 'After Graduation · 2-Year MBA / PGP',
-    icon: BarChart3,
+    title: 'Verbal Ability',
+    subtitle: 'Reading comprehension & grammar',
+    icon: BookOpen,
     gradient: 'linear-gradient(90deg,#1E3A8A,#2563EB)',
     pcbg: 'var(--blue-050)',
     topics: [
-      'Verbal Ability & Reading Comprehension (VARC)',
-      'Data Interpretation & Logical Reasoning (DILR)',
-      'Quantitative Ability (QA)',
-      'MCQ + Type-In-The-Answer (TITA), under sectional time limits',
+      'Reading comprehension across varied subjects and styles',
+      'Vocabulary and word usage in context',
+      'Grammar and sentence-correction questions',
+      'Built on consistent reading habits, not last-minute cramming',
     ],
   },
 ];
 
-const COMPARE_ROWS = [
-  { aspect: 'Eligibility', ipmat: 'Completed or appearing in Class 12, any stream', cat: "Bachelor's degree (final-year students can also apply)" },
-  { aspect: 'Program Length', ipmat: '5-year integrated BBA + MBA', cat: '2-year full-time MBA / PGP' },
-  { aspect: 'Typical Age at Entry', ipmat: '17–18', cat: '21+, after graduation' },
-  { aspect: 'Core Skills Tested', ipmat: 'Quantitative & Verbal Ability', cat: 'Quant, Verbal & Data Interpretation/Logical Reasoning' },
+const SELECTION_STAGES = [
+  { title: 'Written Test', subtitle: 'Quant + Verbal Ability', icon: FileEdit, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
+  { title: 'Written Ability Test', subtitle: 'WAT on a given topic', icon: MessageSquare, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
+  { title: 'Personal Interview', subtitle: 'Communication & awareness', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
 ];
 
 const METHODOLOGY = [
-  { icon: Target, title: 'Diagnostic', desc: 'A full-length diagnostic maps your current quant, verbal and (for CAT) DI/LR baseline against your target exam.' },
-  { icon: Layers, title: 'Foundation', desc: 'Build core quantitative and verbal fundamentals, plus structured logical reasoning for CAT aspirants.' },
-  { icon: Brain, title: 'Section Mastery', desc: 'Deep, timed practice by section and question type, matched to the exact IPMAT or CAT format.' },
-  { icon: Repeat, title: 'Full-Length Mocks', desc: 'Realistic, sectional-timed mock tests every week, scored and analyzed section by section.' },
-  { icon: TrendingUp, title: 'Score Optimization', desc: 'Detailed error analysis and final sprint strategy to convert practice into your target percentile.' },
+  { icon: Target, title: 'Diagnostic', desc: 'A full-length diagnostic maps your current quantitative and verbal baseline against your target IIM.' },
+  { icon: Layers, title: 'Foundation', desc: 'Build genuine quantitative fundamentals and a consistent reading habit — not just exam-format familiarity.' },
+  { icon: Brain, title: 'Section Mastery', desc: 'Deep, timed practice by question type, matched to your specific target IIM\'s exact format.' },
+  { icon: Repeat, title: 'Full-Length Mocks', desc: 'Realistic, timed mock tests every week, scored and analyzed section by section.' },
+  { icon: TrendingUp, title: 'WAT-PI Preparation', desc: 'Dedicated communication and current-affairs practice for the stage that follows the written test.' },
 ];
 
 const WHY_CHOOSE = [
-  { title: 'Track-Specific Preparation', desc: 'IPMAT and CAT are prepared as genuinely different exams, not one generic aptitude course.', gradient: 'linear-gradient(135deg,#9F1239,#E11D48)', icon: Clock },
+  { title: 'IPMAT-Specific, Not Generic', desc: 'Every drill matches the exact IPMAT format — short-answer quant, reading-heavy verbal — not a repurposed CAT-style course.', gradient: 'linear-gradient(135deg,#9F1239,#E11D48)', icon: Clock },
   { title: 'IIT Kanpur & IIM Ahmedabad Mentorship', desc: 'Led by founder Dilip Sah, an IIT Kanpur and IIM Ahmedabad alumnus with 25+ years of mentoring experience.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Users },
   { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual, section-wise feedback — not generic advice.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Users },
-  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: BarChart3 },
-  { title: 'Realistic Percentile Goals', desc: 'A target percentile band is set from your diagnostic, not a generic promise, and the plan is built backward from it.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: Brain },
-  { title: 'WAT-PI / GD-PI Ready', desc: 'Preparation extends beyond the written test to the WAT-PI (IPMAT) and GD-PI-WAT (CAT) rounds that follow it.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: MessageSquare },
+  { title: 'Target-IIM Focused', desc: 'Mocks are matched to your specific target IIM\'s actual pattern — IIM Indore and IIM Rohtak differ meaningfully.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: BarChart3 },
+  { title: 'WAT-PI Ready', desc: 'Preparation extends beyond the written test to the Written Ability Test and Personal Interview that follow it.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: MessageSquare },
+  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Brain },
 ];
 
-export default function IpmatCatPage() {
+export default function IpmatExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
   useEffect(() => {
@@ -111,21 +113,21 @@ export default function IpmatCatPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🏛️ IPMAT & CAT Coaching · India&apos;s Top B-School Entrances</span>
-          <h1 className="reveal" data-delay="1">Crack <span className="grad">IPMAT & CAT.</span></h1>
+          <span className="eyebrow reveal">🏛️ IPMAT Coaching · 5-Year Integrated Programme in Management · Grade 12</span>
+          <h1 className="reveal" data-delay="1">Crack <span className="grad">IPMAT.</span></h1>
           <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
-            Structured, track-specific preparation for both the <strong style={{ color: 'var(--blue)' }}>5-year integrated IPM</strong> route
-            right after Class 12, and the <strong style={{ color: 'var(--blue)' }}>post-graduate CAT/MBA</strong> route.
+            Structured preparation for the <strong style={{ color: 'var(--blue)' }}>Integrated Program in Management Aptitude Test</strong> —
+            the entrance to 5-year integrated BBA+MBA programmes at IIMs, right after Class 12.
           </p>
           <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
-            Quantitative Ability, Verbal Ability, Data Interpretation & Logical Reasoning — mentored by an IIT Kanpur and IIM Ahmedabad alumnus.
+            Quantitative Ability, Verbal Ability, and dedicated WAT-PI preparation — mentored by an IIT Kanpur and IIM Ahmedabad alumnus.
           </p>
 
           <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
-            <span className="chip"><i className="dot" style={{ background: '#E11D48' }} /> IPMAT</span>
-            <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> CAT</span>
-            <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Quant & Verbal</span>
-            <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Data Interpretation & LR</span>
+            <span className="chip"><i className="dot" style={{ background: '#E11D48' }} /> Quantitative Ability</span>
+            <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Verbal Ability</span>
+            <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> WAT</span>
+            <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Personal Interview</span>
           </div>
 
           <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
@@ -159,22 +161,22 @@ export default function IpmatCatPage() {
         </div>
       </section>
 
-      {/* ============ TWO TRACKS ============ */}
+      {/* ============ EXAM FORMAT ============ */}
       <section className="programs bb-section">
         <div className="container">
           <div className="center">
-            <span className="eyebrow reveal">Two Tracks, One Program</span>
-            <h2 className="section-title reveal">IPMAT and CAT, section by section</h2>
-            <p className="section-sub reveal">Different exams, different timelines — prepared with genuinely different strategies.</p>
+            <span className="eyebrow reveal">Exam Format</span>
+            <h2 className="section-title reveal">IPMAT, section by section</h2>
+            <p className="section-sub reveal">Different IIMs run their own IPMAT with different formats — we prepare against your specific target IIM.</p>
           </div>
           <div className="prog-grid-2">
-            {TRACKS.map((t) => (
-              <article className="prog-card reveal" style={{ ['--pc' as string]: t.gradient, ['--pcbg' as string]: t.pcbg }} key={t.title}>
-                <div className="prog-icon"><t.icon size={27} color="#fff" /></div>
-                <div className="grade">{t.subtitle}</div>
-                <h3>{t.title}</h3>
+            {SECTIONS.map((s) => (
+              <article className="prog-card reveal" style={{ ['--pc' as string]: s.gradient, ['--pcbg' as string]: s.pcbg }} key={s.title}>
+                <div className="prog-icon"><s.icon size={27} color="#fff" /></div>
+                <div className="grade">{s.subtitle}</div>
+                <h3>{s.title}</h3>
                 <ul>
-                  {t.topics.map((topic) => <li key={topic}>{topic}</li>)}
+                  {s.topics.map((t) => <li key={t}>{t}</li>)}
                 </ul>
               </article>
             ))}
@@ -182,33 +184,26 @@ export default function IpmatCatPage() {
         </div>
       </section>
 
-      {/* ============ WHICH TRACK IS RIGHT FOR YOU ============ */}
+      {/* ============ SELECTION PROCESS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
-        <div className="container article-shell" style={{ maxWidth: 860 }}>
+        <div className="container">
           <div className="center">
-            <span className="eyebrow reveal">Choosing a Track</span>
-            <h2 className="section-title reveal">Which path is right for your child?</h2>
-            <p className="section-sub reveal">A quick, honest comparison to help decide between the two routes.</p>
+            <span className="eyebrow reveal">Beyond the Written Test</span>
+            <h2 className="section-title reveal">The full selection process</h2>
+            <p className="section-sub reveal">A strong written score alone doesn&apos;t secure admission — WAT and PI carry real weight too.</p>
           </div>
-          <div className="table-wrap reveal" style={{ marginTop: 32 }}>
-            <table className="compare-table">
-              <thead>
-                <tr>
-                  <th>Aspect</th>
-                  <th>IPMAT (after Class 12)</th>
-                  <th>CAT (after graduation)</th>
-                </tr>
-              </thead>
-              <tbody>
-                {COMPARE_ROWS.map((row) => (
-                  <tr key={row.aspect}>
-                    <td>{row.aspect}</td>
-                    <td>{row.ipmat}</td>
-                    <td>{row.cat}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="prog-grid-3" style={{ marginTop: 40 }}>
+            {SELECTION_STAGES.map((s) => (
+              <div className="stat-card reveal" key={s.title}>
+                <div className="stat-card-icon" style={{ background: s.gradient }}>
+                  <s.icon size={22} color="#fff" />
+                </div>
+                <div>
+                  <b style={{ fontSize: 'clamp(16px,2vw,19px)' }}>{s.title}</b>
+                  <span>{s.subtitle}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -218,8 +213,8 @@ export default function IpmatCatPage() {
         <div className="container">
           <div className="center">
             <span className="eyebrow reveal">Our Methodology</span>
-            <h2 className="section-title reveal">Five steps to your target percentile</h2>
-            <p className="section-sub reveal">A systematic, data-backed path from diagnostic to test day.</p>
+            <h2 className="section-title reveal">Five steps to your target IIM</h2>
+            <p className="section-sub reveal">A systematic, data-backed path from diagnostic to interview day.</p>
           </div>
           <div className="method-steps-5">
             {METHODOLOGY.map((step, i) => (
@@ -259,9 +254,9 @@ export default function IpmatCatPage() {
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
           <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
-          <h2 style={{ marginBottom: 14 }}>Ready to target a top B-school?</h2>
+          <h2 style={{ marginBottom: 14 }}>Ready to target a top IIM&apos;s IPM?</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
-            Book a free diagnostic session and get a personalized IPMAT or CAT preparation plan.
+            Book a free diagnostic session and get a personalized IPMAT preparation plan.
           </p>
           <div className="cta-btns" style={{ justifyContent: 'center' }}>
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>

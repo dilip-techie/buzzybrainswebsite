@@ -250,22 +250,38 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'Which Commerce subjects does CUET test as separate papers?', answer: 'Accountancy, Business Studies, and Economics/Business Economics are each tested as separate CUET domain subject papers, alongside the compulsory Languages and General Test sections most students also attempt.' },
     ],
   },
-  'ipmat-cat': {
-    metaTitle: 'IPMAT & CAT Guides — India\'s Top B-School Entrances',
+  ipmat: {
+    metaTitle: 'IPMAT Guides — 5-Year Integrated Programme in Management',
     metaDescription:
-      'IPMAT and CAT preparation guides — exam pattern, section-wise strategy, and how to decide between the 5-year integrated IPM route and the traditional post-graduate CAT/MBA route.',
-    h1: 'IPMAT & CAT Guides',
+      'IPMAT preparation guides — exam pattern, Quantitative and Verbal Ability strategy, WAT-PI preparation and timelines for the 5-year integrated IPM route at IIMs like Indore and Rohtak.',
+    h1: 'IPMAT Guides',
     quickAnswer:
-      'IPMAT (Integrated Program in Management Aptitude Test) is the entrance exam for 5-year integrated BBA+MBA programmes at IIMs like Indore and Rohtak, taken right after Class 12. CAT (Common Admission Test) is the entrance exam for 2-year MBA/PGP programmes at the IIMs and other top B-schools, taken after a bachelor\'s degree. BuzzyBrains Academy runs a dedicated coaching program covering both exams.',
+      'IPMAT (Integrated Program in Management Aptitude Test) is the entrance exam for 5-year integrated BBA+MBA programmes at IIMs such as Indore and Rohtak, taken right after Class 12. BuzzyBrains Academy runs a dedicated IPMAT coaching program covering Quantitative Ability, Verbal Ability and the WAT-PI stage that follows the written test.',
     intro: [
-      'IPMAT and CAT test overlapping skills — quantitative ability, verbal ability, and (for CAT) data interpretation and logical reasoning — but they serve genuinely different stages of a student\'s journey: IPMAT right after Class 12, CAT after graduation. These guides cover exam format, section-wise strategy, and how to decide which path fits a given student\'s timeline.',
-      'For structured, track-specific preparation for either exam — with small batches capped at 12 students — see the BuzzyBrains Academy IPMAT & CAT coaching program below.',
+      'IPMAT rewards a genuinely different preparation approach from board exams — short-answer quantitative questions that don\'t allow elimination-based guessing, and a written test that\'s only part of the full selection process. These guides cover exam format, section-wise strategy and preparation timelines specific to IPMAT.',
+      'For structured, IPMAT-specific preparation — with small batches capped at 12 students — see the BuzzyBrains Academy IPMAT coaching program below.',
     ],
     faqs: [
-      { question: 'What is the difference between IPMAT and CAT?', answer: 'IPMAT is taken right after Class 12 for admission to 5-year integrated BBA+MBA programmes at IIMs like Indore and Rohtak; CAT is taken after a bachelor\'s degree for admission to 2-year MBA/PGP programmes at the IIMs and other top B-schools.' },
+      { question: 'What is IPMAT?', answer: 'IPMAT (Integrated Program in Management Aptitude Test) is the entrance exam for 5-year integrated BBA+MBA programmes at IIMs such as Indore and Rohtak, taken right after Class 12.' },
       { question: 'What does the IPMAT exam cover?', answer: 'IPMAT generally tests Quantitative Ability and Verbal Ability, followed by a Written Ability Test (WAT) and Personal Interview for shortlisted candidates — the exact pattern varies by IIM and year, so it should always be confirmed from that IIM\'s official notification.' },
+      { question: 'Does BuzzyBrains Academy offer dedicated IPMAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured IPMAT coaching program with track-specific preparation, full-length mocks and batches capped at 12 students. See the IPMAT program page for details.' },
+    ],
+  },
+  cat: {
+    metaTitle: 'CAT Guides — India\'s Top MBA Entrance Exam',
+    metaDescription:
+      'CAT preparation guides — exam pattern, VARC/DILR/QA section strategy, and timelines for MBA and PGP aspirants applying to the IIMs and other top B-schools.',
+    h1: 'CAT Guides',
+    quickAnswer:
+      'CAT (Common Admission Test) is the entrance exam for 2-year MBA/PGP programmes at the IIMs and other top B-schools, taken after a bachelor\'s degree. BuzzyBrains Academy runs a dedicated CAT coaching program covering VARC, DILR and QA, with sectional-time-limited mock practice.',
+    intro: [
+      'CAT\'s sectional time limits, TITA questions and set-based DILR structure make it meaningfully different from most other competitive exams. These guides cover exam format, section-wise strategy and preparation timelines specific to CAT.',
+      'For structured, CAT-specific preparation — with small batches capped at 12 students — see the BuzzyBrains Academy CAT coaching program below.',
+    ],
+    faqs: [
+      { question: 'What is CAT?', answer: 'CAT (Common Admission Test) is the entrance exam for 2-year MBA/PGP programmes at the IIMs and other top B-schools, taken after a bachelor\'s degree.' },
       { question: 'What does the CAT exam cover?', answer: 'CAT tests Verbal Ability & Reading Comprehension (VARC), Data Interpretation & Logical Reasoning (DILR), and Quantitative Ability (QA), through a mix of MCQ and Type-In-The-Answer (TITA) questions under sectional time limits.' },
-      { question: 'Does BuzzyBrains Academy offer dedicated IPMAT and CAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured coaching program covering both exams, with track-specific preparation, full-length mocks and batches capped at 12 students. See the IPMAT & CAT program page for details.' },
+      { question: 'Does BuzzyBrains Academy offer dedicated CAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured CAT coaching program with sectional-time-limited mock practice and batches capped at 12 students. See the CAT program page for details.' },
     ],
   },
 };

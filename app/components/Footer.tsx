@@ -66,7 +66,8 @@ export default function Footer() {
             <h4>Commerce</h4>
             <ul className="foot-links">
               <li><Link href="/commerce-tuitions">Commerce Tuitions (11–12)</Link></li>
-              <li><Link href="/ipmat-cat">IPMAT & CAT Coaching</Link></li>
+              <li><Link href="/ipmat-exam">IPMAT Coaching</Link></li>
+              <li><Link href="/cat-exam">CAT Coaching</Link></li>
               <li><Link href="/cuet-commerce-coaching-pune">CUET Commerce Coaching Pune — Guide</Link></li>
               <li><Link href="/ca-foundation-coaching-pune">CA Foundation Coaching Pune — Guide</Link></li>
             </ul>

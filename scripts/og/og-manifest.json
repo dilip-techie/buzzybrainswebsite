@@ -882,7 +882,7 @@
   {
     "title": "IPMAT Exam Pattern and Syllabus: The Complete Guide",
     "slug": "ipmat-exam-pattern-syllabus-complete-guide",
-    "category": "IPMAT & CAT",
+    "category": "IPMAT",
     "path": "/images/og/ipmat-exam-pattern-syllabus-complete-guide.png",
     "dimensions": "1200x630",
     "status": "skipped"
@@ -890,7 +890,7 @@
   {
     "title": "CAT Exam Pattern and Syllabus: The Complete Guide",
     "slug": "cat-exam-pattern-syllabus-complete-guide",
-    "category": "IPMAT & CAT",
+    "category": "CAT",
     "path": "/images/og/cat-exam-pattern-syllabus-complete-guide.png",
     "dimensions": "1200x630",
     "status": "skipped"
@@ -898,7 +898,7 @@
   {
     "title": "IPMAT vs CAT: Which Path Is Right for Your Child?",
     "slug": "ipmat-vs-cat-which-path-is-right-for-your-child",
-    "category": "IPMAT & CAT",
+    "category": "IPMAT",
     "path": "/images/og/ipmat-vs-cat-which-path-is-right-for-your-child.png",
     "dimensions": "1200x630",
     "status": "skipped"
@@ -906,7 +906,7 @@
   {
     "title": "CAT Data Interpretation & Logical Reasoning: A Strategy Guide",
     "slug": "cat-dilr-strategy-guide",
-    "category": "IPMAT & CAT",
+    "category": "CAT",
     "path": "/images/og/cat-dilr-strategy-guide.png",
     "dimensions": "1200x630",
     "status": "skipped"
@@ -914,10 +914,98 @@
   {
     "title": "IPMAT Preparation Timeline: When to Start in Class 11 and 12",
     "slug": "ipmat-preparation-timeline-class-11-12",
-    "category": "IPMAT & CAT",
+    "category": "IPMAT",
     "path": "/images/og/ipmat-preparation-timeline-class-11-12.png",
     "dimensions": "1200x630",
     "status": "skipped"
+  },
+  {
+    "title": "How to Master SAT Problem Solving & Data Analysis: The Ultimate Guide to Scoring 750+ in SAT Math",
+    "slug": "sat-problem-solving-data-analysis-guide",
+    "category": "SAT Exam",
+    "path": "/images/og/sat-problem-solving-data-analysis-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IPMAT Quantitative Ability: Mastering Short-Answer Questions",
+    "slug": "ipmat-quantitative-ability-short-answer-strategy",
+    "category": "IPMAT",
+    "path": "/images/og/ipmat-quantitative-ability-short-answer-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CAT Quantitative Ability: A Preparation Strategy",
+    "slug": "cat-quantitative-ability-preparation-strategy",
+    "category": "CAT",
+    "path": "/images/og/cat-quantitative-ability-preparation-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IPMAT Verbal Ability: Reading Comprehension & Grammar Strategy",
+    "slug": "ipmat-verbal-ability-reading-comprehension-strategy",
+    "category": "IPMAT",
+    "path": "/images/og/ipmat-verbal-ability-reading-comprehension-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CAT VARC: Verbal Ability & Reading Comprehension Strategy",
+    "slug": "cat-varc-strategy-guide",
+    "category": "CAT",
+    "path": "/images/og/cat-varc-strategy-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IIM Indore vs IIM Rohtak IPMAT: Key Differences",
+    "slug": "iim-indore-vs-iim-rohtak-ipmat-key-differences",
+    "category": "IPMAT",
+    "path": "/images/og/iim-indore-vs-iim-rohtak-ipmat-key-differences.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CAT Preparation Timeline: When to Start",
+    "slug": "cat-preparation-timeline-when-to-start",
+    "category": "CAT",
+    "path": "/images/og/cat-preparation-timeline-when-to-start.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common IPMAT Mistakes That Cost Rank (and How to Avoid Them)",
+    "slug": "common-ipmat-mistakes-that-cost-rank",
+    "category": "IPMAT",
+    "path": "/images/og/common-ipmat-mistakes-that-cost-rank.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common CAT Mistakes That Cost Percentile (and How to Avoid Them)",
+    "slug": "common-cat-mistakes-that-cost-percentile",
+    "category": "CAT",
+    "path": "/images/og/common-cat-mistakes-that-cost-percentile.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IPMAT WAT-PI: How to Prepare for the Interview Stage",
+    "slug": "ipmat-wat-pi-interview-preparation-guide",
+    "category": "IPMAT",
+    "path": "/images/og/ipmat-wat-pi-interview-preparation-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CAT WAT-GD-PI: Preparing Beyond the Written Exam",
+    "slug": "cat-wat-gd-pi-preparation-guide",
+    "category": "CAT",
+    "path": "/images/og/cat-wat-gd-pi-preparation-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
   },
   {
     "title": "IIT-JEE Preparation Guides",
@@ -925,7 +1013,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/category-iit-jee.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "NEET Preparation Guides",
@@ -933,7 +1021,7 @@
     "category": "NEET",
     "path": "/images/og/category-neet.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Foundation Coaching Guides (Grades 6–10)",
@@ -941,7 +1029,7 @@
     "category": "Foundation",
     "path": "/images/og/category-foundation.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Maths & Science Olympiad Guides",
@@ -949,7 +1037,7 @@
     "category": "Olympiad",
     "path": "/images/og/category-olympiad.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Maths Excellence & Advanced Problem-Solving Guides",
@@ -957,7 +1045,7 @@
     "category": "Maths Tuition",
     "path": "/images/og/category-maths-tuition.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "SAT Exam Preparation Guides",
@@ -965,7 +1053,7 @@
     "category": "SAT Exam",
     "path": "/images/og/category-sat-exam.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AP Exam Preparation Guides",
@@ -973,7 +1061,7 @@
     "category": "AP Exam",
     "path": "/images/og/category-ap-exam.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Cambridge IGCSE Guides",
@@ -981,7 +1069,7 @@
     "category": "IGCSE",
     "path": "/images/og/category-igcse.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IB Diploma Guides",
@@ -989,7 +1077,7 @@
     "category": "IB",
     "path": "/images/og/category-ib.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CLAT Guides",
@@ -997,7 +1085,7 @@
     "category": "CLAT",
     "path": "/images/og/category-clat.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Ivy League & Top US College Guides",
@@ -1005,7 +1093,7 @@
     "category": "Ivy Colleges",
     "path": "/images/og/category-ivy-colleges.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Coding & AI Guides",
@@ -1013,7 +1101,7 @@
     "category": "Code Ninja / Coding",
     "path": "/images/og/category-coding.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Commerce & CUET Guides",
@@ -1021,13 +1109,21 @@
     "category": "Commerce",
     "path": "/images/og/category-commerce.png",
     "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "IPMAT Guides",
+    "slug": "category-ipmat",
+    "category": "IPMAT",
+    "path": "/images/og/category-ipmat.png",
+    "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "IPMAT & CAT Guides",
-    "slug": "category-ipmat-cat",
-    "category": "IPMAT & CAT",
-    "path": "/images/og/category-ipmat-cat.png",
+    "title": "CAT Guides",
+    "slug": "category-cat",
+    "category": "CAT",
+    "path": "/images/og/category-cat.png",
     "dimensions": "1200x630",
     "status": "created"
   }
