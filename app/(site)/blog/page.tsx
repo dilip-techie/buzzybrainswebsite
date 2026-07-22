@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useMemo } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
-  Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3,
+  Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
   type LucideIcon,
 } from 'lucide-react';
 import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/posts';
@@ -23,6 +23,7 @@ const CATEGORY_ORDER: BlogCategory[] = [
   'ipmat',
   'cat',
   'coding',
+  'coding-olympiad',
   'clat',
   'ivy-colleges',
 ];
@@ -43,6 +44,7 @@ const CATEGORY_ICON: Record<BlogCategory, LucideIcon> = {
   commerce: Briefcase,
   ipmat: Building2,
   cat: BarChart3,
+  'coding-olympiad': Swords,
 };
 
 const CATEGORY_BLURB: Record<BlogCategory, string> = {
@@ -61,6 +63,7 @@ const CATEGORY_BLURB: Record<BlogCategory, string> = {
   commerce: 'CUET, CA Foundation & B.Com',
   ipmat: '5-year integrated IIM entrance, after Class 12',
   cat: 'MBA/PGP entrance, after graduation',
+  'coding-olympiad': 'ZIO, INOI, IOI & competitive programming',
 };
 
 const POSTS_BY_DATE = [...BLOG_POSTS].sort(

@@ -925,7 +925,7 @@
     "category": "SAT Exam",
     "path": "/images/og/sat-problem-solving-data-analysis-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IPMAT Quantitative Ability: Mastering Short-Answer Questions",
@@ -933,7 +933,7 @@
     "category": "IPMAT",
     "path": "/images/og/ipmat-quantitative-ability-short-answer-strategy.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT Quantitative Ability: A Preparation Strategy",
@@ -941,7 +941,7 @@
     "category": "CAT",
     "path": "/images/og/cat-quantitative-ability-preparation-strategy.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IPMAT Verbal Ability: Reading Comprehension & Grammar Strategy",
@@ -949,7 +949,7 @@
     "category": "IPMAT",
     "path": "/images/og/ipmat-verbal-ability-reading-comprehension-strategy.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT VARC: Verbal Ability & Reading Comprehension Strategy",
@@ -957,7 +957,7 @@
     "category": "CAT",
     "path": "/images/og/cat-varc-strategy-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IIM Indore vs IIM Rohtak IPMAT: Key Differences",
@@ -965,7 +965,7 @@
     "category": "IPMAT",
     "path": "/images/og/iim-indore-vs-iim-rohtak-ipmat-key-differences.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT Preparation Timeline: When to Start",
@@ -973,7 +973,7 @@
     "category": "CAT",
     "path": "/images/og/cat-preparation-timeline-when-to-start.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Common IPMAT Mistakes That Cost Rank (and How to Avoid Them)",
@@ -981,7 +981,7 @@
     "category": "IPMAT",
     "path": "/images/og/common-ipmat-mistakes-that-cost-rank.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Common CAT Mistakes That Cost Percentile (and How to Avoid Them)",
@@ -989,7 +989,7 @@
     "category": "CAT",
     "path": "/images/og/common-cat-mistakes-that-cost-percentile.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IPMAT WAT-PI: How to Prepare for the Interview Stage",
@@ -997,13 +997,53 @@
     "category": "IPMAT",
     "path": "/images/og/ipmat-wat-pi-interview-preparation-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT WAT-GD-PI: Preparing Beyond the Written Exam",
     "slug": "cat-wat-gd-pi-preparation-guide",
     "category": "CAT",
     "path": "/images/og/cat-wat-gd-pi-preparation-guide.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Competitive Programming for School Students: An Introduction to Coding Contests",
+    "slug": "competitive-programming-for-school-students-introduction",
+    "category": "Coding Olympiads",
+    "path": "/images/og/competitive-programming-for-school-students-introduction.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Informatics Olympiad Pipeline: ZIO to INOI to IOI Explained",
+    "slug": "informatics-olympiad-pipeline-zio-inoi-ioi-explained",
+    "category": "Coding Olympiads",
+    "path": "/images/og/informatics-olympiad-pipeline-zio-inoi-ioi-explained.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "USACO for Indian Students: A Beginner's Guide",
+    "slug": "usaco-for-indian-students-beginners-guide",
+    "category": "Coding Olympiads",
+    "path": "/images/og/usaco-for-indian-students-beginners-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How Competitive Programming Builds Skills Beyond Coding",
+    "slug": "how-competitive-programming-builds-skills-beyond-coding",
+    "category": "Coding Olympiads",
+    "path": "/images/og/how-competitive-programming-builds-skills-beyond-coding.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common Mistakes Students Make in Coding Contests",
+    "slug": "common-mistakes-students-make-in-coding-contests",
+    "category": "Coding Olympiads",
+    "path": "/images/og/common-mistakes-students-make-in-coding-contests.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -1117,13 +1157,21 @@
     "category": "IPMAT",
     "path": "/images/og/category-ipmat.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CAT Guides",
     "slug": "category-cat",
     "category": "CAT",
     "path": "/images/og/category-cat.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Coding Olympiad Guides",
+    "slug": "category-coding-olympiad",
+    "category": "Coding Olympiads",
+    "path": "/images/og/category-coding-olympiad.png",
     "dimensions": "1200x630",
     "status": "created"
   }

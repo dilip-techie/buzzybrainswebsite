@@ -15,6 +15,10 @@ export interface CategoryContent {
   intro: string[];
   /** Category-specific FAQs, each independently answerable (AEO). */
   faqs: { question: string; answer: string }[];
+  /** Other categories worth cross-promoting on this page (e.g. a category
+   * that bridges two subject tracks, like Coding Olympiads bridging Coding
+   * and Olympiad). Rendered as a "Related tracks" chip row. */
+  relatedCategories?: BlogCategory[];
 }
 
 export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
@@ -89,6 +93,7 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'Can Olympiad achievement get a student direct admission to an IIT?', answer: 'No — IIT admission runs exclusively through JEE Advanced. What strong Olympiad training builds is the reasoning edge for that exam; institutes like CMI and ISI, however, have historically given direct-admission consideration to strong National Olympiad performers.' },
       { question: 'What age should a child start Olympiad training?', answer: 'Grade 6-7 is right for light, curiosity-driven puzzle exposure; structured, sequenced training across the four core topic areas should begin in Grade 8-9, ahead of serious IOQM-track preparation from Grade 9 onward.' },
     ],
+    relatedCategories: ['coding-olympiad', 'maths-tuition'],
   },
   'maths-tuition': {
     metaTitle: 'Maths Excellence Guides — Advanced Problem-Solving',
@@ -232,6 +237,7 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'Does coding connect to competitive exams like Olympiads?', answer: 'Yes — India\'s informatics olympiad pipeline (ZIO → INOI → IOI) rewards the same structured, algorithmic problem-solving skill that a solid coding foundation builds, alongside popular parallel tracks like USACO.' },
       { question: 'Is learning to code useful even without pursuing it as a career?', answer: 'Yes — the structured, logical problem-solving habit it builds transfers usefully to Mathematics and Science reasoning generally, independent of whether a student eventually pursues computer science specifically.' },
     ],
+    relatedCategories: ['coding-olympiad'],
   },
   commerce: {
     metaTitle: 'Commerce & CUET Guides — B.Com, CA Foundation & CUET',
@@ -283,5 +289,24 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
       { question: 'What does the CAT exam cover?', answer: 'CAT tests Verbal Ability & Reading Comprehension (VARC), Data Interpretation & Logical Reasoning (DILR), and Quantitative Ability (QA), through a mix of MCQ and Type-In-The-Answer (TITA) questions under sectional time limits.' },
       { question: 'Does BuzzyBrains Academy offer dedicated CAT coaching?', answer: 'Yes — BuzzyBrains Academy runs a structured CAT coaching program with sectional-time-limited mock practice and batches capped at 12 students. See the CAT program page for details.' },
     ],
+  },
+  'coding-olympiad': {
+    metaTitle: 'Coding Olympiad Guides — Competitive Programming for Students',
+    metaDescription:
+      'Guides on coding contests and informatics olympiads — the ZIO-INOI-IOI pipeline, USACO, competitive programming fundamentals, and how contest coding builds skills beyond the classroom.',
+    h1: 'Coding Olympiad Guides',
+    quickAnswer:
+      'Coding olympiads and competitive programming contests — India\'s ZIO-INOI-IOI pipeline, USACO, and platforms like Codeforces — test algorithmic problem-solving under time pressure, sitting at the intersection of coding skill and olympiad-style reasoning. These guides cover how to start, the major contest pathways, and how competitive programming connects to both the Code Ninja coding track and the broader Olympiad track.',
+    intro: [
+      'Competitive programming rewards a genuinely different skill from regular coursework coding — translating a problem into an efficient algorithm under a strict time and memory limit, not just writing code that eventually works. These guides cover the major contest pathways available to Indian school students, from beginner-friendly starting points through to the national informatics olympiad pipeline.',
+      'This category bridges BuzzyBrains Academy\'s Code Ninja programme and Olympiad training — written by the BuzzyBrains Academy faculty team, under founder Dilip Sah\'s concept-first philosophy.',
+    ],
+    faqs: [
+      { question: 'What is the informatics olympiad pipeline in India?', answer: 'The national pipeline runs ZIO (Zonal Informatics Olympiad) → INOI (Indian National Olympiad in Informatics) → IOI (International Olympiad in Informatics), coordinated under the same IARCS/HBCSE structure that runs India\'s math olympiad pipeline.' },
+      { question: 'Is coding olympiad the same as regular coding?', answer: 'No — competitive programming specifically tests algorithmic efficiency and problem translation under strict time and memory constraints, a distinct skill from general software or project-based coding.' },
+      { question: 'What is USACO, and is it relevant for Indian students?', answer: 'USACO (USA Computing Olympiad) is a US-based competitive programming contest that\'s open to international participants and widely used by students worldwide, including in India, to build and demonstrate algorithmic problem-solving skill.' },
+      { question: 'Does BuzzyBrains Academy offer coding olympiad coaching?', answer: 'Coding olympiad preparation builds on the algorithmic thinking taught in our Code Ninja programme; for current program offerings, please get in touch directly.' },
+    ],
+    relatedCategories: ['coding', 'olympiad'],
   },
 };

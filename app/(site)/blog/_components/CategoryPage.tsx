@@ -110,6 +110,22 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
             ))}
           </div>
 
+          {content.relatedCategories && content.relatedCategories.length > 0 && (
+            <div style={{ marginTop: 40 }}>
+              <span className="article-toc-label" style={{ display: 'block', marginBottom: 12 }}>Related tracks</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+                {content.relatedCategories.map((relCat) => {
+                  const relStyle = CATEGORY_STYLE[relCat];
+                  return (
+                    <Link key={relCat} href={`/blog/${relCat}`} className="chip chip-link">
+                      <i className="dot" style={{ background: relStyle.solid }} /> {CATEGORY_LABELS[relCat]}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           <div style={{ marginTop: 40, textAlign: 'center' }}>
             <Link href="/blog" className="chip chip-link">← All guides</Link>
           </div>

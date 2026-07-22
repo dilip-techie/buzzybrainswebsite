@@ -95,6 +95,7 @@ const BLOG_CATEGORY_ORDER: BlogCategory[] = [
   'clat',
   'ivy-colleges',
   'coding',
+  'coding-olympiad',
 ];
 
 export default function SitemapPage() {
