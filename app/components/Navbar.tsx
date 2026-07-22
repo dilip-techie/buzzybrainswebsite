@@ -13,24 +13,29 @@ interface MegaMenuGroup {
   subtitle: string;
   items: MegaMenuItem[];
   footerLink?: MegaMenuItem;
+  /** Desktop mega-menu column (1-indexed) this group renders in. Groups
+   * sharing a column are stacked vertically within it. Ignored on mobile,
+   * where every group renders as its own accordion section regardless. */
+  column: number;
 }
 
 const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   {
     title: 'Indian Boards & Competitive Exams',
     subtitle: 'CBSE · ICSE · State',
+    column: 1,
     items: [
       { href: '/foundation', label: 'Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 11–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 11–12)' },
-      { href: '/clat-exam', label: 'CLAT (Grades 11–12)' },
     ],
   },
   {
     title: 'International Pathways',
     subtitle: 'Global Curricula',
+    column: 2,
     items: [
       { href: '/international-boards#igcse', label: 'IGCSE (Grades 4–12)' },
       { href: '/international-boards#ib', label: 'IB Diploma (Grades 4–12)' },
@@ -42,23 +47,24 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     footerLink: { href: '/international-boards', label: 'Compare pathways →' },
   },
   {
-    title: 'Commerce & MBA Prep',
-    subtitle: 'Commerce · IPMAT · CAT',
+    title: 'Commerce, Law and MBA Prep',
+    subtitle: 'Commerce · Law · IPMAT · CAT',
+    column: 3,
     items: [
       { href: '/commerce-tuitions', label: 'Commerce Tuitions (Grades 11–12)' },
+      { href: '/clat-exam', label: 'CLAT (Grades 11–12)' },
       { href: '/ipmat-exam', label: 'IPMAT Coaching' },
       { href: '/cat-exam', label: 'CAT Coaching' },
     ],
-    footerLink: { href: '/commerce-tuitions', label: 'Explore Commerce →' },
   },
   {
     title: 'Specialized Tracks',
     subtitle: 'Skills & Format',
+    column: 3,
     items: [
       { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
       { href: '/one-on-one', label: 'One-on-One Coaching' },
     ],
-    footerLink: { href: '/#contact', label: 'Book a free demo →' },
   },
 ];
 
@@ -147,22 +153,28 @@ export default function Navbar() {
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
                     <div className="nav-mega">
-                      {link.groups.map((group) => (
-                        <div className="nav-mega-group" key={group.title}>
-                          <h4>{group.title}</h4>
-                          <span className="nav-mega-sub">{group.subtitle}</span>
-                          <ul>
-                            {group.items.map((item) => (
-                              <li key={item.href}>
-                                <Link href={item.href}>{item.label}</Link>
-                              </li>
-                            ))}
-                          </ul>
-                          {group.footerLink && (
-                            <div className="nav-mega-footer">
-                              <Link href={group.footerLink.href}>{group.footerLink.label}</Link>
+                      {Array.from(new Set(link.groups.map((g) => g.column)))
+                        .sort((a, b) => a - b)
+                        .map((col) => (
+                        <div className="nav-mega-col" key={col}>
+                          {link.groups.filter((g) => g.column === col).map((group) => (
+                            <div className="nav-mega-group" key={group.title}>
+                              <h4>{group.title}</h4>
+                              <span className="nav-mega-sub">{group.subtitle}</span>
+                              <ul>
+                                {group.items.map((item) => (
+                                  <li key={item.href}>
+                                    <Link href={item.href}>{item.label}</Link>
+                                  </li>
+                                ))}
+                              </ul>
+                              {group.footerLink && (
+                                <div className="nav-mega-footer">
+                                  <Link href={group.footerLink.href}>{group.footerLink.label}</Link>
+                                </div>
+                              )}
                             </div>
-                          )}
+                          ))}
                         </div>
                       ))}
                     </div>
