@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 interface MegaMenuItem {
@@ -72,16 +73,17 @@ const NAV_LINKS = [
   { href: '/#contact', label: 'Contact Us' },
 ];
 
-const STRIP_MESSAGES: { text: string; live?: boolean }[] = [
-  { text: '🎓 An IIT/IIM Alumni Initiative' },
-  { text: '✅ Top 1% Faculty Led by Dilip Sir' },
-  { text: '✅ Maximum Batch Size: 12 Students' },
-  { text: '✅ Personal Attention Guaranteed' },
-  { text: '🏆 Olympiad Batches Open' },
-  { text: '💻 Code Ninja: Coding Lab Now Open' },
-  { text: 'Online & Offline Batches', live: true },
-  { text: '🧑‍🏫 1-on-1 Classes Available Now' },
-  { text: '📍 Available Near Amanora Mall, Pune' },
+const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: boolean }[] = [
+  { text: '🎓 An IIT/IIM Alumni Initiative', href: '/about' },
+  { text: '✅ Top 1% Faculty Led by Dilip Sir', href: '/about' },
+  { text: '✅ Maximum Batch Size: 12 Students', href: '/admissions' },
+  { text: '✅ Personal Attention Guaranteed', href: '/admissions' },
+  { text: '⭐ Consistently Rated #1 by Parents and Students', href: 'https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews', external: true },
+  { text: '🏆 Olympiad Batches Open', href: '/olympiads' },
+  { text: '💻 Code Ninja: Coding Lab Now Open', href: '/coding-lab' },
+  { text: 'Online & Offline Batches', live: true, href: '/admissions' },
+  { text: '🧑‍🏫 1-on-1 Classes Available Now', href: '/one-on-one' },
+  { text: '📍 Available Near Amanora Mall, Pune', href: 'https://maps.app.goo.gl/gANY66SQFDgVajtf8', external: true },
 ];
 
 export default function Navbar() {
@@ -89,6 +91,16 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [stripPaused, setStripPaused] = useState(false);
+  const pathname = usePathname();
+
+  // The top strip persists across client-side route changes, so a stationary
+  // cursor left over a just-clicked link keeps CSS :hover true on the new
+  // page — this resets that state explicitly on every navigation instead of
+  // waiting for the mouse to physically move.
+  useEffect(() => {
+    setStripPaused(false);
+  }, [pathname]);
 
   useEffect(() => {
     const current = document.documentElement.getAttribute('data-theme');
@@ -111,14 +123,41 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="top-strip" aria-label="BuzzyBrains Academy highlights">
-        <div className="top-strip-track" aria-hidden="true">
-          {[...STRIP_MESSAGES, ...STRIP_MESSAGES].map((msg, i) => (
-            <span key={i}>
-              {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
-              {msg.text}
-            </span>
-          ))}
+      <div
+        className="top-strip"
+        aria-label="BuzzyBrains Academy highlights"
+        onMouseEnter={() => setStripPaused(true)}
+        onMouseLeave={() => setStripPaused(false)}
+        onFocus={() => setStripPaused(true)}
+        onBlur={() => setStripPaused(false)}
+      >
+        <div className={`top-strip-track${stripPaused ? ' is-paused' : ''}`}>
+          {STRIP_MESSAGES.map((msg, i) =>
+            msg.external ? (
+              <a key={`a-${i}`} href={msg.href} target="_blank" rel="noopener noreferrer" className="top-strip-item">
+                {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.text}
+              </a>
+            ) : (
+              <Link key={`a-${i}`} href={msg.href} className="top-strip-item">
+                {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.text}
+              </Link>
+            )
+          )}
+          {STRIP_MESSAGES.map((msg, i) =>
+            msg.external ? (
+              <a key={`b-${i}`} href={msg.href} target="_blank" rel="noopener noreferrer" className="top-strip-item" aria-hidden="true" tabIndex={-1}>
+                {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.text}
+              </a>
+            ) : (
+              <Link key={`b-${i}`} href={msg.href} className="top-strip-item" aria-hidden="true" tabIndex={-1}>
+                {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.text}
+              </Link>
+            )
+          )}
         </div>
       </div>
       <header className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">

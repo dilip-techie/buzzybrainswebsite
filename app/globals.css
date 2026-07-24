@@ -234,12 +234,20 @@ button{font-family:inherit;cursor:pointer}
   display:flex;align-items:center;height:100%;width:max-content;white-space:nowrap;
   animation:topStripScroll 32s linear infinite;
 }
-.top-strip-track span{
+.top-strip-track.is-paused{
+  animation-play-state:paused;
+}
+.top-strip-item{
   display:inline-flex;align-items:center;padding:0 36px;position:relative;
   font-family:var(--font-display);font-weight:700;font-size:12.5px;
   letter-spacing:.05em;text-transform:uppercase;color:#fff;
+  cursor:pointer;transition:color .15s,background .15s;
 }
-.top-strip-track span::after{
+.top-strip-item:hover,.top-strip-item:focus-visible{
+  color:#FDE68A;background:rgba(255,255,255,.08);
+}
+.top-strip-item:focus-visible{outline:1.5px solid rgba(255,255,255,.6);outline-offset:-2px}
+.top-strip-item::after{
   content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);
   width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,.4);
 }
