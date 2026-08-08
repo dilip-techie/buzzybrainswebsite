@@ -15,6 +15,9 @@ export interface Track {
   topics: string[];
   outcome: string;
   color: 'brand' | 'amber' | 'sky';
+  /** Overrides the card's CTA link (e.g. to a dedicated exam landing page)
+   * instead of the section's shared ctaHref. */
+  href?: string;
 }
 
 export const examTracks = [
@@ -190,6 +193,7 @@ export const mathsOlympiadTracks: Track[] = [
     topics: ['Number Sense', 'Reasoning', 'Applied Arithmetic'],
     outcome: 'Strong first step into competitive maths',
     color: 'brand',
+    href: '/sof-imo-coaching-pune',
   },
   {
     id: 'ioqm',
@@ -201,6 +205,7 @@ export const mathsOlympiadTracks: Track[] = [
     topics: ['Number Theory', 'Algebra', 'Combinatorics', 'Geometry'],
     outcome: 'Gateway to INMO → IMOTC → IMO',
     color: 'brand',
+    href: '/ioqm-coaching-pune',
   },
   {
     id: 'nmtc',
@@ -435,6 +440,152 @@ export const sofOlympiadFaqs = [
   {
     q: 'How big are the batches?',
     a: 'Every batch is capped at a maximum of 12 students across all tracks, so mentors can give individual attention rather than teaching to the average of a large classroom.',
+  },
+  {
+    q: 'Is coaching available online, offline, or both?',
+    a: 'Both. Our Amanora, Hadapsar campus runs live in-person batches with smart digital boards, and the same curriculum is available live online.',
+  },
+];
+
+// ============ IOQM — dedicated page ============
+export const ioqmTopicTracks: Track[] = [
+  {
+    id: 'number-theory',
+    code: 'Topic',
+    name: 'Number Theory',
+    grades: 'Core IOQM area',
+    blurb: 'Divisibility, modular arithmetic, prime factorization and Diophantine-style integer problems — one of the most heavily-weighted areas on the actual paper.',
+    meta: [['Weight', 'High']],
+    topics: ['Divisibility', 'Modular Arithmetic', 'Primes'],
+    outcome: 'Frequently 8-10 of the 30 questions',
+    color: 'brand',
+  },
+  {
+    id: 'algebra',
+    code: 'Topic',
+    name: 'Algebra',
+    grades: 'Core IOQM area',
+    blurb: 'Polynomials, inequalities, functional equations, and sequences at a level well beyond school textbooks.',
+    meta: [['Weight', 'High']],
+    topics: ['Polynomials', 'Inequalities', 'Sequences'],
+    outcome: 'Builds directly toward INMO-level algebra',
+    color: 'sky',
+  },
+  {
+    id: 'geometry',
+    code: 'Topic',
+    name: 'Geometry',
+    grades: 'Core IOQM area',
+    blurb: 'Synthetic Euclidean geometry, angle chasing and circle theorems, used as a problem-solving tool rather than a formula list.',
+    meta: [['Weight', 'Medium-High']],
+    topics: ['Angle Chasing', 'Circle Theorems', 'Coordinate Geometry'],
+    outcome: 'Often the most time-consuming section',
+    color: 'amber',
+  },
+  {
+    id: 'combinatorics',
+    code: 'Topic',
+    name: 'Combinatorics',
+    grades: 'Core IOQM area',
+    blurb: 'Counting principles, the pigeonhole principle, and structured "how many ways" problems that require a proof-like argument, not just a formula.',
+    meta: [['Weight', 'Medium']],
+    topics: ['Counting', 'Pigeonhole Principle', 'Casework'],
+    outcome: 'Rewards structured, careful reasoning',
+    color: 'brand',
+  },
+];
+
+export const ioqmFaqs = [
+  {
+    q: 'Who conducts IOQM and who is eligible?',
+    a: 'IOQM (Indian Olympiad Qualifier in Mathematics) is conducted by the Mathematics Teachers’ Association (India) under the guidance of HBCSE, and is open to students in Classes 8 through 12.',
+  },
+  {
+    q: 'What is the exact format of IOQM?',
+    a: 'A 3-hour, 30-question paper where every answer is a non-negative integer. There are no multiple-choice options, no partial credit for a right method with a wrong final number, and no negative marking.',
+  },
+  {
+    q: 'What happens after clearing IOQM?',
+    a: 'Students who clear the IOQM cutoff qualify for INMO (Indian National Mathematical Olympiad). Strong INMO performers are then invited to selection camps (IMOTC) that eventually determine India’s team for the International Mathematical Olympiad (IMO).',
+  },
+  {
+    q: 'Is IOQM only for students already strong in maths?',
+    a: 'No — it rewards trained problem-solving more than raw talent. Students with a solid school-maths foundation who put in structured olympiad practice consistently outperform naturally "quick" students who prepare only in the last few weeks.',
+  },
+  {
+    q: 'How big are the batches?',
+    a: 'Every batch is capped at a maximum of 12 students, so every student’s written solutions are reviewed individually, not just the final answer.',
+  },
+  {
+    q: 'When should a student start preparing?',
+    a: 'For a Class 9 or 10 student starting from a strong school-maths base, six to nine months of structured olympiad-style problem sets is a realistic runway to a competitive IOQM score.',
+  },
+];
+
+// ============ SOF Olympiads — dedicated page ============
+export const sofExamTracks: Track[] = [
+  {
+    id: 'sof-imo',
+    code: 'IMO',
+    name: 'SOF International Mathematics Olympiad',
+    grades: 'Grades 1–12',
+    blurb: "SOF's flagship maths olympiad, and the most widely taken school-level maths competition in India — applied number sense and logic, multiple-choice format.",
+    meta: [['Subject', 'Mathematics'], ['Format', 'Multiple choice']],
+    topics: ['Number Sense', 'Reasoning', 'Applied Arithmetic'],
+    outcome: 'Strong first step into competitive maths',
+    color: 'brand',
+  },
+  {
+    id: 'sof-nso',
+    code: 'NSO',
+    name: 'SOF National Science Olympiad',
+    grades: 'Grades 1–12',
+    blurb: 'Applied science reasoning across Physics, Chemistry and Biology concepts, built for curiosity and speed rather than rote memorization.',
+    meta: [['Subject', 'Science'], ['Format', 'Multiple choice']],
+    topics: ['General Science', 'Applied Reasoning'],
+    outcome: 'Strong base for NEET/JEE-track science later',
+    color: 'sky',
+  },
+  {
+    id: 'sof-ieo',
+    code: 'IEO',
+    name: 'SOF International English Olympiad',
+    grades: 'Grades 1–12',
+    blurb: 'Grammar, vocabulary, comprehension and verbal reasoning, sharpened through timed, olympiad-style practice.',
+    meta: [['Subject', 'English'], ['Format', 'Multiple choice']],
+    topics: ['Grammar', 'Vocabulary', 'Comprehension'],
+    outcome: 'Builds the verbal fluency SAT/CLAT reward later',
+    color: 'amber',
+  },
+  {
+    id: 'sof-igko',
+    code: 'IGKO',
+    name: 'SOF International General Knowledge Olympiad',
+    grades: 'Grades 1–10',
+    blurb: 'Current affairs, general awareness and reasoning — a well-rounded, low-pressure track that builds genuine curiosity about the world.',
+    meta: [['Subject', 'General Knowledge'], ['Format', 'Multiple choice']],
+    topics: ['Current Affairs', 'General Awareness'],
+    outcome: 'Broadens awareness beyond the classroom',
+    color: 'brand',
+  },
+];
+
+export const sofExamFaqs = [
+  {
+    q: 'What exactly is SOF, and which exams does it run?',
+    a: 'The Science Olympiad Foundation (SOF) is one of India’s most widely taken school-olympiad bodies, running IMO (Mathematics), NSO (Science), IEO (English) and IGKO (General Knowledge) for Grades 1-12, all in a multiple-choice format.',
+  },
+  {
+    q: 'How is SOF different from IOQM or NMTC?',
+    a: 'SOF exams are broad, accessible, multiple-choice tests open from Grade 1, designed as a strong entry point into competitive thinking. IOQM and NMTC are far more rigorous, written/integer-answer exams for Grades 8-12 that feed India’s national olympiad pipeline. Many students use SOF exams as an early foundation before moving into IOQM-level preparation.',
+  },
+  {
+    q: 'Can a child attempt more than one SOF exam in the same year?',
+    a: 'Yes — most students combine 2-3 SOF tracks (commonly IMO and NSO) since the exams run on separate dates and the underlying reasoning skills reinforce each other.',
+  },
+  {
+    q: 'How big are the batches?',
+    a: 'Every batch is capped at a maximum of 12 students, so mentors can review each student’s specific gaps individually.',
   },
   {
     q: 'Is coaching available online, offline, or both?',

@@ -75,7 +75,7 @@ export default function AboutPage() {
     {
       year: "2025",
       title: "Still Going Strong",
-      description: "150-200 active students, 5 passionate teachers, same small batch size, same high standards. Proof that the slow way works."
+      description: "150-200 active students, 8 dedicated mentors, same small batch size, same high standards. Proof that the slow way works."
     }
   ];
 
@@ -83,7 +83,7 @@ export default function AboutPage() {
     "Teachers who actually know your child (max 12 per batch)",
     "Founded by someone who left comfort for purpose",
     "No spam ads, just students telling their friends",
-    "<strong>IITians</strong> who teach because they want to, not just for paycheck",
+    "Mentors from <strong>IIT, IISER</strong> and other top institutions who teach because they want to, not just for a paycheck",
     "Honest results: we don't exaggerate, we show real scores",
     "Custom approach for each student, not one-size-fits-all",
     "Scholarships for merit, not just marketing",
@@ -221,13 +221,13 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-gray-900 mb-8">5 Years, But Worth Every Moment</h3>
               <div className="space-y-6">
                 {[
-                  "Started with 8, now 150-200 active students",
-                  "First batch scored 85-92% in boards (2022)",
-                  "First JEE qualifier in 2023 (huge celebration!)",
-                  "Built a team of 5 passionate IITian teachers",
+                  "Started with 8 students, now 150-200 active across Foundation, Olympiad, JEE, NEET and Commerce",
+                  "85%+ to 95%+ scorers in 10th and 12th boards every year since our first batch (2022)",
+                  "35+ Olympiad qualifiers across IOQM, NSO, IMO and other national olympiads",
+                  "Students going on to strong results in JEE, NEET, MHT-CET and other entrance exams",
+                  "Built a team of 8 dedicated mentors from IIT, IISER and other top institutions",
                   "Still maintain max 12 per batch (no compromise)",
-                  "Grew through referrals, not advertisements",
-                  "Still making financial sacrifices for quality"
+                  "Grew through referrals, not advertisements"
                 ].map((point, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-full p-2 flex-shrink-0">

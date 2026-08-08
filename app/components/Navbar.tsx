@@ -36,8 +36,8 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
     subtitle: 'SOF IMO · IOQM · NMTC · AMC · Kangaroo',
     column: 1,
     items: [
-      { href: '/olympiad-math#sof-imo', label: 'SOF IMO' },
-      { href: '/olympiad-math#ioqm', label: 'IOQM' },
+      { href: '/sof-imo-coaching-pune', label: 'SOF IMO' },
+      { href: '/ioqm-coaching-pune', label: 'IOQM' },
       { href: '/olympiad-math#nmtc', label: 'NMTC' },
       { href: '/olympiad-math#amc', label: 'AMC 8 / AMC 10' },
       { href: '/olympiad-math#kangaroo', label: 'Maths Kangaroo' },

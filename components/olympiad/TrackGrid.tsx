@@ -2,18 +2,9 @@
 
 import { motion } from 'framer-motion';
 import { ArrowUpRight, type LucideIcon } from 'lucide-react';
+import type { Track } from '@/lib/olympiad/data';
 
-export interface Track {
-  id: string;
-  code: string;
-  name: string;
-  grades: string;
-  blurb: string;
-  meta: [string, string][];
-  topics: string[];
-  outcome: string;
-  color: 'brand' | 'amber' | 'sky';
-}
+export type { Track };
 
 const colorMap: Record<Track['color'], { chip: string; ring: string; dot: string }> = {
   brand: { chip: 'bg-oly-brand-50 text-oly-brand-600', ring: 'group-hover:border-oly-brand-500', dot: 'bg-oly-brand-500' },
@@ -96,10 +87,10 @@ export default function TrackGrid({
                     {t.outcome}
                   </div>
                   <a
-                    href={ctaHref}
+                    href={t.href ?? ctaHref}
                     className="inline-flex w-full items-center justify-center rounded-xl border-2 border-oly-ink/10 py-3 text-[14px] font-bold text-oly-ink transition-colors hover:border-oly-brand-500 hover:text-oly-brand-600"
                   >
-                    Learn More
+                    {t.href ? 'View Full Guide' : 'Learn More'}
                   </a>
                 </div>
               </motion.div>

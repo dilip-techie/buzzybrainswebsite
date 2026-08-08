@@ -26,7 +26,7 @@ const MILESTONES = [
   { badge: '2022', title: 'First Victory', desc: 'First batch completed. 85-92% in boards. Not the highest numbers, but students were confident, curious, and happy to learn.', icon: Target },
   { badge: '2023', title: 'Expanding Quietly', desc: 'Grew to 50+ active students. Added a second teacher. Still refused to compromise on batch sizes.', icon: TrendingUp },
   { badge: '2024', title: 'Earning Trust', desc: 'First JEE Main qualifiers. More 95%+ board scorers. Students coming from 4-5 km away for classes.', icon: Award },
-  { badge: '2025', title: 'Still Going Strong', desc: '150-200 active students, 5 passionate teachers, same small batch size, same high standards.', icon: Trophy, success: true },
+  { badge: '2025', title: 'Still Going Strong', desc: '150-200 active students, 8 dedicated mentors, same small batch size, same high standards.', icon: Trophy, success: true },
 ];
 
 const REVIEWS = [
