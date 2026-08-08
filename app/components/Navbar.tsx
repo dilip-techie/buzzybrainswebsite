@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -20,6 +21,66 @@ interface MegaMenuGroup {
   column: number;
 }
 
+const ABOUT_US_MENU: MegaMenuItem[] = [
+  { href: '/about', label: 'About BuzzyBrains' },
+  { href: '/about#founder-story', label: 'About Our Founder' },
+  { href: '/about#mission', label: 'Our Mission' },
+  { href: '/about#vision', label: 'Our Vision' },
+  { href: '/#faculty', label: 'Our Faculties' },
+  { href: '/exams', label: 'Exams Portal' },
+];
+
+const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
+  {
+    title: 'Maths Olympiad',
+    subtitle: 'SOF IMO · IOQM · NMTC · AMC · Kangaroo',
+    column: 1,
+    items: [
+      { href: '/olympiad-math#sof-imo', label: 'SOF IMO' },
+      { href: '/olympiad-math#ioqm', label: 'IOQM' },
+      { href: '/olympiad-math#nmtc', label: 'NMTC' },
+      { href: '/olympiad-math#amc', label: 'AMC 8 / AMC 10' },
+      { href: '/olympiad-math#kangaroo', label: 'Maths Kangaroo' },
+    ],
+    footerLink: { href: '/olympiad-math', label: 'View Maths Olympiad Program →' },
+  },
+  {
+    title: 'Science Olympiad',
+    subtitle: 'Homi Bhabha · NSEJS · Physics · Chemistry · Biology',
+    column: 2,
+    items: [
+      { href: '/sof-olympiads#homi-bhabha', label: 'Homi Bhabha' },
+      { href: '/sof-olympiads#nsejs', label: 'NSEJS' },
+      { href: '/sof-olympiads#physics', label: 'Physics Olympiad' },
+      { href: '/sof-olympiads#chemistry', label: 'Chemistry Olympiad' },
+      { href: '/sof-olympiads#biology', label: 'Biology Olympiad' },
+    ],
+    footerLink: { href: '/sof-olympiads', label: 'View Science Olympiad Program →' },
+  },
+  {
+    title: 'Other Olympiad',
+    subtitle: 'English · GK · Commerce · Economics',
+    column: 3,
+    items: [
+      { href: '/sof-olympiads#english', label: 'English Olympiad' },
+      { href: '/sof-olympiads#knowledge', label: 'General Knowledge Olympiad' },
+      { href: '/sof-olympiads#commerce', label: 'Commerce Olympiad' },
+      { href: '/sof-olympiads#financial-literacy', label: 'Financial Literacy Olympiad' },
+      { href: '/sof-olympiads#economics', label: 'Economics Olympiad' },
+      { href: '/olympiads', label: 'All Olympiads Overview' },
+    ],
+  },
+  {
+    title: 'Coding Olympiad',
+    subtitle: 'ZIO · INOI · IOI pipeline',
+    column: 3,
+    items: [
+      { href: '/coding-lab', label: 'Code Ninja Program' },
+      { href: '/blog/informatics-olympiad-pipeline-zio-inoi-ioi-explained', label: 'ZIO / INOI / IOI Guide' },
+    ],
+  },
+];
+
 const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   {
     title: 'Indian Boards & Competitive Exams',
@@ -29,6 +90,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/foundation', label: 'Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
+      { href: '/ioqm-amc-coaching-pune', label: 'IOQM / AMC Coaching (Grades 6–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
       { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
@@ -66,10 +128,10 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
 
 const NAV_LINKS = [
   { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
+  { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
-  { href: '/exams', label: 'Exams Portal' },
-  { href: '/about', label: 'About' },
+  { href: '/about', label: 'About Us', simpleItems: ABOUT_US_MENU },
   { href: '/#contact', label: 'Contact Us' },
 ];
 
@@ -90,6 +152,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [stripPaused, setStripPaused] = useState(false);
   const pathname = usePathname();
@@ -164,17 +227,7 @@ export default function Navbar() {
         <div className="container nav-inner">
           <div className="nav-left">
             <Link href="/" className="logo" aria-label="BuzzyBrains Academy home">
-              <span className="logo-mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2a7 7 0 0 1 7 7c0 2.4-1.2 4.5-3 5.7V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.3C6.2 13.5 5 11.4 5 9a7 7 0 0 1 7-7z" />
-                  <path d="M9 21h6" />
-                  <path d="M10 9l2 2 2-2" />
-                </svg>
-              </span>
-              <span className="logo-text">
-                <span className="logo-word">Buzzy <b>Brains</b></span>
-                <span className="logo-suffix">Academy</span>
-              </span>
+              <Image src="/logo-badge.png" alt="BuzzyBrains Academy" width={523} height={307} className="logo-badge-img" priority />
             </Link>
           </div>
           <nav aria-label="Primary">
@@ -211,6 +264,22 @@ export default function Navbar() {
                           ))}
                         </div>
                       ))}
+                    </div>
+                  </li>
+                ) : link.simpleItems ? (
+                  <li key={link.href} className="nav-dropdown-wrap">
+                    <Link href={link.href} className="nav-dropdown-trigger">
+                      {link.label}
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+                    </Link>
+                    <div className="nav-simple-menu">
+                      <ul>
+                        {link.simpleItems.map((item) => (
+                          <li key={item.href}>
+                            <Link href={item.href}>{item.label}</Link>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </li>
                 ) : (
@@ -271,6 +340,27 @@ export default function Navbar() {
                       ))}
                     </div>
                   ))}
+                </div>
+              </div>
+            ) : link.simpleItems ? (
+              <div className="mobile-menu-programs" key={link.href}>
+                <button
+                  type="button"
+                  className="mobile-menu-programs-trigger"
+                  aria-expanded={mobileAboutOpen}
+                  onClick={() => setMobileAboutOpen((prev) => !prev)}
+                >
+                  {link.label}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+                </button>
+                <div className={`mobile-menu-programs-panel${mobileAboutOpen ? ' open' : ''}`}>
+                  <div className="mobile-menu-group">
+                    {link.simpleItems.map((item) => (
+                      <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </div>
             ) : (

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -7,17 +8,7 @@ export default function Footer() {
         <div className="foot-grid">
           <div className="foot-brand">
             <Link href="/#top" className="logo" style={{ color: '#fff' }}>
-              <span className="logo-mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2a7 7 0 0 1 7 7c0 2.4-1.2 4.5-3 5.7V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.3C6.2 13.5 5 11.4 5 9a7 7 0 0 1 7-7z" />
-                  <path d="M9 21h6" />
-                  <path d="M10 9l2 2 2-2" />
-                </svg>
-              </span>
-              <span className="logo-text">
-                <span className="logo-word">Buzzy <b style={{ color: '#60A5FA' }}>Brains</b></span>
-                <span className="logo-suffix" style={{ color: '#60A5FA' }}>Academy</span>
-              </span>
+              <Image src="/logo-badge.png" alt="BuzzyBrains Academy" width={523} height={307} className="logo-badge-img" />
             </Link>
             <p>Premium coaching for IIT-JEE, NEET, Olympiads and Foundation — where learning is fun, conceptual and powered by technology.</p>
             <div className="foot-social">
@@ -145,6 +136,9 @@ export default function Footer() {
         <div className="foot-bottom">
           <span>© {new Date().getFullYear()} BuzzyBrains Academy. All rights reserved.</span>
           <span>Learn Smarter. Dream Bigger. Achieve More.</span>
+          <Link href="/terms-and-conditions">Terms and Conditions</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/refund-policy">Refund Policy</Link>
           <Link href="/sitemap">Sitemap</Link>
         </div>
       </div>

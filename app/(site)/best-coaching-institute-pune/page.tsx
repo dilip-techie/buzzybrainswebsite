@@ -185,14 +185,14 @@ export default function BestCoachingInstitutePunePage() {
               specialists across Physics, Chemistry, Biology and Mathematics:
             </p>
             <ul>
-              <li><strong>Dilip Sir</strong> — Mathematics; B.Tech, IIT Kanpur, MBA, IIM Ahmedabad, AIR 400.</li>
-              <li><strong>Agarwal Sir</strong> — Mathematics & Physics; PhD, IIT Bombay.</li>
-              <li><strong>Dr. Mrinmayee</strong> — Chemistry; PhD, IIT Kharagpur.</li>
-              <li><strong>Dr. Todkar</strong> — Biology; General Physician, NEET Biology expert.</li>
-              <li><strong>Dr. Urmila</strong> — Chemistry & Science; PhD, IISER Pune.</li>
-              <li><strong>Kamble Sir</strong> — Mathematics; M.Tech, IIT Bombay, IOQM / AMC-8 / AMC-10 / AMC-12 coach.</li>
-              <li><strong>Priya Madam</strong> — Biology; B.E., Pune University.</li>
-              <li><strong>Shivangi Madam</strong> — Science; B.E., Pune University.</li>
+              <li><strong>Dilip Sir</strong> — Mathematics; B.Tech, IIT Kanpur, MBA, IIM Ahmedabad, AIR 400. A meticulous, concept-first mentor with 25+ years of experience.</li>
+              <li><strong>Agarwal Sir</strong> — Mathematics & Physics; PhD, IIT Bombay. A sharp, research-trained problem-solver known for exam-focused clarity.</li>
+              <li><strong>Dr. Mrinmayee</strong> — Chemistry; PhD, IIT Kharagpur. A precise, research-driven educator specializing in JEE and NEET Chemistry.</li>
+              <li><strong>Dr. Todkar</strong> — Biology; General Physician, NEET Biology expert. A seasoned, empathetic physician-educator.</li>
+              <li><strong>Dr. Urmila</strong> — Chemistry & Science; PhD, IISER Pune. A patient, top-rated mentor known for rock-solid fundamentals.</li>
+              <li><strong>Kamble Sir</strong> — Mathematics; M.Tech, IIT Bombay, IOQM / AMC-8 / AMC-10 / AMC-12 coach. A sharp, competition-focused mentor for young mathletes.</li>
+              <li><strong>Priya Madam</strong> — Biology; B.E., Pune University. An engaging, detail-oriented educator known for deep conceptual clarity.</li>
+              <li><strong>Shivangi Madam</strong> — Science; B.E., Pune University. An enthusiastic, encouraging mentor who makes learning hands-on.</li>
             </ul>
 
             {/* ============ BOARD COMPARISON ============ */}

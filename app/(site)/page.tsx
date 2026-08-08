@@ -254,14 +254,14 @@ const REVIEWS = [
 ];
 
 const FACULTY = [
-  { name: 'Dilip Sir', subject: 'Mathematics', qualification: 'B.Tech, IIT Kanpur • MBA, IIM Ahmedabad • AIR 400', expertise: 'JEE / Foundation & Advanced Mathematics', initials: 'DS', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
-  { name: 'Agarwal Sir', subject: 'Mathematics & Physics', qualification: 'PhD, IIT Bombay', expertise: 'JEE Mathematics & Physics', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
-  { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD, IIT Kharagpur', expertise: 'Chemistry • JEE / NEET', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
-  { name: 'Dr. Todkar', subject: 'Biology', qualification: 'General Physician', expertise: 'NEET Biology Expert', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
-  { name: 'Dr. Urmila', subject: 'Chemistry & Science', qualification: 'PhD, IISER Pune', expertise: 'Chemistry & Science • Top-rated Faculty', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
-  { name: 'Kamble Sir', subject: 'Mathematics', qualification: 'M.Tech, IIT Bombay', expertise: 'Mathematics • IOQM / AMC-8 / AMC-10 / AMC-12 Coach', initials: 'KS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
-  { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'Top Biology Faculty', initials: 'PM', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
-  { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'Top Science Faculty', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
+  { name: 'Dilip Sir', subject: 'Mathematics', qualification: 'B.Tech, IIT Kanpur • MBA, IIM Ahmedabad • AIR 400', expertise: 'A meticulous, concept-first mentor who makes Foundation and Advanced Mathematics feel intuitive for JEE aspirants — 25+ years of inspiring rigorous, confident problem-solvers.', initials: 'DS', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
+  { name: 'Agarwal Sir', subject: 'Mathematics & Physics', qualification: 'PhD, IIT Bombay', expertise: 'A sharp, research-trained problem-solver whose structured, exam-focused approach demystifies JEE Mathematics and Physics for even the toughest aspirants.', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
+  { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD, IIT Kharagpur', expertise: 'A precise, research-driven chemist who turns dense JEE and NEET Chemistry syllabi into clear, memorable, exam-ready concepts.', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
+  { name: 'Dr. Todkar', subject: 'Biology', qualification: 'General Physician', expertise: 'A seasoned, empathetic physician-educator whose real clinical insight brings NEET Biology vividly to life for generations of medical aspirants.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { name: 'Dr. Urmila', subject: 'Chemistry & Science', qualification: 'PhD, IISER Pune', expertise: 'A patient, top-rated mentor from IISER Pune, celebrated for building rock-solid fundamentals across Chemistry and Science.', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Kamble Sir', subject: 'Mathematics', qualification: 'M.Tech, IIT Bombay', expertise: 'A sharp, competition-focused coach who trains promising young mathletes for IOQM, AMC-8, AMC-10 and AMC-12 with precision and passion.', initials: 'KS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'An engaging, detail-oriented Biology educator known for building deep conceptual clarity and genuine curiosity in every student.', initials: 'PM', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
+  { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'An enthusiastic, encouraging Science mentor who makes learning hands-on, curious and confidence-building for young minds.', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
 ];
 
 const STATS = [

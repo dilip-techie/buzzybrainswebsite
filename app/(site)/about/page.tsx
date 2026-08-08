@@ -111,7 +111,7 @@ export default function AboutPage() {
       </section>
 
       {/* Founder Story Section */}
-      <section className="py-20 px-4 bg-white">
+      <section id="founder-story" className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -154,6 +154,30 @@ export default function AboutPage() {
                   <span>Prove that smaller is actually better</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission & Vision Section */}
+      <section className="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div id="mission" className="scroll-mt-28 bg-white rounded-2xl p-8 shadow-lg">
+              <Target className="w-12 h-12 text-blue-600 mb-4" />
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
+              <p className="text-lg text-gray-700">
+                To give every student the individual attention a 60-student classroom can never offer —
+                replacing rote memorization with genuine understanding, one small batch at a time.
+              </p>
+            </div>
+            <div id="vision" className="scroll-mt-28 bg-white rounded-2xl p-8 shadow-lg">
+              <Lightbulb className="w-12 h-12 text-purple-600 mb-4" />
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h2>
+              <p className="text-lg text-gray-700">
+                A future where every student builds strong foundations for life — not just exam scores —
+                guided by mentors who know them by name, in classrooms small enough for that to be possible.
+              </p>
             </div>
           </div>
         </div>

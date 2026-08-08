@@ -15028,7 +15028,329 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
-
+  {
+    slug: 'amc-10-preparation-guide-aime-qualification',
+    title: 'AMC 10 Preparation Guide: From AMC 10 to AIME Qualification',
+    description:
+      "AMC 10 is where competition maths stops being a warm-up and starts being a genuine filter — a strong score is the only route to AIME. Here's what the exam actually tests and how to prepare for it.",
+    category: 'olympiad',
+    datePublished: '2026-08-01',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    relatedGuides: [{ href: '/olympiad-math', label: 'Maths Excellence Program' }],
+    body: [
+      {
+        kind: 'p',
+        text: "AMC 10 (American Mathematics Competition 10) is run by the Mathematical Association of America (MAA) for students in Grade 9 and 10 (or under 17.5 years of age). Unlike AMC 8, which is designed as an accessible on-ramp, AMC 10 is a genuine filter — only the top scorers qualify for the American Invitational Mathematics Examination (AIME), and from there, the USA(J)MO. For Indian students building an international competition-maths profile, AMC 10 is usually the first exam where the stakes feel real.",
+      },
+      { kind: 'h2', text: 'What AMC 10 Actually Tests' },
+      {
+        kind: 'p',
+        text: 'AMC 10 is a 25-question, 75-minute, multiple-choice exam (5 options, A–E), covering Algebra II, Geometry, Number Theory, Counting & Probability, and elementary trigonometry — no calculus. Calculators are not permitted. The syllabus itself is not exotic; what makes AMC 10 difficult is that problems are built to resist direct formula application, rewarding students who can restructure a problem quickly under real time pressure.',
+      },
+      { kind: 'h2', text: 'The Scoring System Changes Your Strategy' },
+      {
+        kind: 'table',
+        headers: ['Outcome', 'Points'],
+        rows: [
+          ['Correct answer', '6'],
+          ['Blank (unanswered)', '1.5'],
+          ['Wrong answer', '0'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "This scoring system is deliberately unlike school exams or IOQM: leaving a question blank scores better than a wild guess, but far worse than a correct answer. A student who has genuinely mastered pacing knows exactly which of the last 5–6 questions to skip rather than gamble on, and which to attempt even under time pressure. This is a trainable skill, not instinct — it comes from working through enough past papers under real time constraints to calibrate honestly.",
+      },
+      { kind: 'h2', text: 'A Realistic Preparation Timeline' },
+      {
+        kind: 'ul',
+        items: [
+          'Grade 8–9, 4–6 months out: consolidate Algebra II and Geometry fundamentals, since AMC 10 assumes comfort with material some students haven’t fully covered in school yet.',
+          '2–3 months out: work through past AMC 10 papers untimed, focused on the reasoning behind each answer choice — including why the wrong options are wrong.',
+          'Final 4–6 weeks: shift to full 75-minute timed mocks, tracking not just the score but which specific questions were skipped and whether that was the right call in hindsight.',
+        ],
+      },
+      { kind: 'h2', text: 'What Qualifying for AIME Actually Requires' },
+      {
+        kind: 'p',
+        text: "AIME invitations go to students who score at or above a cutoff (roughly the top 5% of AMC 10 takers, varying by year), or achieve a high AMC 10 score combined with a strong AMC 8 result. AIME itself is a different beast entirely — 15 questions, 3 hours, integer answers 0–999, no multiple choice to fall back on — so a student aiming for it needs the AMC 10 prep to build genuine problem-solving depth, not just pattern-matching against past papers.",
+      },
+    ],
+    faq: [
+      {
+        question: 'What is a good AMC 10 score?',
+        answer: 'Scores are out of 150. A score in the 100–120 range is typically strong for a first attempt; AIME qualification cutoffs usually fall in the 100–115 range depending on the year, though this varies annually.',
+      },
+      {
+        question: 'Can a Grade 9 student attempt AMC 10 without AMC 8 experience?',
+        answer: 'Yes — AMC 8 is not a prerequisite. A Grade 9 student with a solid Algebra and Geometry foundation can start directly with AMC 10-focused preparation.',
+      },
+      {
+        question: 'Is AMC 10 harder than IOQM?',
+        answer: 'They are difficult in different ways rather than directly comparable — AMC 10 is multiple-choice with strict time pressure (180 seconds per question), while IOQM is integer-answer with no partial credit and a longer per-question time budget. Many strong students prepare for both in parallel since the underlying skills overlap heavily.',
+      },
+      {
+        question: 'How many times can a student attempt AMC 10 each year?',
+        answer: 'The MAA runs two AMC 10 papers each year (10A and 10B) roughly two weeks apart, and a student may take both, with the better score counting toward AIME qualification.',
+      },
+    ],
+  },
+  {
+    slug: 'ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track',
+    title: 'IOQM vs AMC 8 vs AMC 10: Choosing the Right Track for Your Child',
+    description:
+      "IOQM, AMC 8 and AMC 10 are the three exams parents ask about most — and the three are genuinely different in format, timing and purpose. Here's how to decide which one fits your child right now.",
+    category: 'olympiad',
+    datePublished: '2026-08-02',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    relatedGuides: [{ href: '/olympiads', label: 'Olympiad Program' }],
+    body: [
+      {
+        kind: 'answer',
+        text: "For most students, grade is the deciding factor: AMC 8 fits Grade 6–8 (under 14.5 years), AMC 10 fits Grade 9–10 (under 17.5 years), and IOQM fits Grade 8–12. A student in Grade 8 is genuinely eligible for both AMC 8 and IOQM, and often prepares for both in parallel since the core skills — number theory, algebra, geometry, combinatorics — overlap heavily across all three exams.",
+      },
+      { kind: 'h2', text: 'The Three Exams, Side by Side' },
+      {
+        kind: 'table',
+        headers: ['Feature', 'IOQM', 'AMC 8', 'AMC 10'],
+        rows: [
+          ['Conducted by', 'MTA(I) / HBCSE, India', 'MAA, USA', 'MAA, USA'],
+          ['Eligible grades', 'Grade 8–12', 'Grade 6–8 (under 14.5 yrs)', 'Grade 9–10 (under 17.5 yrs)'],
+          ['Format', 'Integer answer, no options', 'Multiple choice (A–E)', 'Multiple choice (A–E)'],
+          ['Questions / Time', '30 questions / 3 hours', '25 questions / 40 minutes', '25 questions / 75 minutes'],
+          ['Negative marking', 'None', 'None', 'Yes (blank scores more than wrong)'],
+          ['Leads to', 'INMO → IMOTC → IMO', 'A stepping stone toward AMC 10', 'AIME → USAMO'],
+        ],
+      },
+      { kind: 'h2', text: 'Why the Format Difference Matters More Than It Looks' },
+      {
+        kind: 'p',
+        text: "IOQM's integer-answer format removes the safety net of a multiple-choice guess — every answer has to be derived, not recognized. AMC 8 and AMC 10, by contrast, are multiple-choice, which changes the skill being tested: process of elimination, working backward from answer choices, and estimating are all legitimate strategies that simply don't exist in IOQM. A student who is excellent at IOQM-style derivation but has never practiced multiple-choice-specific tactics can genuinely underperform on their first AMC attempt, and vice versa.",
+      },
+      { kind: 'h2', text: 'A Simple Decision Framework' },
+      {
+        kind: 'ul',
+        items: [
+          "Grade 6–7, first competition-maths exposure: start with AMC 8. It's the most accessible entry point and builds speed and pattern recognition without the pressure of a 3-hour paper.",
+          "Grade 8, comfortable with AMC 8-level material: this is the natural window to add IOQM alongside AMC 8, since both are eligible and the topic overlap makes dual-prep efficient.",
+          "Grade 9–10, building an international profile: AMC 10 becomes the priority, since it's the only gateway to AIME and USAMO — IOQM can continue in parallel if the Indian pipeline (INMO, IMOTC) is also a goal.",
+          "Grade 11–12: IOQM remains open through Grade 12, but most students by this stage have picked a primary track based on where they're aiming — Indian olympiad camps or the US AMC/AIME pipeline.",
+        ],
+      },
+      { kind: 'h2', text: "It Doesn't Have to Be Either/Or" },
+      {
+        kind: 'p',
+        text: 'A common misconception is that a student must commit to one pipeline exclusively. In practice, the core mathematical skill — number theory, algebra, combinatorics, geometry — is close to 80% shared across IOQM, AMC 8, and AMC 10. The remaining 20% is format-specific strategy: integer-answer derivation for IOQM, multiple-choice tactics and strict per-question pacing for AMC. Many students genuinely benefit from preparing for more than one track at once, since the format variety itself builds more robust problem-solving than single-track drilling.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Should my Grade 8 child do AMC 8 or IOQM first?',
+        answer: "Neither has to come first — Grade 8 students are eligible for both, and the topic overlap means preparing for one builds real progress toward the other. Many students sit both in the same year.",
+      },
+      {
+        question: 'Is one of these three exams more prestigious than the others?',
+        answer: "They serve different purposes rather than sitting on one prestige ladder. IOQM is the gateway to India's INMO/IMO pipeline; AMC 10 is the gateway to AIME/USAMO in the US pipeline. Both are genuinely respected, and international university applications increasingly recognize both.",
+      },
+      {
+        question: 'Does doing well in AMC 8 guarantee a good AMC 10 score later?',
+        answer: 'It builds a strong foundation but does not guarantee it — AMC 10 assumes more advanced Algebra II and Geometry content that AMC 8 doesn’t cover, so targeted preparation for the step up is still necessary.',
+      },
+    ],
+  },
+  {
+    slug: 'after-amc-10-understanding-aime-and-usamo',
+    title: 'What Happens After AMC 10: Understanding AIME and USAMO',
+    description:
+      "A strong AMC 10 score isn't the finish line — it's an invitation to AIME, and from there, potentially USAMO. Here's how the pathway actually works and what changes at each stage.",
+    category: 'olympiad',
+    datePublished: '2026-08-03',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "Most families researching AMC 10 focus entirely on the exam itself and stop there — but AMC 10 is really the first gate in a three-stage pipeline. A high enough score earns an invitation to the American Invitational Mathematics Examination (AIME); a strong AIME result, combined with the AMC score, can lead to an invitation to the USA Mathematical Olympiad (USAMO) or, for younger students, USAJMO. Understanding this pathway early changes how a student should approach AMC 10 preparation in the first place.",
+      },
+      { kind: 'h2', text: 'Stage 1: AMC 10 Qualification' },
+      {
+        kind: 'p',
+        text: 'AIME invitations typically go to the top ~5% of AMC 10 scorers (the exact cutoff varies by year), or to students who combine a qualifying AMC 8 and AMC 10 score under the MAA’s alternate pathway. This is why treating AMC 10 as "just another multiple-choice exam" undersells it — the top-percentile cutoff means pacing and question-selection strategy matter as much as raw content mastery.',
+      },
+      { kind: 'h2', text: 'Stage 2: AIME — A Different Exam Entirely' },
+      {
+        kind: 'table',
+        headers: ['Feature', 'AMC 10', 'AIME'],
+        rows: [
+          ['Format', 'Multiple choice (A–E)', 'Integer answer, 0–999'],
+          ['Questions / Time', '25 questions / 75 minutes', '15 questions / 3 hours'],
+          ['Negative marking', 'Yes', 'None (unanswered = 0)'],
+          ['Difficulty curve', 'Gradual', 'Steep — later questions are multi-step'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: 'AIME removes multiple-choice entirely, so process-of-elimination tactics that worked on AMC 10 stop being useful. Every answer must be derived to an exact integer, and the later questions typically require chaining two or three distinct techniques together — much closer in spirit to IOQM than to AMC 10. Students who prepared for AMC 10 purely through multiple-choice pattern recognition, without building genuine derivation skill, often find AIME a difficult adjustment.',
+      },
+      { kind: 'h2', text: 'Stage 3: USAMO / USAJMO' },
+      {
+        kind: 'p',
+        text: 'USAMO (and USAJMO for younger students) is proof-based — students write full mathematical proofs across a 9-hour exam split over two days, graded on rigor and completeness, not just a final answer. Very few students reach this stage, but it represents the top of the AMC pipeline and mirrors India’s INMO in both difficulty and format: precise, written mathematical argument rather than a numeric answer.',
+      },
+      { kind: 'h2', text: 'What This Means for AMC 10 Preparation' },
+      {
+        kind: 'p',
+        text: 'A student aiming beyond AMC 10 should treat AIME-style derivation practice as part of AMC 10 preparation itself, not something to start only after qualifying. Building genuine problem-solving depth — not just multiple-choice speed — during AMC 10 prep makes the jump to AIME far less jarring, and lays real groundwork for USAMO-style proof writing later.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does every AMC 10 qualifier get invited to AIME?',
+        answer: "Only students who clear the year's AIME qualification index (a combination of AMC score and, in some cases, AMC 8 performance) are invited — it is a genuine cutoff, not automatic for all AMC 10 participants.",
+      },
+      {
+        question: 'Is AIME open to Indian students studying in India?',
+        answer: 'Yes — AIME is open to any student who qualifies through AMC 10 or AMC 12, regardless of country, including Indian students taking the AMC series through registered test centers.',
+      },
+      {
+        question: 'How is USAMO different from India’s INMO?',
+        answer: 'Both are proof-based national olympiads that sit at a similar level in their respective pipelines — USAMO for the AMC/AIME pathway, INMO for the IOQM pathway — testing written mathematical argument rather than a final numeric or multiple-choice answer.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-scoring-negative-marking-strategy-explained',
+    title: "AMC Scoring Explained: Why 6/1.5/0 Demands a Different Strategy Than IOQM",
+    description:
+      "AMC 10's scoring system rewards a skipped question over a wild guess — a strategy IOQM doesn't need at all. Here's how to actually use the scoring rules to your advantage on exam day.",
+    category: 'olympiad',
+    datePublished: '2026-08-04',
+    readingMinutes: 6,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "Most students preparing for both IOQM and AMC assume the exam-day strategy should be roughly the same — work through the paper, answer what you can. This is a mistake, because the two exams score very differently, and the right strategy for one is close to the wrong strategy for the other.",
+      },
+      { kind: 'h2', text: 'How IOQM Scores' },
+      {
+        kind: 'p',
+        text: 'IOQM has no negative marking: every question is worth 1 mark for a correct integer answer, 0 for wrong or blank. There is no penalty for attempting a question you’re unsure of, which means the only real cost of a wrong attempt on IOQM is the time spent — not points lost. The strategic priority is simple: attempt every question you have any genuine shot at, and manage the 3-hour clock across 30 questions carefully.',
+      },
+      { kind: 'h2', text: 'How AMC 10 Scores — And Why It Changes Everything' },
+      {
+        kind: 'table',
+        headers: ['Outcome', 'AMC 10 Points', 'IOQM Points'],
+        rows: [
+          ['Correct', '6', '1'],
+          ['Blank', '1.5', '0'],
+          ['Wrong', '0', '0'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "On AMC 10, a blank answer is worth 1.5 points — better than nothing, and critically, better than a wrong guess, which scores zero. This means blind guessing on a question you have zero insight into is mathematically a poor choice (expected value from guessing among 5 options is 6 × 0.2 = 1.2, less than the 1.5 you'd get for leaving it blank) — the exact opposite of the instinct many students bring from school exams where an attempt is always better than nothing.",
+      },
+      { kind: 'h2', text: 'The Practical Exam-Day Rule' },
+      {
+        kind: 'ul',
+        items: [
+          "If you can eliminate two or more of the five options through reasoning, the expected value of guessing among the remainder usually beats leaving it blank — attempt it.",
+          "If you have no real basis for eliminating any option, leaving it blank protects your score better than a pure guess.",
+          "Never let this calculation slow you down on questions you can actually solve — the scoring strategy only matters for the small number of questions where you're genuinely stuck with time running out.",
+        ],
+      },
+      { kind: 'h2', text: 'Why This Has to Be Practiced, Not Just Understood' },
+      {
+        kind: 'p',
+        text: "Knowing the rule intellectually and applying it correctly under real time pressure, with 90 seconds left and three unanswered questions on the page, are different skills. This is exactly why timed mock papers — not just untimed problem sets — matter for AMC preparation: they're the only way to build genuine, fast, pressure-tested judgment about when to attempt and when to skip.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Does IOQM have any form of negative marking?',
+        answer: 'No — IOQM awards 1 mark for a correct integer answer and 0 for wrong or blank, with no penalty for an incorrect attempt.',
+      },
+      {
+        question: 'Is guessing ever a good idea on AMC 10?',
+        answer: "Only when you can eliminate at least two of the five answer choices through reasoning — a pure random guess among all five options has a lower expected value than leaving the question blank.",
+      },
+      {
+        question: 'Does AMC 8 use the same scoring system as AMC 10?',
+        answer: 'No — AMC 8 has no negative marking at all (1 point for correct, 0 for wrong or blank), so the skip-or-guess calculation used for AMC 10 does not apply to AMC 8.',
+      },
+    ],
+  },
+  {
+    slug: 'ioqm-and-amc-dual-track-preparation-strategy',
+    title: 'Preparing for IOQM and AMC in Parallel: A Dual-Track Strategy',
+    description:
+      "Many strong Grade 8-10 students prepare for IOQM and the AMC series at the same time rather than choosing one. Here's how to structure that without burning out or diluting either exam.",
+    category: 'olympiad',
+    datePublished: '2026-08-05',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "A genuinely common question from parents is whether preparing for IOQM and AMC 8/10 at the same time spreads a student too thin. In practice, for a student with a solid maths foundation, dual-track preparation is usually more efficient than sequential preparation — because the two exams share most of their underlying skill, and only diverge in format-specific strategy.",
+      },
+      { kind: 'h2', text: 'Why the Overlap Makes Dual-Track Realistic' },
+      {
+        kind: 'p',
+        text: "Number theory, algebra, geometry and combinatorics form the backbone of IOQM, AMC 8 and AMC 10 alike. A student working through a well-structured olympiad curriculum is building skill that transfers directly across all three exams — the additional prep needed for a second track is largely format-specific practice (integer-answer derivation for IOQM, multiple-choice pacing and scoring strategy for AMC), not a second syllabus from scratch.",
+      },
+      { kind: 'h2', text: 'A Sample Weekly Structure' },
+      {
+        kind: 'table',
+        headers: ['Session', 'Focus'],
+        rows: [
+          ['Session 1', 'Core concept building (shared across both tracks)'],
+          ['Session 2', 'Problem-pattern drilling, mixed IOQM and AMC-style questions'],
+          ['Weekend mock', 'Alternates between a full IOQM-format mock and a full AMC-format mock, week to week'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: 'The key design choice is alternating the weekend mock format rather than running two separate full-length mocks every week — this keeps the weekly time commitment realistic while still giving each format enough dedicated timed practice to build genuine exam-day comfort.',
+      },
+      { kind: 'h2', text: 'Where Dual-Track Prep Goes Wrong' },
+      {
+        kind: 'ul',
+        items: [
+          "Treating both exams as identical and skipping format-specific practice — a student who only ever does untimed, format-agnostic problem sets will underperform on exam day regardless of how strong their concepts are.",
+          "Scheduling both exams' mocks in the same week consistently, which leads to fatigue and shallow review rather than genuine learning from each mock.",
+          "Ignoring the calendar — IOQM, AMC 8 and AMC 10 each run on fixed annual dates, and a realistic dual-track plan has to work backward from both exam dates, not just “prepare generally”.",
+        ],
+      },
+      { kind: 'h2', text: 'When Dual-Track Isn’t the Right Call' },
+      {
+        kind: 'p',
+        text: 'Dual-track preparation assumes a student already has reasonably solid maths fundamentals. For a student still building basic confidence with school-level maths, splitting attention across two competition formats too early usually does more harm than good — in that case, a single track, chosen based on grade and interest, with a genuinely strong foundation, is the better starting point before adding a second exam.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is it realistic for a Grade 8 student to prepare for both IOQM and AMC 8 at once?',
+        answer: 'Yes — Grade 8 is exactly the window where both exams are eligible, and the shared topic base (number theory, algebra, geometry, combinatorics) makes parallel preparation genuinely efficient rather than doubling the workload.',
+      },
+      {
+        question: 'Should a student sit both exams in their first year of dual-track prep?',
+        answer: "It depends on readiness rather than the calendar alone — a diagnostic assessment closer to each exam date is a better guide than assuming both should be attempted in year one regardless of how prep is progressing.",
+      },
+      {
+        question: 'Does dual-track prep cost significantly more time per week than single-track prep?',
+        answer: 'Not proportionally — because the core content overlaps heavily, dual-track prep typically adds format-specific practice on top of a shared foundation, rather than requiring two entirely separate curricula.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
