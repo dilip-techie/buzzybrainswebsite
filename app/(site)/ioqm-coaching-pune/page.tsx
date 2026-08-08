@@ -10,6 +10,7 @@ import Testimonials from '@/components/olympiad/Testimonials';
 import FAQ from '@/components/olympiad/FAQ';
 import LeadForm from '@/components/olympiad/LeadForm';
 import FinalCTA from '@/components/olympiad/FinalCTA';
+import StickyCTA from '@/components/olympiad/StickyCTA';
 import { ioqmTopicTracks, ioqmFaqs } from '@/lib/olympiad/data';
 
 const stats: StatItem[] = [
@@ -25,10 +26,10 @@ export default function IoqmCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroGeneric
-        eyebrow="IOQM · Grades 8–12"
+        eyebrow="🚀 IOQM 2027 Batch Open · Grades 8–12"
         title="Master IOQM,"
         highlight="India's toughest maths qualifier."
-        description="A dedicated IOQM track — integer-answer problem solving across Number Theory, Algebra, Geometry and Combinatorics, mentored by IIT alumni, in batches capped at 12. Clear IOQM and you're in line for INMO."
+        description="A dedicated IOQM track — integer-answer problem solving across Number Theory, Algebra, Geometry and Combinatorics, mentored by IIT alumni, in batches capped at 12. Seats for the 2027 batch are open now. Clear IOQM and you're in line for INMO."
         stats={[['25+', 'Years teaching'], ['12', 'Max batch size'], ['30', 'Questions, 3 hrs']]}
         exploreHref="#oly-topics"
         exploreLabel="Explore the Syllabus"
@@ -57,7 +58,11 @@ export default function IoqmCoachingPunePage() {
         demoSubject="IOQM"
         programs={['IOQM', 'Not sure yet — need guidance']}
       />
-      <FinalCTA />
+      <FinalCTA
+        title="IOQM 2027 batches are open — reserve your seat."
+        subtitle="Batches are capped at 12 students and fill on a first-come basis. Book a free demo class today — no cost, no obligation."
+      />
+      <StickyCTA label="IOQM 2027 Batch Open — Book Free Demo" />
     </main>
   );
 }

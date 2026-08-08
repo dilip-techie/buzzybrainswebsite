@@ -136,6 +136,7 @@ const NAV_LINKS = [
 ];
 
 const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: boolean }[] = [
+  { text: '🚀 IOQM 2027 Batch Open — Enroll Now', href: '/ioqm-coaching-pune' },
   { text: '🎓 An IIT/IIM Alumni Initiative', href: '/about' },
   { text: '✅ Top 1% Faculty Led by Dilip Sir', href: '/about' },
   { text: '✅ Maximum Batch Size: 12 Students', href: '/admissions' },
