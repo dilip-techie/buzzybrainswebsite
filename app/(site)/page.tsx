@@ -254,14 +254,14 @@ const REVIEWS = [
 ];
 
 const FACULTY = [
-  { name: 'Dilip Sir', subject: 'Mathematics', qualification: 'IIT Kanpur · IIM Ahmedabad · JEE AIR 400', expertise: '25+ years of teaching excellence with a love for concept-first learning.', initials: 'DS', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
-  { name: 'Sourav Sir', subject: 'Physics', qualification: 'IIT Bombay', expertise: 'Renowned for turning complex topics into simple, visual explanations.', initials: 'SS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
-  { name: 'Agarwal Sir', subject: 'Chemistry', qualification: 'PhD in Education Psychology · IIT Bombay · BTech Chemical Engineering · ICT Mumbai', expertise: '13+ years of experience teaching chemistry to JEE & NEET aspirants with proven results.', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
-  { name: 'Dr. Todkar', subject: 'Biology', qualification: 'NEET Biology Expert', expertise: '25+ years of experience in teaching NEET candidates with a strong focus on conceptual clarity and exam readiness.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
-  { name: 'Dr. Urmila', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Experienced educator with a strong academic foundation and a passion for making chemistry clear, structured and exam-focused.', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
-  { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD · IISER Pune', expertise: 'Specialized in chemistry teaching with a strong research background and a calm, concept-driven approach for exam preparation.', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
-  { name: 'Shivangi Saxena', subject: 'Chemistry', qualification: 'BE MIT', expertise: 'Focused on strong fundamentals, fast revision, and deep exam readiness.', initials: 'DM', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
-  { name: 'Dr. Aditi', subject: 'Biology', qualification: 'AIIMS · Medical Expert', expertise: 'Brings scientific depth, clarity, and confidence for all medical aspirants.', initials: 'DA', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
+  { name: 'Dilip Sir', subject: 'Mathematics', qualification: 'B.Tech, IIT Kanpur • MBA, IIM Ahmedabad • AIR 400', expertise: 'JEE / Foundation & Advanced Mathematics', initials: 'DS', gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
+  { name: 'Agarwal Sir', subject: 'Mathematics & Physics', qualification: 'PhD, IIT Bombay', expertise: 'JEE Mathematics & Physics', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
+  { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD, IIT Kharagpur', expertise: 'Chemistry • JEE / NEET', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
+  { name: 'Dr. Todkar', subject: 'Biology', qualification: 'General Physician', expertise: 'NEET Biology Expert', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
+  { name: 'Dr. Urmila', subject: 'Chemistry & Science', qualification: 'PhD, IISER Pune', expertise: 'Chemistry & Science • Top-rated Faculty', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Kamble Sir', subject: 'Mathematics', qualification: 'M.Tech, IIT Bombay', expertise: 'Mathematics • IOQM / AMC-8 / AMC-10 / AMC-12 Coach', initials: 'KS', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
+  { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'Top Biology Faculty', initials: 'PM', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
+  { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'Top Science Faculty', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
 ];
 
 const STATS = [

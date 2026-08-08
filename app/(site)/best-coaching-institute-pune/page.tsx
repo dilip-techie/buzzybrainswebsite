@@ -185,14 +185,14 @@ export default function BestCoachingInstitutePunePage() {
               specialists across Physics, Chemistry, Biology and Mathematics:
             </p>
             <ul>
-              <li><strong>Dilip Sir</strong> — Mathematics; IIT Kanpur, IIM Ahmedabad, JEE AIR 400.</li>
-              <li><strong>Sourav Sir</strong> — Physics; IIT Bombay.</li>
-              <li><strong>Agarwal Sir</strong> — Chemistry; PhD in Education Psychology, IIT Bombay, B.Tech Chemical Engineering, ICT Mumbai.</li>
-              <li><strong>Dr. Todkar</strong> — Biology; NEET Biology specialist.</li>
-              <li><strong>Dr. Urmila</strong> — Chemistry; PhD, IISER Pune.</li>
-              <li><strong>Dr. Mrinmayee</strong> — Chemistry; PhD, IISER Pune.</li>
-              <li><strong>Shivangi Saxena</strong> — Chemistry; BE, MIT.</li>
-              <li><strong>Dr. Aditi</strong> — Biology; AIIMS, medical specialist.</li>
+              <li><strong>Dilip Sir</strong> — Mathematics; B.Tech, IIT Kanpur, MBA, IIM Ahmedabad, AIR 400.</li>
+              <li><strong>Agarwal Sir</strong> — Mathematics & Physics; PhD, IIT Bombay.</li>
+              <li><strong>Dr. Mrinmayee</strong> — Chemistry; PhD, IIT Kharagpur.</li>
+              <li><strong>Dr. Todkar</strong> — Biology; General Physician, NEET Biology expert.</li>
+              <li><strong>Dr. Urmila</strong> — Chemistry & Science; PhD, IISER Pune.</li>
+              <li><strong>Kamble Sir</strong> — Mathematics; M.Tech, IIT Bombay, IOQM / AMC-8 / AMC-10 / AMC-12 coach.</li>
+              <li><strong>Priya Madam</strong> — Biology; B.E., Pune University.</li>
+              <li><strong>Shivangi Madam</strong> — Science; B.E., Pune University.</li>
             </ul>
 
             {/* ============ BOARD COMPARISON ============ */}
