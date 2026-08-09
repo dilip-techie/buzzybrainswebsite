@@ -6,10 +6,10 @@ import type { Track } from '@/lib/olympiad/data';
 
 export type { Track };
 
-const colorMap: Record<Track['color'], { chip: string; ring: string; dot: string }> = {
-  brand: { chip: 'bg-oly-brand-50 text-oly-brand-600', ring: 'group-hover:border-oly-brand-500', dot: 'bg-oly-brand-500' },
-  amber: { chip: 'bg-oly-amber/15 text-oly-amber-dark', ring: 'group-hover:border-oly-amber', dot: 'bg-oly-amber' },
-  sky: { chip: 'bg-oly-sky-light/20 text-oly-sky', ring: 'group-hover:border-oly-sky', dot: 'bg-oly-sky' },
+const colorMap: Record<Track['color'], { glow: string; accent: string; dot: string }> = {
+  brand: { glow: '37,71,204', accent: 'linear-gradient(135deg,#2547CC,#7C3AED)', dot: 'bg-oly-brand-500' },
+  amber: { glow: '242,169,60', accent: 'linear-gradient(135deg,#F2A93C,#D98E1F)', dot: 'bg-oly-amber' },
+  sky: { glow: '90,163,222', accent: 'linear-gradient(135deg,#5AA3DE,#2547CC)', dot: 'bg-oly-sky' },
 };
 
 export default function TrackGrid({
@@ -51,10 +51,11 @@ export default function TrackGrid({
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.5, delay: (i % 6) * 0.08 }}
-                className={`group scroll-mt-[140px] flex h-full flex-col rounded-3xl border-2 border-oly-line bg-white p-7 shadow-oly-card transition-colors duration-300 ${c.ring}`}
+                style={{ '--glow': c.glow, '--oly-accent': c.accent } as React.CSSProperties}
+                className="oly-glow-card group scroll-mt-[140px] flex h-full flex-col p-7"
               >
                 <div className="flex items-start justify-between">
-                  <span className={`inline-block rounded-lg px-3 py-1.5 font-mono text-[13px] font-bold ${c.chip}`}>{t.code}</span>
+                  <span className="oly-glow-chip rounded-lg px-3 py-1.5 font-mono text-[13px] font-bold">{t.code}</span>
                   <ArrowUpRight size={18} className="text-oly-ink/30 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </div>
 
@@ -75,7 +76,7 @@ export default function TrackGrid({
 
                 <div className="mt-6 flex flex-wrap gap-1.5">
                   {t.topics.map((top) => (
-                    <span key={top} className="rounded-full border border-oly-line px-2.5 py-1 text-[11px] font-medium text-oly-ink/55">
+                    <span key={top} className="rounded-full border border-oly-line bg-white/70 px-2.5 py-1 text-[11px] font-medium text-oly-ink/55">
                       {top}
                     </span>
                   ))}
@@ -88,9 +89,10 @@ export default function TrackGrid({
                   </div>
                   <a
                     href={t.href ?? ctaHref}
-                    className="inline-flex w-full items-center justify-center rounded-xl border-2 border-oly-ink/10 py-3 text-[14px] font-bold text-oly-ink transition-colors hover:border-oly-brand-500 hover:text-oly-brand-600"
+                    className="oly-glow-btn inline-flex w-full items-center justify-center gap-1.5 rounded-xl py-3 text-[14px] font-bold"
                   >
                     {t.href ? 'View Full Guide' : 'Learn More'}
+                    <ArrowUpRight size={15} />
                   </a>
                 </div>
               </motion.div>

@@ -8,6 +8,12 @@ function initials(name: string) {
   return name.split(' ').map((n) => n[0]).join('');
 }
 
+const GLOWS = [
+  { glow: '37,71,204', accent: 'linear-gradient(135deg,#2547CC,#7C3AED)' },
+  { glow: '242,169,60', accent: 'linear-gradient(135deg,#F2A93C,#D98E1F)' },
+  { glow: '90,163,222', accent: 'linear-gradient(135deg,#5AA3DE,#2547CC)' },
+];
+
 export default function Faculty({
   title = "Mentors who've sat where your child is sitting.",
   subtitle = 'Every lead mentor is an IIT alumnus who has personally coached students through IOQM, AMC and JEE Mathematics.',
@@ -31,26 +37,30 @@ export default function Faculty({
         </div>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-3">
-          {faculty.map((f, i) => (
-            <motion.div
-              key={f.name}
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="oly-card p-6 text-center"
-            >
-              <div className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-gradient-to-br from-oly-brand-500 to-oly-brand-700 font-display text-lg font-bold text-white">
-                {initials(f.name)}
-              </div>
-              <h3 className="mt-4 text-[15px] font-bold text-oly-ink">{f.name}</h3>
-              <p className="mt-1 text-[12.5px] font-semibold text-oly-brand-500">{f.role}</p>
-              <p className="mt-2.5 text-[12.5px] leading-relaxed text-oly-ink/55">{f.creds}</p>
-              <div className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-oly-brand-50 px-3 py-1 font-mono text-[11px] font-bold text-oly-brand-600">
-                {f.badge}
-              </div>
-            </motion.div>
-          ))}
+          {faculty.map((f, i) => {
+            const c = GLOWS[i % GLOWS.length];
+            return (
+              <motion.div
+                key={f.name}
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
+                style={{ '--glow': c.glow, '--oly-accent': c.accent } as React.CSSProperties}
+                className="oly-glow-card p-6 text-center"
+              >
+                <div className="oly-glow-icon mx-auto grid h-16 w-16 place-items-center rounded-2xl font-display text-lg font-bold text-white">
+                  {initials(f.name)}
+                </div>
+                <h3 className="mt-4 text-[15px] font-bold text-oly-ink">{f.name}</h3>
+                <p className="mt-1 text-[12.5px] font-semibold text-oly-brand-500">{f.role}</p>
+                <p className="mt-2.5 text-[12.5px] leading-relaxed text-oly-ink/55">{f.creds}</p>
+                <div className="oly-glow-chip mt-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[11px] font-bold">
+                  {f.badge}
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

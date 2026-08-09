@@ -1753,3 +1753,50 @@ button{font-family:inherit;cursor:pointer}
   transition:border-color .15s ease;
 }
 .oly-field-input:focus{border-color:var(--color-oly-brand-500);outline:none}
+
+/* ---- Premium gradient-glow cards (track/exam cards, faculty cards) ---- */
+.oly-glow-card{
+  --glow:37,71,204;
+  position:relative;isolation:isolate;overflow:hidden;
+  border-radius:24px;
+  background:linear-gradient(165deg, rgba(var(--glow),.14) 0%, rgba(var(--glow),.03) 45%, #fff 78%);
+  border:1px solid rgba(var(--glow),.28);
+  box-shadow:0 14px 30px -12px rgba(var(--glow),.28);
+  transition:transform .4s cubic-bezier(.22,.9,.28,1),box-shadow .4s cubic-bezier(.22,.9,.28,1),border-color .4s;
+}
+.oly-glow-card::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:4px;z-index:1;
+  background:var(--oly-accent,linear-gradient(90deg,#2547CC,#7C3AED));
+}
+.oly-glow-card::after{
+  content:"";position:absolute;top:-64px;right:-64px;width:190px;height:190px;border-radius:50%;
+  background:var(--oly-accent,linear-gradient(90deg,#2547CC,#7C3AED));
+  opacity:.2;filter:blur(8px);z-index:0;pointer-events:none;
+  transition:opacity .45s cubic-bezier(.22,.9,.28,1),transform .55s cubic-bezier(.22,.9,.28,1);
+}
+.oly-glow-card:hover{
+  transform:translateY(-9px);
+  border-color:rgba(var(--glow),.55);
+  box-shadow:0 26px 52px -12px rgba(var(--glow),.45);
+}
+.oly-glow-card:hover::after{opacity:.38;transform:scale(1.18) translate(-8px,8px)}
+.oly-glow-card > *{position:relative;z-index:1}
+
+.oly-glow-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--oly-accent,linear-gradient(90deg,#2547CC,#7C3AED));
+  color:#fff;box-shadow:0 8px 18px -6px rgba(var(--glow),.55);
+}
+.oly-glow-icon{
+  background:var(--oly-accent,linear-gradient(135deg,#2547CC,#7C3AED));
+  box-shadow:0 10px 22px -6px rgba(var(--glow),.55);
+  transition:transform .4s cubic-bezier(.22,.9,.28,1);
+}
+.oly-glow-card:hover .oly-glow-icon{transform:scale(1.08) rotate(-4deg)}
+.oly-glow-btn{
+  background:var(--oly-accent,linear-gradient(90deg,#2547CC,#7C3AED));
+  color:#fff !important;border:none !important;
+  box-shadow:0 10px 24px -8px rgba(var(--glow),.55);
+  transition:transform .3s,box-shadow .3s,gap .3s;
+}
+.oly-glow-btn:hover{transform:translateY(-2px);box-shadow:0 16px 32px -8px rgba(var(--glow),.65);gap:10px}
