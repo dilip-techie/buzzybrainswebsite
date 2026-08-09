@@ -143,7 +143,6 @@ const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: b
   { text: '✅ Personal Attention Guaranteed', href: '/admissions' },
   { text: '⭐ Consistently Rated #1 by Parents and Students', href: 'https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews', external: true },
   { text: '🏆 Olympiad Batches Open', href: '/olympiads' },
-  { text: '💻 Code Ninja: Coding Lab Now Open', href: '/coding-lab' },
   { text: 'Online & Offline Batches', live: true, href: '/admissions' },
   { text: '🧑‍🏫 1-on-1 Classes Available Now', href: '/one-on-one' },
   { text: '📍 Available Near Amanora Mall, Pune', href: 'https://maps.app.goo.gl/gANY66SQFDgVajtf8', external: true },
