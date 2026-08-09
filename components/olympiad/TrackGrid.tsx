@@ -11,10 +11,10 @@ import type { Track } from '@/lib/olympiad/data';
 
 export type { Track };
 
-const colorMap: Record<Track['color'], { glow: string; accent: string; dot: string; tint: string }> = {
-  brand: { glow: '37,71,204', accent: 'linear-gradient(135deg,#2547CC,#7C3AED)', dot: 'bg-oly-brand-500', tint: 'bg-oly-brand-50 text-oly-brand-700' },
-  amber: { glow: '242,169,60', accent: 'linear-gradient(135deg,#F2A93C,#D98E1F)', dot: 'bg-oly-amber', tint: 'bg-oly-amber/12 text-oly-amber-dark' },
-  sky: { glow: '90,163,222', accent: 'linear-gradient(135deg,#5AA3DE,#2547CC)', dot: 'bg-oly-sky', tint: 'bg-oly-sky-light/25 text-oly-brand-700' },
+const colorMap: Record<Track['color'], { glow: string; accent: string; solid: string }> = {
+  brand: { glow: '37,71,204', accent: 'linear-gradient(135deg,#3B5FE0,#7C3AED)', solid: '#2547CC' },
+  amber: { glow: '217,142,31', accent: 'linear-gradient(135deg,#F2A93C,#C2790F)', solid: '#B8720E' },
+  sky: { glow: '37,110,199', accent: 'linear-gradient(135deg,#5AA3DE,#2547CC)', solid: '#2576C7' },
 };
 
 const TRACK_ICONS: Record<string, LucideIcon> = {
@@ -72,7 +72,7 @@ export default function TrackGrid({
           <p className="mt-4 text-[16px] leading-relaxed text-oly-ink/60">{subtitle}</p>
         </div>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
           {tracks.map((t, i) => {
             const c = colorMap[t.color];
             const TrackIcon = TRACK_ICONS[t.id] ?? Sparkles;
@@ -80,65 +80,65 @@ export default function TrackGrid({
               <motion.div
                 key={t.id}
                 id={t.id}
-                initial={{ opacity: 0, y: 24 }}
+                initial={{ opacity: 0, y: 28 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.5, delay: (i % 6) * 0.08 }}
-                style={{ '--glow': c.glow, '--oly-accent': c.accent } as React.CSSProperties}
-                className="oly-glow-card group scroll-mt-[140px] flex h-full flex-col p-7"
+                transition={{ duration: 0.55, delay: (i % 6) * 0.08 }}
+                style={{ '--glow': c.glow, '--oly-accent': c.accent, '--oly-solid': c.solid } as React.CSSProperties}
+                className="oly-track-card group scroll-mt-[140px] flex h-full flex-col"
               >
-                {/* Faded watermark icon for depth */}
-                <TrackIcon
-                  size={128}
-                  strokeWidth={1.1}
-                  className="pointer-events-none absolute -right-6 -top-6 text-oly-ink/[0.05] transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3"
-                  aria-hidden
-                />
+                <div className="oly-track-shine" />
 
-                <div className="flex items-start justify-between">
-                  <span className="oly-glow-icon grid h-12 w-12 shrink-0 place-items-center rounded-2xl text-white">
-                    <TrackIcon size={22} strokeWidth={2.2} />
-                  </span>
-                  <ArrowUpRight size={18} className="mt-1 text-oly-ink/30 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                <div className="oly-track-banner">
+                  <span className="oly-track-numeral">{String(i + 1).padStart(2, '0')}</span>
+                  <div className="oly-track-top-row">
+                    <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-white/90">{t.code}</span>
+                    <ArrowUpRight size={18} className="oly-track-arrow transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
                 </div>
 
-                <span className="mt-5 text-[11px] font-bold uppercase tracking-[0.12em] text-oly-ink/40">{t.code}</span>
-                <h3 className="mt-1 text-[18px] font-bold leading-snug text-oly-ink">{t.name}</h3>
-                <p className="mt-1.5 text-[13.5px] font-semibold text-oly-ink/45">{t.grades}</p>
-                <p className="mt-4 text-[14px] leading-relaxed text-oly-ink/65">{t.blurb}</p>
+                <div className="oly-track-badge">
+                  <TrackIcon size={26} strokeWidth={2.2} color={c.solid} />
+                </div>
 
-                {t.meta.length > 0 && (
-                  <div className="mt-6 flex flex-wrap gap-2">
-                    {t.meta.map(([k, v]) => (
-                      <div key={k} className={`rounded-xl px-3 py-2 ${c.tint}`}>
-                        <div className="text-[9.5px] font-bold uppercase tracking-[0.1em] opacity-70">{k}</div>
-                        <div className="mt-0.5 font-mono text-[12.5px] font-bold leading-snug">{v}</div>
-                      </div>
+                <div className="oly-track-body flex flex-1 flex-col">
+                  <h3 className="mt-1 text-[19px] font-bold leading-snug text-oly-ink">{t.name}</h3>
+                  <p className="mt-1 text-[12.5px] font-semibold uppercase tracking-[0.06em] text-oly-ink/40">{t.grades}</p>
+                  <p className="mt-4 text-[14px] leading-relaxed text-oly-ink/65">{t.blurb}</p>
+
+                  {t.meta.length > 0 && (
+                    <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3">
+                      {t.meta.map(([k, v]) => (
+                        <div key={k} className="oly-track-stat">
+                          <div className="text-[9.5px] font-bold uppercase tracking-[0.1em] text-oly-ink/40">{k}</div>
+                          <div className="mt-0.5 font-mono text-[12.5px] font-bold leading-snug text-oly-ink/85">{v}</div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  <div className="mt-6 flex flex-wrap gap-1.5">
+                    {t.topics.map((top) => (
+                      <span key={top} className="oly-track-tag">
+                        <span className="h-1.5 w-1.5 rounded-full" style={{ background: c.solid }} />
+                        {top}
+                      </span>
                     ))}
                   </div>
-                )}
 
-                <div className="mt-6 flex flex-wrap gap-1.5 border-t border-oly-line pt-5">
-                  {t.topics.map((top) => (
-                    <span key={top} className="inline-flex items-center gap-1.5 rounded-full border border-oly-line bg-white px-2.5 py-1 text-[11px] font-semibold text-oly-ink/60">
-                      <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
-                      {top}
-                    </span>
-                  ))}
-                </div>
-
-                <div className="mt-auto pt-6">
-                  <div className="mb-4 flex items-start gap-2 text-[12.5px] font-semibold text-oly-ink/70">
-                    <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-oly-success" />
-                    {t.outcome}
+                  <div className="mt-auto border-t border-oly-line/70 pt-5">
+                    <div className="mb-4 flex items-start gap-2 text-[12.5px] font-semibold text-oly-ink/70">
+                      <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-oly-success" />
+                      {t.outcome}
+                    </div>
+                    <a
+                      href={t.href ?? ctaHref}
+                      className="oly-glow-btn inline-flex w-full items-center justify-center gap-1.5 rounded-xl py-3 text-[14px] font-bold"
+                    >
+                      {t.href ? 'View Full Guide' : 'Learn More'}
+                      <ArrowUpRight size={15} />
+                    </a>
                   </div>
-                  <a
-                    href={t.href ?? ctaHref}
-                    className="oly-glow-btn inline-flex w-full items-center justify-center gap-1.5 rounded-xl py-3 text-[14px] font-bold"
-                  >
-                    {t.href ? 'View Full Guide' : 'Learn More'}
-                    <ArrowUpRight size={15} />
-                  </a>
                 </div>
               </motion.div>
             );
