@@ -1,7 +1,8 @@
 'use client';
 
 import { Hash, GraduationCap, Users, Timer, Ban, Trophy, ClipboardCheck } from 'lucide-react';
-import HeroGeneric from '@/components/olympiad/HeroGeneric';
+import HeroBrand from '@/components/olympiad/HeroBrand';
+import IoqmHeroVisual from '@/components/olympiad/IoqmHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
@@ -25,14 +26,23 @@ const stats: StatItem[] = [
 export default function IoqmCoachingPunePage() {
   return (
     <main className="oly-page">
-      <HeroGeneric
-        eyebrow="🚀 IOQM 2027 Batch Open · Grades 8–12"
-        title="Master IOQM,"
-        highlight="India's toughest maths qualifier."
-        description="A dedicated IOQM track — integer-answer problem solving across Number Theory, Algebra, Geometry and Combinatorics, mentored by IIT alumni, in batches capped at 12. Seats for the 2027 batch are open now. Clear IOQM and you're in line for INMO."
-        stats={[['25+', 'Years teaching'], ['12', 'Max batch size'], ['30', 'Questions, 3 hrs']]}
-        exploreHref="#oly-topics"
-        exploreLabel="Explore the Syllabus"
+      <HeroBrand
+        badges={['🚀 IOQM 2027 Batch Open', '📍 Grades 8–12']}
+        titleLines={['Crack IOQM.', 'Earn Your Shot at']}
+        highlight="INMO."
+        taglineSub="🎯 India's Toughest Maths Qualifier"
+        lede="A dedicated IOQM track — integer-answer problem solving across Number Theory, Algebra, Geometry and Combinatorics, mentored by IIT alumni, in batches capped at 12. Seats for the 2027 batch are open now."
+        chips={[
+          { label: 'Number Theory', color: '#2563EB' },
+          { label: 'Algebra', color: '#7C3AED' },
+          { label: 'Geometry', color: '#F59E0B' },
+          { label: 'Combinatorics', color: '#10B981' },
+        ]}
+        ctaLabel="Book Free Demo"
+        secondaryHref="#oly-topics"
+        secondaryLabel="Explore the Syllabus"
+        proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}
+        visual={<IoqmHeroVisual />}
       />
       <TrustBar stats={stats} />
       <TrackGrid

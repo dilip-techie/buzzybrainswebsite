@@ -1,7 +1,8 @@
 'use client';
 
 import { Medal, GraduationCap, Users, Layers, ListChecks, BrainCircuit, ClipboardCheck } from 'lucide-react';
-import HeroGeneric from '@/components/olympiad/HeroGeneric';
+import HeroBrand from '@/components/olympiad/HeroBrand';
+import SofHeroVisual from '@/components/olympiad/SofHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
@@ -24,14 +25,23 @@ const stats: StatItem[] = [
 export default function SofImoCoachingPunePage() {
   return (
     <main className="oly-page">
-      <HeroGeneric
-        eyebrow="SOF · Grades 1–12"
-        title="Every SOF olympiad,"
-        highlight="one accessible starting point."
-        description="Structured coaching for all four Science Olympiad Foundation exams — IMO (Maths), NSO (Science), IEO (English) and IGKO (General Knowledge) — mentored by IIT/IISER alumni, in batches capped at 12."
-        stats={[['4', 'SOF exams'], ['12', 'Max batch size'], ['25+', 'Years teaching']]}
-        exploreHref="#oly-exams"
-        exploreLabel="Explore the SOF Exams"
+      <HeroBrand
+        badges={['⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
+        titleLines={['Every SOF Exam.', 'One Confident']}
+        highlight="Start."
+        taglineSub="🏅 IMO · NSO · IEO · IGKO"
+        lede="Structured coaching for all four Science Olympiad Foundation exams — IMO (Maths), NSO (Science), IEO (English) and IGKO (General Knowledge) — mentored by IIT/IISER alumni, in batches capped at 12."
+        chips={[
+          { label: 'Mathematics', color: '#2563EB' },
+          { label: 'Science', color: '#10B981' },
+          { label: 'English', color: '#F59E0B' },
+          { label: 'General Knowledge', color: '#7C3AED' },
+        ]}
+        ctaLabel="Book Free Demo"
+        secondaryHref="#oly-exams"
+        secondaryLabel="Explore the SOF Exams"
+        proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}
+        visual={<SofHeroVisual />}
       />
       <TrustBar stats={stats} />
       <TrackGrid
