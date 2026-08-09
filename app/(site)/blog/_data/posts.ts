@@ -15351,6 +15351,575 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'nmtc-preparation-primary-sub-junior-class-5-7',
+    title: 'How to Prepare for NMTC: Primary & Sub-Junior Levels (Class 5–7)',
+    description:
+      "NMTC's Primary and Sub-Junior levels are a young student's first real taste of proof-and-reasoning mathematics. Here's what each level actually tests and how to prepare, grade by grade.",
+    category: 'olympiad',
+    datePublished: '2026-08-06',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'The National Mathematics Talent Contest (NMTC), conducted by the Association of Mathematics Teachers of India (AMTI), is organized into five levels by class — Primary (Class 5), Sub-Junior (Class 6-7), Junior (Class 8-9), Inter (Class 10-11) and Senior (Class 11-12). Unlike a single fixed-syllabus exam, this level structure means a Class 5 student and a Class 7 student are tested quite differently, even though both fall under "early NMTC."',
+      },
+      { kind: 'h2', text: 'NMTC Levels at a Glance' },
+      {
+        kind: 'table',
+        headers: ['Level', 'Class', 'Focus'],
+        rows: [
+          ['Primary', 'Class 5', 'Arithmetic reasoning, basic logic, pattern recognition'],
+          ['Sub-Junior', 'Class 6–7', 'Number properties, elementary geometry, structured problem-solving'],
+          ['Junior', 'Class 8–9', 'Early algebra, number theory, combinatorics'],
+        ],
+      },
+      { kind: 'h2', text: 'What Primary Level (Class 5) Actually Tests' },
+      {
+        kind: 'p',
+        text: 'Primary-level NMTC leans on arithmetic fluency, logical puzzles and pattern-based reasoning rather than formal algebra. The goal at this stage is not speed, but the habit of reading a problem carefully and reasoning through it step by step — a skill school arithmetic drills rarely build directly.',
+      },
+      { kind: 'h2', text: 'What Sub-Junior Level (Class 6–7) Adds' },
+      {
+        kind: 'p',
+        text: 'Sub-Junior introduces elementary geometry (angles, basic properties of shapes), number properties (factors, multiples, divisibility) and slightly longer, multi-step problems. A student moving from Class 6 to Class 7 should notice the questions demanding more structured written reasoning, not just a final numeric answer.',
+      },
+      { kind: 'h2', text: 'A Realistic Preparation Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Start with pattern and logic puzzles, not textbook algebra — these build the reasoning instinct NMTC actually rewards at this level.',
+          'Introduce basic number theory (factors, multiples, primes) and elementary geometry gradually through Class 6–7, rather than all at once.',
+          'Practice explaining an answer in words or written steps, not just circling a final number — Part B of NMTC expects worked solutions, not just answers.',
+          'Keep sessions short and frequent rather than long and infrequent; at this age, consistency beats intensity.',
+        ],
+      },
+      {
+        kind: 'p',
+        text: 'A student who builds this foundation comfortably in Class 5–7 typically finds the Junior level (Class 8–9) — and eventually IOQM-track preparation from Class 8 onward — a natural next step rather than an intimidating jump.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a Class 5 student attempt NMTC without any prior olympiad exposure?',
+        answer: 'Yes — Primary level is specifically designed as an accessible entry point, testing reasoning and pattern recognition built on school-level arithmetic rather than assuming any prior olympiad training.',
+      },
+      {
+        question: 'How is NMTC different from SOF IMO at this age?',
+        answer: 'SOF IMO is multiple-choice and broadly accessible; NMTC includes a written component (Part B) requiring explained, step-by-step solutions even at the Primary and Sub-Junior levels, which builds a different, more rigorous reasoning habit.',
+      },
+      {
+        question: 'How much time should a Class 6–7 student spend on NMTC prep weekly?',
+        answer: 'Two to three focused sessions a week of 45–60 minutes each is realistic and sustainable at this age — the goal is steady habit-building, not cramming.',
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-preparation-junior-level-class-8-9',
+    title: 'How to Prepare for NMTC: Junior Level (Class 8–9)',
+    description:
+      "NMTC Junior level (Class 8-9) is where the exam starts to genuinely resemble IOQM-style reasoning. Here's what changes at this level and how to prepare for it.",
+    category: 'olympiad',
+    datePublished: '2026-08-07',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'NMTC Junior level, for Class 8 and 9 students, marks a genuine step up from Sub-Junior — early algebra, number theory and combinatorics start appearing alongside geometry, and the written Part B expects more complete, structured solutions rather than short explanations.',
+      },
+      { kind: 'h2', text: 'What Changes at Junior Level' },
+      {
+        kind: 'ul',
+        items: [
+          'Early algebra — linear equations, basic identities, and simple inequalities used as problem-solving tools.',
+          'Number theory — divisibility rules, prime factorization, and introductory modular reasoning.',
+          'Combinatorics — basic counting principles and structured "how many ways" problems.',
+          'Geometry — angle chasing and properties of triangles and circles, applied rather than just recalled.',
+        ],
+      },
+      { kind: 'h2', text: 'Class 8 vs Class 9: A Grade-Wise Difference' },
+      {
+        kind: 'p',
+        text: 'A Class 8 student attempting Junior level for the first time should focus primarily on building comfort with the four topic areas above, without worrying yet about speed. A Class 9 student — especially one who has already sat Junior level once — should shift toward timed practice and past-paper problem sets, since Class 9 is also typically the year a student becomes IOQM-eligible, and the two exams reward closely related skills.',
+      },
+      { kind: 'h2', text: 'Why This Level Matters Beyond NMTC Itself' },
+      {
+        kind: 'p',
+        text: 'Junior-level NMTC and IOQM overlap heavily in the skills they test — number theory, algebra, combinatorics and geometry, reasoned through rather than pattern-matched. A student who takes Junior-level NMTC seriously in Class 8-9 is, in effect, already building the exact foundation IOQM preparation needs from Class 8 onward.',
+      },
+      { kind: 'h2', text: 'A Practical Prep Sequence' },
+      {
+        kind: 'ul',
+        items: [
+          'Weeks 1–4: Consolidate each of the four topic areas individually, with untimed problem sets.',
+          'Weeks 5–8: Mixed problem sets combining two topic areas at once, since Junior-level questions increasingly blend techniques.',
+          'Final 3–4 weeks: Timed, full-length past-paper practice under exam conditions, including the written Part B.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Should a Class 8 student prepare for NMTC Junior and IOQM at the same time?',
+        answer: 'Yes — the topic overlap is substantial enough that most students preparing seriously for one are, in practice, already building real progress toward the other.',
+      },
+      {
+        question: 'Does NMTC Junior level require a calculator?',
+        answer: 'No — like most olympiad-level maths exams, NMTC is designed to be solved through reasoning rather than computation, and calculators are not part of the expected approach.',
+      },
+      {
+        question: 'What is the biggest jump from Sub-Junior to Junior level?',
+        answer: 'The introduction of early algebra and number theory as core tested areas, combined with a written Part B that expects genuinely complete, step-by-step solutions rather than brief working.',
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-preparation-inter-senior-class-10-12',
+    title: 'How to Prepare for NMTC: Inter & Senior Levels (Class 10–12)',
+    description:
+      "NMTC's Inter and Senior levels are proof-writing exams in every meaningful sense — the closest AMTI gets to INMO-style rigor. Here's how Class 10-12 students should prepare.",
+    category: 'olympiad',
+    datePublished: '2026-08-08',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'Inter level (Class 10-11) and Senior level (Class 11-12) are NMTC at its most demanding — genuine proof-writing, multi-step algebraic manipulation, and geometry problems that require constructing an argument, not applying a memorized theorem. At this stage, NMTC functions less like a school-adjacent competition and more like direct INMO-track training.',
+      },
+      { kind: 'h2', text: 'What Inter & Senior Levels Actually Test' },
+      {
+        kind: 'table',
+        headers: ['Area', 'What Changes at This Level'],
+        rows: [
+          ['Algebra', 'Functional equations, inequalities (AM-GM style), polynomial reasoning'],
+          ['Number Theory', 'Modular arithmetic, Diophantine-style problems'],
+          ['Geometry', 'Synthetic proof-based problems, not just angle chasing'],
+          ['Combinatorics', 'Pigeonhole principle, structured casework arguments'],
+        ],
+      },
+      { kind: 'h2', text: 'Class 10–11 vs Class 11–12: What Should Differ' },
+      {
+        kind: 'p',
+        text: 'A Class 10-11 student sitting Inter level for the first time should treat it as a direct extension of IOQM-style preparation — the topic overlap is close to complete. A Class 11-12 student at Senior level, especially one already through the INMO pipeline or preparing for it in parallel, should push toward genuinely proof-based practice: writing complete, rigorous solutions rather than just arriving at correct final answers.',
+      },
+      { kind: 'h2', text: 'Why Written Solutions Matter More Here Than Anywhere Else' },
+      {
+        kind: 'p',
+        text: 'Part B at Inter and Senior levels is graded on the completeness and rigor of the argument, not just the final answer — the same evaluation philosophy INMO uses. Students who only practice reaching correct answers, without practicing how to write a convincing, gap-free proof, consistently underperform their actual mathematical ability at this level.',
+      },
+      { kind: 'h2', text: 'A Focused Prep Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Practice writing full solutions to problems you can already solve mentally — the skill of proof-writing is distinct from the skill of finding the answer.',
+          'Review past NMTC Inter/Senior papers and INMO problems side by side to internalize the expected level of rigor.',
+          'Get solutions reviewed by a mentor who can flag logical gaps, not just wrong answers — this is where small-batch mentoring makes the most difference.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is NMTC Senior level as difficult as INMO?',
+        answer: 'It is demanding and proof-based like INMO, though generally considered a notch below INMO in difficulty — many students use Senior-level NMTC as serious, realistic practice for INMO-style rigor.',
+      },
+      {
+        question: 'Should a Class 11 student focus on NMTC or INMO-track prep?',
+        answer: 'Both, ideally in parallel — since Inter/Senior NMTC and INMO-track preparation reward almost identical skills (proof-writing, multi-step reasoning), preparing for one directly strengthens the other.',
+      },
+      {
+        question: 'How big are BuzzyBrains Academy batches for this level?',
+        answer: 'Every batch is capped at a maximum of 12 students, which matters especially at this level since proof-based solutions need individual, detailed review rather than just an answer key check.',
+      },
+    ],
+  },
+  {
+    slug: 'nsejs-preparation-class-9-starting-guide',
+    title: 'How to Prepare for NSEJS in Class 9: A Starting Guide',
+    description:
+      "For most students, Class 9 is the first serious encounter with NSEJS. Here's a realistic starting guide to the exam, what it tests, and how a first-time Class 9 student should prepare.",
+    category: 'olympiad',
+    datePublished: '2026-08-09',
+    readingMinutes: 7,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'SOF & Science Olympiad Programs',
+    body: [
+      {
+        kind: 'answer',
+        text: 'NSEJS (National Standard Examination in Junior Science), conducted by IAPT, is open to Class 9 and 10 students and tests Physics, Chemistry, Biology and Mathematics fundamentals through a multiple-choice paper with negative marking. It is the entry stage to India\'s national-standard science olympiad pipeline — clearing it is a genuine stepping stone toward the senior NSE exams (NSEP, NSEC, NSEB) in Class 11-12.',
+      },
+      { kind: 'h2', text: 'Why Class 9 Is the Right Time to Start' },
+      {
+        kind: 'p',
+        text: 'Class 9 is when most students first become eligible for NSEJS, and starting here — even without expecting to clear the cutoff on the first attempt — builds real familiarity with the exam\'s style: multi-subject, application-focused questions under negative marking, quite different from a single-subject school test.',
+      },
+      { kind: 'h2', text: 'What the Exam Actually Covers' },
+      {
+        kind: 'ul',
+        items: [
+          'Physics — mechanics, light, basic electricity, applied at a level slightly beyond the school syllabus.',
+          'Chemistry — basic chemical concepts, applied reasoning over rote formulae.',
+          'Biology — human biology, ecology and genetics fundamentals.',
+          'Mathematics — applied problem-solving that supports the science questions rather than standing entirely alone.',
+        ],
+      },
+      { kind: 'h2', text: 'A Realistic First-Attempt Strategy' },
+      {
+        kind: 'p',
+        text: 'Because NSEJS uses negative marking, a first-time Class 9 student should prioritize accuracy over attempting every question — guessing on questions with no real basis for elimination usually costs more than it gains. The most useful first-attempt goal is honest self-assessment: which of the four subject areas needs the most work before Class 10.',
+      },
+      { kind: 'h2', text: 'Building Toward Class 10' },
+      {
+        kind: 'p',
+        text: 'A Class 9 student who takes this diagnostic approach seriously enters Class 10 — the final and most important NSEJS attempt — with a clear, specific list of weak areas to address, rather than starting preparation from scratch under exam pressure.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is NSEJS the same as a general Science Olympiad like NSO?',
+        answer: 'No — NSEJS is a more rigorous, national-level exam conducted by IAPT that feeds directly into the senior NSE science olympiad pipeline (NSEP, NSEC, NSEB), distinct from broader school-level science olympiads aimed at a wider range of grades.',
+      },
+      {
+        question: 'Does NSEJS have negative marking?',
+        answer: 'Yes — unlike IOQM, NSEJS penalizes incorrect answers, so guessing without any basis for elimination is a weaker strategy than leaving a genuinely uncertain question unanswered.',
+      },
+      {
+        question: 'Can a Class 9 student attempt NSEJS again in Class 10?',
+        answer: 'Yes — NSEJS is open to both Class 9 and Class 10 students, and many students treat their Class 9 attempt as a diagnostic before a more serious Class 10 attempt.',
+      },
+    ],
+  },
+  {
+    slug: 'nsejs-preparation-class-10-final-year-strategy',
+    title: 'How to Prepare for NSEJS in Class 10: Final-Year Strategy',
+    description:
+      "Class 10 is the last window for NSEJS before the exam becomes unavailable. Here's how final-year preparation should differ from a first Class 9 attempt.",
+    category: 'olympiad',
+    datePublished: '2026-08-10',
+    readingMinutes: 7,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'SOF & Science Olympiad Programs',
+    body: [
+      {
+        kind: 'p',
+        text: 'Class 10 is the final year of NSEJS eligibility, which changes the preparation calculus entirely. A Class 9 attempt can reasonably be diagnostic; a Class 10 attempt should be treated as the real one — the last chance to clear NSEJS and enter the pipeline toward NSEP, NSEC and NSEB in Class 11-12.',
+      },
+      { kind: 'h2', text: 'What Should Be Different from Class 9 Prep' },
+      {
+        kind: 'ul',
+        items: [
+          'Targeted revision, not broad exploration — by Class 10, a student should already know their weaker subject areas and spend most preparation time there.',
+          'Full-length timed mocks under negative-marking conditions, to build honest, pressure-tested judgment about which questions to attempt.',
+          'Cross-subject integration — Class 10 NSEJS questions often connect concepts across Physics, Chemistry and Biology more than a first attempt might expect.',
+        ],
+      },
+      { kind: 'h2', text: 'Balancing NSEJS with Board Exam Preparation' },
+      {
+        kind: 'p',
+        text: 'Class 10 is also board exam year, which genuinely competes for a student\'s time. The practical approach is not to treat NSEJS prep as separate, extra work, but to lean on the real overlap — strong Class 10 Science and Maths board preparation already covers a meaningful share of what NSEJS tests, so targeted olympiad-style practice on top of solid board preparation is usually enough, rather than a second full curriculum.',
+      },
+      { kind: 'h2', text: 'What Clearing NSEJS in Class 10 Actually Opens Up' },
+      {
+        kind: 'p',
+        text: 'Clearing NSEJS is the entry ticket to the senior National Standard Examinations — NSEP (Physics), NSEC (Chemistry) and NSEB (Biology) — which a student becomes eligible for from Class 11, eventually leading toward INPhO, INChO and INBO for students who continue seriously down this path.',
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens if a student doesn\'t clear NSEJS by Class 10?',
+        answer: 'NSEJS itself is only open through Class 10, but this doesn\'t close the science olympiad pipeline — NSEP, NSEC and NSEB (the Class 11-12 stage exams) have their own independent eligibility and can still be attempted directly.',
+      },
+      {
+        question: 'How much weekly time should a Class 10 student give to NSEJS prep?',
+        answer: 'Given board exam demands, 3–4 hours a week of targeted, weak-area-focused practice is more realistic and sustainable than an intensive separate curriculum.',
+      },
+      {
+        question: 'Is coaching available alongside board exam preparation?',
+        answer: 'Yes — every BuzzyBrains Academy batch is capped at 12 students, which allows sessions to be structured around what a student specifically needs rather than a one-size-fits-all schedule.',
+      },
+    ],
+  },
+  {
+    slug: 'nsep-physics-olympiad-preparation-guide',
+    title: 'How to Prepare for NSEP: Physics Olympiad Guide for Class 11 & 12',
+    description:
+      "NSEP is the first stage of India's Physics Olympiad pipeline toward IPhO. Here's what it tests and how Class 11 and Class 12 students should approach it differently.",
+    category: 'olympiad',
+    datePublished: '2026-08-11',
+    readingMinutes: 8,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'Science Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'NSEP (National Standard Examination in Physics), conducted by IAPT, is the first stage of India\'s physics olympiad pipeline — clear it, and a student proceeds to INPhO (Indian National Physics Olympiad), then an orientation-cum-selection camp, and eventually the International Physics Olympiad (IPhO) for those who make the final team.',
+      },
+      { kind: 'h2', text: 'What NSEP Tests' },
+      {
+        kind: 'p',
+        text: 'NSEP is a multiple-choice paper covering the full breadth of Class 11-12 physics — mechanics, electricity and magnetism, optics, thermodynamics and modern physics — but applied at a level that rewards genuine conceptual depth over formula recall. It uses negative marking, so accuracy matters as much as coverage.',
+      },
+      { kind: 'h2', text: 'Class 11 vs Class 12: A Grade-Wise Approach' },
+      {
+        kind: 'table',
+        headers: ['', 'Class 11', 'Class 12'],
+        rows: [
+          ['Runway', 'Full two attempts possible', 'Final attempt'],
+          ['Focus', 'Build conceptual depth across all topics', 'Targeted revision + timed practice'],
+          ['Overlap', 'Strong overlap with JEE Physics foundation', 'Overlaps with JEE Advanced-level depth'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: 'A Class 11 student has the luxury of two possible attempts (Class 11 and Class 12), so the priority is building genuine depth across the full syllabus rather than rushing. A Class 12 student, often on their final or most serious attempt, should shift toward full-length timed mocks and closing specific topic gaps rather than broad new learning.',
+      },
+      { kind: 'h2', text: 'Why NSEP Prep Also Strengthens JEE Physics' },
+      {
+        kind: 'p',
+        text: 'NSEP and JEE Advanced-level physics reward closely related skills — conceptual flexibility over formula plug-in. Students preparing seriously for NSEP typically find their JEE Physics performance improves as a side effect, not because the exams are identical, but because both reward the same habit of reasoning through unfamiliar problem setups.',
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens after clearing NSEP?',
+        answer: 'Students who clear the NSEP cutoff qualify for INPhO (Indian National Physics Olympiad). Strong INPhO performers are invited to an orientation-cum-selection camp that eventually determines India\'s team for the International Physics Olympiad (IPhO).',
+      },
+      {
+        question: 'Does NSEP overlap with JEE Physics preparation?',
+        answer: 'Significantly — both reward deep conceptual understanding over formula recall, so serious NSEP preparation and strong JEE Physics preparation reinforce each other rather than competing for separate study time.',
+      },
+      {
+        question: 'Is NSEP open to Class 10 students?',
+        answer: 'No — NSEP is designed for Class 11-12 students; younger students build toward it through NSEJS (Class 9-10) and general Physics-track olympiad preparation.',
+      },
+    ],
+  },
+  {
+    slug: 'nsec-chemistry-olympiad-preparation-guide',
+    title: 'How to Prepare for NSEC: Chemistry Olympiad Guide for Class 11 & 12',
+    description:
+      "NSEC is the entry stage of India's Chemistry Olympiad pipeline toward IChO. Here's what it tests and how Class 11 and Class 12 students should prepare differently.",
+    category: 'olympiad',
+    datePublished: '2026-08-12',
+    readingMinutes: 8,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'Science Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'NSEC (National Standard Examination in Chemistry), conducted by IAPT, is the first stage of India\'s chemistry olympiad pipeline. Clearing it leads to INChO (Indian National Chemistry Olympiad), a selection camp, and ultimately the International Chemistry Olympiad (IChO) for students who make the final team.',
+      },
+      { kind: 'h2', text: 'What NSEC Tests' },
+      {
+        kind: 'p',
+        text: 'NSEC is a multiple-choice, negative-marking paper spanning Physical, Organic and Inorganic Chemistry at a Class 11-12 level — but, like NSEP, it rewards applied conceptual understanding rather than memorized reactions and formulae alone.',
+      },
+      { kind: 'h2', text: 'Class 11 vs Class 12: A Grade-Wise Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Class 11: Build genuine conceptual foundations across all three branches — Physical, Organic and Inorganic — since NSEC weighs them fairly evenly.',
+          'Class 12: Shift to timed, full-syllabus mock papers and close the specific topic gaps a Class 11 attempt (if taken) revealed.',
+          'Both years: Treat Organic Chemistry mechanisms and Physical Chemistry numericals as ongoing practice, not one-time topics — they fade fastest without regular revisiting.',
+        ],
+      },
+      { kind: 'h2', text: 'Why Organic Chemistry Is the Common Weak Point' },
+      {
+        kind: 'p',
+        text: 'Most students preparing for NSEC underperform specifically on Organic Chemistry — not because it\'s inherently harder, but because it\'s commonly studied through memorization of named reactions rather than mechanism-based reasoning, which is exactly what NSEC-level questions test. Rebuilding Organic around mechanisms, not memorization, is usually the single highest-leverage change a student can make.',
+      },
+      { kind: 'h2', text: 'NSEC and JEE/NEET Chemistry' },
+      {
+        kind: 'p',
+        text: 'NSEC preparation overlaps meaningfully with JEE and NEET Chemistry, particularly Physical Chemistry numericals and Organic reaction mechanisms. Students preparing seriously for NSEC typically see this reflected in stronger, more concept-driven JEE/NEET Chemistry performance as well.',
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens after clearing NSEC?',
+        answer: 'Students who clear the NSEC cutoff qualify for INChO (Indian National Chemistry Olympiad). Top INChO performers attend a selection camp that determines India\'s team for the International Chemistry Olympiad (IChO).',
+      },
+      {
+        question: 'Is NSEC harder than school or JEE-level Chemistry?',
+        answer: 'It tests similar content to JEE Chemistry but rewards deeper conceptual and mechanism-based reasoning over formula or reaction memorization, making rote-learned preparation less effective than it is for board exams.',
+      },
+      {
+        question: 'How should a student split time between Physical, Organic and Inorganic for NSEC?',
+        answer: 'Roughly even attention across all three is advisable since NSEC weighs them fairly evenly, though Organic usually needs the most deliberate rebuilding around mechanisms rather than memorized facts.',
+      },
+    ],
+  },
+  {
+    slug: 'nseb-biology-olympiad-preparation-guide',
+    title: 'How to Prepare for NSEB: Biology Olympiad Guide for Class 11 & 12',
+    description:
+      "NSEB is the first stage of India's Biology Olympiad pipeline toward IBO. Here's what it tests and how Class 11 and Class 12 students should approach it.",
+    category: 'olympiad',
+    datePublished: '2026-08-13',
+    readingMinutes: 8,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'Science Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'NSEB (National Standard Examination in Biology), conducted by IAPT, is the entry stage of India\'s biology olympiad pipeline. Clearing it leads to INBO (Indian National Biology Olympiad), a selection camp, and the International Biology Olympiad (IBO) for students who make the final team.',
+      },
+      { kind: 'h2', text: 'What NSEB Tests' },
+      {
+        kind: 'p',
+        text: 'NSEB is a multiple-choice, negative-marking paper covering Botany, Zoology, and applied biological concepts at a depth beyond standard Class 11-12 board syllabi — including areas like ecology, genetics and physiology that boards often treat more lightly than NSEB expects.',
+      },
+      { kind: 'h2', text: 'Class 11 vs Class 12: A Grade-Wise Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Class 11: Build genuine depth in the foundational areas — cell biology, genetics, plant and animal physiology — since these underpin nearly everything tested later.',
+          'Class 12: Add ecology, evolution and applied biology topics, and move to full-length timed practice under negative-marking conditions.',
+          'Both years: Diagrams and structural detail matter — NSEB-level questions often test precise structural and functional understanding, not just definitions.',
+        ],
+      },
+      { kind: 'h2', text: 'Why NSEB Rewards NCERT Depth, Not Just Coverage' },
+      {
+        kind: 'p',
+        text: 'Many students assume NSEB requires material well beyond NCERT. In practice, a large share of the difficulty comes from testing NCERT content at genuine depth — the fine structural and functional detail most board-focused preparation skims past. Rebuilding NCERT Biology with that depth in mind is often more valuable than jumping straight to external reference material.',
+      },
+      { kind: 'h2', text: 'NSEB and NEET Biology' },
+      {
+        kind: 'p',
+        text: 'NSEB and NEET Biology draw from an overlapping core, though NSEB tests it more conceptually and at greater depth. Students preparing seriously for NSEB typically strengthen their NEET Biology performance as a direct result, since both reward genuinely understanding structure and function rather than memorized fact recall.',
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens after clearing NSEB?',
+        answer: 'Students who clear the NSEB cutoff qualify for INBO (Indian National Biology Olympiad). Top performers attend a selection camp that determines India\'s team for the International Biology Olympiad (IBO).',
+      },
+      {
+        question: 'Is NSEB just NEET Biology at a harder level?',
+        answer: 'Not exactly — NSEB shares core content with NEET Biology but tests it more conceptually and includes areas like ecology and ethology that NEET treats more lightly, so NSEB prep needs its own targeted layer beyond NEET-focused study.',
+      },
+      {
+        question: 'Should NEET aspirants also attempt NSEB?',
+        answer: 'It\'s a strong complementary option — the deeper conceptual practice NSEB demands typically reinforces NEET Biology preparation rather than competing with it for time.',
+      },
+    ],
+  },
+  {
+    slug: 'inao-astronomy-olympiad-preparation-guide',
+    title: 'How to Prepare for INAO: Astronomy Olympiad Guide for Class 11 & 12',
+    description:
+      "The Astronomy Olympiad pipeline toward IOAA starts with NSEA and INAO. Here's what these exams test and how Class 11 and Class 12 students should prepare.",
+    category: 'olympiad',
+    datePublished: '2026-08-14',
+    readingMinutes: 7,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'Science Olympiad Program',
+    body: [
+      {
+        kind: 'p',
+        text: 'NSEA (National Standard Examination in Astronomy), conducted by IAPT, is the entry stage of India\'s astronomy olympiad pipeline. Clearing it leads to INAO (Indian National Astronomy Olympiad), a selection camp, and the International Olympiad on Astronomy and Astrophysics (IOAA) for students who make the final team.',
+      },
+      { kind: 'h2', text: 'What Makes Astronomy Different from Physics, Chemistry & Biology Olympiads' },
+      {
+        kind: 'p',
+        text: 'Astronomy draws heavily on physics fundamentals — mechanics, optics and basic thermodynamics — but applies them to celestial mechanics, observational astronomy and astrophysics, areas school physics rarely covers directly. A strong physics foundation genuinely helps, but astronomy-specific content still has to be built separately.',
+      },
+      { kind: 'h2', text: 'Class 11 vs Class 12: A Grade-Wise Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Class 11: Strengthen core physics (mechanics, optics) alongside introducing celestial mechanics and coordinate systems — the astronomy-specific foundation most students haven\'t seen in school.',
+          'Class 12: Add observational astronomy and astrophysics topics (stellar properties, basic cosmology), and move to timed, full-syllabus practice.',
+          'Both years: Practical, observation-based understanding — reading star charts, understanding celestial coordinate systems — matters as much as theoretical content.',
+        ],
+      },
+      { kind: 'h2', text: 'A Realistic Starting Point' },
+      {
+        kind: 'p',
+        text: 'Students often assume astronomy olympiad preparation requires specialized equipment or prior astronomy exposure. In practice, a solid Class 11 physics foundation combined with structured, dedicated astronomy content — celestial mechanics, coordinate systems, basic astrophysics — is a realistic and sufficient starting point for most students.',
+      },
+    ],
+    faq: [
+      {
+        question: 'What happens after clearing NSEA?',
+        answer: 'Students who clear the NSEA cutoff qualify for INAO (Indian National Astronomy Olympiad). Top performers attend a selection camp that determines India\'s team for the International Olympiad on Astronomy and Astrophysics (IOAA).',
+      },
+      {
+        question: 'Does a student need a telescope or observational experience to prepare?',
+        answer: 'No — while observational understanding (star charts, coordinate systems) is tested conceptually, hands-on telescope access is not a prerequisite for competitive preparation.',
+      },
+      {
+        question: 'Is strong physics enough to do well in NSEA?',
+        answer: 'It helps significantly but isn\'t sufficient alone — astronomy-specific content like celestial mechanics and astrophysics still needs dedicated, separate preparation beyond standard Class 11-12 physics.',
+      },
+    ],
+  },
+  {
+    slug: 'coding-olympiad-grade-wise-preparation-roadmap',
+    title: 'Coding Olympiads: A Grade-Wise Preparation Roadmap from Class 6 to 12',
+    description:
+      "ZIO isn't formally split by grade the way NMTC is, but readiness for it genuinely is. Here's a grade-wise roadmap for building toward India's informatics olympiad pipeline.",
+    category: 'coding-olympiad',
+    datePublished: '2026-08-15',
+    readingMinutes: 8,
+    relatedProgramHref: '/coding-lab',
+    relatedProgramLabel: 'Code Ninja Program',
+    relatedGuides: [{ href: '/blog/informatics-olympiad-pipeline-zio-inoi-ioi-explained', label: 'The ZIO to INOI to IOI Pipeline Explained' }],
+    body: [
+      {
+        kind: 'p',
+        text: "India's informatics olympiad pipeline — ZIO (Zonal Informatics Olympiad), then INOI (Indian National Olympiad in Informatics), then IOI — doesn't formally tier its entry exam by grade the way NMTC does. Any student below Class 12 can attempt ZIO. But readiness for it very much is grade-dependent, since ZIO-level problems assume a level of programming and logical maturity most students only build gradually.",
+      },
+      { kind: 'h2', text: 'Why "Grade-Wise" Still Matters Here' },
+      {
+        kind: 'p',
+        text: 'A Class 6 student and a Class 9 student attempting ZIO cold, with no structured runway, face very different odds — not because of the exam\'s rules, but because competitive programming skill builds in layers: logical thinking, then a first programming language, then data structures and algorithmic thinking. Skipping layers to attempt ZIO early rarely works well.',
+      },
+      { kind: 'h2', text: 'A Practical Grade-Wise Roadmap' },
+      {
+        kind: 'table',
+        headers: ['Grade Band', 'Focus'],
+        rows: [
+          ['Class 6–7', 'Block-based logic (Scratch), computational thinking, no exam pressure yet'],
+          ['Class 8', 'Transition to a text-based language (Python) alongside continued logic-building'],
+          ['Class 9–10', 'Core data structures and algorithms, first serious ZIO-level problem sets'],
+          ['Class 10–12', 'ZIO and INOI-focused competitive programming, timed practice'],
+        ],
+      },
+      { kind: 'h2', text: 'Why Starting Too Early with ZIO-Style Problems Backfires' },
+      {
+        kind: 'p',
+        text: 'A common mistake is pushing a Class 6-7 student directly into ZIO-style algorithmic problems before they have a real programming foundation. This usually produces frustration rather than progress. Computational thinking (breaking a problem into steps, spotting patterns) genuinely can start early — but it should be built through age-appropriate tools like Scratch, not by simulating competition problems too soon.',
+      },
+      { kind: 'h2', text: 'When a Student Is Genuinely ZIO-Ready' },
+      {
+        kind: 'p',
+        text: 'A student is realistically ZIO-ready once they can comfortably write and debug programs involving loops, conditionals, arrays and basic functions, and can translate a word problem into working code without heavy guidance — typically achievable by Class 9-10 for a student who started building programming skill in Class 7-8, though motivated students can reach this earlier.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is ZIO formally split into grade-wise levels like NMTC?',
+        answer: 'No — ZIO has a single eligibility rule (open to students below Class 12), not separate papers by grade. The "grade-wise" preparation described here is about realistic readiness, not a formal exam tier.',
+      },
+      {
+        question: 'What programming language should a beginner start with?',
+        answer: 'Scratch for Class 6-7 to build computational thinking without syntax overhead, then Python from around Class 8 as a readable first text-based language, before moving to C++ for competitive programming from Class 9-10 onward.',
+      },
+      {
+        question: 'Can a Class 9 student with no prior coding experience still aim for ZIO?',
+        answer: 'Yes, though the timeline is compressed — a Class 9 beginner should expect to spend real time building programming fundamentals before ZIO-level problems become realistic, rather than attempting them immediately.',
+      },
+      {
+        question: 'How does this pipeline connect to IOI?',
+        answer: 'ZIO qualifiers proceed to INOI; top INOI performers attend a training camp that selects India\'s team for the International Olympiad in Informatics (IOI) — the same structure as the science olympiad pipelines, but algorithmic rather than subject-based.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
