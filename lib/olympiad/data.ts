@@ -568,12 +568,34 @@ export const sofExamTracks: Track[] = [
     outcome: 'Broadens awareness beyond the classroom',
     color: 'brand',
   },
+  {
+    id: 'sof-nco',
+    code: 'NCO',
+    name: 'SOF National Cyber Olympiad',
+    grades: 'Grades 1–12',
+    blurb: "SOF's computer and cyber-awareness olympiad — computer fundamentals, internet safety and logical reasoning, building the digital literacy foundation every student needs today.",
+    meta: [['Subject', 'Computers / Cyber'], ['Format', 'Multiple choice']],
+    topics: ['Computer Basics', 'Cyber Safety', 'Logical Reasoning'],
+    outcome: 'Early foundation for our Code Ninja program',
+    color: 'sky',
+  },
+  {
+    id: 'sof-isso',
+    code: 'ISSO',
+    name: 'SOF International Social Studies Olympiad',
+    grades: 'Grades 3–10',
+    blurb: 'History, Geography, Civics and current events, tested through applied reasoning rather than rote dates and definitions.',
+    meta: [['Subject', 'Social Studies'], ['Format', 'Multiple choice']],
+    topics: ['History', 'Geography', 'Civics'],
+    outcome: 'Builds well-rounded general awareness',
+    color: 'amber',
+  },
 ];
 
 export const sofExamFaqs = [
   {
     q: 'What exactly is SOF, and which exams does it run?',
-    a: 'The Science Olympiad Foundation (SOF) is one of India’s most widely taken school-olympiad bodies, running IMO (Mathematics), NSO (Science), IEO (English) and IGKO (General Knowledge) for Grades 1-12, all in a multiple-choice format.',
+    a: 'The Science Olympiad Foundation (SOF) is one of India’s most widely taken school-olympiad bodies, running IMO (Mathematics), NSO (Science), IEO (English), NCO (Computers / Cyber), IGKO (General Knowledge) and ISSO (Social Studies) for Grades 1-12, all in a multiple-choice format.',
   },
   {
     q: 'How is SOF different from IOQM or NMTC?',

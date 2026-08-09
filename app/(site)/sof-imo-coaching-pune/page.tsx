@@ -16,7 +16,7 @@ import { sofExamTracks, sofExamFaqs, scienceFaculty } from '@/lib/olympiad/data'
 const stats: StatItem[] = [
   { icon: GraduationCap, value: '25+', label: 'Years of teaching excellence' },
   { icon: Users, value: '12', label: 'Maximum students per batch' },
-  { icon: Layers, value: '4', label: 'SOF exams: IMO, NSO, IEO, IGKO' },
+  { icon: Layers, value: '6', label: 'SOF exams: IMO, NSO, IEO, NCO, IGKO, ISSO' },
   { icon: ListChecks, value: 'MCQ', label: 'Multiple-choice, Grades 1-12' },
   { icon: BrainCircuit, value: '100%', label: 'IIT / IISER-alumni-led faculty' },
   { icon: ClipboardCheck, value: 'Every mock', label: 'Scored with individual feedback' },
@@ -29,13 +29,15 @@ export default function SofImoCoachingPunePage() {
         badges={['⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
         titleLines={['Every SOF Exam.', 'One Confident']}
         highlight="Start."
-        taglineSub="🏅 IMO · NSO · IEO · IGKO"
-        lede="Structured coaching for all four Science Olympiad Foundation exams — IMO (Maths), NSO (Science), IEO (English) and IGKO (General Knowledge) — mentored by IIT/IISER alumni, in batches capped at 12."
+        taglineSub="🏅 IMO · NSO · IEO · NCO · IGKO · ISSO"
+        lede="Structured coaching for all six Science Olympiad Foundation exams — IMO (Maths), NSO (Science), IEO (English), NCO (Cyber), IGKO (General Knowledge) and ISSO (Social Studies) — mentored by IIT/IISER alumni, in batches capped at 12."
         chips={[
           { label: 'Mathematics', color: '#2563EB' },
           { label: 'Science', color: '#10B981' },
           { label: 'English', color: '#F59E0B' },
+          { label: 'Cyber', color: '#0EA5E9' },
           { label: 'General Knowledge', color: '#7C3AED' },
+          { label: 'Social Studies', color: '#DB2777' },
         ]}
         ctaLabel="Book Free Demo"
         secondaryHref="#oly-exams"
@@ -48,7 +50,7 @@ export default function SofImoCoachingPunePage() {
         id="oly-exams"
         icon={Medal}
         eyebrow="SOF Exams"
-        title="Four exams. One accessible format."
+        title="Six exams. One accessible format."
         subtitle="Every SOF exam runs multiple-choice from Grade 1 onward — a low-pressure, high-value entry point into competitive thinking, well before IOQM-level rigor becomes relevant."
         tracks={sofExamTracks}
       />
@@ -66,7 +68,7 @@ export default function SofImoCoachingPunePage() {
       <LeadForm
         heading="Find the right SOF exam for your child."
         demoSubject="SOF Olympiad"
-        programs={['SOF IMO', 'SOF NSO', 'SOF IEO', 'SOF IGKO', 'Not sure yet — need guidance']}
+        programs={['SOF IMO', 'SOF NSO', 'SOF IEO', 'SOF NCO', 'SOF IGKO', 'SOF ISSO', 'Not sure yet — need guidance']}
       />
       <FinalCTA />
     </main>
