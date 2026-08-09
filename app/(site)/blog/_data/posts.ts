@@ -15920,6 +15920,854 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'nmtc-exam-pattern-part-a-part-b-explained',
+    title: 'NMTC Exam Pattern: Understanding Part A and Part B',
+    description:
+      "NMTC's two-part format is what makes it genuinely different from a school test. Here's exactly how Part A and Part B work, and why the split matters for how you prepare.",
+    category: 'olympiad',
+    datePublished: '2026-08-16',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'NMTC (National Mathematics Talent Contest), conducted by AMTI, runs every level as a two-part paper. Part A is objective or short-answer, testing speed and accuracy across the syllabus. Part B is fully written — students must show complete, step-by-step working, and marks depend on the rigor of the argument, not just the final answer.',
+      },
+      { kind: 'h2', text: 'What Part A Actually Tests' },
+      {
+        kind: 'p',
+        text: 'Part A rewards the same instincts a well-prepared student already has: fast, accurate application of concepts across the syllabus, with numerical or short-form answers. It is closer in spirit to a well-designed school test than Part B, though still pitched above the standard curriculum.',
+      },
+      { kind: 'h2', text: 'What Part B Actually Tests' },
+      {
+        kind: 'p',
+        text: 'Part B is where NMTC becomes a genuine olympiad. Students must write a complete solution — every step justified, every claim proven — to a small number of harder problems. A correct final answer with an incomplete or unjustified argument earns only partial credit, sometimes very little.',
+      },
+      { kind: 'h2', text: 'Why This Split Matters for Preparation' },
+      {
+        kind: 'ul',
+        items: [
+          'Part A preparation looks like disciplined, timed practice across the full syllabus — similar to preparing for any well-designed test.',
+          'Part B preparation is a different skill entirely: constructing and writing a rigorous argument, which has to be practiced explicitly, not assumed to follow automatically from knowing the content.',
+          'Students who only drill Part A-style questions are often surprised by how much Part B costs them — not because they don\'t know the material, but because they\'ve never practiced writing a complete proof under time pressure.',
+        ],
+      },
+      { kind: 'h2', text: 'A Balanced Prep Split' },
+      {
+        kind: 'p',
+        text: 'A realistic weekly split gives roughly equal time to Part A-style timed practice and Part B-style written solution work, with a mentor reviewing Part B attempts individually — since the gap between "the right idea" and "a complete, gap-free proof" is exactly what separates a strong Part B score from a weak one.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is Part B compulsory, or can a student rely only on Part A?',
+        answer: 'Part B is a required component of the paper at every NMTC level, and typically carries meaningful weight in the overall score, so it cannot be skipped or treated as optional.',
+      },
+      {
+        question: 'How is Part B graded if the final answer is correct but the working is incomplete?',
+        answer: 'Graders award marks based on the completeness and correctness of the argument, not just the final answer — an incomplete or unjustified solution earns partial credit at best, even with the right final number.',
+      },
+      {
+        question: 'Does Part B difficulty increase a lot from Sub-Junior to Senior level?',
+        answer: 'Yes — the expected rigor increases significantly, from simple explained reasoning at Sub-Junior level to genuine multi-step proofs involving inequalities, functional equations or synthetic geometry at Inter and Senior level.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-write-full-marks-nmtc-part-b-solutions',
+    title: 'How to Write Full-Marks NMTC Part B Solutions',
+    description:
+      "Knowing the answer and writing a full-marks solution are two different skills. Here's how to structure an NMTC Part B answer so it earns every mark it deserves.",
+    category: 'olympiad',
+    datePublished: '2026-08-17',
+    readingMinutes: 7,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'A student can genuinely understand how to solve an NMTC Part B problem and still lose most of the marks — because the written solution doesn\'t clearly show the reasoning a grader needs to see. Writing a full-marks solution is a distinct, learnable skill.',
+      },
+      { kind: 'h2', text: 'The Structure of a Full-Marks Solution' },
+      {
+        kind: 'ul',
+        items: [
+          'State what is given and what needs to be proven, in your own words, before starting the working — this shows the grader you understood the problem.',
+          'Justify every non-obvious step. If you use a theorem or property, name it and confirm the conditions for using it are actually met.',
+          'Avoid logical leaps. A step that feels "obvious" to the student writing it may not be obvious to the grader reading it — write the connecting reasoning explicitly.',
+          'End with a clear final statement confirming what was proven, not just a number circled at the bottom of the page.',
+        ],
+      },
+      { kind: 'h2', text: 'Common Reasons Students Lose Marks Despite Knowing the Answer' },
+      {
+        kind: 'table',
+        headers: ['Mistake', 'Why It Costs Marks'],
+        rows: [
+          ['Skipping "obvious" steps', 'Graders can only credit reasoning that is actually written down'],
+          ['Using a result without justification', 'An unproven claim is treated as a gap in the argument'],
+          ['Working backward without saying so', 'A solution that assumes the answer to prove itself is circular unless flagged'],
+          ['Messy, unordered working', 'Graders may not follow scattered reasoning even if it is technically complete'],
+        ],
+      },
+      { kind: 'h2', text: 'A Practice Method That Works' },
+      {
+        kind: 'p',
+        text: 'After solving a problem mentally or on rough paper, rewrite the solution from scratch as if explaining it to someone who has never seen the problem. This single habit — writing for an unfamiliar reader rather than for yourself — is the fastest way to close the gap between "I know how to solve this" and "I wrote a full-marks solution."',
+      },
+    ],
+    faq: [
+      {
+        question: 'Should every step be written out, even simple arithmetic?',
+        answer: 'Simple arithmetic doesn\'t need justification, but every step that relies on a mathematical property, theorem or logical inference should be stated explicitly.',
+      },
+      {
+        question: 'Is it better to write a shorter, cleaner solution or a longer, more detailed one?',
+        answer: 'Clarity and completeness matter more than length — a shorter solution that justifies every step fully scores better than a longer one padded with unnecessary detail but missing key justifications.',
+      },
+      {
+        question: 'How can a student get feedback on their written solutions?',
+        answer: 'A mentor reviewing written Part B attempts individually — checking for logical gaps, not just the final answer — is the fastest way to improve, which is why small batch sizes matter for this specific skill.',
+      },
+    ],
+  },
+  {
+    slug: 'common-mistakes-nmtc-part-b',
+    title: 'Common Mistakes in NMTC Part B (and How to Fix Them)',
+    description:
+      "Most NMTC Part B marks aren't lost to wrong ideas — they're lost to a handful of repeatable, fixable writing mistakes. Here are the most common ones.",
+    category: 'olympiad',
+    datePublished: '2026-08-18',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Because NMTC Part B is graded on the written argument, not just the final answer, most of the marks students lose come from a small, repeatable set of mistakes — not from lacking the mathematical idea.',
+      },
+      { kind: 'h2', text: 'Mistake 1: Assuming What Needs to Be Proven' },
+      {
+        kind: 'p',
+        text: 'A surprisingly common error is using the result you\'re trying to prove somewhere inside the proof itself — a circular argument. This often happens when a student "sees" the answer is true and reverse-engineers a proof without checking that each step is independently justified.',
+      },
+      { kind: 'h2', text: 'Mistake 2: Treating a Special Case as the General Proof' },
+      {
+        kind: 'p',
+        text: 'Checking a problem for one or two specific numbers and concluding it\'s true "in general" is a very common trap, particularly in number theory and algebra problems. A full-marks proof needs to hold for every valid case, not just the ones tested.',
+      },
+      { kind: 'h2', text: 'Mistake 3: Missing Edge Cases in Geometry' },
+      {
+        kind: 'p',
+        text: 'Geometry solutions that assume a specific configuration (a particular type of triangle, a specific point placement) without checking whether the proof holds for all valid configurations often lose marks even when the core insight is correct.',
+      },
+      { kind: 'h2', text: 'Mistake 4: Running Out of Time Mid-Proof' },
+      {
+        kind: 'p',
+        text: 'A rushed, incomplete Part B answer under time pressure usually scores worse than a shorter, complete answer to a slightly easier question. Time management — knowing which Part B question to attempt first — matters as much as the mathematics itself.',
+      },
+      { kind: 'h2', text: 'How to Fix These, Systematically' },
+      {
+        kind: 'ul',
+        items: [
+          'Practice identifying circular reasoning in your own past solutions, not just in worked examples.',
+          'Explicitly ask "does this hold for every case, or just the one I checked?" before finalizing any proof.',
+          'Time-box Part B practice attempts realistically, including the time needed to write the full solution, not just find the idea.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is checking a few examples ever an acceptable proof technique?',
+        answer: 'Checking examples is useful for building intuition and can be part of a proof if paired with a general argument, but on its own it is not sufficient to prove a claim holds for all cases.',
+      },
+      {
+        question: 'How much time should be spent on each Part B question?',
+        answer: 'This depends on the level and total time available, but a realistic approach is to budget time for both finding the idea and writing a complete solution, rather than spending most of the time on the idea alone.',
+      },
+      {
+        question: 'Are these mistakes specific to NMTC, or do they apply elsewhere?',
+        answer: 'They apply broadly to any proof-based olympiad — including INMO and NMTC Inter/Senior levels — which is exactly why building this skill through NMTC has value well beyond the exam itself.',
+      },
+    ],
+  },
+  {
+    slug: 'best-books-resources-nmtc-preparation',
+    title: 'Best Books and Resources for NMTC Preparation',
+    description:
+      'A focused, level-appropriate resource list for NMTC preparation — from Primary level pattern books to Senior level proof-writing references.',
+    category: 'olympiad',
+    datePublished: '2026-08-19',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'The right resources for NMTC preparation change significantly by level — a Primary-level student needs very different material from a Senior-level student writing full proofs. Here is a level-appropriate starting list.',
+      },
+      { kind: 'h2', text: 'Primary & Sub-Junior (Class 5–7)' },
+      {
+        kind: 'ul',
+        items: [
+          'Puzzle- and pattern-based logic books that build reasoning without requiring advanced content.',
+          'Past NMTC Primary and Sub-Junior papers, worked through slowly and discussed rather than timed initially.',
+          'Basic number theory and elementary geometry material pitched at a level slightly beyond the school curriculum.',
+        ],
+      },
+      { kind: 'h2', text: 'Junior (Class 8–9)' },
+      {
+        kind: 'ul',
+        items: [
+          'Introductory olympiad problem-solving books covering algebra, number theory, combinatorics and geometry as distinct topic areas.',
+          'Past NMTC Junior papers, alongside IOQM-level material once the student is close to Class 8-9, since the two overlap heavily.',
+        ],
+      },
+      { kind: 'h2', text: 'Inter & Senior (Class 10–12)' },
+      {
+        kind: 'ul',
+        items: [
+          'Standard olympiad references covering inequalities, functional equations, synthetic geometry and combinatorics at a proof-writing level.',
+          'Past NMTC Inter and Senior papers, alongside INMO past papers for comparable proof-writing practice.',
+          'A mentor who can review written solutions — at this level, feedback on proof quality matters as much as the reference material itself.',
+        ],
+      },
+      { kind: 'h2', text: 'A Note on Using Past Papers Well' },
+      {
+        kind: 'p',
+        text: 'Past papers are most valuable when reviewed for the reasoning, not just checked against an answer key — since NMTC Part B rewards the argument, working through official or well-explained solutions to past papers teaches the expected level of rigor far more effectively than just checking whether the final answer matches.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Are international olympiad books useful for NMTC preparation?',
+        answer: 'Yes, particularly for Inter and Senior levels — general olympiad problem-solving books (covering algebra, number theory, geometry and combinatorics) build transferable skill even though they aren\'t NMTC-specific.',
+      },
+      {
+        question: 'Where can past NMTC papers be found?',
+        answer: 'AMTI publishes past papers and results through its own channels; coaching institutes that prepare students for NMTC typically maintain organized archives by level as well.',
+      },
+      {
+        question: 'Is a private mentor necessary, or can a student prepare from books alone?',
+        answer: 'Books alone can build content knowledge, but Part B specifically benefits from individualized feedback on written solutions — a gap self-study often can\'t fully close.',
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-vs-ioqm-which-to-prioritize',
+    title: 'NMTC vs IOQM: Which Should Your Child Prioritize?',
+    description:
+      "For a Class 8-9 student eligible for both, this is a genuinely common question. Here's a clear-eyed comparison to help decide where to put the most preparation time.",
+    category: 'olympiad',
+    datePublished: '2026-08-20',
+    readingMinutes: 7,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    relatedGuides: [{ href: '/ioqm-coaching-pune', label: 'IOQM Coaching' }],
+    body: [
+      {
+        kind: 'answer',
+        text: "For most Class 8-9 students eligible for both, IOQM deserves the primary preparation focus since it's the exam that determines eligibility for India's national olympiad pipeline (INMO, IMOTC, IMO). NMTC is still genuinely valuable — particularly for its written Part B, which builds proof-writing skill IOQM doesn't test directly — but as a complementary track rather than the primary one, once both are in the picture.",
+      },
+      { kind: 'h2', text: 'Where the Two Exams Overlap' },
+      {
+        kind: 'p',
+        text: 'Number theory, algebra, combinatorics and geometry form the core of both exams. A student preparing seriously for one is, in practice, already building most of the foundation the other needs — the overlap in raw content is substantial.',
+      },
+      { kind: 'h2', text: 'Where They Genuinely Differ' },
+      {
+        kind: 'table',
+        headers: ['', 'NMTC', 'IOQM'],
+        rows: [
+          ['Format', 'Part A (objective) + Part B (written)', 'Integer answer only'],
+          ['Eligibility', 'Class 5–12 (by level)', 'Class 8–12 only'],
+          ['Leads to', 'Recognition within AMTI\'s own ecosystem', 'INMO → IMOTC → IMO'],
+          ['Unique value', 'Builds written proof-writing skill early', 'The official national olympiad gateway'],
+        ],
+      },
+      { kind: 'h2', text: 'A Practical Prioritization Framework' },
+      {
+        kind: 'ul',
+        items: [
+          'If a student is aiming seriously for India\'s national olympiad pipeline, IOQM preparation should take priority once they reach Class 8, since it is the only route to INMO.',
+          'NMTC remains valuable as a parallel track — its Part B is genuinely useful practice for the proof-writing INMO eventually demands, arguably more so than IOQM\'s integer-answer format.',
+          'For a student not yet Class 8 (so IOQM-ineligible), NMTC is a strong, worthwhile primary focus in its own right — the "prioritize IOQM" logic only kicks in once both are actually available.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a Class 8-9 student realistically prepare for both at once?',
+        answer: 'Yes — given the heavy content overlap, most students preparing seriously for one are already building real progress toward the other, so dual preparation is usually efficient rather than doubling the workload.',
+      },
+      {
+        question: 'Does doing well in NMTC help with IOQM performance directly?',
+        answer: 'Indirectly, yes — NMTC\'s Part B builds the habit of rigorous, complete reasoning, which supports the kind of careful, multi-step thinking IOQM-level problems require, even though IOQM itself doesn\'t require written proofs.',
+      },
+      {
+        question: 'Is NMTC recognized as being as prestigious as IOQM?',
+        answer: 'They serve different purposes rather than sitting on one prestige ladder — IOQM is the official gateway to India\'s INMO/IMO pipeline, while NMTC is a respected, AMTI-run contest valued for its rigor and its early written-proof exposure.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-10a-vs-amc-10b-which-to-take',
+    title: 'AMC 10A vs AMC 10B: Which Should You Take?',
+    description:
+      "The MAA runs two separate AMC 10 papers each year. Here's what actually differs between them and whether your child should attempt one or both.",
+    category: 'olympiad',
+    datePublished: '2026-08-21',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'AMC 10A and AMC 10B are two separate papers administered by the MAA roughly two weeks apart, each year. The content and difficulty are comparable — neither is officially "easier" — and a student may sit both, with the better of the two scores counting toward AIME qualification. Most students aiming seriously for AIME attempt both if the school schedule allows.',
+      },
+      { kind: 'h2', text: 'What Actually Differs Between 10A and 10B' },
+      {
+        kind: 'p',
+        text: 'The two papers are written independently and cover the same syllabus at a comparable difficulty level, though the specific problems and their relative difficulty within each paper naturally vary year to year, as with any two independently-set exams. Neither has a structural advantage — the difference students notice year to year is usually about the specific problem set, not a systematic gap between A and B.',
+      },
+      { kind: 'h2', text: 'Why Taking Both Makes Sense' },
+      {
+        kind: 'ul',
+        items: [
+          'Since the better score counts toward AIME qualification, sitting both effectively gives two attempts at clearing the cutoff in the same year.',
+          'A student who has an off day on one paper — a careless error, unfamiliar problem style — gets a genuine second chance two weeks later.',
+          'The two-week gap is enough time for a focused review of mistakes from the first attempt, without losing preparation momentum.',
+        ],
+      },
+      { kind: 'h2', text: 'When Taking Only One Makes Sense' },
+      {
+        kind: 'p',
+        text: 'If school commitments, travel, or test-center availability make sitting both genuinely difficult, taking one seriously-prepared attempt is far better than two rushed ones. The value of the second attempt comes from actually being ready for it, not from simply registering for both.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does taking both AMC 10A and 10B cost more or complicate registration?',
+        answer: 'Each paper is a separate registration through a test center, so there is an additional cost and logistics step for the second sitting, which is worth planning for in advance if attempting both.',
+      },
+      {
+        question: 'If a student scores better on 10A, does the 10B score still matter?',
+        answer: 'For AIME qualification purposes, only the better of the two scores is used — but both experiences are valuable, since a second attempt under real exam conditions builds genuine exam-day comfort regardless of which score counts.',
+      },
+      {
+        question: 'Is there an AMC 12A/12B equivalent structure?',
+        answer: 'Yes — AMC 12, for older students, follows the same A/B two-sitting structure as AMC 10, with the same logic around qualifying scores counting toward AIME.',
+      },
+    ],
+  },
+  {
+    slug: 'understanding-amc-score-report-aime-index',
+    title: 'Understanding Your AMC Score Report: What the AIME Index Means',
+    description:
+      "An AMC score report has more on it than a single number. Here's what the AIME qualification index actually represents and how to read your child's report.",
+    category: 'olympiad',
+    datePublished: '2026-08-22',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'An AMC score report can be genuinely confusing the first time a family sees one — it includes a raw score, but also index values used specifically to determine AIME eligibility, which aren\'t the same thing as the score itself.',
+      },
+      { kind: 'h2', text: 'The Raw Score' },
+      {
+        kind: 'p',
+        text: 'The raw AMC 10 score, out of 150, reflects the scoring formula directly: 6 points per correct answer, 1.5 for each blank, 0 for a wrong answer. This is the headline number most families focus on, and it directly shows how the exam itself was performed.',
+      },
+      { kind: 'h2', text: 'The AIME Qualification Index' },
+      {
+        kind: 'p',
+        text: 'Separately, the MAA uses an index (a combination of AMC 10 score, and for some students, AMC 8 performance) to determine the cutoff for AIME invitations each year. This index and cutoff can shift from year to year based on that year\'s overall results, which is why "what score do I need" doesn\'t have one fixed answer across years.',
+      },
+      { kind: 'h2', text: 'Percentile Rankings' },
+      {
+        kind: 'p',
+        text: 'The report also typically includes a percentile ranking, showing how a student\'s score compares to the full pool of test-takers that year. This is useful context for understanding genuine standing, separate from the pass/fail framing of the AIME cutoff.',
+      },
+      { kind: 'h2', text: 'How to Actually Use This Information' },
+      {
+        kind: 'ul',
+        items: [
+          'Treat the raw score as the primary measure of performance — it\'s stable and doesn\'t depend on how other students did that year.',
+          'Use percentile as context for genuine standing, not just a pass/fail signal.',
+          'Track the AIME index and cutoff only once a score is close to the qualifying range — it\'s not usually worth obsessing over for a first attempt still building toward that level.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Does the AIME qualification cutoff change every year?',
+        answer: 'Yes — the cutoff is set based on that year\'s overall results, so a specific score that qualified one year is not guaranteed to qualify in another year.',
+      },
+      {
+        question: 'Is a high percentile the same as qualifying for AIME?',
+        answer: 'Not necessarily — percentile shows relative standing among all test-takers, while AIME qualification depends on meeting the specific index cutoff set for that year, which is a related but distinct measure.',
+      },
+      {
+        question: 'Should a first-time AMC 10 student worry about the AIME index at all?',
+        answer: 'Not much — for a first attempt, the raw score and understanding which questions were missed and why matters far more than tracking the qualification index, which becomes relevant once a student is genuinely close to the cutoff.',
+      },
+    ],
+  },
+  {
+    slug: 'best-books-resources-amc-preparation',
+    title: 'Best Books and Resources for AMC Preparation',
+    description:
+      'A focused resource list for AMC 8 and AMC 10 preparation — from foundational problem-solving texts to official past-paper archives.',
+    category: 'olympiad',
+    datePublished: '2026-08-23',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Good AMC preparation combines a small number of strong core resources with disciplined, timed practice on real past papers — more books rarely beats deliberate practice with what you already have.',
+      },
+      { kind: 'h2', text: 'Foundational Problem-Solving Texts' },
+      {
+        kind: 'ul',
+        items: [
+          '*The Art of Problem Solving* series — the standard starting reference for AMC-level algebra, geometry, counting and number theory.',
+          '*Competition Math for Middle School* — a strong bridge text for students moving from school maths into AMC 8-style problem-solving.',
+        ],
+      },
+      { kind: 'h2', text: 'Past Papers' },
+      {
+        kind: 'p',
+        text: "The MAA's own AMC archive is the single most valuable resource available — realistic, official, and the closest thing to genuine exam conditions a student can practice with. Working through past papers under timed conditions matters more than working through additional books once the core concepts are covered.",
+      },
+      { kind: 'h2', text: 'Topic-Specific Practice' },
+      {
+        kind: 'p',
+        text: 'Once past papers reveal a specific weak area — say, counting and probability, or number theory — targeted topic-specific problem sets are more efficient than working through a general text cover to cover again.',
+      },
+      { kind: 'h2', text: 'Community and Discussion Resources' },
+      {
+        kind: 'p',
+        text: 'Online problem-solving forums where past AMC problems are discussed in depth can be genuinely useful for seeing multiple solution approaches to the same problem — often more instructive than a single textbook explanation.',
+      },
+      { kind: 'h2', text: 'What Matters More Than the Resource List' },
+      {
+        kind: 'p',
+        text: 'Consistent, timed practice with real feedback on mistakes — not the sheer number of books used — is what actually moves an AMC score. A small set of good resources, worked through deliberately, consistently outperforms a large pile of books skimmed quickly.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Are AMC 8 and AMC 10 books interchangeable?',
+        answer: 'Largely no — AMC 10 assumes Algebra II and more advanced geometry content that AMC 8 doesn\'t cover, so a student moving from AMC 8 to AMC 10 needs additional, more advanced material, not just more AMC 8-level practice.',
+      },
+      {
+        question: 'Is a calculator useful for practicing with these resources?',
+        answer: 'No — AMC exams don\'t allow calculators, so practice should be done without one to build the mental arithmetic fluency the actual exam requires.',
+      },
+      {
+        question: 'How many past papers should a student work through before the exam?',
+        answer: 'There\'s no fixed number, but working through several years\' worth under realistic timed conditions, with careful review of every mistake, is far more valuable than rushing through as many as possible without review.',
+      },
+    ],
+  },
+  {
+    slug: 'common-mistakes-amc-8-amc-10',
+    title: 'Common Mistakes Students Make on AMC 8 and AMC 10',
+    description:
+      "Most points lost on AMC 8 and AMC 10 aren't lost to hard problems — they're lost to a repeatable set of avoidable mistakes. Here are the most common ones.",
+    category: 'olympiad',
+    datePublished: '2026-08-24',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'A large share of the points students lose on AMC 8 and AMC 10 don\'t come from problems they genuinely couldn\'t solve — they come from a handful of repeatable, avoidable mistakes.',
+      },
+      { kind: 'h2', text: 'Mistake 1: Poor Time Allocation' },
+      {
+        kind: 'p',
+        text: 'Spending too long on an early, harder-than-expected question can leave too little time for easier questions later in the paper. Since questions are only loosely ordered by difficulty, a rigid "solve in order" approach often costs more than it helps.',
+      },
+      { kind: 'h2', text: 'Mistake 2: Ignoring Answer Choices' },
+      {
+        kind: 'p',
+        text: 'Multiple-choice format is a resource, not just a constraint — process of elimination, working backward from answer choices, and estimating are all legitimate, fast strategies that students who only practice free-response problems often forget to use.',
+      },
+      { kind: 'h2', text: 'Mistake 3: Guessing Without Any Elimination (AMC 10)' },
+      {
+        kind: 'p',
+        text: 'On AMC 10, guessing blindly among all five options has a lower expected value than leaving a question blank. Students who bring an "always attempt everything" instinct from school exams often lose points this way without realizing the scoring works differently.',
+      },
+      { kind: 'h2', text: 'Mistake 4: Careless Arithmetic Under Time Pressure' },
+      {
+        kind: 'p',
+        text: 'Since calculators aren\'t allowed, small arithmetic slips under time pressure are a common, avoidable source of lost points — particularly on problems the student conceptually understood perfectly well.',
+      },
+      { kind: 'h2', text: 'Mistake 5: Not Reviewing Wrong Answers Afterward' },
+      {
+        kind: 'p',
+        text: 'Moving on to the next practice paper without understanding exactly why a mistake happened — a content gap, a careless error, a time-pressure decision — means the same mistake tends to repeat across multiple attempts.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is skipping questions in order a good strategy?',
+        answer: 'Yes — since questions aren\'t strictly ordered by difficulty for every student, scanning ahead and solving easier questions first, then returning to harder ones, is a reasonable and common strategy.',
+      },
+      {
+        question: 'How can careless arithmetic mistakes be reduced?',
+        answer: 'Deliberate practice without a calculator, plus a habit of a quick sanity check on the final answer (does it make sense given the problem context) catches many careless errors before they cost points.',
+      },
+      {
+        question: 'Should every practice paper be followed by a full review?',
+        answer: 'Yes — reviewing every mistake and understanding its specific cause is one of the highest-leverage habits in AMC preparation, arguably more valuable than the practice paper itself.',
+      },
+    ],
+  },
+  {
+    slug: 'how-indian-students-register-take-amc',
+    title: 'How Indian Students Can Register for and Take the AMC',
+    description:
+      "AMC isn't a US-only exam — Indian students can and do take it every year. Here's a general guide to how the process works.",
+    category: 'olympiad',
+    datePublished: '2026-08-25',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'A common assumption is that AMC is a US-only competition, but it is administered internationally at registered test centers, including in India, and is open to any eligible student regardless of nationality.',
+      },
+      { kind: 'h2', text: 'How Students Actually Take the Exam' },
+      {
+        kind: 'p',
+        text: 'AMC exams are not taken individually online — they are administered in person at a registered test center (typically a school or coaching institute that has registered with the MAA) on the official exam date, under supervised conditions.',
+      },
+      { kind: 'h2', text: 'General Steps in the Process' },
+      {
+        kind: 'ul',
+        items: [
+          'Identify a registered AMC test center — many coaching institutes and some schools in India register annually and accept external students.',
+          'Register through that test center ahead of the exam, following their specific registration process and deadlines.',
+          'Confirm eligibility — AMC 8 for Grade 6-8 (under 14.5 years), AMC 10 for Grade 9-10 (under 17.5 years) — since age and grade limits are strictly enforced.',
+          'Sit the exam on the official date at the registered center, under standard exam-hall conditions.',
+        ],
+      },
+      { kind: 'h2', text: 'What to Confirm With Your Test Center' },
+      {
+        kind: 'p',
+        text: 'Since registration deadlines, fees and exact logistics are set by individual test centers (within the MAA\'s broader rules) rather than centrally, it\'s worth confirming these specifics directly with your chosen center well ahead of the exam date rather than assuming a fixed, universal process.',
+      },
+      { kind: 'h2', text: 'Why This Matters for Planning' },
+      {
+        kind: 'p',
+        text: 'Because registration happens through a test center rather than a simple online signup, families sometimes discover the deadline has passed or a nearby center isn\'t taking new registrations. Starting the registration conversation early — well before serious exam preparation even begins — avoids this entirely.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student register for AMC independently, without going through a school?',
+        answer: 'Students generally register through a registered test center rather than directly with the MAA as an individual — a coaching institute or school that administers the AMC can serve this role even if it isn\'t the student\'s own school.',
+      },
+      {
+        question: 'Is AMC 10A or AMC 10B available in India?',
+        answer: 'Registered Indian test centers typically offer both sittings, following the same international schedule as the US administration, though this should be confirmed with the specific center.',
+      },
+      {
+        question: 'Does taking AMC in India affect AIME eligibility?',
+        answer: 'No — AIME eligibility is based on the AMC score and index, not the country where the exam was taken, so qualifying students in India are invited to AIME the same way as anywhere else.',
+      },
+    ],
+  },
+  {
+    slug: 'math-kangaroo-levels-explained',
+    title: 'Math Kangaroo Levels Explained: From Pre-Ecolier to Student',
+    description:
+      "Math Kangaroo runs six levels across every school grade. Here's exactly what each level covers and how to know which one your child should attempt.",
+    category: 'olympiad',
+    datePublished: '2026-08-26',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'Math Kangaroo runs six levels, each tied to a grade band: Pre-Ecolier and Ecolier (Grades 1-4), Benjamin and Cadet (Grades 5-8), and Junior and Student (Grades 9-12). Each level has its own paper, tuned in difficulty and question style to that age group, so a student always attempts the level matching their current grade.',
+      },
+      { kind: 'h2', text: 'Pre-Ecolier & Ecolier (Grades 1–4)' },
+      {
+        kind: 'p',
+        text: 'The youngest levels focus on visual logic, number sense and pattern recognition, presented in a playful, low-pressure style. No prior competition experience is assumed — these levels are specifically designed as an accessible first encounter with competitive mathematics.',
+      },
+      { kind: 'h2', text: 'Benjamin & Cadet (Grades 5–8)' },
+      {
+        kind: 'p',
+        text: 'These middle levels introduce applied arithmetic, early geometry and multi-step logical reasoning. This is where Kangaroo starts to feel like genuine competition mathematics, while remaining accessible to a student without formal olympiad training.',
+      },
+      { kind: 'h2', text: 'Junior & Student (Grades 9–12)' },
+      {
+        kind: 'p',
+        text: 'The most advanced levels apply algebra, geometry and combinatorics cleverly under real time pressure — closer in spirit to AMC or SOF IMO than to the younger levels, though still distinctly Kangaroo in its playful problem style.',
+      },
+      { kind: 'h2', text: 'How to Choose the Right Level' },
+      {
+        kind: 'p',
+        text: 'Math Kangaroo levels are assigned by current grade, not by ability — so the "choice" is really about confirming eligibility rather than picking a difficulty. A student always attempts the level matching their grade in the year of the exam.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student attempt a level above their grade if they find their own level too easy?',
+        answer: 'Level assignment is generally based on current grade, so this typically isn\'t an option — a student who finds their level accessible is usually well-positioned to move on to more advanced olympiad tracks like AMC or IOQM instead.',
+      },
+      {
+        question: 'Does difficulty increase smoothly from Pre-Ecolier to Student, or are there big jumps?',
+        answer: 'The increase is generally gradual within each pair of levels (for example, Ecolier is a step up from Pre-Ecolier), with a more noticeable jump between the three broad bands — this is by design, matching the developmental gap between those grade groups.',
+      },
+      {
+        question: 'Is there an age cutoff within each grade band, similar to AMC?',
+        answer: 'Level eligibility is generally tied to current school grade rather than a strict age cutoff, though this can vary slightly by the local administering body — worth confirming with your specific registration center.',
+      },
+    ],
+  },
+  {
+    slug: 'how-math-kangaroo-is-scored',
+    title: "How Math Kangaroo Is Scored (and Why Guessing Isn't Free)",
+    description:
+      "Math Kangaroo's scoring system rewards later, harder questions more than earlier ones — and the rules around wrong answers are worth understanding before exam day.",
+    category: 'olympiad',
+    datePublished: '2026-08-27',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Math Kangaroo\'s scoring system is genuinely different from a simple "one mark per correct answer" format, and understanding it changes how a student should approach the paper on exam day.',
+      },
+      { kind: 'h2', text: 'Tiered Question Values' },
+      {
+        kind: 'p',
+        text: 'Questions are typically grouped into difficulty tiers within the paper, with later, harder questions worth more points than earlier, easier ones. This means the paper isn\'t uniform — a student\'s strategy should account for the fact that later questions carry more weight, not just more difficulty.',
+      },
+      { kind: 'h2', text: 'Wrong Answers Are Not Always Free' },
+      {
+        kind: 'p',
+        text: 'Exact scoring policies — including whether wrong answers carry a small penalty — can vary by country and administering body, so students should learn the specific rules for their exact paper rather than assuming a single universal policy. Treating every exam as if wild guessing is risk-free is not a safe assumption.',
+      },
+      { kind: 'h2', text: 'A Sensible Exam-Day Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Attempt every question you have a genuine basis for answering, working through the easier, lower-tier questions first to secure those points.',
+          'For harder, higher-value questions, budget extra time given their higher weight in the final score.',
+          'Confirm the exact scoring rules for your paper with your coaching mentor or registration body before exam day, rather than assuming.',
+        ],
+      },
+      { kind: 'h2', text: 'Why Understanding Scoring Matters Beyond Kangaroo' },
+      {
+        kind: 'p',
+        text: 'Learning to read and adapt to a specific exam\'s scoring system — rather than applying the same instinct to every test — is a transferable skill that pays off directly when a student later encounters AMC 10\'s more punishing scoring system or IOQM\'s zero-penalty format.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Are all Math Kangaroo questions worth the same number of points?',
+        answer: 'No — questions are typically grouped into difficulty tiers within the paper, with later, harder questions worth more points than earlier ones.',
+      },
+      {
+        question: 'Is there negative marking on Math Kangaroo?',
+        answer: 'This can vary by country and administering body, so it\'s important to confirm the specific rules for your exact paper rather than assuming a universal policy — we cover the specific rules as part of exam-day preparation.',
+      },
+      {
+        question: 'Does understanding the scoring system actually change a student\'s strategy?',
+        answer: 'Yes — knowing that later questions carry more weight, and understanding the exact policy on wrong answers, directly informs pacing and which questions to prioritize under time pressure.',
+      },
+    ],
+  },
+  {
+    slug: 'best-resources-practice-papers-math-kangaroo',
+    title: 'Best Resources and Practice Papers for Math Kangaroo',
+    description:
+      "A focused, level-appropriate resource guide for Math Kangaroo preparation, from the youngest levels through Student level.",
+    category: 'olympiad',
+    datePublished: '2026-08-28',
+    readingMinutes: 5,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Because Math Kangaroo spans such a wide age range, the right preparation resources look very different depending on the level a student is attempting.',
+      },
+      { kind: 'h2', text: 'Pre-Ecolier & Ecolier' },
+      {
+        kind: 'p',
+        text: 'Visual logic puzzle books and pattern-recognition activities work well at this level — the goal is building comfort with playful, non-standard questions rather than covering advanced content.',
+      },
+      { kind: 'h2', text: 'Benjamin & Cadet' },
+      {
+        kind: 'p',
+        text: 'Applied arithmetic and early geometry problem sets, alongside past Kangaroo papers for these levels, are the most direct preparation — the official past-paper style is distinctive enough that general olympiad books are a less precise match.',
+      },
+      { kind: 'h2', text: 'Junior & Student' },
+      {
+        kind: 'p',
+        text: 'At these levels, general competition-maths problem-solving resources (similar to what AMC-level students use) start to overlap meaningfully with Kangaroo preparation, alongside past Kangaroo papers specifically for pacing and question-style familiarity.',
+      },
+      { kind: 'h2', text: 'Why Past Papers Matter More Here Than Usual' },
+      {
+        kind: 'p',
+        text: "Math Kangaroo's question style — clever, visual, often deceptively simple-looking — is genuinely distinctive. Past papers are disproportionately valuable compared to generic problem sets, since they're the most reliable way to build familiarity with exactly how Kangaroo questions are framed.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Are Math Kangaroo past papers freely available?',
+        answer: 'Past papers are typically available through the organizing body in each country or through coaching institutes that prepare students for the exam — availability and format can vary by administering region.',
+      },
+      {
+        question: 'Do AMC 8 resources help with Kangaroo preparation for older students?',
+        answer: 'There is meaningful overlap at the Junior and Student levels, since both reward applied, multi-step reasoning under time pressure — though Kangaroo\'s distinctive question style still benefits from its own dedicated past-paper practice.',
+      },
+      {
+        question: 'Is coaching necessary, or is self-study with past papers enough?',
+        answer: 'Self-study with past papers works well for many students, especially at younger levels, though a mentor becomes more valuable at Junior and Student level for reviewing pacing strategy and harder multi-step problems.',
+      },
+    ],
+  },
+  {
+    slug: 'math-kangaroo-vs-sof-imo-first-olympiad',
+    title: "Math Kangaroo vs SOF IMO: Choosing Your Child's First Olympiad",
+    description:
+      "Both are accessible, multiple-choice, low-pressure entry points into competitive maths. Here's how they actually differ and how to pick between them.",
+    category: 'olympiad',
+    datePublished: '2026-08-29',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [{ href: '/sof-imo-coaching-pune', label: 'SOF Olympiad Coaching' }],
+    body: [
+      {
+        kind: 'answer',
+        text: "Math Kangaroo and SOF IMO are both accessible, multiple-choice, low-pressure first olympiads, and the choice between them often comes down to what's locally available and a family's specific goals rather than one being clearly better. Many students end up attempting both, since neither excludes the other and both build genuinely transferable skill.",
+      },
+      { kind: 'h2', text: 'What the Two Exams Share' },
+      {
+        kind: 'p',
+        text: 'Both are multiple-choice, open to a wide range of grades, and specifically designed to be accessible entry points rather than filtering exams. Neither assumes prior olympiad training, and both reward applied reasoning over memorized formulas.',
+      },
+      { kind: 'h2', text: 'Where They Differ' },
+      {
+        kind: 'table',
+        headers: ['', 'Math Kangaroo', 'SOF IMO'],
+        rows: [
+          ['Origin', 'International, France-founded', "India's Science Olympiad Foundation"],
+          ['Scale', "World's largest by participation", 'Widely taken across Indian schools'],
+          ['Levels', 'Six levels, Grades 1–12', 'Single paper, Grades 1–12'],
+          ['Question style', 'Playful, visually-driven problems', 'Applied number sense and logic'],
+        ],
+      },
+      { kind: 'h2', text: 'A Simple Way to Decide' },
+      {
+        kind: 'ul',
+        items: [
+          'If your child\'s school already administers one of the two, that\'s often the most practical starting point — familiarity and easy registration matter for a first olympiad experience.',
+          'If building toward SOF\'s broader ecosystem (NSO, IEO, IGKO, NCO, ISSO) alongside maths is a goal, starting with SOF IMO keeps everything under one familiar registration process.',
+          'If international benchmarking and a playful, puzzle-driven style appeal more, Math Kangaroo is an excellent equally-accessible alternative.',
+        ],
+      },
+      { kind: 'h2', text: 'Why This Choice Isn\'t High-Stakes' },
+      {
+        kind: 'p',
+        text: 'Because both are genuinely low-pressure and open to a wide range of grades, this isn\'t a decision that meaningfully closes off future options. A student can attempt one, both, or switch between them year to year without losing anything — the real value at this stage is building comfort with competitive mathematics itself.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student take both Math Kangaroo and SOF IMO in the same year?',
+        answer: 'Yes — since they run independently with no eligibility conflict, many students attempt both, particularly in the early grades where both are accessible and low-pressure.',
+      },
+      {
+        question: 'Which is more useful for later IOQM or AMC preparation?',
+        answer: 'Both build genuinely transferable skills — applied reasoning, pattern recognition, comfort with timed multiple-choice format — so neither has a clear long-term advantage over the other as an early foundation.',
+      },
+      {
+        question: 'Does one have more international recognition than the other?',
+        answer: 'Math Kangaroo has a larger international participation base by some measures, while SOF IMO is more specifically recognized within India — the relevant "recognition" depends on what a family is optimizing for.',
+      },
+    ],
+  },
+  {
+    slug: 'why-math-kangaroo-great-first-step-ioqm-amc',
+    title: 'Why Math Kangaroo Is a Great First Step Before IOQM or AMC',
+    description:
+      "Math Kangaroo isn't just a fun exam for younger students — it genuinely builds the foundation IOQM and AMC reward later. Here's how the pieces connect.",
+    category: 'olympiad',
+    datePublished: '2026-08-30',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [{ href: '/ioqm-coaching-pune', label: 'IOQM Coaching' }, { href: '/amc-8-10-coaching-pune', label: 'AMC 8/10 Coaching' }],
+    body: [
+      {
+        kind: 'p',
+        text: 'Math Kangaroo is often seen as just a fun, low-stakes exam for younger students — which it genuinely is — but it also quietly builds several of the specific instincts that IOQM and AMC reward years later.',
+      },
+      { kind: 'h2', text: 'Pattern Recognition Under Time Pressure' },
+      {
+        kind: 'p',
+        text: 'Kangaroo questions are deliberately built to reward spotting a clever pattern or shortcut rather than grinding through brute-force calculation — exactly the instinct AMC-style multiple-choice questions reward, just at an earlier, more accessible level.',
+      },
+      { kind: 'h2', text: 'Comfort With Timed, Multiple-Choice Format' },
+      {
+        kind: 'p',
+        text: 'A student\'s first experience of sitting a timed, multiple-choice maths paper under exam conditions often happens through Kangaroo. That comfort — pacing, not panicking on an unfamiliar question style — transfers directly to AMC 8 and AMC 10 later.',
+      },
+      { kind: 'h2', text: 'Applied Reasoning Over Formula Recall' },
+      {
+        kind: 'p',
+        text: 'Because Kangaroo questions often present familiar concepts in unfamiliar, playful wrappings, students build the habit of reasoning through an unfamiliar problem setup rather than searching for a matching formula — a foundational skill for both AMC and IOQM-style problems later.',
+      },
+      { kind: 'h2', text: 'A Natural Progression' },
+      {
+        kind: 'table',
+        headers: ['Stage', 'Typical Grade', 'What It Builds'],
+        rows: [
+          ['Math Kangaroo', 'Grades 1–8', 'Pattern recognition, timed comfort, applied reasoning'],
+          ['AMC 8', 'Grades 6–8', 'Speed and multiple-choice strategy at a competition level'],
+          ['IOQM / AMC 10', 'Grades 8–10', 'Genuine derivation and multi-step problem-solving'],
+        ],
+      },
+      { kind: 'h2', text: 'The Practical Takeaway' },
+      {
+        kind: 'p',
+        text: 'A student who starts with Math Kangaroo in the early grades isn\'t just having fun with maths — they\'re quietly building the exact instincts that make the jump to AMC 8, and eventually IOQM or AMC 10, feel like a natural next step rather than an intimidating one.',
+      },
+    ],
+    faq: [
+      {
+        question: 'At what grade should a student move on from Kangaroo to AMC 8?',
+        answer: 'Since AMC 8 is open from Grade 6-8, a student comfortable with Kangaroo\'s Benjamin or Cadet level around Grade 6-7 is often well-positioned to add AMC 8 preparation alongside or instead of continuing Kangaroo.',
+      },
+      {
+        question: 'Does a student need to "graduate" from Kangaroo before starting IOQM?',
+        answer: 'No — IOQM has its own Grade 8 eligibility requirement independent of Kangaroo, though the skills Kangaroo builds do genuinely support IOQM readiness once a student reaches that grade.',
+      },
+      {
+        question: 'Is it worth continuing Kangaroo alongside AMC or IOQM once a student is older?',
+        answer: 'For most students, attention shifts to AMC/IOQM-level preparation once they\'re eligible, though there\'s no harm in continuing Kangaroo\'s Junior or Student levels alongside if time allows, since the formats remain complementary.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

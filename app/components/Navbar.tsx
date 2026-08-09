@@ -38,9 +38,9 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
     items: [
       { href: '/sof-imo-coaching-pune', label: 'SOF IMO' },
       { href: '/ioqm-coaching-pune', label: 'IOQM' },
-      { href: '/olympiad-math#nmtc', label: 'NMTC' },
-      { href: '/olympiad-math#amc', label: 'AMC 8 / AMC 10' },
-      { href: '/olympiad-math#kangaroo', label: 'Maths Kangaroo' },
+      { href: '/nmtc-coaching-pune', label: 'NMTC' },
+      { href: '/amc-8-10-coaching-pune', label: 'AMC 8 / AMC 10' },
+      { href: '/maths-kangaroo-coaching-pune', label: 'Maths Kangaroo' },
     ],
     footerLink: { href: '/olympiad-math', label: 'View Maths Olympiad Program →' },
   },

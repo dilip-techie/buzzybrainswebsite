@@ -97,15 +97,15 @@ export const roadmap = [
 export const faculty = [
   {
     name: 'Dilip Sir',
-    role: 'Founder & Lead Mentor — Foundation & Advanced Mathematics',
+    role: 'Founder & Lead Mentor — Mathematics & Physics, Foundation to Olympiad',
     creds: 'B.Tech, IIT Kanpur • MBA, IIM Ahmedabad • JEE AIR 400',
     badge: '25+ yrs experience',
   },
   {
     name: 'Kamble Sir',
-    role: 'IOQM / AMC-8 / AMC-10 / AMC-12 Coach',
-    creds: 'M.Tech, IIT Bombay',
-    badge: 'Olympiad specialist',
+    role: "IOQM → RMO → INMO → IMO Coach • AMC 8/10/12, AIME & USAMO",
+    creds: 'M.Tech (Design Engg), IIT Bombay • GATE-qualified • B.E. (Mech)',
+    badge: '15+ yrs since 2010',
   },
   {
     name: 'Agarwal Sir',
@@ -217,6 +217,7 @@ export const mathsOlympiadTracks: Track[] = [
     topics: ['Problem Solving', 'Reasoning', 'Number Theory'],
     outcome: 'Builds proof-writing skill for INMO-level work',
     color: 'amber',
+    href: '/nmtc-coaching-pune',
   },
   {
     id: 'amc',
@@ -228,6 +229,7 @@ export const mathsOlympiadTracks: Track[] = [
     topics: ['Algebra', 'Geometry', 'Counting & Probability'],
     outcome: 'Builds an international competition-maths profile',
     color: 'sky',
+    href: '/amc-8-10-coaching-pune',
   },
   {
     id: 'kangaroo',
@@ -239,6 +241,7 @@ export const mathsOlympiadTracks: Track[] = [
     topics: ['Logic', 'Pattern Recognition', 'Applied Arithmetic'],
     outcome: 'Global benchmark, no downside to attempting',
     color: 'amber',
+    href: '/maths-kangaroo-coaching-pune',
   },
 ];
 
