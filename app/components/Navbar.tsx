@@ -317,7 +317,12 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-        <div className={`mobile-menu${menuOpen ? ' open' : ''}`}>
+      </header>
+      {/* Rendered as a sibling of <header>, not a descendant — .navbar's
+          backdrop-filter creates a new containing block for position:fixed
+          children, which would otherwise squash this panel down to the
+          header's own height instead of the full viewport. */}
+      <div className={`mobile-menu${menuOpen ? ' open' : ''}`}>
           {NAV_LINKS.map((link) =>
             link.groups ? (
               <div className="mobile-menu-programs" key={link.href}>
@@ -374,7 +379,6 @@ export default function Navbar() {
             Book Free Demo →
           </Link>
         </div>
-      </header>
     </>
   );
 }

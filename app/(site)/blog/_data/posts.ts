@@ -16768,6 +16768,1162 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'sof-imo-syllabus-exam-pattern-complete-guide',
+    title: 'SOF IMO Syllabus and Exam Pattern: A Complete Guide',
+    description:
+      "SOF IMO is India's most widely taken school-level maths olympiad. Here's exactly what it covers, how it's structured, and what changes across grades.",
+    category: 'olympiad',
+    datePublished: '2026-08-31',
+    readingMinutes: 7,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'SOF IMO (International Mathematics Olympiad), run by the Science Olympiad Foundation, is a multiple-choice exam open to Grades 1-12, testing applied number sense, reasoning and grade-appropriate mathematics. It runs in two stages — Level 1, open to all registered students, and Level 2, for a smaller set of qualifiers based on Level 1 performance and class rank.',
+      },
+      { kind: 'h2', text: 'What the Syllabus Actually Covers' },
+      {
+        kind: 'p',
+        text: 'The syllabus broadly follows the school curriculum for each grade, but questions are framed to require applied reasoning rather than direct formula recall — a students who can solve a problem "the school way" isn\'t automatically ready for the way IMO frames the same concept.',
+      },
+      { kind: 'h2', text: 'Level 1 vs Level 2' },
+      {
+        kind: 'table',
+        headers: ['', 'Level 1', 'Level 2'],
+        rows: [
+          ['Eligibility', 'All registered students', 'Qualifiers from Level 1'],
+          ['Difficulty', 'Grade-appropriate, applied', 'Noticeably higher, more olympiad-style'],
+          ['Purpose', 'Broad screening', 'Genuine competitive olympiad round'],
+        ],
+      },
+      { kind: 'h2', text: 'How the Format Changes Across Grades' },
+      {
+        kind: 'p',
+        text: 'Younger grades (1-4) lean on number sense, patterns and logic; middle grades (5-8) add more structured arithmetic and early geometry; older grades (9-12) include algebra and more advanced applied reasoning — the format stays multiple-choice throughout, but the underlying content matures with the syllabus.',
+      },
+      { kind: 'h2', text: 'A Realistic Preparation Approach' },
+      {
+        kind: 'p',
+        text: 'Since Level 1 is broadly accessible, the highest-leverage preparation is simply strong command of the current grade\'s maths syllabus, applied flexibly — Level 2 is where dedicated olympiad-style practice starts to matter significantly more.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does every student who takes Level 1 qualify for Level 2?',
+        answer: 'No — Level 2 qualification is based on Level 1 performance and class rank, so only a subset of Level 1 participants are invited to attempt Level 2.',
+      },
+      {
+        question: 'Is a calculator allowed in SOF IMO?',
+        answer: 'No — like most olympiad-style maths exams, SOF IMO is designed to be solved through reasoning and mental arithmetic rather than computation.',
+      },
+      {
+        question: 'How is SOF IMO different from school maths exams?',
+        answer: 'School exams typically test whether a method was applied correctly; IMO questions are framed to require recognizing which approach applies in an unfamiliar setup, rewarding flexible reasoning over direct recall.',
+      },
+    ],
+  },
+  {
+    slug: 'why-every-student-should-attempt-sof-imo',
+    title: 'Why Every Student Should Attempt SOF IMO At Least Once',
+    description:
+      "SOF IMO isn't just for students who love maths competitions. Here's why it's worth attempting even for a student who has never done an olympiad before.",
+    category: 'olympiad',
+    datePublished: '2026-09-01',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'A common hesitation parents have is assuming olympiads are only for students who are already "good at maths." SOF IMO is specifically designed to be an accessible first attempt, and there are real, practical reasons for almost any student to try it at least once.',
+      },
+      { kind: 'h2', text: 'It Reveals Gaps a School Report Card Doesn\'t' },
+      {
+        kind: 'p',
+        text: 'Because IMO questions apply concepts in unfamiliar ways, a student\'s performance reveals whether they genuinely understand a concept or have simply memorized a method — information a school test, built around the exact taught method, often doesn\'t surface.',
+      },
+      { kind: 'h2', text: 'It Builds Exam-Taking Confidence Early' },
+      {
+        kind: 'p',
+        text: 'For many students, IMO is their first experience of a formal, timed, competitive exam outside the school system. That experience — reading unfamiliar questions under time pressure, staying calm — is valuable practice for every exam that follows.',
+      },
+      { kind: 'h2', text: 'It Costs Very Little to Attempt' },
+      {
+        kind: 'p',
+        text: 'Since Level 1 is broadly accessible with no prerequisite olympiad training, the downside of attempting IMO is minimal, while the potential upside — discovering a genuine strength, or a specific gap worth addressing — is real and immediate.',
+      },
+      { kind: 'h2', text: 'It Opens the Door to a Bigger Pipeline' },
+      {
+        kind: 'p',
+        text: 'A student who does well often discovers an interest in competitive mathematics they wouldn\'t otherwise have found — and IMO is a natural, low-friction on-ramp toward IOQM, AMC or NMTC in later grades.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Should a student prepare specifically for IMO, or is regular school study enough?',
+        answer: 'For a first attempt, strong command of the current grade\'s syllabus is usually enough to get a meaningful, informative result — dedicated preparation matters more for a serious Level 2 attempt.',
+      },
+      {
+        question: 'What if a student doesn\'t do well on their first attempt?',
+        answer: 'A first attempt is genuinely useful even with a modest result — it identifies specific gaps to work on, which is valuable information regardless of the score itself.',
+      },
+      {
+        question: 'Is there an age when it\'s "too late" to start with SOF IMO?',
+        answer: 'No — IMO is open through Grade 12, so there\'s no meaningful cutoff, though starting earlier gives more years to build on what\'s learned.',
+      },
+    ],
+  },
+  {
+    slug: 'sof-imo-level-1-vs-level-2-what-changes',
+    title: 'SOF IMO Level 1 vs Level 2: What Changes',
+    description:
+      "Qualifying for Level 2 is a genuine step up, not just a formality. Here's exactly what changes between the two rounds and how to prepare for the jump.",
+    category: 'olympiad',
+    datePublished: '2026-09-02',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Qualifying for SOF IMO Level 2 feels like an achievement — and it is — but many students and parents underestimate how much the difficulty actually increases between the two rounds.',
+      },
+      { kind: 'h2', text: 'The Jump in Difficulty' },
+      {
+        kind: 'p',
+        text: 'Level 1 is built to be broadly accessible to any registered student at grade level. Level 2 is a genuine competitive round, drawing only from students who already performed well — the question difficulty and the reasoning depth required both increase noticeably.',
+      },
+      { kind: 'h2', text: 'What Stays the Same' },
+      {
+        kind: 'p',
+        text: 'The format remains multiple-choice, and the broad subject area (applied maths at grade level) doesn\'t change — Level 2 isn\'t testing new content so much as testing the same content at meaningfully greater depth and with less forgiving question framing.',
+      },
+      { kind: 'h2', text: 'How to Prepare for the Jump' },
+      {
+        kind: 'ul',
+        items: [
+          'Review the specific questions missed on Level 1 — they usually point directly at the gap between "good enough for Level 1" and "ready for Level 2."',
+          'Move from grade-syllabus-level practice to genuine olympiad-style problem sets, which apply concepts more flexibly than Level 1 typically demands.',
+          'Practice under real time pressure — Level 2\'s harder questions take longer to reason through, so pacing becomes a bigger factor.',
+        ],
+      },
+      { kind: 'h2', text: 'What Level 2 Results Actually Signal' },
+      {
+        kind: 'p',
+        text: 'A strong Level 2 performance is a genuinely meaningful signal of mathematical strength — it reflects depth beyond the school syllabus and is a reasonable indicator that a student may be ready for more rigorous tracks like IOQM or NMTC in the following years.',
+      },
+    ],
+    faq: [
+      {
+        question: 'How much time is there to prepare between Level 1 results and Level 2?',
+        answer: 'The gap varies by year and region, but it\'s typically a limited window, which is why starting focused Level 2 preparation as soon as Level 1 results are announced matters.',
+      },
+      {
+        question: 'Is Level 2 open to students who didn\'t qualify through Level 1?',
+        answer: 'No — Level 2 eligibility is specifically based on Level 1 performance and class rank, so it isn\'t open as a standalone attempt.',
+      },
+      {
+        question: 'Does a strong Level 2 score guarantee readiness for IOQM?',
+        answer: 'It\'s a positive signal of mathematical strength, but IOQM has its own distinct integer-answer format and syllabus depth that still needs dedicated preparation separately.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-prepare-sof-imo-last-30-days',
+    title: 'How to Prepare for SOF IMO in the Last 30 Days',
+    description:
+      "With a month left before SOF IMO, the priority shifts from learning new content to sharpening what's already known. Here's a realistic 30-day plan.",
+    category: 'olympiad',
+    datePublished: '2026-09-03',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'With roughly a month left before SOF IMO, trying to cover new content is usually the wrong priority. The highest-leverage use of this time is sharpening speed and accuracy on what\'s already been learned.',
+      },
+      { kind: 'h2', text: 'Week 1–2: Diagnostic and Gap-Filling' },
+      {
+        kind: 'p',
+        text: 'Work through past IMO papers under real time conditions to identify specific weak areas — not vague "I\'m not great at geometry" impressions, but the exact question types being missed. Spend this period closing those specific gaps.',
+      },
+      { kind: 'h2', text: 'Week 3: Timed Practice' },
+      {
+        kind: 'p',
+        text: 'Shift fully to timed, full-length mock papers. The goal now is pacing and exam-day comfort, not new learning — a student who knows the content but hasn\'t practiced under time pressure often underperforms relative to their real ability.',
+      },
+      { kind: 'h2', text: 'Week 4: Light Revision and Confidence-Building' },
+      {
+        kind: 'p',
+        text: 'In the final week, taper intensity. Light review of previously-identified weak areas, without cramming new material, keeps the student sharp without inducing exam-week fatigue or anxiety.',
+      },
+      { kind: 'h2', text: 'What to Avoid in the Final Month' },
+      {
+        kind: 'ul',
+        items: [
+          'Starting entirely new topics this late — it\'s rarely worth the time relative to sharpening existing strengths.',
+          'Skipping timed practice in favor of only untimed problem-solving — pacing under real conditions is exactly what a rushed prep window can\'t skip.',
+          'Increasing intensity right up to exam day — a tapered final week generally produces better exam-day performance than a crammed one.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is 30 days enough time to prepare from scratch?',
+        answer: 'It\'s enough for focused sharpening and gap-filling if the underlying grade-level content is already reasonably solid — it\'s not enough time to build that foundation from zero.',
+      },
+      {
+        question: 'How many timed mock papers should be attempted in the final month?',
+        answer: 'A handful of full-length timed mocks, spaced out with proper review in between, is more valuable than many rushed attempts without review.',
+      },
+      {
+        question: 'Should a student change their study routine drastically in the last week?',
+        answer: 'No — a light taper that maintains familiarity without inducing fatigue tends to work better than either stopping practice entirely or intensifying it right before the exam.',
+      },
+    ],
+  },
+  {
+    slug: 'sof-imo-results-ranks-medals-certificates',
+    title: 'SOF IMO Results: Understanding Ranks, Medals and Certificates',
+    description:
+      "An SOF IMO result has more on it than a single score. Here's how to read rank, medal and certificate information and what each actually signals.",
+    category: 'olympiad',
+    datePublished: '2026-09-04',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'An SOF IMO result includes several different pieces of information — a raw score, various rank levels, and sometimes a medal or certificate — and it\'s easy to conflate them. Here\'s what each actually represents.',
+      },
+      { kind: 'h2', text: 'Raw Score' },
+      {
+        kind: 'p',
+        text: 'The most direct measure — how many questions were answered correctly. This is the number to focus on first, since it\'s stable and doesn\'t depend on how other students performed.',
+      },
+      { kind: 'h2', text: 'Rank Levels' },
+      {
+        kind: 'p',
+        text: 'SOF typically reports rank at multiple levels — within the school, within the zone or city, and internationally. A strong class rank doesn\'t necessarily mean a strong international rank, and vice versa — both are informative in different ways.',
+      },
+      { kind: 'h2', text: 'Medals and Certificates' },
+      {
+        kind: 'p',
+        text: 'Top performers at various rank thresholds typically receive medals and certificates of distinction. These recognize genuinely strong performance, but their absence for a solid, non-top-tier score doesn\'t mean the attempt wasn\'t worthwhile — most of the real value is in what the result reveals about the student\'s specific strengths and gaps.',
+      },
+      { kind: 'h2', text: 'How to Actually Use a Result' },
+      {
+        kind: 'p',
+        text: 'Beyond any medal, the most useful part of a result is the topic-wise breakdown, if provided — it shows exactly where a student\'s reasoning is strong and where it needs work, which is far more actionable than the overall rank alone.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does a school rank matter more than an international rank?',
+        answer: 'Neither is inherently more important — school rank shows standing among immediate peers, while international rank shows standing against the full participant pool, and both provide useful, different context.',
+      },
+      {
+        question: 'Is a certificate of participation meaningful?',
+        answer: 'It confirms genuine attempt and completion, which has value particularly for a first-time olympiad student, even without a top-tier rank attached.',
+      },
+      {
+        question: 'Should a modest result discourage a student from trying again next year?',
+        answer: 'No — a modest first result is common and genuinely useful information; students who use it to target specific gaps often see meaningful improvement in a subsequent attempt.',
+      },
+    ],
+  },
+  {
+    slug: 'isso-syllabus-history-geography-civics-by-grade',
+    title: 'ISSO Syllabus Explained: History, Geography and Civics Topics by Grade',
+    description:
+      "ISSO covers a genuinely broad syllabus across History, Geography and Civics. Here's how the topics build up by grade and what to expect at each level.",
+    category: 'olympiad',
+    datePublished: '2026-09-05',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: "ISSO (International Social Studies Olympiad), run by SOF, tests History, Geography and Civics through a multiple-choice paper for Grades 3-10. The syllabus broadly follows and extends the school social studies curriculum for each grade, tested through applied reasoning rather than pure date-and-fact recall.",
+      },
+      { kind: 'h2', text: 'History Topics' },
+      {
+        kind: 'p',
+        text: 'Coverage follows the grade-appropriate history syllabus — ancient and medieval history in earlier grades, moving toward modern history and the independence movement in later grades — tested through cause-and-effect reasoning as much as fact recall.',
+      },
+      { kind: 'h2', text: 'Geography Topics' },
+      {
+        kind: 'p',
+        text: 'Physical geography (landforms, climate, natural resources) in earlier grades, building toward human and economic geography (population, agriculture, industry) in later grades — with map-reading and applied reasoning woven throughout.',
+      },
+      { kind: 'h2', text: 'Civics Topics' },
+      {
+        kind: 'p',
+        text: 'Basic governance structures and civic responsibilities in earlier grades, extending to the Constitution, government institutions and rights in later grades — again tested for understanding rather than memorized definitions.',
+      },
+      { kind: 'h2', text: 'How the Depth Increases by Grade' },
+      {
+        kind: 'p',
+        text: 'As with SOF\'s other exams, ISSO questions are pitched to require applying social studies knowledge to a scenario or comparison, not just recalling a fact — this gets more pronounced as grade level increases, particularly from Grade 6 onward.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does ISSO require memorizing exact dates?',
+        answer: 'Some factual recall is inevitable in history and civics, but questions are generally framed to test understanding of cause, effect and context rather than purely testing exact-date memorization.',
+      },
+      {
+        question: 'Is ISSO available for all grades?',
+        answer: 'ISSO is offered across a range of grades similar to SOF\'s other exams — confirm current eligibility for your child\'s specific grade at registration.',
+      },
+      {
+        question: 'How is ISSO different from school social studies exams?',
+        answer: 'School exams are tied closely to the specific textbook content taught; ISSO questions apply the same broad syllabus more flexibly, sometimes connecting history, geography and civics within a single question.',
+      },
+    ],
+  },
+  {
+    slug: 'why-social-studies-olympiad-matters-for-science-students',
+    title: 'Why Social Studies Olympiad Matters Even for Science-Focused Students',
+    description:
+      "A student aiming for JEE or NEET might see ISSO as a distraction. Here's why broad social studies literacy is worth building anyway.",
+    category: 'olympiad',
+    datePublished: '2026-09-06',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Families focused on JEE or NEET sometimes see social studies as unrelated to their child\'s academic direction. There are still genuine reasons a science-focused student benefits from ISSO-style social studies literacy.',
+      },
+      { kind: 'h2', text: 'It Builds Reading Comprehension and Context Skills' },
+      {
+        kind: 'p',
+        text: 'Social studies questions, particularly at higher grades, require synthesizing information from a passage or scenario — a skill that directly supports comprehension-heavy sections in exams like SAT, CLAT, or even the reading-heavy portions of competitive exams generally.',
+      },
+      { kind: 'h2', text: 'Board Exams Still Include Social Studies' },
+      {
+        kind: 'p',
+        text: 'Up through Grade 10 in most Indian boards, social studies remains a graded subject regardless of a student\'s eventual stream — genuine understanding, not last-minute memorization, makes this a lower-stress part of board preparation.',
+      },
+      { kind: 'h2', text: 'It Builds Well-Rounded General Awareness' },
+      {
+        kind: 'p',
+        text: 'Civics and current-events literacy support general awareness sections that appear in various later exams and interviews — a foundation built early through something like ISSO pays off well beyond the exam itself.',
+      },
+      { kind: 'h2', text: 'It Doesn\'t Compete Meaningfully for Time' },
+      {
+        kind: 'p',
+        text: 'Because ISSO preparation overlaps heavily with what\'s already covered in school social studies, dedicated additional prep time is modest — the marginal effort for a science-focused student is genuinely low relative to the broader-literacy benefit.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Should a JEE/NEET-focused student prioritize ISSO preparation?',
+        answer: 'Not as a primary priority, but attempting it alongside strong school social studies performance costs very little extra time while building genuinely useful, transferable skills.',
+      },
+      {
+        question: 'Does ISSO help with CLAT or other law-entrance exams later?',
+        answer: 'The general awareness and civics literacy it builds provides a reasonable early foundation, though CLAT-specific preparation would still be needed separately when the time comes.',
+      },
+      {
+        question: 'Is there a risk ISSO distracts from core science subjects?',
+        answer: 'Given the low additional preparation burden — it largely reinforces existing school content — this risk is minimal for most students.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-prepare-isso-without-rote-memorization',
+    title: 'How to Prepare for ISSO Without Rote Memorization',
+    description:
+      "Social studies preparation often defaults to memorizing facts. Here's a more effective, reasoning-based approach for ISSO specifically.",
+    category: 'olympiad',
+    datePublished: '2026-09-07',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Social studies preparation defaults very easily to memorizing facts, dates and definitions — a strategy that underperforms on ISSO, which rewards understanding and application over recall.',
+      },
+      { kind: 'h2', text: 'Why Pure Memorization Falls Short' },
+      {
+        kind: 'p',
+        text: 'ISSO questions are often framed as scenarios or comparisons rather than direct fact-recall — a student who has memorized isolated facts without understanding the connections between them often struggles with questions that require applying that knowledge in an unfamiliar way.',
+      },
+      { kind: 'h2', text: 'A Better Approach: Build Concept Maps, Not Fact Lists' },
+      {
+        kind: 'p',
+        text: 'Instead of memorizing a list of dates or definitions, build connections — why did an event happen, what were its effects, how do different topics (a historical event and its geographic context, for instance) relate to each other. These connections are what ISSO-style questions actually probe.',
+      },
+      { kind: 'h2', text: 'Use Past Papers to Understand the Question Style' },
+      {
+        kind: 'p',
+        text: 'Working through past ISSO papers reveals the pattern quickly — questions rarely ask "in what year did X happen" in isolation, and more often connect it to a cause, effect, or comparison with another topic or region.',
+      },
+      { kind: 'h2', text: 'Practical Study Techniques' },
+      {
+        kind: 'ul',
+        items: [
+          'After learning a topic, explain it aloud in your own words, including why it matters, not just what happened.',
+          'Practice comparing two related topics (two historical periods, two geographic regions) rather than studying each in isolation.',
+          'Discuss current events in the context of the civics and geography syllabus, connecting classroom learning to the real world.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is some memorization still necessary for ISSO?',
+        answer: 'Yes — basic facts and definitions are still needed as a foundation, but they should support understanding rather than being the entire preparation strategy.',
+      },
+      {
+        question: 'How much time should be spent on ISSO preparation weekly?',
+        answer: 'Since it overlaps heavily with school social studies, a modest, consistent weekly review — reinforcing connections rather than cramming facts — is usually sufficient.',
+      },
+      {
+        question: 'Are mnemonics useful for ISSO preparation?',
+        answer: 'They can help retain specific facts, but shouldn\'t replace building genuine understanding of cause, effect and context, which is what ISSO questions ultimately test.',
+      },
+    ],
+  },
+  {
+    slug: 'isso-vs-school-social-studies-whats-different',
+    title: "ISSO vs School Social Studies: What's Actually Different",
+    description:
+      "If a student is already doing well in school social studies, what does ISSO add? Here's a clear-eyed comparison.",
+    category: 'olympiad',
+    datePublished: '2026-09-08',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'A student already scoring well in school social studies exams might reasonably ask what ISSO adds. The honest answer is a different kind of challenge, not necessarily new content.',
+      },
+      { kind: 'h2', text: 'Same Core Content, Different Question Style' },
+      {
+        kind: 'p',
+        text: 'ISSO doesn\'t generally introduce content beyond the school syllabus — the difference is almost entirely in how questions are framed: applied, comparative, and less predictable than the textbook-aligned questions a school exam typically uses.',
+      },
+      { kind: 'h2', text: 'Format Differences' },
+      {
+        kind: 'table',
+        headers: ['', 'School Exam', 'ISSO'],
+        rows: [
+          ['Format', 'Mixed (MCQ + written)', 'Multiple choice only'],
+          ['Question style', 'Direct, textbook-aligned', 'Applied, scenario-based'],
+          ['Benchmark', 'Class/school average', 'International peer group'],
+        ],
+      },
+      { kind: 'h2', text: 'What ISSO Genuinely Adds' },
+      {
+        kind: 'p',
+        text: 'The main value is exposure to a harder, more flexible question style than school exams typically provide, plus a genuine international benchmark for comparison — useful information a school exam alone doesn\'t offer.',
+      },
+      { kind: 'h2', text: 'Is It Worth Attempting If School Grades Are Already Strong?' },
+      {
+        kind: 'p',
+        text: 'Yes, generally — strong school performance is a good sign but doesn\'t guarantee the same result on ISSO\'s more applied question style, and the gap between the two (if any) is itself useful diagnostic information.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does ISSO cover content not taught in school?',
+        answer: 'Generally no — it draws from the same broad syllabus, applied more flexibly through scenario-based questions rather than direct textbook recall.',
+      },
+      {
+        question: 'Can a student prepare for ISSO using only school notes?',
+        answer: 'School notes provide the content foundation, but practicing with ISSO-style applied questions specifically helps students adapt to the different question framing.',
+      },
+      {
+        question: 'Is ISSO harder than school social studies exams?',
+        answer: 'It\'s framed differently rather than uniformly harder — a student can find ISSO more challenging even with strong school grades, simply due to the less predictable question style.',
+      },
+    ],
+  },
+  {
+    slug: 'isso-general-awareness-complements-every-subject',
+    title: 'Building General Awareness: How ISSO Complements Every Other Subject',
+    description:
+      "General awareness isn't a separate skill from academic subjects — it reinforces them. Here's how ISSO-style preparation supports learning broadly.",
+    category: 'olympiad',
+    datePublished: '2026-09-09',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'General awareness — the kind ISSO builds — is sometimes treated as a separate, standalone skill. In practice, it reinforces and connects to a student\'s learning across other subjects in ways that aren\'t always obvious.',
+      },
+      { kind: 'h2', text: 'Connections to Science' },
+      {
+        kind: 'p',
+        text: 'Geography topics like climate, natural resources and environmental change directly overlap with science syllabi — a student with strong ISSO-style geography understanding often finds related science concepts easier to contextualize.',
+      },
+      { kind: 'h2', text: 'Connections to Language and Comprehension' },
+      {
+        kind: 'p',
+        text: 'History and civics questions, especially scenario-based ones, require the same close-reading skill that English comprehension sections test — practicing one genuinely reinforces the other.',
+      },
+      { kind: 'h2', text: 'Connections to Current Events and Real-World Reasoning' },
+      {
+        kind: 'p',
+        text: 'A student who regularly engages with civics and current affairs through ISSO-style preparation builds a habit of connecting classroom learning to real-world events — a broadly useful habit that extends well past any single exam.',
+      },
+      { kind: 'h2', text: 'Why This Matters for Long-Term Learning' },
+      {
+        kind: 'p',
+        text: 'Subjects are rarely as separate in practice as they appear on a timetable. Building genuine social studies literacy through something like ISSO tends to quietly strengthen a student\'s broader academic reasoning, not just their score on one specific exam.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is general awareness tested directly in other competitive exams?',
+        answer: 'Yes — general awareness or current affairs sections appear in various exams later on (CLAT, various interviews and group discussions), making early exposure through ISSO a useful long-term investment.',
+      },
+      {
+        question: 'How can parents reinforce these cross-subject connections at home?',
+        answer: 'Discussing current events, geography or historical context in everyday conversation — connecting it to what\'s being studied in school — reinforces the habit more naturally than dedicated extra study sessions.',
+      },
+      {
+        question: 'Does this mean ISSO should be prioritized over core subjects?',
+        answer: 'No — it\'s a complementary, low-time-cost addition rather than a priority over core academic subjects, valuable precisely because it reinforces rather than competes with them.',
+      },
+    ],
+  },
+  {
+    slug: 'nso-syllabus-preparation-guide-by-grade',
+    title: 'NSO Syllabus and Preparation Guide by Grade',
+    description:
+      "SOF's National Science Olympiad covers Physics, Chemistry and Biology at every grade. Here's what it tests and how to prepare, grade by grade.",
+    category: 'olympiad',
+    datePublished: '2026-09-10',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'NSO (National Science Olympiad), run by SOF, tests Physics, Chemistry and Biology concepts across Grades 1-12 through a multiple-choice, applied-reasoning format, run in the same Level 1 / Level 2 structure as SOF\'s other exams.',
+      },
+      { kind: 'h2', text: 'How Content Builds by Grade' },
+      {
+        kind: 'p',
+        text: 'Younger grades focus on general science and everyday phenomena; middle grades add more structured Physics, Chemistry and Biology content aligned to the school curriculum; older grades draw more heavily on board-level science, applied flexibly.',
+      },
+      { kind: 'h2', text: 'A Grade-Wise Preparation Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Grades 1-4: build curiosity and observation skills through everyday science questions, without heavy content pressure.',
+          'Grades 5-8: consolidate the three-subject foundation (Physics, Chemistry, Biology) as they formally separate in the school syllabus.',
+          'Grades 9-12: connect NSO preparation with board and competitive-exam science prep, since the underlying content overlaps significantly.',
+        ],
+      },
+      { kind: 'h2', text: 'Why NSO Rewards Applied Understanding' },
+      {
+        kind: 'p',
+        text: 'As with SOF\'s other exams, NSO questions apply concepts to scenarios rather than testing direct recall — a student who understands why a phenomenon happens, not just the definition, performs more consistently across different question framings.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does NSO cover Physics, Chemistry and Biology equally?',
+        answer: 'Broadly yes, though the exact balance can vary by grade and paper — younger grades often blend general science more than the three-subject split seen in later grades.',
+      },
+      {
+        question: 'How does NSO connect to later NEET or JEE preparation?',
+        answer: 'It builds early applied-reasoning habits in science that support, though don\'t replace, the dedicated preparation NEET and JEE require later.',
+      },
+      {
+        question: 'Is Level 2 significantly harder than Level 1 for NSO?',
+        answer: 'Yes — as with SOF IMO, Level 2 draws from a smaller, stronger pool of qualifiers and is noticeably more demanding than Level 1.',
+      },
+    ],
+  },
+  {
+    slug: 'why-attempt-nso-building-scientific-temper-early',
+    title: 'Why Attempt NSO: Building Scientific Temper Early',
+    description:
+      "NSO isn't just exam prep — it builds a habit of questioning and reasoning about the natural world. Here's why that habit matters early.",
+    category: 'olympiad',
+    datePublished: '2026-09-11',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: '"Scientific temper" — the habit of questioning, observing and reasoning rather than accepting facts passively — is exactly what well-designed science olympiad preparation like NSO builds, often more effectively than passive textbook study alone.',
+      },
+      { kind: 'h2', text: 'Why This Habit Matters Beyond Any Exam' },
+      {
+        kind: 'p',
+        text: 'A student who has practiced asking "why does this happen" rather than "what is the definition" carries that instinct into every science class that follows — including the far more demanding NEET and JEE Physics, Chemistry and Biology syllabi years later.',
+      },
+      { kind: 'h2', text: 'NSO as an Early, Low-Stakes Training Ground' },
+      {
+        kind: 'p',
+        text: 'Because NSO is accessible from Grade 1 and doesn\'t assume prior olympiad training, it\'s an ideal low-stakes place to build this habit early — well before the pressure of board or competitive exams makes experimentation feel risky.',
+      },
+      { kind: 'h2', text: 'What Parents Can Do to Reinforce This' },
+      {
+        kind: 'ul',
+        items: [
+          'Encourage "why" questions about everyday phenomena, not just homework-driven science study.',
+          'Treat a wrong NSO answer as a starting point for curiosity ("why did you think that, and what actually happens") rather than just a mistake to correct.',
+          'Connect NSO topics to real-world observation where possible — science taught only from a book loses some of this habit-building value.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Does NSO preparation require lab access or experiments?',
+        answer: 'No — NSO is a written, multiple-choice exam, so preparation doesn\'t require lab equipment, though hands-on curiosity at home reinforces the same habits the exam rewards.',
+      },
+      {
+        question: 'Is scientific temper something that can genuinely be taught, or is it innate?',
+        answer: 'It\'s a habit that can be built through consistent practice — asking why, testing assumptions, reasoning through unfamiliar problems — rather than a fixed trait some students simply have and others don\'t.',
+      },
+      {
+        question: 'Does NSO performance predict later NEET/JEE performance?',
+        answer: 'It\'s not a direct predictor, but the underlying habits it builds — applied reasoning over memorization — genuinely support stronger performance in those exams later.',
+      },
+    ],
+  },
+  {
+    slug: 'nso-vs-school-science-exams-key-differences',
+    title: 'NSO vs School Science Exams: Key Differences',
+    description:
+      "A student who does well in school science might still find NSO challenging. Here's exactly why, and what the difference actually is.",
+    category: 'olympiad',
+    datePublished: '2026-09-12',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'It\'s common for a student who scores well in school science exams to find NSO more challenging than expected. The reason isn\'t a content gap — it\'s a difference in what\'s actually being tested.',
+      },
+      { kind: 'h2', text: 'School Exams Test Recall of Taught Material' },
+      {
+        kind: 'p',
+        text: 'School science exams are generally aligned closely to what was taught, in roughly the form it was taught — a well-prepared student can often anticipate the question style based on classroom teaching and textbook exercises.',
+      },
+      { kind: 'h2', text: 'NSO Tests Applied Understanding in Unfamiliar Framings' },
+      {
+        kind: 'p',
+        text: 'NSO questions take the same underlying concepts and present them in scenarios the student hasn\'t seen exactly before — requiring genuine understanding to adapt, not just recall of a taught example.',
+      },
+      { kind: 'h2', text: 'A Concrete Example of the Difference' },
+      {
+        kind: 'p',
+        text: 'A school exam might ask a student to state a property of a material. An NSO question might describe an everyday scenario involving that property and ask the student to predict an outcome — testing whether the concept was genuinely understood, not just memorized as a fact.',
+      },
+      { kind: 'h2', text: 'What This Means for Preparation' },
+      {
+        kind: 'p',
+        text: 'Strong school performance is a good foundation but not sufficient preparation on its own — practicing with NSO-style applied questions specifically helps a student adapt to this different, less predictable question framing.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Should a student change how they study for school exams to also prepare for NSO?',
+        answer: 'Not necessarily change, but supplement — studying for genuine understanding (not just recall) benefits both, while NSO-style practice specifically builds comfort with the applied question format.',
+      },
+      {
+        question: 'Is this difference bigger in some grades than others?',
+        answer: 'The gap tends to become more noticeable in higher grades, where school exams can lean more heavily on structured, predictable question patterns that NSO deliberately avoids.',
+      },
+      {
+        question: 'Does a low NSO score mean a student has weak science fundamentals?',
+        answer: 'Not necessarily — it more often reflects unfamiliarity with the applied question style rather than a genuine content gap, which is exactly why targeted NSO-style practice helps.',
+      },
+    ],
+  },
+  {
+    slug: 'ieo-syllabus-preparation-guide',
+    title: 'IEO Syllabus and Preparation Guide',
+    description:
+      "SOF's International English Olympiad tests grammar, vocabulary and comprehension at a level beyond standard school English. Here's what to expect and how to prepare.",
+    category: 'olympiad',
+    datePublished: '2026-09-13',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'IEO (International English Olympiad), run by SOF, tests grammar, vocabulary, comprehension and verbal reasoning across Grades 1-12, applying English skills more flexibly than a typical school English exam.',
+      },
+      { kind: 'h2', text: 'What the Syllabus Covers' },
+      {
+        kind: 'ul',
+        items: [
+          'Grammar — tenses, parts of speech, sentence structure, applied in context rather than isolated fill-in-the-blank drills.',
+          'Vocabulary — word meaning, synonyms/antonyms and usage, often tested through context clues rather than direct definition recall.',
+          'Comprehension — reading passages with inference-based questions, not just direct-lookup answers.',
+          'Verbal reasoning — analogies, logical sequencing and language-based pattern recognition.',
+        ],
+      },
+      { kind: 'h2', text: 'How Difficulty Builds by Grade' },
+      {
+        kind: 'p',
+        text: 'Younger grades focus on foundational grammar and simple comprehension; older grades add more nuanced vocabulary, longer passages and more inferential comprehension questions — building toward the reading and reasoning skills exams like SAT and CLAT reward later.',
+      },
+      { kind: 'h2', text: 'A Practical Preparation Approach' },
+      {
+        kind: 'p',
+        text: 'Regular reading — beyond just textbooks — combined with deliberate vocabulary building and timed comprehension practice covers most of what IEO tests. Grammar drilling alone, without reading and comprehension practice, tends to underprepare students for the exam\'s actual question style.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is IEO only about grammar rules?',
+        answer: 'No — grammar is one component, but comprehension and vocabulary applied in context typically make up a significant share of the paper as well.',
+      },
+      {
+        question: 'How does regular reading help with IEO specifically?',
+        answer: 'Consistent reading builds vocabulary in context and comprehension speed — both directly tested — far more effectively than isolated grammar or vocabulary drilling alone.',
+      },
+      {
+        question: 'Does IEO help with SAT or other English-heavy exams later?',
+        answer: 'The underlying skills — vocabulary in context, inferential comprehension, verbal reasoning — transfer directly to exams like SAT and CLAT that test similar skills at a more advanced level.',
+      },
+    ],
+  },
+  {
+    slug: 'why-english-olympiad-matters-for-every-student',
+    title: "Why English Olympiad Matters for Every Student's Future",
+    description:
+      "Strong English literacy underpins performance across nearly every other exam a student will eventually take. Here's why IEO-style practice is worth the time.",
+    category: 'olympiad',
+    datePublished: '2026-09-14',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'English literacy is easy to treat as "just another subject," but strong comprehension and vocabulary underpin performance across nearly every exam a student will eventually take — including ones that aren\'t explicitly English exams.',
+      },
+      { kind: 'h2', text: 'Comprehension Speed Affects Every Timed Exam' },
+      {
+        kind: 'p',
+        text: 'JEE, NEET, SAT and board exams all require quickly and accurately understanding what a question is actually asking — a skill IEO-style comprehension practice builds directly, independent of the subject the exam is testing.',
+      },
+      { kind: 'h2', text: 'Vocabulary Supports Every Subject\'s Terminology' },
+      {
+        kind: 'p',
+        text: 'Science, social studies and even maths word problems rely on precise vocabulary comprehension — a student with weaker vocabulary sometimes loses marks on content they understand conceptually, simply from misreading the question.',
+      },
+      { kind: 'h2', text: 'It Builds a Foundation for Exams Years Away' },
+      {
+        kind: 'p',
+        text: 'SAT\'s Reading & Writing section and CLAT\'s English section both test the exact skills IEO builds — starting early, well before those exams are relevant, gives a genuine long-term head start.',
+      },
+      { kind: 'h2', text: 'It\'s a Low-Risk, High-Value Addition' },
+      {
+        kind: 'p',
+        text: 'Given how directly these skills transfer, and how little dedicated extra time IEO preparation typically requires beyond regular reading, it\'s one of the highest-value, lowest-cost additions to a student\'s broader academic preparation.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does IEO preparation take time away from core subjects?',
+        answer: 'Minimally — since much of the preparation is regular reading and vocabulary building, which can happen alongside, rather than instead of, core subject study.',
+      },
+      {
+        question: 'Is IEO relevant for students planning a science or maths career?',
+        answer: 'Yes — strong comprehension and vocabulary support performance across science and maths exams too, since misreading a question is a common, avoidable source of lost marks in any subject.',
+      },
+      {
+        question: 'At what age should IEO-style preparation start?',
+        answer: 'IEO is open from Grade 1, and building reading and vocabulary habits early tends to compound — there\'s no real downside to starting as soon as a child is reading independently.',
+      },
+    ],
+  },
+  {
+    slug: 'common-mistakes-students-make-in-ieo',
+    title: 'Common Mistakes Students Make in IEO',
+    description:
+      "Most points lost on IEO aren't from not knowing English — they're from a handful of avoidable, repeatable mistakes. Here are the most common ones.",
+    category: 'olympiad',
+    datePublished: '2026-09-15',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Students who are genuinely comfortable in English still lose avoidable points on IEO — usually from a small set of repeatable mistakes rather than a real language gap.',
+      },
+      { kind: 'h2', text: 'Mistake 1: Skimming Comprehension Passages Too Quickly' },
+      {
+        kind: 'p',
+        text: 'Rushing through a passage to save time often means missing the specific detail a question asks about — comprehension questions frequently hinge on a precise detail, not just the general gist of the passage.',
+      },
+      { kind: 'h2', text: 'Mistake 2: Choosing the "Almost Right" Answer' },
+      {
+        kind: 'p',
+        text: 'Multiple-choice English questions often include a distractor option that\'s close but not quite correct — usually missing a specific nuance in meaning. Careful reading of all options, not just picking the first plausible one, avoids this trap.',
+      },
+      { kind: 'h2', text: 'Mistake 3: Guessing Vocabulary from Similar-Sounding Words' },
+      {
+        kind: 'p',
+        text: 'Assuming a word\'s meaning based on how it sounds or resembles another word is a common, avoidable error — context clues within the sentence or passage are a more reliable guide than assumption.',
+      },
+      { kind: 'h2', text: 'Mistake 4: Overlooking Grammar in Context' },
+      {
+        kind: 'p',
+        text: 'Grammar questions embedded in a sentence or passage are sometimes approached as isolated rule-application, missing how the surrounding context changes which rule actually applies.',
+      },
+      { kind: 'h2', text: 'How to Fix These' },
+      {
+        kind: 'p',
+        text: 'Deliberate, unhurried reading practice — rather than speed-reading — combined with reviewing exactly why a wrong answer was wrong after every practice set, addresses most of these mistakes directly.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is it better to read the questions first or the passage first?',
+        answer: 'Approaches vary by student, but reading the passage carefully first, then the questions, tends to reduce the risk of missing context that changes the correct answer.',
+      },
+      {
+        question: 'How can vocabulary guessing mistakes be reduced?',
+        answer: 'Practicing deriving meaning from context within practice passages, rather than relying on how a word sounds, builds a more reliable long-term vocabulary instinct.',
+      },
+      {
+        question: 'Does slowing down during practice actually help, given the exam is timed?',
+        answer: 'Yes, initially — building accuracy through careful, unhurried practice first, then gradually adding time pressure, tends to produce better results than practicing fast and inaccurately from the start.',
+      },
+    ],
+  },
+  {
+    slug: 'nco-syllabus-what-cyber-olympiad-tests',
+    title: 'NCO Syllabus: What Cyber Olympiad Actually Tests',
+    description:
+      "SOF's National Cyber Olympiad covers more than typing skills. Here's what it actually tests, from computer fundamentals to cyber safety.",
+    category: 'olympiad',
+    datePublished: '2026-09-16',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'NCO (National Cyber Olympiad), run by SOF, tests computer fundamentals, internet safety and logical reasoning across Grades 1-12 — genuinely broader than just "computer knowledge," and increasingly relevant given how early students now use digital devices.',
+      },
+      { kind: 'h2', text: 'What the Syllabus Covers' },
+      {
+        kind: 'ul',
+        items: [
+          'Computer fundamentals — hardware, software, basic operations, appropriate to grade level.',
+          'Internet and cyber safety — safe online behavior, recognizing risks, basic digital citizenship.',
+          'Logical reasoning — pattern recognition and structured thinking, often presented through computer-adjacent scenarios.',
+          'Grade-appropriate technology awareness — how common digital tools and systems work at a conceptual level.',
+        ],
+      },
+      { kind: 'h2', text: 'Why Cyber Safety Is a Core Component, Not an Add-On' },
+      {
+        kind: 'p',
+        text: 'As students go online earlier and more independently, understanding real risks — not just "don\'t talk to strangers" style rules, but genuine digital literacy — has become a practical necessity, and NCO treats it as core content rather than an afterthought.',
+      },
+      { kind: 'h2', text: 'How This Differs From Typing or Computer Application Classes' },
+      {
+        kind: 'p',
+        text: 'NCO doesn\'t test typing speed or software operation skills directly — it tests conceptual understanding of how computers and networks work, and reasoning about digital scenarios, closer in spirit to NSO\'s applied-science approach than to a computer-skills class.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does a student need coding experience to do well in NCO?',
+        answer: 'No — NCO tests computer fundamentals and cyber awareness, not programming, so it doesn\'t require prior coding experience.',
+      },
+      {
+        question: 'Is NCO the same as computer science taught in school?',
+        answer: 'There\'s overlap in fundamentals, but NCO places more emphasis on applied reasoning and cyber safety than a typical school computer applications class.',
+      },
+      {
+        question: 'At what grade should cyber safety concepts start being taught?',
+        answer: 'Given how early many students now use digital devices, age-appropriate cyber safety awareness is worth building from the earliest eligible grades, not delayed until secondary school.',
+      },
+    ],
+  },
+  {
+    slug: 'why-attempt-nco-digital-age',
+    title: 'Why Every Student Should Attempt NCO in the Digital Age',
+    description:
+      "Digital literacy is no longer optional. Here's why NCO is a genuinely practical exam for students growing up online.",
+    category: 'olympiad',
+    datePublished: '2026-09-17',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Today\'s students are using digital devices and the internet earlier and more independently than any previous generation — which makes NCO\'s focus on computer fundamentals and cyber safety practically relevant, not just an academic exercise.',
+      },
+      { kind: 'h2', text: 'Digital Literacy Is a Life Skill Now' },
+      {
+        kind: 'p',
+        text: 'Understanding how devices and networks work at a basic conceptual level, and recognizing genuine online risks, is increasingly a practical necessity rather than a specialist skill — NCO builds this in a structured, age-appropriate way.',
+      },
+      { kind: 'h2', text: 'It Builds Toward Future Technology Careers' },
+      {
+        kind: 'p',
+        text: 'For students who go on to pursue computer science, engineering or any technology-adjacent field, early comfort with computer fundamentals and structured logical reasoning — both tested in NCO — provides a genuinely useful head start.',
+      },
+      { kind: 'h2', text: 'It Complements, Rather Than Replaces, Coding Education' },
+      {
+        kind: 'p',
+        text: 'NCO isn\'t a substitute for learning to code, but it builds the conceptual foundation and safety awareness that make later coding education (and competitive programming, for students who pursue that path) land on more solid ground.',
+      },
+      { kind: 'h2', text: 'It\'s Accessible Regardless of Prior Tech Background' },
+      {
+        kind: 'p',
+        text: 'Because NCO doesn\'t require prior coding or specialized technical training, it\'s genuinely accessible to any student — making it a reasonable exam to attempt even for a family unsure whether their child has a "tech-focused" interest yet.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is NCO relevant for a student who isn\'t interested in a technology career?',
+        answer: 'Yes — the cyber safety and digital literacy components are practically useful for any student in a connected world, independent of eventual career direction.',
+      },
+      {
+        question: 'Does NCO overlap with our Code Ninja program?',
+        answer: 'They\'re complementary rather than overlapping — NCO tests fundamentals and awareness broadly, while Code Ninja builds actual programming skill for students pursuing that path further.',
+      },
+      {
+        question: 'Should parents be involved in reinforcing cyber safety concepts at home?',
+        answer: 'Yes — classroom or exam-based learning is reinforced significantly when parents also model and discuss safe online behavior at home.',
+      },
+    ],
+  },
+  {
+    slug: 'how-nco-builds-foundation-coding-cybersecurity',
+    title: 'How NCO Builds the Foundation for Coding and Cybersecurity',
+    description:
+      "NCO isn't a coding exam, but it lays groundwork that makes later coding and cybersecurity learning easier. Here's how the pieces connect.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "NCO doesn't teach programming directly, but several of the habits and concepts it builds genuinely make later coding and cybersecurity learning land more easily.",
+      },
+      { kind: 'h2', text: 'Logical Reasoning Transfers Directly to Programming Logic' },
+      {
+        kind: 'p',
+        text: 'The structured, pattern-based reasoning NCO tests is close in spirit to the logical thinking programming requires — sequencing steps, spotting patterns, reasoning through a structured problem — even before a student writes their first line of code.',
+      },
+      { kind: 'h2', text: 'Computer Fundamentals Remove a Common Early Barrier' },
+      {
+        kind: 'p',
+        text: 'Students who understand basic computer fundamentals conceptually — how hardware, software and networks relate — tend to progress faster in early coding education than those encountering these concepts for the first time alongside new programming syntax.',
+      },
+      { kind: 'h2', text: 'Cyber Safety Awareness Supports Responsible Technology Use' },
+      {
+        kind: 'p',
+        text: 'As students move toward genuine coding and eventually more advanced technology use, the safety and digital-citizenship awareness NCO builds early supports responsible use of increasingly powerful tools and platforms.',
+      },
+      { kind: 'h2', text: 'A Natural Progression' },
+      {
+        kind: 'table',
+        headers: ['Stage', 'What It Builds'],
+        rows: [
+          ['NCO', 'Computer fundamentals, logical reasoning, cyber safety'],
+          ['Scratch / block coding', 'Computational thinking without syntax overhead'],
+          ['Python / text-based coding', 'Real programming skill'],
+          ['Competitive programming (ZIO/INOI)', 'Algorithmic problem-solving at a competitive level'],
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Should NCO be attempted before or after starting coding classes like Code Ninja?',
+        answer: 'Either order works, though many families find NCO a natural, low-pressure starting point before or alongside early block-based coding education.',
+      },
+      {
+        question: 'Does strong NCO performance predict coding aptitude?',
+        answer: 'It\'s a reasonable positive signal — particularly the logical reasoning component — though genuine coding aptitude also depends on interest and practice once a student starts actually programming.',
+      },
+      {
+        question: 'Is cybersecurity a realistic career path to introduce this early?',
+        answer: 'It\'s far too early to commit to a specific career path, but building safety-conscious digital habits early is valuable regardless of whether a student eventually pursues cybersecurity specifically.',
+      },
+    ],
+  },
+  {
+    slug: 'igko-syllabus-preparation-guide',
+    title: 'IGKO Syllabus and Preparation Guide',
+    description:
+      "SOF's International General Knowledge Olympiad covers current affairs and general awareness broadly. Here's what it tests and how to prepare.",
+    category: 'olympiad',
+    datePublished: '2026-09-19',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'IGKO (International General Knowledge Olympiad), run by SOF, tests current affairs, general awareness and reasoning across Grades 1-10 — one of the broadest, most low-pressure SOF exams, well suited as an early olympiad experience.',
+      },
+      { kind: 'h2', text: 'What the Syllabus Covers' },
+      {
+        kind: 'ul',
+        items: [
+          'Current affairs — recent events at an age-appropriate level, particularly for older grades.',
+          'General knowledge — geography, science, culture and history facts, presented broadly rather than deeply.',
+          'Reasoning — basic logical and general-awareness-based reasoning questions.',
+        ],
+      },
+      { kind: 'h2', text: 'How to Prepare Without Overloading a Young Student' },
+      {
+        kind: 'p',
+        text: 'Because IGKO\'s syllabus is broad rather than deep, cramming a fixed list of facts is both exhausting and inefficient. Regular, light exposure — age-appropriate news, general knowledge books, casual conversation about current events — builds the same knowledge base more sustainably.',
+      },
+      { kind: 'h2', text: 'A Practical Weekly Habit' },
+      {
+        kind: 'p',
+        text: 'A short, regular routine — reading a children\'s news digest or discussing one current event a week — builds IGKO-relevant knowledge steadily over months, far more effectively than an intense cram session before the exam.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is IGKO harder to prepare for than SOF\'s subject-specific exams?',
+        answer: 'It\'s different rather than harder — the breadth of possible topics means deep subject mastery matters less than broad, consistent exposure over time.',
+      },
+      {
+        question: 'Are there age-appropriate current affairs resources for younger students?',
+        answer: 'Yes — children\'s news publications and general knowledge resources pitched at school-age readers are widely available and are a good starting point.',
+      },
+      {
+        question: 'Should current affairs preparation focus on national or international news?',
+        answer: 'A mix is generally appropriate, since IGKO — as an "international" general knowledge olympiad — draws on both national and broader global awareness.',
+      },
+    ],
+  },
+  {
+    slug: 'why-general-knowledge-olympiad-matters-beyond-classroom',
+    title: 'Why General Knowledge Olympiad Matters Beyond the Classroom',
+    description:
+      "IGKO builds a habit of staying informed and curious about the world — a habit with value that extends well past the exam itself.",
+    category: 'olympiad',
+    datePublished: '2026-09-20',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'IGKO is sometimes seen as the "easiest" or least academically serious of SOF\'s exams — but the habit it builds, staying informed and curious about the world, has value that extends well beyond any single test.',
+      },
+      { kind: 'h2', text: 'It Builds a Habit of Staying Informed' },
+      {
+        kind: 'p',
+        text: 'Regularly engaging with age-appropriate news and general knowledge, in preparation for IGKO, builds a habit of staying informed that many students otherwise don\'t develop until much later — if at all.',
+      },
+      { kind: 'h2', text: 'It Supports Conversations and Confidence Beyond Academics' },
+      {
+        kind: 'p',
+        text: 'A student with broad general awareness tends to engage more confidently in discussions, group activities and later interviews — general knowledge is social and practical capital, not just exam content.',
+      },
+      { kind: 'h2', text: 'It Feeds Directly Into Later Exams and Processes' },
+      {
+        kind: 'p',
+        text: 'General awareness sections appear in various forms across later exams and processes — from CLAT\'s current affairs section to college and scholarship interviews — making early IGKO-style habit-building a genuine long-term investment.',
+      },
+      { kind: 'h2', text: 'A Low-Pressure Way to Build Curiosity' },
+      {
+        kind: 'p',
+        text: 'Because IGKO doesn\'t carry the intensity of a subject-specific olympiad, it\'s a genuinely enjoyable way to build broad curiosity about the world — without the pressure that can sometimes make more intensive academic subjects feel like a chore.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does IGKO have real academic value, or is it "just for fun"?',
+        answer: 'Both — it\'s genuinely low-pressure and enjoyable, while also building general awareness and reading habits that have real, if indirect, academic and practical value later.',
+      },
+      {
+        question: 'Should IGKO be prioritized over subject-specific olympiads like IMO or NSO?',
+        answer: 'Not as a priority, but it\'s a valuable complement — many students attempt IGKO alongside a subject-specific SOF exam rather than instead of one.',
+      },
+      {
+        question: 'At what age does general knowledge start becoming genuinely useful?',
+        answer: 'The habit of staying curious and informed compounds over years, so there\'s real value in starting early, even before a student can fully appreciate why it matters.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-build-weekly-current-affairs-habit-igko',
+    title: 'How to Build a Weekly Current Affairs Habit for IGKO',
+    description:
+      "A sustainable, low-effort weekly routine works better for IGKO preparation than cramming. Here's a practical structure that actually sticks.",
+    category: 'olympiad',
+    datePublished: '2026-09-21',
+    readingMinutes: 5,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF Olympiad Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Because IGKO\'s syllabus is broad rather than deep, a sustainable weekly habit works far better than cramming before the exam — general knowledge accumulates gradually, not overnight.',
+      },
+      { kind: 'h2', text: 'A Simple Weekly Structure' },
+      {
+        kind: 'ul',
+        items: [
+          'One short session reading an age-appropriate news digest or children\'s current affairs resource — 15-20 minutes is enough.',
+          'One casual conversation connecting a current event to something the student already knows or is studying in school.',
+          'One general knowledge quiz or activity — even informal, game-style question rounds work well for younger students.',
+        ],
+      },
+      { kind: 'h2', text: 'Why Consistency Beats Intensity Here' },
+      {
+        kind: 'p',
+        text: 'General knowledge, almost by definition, is broad and cumulative — a single intensive cram session covers a tiny fraction of what regular, light exposure builds over several months. The habit itself is the preparation strategy.',
+      },
+      { kind: 'h2', text: 'Making It Sustainable, Not a Chore' },
+      {
+        kind: 'p',
+        text: 'Keeping sessions short, conversational and low-pressure — rather than treating them as formal "study time" — makes the habit more likely to stick, particularly for younger students who respond better to curiosity-driven engagement than structured drilling.',
+      },
+      { kind: 'h2', text: 'Adjusting the Habit as Grade Increases' },
+      {
+        kind: 'p',
+        text: 'For older students preparing for IGKO at higher grades, the same weekly structure can simply deepen — longer articles, more analytical discussion of current events — without needing to change the underlying habit-based approach.',
+      },
+    ],
+    faq: [
+      {
+        question: 'How long before IGKO should this weekly habit start?',
+        answer: 'Ideally months in advance, since the value comes from cumulative exposure over time — starting just a few weeks before the exam captures only a fraction of the benefit.',
+      },
+      {
+        question: 'Is it necessary to track or test knowledge formally each week?',
+        answer: 'Informal engagement — conversation, casual quizzes — is usually enough; formal weekly testing can make the habit feel like a chore and risks reducing genuine engagement.',
+      },
+      {
+        question: 'What if a student loses interest partway through building the habit?',
+        answer: 'Varying the format — alternating reading, conversation and game-style quizzes — helps sustain interest better than repeating the same routine every week.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
