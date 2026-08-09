@@ -614,3 +614,205 @@ export const sofExamFaqs = [
     a: 'Both. Our Amanora, Hadapsar campus runs live in-person batches with smart digital boards, and the same curriculum is available live online.',
   },
 ];
+
+// ============ NMTC — dedicated page ============
+export const nmtcLevelTracks: Track[] = [
+  {
+    id: 'primary',
+    code: 'Level',
+    name: 'Primary',
+    grades: 'Class 5',
+    blurb: 'Arithmetic reasoning, logic puzzles and pattern recognition — an accessible first taste of proof-and-reasoning mathematics.',
+    meta: [['Class', '5'], ['Format', 'Part A + Part B']],
+    topics: ['Arithmetic', 'Logic', 'Patterns'],
+    outcome: 'A gentle, structured first olympiad',
+    color: 'brand',
+  },
+  {
+    id: 'sub-junior',
+    code: 'Level',
+    name: 'Sub-Junior',
+    grades: 'Class 6–7',
+    blurb: 'Elementary geometry and number properties enter the syllabus, alongside longer, multi-step reasoning problems.',
+    meta: [['Class', '6–7'], ['Format', 'Part A + Part B']],
+    topics: ['Number Properties', 'Elementary Geometry'],
+    outcome: 'Builds toward Junior-level rigor',
+    color: 'sky',
+  },
+  {
+    id: 'junior',
+    code: 'Level',
+    name: 'Junior',
+    grades: 'Class 8–9',
+    blurb: 'Early algebra, number theory and combinatorics appear — the same skills IOQM rewards from Class 8 onward.',
+    meta: [['Class', '8–9'], ['Format', 'Part A + Part B']],
+    topics: ['Algebra', 'Number Theory', 'Combinatorics'],
+    outcome: 'Directly reinforces IOQM preparation',
+    color: 'amber',
+  },
+  {
+    id: 'inter',
+    code: 'Level',
+    name: 'Inter',
+    grades: 'Class 10–11',
+    blurb: 'Genuine proof-writing begins — functional equations, modular arithmetic and synthetic geometry proofs, not just angle chasing.',
+    meta: [['Class', '10–11'], ['Format', 'Part A + Part B']],
+    topics: ['Proof Writing', 'Modular Arithmetic', 'Geometry'],
+    outcome: 'Close to INMO-level rigor',
+    color: 'brand',
+  },
+  {
+    id: 'senior',
+    code: 'Level',
+    name: 'Senior',
+    grades: 'Class 11–12',
+    blurb: 'NMTC at its most demanding — multi-step proofs graded on rigor and completeness, the closest AMTI gets to INMO-style evaluation.',
+    meta: [['Class', '11–12'], ['Format', 'Part A + Part B']],
+    topics: ['Inequalities', 'Diophantine Equations', 'Casework'],
+    outcome: 'Serious INMO-track practice',
+    color: 'sky',
+  },
+];
+
+export const nmtcFaqs = [
+  {
+    q: 'Who conducts NMTC and what does it test?',
+    a: 'NMTC (National Mathematics Talent Contest) is conducted by AMTI (Association of Mathematics Teachers of India) across five levels — Primary, Sub-Junior, Junior, Inter and Senior — through a two-part paper: Part A (objective/short answer) and Part B (full written solutions).',
+  },
+  {
+    q: 'Which level should my child attempt?',
+    a: 'NMTC levels map directly to class: Primary (Class 5), Sub-Junior (Class 6-7), Junior (Class 8-9), Inter (Class 10-11) and Senior (Class 11-12). Your child attempts the level matching their current class.',
+  },
+  {
+    q: 'How is NMTC different from IOQM?',
+    a: 'NMTC is open from Class 5 with a written Part B at every level, building proof-writing skill gradually. IOQM is a Class 8-12, integer-answer-only exam with no written component. Many students use NMTC as an early foundation before IOQM becomes available in Class 8.',
+  },
+  {
+    q: 'How big are the batches?',
+    a: 'Every batch is capped at a maximum of 12 students, so written Part B solutions can be reviewed individually rather than just answer-checked.',
+  },
+  {
+    q: 'Is coaching available online, offline, or both?',
+    a: 'Both. Our Amanora, Hadapsar campus runs live in-person batches with smart digital boards, and the same curriculum is available live online.',
+  },
+];
+
+// ============ AMC 8/10 — dedicated page ============
+export const amcTracks: Track[] = [
+  {
+    id: 'amc-8',
+    code: 'AMC 8',
+    name: 'American Mathematics Competition 8',
+    grades: 'Grades 6–8 (under 14.5 yrs)',
+    blurb: 'A fast, elegant entry point to US competition mathematics — 25 questions in 40 minutes, no negative marking, building speed and pattern recognition.',
+    meta: [['Format', 'Multiple choice'], ['Time', '40 minutes']],
+    topics: ['Arithmetic', 'Pre-Algebra', 'Basic Geometry'],
+    outcome: 'Builds the base for AMC 10',
+    color: 'brand',
+  },
+  {
+    id: 'amc-10',
+    code: 'AMC 10',
+    name: 'American Mathematics Competition 10',
+    grades: 'Grades 9–10 (under 17.5 yrs)',
+    blurb: 'The proving ground for AIME qualification — 25 questions, 75 minutes, with a scoring system where blind guessing is a losing strategy.',
+    meta: [['Format', 'Multiple choice'], ['Time', '75 minutes']],
+    topics: ['Algebra II', 'Geometry', 'Probability'],
+    outcome: 'Qualifying score → AIME → USAMO',
+    color: 'sky',
+  },
+  {
+    id: 'aime-pathway',
+    code: 'Next Step',
+    name: 'AIME & Beyond',
+    grades: 'By invitation',
+    blurb: 'A strong AMC 10/12 score earns an AIME invitation — 15 integer-answer questions in 3 hours, the closest US equivalent to IOQM-level derivation.',
+    meta: [['Format', 'Integer answer'], ['Time', '3 hours']],
+    topics: ['AIME', 'USAMO', 'USAJMO'],
+    outcome: 'The top of the AMC pipeline',
+    color: 'amber',
+  },
+];
+
+export const amcFaqs = [
+  {
+    q: 'What is the difference between AMC 8 and AMC 10?',
+    a: 'AMC 8 is for Grade 6-8 students (under 14.5 years) — 25 questions in 40 minutes, no negative marking. AMC 10 is for Grade 9-10 students (under 17.5 years) — 25 questions in 75 minutes, with a scoring system (6 for correct, 1.5 for blank, 0 for wrong) where a strong score qualifies for AIME.',
+  },
+  {
+    q: 'Should my child take AMC 10A or AMC 10B?',
+    a: 'The MAA runs two AMC 10 papers each year, roughly two weeks apart, and a student may sit both — the better of the two scores counts toward AIME qualification, so most serious students attempt both if the schedule allows.',
+  },
+  {
+    q: 'Is AMC open to Indian students?',
+    a: 'Yes — AMC 8, AMC 10 and AMC 12 are administered at registered international test centers, including in India, and are open to students worldwide regardless of nationality.',
+  },
+  {
+    q: 'How does AMC connect to IOQM?',
+    a: 'They are distinct pipelines that reward overlapping skills — IOQM feeds India\'s INMO/IMO pipeline, while AMC feeds AIME/USAMO. Many students prepare for both in parallel since the core mathematical skill transfers directly.',
+  },
+  {
+    q: 'How big are the batches?',
+    a: 'Every batch is capped at a maximum of 12 students, so mentors can review pacing and question-selection strategy individually, not just final scores.',
+  },
+];
+
+// ============ Math Kangaroo — dedicated page ============
+export const kangarooTracks: Track[] = [
+  {
+    id: 'ecolier',
+    code: 'Levels',
+    name: 'Pre-Ecolier & Ecolier',
+    grades: 'Grades 1–4',
+    blurb: 'The youngest Kangaroo levels — playful, visual, logic-driven questions that build number sense without any formal olympiad pressure.',
+    meta: [['Grades', '1–4'], ['Format', 'Multiple choice']],
+    topics: ['Number Sense', 'Visual Logic', 'Patterns'],
+    outcome: 'A joyful first competition-maths experience',
+    color: 'brand',
+  },
+  {
+    id: 'benjamin-cadet',
+    code: 'Levels',
+    name: 'Benjamin & Cadet',
+    grades: 'Grades 5–8',
+    blurb: 'Applied arithmetic, early geometry and clever multi-step reasoning — the level where Kangaroo starts feeling like real competition maths.',
+    meta: [['Grades', '5–8'], ['Format', 'Multiple choice']],
+    topics: ['Applied Arithmetic', 'Geometry', 'Logic'],
+    outcome: 'A natural bridge to AMC 8 / IOQM',
+    color: 'amber',
+  },
+  {
+    id: 'junior-student',
+    code: 'Levels',
+    name: 'Junior & Student',
+    grades: 'Grades 9–12',
+    blurb: 'The most advanced Kangaroo levels — algebra, geometry and combinatorics applied cleverly under real time pressure.',
+    meta: [['Grades', '9–12'], ['Format', 'Multiple choice']],
+    topics: ['Algebra', 'Combinatorics', 'Geometry'],
+    outcome: 'Sharpens speed alongside IOQM/AMC prep',
+    color: 'sky',
+  },
+];
+
+export const kangarooFaqs = [
+  {
+    q: 'What are the Math Kangaroo levels?',
+    a: 'Math Kangaroo runs six levels by grade: Pre-Ecolier and Ecolier (Grades 1-4), Benjamin and Cadet (Grades 5-8), and Junior and Student (Grades 9-12) — each with its own paper, tuned to that age group.',
+  },
+  {
+    q: 'Is there negative marking in Math Kangaroo?',
+    a: 'Scoring policy can vary slightly by country and administering body, but Math Kangaroo is generally designed to be low-pressure and encourage genuine attempts — we teach students the specific scoring rules for their exact paper as part of preparation.',
+  },
+  {
+    q: 'Is Math Kangaroo a good first olympiad?',
+    a: 'Yes — it\'s one of the most accessible, low-pressure entry points into competition mathematics, with no eligibility barriers and a playful question style, making it a strong first step before AMC 8, SOF IMO or IOQM-track preparation.',
+  },
+  {
+    q: 'How big are the batches?',
+    a: 'Every batch is capped at a maximum of 12 students, so mentors can tailor practice to exactly where each student is starting from.',
+  },
+  {
+    q: 'Is coaching available online, offline, or both?',
+    a: 'Both. Our Amanora, Hadapsar campus runs live in-person batches with smart digital boards, and the same curriculum is available live online.',
+  },
+];

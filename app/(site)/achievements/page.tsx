@@ -20,6 +20,11 @@ const HIGHLIGHTS = [
   { value: '95%+', label: 'Top Board Scorers', icon: TrendingUp, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
 ];
 
+const RESULTS = [
+  { title: 'JEE Advanced 2026 — AIR 4025', desc: 'A BuzzyBrains Academy student qualified JEE Advanced with an All India Rank of 4025.', icon: Trophy, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
+  { title: '635/720 in NEET', desc: 'A BuzzyBrains Academy student scored 635 out of 720 in NEET.', icon: Target, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+];
+
 const MILESTONES = [
   { badge: '2020', title: 'The Realization', desc: 'Dilip Sir saw the gap: large classrooms, anxious students, burnt-out teachers. Decided to leave his job and try something different.', icon: Sparkles },
   { badge: 'Mid-2021', title: 'The Leap', desc: 'Rented a small room with borrowed furniture. Started with 8 students and a promise: quality over numbers. No ads, just word of mouth.', icon: Rocket },
@@ -131,6 +136,28 @@ export default function AchievementsPage() {
                   <b>{h.value}</b>
                   <span>{h.label}</span>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ NOTABLE RESULTS ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }} id="results" aria-labelledby="results-title">
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Notable Results</span>
+            <h2 className="section-title reveal" id="results-title">Real ranks. Real scores.</h2>
+            <p className="section-sub reveal">A few of the results our students have earned.</p>
+          </div>
+          <div className="trust-grid" style={{ gridTemplateColumns: 'repeat(2,minmax(0,1fr))', maxWidth: 760, margin: '56px auto 0' }}>
+            {RESULTS.map((r, i) => (
+              <div className="trust-card reveal" data-delay={String(i % 2)} key={r.title}>
+                <div className="trust-icon" style={{ background: r.gradient }}>
+                  <r.icon size={22} color="#fff" />
+                </div>
+                <h3>{r.title}</h3>
+                <p>{r.desc}</p>
               </div>
             ))}
           </div>
