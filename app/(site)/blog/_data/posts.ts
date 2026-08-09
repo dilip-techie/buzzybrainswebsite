@@ -17924,6 +17924,400 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'what-marks-needed-to-qualify-ioqm-cutoff-explained',
+    title: 'What Marks Are Needed to Qualify IOQM? Understanding the Cutoff System',
+    description:
+      "There is no single fixed IOQM cutoff — it changes every year and varies by region. Here's how the cutoff system actually works and why a fixed target score is the wrong way to think about it.",
+    category: 'olympiad',
+    datePublished: '2026-09-22',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: "IOQM does not have one fixed cutoff score published in advance. HBCSE (Homi Bhabha Centre for Science Education) sets the qualifying cutoff for INMO after the exam is conducted each year, and — importantly — the cutoff is set separately for different regions and categories, not as a single national number. This means the exact score needed to qualify changes from year to year and varies depending on where a student is registered, so students should always check the official HBCSE notification for the current year rather than aiming at a number from a previous year.",
+      },
+      { kind: 'h2', text: 'Why There Is No Single Fixed Cutoff' },
+      {
+        kind: 'p',
+        text: "IOQM's purpose is to select a fair, representative pool of students to sit INMO — not simply the top scorers nationally, regardless of where they're from. Because participation and access to olympiad training vary significantly across India, HBCSE sets region-wise cutoffs so that strong students from every part of the country get a genuine chance to qualify, rather than the results being dominated by a small number of regions with the most established coaching ecosystems.",
+      },
+      { kind: 'h2', text: 'How the Cutoff Is Actually Determined' },
+      {
+        kind: 'p',
+        text: "The cutoff for a given year depends on how the full pool of students performed on that specific paper — a harder paper year tends to produce a lower cutoff, an easier paper tends to produce a higher one. This is a common feature of well-designed selection exams: the goal is to select a consistent number of qualifiers each year, not to hit a fixed score threshold regardless of difficulty.",
+      },
+      { kind: 'h2', text: 'Why Aiming at "Last Year\'s Cutoff" Is a Risky Strategy' },
+      {
+        kind: 'p',
+        text: 'Since the cutoff moves with each year\'s paper and each region\'s specific pool, treating a previous year\'s cutoff as a fixed target is unreliable — a student could clear a self-set target based on an old cutoff and still miss qualification if that year\'s paper or regional pool shifts the actual bar higher.',
+      },
+      { kind: 'h2', text: 'A Better Way to Think About Preparation' },
+      {
+        kind: 'ul',
+        items: [
+          'Aim to maximize genuine, correct answers across all 30 questions rather than a specific target number — since IOQM has no negative marking, every additional correct answer directly helps regardless of where the cutoff lands.',
+          'Track performance relative to your own region\'s historical qualifiers, if that information is available, rather than a single national number.',
+          'Treat the cutoff as something that will only be known after the exam, and prepare to perform at the strongest level you genuinely can, rather than preparing to "just clear" an assumed number.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Where can the official IOQM cutoff for the current year be found?',
+        answer: "HBCSE publishes the official cutoff and qualifier list after IOQM results are processed each year — this is the only reliable source, since cutoffs are not published in advance and change annually.",
+      },
+      {
+        question: 'Does a higher score always guarantee qualification?',
+        answer: "A meaningfully higher score than typical past cutoffs is a strong sign, but since the exact bar depends on that year's specific regional cutoff, no score can be guaranteed to qualify until the official cutoff is announced.",
+      },
+      {
+        question: 'Is the cutoff the same for every region in India?',
+        answer: 'No — cutoffs are set region-wise, so the score needed to qualify can differ meaningfully depending on which region a student is registered under.',
+      },
+    ],
+  },
+  {
+    slug: 'ioqm-regional-quota-explained',
+    title: 'IOQM Regional Quota Explained: Why Cutoffs Differ by Region',
+    description:
+      "IOQM cutoffs aren't uniform across India — they're set region by region. Here's why HBCSE structures qualification this way and what it means for students in different parts of the country.",
+    category: 'olympiad',
+    datePublished: '2026-09-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "A common point of confusion for families is discovering that a friend or relative in a different part of India qualified IOQM with a different score than their own child needed. This isn't inconsistency — it's a deliberate, region-wise structure HBCSE uses to select INMO's qualifying pool.",
+      },
+      { kind: 'h2', text: 'Why HBCSE Uses Region-Wise Cutoffs' },
+      {
+        kind: 'p',
+        text: "India's olympiad ecosystem has historically had uneven access — some regions have a much longer-established culture of olympiad coaching and participation than others. A single national cutoff would risk concentrating INMO qualifiers heavily in a small number of regions, rather than reflecting genuine mathematical talent distributed across the whole country. Region-wise cutoffs are HBCSE's mechanism for correcting this imbalance.",
+      },
+      { kind: 'h2', text: 'How Regions Are Defined' },
+      {
+        kind: 'p',
+        text: "HBCSE organizes IOQM registration and results processing by defined regions, broadly aligned with the structure used across India's olympiad administration. The exact regional boundaries and the number of qualifying slots allocated to each are set by HBCSE and confirmed each year in the official IOQM notification — students should check their specific region's classification directly with their registration details rather than assuming.",
+      },
+      { kind: 'h2', text: 'What This Means Practically for Students' },
+      {
+        kind: 'ul',
+        items: [
+          'A student\'s realistic qualification target should be benchmarked against their own region\'s historical cutoffs and qualifier pool, not a friend\'s result from a different region.',
+          'Moving registration regions (for instance, if a family relocates) can genuinely change the competitive landscape a student faces — worth being aware of if relocation coincides with olympiad season.',
+          'Regional variation is not a sign that IOQM is "easier" in some places — it reflects differences in the size and strength of the applicant pool, not the difficulty of the paper itself, which is identical nationally.',
+        ],
+      },
+      { kind: 'h2', text: 'Why This System Is Actually Good for Students' },
+      {
+        kind: 'p',
+        text: "For a strong student in a region with less olympiad-coaching infrastructure, region-wise cutoffs mean a genuinely fair shot at qualifying, rather than being crowded out by regions with decades of established coaching culture. The system is designed to find talent everywhere, not just where it's already easiest to find.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student choose which region to register under?',
+        answer: 'Registration region is typically tied to the school or center a student is registered through, not a free choice — this should be confirmed directly during IOQM registration.',
+      },
+      {
+        question: 'Are the exam papers different across regions?',
+        answer: 'No — the IOQM paper itself is the same nationally; only the qualifying cutoff score is set separately by region based on that region\'s results.',
+      },
+      {
+        question: 'Does regional quota apply to AMC or NMTC as well?',
+        answer: 'No — this specific region-wise cutoff structure is particular to how HBCSE administers IOQM/INMO in India; AMC and NMTC use their own separate qualification mechanisms.',
+      },
+    ],
+  },
+  {
+    slug: 'girls-quota-indian-maths-olympiad-pipeline',
+    title: "The Girls' Quota in India's Maths Olympiad Pipeline: What It Is and Why It Exists",
+    description:
+      "India's olympiad maths pipeline includes a specific pathway to encourage and support girls' participation, connected to the EGMO team. Here's what it is and why it matters.",
+    category: 'olympiad',
+    datePublished: '2026-09-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: "Mathematics olympiads have historically seen significantly lower participation and representation from girls compared to boys, both in India and internationally. India's olympiad pipeline includes specific structures aimed at addressing this, connected to India's participation in EGMO — the European Girls' Mathematical Olympiad.",
+      },
+      { kind: 'h2', text: 'What EGMO Is, and Why India Participates' },
+      {
+        kind: 'p',
+        text: "EGMO is an international mathematical olympiad specifically for girls, held annually, that India has sent a team to since joining in the mid-2010s. Its purpose is explicitly to encourage greater female participation in competitive mathematics by providing a dedicated, high-level international stage — separate from IMO — for outstanding girl mathematicians.",
+      },
+      { kind: 'h2', text: 'How Girls Are Selected for India\'s EGMO Team' },
+      {
+        kind: 'p',
+        text: 'India\'s pipeline includes mechanisms to identify and support strong girl performers through the IOQM/INMO pathway specifically for EGMO team selection, alongside the standard INMO-to-IMO pipeline that all students, regardless of gender, go through. Exact selection criteria and processes are set by HBCSE and can be confirmed through official olympiad notifications each year.',
+      },
+      { kind: 'h2', text: 'Why This Structure Exists' },
+      {
+        kind: 'p',
+        text: "The reasoning behind dedicated support for girls in the olympiad pipeline is straightforward: when participation and representation are historically skewed, talented students can be lost simply due to a lack of visible role models, encouragement, or a sense that the space is for them. A dedicated pathway and team specifically for girls provides both genuine opportunity and visible representation, which research on participation gaps generally shows matters significantly.",
+      },
+      { kind: 'h2', text: 'What This Means for Families of Girl Students' },
+      {
+        kind: 'ul',
+        items: [
+          'A strong girl student has both the standard INMO-to-IMO pathway and the EGMO-specific pathway as potential routes — worth understanding both when planning a serious olympiad trajectory.',
+          'Early encouragement matters — participation gaps often widen not because of ability, but because of how early and consistently girls are encouraged to pursue competitive mathematics.',
+          'Coaching environments that actively support and encourage girl students, rather than defaulting to a male-majority classroom culture, make a genuine difference in sustained participation.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is EGMO a separate exam from INMO, or part of the same pipeline?',
+        answer: 'EGMO team selection draws from India\'s existing IOQM/INMO pipeline rather than being a fully separate exam track, with additional selection steps specific to EGMO team formation.',
+      },
+      {
+        question: 'Can a girl student aim for both the IMO team and the EGMO team?',
+        answer: 'Yes — both pathways draw from the same underlying pipeline of strong performers, so a girl student\'s preparation supports both routes simultaneously rather than requiring a choice between them.',
+      },
+      {
+        question: 'Does this pathway lower the bar for qualification?',
+        answer: 'It provides a dedicated, additional route and support structure rather than a lowered standard — EGMO itself is a genuinely rigorous international olympiad in its own right.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-use-olympiad-achievements-international-university-applications',
+    title: 'How to Use Olympiad Achievements in International University Applications',
+    description:
+      "Beyond whether olympiad achievement helps a foreign university application, here's the practical mechanics: where it goes on the application, how to describe it, and what admissions officers actually look for.",
+    category: 'olympiad',
+    datePublished: '2026-09-25',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [{ href: '/blog/olympiad-advantage-ioqm-nso-toppers-build-their-iit-edge', label: 'The Olympiad Advantage: Building an IIT Edge' }],
+    body: [
+      {
+        kind: 'p',
+        text: "It's well understood that strong olympiad achievement is a respected signal in competitive international university applications. Less discussed is the practical mechanics — exactly where and how to present it so admissions committees actually register its significance.",
+      },
+      { kind: 'h2', text: 'Where Olympiad Achievement Goes on an Application' },
+      {
+        kind: 'ul',
+        items: [
+          'The activities or extracurriculars section — listing the specific exam, level reached (e.g., IOQM qualifier, INMO participant, IMO team member) and the year, precisely rather than vaguely.',
+          'Honors and awards sections, where available separately from activities — olympiad results generally belong here as a distinct achievement, not folded into a general "clubs" listing.',
+          'Supplemental essays, particularly at universities that ask about intellectual interests or a specific academic passion — a genuine, specific olympiad experience (a particular hard problem, a turning point in understanding) makes for a far stronger essay than a generic "I love maths" statement.',
+          'Some universities (particularly for STEM-focused or research-oriented programmes) accept supplementary materials or portfolios — this can be a place to reference notable olympiad results in more depth.',
+        ],
+      },
+      { kind: 'h2', text: 'How to Describe It Precisely' },
+      {
+        kind: 'p',
+        text: 'Admissions officers reading thousands of applications respond better to precise, verifiable claims than vague ones. "Qualified for INMO (India\'s national mathematical olympiad, top ~900 nationally)" is far more useful to a reader unfamiliar with the Indian olympiad system than simply "Won a maths olympiad."  Providing brief context for an international reader — without over-explaining — helps the achievement register at its actual significance.',
+      },
+      { kind: 'h2', text: 'What Admissions Officers Are Actually Looking For' },
+      {
+        kind: 'p',
+        text: "Selective universities generally aren't just checking a box for “has an award” — they're looking for evidence of genuine intellectual depth and sustained engagement with a subject, which a multi-year olympiad trajectory demonstrates far more convincingly than a single achievement mentioned in isolation. Framing the olympiad journey — not just the final result — often matters as much as the result itself.",
+      },
+      { kind: 'h2', text: 'A Common Mistake to Avoid' },
+      {
+        kind: 'p',
+        text: 'Listing every olympiad-adjacent activity without context, hoping quantity signals seriousness, often has the opposite effect — a focused narrative around genuine depth in one or two tracks (for instance, a multi-year IOQM/INMO trajectory) reads as more credible and compelling than a long, undifferentiated list.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does IOQM qualification alone (without reaching INMO) still matter on an application?',
+        answer: 'Yes, though its weight is naturally smaller than reaching INMO or beyond — it still demonstrates genuine engagement with competitive mathematics, particularly when described with accurate context.',
+      },
+      {
+        question: 'Should international achievements like AMC or SASMO also be included alongside Indian olympiads?',
+        answer: 'Yes — a combination of Indian and international olympiad achievements can strengthen an application by showing both depth and a genuinely global engagement with competitive mathematics.',
+      },
+      {
+        question: 'Is it worth getting a letter of recommendation specifically referencing olympiad achievement?',
+        answer: "If a mentor who has directly observed a student's olympiad journey can speak to it specifically and credibly, this can meaningfully reinforce the narrative built elsewhere in the application.",
+      },
+    ],
+  },
+  {
+    slug: 'stanford-math-tournament-what-it-is-how-to-participate',
+    title: 'The Stanford Math Tournament: What It Is and How Indian Students Can Participate',
+    description:
+      "The Stanford Math Tournament is one of the most prestigious student-run maths competitions in the US. Here's what it tests and how students outside the US can get involved.",
+    category: 'olympiad',
+    datePublished: '2026-09-26',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'The Stanford Math Tournament (SMT) is a prestigious, student-run mathematics competition hosted at Stanford University, open to high school students, featuring individual and team rounds across topics including algebra, geometry, number theory and combinatorics — considerably more advanced than AMC-level problems, closer in spirit to AIME or early olympiad-level difficulty.',
+      },
+      { kind: 'h2', text: 'What Makes SMT Distinctive' },
+      {
+        kind: 'p',
+        text: 'Unlike AMC, which is broadly accessible from a wide range of ability levels, SMT is pitched at a genuinely advanced level — it draws strong competition-maths students, often those who have already done well on AMC 10/12 or AIME, and includes team rounds that reward collaborative problem-solving in addition to individual rounds.',
+      },
+      { kind: 'h2', text: 'Format Overview' },
+      {
+        kind: 'table',
+        headers: ['Component', 'What It Tests'],
+        rows: [
+          ['Individual subject tests', 'Algebra, Geometry, Number Theory, Combinatorics — each a focused round'],
+          ['Team round', 'Collaborative problem-solving under time pressure'],
+          ['General test', 'Broader coverage across topics'],
+        ],
+      },
+      { kind: 'h2', text: 'Can Indian Students Participate?' },
+      {
+        kind: 'p',
+        text: 'SMT has historically run both an in-person tournament at Stanford and, in various years, online or remote participation options that extend access beyond students able to travel to the US — availability of remote participation changes year to year, so checking the current year\'s official SMT registration details directly is essential before assuming eligibility.',
+      },
+      { kind: 'h2', text: 'Is SMT the Right Next Step After AMC?' },
+      {
+        kind: 'p',
+        text: 'For a student who has performed strongly on AMC 10/12 and is comfortable with AIME-level problems, SMT is a reasonable, prestigious next challenge — it is not a beginner-friendly competition, so attempting it without that foundation usually leads to a discouraging rather than useful experience.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is SMT harder than AMC 10?',
+        answer: "Yes, meaningfully — SMT is pitched closer to AIME or early olympiad difficulty, well beyond typical AMC 10-level problems.",
+      },
+      {
+        question: 'Does SMT require a team, or can a student compete individually?',
+        answer: 'SMT includes both individual subject tests and team rounds, so students typically register as part of a team for the team component while also sitting individual rounds.',
+      },
+      {
+        question: 'Is there a registration fee for international participants?',
+        answer: 'Fee structures and eligibility for international or remote participants vary year to year and should be confirmed directly through SMT\'s official registration process for the current year.',
+      },
+    ],
+  },
+  {
+    slug: 'sasmo-singapore-maths-olympiad-why-indian-students-take-it',
+    title: 'SASMO: Singapore\'s International Maths Olympiad and Why Indian Students Take It',
+    description:
+      "SASMO is one of the most widely taken international maths competitions among Indian students. Here's what it is, how it's structured, and why it's grown so popular.",
+    category: 'olympiad',
+    datePublished: '2026-09-27',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'answer',
+        text: 'SASMO (Singapore and Asian Schools Math Olympiad) is an international mathematics competition, run from Singapore, designed specifically for international participation across multiple grade levels. It has become genuinely popular among Indian students as an accessible, well-structured entry into competitive mathematics with a strong regional (Asian) and international benchmark.',
+      },
+      { kind: 'h2', text: 'What SASMO Tests' },
+      {
+        kind: 'p',
+        text: 'SASMO covers applied problem-solving across arithmetic, logic, geometry and number patterns, graded by level to match different grade bands — similar in spirit to SOF IMO or Math Kangaroo in accessibility, while carrying strong recognition specifically within Singapore\'s well-regarded maths education ecosystem.',
+      },
+      { kind: 'h2', text: 'Why It\'s Popular Among Indian Students Specifically' },
+      {
+        kind: 'ul',
+        items: [
+          'Singapore\'s mathematics education system is internationally well-regarded, giving SASMO strong credibility as a benchmark.',
+          'It is explicitly designed for international participants, unlike some Singapore-specific competitions that are limited to local schools.',
+          'It offers a genuine additional data point — comparing a student\'s performance against an international (rather than purely Indian) peer pool.',
+        ],
+      },
+      { kind: 'h2', text: 'How SASMO Compares to SOF IMO and Math Kangaroo' },
+      {
+        kind: 'table',
+        headers: ['', 'SASMO', 'SOF IMO', 'Math Kangaroo'],
+        rows: [
+          ['Origin', 'Singapore', 'India (SOF)', 'International (France-founded)'],
+          ['Format', 'Multiple choice', 'Multiple choice', 'Multiple choice'],
+          ['Benchmark', 'Asian / international', 'Primarily Indian', 'Global'],
+        ],
+      },
+      { kind: 'h2', text: 'Is It Worth Adding to a Student\'s Olympiad Portfolio?' },
+      {
+        kind: 'p',
+        text: 'For a student already comfortable with SOF IMO or Math Kangaroo, SASMO is a reasonable, low-additional-effort way to add a genuinely international competition to their profile, given the strong content overlap with what\'s already being prepared.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Is SASMO harder than SOF IMO?',
+        answer: 'They are broadly comparable in accessibility and format, though the specific question style and international benchmark differ — many students find the overlap in preparation substantial.',
+      },
+      {
+        question: 'Can Indian students register for SASMO directly, or only through a school?',
+        answer: 'SASMO typically allows registration through participating schools or centers; specific registration routes should be confirmed through SASMO\'s official channels for the current year.',
+      },
+      {
+        question: 'Does SASMO have multiple levels like Math Kangaroo?',
+        answer: 'Yes — SASMO is structured across multiple grade-appropriate levels, similar in principle to how Math Kangaroo and SOF IMO scale difficulty by grade.',
+      },
+    ],
+  },
+  {
+    slug: 'purple-comet-math-meet-free-team-based-competition',
+    title: 'Purple Comet Math Meet: A Free, Team-Based Global Maths Competition Worth Trying',
+    description:
+      "Purple Comet is a free, online, team-based maths competition with genuinely global participation. Here's what makes it distinctive and why it's worth adding to a student's olympiad calendar.",
+    category: 'olympiad',
+    datePublished: '2026-09-28',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    body: [
+      {
+        kind: 'p',
+        text: 'Purple Comet Math Meet is a free, online, team-based mathematics competition with genuinely wide international participation — a distinctive addition to a student\'s olympiad calendar precisely because of its team format and zero-cost accessibility.',
+      },
+      { kind: 'h2', text: 'What Makes Purple Comet Different' },
+      {
+        kind: 'ul',
+        items: [
+          'It is entirely free to participate — no registration fee, which is unusual among well-regarded international maths competitions.',
+          'It is run online, removing the need for a physical test center — teams take the exam together, typically at their own school or coaching center.',
+          'It is genuinely team-based throughout, rewarding collaborative problem-solving rather than purely individual performance.',
+          'Answers are integers, similar in spirit to IOQM or AIME, rather than multiple-choice.',
+        ],
+      },
+      { kind: 'h2', text: 'Format Overview' },
+      {
+        kind: 'p',
+        text: 'Teams work through a substantial set of integer-answer problems within a set time window, with problems spanning algebra, geometry, number theory and combinatorics at a range of difficulties within the same paper — team members typically divide effort across different problems and combine results.',
+      },
+      { kind: 'h2', text: 'Why the Team Format Builds a Different Skill' },
+      {
+        kind: 'p',
+        text: 'Most competitive maths exams — IOQM, AMC, SOF IMO — are individual. Purple Comet\'s team format teaches a genuinely different, valuable skill: dividing a large problem set strategically across teammates, communicating partial progress, and combining individual strengths — closer to how real mathematical research or engineering problem-solving actually works.',
+      },
+      { kind: 'h2', text: 'Who Should Attempt Purple Comet' },
+      {
+        kind: 'p',
+        text: 'Students already comfortable with AMC or IOQM-level problem-solving, looking for a low-cost, low-friction way to add international team-competition experience to their portfolio, are well suited to Purple Comet — the free, online format makes it an easy addition alongside existing preparation rather than a competing priority.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Does a school need to be officially registered to participate in Purple Comet?',
+        answer: 'Teams generally register through a school or coaching center as the administering body — the exact registration process should be confirmed through Purple Comet\'s official site for the current year.',
+      },
+      {
+        question: 'Is Purple Comet appropriate for a first-time competition-maths student?',
+        answer: 'It\'s better suited to students with some existing competition-maths background (AMC or IOQM-level comfort), given the integer-answer format and range of difficulty within the paper.',
+      },
+      {
+        question: 'How does team size affect a team\'s chances?',
+        answer: 'Team size limits and format specifics are set by the competition rules for each year — coordination and division of problems among team members generally matters more than raw team size alone.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

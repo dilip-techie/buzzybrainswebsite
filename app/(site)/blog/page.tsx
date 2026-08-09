@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
   Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
+  Search, X,
   type LucideIcon,
 } from 'lucide-react';
 import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/posts';
@@ -91,6 +92,10 @@ export default function BlogIndexPage() {
     return () => io.disconnect();
   }, []);
 
+  const [query, setQuery] = useState('');
+  const trimmedQuery = query.trim();
+  const isSearching = trimmedQuery.length > 0;
+
   const featured = POSTS_BY_DATE[0];
   const rest = POSTS_BY_DATE.slice(1);
 
@@ -98,6 +103,15 @@ export default function BlogIndexPage() {
     () => CATEGORY_ORDER.filter((category) => BLOG_POSTS.some((post) => post.category === category)),
     []
   );
+
+  const searchResults = useMemo(() => {
+    if (!isSearching) return [];
+    const q = trimmedQuery.toLowerCase();
+    return POSTS_BY_DATE.filter((post) => {
+      const haystack = `${post.title} ${post.description} ${CATEGORY_LABELS[post.category]}`.toLowerCase();
+      return haystack.includes(q);
+    });
+  }, [isSearching, trimmedQuery]);
 
   return (
     <main className="bb-landing bb-page-shell">
@@ -120,90 +134,148 @@ export default function BlogIndexPage() {
               <a href="#all-guides" className="btn btn-ghost">All Guides ↓</a>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="bb-section category-section" id="guides">
-        <div className="container">
-          <div className="category-grid category-grid-compact reveal" aria-label="Browse guides by subject">
-            {CATEGORY_ORDER.map((category) => {
-              const Icon = CATEGORY_ICON[category];
-              const style = CATEGORY_STYLE[category];
-              const count = BLOG_POSTS.filter((p) => p.category === category).length;
-              const href = count > 0 ? `/blog/${category}` : CATEGORY_PILLAR_HREF[category];
-              return (
-                <Link
-                  key={category}
-                  href={href}
-                  className="category-card category-card-compact"
-                  title={CATEGORY_BLURB[category]}
-                  aria-label={`${CATEGORY_LABELS[category]} — ${CATEGORY_BLURB[category]}`}
-                  style={{ ['--cc-gradient' as string]: style.gradient, ['--cc-solid' as string]: style.solid, ['--cc-glow' as string]: style.glow }}
-                >
-                  <div className="category-card-top">
-                    <span className="category-card-icon"><Icon /></span>
-                    {count > 0 ? (
-                      <span className="category-card-count">{count}</span>
-                    ) : (
-                      <span className="category-card-count soon">Soon</span>
-                    )}
-                  </div>
-                  <h3>{CATEGORY_LABELS[category]}</h3>
-                </Link>
-              );
-            })}
+          <div className="blog-search reveal" data-delay="1">
+            <Search size={18} className="blog-search-icon" aria-hidden="true" />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={`Search ${BLOG_POSTS.length} guides — e.g. "IOQM syllabus", "NEET biology", "SAT score"`}
+              aria-label="Search blog guides"
+            />
+            {isSearching && (
+              <button type="button" className="blog-search-clear" onClick={() => setQuery('')} aria-label="Clear search">
+                <X size={16} />
+              </button>
+            )}
           </div>
         </div>
       </section>
 
-      <section className="bb-section" id="all-guides" style={{ paddingTop: 0 }}>
-        <div className="container">
-          <Link href={`/blog/${featured.slug}`} className="blog-featured reveal">
-            <div className="blog-featured-accent" style={{ background: CATEGORY_STYLE[featured.category].gradient }} />
-            <div className="blog-featured-body">
-              <span className="blog-featured-tag" style={{ background: CATEGORY_STYLE[featured.category].gradient }}>
-                Latest &middot; {CATEGORY_LABELS[featured.category]}
-              </span>
-              <h2>{featured.title}</h2>
-              <p>{featured.description}</p>
-              <div className="blog-card-meta">
-                <span>{formatDate(featured.datePublished)}</span>
-                <span className="blog-stat-dot" aria-hidden="true" />
-                <span><Clock size={13} /> {featured.readingMinutes} min read</span>
+      {isSearching ? (
+        <section className="bb-section" id="all-guides" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <p className="blog-search-count">
+              {searchResults.length === 0
+                ? `No guides match "${trimmedQuery}"`
+                : `${searchResults.length} guide${searchResults.length === 1 ? '' : 's'} matching "${trimmedQuery}"`}
+            </p>
+            {searchResults.length > 0 ? (
+              <div className="blog-grid blog-grid-rich">
+                {searchResults.map((post) => {
+                  const style = CATEGORY_STYLE[post.category];
+                  return (
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="blog-card blog-card-rich"
+                      key={post.slug}
+                    >
+                      <div className="blog-card-accent" style={{ background: style.gradient }} />
+                      <span className="blog-card-cat" style={{ color: style.solid }}>{CATEGORY_LABELS[post.category]}</span>
+                      <h3>{post.title}</h3>
+                      <p>{post.description}</p>
+                      <span className="blog-card-meta">
+                        <span>{formatDate(post.datePublished)}</span>
+                        <span className="blog-stat-dot" aria-hidden="true" />
+                        <span><Clock size={12} /> {post.readingMinutes} min</span>
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="blog-search-empty">
+                <p>Try a different keyword, or browse by subject instead.</p>
+                <button type="button" className="btn btn-ghost" onClick={() => setQuery('')}>Clear search</button>
+              </div>
+            )}
+          </div>
+        </section>
+      ) : (
+        <>
+          <section className="bb-section category-section" id="guides">
+            <div className="container">
+              <div className="category-grid category-grid-compact reveal" aria-label="Browse guides by subject">
+                {CATEGORY_ORDER.map((category) => {
+                  const Icon = CATEGORY_ICON[category];
+                  const style = CATEGORY_STYLE[category];
+                  const count = BLOG_POSTS.filter((p) => p.category === category).length;
+                  const href = count > 0 ? `/blog/${category}` : CATEGORY_PILLAR_HREF[category];
+                  return (
+                    <Link
+                      key={category}
+                      href={href}
+                      className="category-card category-card-compact"
+                      title={CATEGORY_BLURB[category]}
+                      aria-label={`${CATEGORY_LABELS[category]} — ${CATEGORY_BLURB[category]}`}
+                      style={{ ['--cc-gradient' as string]: style.gradient, ['--cc-solid' as string]: style.solid, ['--cc-glow' as string]: style.glow }}
+                    >
+                      <div className="category-card-top">
+                        <span className="category-card-icon"><Icon /></span>
+                        {count > 0 ? (
+                          <span className="category-card-count">{count}</span>
+                        ) : (
+                          <span className="category-card-count soon">Soon</span>
+                        )}
+                      </div>
+                      <h3>{CATEGORY_LABELS[category]}</h3>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
-            <span className="blog-featured-arrow" aria-hidden="true">
-              <ArrowUpRight size={22} />
-            </span>
-          </Link>
+          </section>
 
-          {rest.length > 0 && (
-            <div className="blog-grid blog-grid-rich">
-              {rest.map((post, i) => {
-                const style = CATEGORY_STYLE[post.category];
-                return (
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="blog-card blog-card-rich reveal"
-                    data-delay={String((i % 3) + 1)}
-                    key={post.slug}
-                  >
-                    <div className="blog-card-accent" style={{ background: style.gradient }} />
-                    <span className="blog-card-cat" style={{ color: style.solid }}>{CATEGORY_LABELS[post.category]}</span>
-                    <h3>{post.title}</h3>
-                    <p>{post.description}</p>
-                    <span className="blog-card-meta">
-                      <span>{formatDate(post.datePublished)}</span>
-                      <span className="blog-stat-dot" aria-hidden="true" />
-                      <span><Clock size={12} /> {post.readingMinutes} min</span>
-                    </span>
-                  </Link>
-                );
-              })}
+          <section className="bb-section" id="all-guides" style={{ paddingTop: 0 }}>
+            <div className="container">
+              <Link href={`/blog/${featured.slug}`} className="blog-featured reveal">
+                <div className="blog-featured-accent" style={{ background: CATEGORY_STYLE[featured.category].gradient }} />
+                <div className="blog-featured-body">
+                  <span className="blog-featured-tag" style={{ background: CATEGORY_STYLE[featured.category].gradient }}>
+                    Latest &middot; {CATEGORY_LABELS[featured.category]}
+                  </span>
+                  <h2>{featured.title}</h2>
+                  <p>{featured.description}</p>
+                  <div className="blog-card-meta">
+                    <span>{formatDate(featured.datePublished)}</span>
+                    <span className="blog-stat-dot" aria-hidden="true" />
+                    <span><Clock size={13} /> {featured.readingMinutes} min read</span>
+                  </div>
+                </div>
+                <span className="blog-featured-arrow" aria-hidden="true">
+                  <ArrowUpRight size={22} />
+                </span>
+              </Link>
+
+              {rest.length > 0 && (
+                <div className="blog-grid blog-grid-rich">
+                  {rest.map((post, i) => {
+                    const style = CATEGORY_STYLE[post.category];
+                    return (
+                      <Link
+                        href={`/blog/${post.slug}`}
+                        className="blog-card blog-card-rich reveal"
+                        data-delay={String((i % 3) + 1)}
+                        key={post.slug}
+                      >
+                        <div className="blog-card-accent" style={{ background: style.gradient }} />
+                        <span className="blog-card-cat" style={{ color: style.solid }}>{CATEGORY_LABELS[post.category]}</span>
+                        <h3>{post.title}</h3>
+                        <p>{post.description}</p>
+                        <span className="blog-card-meta">
+                          <span>{formatDate(post.datePublished)}</span>
+                          <span className="blog-stat-dot" aria-hidden="true" />
+                          <span><Clock size={12} /> {post.readingMinutes} min</span>
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
             </div>
-          )}
-        </div>
-      </section>
+          </section>
+        </>
+      )}
     </main>
   );
 }
