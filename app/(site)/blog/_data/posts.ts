@@ -16096,40 +16096,46 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'best-books-resources-nmtc-preparation',
     title: 'Best Books and Resources for NMTC Preparation',
     description:
-      'A focused, level-appropriate resource list for NMTC preparation — from Primary level pattern books to Senior level proof-writing references.',
+      'A focused, level-appropriate resource list for NMTC preparation — named books, authors and past-paper sources, from Primary level pattern books to Senior level proof-writing references.',
     category: 'olympiad',
     datePublished: '2026-08-19',
-    readingMinutes: 6,
+    readingMinutes: 8,
     relatedProgramHref: '/nmtc-coaching-pune',
     relatedProgramLabel: 'NMTC Coaching',
     body: [
       {
-        kind: 'p',
-        text: 'The right resources for NMTC preparation change significantly by level — a Primary-level student needs very different material from a Senior-level student writing full proofs. Here is a level-appropriate starting list.',
+        kind: 'answer',
+        text: 'The right NMTC books change significantly by level. Primary and Sub-Junior students (Class 5-7) do best with puzzle-and-pattern books like Mathematical Circles by Fomin, Genkin and Itenberg. Junior level (Class 8-9) benefits from topic-wise texts such as Challenge and Thrill of Pre-College Mathematics and David Burton\'s Elementary Number Theory. Inter and Senior level (Class 10-12) students preparing for genuine proof-writing should work through Arthur Engel\'s Problem-Solving Strategies and B.J. Venkatachala\'s Functional Equations and Inequalities texts, alongside official past NMTC papers from AMTI.',
       },
       { kind: 'h2', text: 'Primary & Sub-Junior (Class 5–7)' },
       {
         kind: 'ul',
         items: [
-          'Puzzle- and pattern-based logic books that build reasoning without requiring advanced content.',
-          'Past NMTC Primary and Sub-Junior papers, worked through slowly and discussed rather than timed initially.',
-          'Basic number theory and elementary geometry material pitched at a level slightly beyond the school curriculum.',
+          '***Mathematical Circles*** — Dmitri Fomin, Sergey Genkin, Ilia Itenberg. A discussion-style collection of logic and pattern problems that builds reasoning without requiring content beyond the school syllabus — a strong fit for this level.',
+          '***An Excursion in Mathematics*** — published by Bhaskaracharya Pratishthana. A well-loved Indian text that eases students into competition-style thinking through accessible, well-sequenced problems.',
+          '***Challenging Mathematical Problems with Elementary Solutions, Vol. 1*** — A.M. Yaglom and I.M. Yaglom. Denser than the two above, but a good next step once a Class 7 student is comfortable with basic pattern problems.',
+          'Past NMTC Primary and Sub-Junior papers, worked through slowly and discussed rather than timed initially — AMTI sells compiled booklets of past papers directly through its own channels, and many coaching institutes maintain organized archives by level as well.',
         ],
       },
       { kind: 'h2', text: 'Junior (Class 8–9)' },
       {
         kind: 'ul',
         items: [
-          'Introductory olympiad problem-solving books covering algebra, number theory, combinatorics and geometry as distinct topic areas.',
-          'Past NMTC Junior papers, alongside IOQM-level material once the student is close to Class 8-9, since the two overlap heavily.',
+          '***Challenge and Thrill of Pre-College Mathematics*** — V. Krishnamurthy, C.R. Pranesachar, K.N. Ranganathan, B.J. Venkatachala. An Indian-context classic closely aligned with the level NMTC Junior and IOQM both test.',
+          '***Elementary Number Theory*** — David M. Burton. A clear, thorough treatment of divisibility, modular arithmetic and prime factorization — exactly the number theory foundation Junior level starts to demand.',
+          '***The Art of Problem Solving, Volume 1*** — Sandor Lehoczky and Richard Rusczyk. Covers algebra, geometry and counting as a well-structured introduction to competition mathematics.',
+          'Past NMTC Junior papers, alongside IOQM-level material once a student is close to Class 8-9, since the two exams overlap heavily in both content and difficulty.',
         ],
       },
       { kind: 'h2', text: 'Inter & Senior (Class 10–12)' },
       {
         kind: 'ul',
         items: [
-          'Standard olympiad references covering inequalities, functional equations, synthetic geometry and combinatorics at a proof-writing level.',
-          'Past NMTC Inter and Senior papers, alongside INMO past papers for comparable proof-writing practice.',
+          '***Problem-Solving Strategies*** — Arthur Engel. Widely regarded as one of the most comprehensive olympiad problem-solving references, covering algebra, number theory, geometry and combinatorics with genuine depth.',
+          '***Functional Equations: A Problem Solving Approach*** — B.J. Venkatachala. A focused Indian-context text on exactly the functional-equation problems that show up at Inter and Senior level.',
+          '***Inequalities: An Approach Through Problems*** — B.J. Venkatachala. Covers AM-GM, Cauchy-Schwarz and related inequality techniques methodically, with problems pitched at NMTC Senior and INMO level.',
+          '***Geometry Revisited*** — H.S.M. Coxeter and S.L. Greitzer. A classic for synthetic geometry proof-writing, moving beyond formula-based approaches to genuine construction and argument.',
+          'Past NMTC Inter and Senior papers, alongside past INMO papers for comparable proof-writing practice — both are available through AMTI and HBCSE respectively.',
           'A mentor who can review written solutions — at this level, feedback on proof quality matters as much as the reference material itself.',
         ],
       },
@@ -16138,19 +16144,42 @@ export const BLOG_POSTS: BlogPost[] = [
         kind: 'p',
         text: 'Past papers are most valuable when reviewed for the reasoning, not just checked against an answer key — since NMTC Part B rewards the argument, working through official or well-explained solutions to past papers teaches the expected level of rigor far more effectively than just checking whether the final answer matches.',
       },
+      { kind: 'h2', text: 'How to Actually Use These Books Well' },
+      {
+        kind: 'ul',
+        items: [
+          '**Work slowly through fewer books, not quickly through many.** A student who genuinely finishes and reviews mistakes in one book learns more than one who skims three.',
+          '**Match the book to the level, not the ambition.** A Class 7 student handed Engel\'s Problem-Solving Strategies too early usually comes away discouraged rather than challenged.',
+          '**Write Part B answers in full, even when practicing from a book.** NMTC rewards the written argument, so practice should build that habit from day one, not just problem-solving speed.',
+        ],
+      },
+      { kind: 'h2', text: 'Summary Table' },
+      {
+        kind: 'table',
+        headers: ['Level', 'Recommended Books'],
+        rows: [
+          ['Primary & Sub-Junior (Class 5–7)', '*Mathematical Circles*, *An Excursion in Mathematics*, past NMTC papers'],
+          ['Junior (Class 8–9)', '*Challenge and Thrill of Pre-College Mathematics*, *Elementary Number Theory*, AoPS Vol. 1'],
+          ['Inter & Senior (Class 10–12)', '*Problem-Solving Strategies*, *Functional Equations* & *Inequalities* (Venkatachala), *Geometry Revisited*'],
+        ],
+      },
     ],
     faq: [
       {
         question: 'Are international olympiad books useful for NMTC preparation?',
-        answer: 'Yes, particularly for Inter and Senior levels — general olympiad problem-solving books (covering algebra, number theory, geometry and combinatorics) build transferable skill even though they aren\'t NMTC-specific.',
+        answer: 'Yes, particularly for Inter and Senior levels — general olympiad problem-solving books like Arthur Engel\'s Problem-Solving Strategies build transferable skill even though they aren\'t NMTC-specific.',
       },
       {
         question: 'Where can past NMTC papers be found?',
-        answer: 'AMTI publishes past papers and results through its own channels; coaching institutes that prepare students for NMTC typically maintain organized archives by level as well.',
+        answer: 'AMTI publishes and sells compiled past-paper booklets directly through its own channels; coaching institutes that prepare students for NMTC typically maintain organized archives by level as well.',
       },
       {
         question: 'Is a private mentor necessary, or can a student prepare from books alone?',
         answer: 'Books alone can build content knowledge, but Part B specifically benefits from individualized feedback on written solutions — a gap self-study often can\'t fully close.',
+      },
+      {
+        question: 'Is Challenge and Thrill of Pre-College Mathematics too advanced for a Class 8 student?',
+        answer: 'It\'s pitched roughly at Junior level and slightly above, so a Class 8 student comfortable with Sub-Junior material should find it a reasonable, if occasionally challenging, next step rather than out of reach.',
       },
     ],
   },
@@ -16320,50 +16349,62 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'best-books-resources-amc-preparation',
     title: 'Best Books and Resources for AMC Preparation',
     description:
-      'A focused resource list for AMC 8 and AMC 10 preparation — from foundational problem-solving texts to official past-paper archives.',
+      'A focused resource list for AMC 8 and AMC 10 preparation — named books, the official MAA past-paper archive, and the AoPS online community.',
     category: 'olympiad',
     datePublished: '2026-08-23',
-    readingMinutes: 6,
+    readingMinutes: 7,
     relatedProgramHref: '/amc-8-10-coaching-pune',
     relatedProgramLabel: 'AMC 8/10 Coaching',
     body: [
       {
-        kind: 'p',
-        text: 'Good AMC preparation combines a small number of strong core resources with disciplined, timed practice on real past papers — more books rarely beats deliberate practice with what you already have.',
+        kind: 'answer',
+        text: "Good AMC preparation combines a small number of strong core resources — The Art of Problem Solving Volume 1 & 2 by Sandor Lehoczky and Richard Rusczyk, David Patrick's Introduction to Counting & Probability and Introduction to Number Theory for topic-specific depth, and the MAA's own free past-paper archive — with disciplined, timed practice. More books rarely beats deliberate, reviewed practice with a small, well-chosen set.",
       },
       { kind: 'h2', text: 'Foundational Problem-Solving Texts' },
       {
         kind: 'ul',
         items: [
-          '*The Art of Problem Solving* series — the standard starting reference for AMC-level algebra, geometry, counting and number theory.',
-          '*Competition Math for Middle School* — a strong bridge text for students moving from school maths into AMC 8-style problem-solving.',
+          '***The Art of Problem Solving, Volume 1*** — Sandor Lehoczky and Richard Rusczyk. The standard starting reference for AMC 8 and early AMC 10-level algebra, geometry, counting and number theory, published by AoPS (Art of Problem Solving).',
+          '***The Art of Problem Solving, Volume 2*** — Sandor Lehoczky and Richard Rusczyk. The natural next step once Volume 1 is comfortable, pushing into more advanced AMC 10 and early AIME-level technique.',
+          '***Competition Math for Middle School*** — Jason Batteron. A strong bridge text for students moving from school maths into AMC 8-style problem-solving, organized by topic.',
+          '***Introduction to Counting & Probability*** and ***Introduction to Number Theory*** — David Patrick, both published by AoPS. Focused, topic-specific texts for the two areas that most often trip up AMC 10 first-timers.',
         ],
       },
       { kind: 'h2', text: 'Past Papers' },
       {
         kind: 'p',
-        text: "The MAA's own AMC archive is the single most valuable resource available — realistic, official, and the closest thing to genuine exam conditions a student can practice with. Working through past papers under timed conditions matters more than working through additional books once the core concepts are covered.",
+        text: "The MAA's own AMC archive, freely available on the Art of Problem Solving wiki and through the MAA's AMC resources page, is the single most valuable resource available — realistic, official, and the closest thing to genuine exam conditions a student can practice with. Working through past papers under timed conditions matters more than working through additional books once the core concepts are covered.",
       },
       { kind: 'h2', text: 'Topic-Specific Practice' },
       {
         kind: 'p',
-        text: 'Once past papers reveal a specific weak area — say, counting and probability, or number theory — targeted topic-specific problem sets are more efficient than working through a general text cover to cover again.',
+        text: 'Once past papers reveal a specific weak area — say, counting and probability, or number theory — a targeted text like Introduction to Counting & Probability is more efficient than working through a general book cover to cover again.',
       },
       { kind: 'h2', text: 'Community and Discussion Resources' },
       {
         kind: 'p',
-        text: 'Online problem-solving forums where past AMC problems are discussed in depth can be genuinely useful for seeing multiple solution approaches to the same problem — often more instructive than a single textbook explanation.',
+        text: 'The Art of Problem Solving Community (the AoPS online forum) has detailed, threaded discussions of nearly every past AMC problem, with multiple student- and mentor-contributed solution approaches to the same problem — often more instructive than a single textbook explanation, since seeing three different ways to attack a problem builds real flexibility.',
       },
       { kind: 'h2', text: 'What Matters More Than the Resource List' },
       {
         kind: 'p',
-        text: 'Consistent, timed practice with real feedback on mistakes — not the sheer number of books used — is what actually moves an AMC score. A small set of good resources, worked through deliberately, consistently outperforms a large pile of books skimmed quickly.',
+        text: 'Consistent, timed practice with real feedback on mistakes — not the sheer number of books used — is what actually moves an AMC score. A small set of good resources, worked through deliberately and reviewed line by line, consistently outperforms a large pile of books skimmed quickly.',
+      },
+      { kind: 'h2', text: 'Summary Table' },
+      {
+        kind: 'table',
+        headers: ['Stage', 'Recommended Resource'],
+        rows: [
+          ['AMC 8 / early AMC 10', '*The Art of Problem Solving, Vol. 1*, *Competition Math for Middle School*'],
+          ['AMC 10 depth', '*The Art of Problem Solving, Vol. 2*, AoPS *Introduction to* series'],
+          ['Practice & review', "MAA's official past-paper archive, AoPS Community discussion threads"],
+        ],
       },
     ],
     faq: [
       {
         question: 'Are AMC 8 and AMC 10 books interchangeable?',
-        answer: 'Largely no — AMC 10 assumes Algebra II and more advanced geometry content that AMC 8 doesn\'t cover, so a student moving from AMC 8 to AMC 10 needs additional, more advanced material, not just more AMC 8-level practice.',
+        answer: 'Largely no — AMC 10 assumes Algebra II and more advanced geometry content that AMC 8 doesn\'t cover, so a student moving from AMC 8 to AMC 10 needs Volume 2-level material, not just more AMC 8-level practice.',
       },
       {
         question: 'Is a calculator useful for practicing with these resources?',
@@ -16372,6 +16413,10 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         question: 'How many past papers should a student work through before the exam?',
         answer: 'There\'s no fixed number, but working through several years\' worth under realistic timed conditions, with careful review of every mistake, is far more valuable than rushing through as many as possible without review.',
+      },
+      {
+        question: 'Is the AoPS Community forum appropriate for younger AMC 8 students to use directly?',
+        answer: 'It can be, though younger students often get more out of it with a mentor pointing them to the relevant thread for a specific problem, rather than browsing independently.',
       },
     ],
   },
@@ -16597,36 +16642,47 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'best-resources-practice-papers-math-kangaroo',
     title: 'Best Resources and Practice Papers for Math Kangaroo',
     description:
-      "A focused, level-appropriate resource guide for Math Kangaroo preparation, from the youngest levels through Student level.",
+      "A focused, level-appropriate resource guide for Math Kangaroo preparation, from the youngest levels through Student level, with named books and official past-paper sources.",
     category: 'olympiad',
     datePublished: '2026-08-28',
-    readingMinutes: 5,
+    readingMinutes: 7,
     relatedProgramHref: '/maths-kangaroo-coaching-pune',
     relatedProgramLabel: 'Math Kangaroo Coaching',
     body: [
       {
-        kind: 'p',
-        text: 'Because Math Kangaroo spans such a wide age range, the right preparation resources look very different depending on the level a student is attempting.',
+        kind: 'answer',
+        text: "Because Math Kangaroo spans such a wide age range, the right resources differ sharply by level. Pre-Ecolier and Ecolier students (Grades 1-4) benefit most from visual logic puzzle books like Mathematical Circles (Fomin, Genkin, Itenberg); Benjamin and Cadet students (Grades 5-8) should work through official past Math Kangaroo papers alongside a text like Competition Math for Middle School; Junior and Student level (Grades 9-12) students get real value from AMC-style resources such as The Art of Problem Solving series once the format overlaps with AMC 8/10-level reasoning. Across every level, official past papers are the single highest-value resource, since Kangaroo's question style is genuinely distinctive.",
       },
-      { kind: 'h2', text: 'Pre-Ecolier & Ecolier' },
+      { kind: 'h2', text: 'Pre-Ecolier & Ecolier (Grades 1–4)' },
       {
-        kind: 'p',
-        text: 'Visual logic puzzle books and pattern-recognition activities work well at this level — the goal is building comfort with playful, non-standard questions rather than covering advanced content.',
+        kind: 'ul',
+        items: [
+          'Official past Math Kangaroo papers for Pre-Ecolier and Ecolier, available through the organizing body — the single most representative resource for the exam\'s actual question style.',
+          '***Mathematical Circles*** — Dmitri Fomin, Sergey Genkin, Ilia Itenberg. Discussion-style logic and pattern problems, genuinely engaging for younger students and a strong match for this level\'s playful, visual style.',
+          'General age-appropriate logic puzzle books (Sudoku-style grids, visual pattern books) for broader reasoning exposure alongside past papers.',
+        ],
       },
-      { kind: 'h2', text: 'Benjamin & Cadet' },
+      { kind: 'h2', text: 'Benjamin & Cadet (Grades 5–8)' },
       {
-        kind: 'p',
-        text: 'Applied arithmetic and early geometry problem sets, alongside past Kangaroo papers for these levels, are the most direct preparation — the official past-paper style is distinctive enough that general olympiad books are a less precise match.',
+        kind: 'ul',
+        items: [
+          'Official past Math Kangaroo papers for Benjamin and Cadet — the most direct preparation, since the official past-paper style is distinctive enough that general olympiad books are a less precise match.',
+          '***Competition Math for Middle School*** — Jason Batteron. A well-structured bridge text covering applied arithmetic, early geometry and logic at the right level for this band.',
+          '***The Art of Problem Solving, Volume 1*** — Sandor Lehoczky and Richard Rusczyk. Useful once a Cadet-level (Grade 7-8) student is ready for slightly more structured problem-solving.',
+        ],
       },
-      { kind: 'h2', text: 'Junior & Student' },
+      { kind: 'h2', text: 'Junior & Student (Grades 9–12)' },
       {
-        kind: 'p',
-        text: 'At these levels, general competition-maths problem-solving resources (similar to what AMC-level students use) start to overlap meaningfully with Kangaroo preparation, alongside past Kangaroo papers specifically for pacing and question-style familiarity.',
+        kind: 'ul',
+        items: [
+          'Official past Math Kangaroo papers for Junior and Student level, for pacing and question-style familiarity specific to Kangaroo.',
+          '***The Art of Problem Solving, Volume 1 & 2*** — Lehoczky and Rusczyk. At this level, general competition-maths resources used for AMC 8/10 preparation overlap meaningfully with Kangaroo preparation.',
+        ],
       },
       { kind: 'h2', text: 'Why Past Papers Matter More Here Than Usual' },
       {
         kind: 'p',
-        text: "Math Kangaroo's question style — clever, visual, often deceptively simple-looking — is genuinely distinctive. Past papers are disproportionately valuable compared to generic problem sets, since they're the most reliable way to build familiarity with exactly how Kangaroo questions are framed.",
+        text: "Math Kangaroo's question style — clever, visual, often deceptively simple-looking — is genuinely distinctive compared to AMC or IOQM. Past papers are disproportionately valuable compared to generic problem sets, since they're the most reliable way to build familiarity with exactly how Kangaroo questions are framed.",
       },
     ],
     faq: [
@@ -16636,7 +16692,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: 'Do AMC 8 resources help with Kangaroo preparation for older students?',
-        answer: 'There is meaningful overlap at the Junior and Student levels, since both reward applied, multi-step reasoning under time pressure — though Kangaroo\'s distinctive question style still benefits from its own dedicated past-paper practice.',
+        answer: 'There is meaningful overlap at the Junior and Student levels, since both reward applied, multi-step reasoning under time pressure — books like The Art of Problem Solving Volume 1 work for both — though Kangaroo\'s distinctive question style still benefits from its own dedicated past-paper practice.',
       },
       {
         question: 'Is coaching necessary, or is self-study with past papers enough?',
@@ -17040,36 +17096,41 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'isso-syllabus-history-geography-civics-by-grade',
     title: 'ISSO Syllabus Explained: History, Geography and Civics Topics by Grade',
     description:
-      "ISSO covers a genuinely broad syllabus across History, Geography and Civics. Here's how the topics build up by grade and what to expect at each level.",
+      "ISSO covers a genuinely broad syllabus across History, Geography and Civics, tracking the NCERT social studies curriculum. Here's how the topics build up by grade and what to expect at each level.",
     category: 'olympiad',
     datePublished: '2026-09-05',
-    readingMinutes: 6,
+    readingMinutes: 8,
     relatedProgramHref: '/sof-imo-coaching-pune',
     relatedProgramLabel: 'SOF Olympiad Coaching',
     body: [
       {
         kind: 'answer',
-        text: "ISSO (International Social Studies Olympiad), run by SOF, tests History, Geography and Civics through a multiple-choice paper for Grades 3-10. The syllabus broadly follows and extends the school social studies curriculum for each grade, tested through applied reasoning rather than pure date-and-fact recall.",
+        text: "ISSO (International Social Studies Olympiad), run by SOF, tests History, Geography and Civics through a multiple-choice paper for Grades 3-10. The syllabus tracks the NCERT social studies curriculum for each grade — early civilizations and map basics in Grade 6, medieval India and human geography in Grade 7-8, and the independence movement, Indian Constitution and contemporary geography from Grade 9-10 — but every topic is tested through applied reasoning rather than pure date-and-fact recall.",
       },
-      { kind: 'h2', text: 'History Topics' },
+      { kind: 'h2', text: 'How Topics Build by Grade' },
       {
-        kind: 'p',
-        text: 'Coverage follows the grade-appropriate history syllabus — ancient and medieval history in earlier grades, moving toward modern history and the independence movement in later grades — tested through cause-and-effect reasoning as much as fact recall.',
-      },
-      { kind: 'h2', text: 'Geography Topics' },
-      {
-        kind: 'p',
-        text: 'Physical geography (landforms, climate, natural resources) in earlier grades, building toward human and economic geography (population, agriculture, industry) in later grades — with map-reading and applied reasoning woven throughout.',
-      },
-      { kind: 'h2', text: 'Civics Topics' },
-      {
-        kind: 'p',
-        text: 'Basic governance structures and civic responsibilities in earlier grades, extending to the Constitution, government institutions and rights in later grades — again tested for understanding rather than memorized definitions.',
+        kind: 'table',
+        headers: ['Grade', 'History', 'Geography', 'Civics'],
+        rows: [
+          ['6', 'Early societies, the Harappan civilization, the Vedic age, early kingdoms', 'The solar system, globes and maps, major landforms', 'Diversity, government, local self-government'],
+          ['7', 'The Delhi Sultanate, the Mughals, regional cultures, the Bhakti-Sufi movements', 'Environment, landforms, climate, natural vegetation', 'Equality, state government, the role of media and markets'],
+          ['8', 'British colonial rule, the Revolt of 1857, the rise of nationalism', 'Resources, agriculture, industries and human resources', 'The Indian Constitution, Parliament, the judiciary, social justice'],
+          ['9–10', 'Nationalism in India and the world, the freedom struggle', 'Physical features, climate, resources and agriculture of India', 'Democracy, federalism, political parties, elections'],
+        ],
       },
       { kind: 'h2', text: 'How the Depth Increases by Grade' },
       {
         kind: 'p',
-        text: 'As with SOF\'s other exams, ISSO questions are pitched to require applying social studies knowledge to a scenario or comparison, not just recalling a fact — this gets more pronounced as grade level increases, particularly from Grade 6 onward.',
+        text: 'As with SOF\'s other exams, ISSO questions are pitched to require applying social studies knowledge to a scenario or comparison, not just recalling a fact — this gets more pronounced from Grade 6 onward, once History, Geography and Civics become distinct subjects in the school curriculum.',
+      },
+      { kind: 'h2', text: 'A Practical Preparation Approach' },
+      {
+        kind: 'ul',
+        items: [
+          'Grades 3-5: build map-reading, basic civic-awareness and general-knowledge comfort through everyday questions, without heavy content pressure.',
+          'Grades 6-8: work through the NCERT History, Geography and Civics ("Social and Political Life") textbooks for applied understanding, not memorized dates — this is also when the three subjects genuinely diverge in the school syllabus.',
+          'Grades 9-10: connect ISSO preparation with board-level Social Science preparation, since the underlying NCERT content overlaps almost completely, and practice comparison-style questions that connect two topics at once.',
+        ],
       },
     ],
     faq: [
@@ -17079,11 +17140,15 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: 'Is ISSO available for all grades?',
-        answer: 'ISSO is offered across a range of grades similar to SOF\'s other exams — confirm current eligibility for your child\'s specific grade at registration.',
+        answer: 'ISSO is offered from Grade 3 through Grade 10 — confirm current eligibility for your child\'s specific grade at registration.',
       },
       {
         question: 'How is ISSO different from school social studies exams?',
-        answer: 'School exams are tied closely to the specific textbook content taught; ISSO questions apply the same broad syllabus more flexibly, sometimes connecting history, geography and civics within a single question.',
+        answer: 'School exams are tied closely to the specific NCERT textbook content taught; ISSO questions apply the same broad syllabus more flexibly, sometimes connecting history, geography and civics within a single question.',
+      },
+      {
+        question: 'Does ISSO follow NCERT exactly, or does it include state-board content too?',
+        answer: 'The syllabus is broadly aligned with the NCERT curriculum most Indian schools follow, though it\'s worth confirming the exact grade-wise syllabus PDF SOF publishes each year if your child follows a different state board.',
       },
     ],
   },
@@ -17304,49 +17369,60 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: 'nso-syllabus-preparation-guide-by-grade',
     title: 'NSO Syllabus and Preparation Guide by Grade',
     description:
-      "SOF's National Science Olympiad covers Physics, Chemistry and Biology at every grade. Here's what it tests and how to prepare, grade by grade.",
+      "SOF's National Science Olympiad draws on and extends the NCERT science curriculum at every grade. Here's what it tests, grade by grade, and how to prepare.",
     category: 'olympiad',
     datePublished: '2026-09-10',
-    readingMinutes: 6,
+    readingMinutes: 8,
     relatedProgramHref: '/sof-imo-coaching-pune',
     relatedProgramLabel: 'SOF Olympiad Coaching',
     body: [
       {
-        kind: 'p',
-        text: 'NSO (National Science Olympiad), run by SOF, tests Physics, Chemistry and Biology concepts across Grades 1-12 through a multiple-choice, applied-reasoning format, run in the same Level 1 / Level 2 structure as SOF\'s other exams.',
+        kind: 'answer',
+        text: "NSO (National Science Olympiad), run by SOF, tests Physics, Chemistry and Biology concepts across Grades 1-12 through a multiple-choice, applied-reasoning format. The syllabus tracks the NCERT curriculum closely — general EVS-style science in Grades 1-4, the three subjects formally separating from Grade 6 (Food & Materials, Motion & Measurement, Light & Electricity), core Physics-Chemistry-Biology foundations in Grades 9-10 (Matter, Atoms, Life Processes, Motion, Chemical Reactions), and full Physics/Chemistry/Biology depth in Grades 11-12 — but every question is framed to require applying the concept, not recalling it.",
       },
-      { kind: 'h2', text: 'How Content Builds by Grade' },
+      { kind: 'h2', text: 'What Each Grade Band Actually Covers' },
       {
-        kind: 'p',
-        text: 'Younger grades focus on general science and everyday phenomena; middle grades add more structured Physics, Chemistry and Biology content aligned to the school curriculum; older grades draw more heavily on board-level science, applied flexibly.',
+        kind: 'table',
+        headers: ['Grades', 'Core NCERT Topics NSO Draws On'],
+        rows: [
+          ['1–4', 'General EVS-style science: plants, animals, food, water, everyday materials, family and surroundings'],
+          ['5–6', 'Components of food, sorting materials, separation of substances, motion and measurement, light and shadows, electric circuits, water and air'],
+          ['7–8', 'Nutrition in plants and animals, heat, acids/bases/salts, physical and chemical changes, force and pressure, sound, light, cell structure, the solar system'],
+          ['9–10', 'Matter and atomic structure, the fundamental unit of life, motion and force, gravitation, work and energy, chemical reactions and equations, life processes, heredity, light and electricity'],
+          ['11–12', 'Full NCERT Physics, Chemistry and Biology — mechanics and thermodynamics, physical/organic/inorganic chemistry, human physiology, genetics, evolution and ecology'],
+        ],
       },
       { kind: 'h2', text: 'A Grade-Wise Preparation Approach' },
       {
         kind: 'ul',
         items: [
-          'Grades 1-4: build curiosity and observation skills through everyday science questions, without heavy content pressure.',
-          'Grades 5-8: consolidate the three-subject foundation (Physics, Chemistry, Biology) as they formally separate in the school syllabus.',
-          'Grades 9-12: connect NSO preparation with board and competitive-exam science prep, since the underlying content overlaps significantly.',
+          'Grades 1-4: build curiosity and observation skills through everyday science questions, without heavy content pressure — the goal is comfort with the format, not depth.',
+          'Grades 5-8: consolidate the three-subject foundation (Physics, Chemistry, Biology) as they formally separate in the NCERT syllabus, and practice applying each concept to a scenario rather than just stating it.',
+          'Grades 9-12: connect NSO preparation directly with board and competitive-exam (NEET/JEE) science prep, since the underlying NCERT content overlaps almost completely — NSO mainly adds the applied, scenario-based question framing on top.',
         ],
       },
       { kind: 'h2', text: 'Why NSO Rewards Applied Understanding' },
       {
         kind: 'p',
-        text: 'As with SOF\'s other exams, NSO questions apply concepts to scenarios rather than testing direct recall — a student who understands why a phenomenon happens, not just the definition, performs more consistently across different question framings.',
+        text: 'As with SOF\'s other exams, NSO questions apply concepts to scenarios rather than testing direct recall — a student who understands why a phenomenon happens, not just the NCERT definition, performs more consistently across different question framings.',
       },
     ],
     faq: [
       {
         question: 'Does NSO cover Physics, Chemistry and Biology equally?',
-        answer: 'Broadly yes, though the exact balance can vary by grade and paper — younger grades often blend general science more than the three-subject split seen in later grades.',
+        answer: 'Broadly yes, though the exact balance can vary by grade and paper — younger grades blend general science more than the three-subject split seen from Grade 6 onward.',
       },
       {
         question: 'How does NSO connect to later NEET or JEE preparation?',
-        answer: 'It builds early applied-reasoning habits in science that support, though don\'t replace, the dedicated preparation NEET and JEE require later.',
+        answer: 'It draws on the same NCERT foundation and builds early applied-reasoning habits in science that support, though don\'t replace, the dedicated preparation NEET and JEE require later.',
       },
       {
         question: 'Is Level 2 significantly harder than Level 1 for NSO?',
         answer: 'Yes — as with SOF IMO, Level 2 draws from a smaller, stronger pool of qualifiers and is noticeably more demanding than Level 1.',
+      },
+      {
+        question: 'Does NSO ever go beyond the NCERT syllabus?',
+        answer: 'Occasionally, particularly at higher grades and Level 2, questions extend slightly beyond NCERT depth — but a genuinely strong NCERT foundation, applied flexibly, covers the large majority of what\'s tested.',
       },
     ],
   },
