@@ -102,7 +102,7 @@ export const faculty = [
     badge: '25+ yrs experience',
   },
   {
-    name: 'Kamble Sir',
+    name: 'Dipak JK Sir',
     role: "IOQM → RMO → INMO → IMO Coach • AMC 8/10/12, AIME & USAMO",
     creds: 'M.Tech (Design Engg), IIT Bombay • GATE-qualified • B.E. (Mech)',
     badge: '15+ yrs since 2010',
