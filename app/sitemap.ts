@@ -21,6 +21,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/10th-board', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/12th-board-pcm', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/12th-board-pcb', changeFrequency: 'monthly', priority: 0.9 },
+  { path: '/test-series', changeFrequency: 'monthly', priority: 0.85 },
   { path: '/commerce-tuitions', changeFrequency: 'monthly', priority: 0.85 },
   { path: '/ipmat-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/cat-exam', changeFrequency: 'monthly', priority: 0.7 },

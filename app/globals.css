@@ -1884,3 +1884,28 @@ button{font-family:inherit;cursor:pointer}
   transition:transform 1s cubic-bezier(.19,1,.22,1);
 }
 .oly-track-card:hover .oly-track-shine{transform:translateX(160%)}
+
+/* ============ TEST SERIES LANDING (exam-paper sub-brand) ============ */
+.ts-page{
+  background:#FAF7EF;
+  color:#0E2148;
+  font-family:var(--font-ts-body), sans-serif;
+}
+.ts-page .font-display{font-family:var(--font-ts-display), serif}
+.ts-page .font-ledger{font-family:var(--font-ts-ledger), monospace}
+.ts-page .paper-ruled{
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 35px,
+      rgba(14, 33, 72, 0.06) 36px
+    );
+}
+.ts-page .margin-rule{position:relative}
+.ts-page .margin-rule::before{
+  content:"";position:absolute;top:0;bottom:0;left:56px;width:1px;
+  background:rgba(178, 58, 46, 0.25);
+}
+.ts-page ::selection{background:#C9A227;color:#081327}
+

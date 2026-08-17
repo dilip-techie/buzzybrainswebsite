@@ -43,6 +43,7 @@ export default function Footer() {
               <li><Link href="/foundation">Foundation (6–10)</Link></li>
               <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link href="/12th-board-pcb">NEET</Link></li>
+              <li><Link href="/test-series">Board Test Series</Link></li>
               <li><Link href="/olympiad-math">Maths Excellence</Link></li>
               <li><Link href="/olympiads">Olympiads</Link></li>
               <li><Link href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
