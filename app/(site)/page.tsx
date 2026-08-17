@@ -332,7 +332,26 @@ export default function HomePage() {
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
-  const [isOlympiadPopupExpanded, setIsOlympiadPopupExpanded] = useState(true);
+  const [isOlympiadPopupExpanded, setIsOlympiadPopupExpanded] = useState(false);
+
+  // Starts collapsed so the hero headline isn't buried on first paint (especially
+  // on mobile). Expands once, after a short delay, then remembers it's been shown
+  // so repeat visitors aren't served the full banner on every single visit.
+  useEffect(() => {
+    let alreadySeen = false;
+    try {
+      alreadySeen = window.localStorage.getItem('bb-olympiad-popup-seen') === '1';
+    } catch {}
+    if (alreadySeen) return;
+
+    const showTimer = window.setTimeout(() => {
+      setIsOlympiadPopupExpanded(true);
+      try {
+        window.localStorage.setItem('bb-olympiad-popup-seen', '1');
+      } catch {}
+    }, 1500);
+    return () => window.clearTimeout(showTimer);
+  }, []);
 
   useEffect(() => {
     if (!isOlympiadPopupExpanded) return;
