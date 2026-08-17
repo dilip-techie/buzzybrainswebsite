@@ -1,7 +1,7 @@
 const PLANS = [
   {
     name: "Single Subject",
-    price: "₹3,499",
+    price: "₹4,999",
     period: "per subject / full series",
     tagline: "For students confident everywhere except one paper.",
     features: [
@@ -14,7 +14,7 @@ const PLANS = [
   },
   {
     name: "Full Board Pack",
-    price: "₹11,999",
+    price: "₹19,999",
     period: "per grade / all subjects",
     tagline: "The complete 12-week cycle across every subject you're appearing for.",
     features: [
