@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
   Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
+  ClipboardCheck,
   Search, X,
   type LucideIcon,
 } from 'lucide-react';
@@ -27,6 +28,7 @@ const CATEGORY_ORDER: BlogCategory[] = [
   'coding-olympiad',
   'clat',
   'ivy-colleges',
+  'board-exams',
 ];
 
 const CATEGORY_ICON: Record<BlogCategory, LucideIcon> = {
@@ -46,6 +48,7 @@ const CATEGORY_ICON: Record<BlogCategory, LucideIcon> = {
   ipmat: Building2,
   cat: BarChart3,
   'coding-olympiad': Swords,
+  'board-exams': ClipboardCheck,
 };
 
 const CATEGORY_BLURB: Record<BlogCategory, string> = {
@@ -65,6 +68,7 @@ const CATEGORY_BLURB: Record<BlogCategory, string> = {
   ipmat: '5-year integrated IIM entrance, after Class 12',
   cat: 'MBA/PGP entrance, after graduation',
   'coding-olympiad': 'ZIO, INOI, IOI & competitive programming',
+  'board-exams': 'CBSE/ICSE mock papers & examiner-style evaluation',
 };
 
 const POSTS_BY_DATE = [...BLOG_POSTS].sort(

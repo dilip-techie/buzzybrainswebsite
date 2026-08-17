@@ -309,4 +309,22 @@ export const CATEGORY_CONTENT: Record<BlogCategory, CategoryContent> = {
     ],
     relatedCategories: ['coding', 'olympiad'],
   },
+  'board-exams': {
+    metaTitle: 'Board Exam Test Series Guides — CBSE & ICSE, Grade 10 & 12',
+    metaDescription:
+      'Guides on preparing for CBSE and ICSE board exams with a structured test series — marking-scheme practice, mock-test cadence, scorecard feedback, and balancing boards with JEE/NEET.',
+    h1: 'Board Exam Test Series Guides',
+    quickAnswer:
+      'These are BuzzyBrains Academy\'s Board Exam Test Series guides — articles for Grade 10 and 12 CBSE/ICSE students on why exam-hall discipline matters as much as syllabus knowledge, how examiner-style marking-scheme evaluation works, how many mock tests to attempt before boards, and how to balance board preparation with JEE/NEET.',
+    intro: [
+      'Board exams reward exam-hall execution — pacing, presentation, and familiarity with the actual question pattern — on top of syllabus knowledge, and a structured test series is how that execution gets practiced and measured. These guides cover how to use mock papers, marking-scheme feedback and pre-board simulations deliberately, rather than as an afterthought bolted onto regular revision.',
+      'Written by the BuzzyBrains Academy faculty team, drawing on the same 12-week, 8-paper CBSE/ICSE Board Exam Test Series described on the program page below.',
+    ],
+    faqs: [
+      { question: 'Why is a test series necessary if a student already knows the syllabus?', answer: 'Board exams test pacing, presentation and unfamiliar question framing on top of content knowledge — students who\'ve fully covered the syllabus commonly still lose 15-20 marks to these exam-hall factors, which only structured, timed practice actually trains.' },
+      { question: 'How is a test series different from just solving sample papers at home?', answer: 'A test series adds two things self-study can\'t replicate: a real time-bound exam-hall constraint (no pausing, fixed windows), and hand-marked, examiner-style evaluation with step-marking feedback rather than just an answer key.' },
+      { question: 'How many mock tests should a Grade 10 or 12 student attempt before boards?', answer: 'A structured cycle of 8 full-length papers per subject over about 12 weeks — mixing diagnostic, progressive and board-pattern mocks, ending with a final pre-board simulation — gives enough repetitions to build pacing without crowding out revision time.' },
+      { question: 'Can a test series help Grade 12 students preparing for JEE or NEET too?', answer: 'Yes — a board-pattern test series keeps board-specific exam technique (presentation, step-marking, board syllabus weightage) on track in parallel with JEE/NEET preparation, so board scores don\'t quietly slip while attention goes to the competitive exam.' },
+    ],
+  },
 };
