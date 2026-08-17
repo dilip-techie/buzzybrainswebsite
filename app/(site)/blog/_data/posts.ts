@@ -14,7 +14,8 @@ export type BlogCategory =
   | 'commerce'
   | 'ipmat'
   | 'cat'
-  | 'coding-olympiad';
+  | 'coding-olympiad'
+  | 'board-exams';
 
 export const CATEGORY_LABELS: Record<BlogCategory, string> = {
   'iit-jee': 'IIT-JEE',
@@ -33,6 +34,7 @@ export const CATEGORY_LABELS: Record<BlogCategory, string> = {
   ipmat: 'IPMAT',
   cat: 'CAT',
   'coding-olympiad': 'Coding Olympiads',
+  'board-exams': 'Board Exam Test Series',
 };
 
 /** Where each cluster's pillar guide lives. */
@@ -53,6 +55,7 @@ export const CATEGORY_PILLAR_HREF: Record<BlogCategory, string> = {
   ipmat: '/ipmat-exam',
   cat: '/cat-exam',
   'coding-olympiad': '/coding-lab',
+  'board-exams': '/test-series',
 };
 
 export const CATEGORY_STYLE: Record<BlogCategory, { gradient: string; glow: string; solid: string }> = {
@@ -72,6 +75,7 @@ export const CATEGORY_STYLE: Record<BlogCategory, { gradient: string; glow: stri
   ipmat: { gradient: 'linear-gradient(135deg,#9F1239,#E11D48)', glow: '225,29,72', solid: '#E11D48' },
   cat: { gradient: 'linear-gradient(135deg,#86198F,#C026D3)', glow: '192,38,211', solid: '#C026D3' },
   'coding-olympiad': { gradient: 'linear-gradient(135deg,#3F6212,#65A30D)', glow: '101,163,13', solid: '#65A30D' },
+  'board-exams': { gradient: 'linear-gradient(135deg,#0E2148,#C9A227)', glow: '201,162,39', solid: '#C9A227' },
 };
 
 export type BlogBlock =
@@ -20824,6 +20828,304 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         question: 'Is there a specific reason 12 is the chosen batch size rather than a different number?',
         answer: "12 is sized to comfortably allow a mentor to give genuine, individual attention to every student within a session — including watching their reasoning process, not just checking final answers — while still preserving some peer-group benefit and cost-efficiency compared to fully one-on-one teaching.",
+      },
+    ],
+  },
+  {
+    slug: 'why-students-need-test-series-not-just-notes',
+    title: 'Why Class 10 & 12 Students Need a Test Series, Not Just More Notes',
+    description:
+      "Covering the syllabus isn't the same as being exam-ready. Here's why board exams are won on exam-hall discipline as much as content knowledge, and what a structured test series actually adds.",
+    category: 'board-exams',
+    datePublished: '2026-10-23',
+    readingMinutes: 6,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "By the time board exams are a few months away, most Class 10 and 12 students have a reasonable handle on the syllabus — they can solve the textbook problems, recall the definitions, work through the sample papers with the book open. The gap that actually costs marks isn't content knowledge. It's what happens when the same student sits down cold, for three hours, with no one to ask and a clock running.",
+      },
+      { kind: 'h2', text: 'The gap between "knows the syllabus" and "exam-ready"' },
+      {
+        kind: 'p',
+        text: "Students who've genuinely covered the syllabus still commonly lose 15-20 marks on the actual exam — not because they didn't know the content, but to pacing (spending too long on an early question and rushing the last section), presentation (not showing the working a marking scheme actually rewards), and unfamiliar question framing (a competency-based or case-study question that tests a topic they know, phrased in a way they haven't practiced). None of these show up in a chapter-wise revision session. They only show up under real exam conditions.",
+      },
+      { kind: 'h2', text: 'What more notes and revision actually fix — and what they don\'t' },
+      {
+        kind: 'ul',
+        items: [
+          'More revision deepens content recall — it does not build pacing, since untimed practice never forces the tradeoffs a 3-hour paper does.',
+          'Reading model answers shows what a good answer looks like — it does not train presentation, which only improves by writing full answers and getting them marked.',
+          'Solving problems by topic (all trigonometry, then all algebra) builds fluency in isolation — it does not prepare a student for a mixed paper where topics are interleaved and time has to be allocated on the fly.',
+        ],
+      },
+      { kind: 'h2', text: 'What a structured test series adds' },
+      {
+        kind: 'p',
+        text: "A test series closes this gap by simulating the actual constraint set: full-length papers, set to the board's weightage and question-type ratio, attempted in one sitting with no pausing. The value isn't just the practice — it's the feedback that follows. A paper that comes back hand-marked, with step-marks and common errors annotated the way a board evaluator actually grades, tells a student exactly where marks were lost and why, which a self-checked answer key can't do.",
+      },
+      { kind: 'h2', text: 'How this looks in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's Board Exam Test Series runs this as a 12-week, 8-paper cycle per subject for CBSE and ICSE Class 10 and 12 — starting with diagnostic papers to establish a baseline, moving through progressively harder full papers matched to the current year's board pattern, and ending with a timed pre-board simulation. Every paper is evaluated by hand and returned as a topic-wise scorecard, so revision time in the following weeks goes exactly where marks were actually being lost.",
+      },
+    ],
+    faq: [
+      {
+        question: 'My child already scores well in school tests — do they still need a test series?',
+        answer: "Yes, often more than a student who's struggling — a high scorer in school tests has usually not yet been exposed to strict board-pattern timing, unfamiliar question framing, or examiner-style marking, and a small pacing or presentation gap can cost several marks even for strong students.",
+      },
+      {
+        question: 'Is this different from the mock tests a school already conducts?',
+        answer: 'School mocks vary widely in how closely they follow the current board pattern and how detailed the evaluation is — a dedicated test series is set specifically to the year\'s CBSE/CISCE blueprint and returns a hand-marked, topic-wise scorecard within a fixed turnaround, which most school mock cycles don\'t provide.',
+      },
+    ],
+  },
+  {
+    slug: 'cbse-icse-marking-scheme-examiner-evaluation',
+    title: 'CBSE & ICSE Marking Schemes: What Examiner-Style Evaluation Actually Teaches You',
+    description:
+      "A correct final answer doesn't always mean full marks, and an incorrect one doesn't always mean zero. Here's how board marking schemes actually work, and why hand-marked practice papers matter.",
+    category: 'board-exams',
+    datePublished: '2026-10-24',
+    readingMinutes: 6,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "Most students assume board exam marking is binary — the final answer is either right or wrong. It isn't. CBSE and ICSE marking schemes are built around step-marking: credit awarded for each correct stage of working, independent of whether the final answer lands correctly. A student who sets up a problem correctly but makes an arithmetic slip in the last line can still earn most of the marks. A student who writes only the final answer, even if it's correct, can lose marks a written-out solution would have earned.",
+      },
+      { kind: 'h2', text: 'How step-marking actually works' },
+      {
+        kind: 'ul',
+        items: [
+          'Each stage of a multi-step problem (setting up the equation, substituting values, simplifying, final answer) typically carries its own mark allocation in the official scheme.',
+          'Presentation matters within that scheme — showing units, labeling steps, and writing legible working can be the difference between a marker awarding partial credit or not.',
+          'Common errors are specifically anticipated in the marking scheme — schemes often note "deduct 1 mark for X mistake" rather than leaving it to marker discretion, which is why the same error costs the same marks across different scripts.',
+        ],
+      },
+      { kind: 'h2', text: 'Why self-checking against an answer key misses this' },
+      {
+        kind: 'p',
+        text: 'A student checking their own work against a model answer can confirm whether the final number matches — but they can\'t reliably tell how many of the intermediate marks their own working would have earned, or whether a marker would have deducted for a missing unit or an unclear step. That requires someone applying the actual marking scheme to the actual script, the way a board evaluator would.',
+      },
+      { kind: 'h2', text: 'What examiner-style evaluation looks like' },
+      {
+        kind: 'p',
+        text: "In BuzzyBrains Academy's Board Exam Test Series, every paper is hand-marked by subject faculty using the official board marking scheme — step-marks awarded and lost are annotated directly on the script, in red pen, the way a board evaluator marks it. Grade 10 Maths and Physics papers are personally reviewed by founder Dilip Sah. The goal isn't just a score out of 80; it's a script a student can read back and see exactly which line lost a mark and why.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Do CBSE and ICSE use the same marking approach?',
+        answer: "Both use structured, step-based marking schemes rather than all-or-nothing grading, though the exact scheme format and presentation-mark weightage differ by board and subject — a test series set to the specific board's current-year scheme matters more than a generic one.",
+      },
+      {
+        question: "If the final answer is wrong, can a student still get most of the marks?",
+        answer: 'Often yes — if the method and setup are correct and only a late-stage calculation error caused the wrong final answer, step-marking typically awards credit for every correct stage up to that point.',
+      },
+      {
+        question: 'Why does presentation carry separate marks in some subjects?',
+        answer: "Subjects like Mathematics and Science often allocate specific marks for showing units, labeling diagrams, or laying out steps clearly — these aren't bonus marks, they're part of the official scheme, and skipping them costs real marks even with correct content.",
+      },
+    ],
+  },
+  {
+    slug: 'how-many-mock-tests-before-board-exams',
+    title: 'How Many Mock Tests Should You Attempt Before Class 10 or 12 Boards?',
+    description:
+      "Too few mocks and pacing stays untested; too many and there's no time left to act on the feedback. Here's a practical cadence for the months before CBSE and ICSE board exams.",
+    category: 'board-exams',
+    datePublished: '2026-10-25',
+    readingMinutes: 6,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "There's no single magic number, but there is a wrong way to get this badly wrong in both directions. Too few full-length mocks and a student walks into the real exam having never actually practiced 3-hour pacing. Too many, packed too close together, and there's no time between papers to act on the feedback — each mock just becomes another paper attempted the same way as the last, with nothing corrected in between.",
+      },
+      { kind: 'h2', text: 'A workable structure: about 8 papers over 12 weeks' },
+      {
+        kind: 'p',
+        text: "A cadence that works for most Class 10 and 12 students spreads roughly 8 full-length papers per subject across the last 12 weeks before boards, with real evaluation time built in between each one:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          'Weeks 1-2 — two diagnostic, half-syllabus papers per subject, to establish a baseline and flag foundational gaps early, before full-syllabus pressure sets in.',
+          'Weeks 3-8 — three progressively harder full-syllabus papers, released roughly fortnightly, so there\'s time to review each scorecard and revise before the next one.',
+          'Weeks 9-11 — two papers run exactly like the real board exam: same duration, same answer-sheet format, timed and invigilated in silence.',
+          'Week 12 — one final pre-board simulation, attempted cold, three weeks out from the actual exam, followed by a strategy call rather than just a score.',
+        ],
+      },
+      { kind: 'h2', text: 'Why the gaps between papers matter as much as the papers' },
+      {
+        kind: 'p',
+        text: "The value of a mock test comes from what happens after it, not just during it. A paper returned within a few days, broken down by topic, gives a student a specific, ranked list of what to revise before the next one — a paper that takes weeks to come back, or comes back as just a total score, doesn't. A 72-hour turnaround to a topic-wise scorecard is what makes an 8-paper, 12-week cycle actually work as a feedback loop, not just repeated exposure to the same mistakes.",
+      },
+      { kind: 'h2', text: 'What to avoid' },
+      {
+        kind: 'p',
+        text: "Cramming most of the mocks into the final two or three weeks defeats the purpose — there's no time left to fix what the feedback reveals. Equally, starting board-pattern full papers too early (before the syllabus is reasonably covered) mostly measures incomplete preparation rather than exam-hall readiness. The diagnostic-then-progressive-then-simulation sequence exists specifically to avoid both mistakes.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is 8 mock papers per subject too many or too few?',
+        answer: "For a 12-week runway into boards, roughly 8 full-length papers per subject — spaced out with real evaluation and revision time between each — is enough to build pacing and correct recurring mistakes without crowding out actual syllabus revision.",
+      },
+      {
+        question: 'Should mock tests be timed exactly like the real exam from the start?',
+        answer: 'No — early diagnostic papers are more useful half-syllabus and lower-pressure, to establish a baseline; strict full-duration, board-format timing matters most in the final third of the cycle, closest to the real exam.',
+      },
+      {
+        question: 'What if a student starts a test series after some papers have already been released?',
+        answer: "A well-run series should give immediate access to all previously released papers so a late joiner can catch up before the next one opens, rather than skipping straight to wherever the cycle currently is.",
+      },
+    ],
+  },
+  {
+    slug: 'board-exam-mock-test-feedback-why-it-matters',
+    title: 'Why Fast, Detailed Feedback Beats a Pile of Practice Papers',
+    description:
+      "Solving forty practice papers with no one checking the working builds a false sense of readiness. Here's why a fast, topic-wise scorecard matters more than raw paper volume.",
+    category: 'board-exams',
+    datePublished: '2026-10-26',
+    readingMinutes: 5,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "It's easy to measure board exam preparation by volume — how many practice papers a student has attempted. It's a much better predictor of readiness to measure by feedback loops — how many times a student attempted a paper, got specific, detailed feedback on what went wrong, and corrected it before the next attempt. Forty papers solved with no one checking the working teach a student to repeat the same mistakes forty times, just more confidently.",
+      },
+      { kind: 'h2', text: 'What a total score doesn\'t tell you' },
+      {
+        kind: 'p',
+        text: 'A paper marked only for a final total — 62 out of 80 — confirms roughly where a student stands, but not why. It doesn\'t say whether the lost marks came from one weak chapter, from rushing the last section, from presentation, or from a specific recurring calculation error. Without that breakdown, the next round of revision is a guess, not a targeted fix.',
+      },
+      { kind: 'h2', text: 'What a topic-wise scorecard adds' },
+      {
+        kind: 'ul',
+        items: [
+          'Chapter-wise accuracy compared against the batch average, so a student can see which topics are genuinely weak versus which just felt hard on the day.',
+          'A breakdown of marks lost to method versus calculation versus presentation — three very different problems that need three different fixes.',
+          'A ranked, specific revision priority before the next paper opens, instead of a vague instruction to "revise everything."',
+        ],
+      },
+      { kind: 'h2', text: 'Why turnaround speed matters' },
+      {
+        kind: 'p',
+        text: "Feedback that arrives weeks later loses most of its value — the student has moved on, and the same weak topic has likely been tested again in the meantime without correction. A scorecard returned within about 72 hours, while the paper is still fresh, is what actually lets a student revise the right thing before the next attempt, turning a stack of papers into a real feedback loop rather than repeated exposure to the same gaps.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is a percentile ranking against other students actually useful?',
+        answer: "Yes, as context rather than pressure — seeing how a score compares to other students attempting the same paper in the same week helps a student calibrate whether a dip is a genuinely hard paper or a personal weak spot worth addressing.",
+      },
+      {
+        question: 'What should a scorecard actually break down, beyond the total?',
+        answer: 'At minimum: chapter or topic-wise accuracy, a split between method, calculation and presentation errors, and a specific, ranked list of what to revise before the next paper — a single overall percentage doesn\'t give a student enough to act on.',
+      },
+    ],
+  },
+  {
+    slug: 'class-12-boards-jee-neet-balance',
+    title: 'Class 12 Boards + JEE/NEET: Keeping Both on Track Without Sacrificing Either',
+    description:
+      "JEE and NEET preparation can quietly crowd out board-specific exam technique. Here's how a board-pattern test series keeps Class 12 board scores on track alongside competitive exam prep.",
+    category: 'board-exams',
+    datePublished: '2026-10-27',
+    readingMinutes: 6,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "Class 12 PCM and PCB students spend most of their study hours on JEE or NEET-style problem-solving, for good reason — that's where the higher-stakes exam sits. But board exams don't pause to wait, and they reward a genuinely different skill from JEE/NEET: full written solutions with method marks, presentation, and a board-specific question pattern, not just a correct final answer selected from four options.",
+      },
+      { kind: 'h2', text: 'Why board technique quietly erodes during JEE/NEET-heavy months' },
+      {
+        kind: 'p',
+        text: "JEE and NEET preparation trains speed and MCQ-style elimination — useful skills, but ones that don't require writing out full working, showing units, or structuring an answer the way a board marking scheme rewards. A student who's spent months almost exclusively on objective-format practice can lose board-specific presentation habits even while their JEE/NEET-relevant content knowledge keeps improving, and that gap only becomes visible in the exam hall.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'ul',
+        items: [
+          'A student comfortable solving a Physics numerical quickly for JEE may struggle to structure the same solution as a full written answer with proper steps for a board Physics paper.',
+          "Board syllabus weightage doesn't map exactly onto JEE/NEET emphasis — a chapter that's low-priority for JEE Advanced can still carry significant board marks.",
+          'Time spent exclusively on competitive-exam pacing (fast MCQ elimination) doesn\'t transfer directly to board-exam pacing (allocating 3 hours across a mixed written paper).',
+        ],
+      },
+      { kind: 'h2', text: 'How a board-pattern test series fits alongside JEE/NEET prep' },
+      {
+        kind: 'p',
+        text: "The fix isn't choosing one over the other — it's keeping board-specific practice running in parallel, on a schedule light enough not to crowd out competitive exam prep. A structured board test series, timed to the current CBSE/CISCE pattern and evaluated the way a board examiner actually marks, gives a PCM or PCB student regular, low-time-cost checkpoints that protect board technique without pulling significant hours away from JEE or NEET preparation.",
+      },
+    ],
+    faq: [
+      {
+        question: "Won't board-specific test papers take time away from JEE/NEET preparation?",
+        answer: "A board-pattern test series is designed to run alongside JEE/NEET prep, not compete with it for hours — the papers are spaced across the term specifically so board technique stays current without displacing the bulk of competitive-exam study time.",
+      },
+      {
+        question: 'Does the same content prep work for both boards and JEE/NEET?',
+        answer: "The underlying syllabus overlaps heavily, but the format and technique differ enough that content mastery alone doesn't guarantee board-exam presentation or pacing — students need at least some dedicated board-pattern, written-answer practice even if their conceptual prep is JEE/NEET-focused.",
+      },
+      {
+        question: 'How much of a Class 12 PCM/PCB student\'s time should go toward board-specific practice?',
+        answer: "Enough to keep presentation and pacing current — a handful of full board-pattern papers spread across the term, rather than a large block of dedicated time, is usually sufficient alongside a JEE/NEET-focused study plan.",
+      },
+    ],
+  },
+  {
+    slug: 'pre-board-simulation-why-it-matters',
+    title: 'Why the Final Pre-Board Simulation Matters Most',
+    description:
+      "Every practice paper before it is preparation. The final pre-board simulation is the one true test of whether that preparation holds up under real exam-day conditions.",
+    category: 'board-exams',
+    datePublished: '2026-10-28',
+    readingMinutes: 5,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    body: [
+      {
+        kind: 'p',
+        text: "Every mock paper in a test series builds toward one moment: the final pre-board simulation, attempted cold, a few weeks before the real exam. By this point a student has had feedback, corrected recurring mistakes, and revised the topics the scorecards flagged. The pre-board simulation is where all of that gets tested together, under conditions as close to the real exam hall as a practice paper can get.",
+      },
+      { kind: 'h2', text: 'What makes it different from earlier papers in the cycle' },
+      {
+        kind: 'ul',
+        items: [
+          "It's attempted cold — full syllabus, no advance topic hints, the same way the real board paper will be.",
+          "It runs on the exact board timing and answer-sheet format, with no pausing, replicating exam-hall conditions rather than a relaxed practice session.",
+          "It comes after every earlier round of feedback has already been acted on, so it measures accumulated readiness rather than raw content knowledge.",
+        ],
+      },
+      { kind: 'h2', text: 'Why exam-day stamina is a real, separate skill' },
+      {
+        kind: 'p',
+        text: "Three hours of sustained focus, under time pressure, without stopping, is a physical and mental skill that untimed revision never builds. A student can know every concept in the syllabus and still lose marks in the last section of a paper simply because they've never practiced sustaining focus for the full duration. The pre-board simulation is often the first time a student experiences that fatigue — better for it to happen a few weeks early than on the actual exam day.",
+      },
+      { kind: 'h2', text: 'What should happen after it' },
+      {
+        kind: 'p',
+        text: "The simulation itself isn't the finish line — what follows it is. A detailed review of the result, ideally alongside a strategy call rather than just a score, should turn the last few weeks before boards into a focused final pass on whatever specific gaps the simulation revealed, rather than a generic full-syllabus re-read with no particular target.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How close to the actual board exam should the pre-board simulation happen?',
+        answer: "About two to three weeks out works well — close enough that the exam-hall experience is fresh and any remaining gaps can still be addressed, but with enough runway left to actually act on what the simulation reveals.",
+      },
+      {
+        question: "What if a student performs worse on the pre-board simulation than on earlier mocks?",
+        answer: "That's common and not necessarily a bad sign — it usually reflects the added pressure of a cold, full-syllabus, exam-hall-conditions attempt rather than a genuine decline, and the specific gaps it surfaces are exactly what the final weeks of revision should target.",
       },
     ],
   },
