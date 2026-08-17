@@ -5,12 +5,12 @@
   --navy:#0F172A;
   --navy-800:#1E293B;
   --navy-700:#334155;
-  --blue:#2248B7;
+  --blue:#0B51C1;
   --blue-soft:#3A5FC4;
   --blue-050:#EFF4FF;
-  --amber:#E6BD52;
+  --amber:#ECA626;
   --amber-soft:#F0D083;
-  --sky-light:#B3CAF6;
+  --sky-light:#5EA0E4;
   --green:#10B981;
   --bg:#FFFFFF;
   --bg-alt:#F8FAFC;
@@ -106,6 +106,10 @@ button{font-family:inherit;cursor:pointer}
   animation:heroTagPop .6s var(--ease) .15s both,heroBadgeGlowAmber 2.6s ease-in-out .8s infinite;
 }
 .eyebrow-location::before{display:none}
+@media(max-width:560px){
+  .hero-badges{margin-top:0;gap:8px}
+  .eyebrow-highlight,.eyebrow-location{font-size:12px;padding:8px 14px}
+}
 @keyframes heroBadgeGlowBlue{
   0%,100%{box-shadow:0 8px 22px rgba(37,99,235,.32)}
   50%{box-shadow:0 12px 32px rgba(124,58,237,.55)}

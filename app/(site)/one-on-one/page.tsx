@@ -5,7 +5,26 @@ import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, Chevro
 
 export default function OneOnOneClassesPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
-  const [isPricePopupExpanded, setIsPricePopupExpanded] = useState(true);
+  const [isPricePopupExpanded, setIsPricePopupExpanded] = useState(false);
+
+  // Starts collapsed so page content isn't buried on first paint; expands once,
+  // after a short delay, then remembers it's been shown so repeat visitors
+  // aren't served the full banner on every single visit.
+  useEffect(() => {
+    let alreadySeen = false;
+    try {
+      alreadySeen = window.localStorage.getItem('bb-price-popup-seen') === '1';
+    } catch {}
+    if (alreadySeen) return;
+
+    const showTimer = window.setTimeout(() => {
+      setIsPricePopupExpanded(true);
+      try {
+        window.localStorage.setItem('bb-price-popup-seen', '1');
+      } catch {}
+    }, 1500);
+    return () => window.clearTimeout(showTimer);
+  }, []);
 
   useEffect(() => {
     if (!isPricePopupExpanded) return;
