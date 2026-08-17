@@ -137,6 +137,7 @@ const NAV_LINKS = [
 ];
 
 const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: boolean }[] = [
+  { text: '📝 Test Series Available for Board Exams — Complete Package Starts ₹19,999', href: '/test-series' },
   { text: '🚀 IOQM 2027 Batch Open — Enroll Now', href: '/ioqm-coaching-pune' },
   { text: '🎓 An IIT/IIM Alumni Initiative', href: '/about' },
   { text: '✅ Top 1% Faculty Led by Dilip Sir', href: '/about' },
