@@ -740,6 +740,18 @@ button{font-family:inherit;cursor:pointer}
 .article-faq-item h3{font-size:15.5px;margin-bottom:8px;color:var(--text)}
 .article-faq-item p{font-size:14.5px;color:var(--text-2);margin:0}
 
+/* ============ BOARD EXAM STUDY PLANNER ============ */
+/* Preview cards ("Weekly Study Grid" / "Spaced-Revision Cycle") — was a
+   repeated inline style object on 2 elements, extracted for consistency
+   with how every other card-like element on the site gets its own
+   purpose-named class rather than a generic inline style. */
+.planner-preview-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:20px;
+}
+.planner-locked-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:18px;height:150px;
+}
+
 /* ============ PRICE POPUP (center-top, then minimizes to top-left) ============ */
 .price-popup{
   position: fixed;
