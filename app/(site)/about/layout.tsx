@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { BreadcrumbJsonLd } from '../../components/JsonLd';
+import { BreadcrumbJsonLd, PersonJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
@@ -28,6 +28,13 @@ export default function AboutLayout({ children }: { children: React.ReactNode })
   return (
     <>
       <BreadcrumbJsonLd name="About Us" path="/about" />
+      <PersonJsonLd
+        name="Dilip Sah"
+        jobTitle="Founder, BuzzyBrains Academy"
+        description="Founder of BuzzyBrains Academy in Pune — left a stable job in 2021 to build a small-batch, mentor-led coaching institute after seeing capable students fail in overcrowded classrooms."
+        alumniOf={['IIT Kanpur']}
+        path="/about"
+      />
       {children}
     </>
   );
