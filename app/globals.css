@@ -285,13 +285,6 @@ button{font-family:inherit;cursor:pointer}
 .logo{display:flex;align-items:center;gap:11px;font-family:var(--font-display);letter-spacing:-.02em}
 .logo-badge-img{height:44px;width:auto;border-radius:10px}
 @media(max-width:520px){.logo-badge-img{height:38px}}
-.logo-mark{
-  width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
-  background:linear-gradient(135deg,var(--blue),#7C3AED);
-  box-shadow:0 6px 16px rgba(37,99,235,.35);
-  flex-shrink:0;
-}
-.logo-mark svg{width:22px;height:22px}
 .logo b{color:var(--blue)}
 .logo-text{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;line-height:1}
 .logo-word{font-weight:800;font-size:20px}

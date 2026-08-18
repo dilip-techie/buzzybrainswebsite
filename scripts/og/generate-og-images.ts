@@ -87,6 +87,31 @@ async function main() {
     }
   }
 
+  // Default/organization card — the sitewide fallback OG/Twitter image
+  // (public/images/buzzybrains_social.jpg), referenced directly by ~32
+  // layout.tsx/page.tsx files and by the EducationalOrganization JSON-LD
+  // `logo` field. Same template, same pipeline, just no specific post.
+  const socialOutPath = path.join(__dirname, '..', '..', 'public', 'images', 'buzzybrains_social.jpg');
+  if (!FORCE && fs.existsSync(socialOutPath)) {
+    rows.push({ title: 'Default site social card', slug: 'buzzybrains_social', category: 'Sitewide default', path: '/images/buzzybrains_social.jpg', dimensions: `${WIDTH}x${HEIGHT}`, status: 'skipped' });
+  } else {
+    try {
+      const html = renderOgHtml({
+        title: 'Maths & Science Mastery, IIT-Led.',
+        category: "Pune's Premier Coaching Institute",
+        width: WIDTH,
+        height: HEIGHT,
+      });
+      await page.setContent(html, { waitUntil: 'networkidle' });
+      await page.evaluate(() => (document as any).fonts?.ready);
+      await page.screenshot({ path: socialOutPath, type: 'jpeg', quality: 92 });
+      rows.push({ title: 'Default site social card', slug: 'buzzybrains_social', category: 'Sitewide default', path: '/images/buzzybrains_social.jpg', dimensions: `${WIDTH}x${HEIGHT}`, status: 'created' });
+    } catch (err) {
+      console.error('Failed to render buzzybrains_social.jpg:', err);
+      rows.push({ title: 'Default site social card', slug: 'buzzybrains_social', category: 'Sitewide default', path: '/images/buzzybrains_social.jpg', dimensions: `${WIDTH}x${HEIGHT}`, status: 'failed' });
+    }
+  }
+
   await browser.close();
 
   // Write a machine-readable manifest alongside the human summary.
