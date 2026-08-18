@@ -438,48 +438,6 @@ button{font-family:inherit;cursor:pointer}
   .nav-cta{display:none}
 }
 
-/* ============ OLYMPIAD POPUP ============ */
-.olympiad-popup{
-  position: fixed;
-  top: 112px;
-  right: clamp(16px, 3vw, 24px);
-  left: auto;
-  transform: none;
-  z-index: 95;
-  display: flex;
-  flex-direction: column;
-  width: min(92vw, 360px);
-  border-radius: 18px;
-  background: linear-gradient(135deg, rgba(15,23,42,.96), rgba(37,99,235,.95));
-  color: #fff;
-  border: 1px solid rgba(255,255,255,.16);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.22);
-  overflow: hidden;
-  transition: right .4s var(--ease), transform .4s var(--ease), width .4s var(--ease), box-shadow .35s var(--ease);
-}
-.olympiad-popup.collapsed{
-  width: min(92vw, 360px);
-  border-radius: 16px;
-}
-.olympiad-popup:hover{transform: translateY(-2px);box-shadow:0 22px 44px rgba(15,23,42,.28)}
-.olympiad-popup.collapsed:hover{transform: translateY(-2px);}
-.olympiad-popup__toggle{
-  width: 100%;
-  border: 0;
-  background: transparent;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  text-align: left;
-}
-.olympiad-popup__icon{font-size:20px;line-height:1;flex-shrink:0}
-.olympiad-popup__label{font-size:13px;font-weight:800;letter-spacing:-.01em}
-.olympiad-popup__chevron{margin-left:auto;font-size:16px;font-weight:700;opacity:.9}
-.olympiad-popup__content{padding:0 14px 12px;border-top:1px solid rgba(255,255,255,.16)}
-.olympiad-popup__title{font-size:14px;font-weight:800;margin:8px 0 0;letter-spacing:-.01em}
-.olympiad-popup__text{font-size:12.5px;margin:0;color:rgba(255,255,255,.92)}
 /* ============ BLOG ============ */
 .blog-cluster{margin-top:56px;display:flex;flex-direction:column;gap:44px}
 .blog-cluster-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
@@ -828,12 +786,6 @@ button{font-family:inherit;cursor:pointer}
 @media(max-width:720px){
   .price-popup{top:112px;left:50%;right:auto;width:min(92vw, 340px)}
   .price-popup.collapsed{left:12px;right:auto;width:min(80vw,220px)}
-}
-
-@media(max-width:720px){
-  .olympiad-popup{top:112px;left:50%;right:auto;width:min(92vw, 560px)}
-  .olympiad-popup.collapsed{left:12px;right:12px;width:auto}
-  .olympiad-popup__text{font-size:12px}
 }
 
 /* ============ HERO ============ */

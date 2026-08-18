@@ -332,32 +332,6 @@ export default function HomePage() {
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
-  const [isOlympiadPopupExpanded, setIsOlympiadPopupExpanded] = useState(false);
-
-  // Starts collapsed so the hero headline isn't buried on first paint (especially
-  // on mobile). Expands once, after a short delay, then remembers it's been shown
-  // so repeat visitors aren't served the full banner on every single visit.
-  useEffect(() => {
-    let alreadySeen = false;
-    try {
-      alreadySeen = window.localStorage.getItem('bb-olympiad-popup-seen') === '1';
-    } catch {}
-    if (alreadySeen) return;
-
-    const showTimer = window.setTimeout(() => {
-      setIsOlympiadPopupExpanded(true);
-      try {
-        window.localStorage.setItem('bb-olympiad-popup-seen', '1');
-      } catch {}
-    }, 1500);
-    return () => window.clearTimeout(showTimer);
-  }, []);
-
-  useEffect(() => {
-    if (!isOlympiadPopupExpanded) return;
-    const timer = window.setTimeout(() => setIsOlympiadPopupExpanded(false), 4800);
-    return () => window.clearTimeout(timer);
-  }, [isOlympiadPopupExpanded]);
 
   useEffect(() => {
     const io = new IntersectionObserver(
@@ -486,25 +460,6 @@ export default function HomePage() {
 
   return (
     <main className="bb-landing" id="top">
-      <div className={`olympiad-popup ${isOlympiadPopupExpanded ? 'expanded' : 'collapsed'}`} role="status" aria-live="polite">
-        <button
-          type="button"
-          className="olympiad-popup__toggle"
-          onClick={() => setIsOlympiadPopupExpanded((value) => !value)}
-          aria-label={isOlympiadPopupExpanded ? 'Minimize olympiad notice' : 'Expand olympiad notice'}
-        >
-          <span className="olympiad-popup__icon">🏅</span>
-          <span className="olympiad-popup__label">Olympiad batches open</span>
-          <span className="olympiad-popup__chevron">{isOlympiadPopupExpanded ? '−' : '+'}</span>
-        </button>
-        {isOlympiadPopupExpanded && (
-          <div className="olympiad-popup__content">
-            <p className="olympiad-popup__title">Olympiad batches are now open</p>
-            <p className="olympiad-popup__text">Join our upcoming classes for IMO, ISO, and IOQM with expert guidance.</p>
-          </div>
-        )}
-      </div>
-
       {/* ============ HERO ============ */}
       <section className="hero" ref={heroRef}>
         <div className="eq-field" aria-hidden="true">
