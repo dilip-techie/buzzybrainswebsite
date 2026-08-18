@@ -19,6 +19,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   // Indian boards & competitive exams
   { path: '/foundation', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/10th-board', changeFrequency: 'monthly', priority: 0.6 },
+  { path: '/12th-board', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/12th-board-pcm', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/12th-board-pcb', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/test-series', changeFrequency: 'monthly', priority: 0.85 },
@@ -27,6 +28,13 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/cat-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/olympiad-math', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/olympiads', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/sof-olympiads', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/sof-imo-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/ioqm-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/ioqm-amc-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/amc-8-10-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/maths-kangaroo-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/nmtc-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
   { path: '/one-on-one', changeFrequency: 'monthly', priority: 0.7 },
 
   // International pathways

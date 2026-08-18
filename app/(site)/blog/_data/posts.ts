@@ -20841,6 +20841,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 6,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/jee-mock-test-strategy-how-to-learn-from-every-attempt', label: 'JEE Mock Test Strategy: How to Learn From Every Attempt' },
+      { href: '/blog/neet-mock-test-strategy-how-to-learn-from-every-attempt', label: 'NEET Mock Test Strategy: How to Learn From Every Attempt' },
+    ],
     body: [
       {
         kind: 'p',
@@ -20892,6 +20896,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 6,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/common-jee-preparation-mistakes-that-cost-a-rank', label: 'Common JEE Preparation Mistakes That Cost a Rank' },
+      { href: '/blog/common-neet-preparation-mistakes-that-cost-a-rank', label: 'Common NEET Preparation Mistakes That Cost a Rank' },
+    ],
     body: [
       {
         kind: 'p',
@@ -20942,6 +20950,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 6,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/jee-mock-test-strategy-how-to-learn-from-every-attempt', label: 'JEE Mock Test Strategy: How to Learn From Every Attempt' },
+      { href: '/blog/neet-revision-strategy-for-the-final-3-months', label: 'NEET Revision Strategy for the Final 3 Months' },
+    ],
     body: [
       {
         kind: 'p',
@@ -20997,6 +21009,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 5,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/neet-mock-test-strategy-how-to-learn-from-every-attempt', label: 'NEET Mock Test Strategy: How to Learn From Every Attempt' },
+      { href: '/blog/jee-mock-test-strategy-how-to-learn-from-every-attempt', label: 'JEE Mock Test Strategy: How to Learn From Every Attempt' },
+    ],
     body: [
       {
         kind: 'p',
@@ -21043,6 +21059,11 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 6,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/jee-revision-strategy-for-the-final-3-months', label: 'JEE Revision Strategy for the Final 3 Months' },
+      { href: '/blog/neet-class-11-vs-class-12-syllabus-where-to-focus-first', label: 'NEET Class 11 vs Class 12 Syllabus: Where to Focus First' },
+      { href: '/blog/neet-score-honest-mbbs-seat-map', label: 'NEET Score to MBBS Seat: An Honest Rank-to-College Map' },
+    ],
     body: [
       {
         kind: 'p',
@@ -21093,6 +21114,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 5,
     relatedProgramHref: '/test-series',
     relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/jee-revision-strategy-for-the-final-3-months', label: 'JEE Revision Strategy for the Final 3 Months' },
+      { href: '/blog/neet-revision-strategy-for-the-final-3-months', label: 'NEET Revision Strategy for the Final 3 Months' },
+    ],
     body: [
       {
         kind: 'p',
@@ -21126,6 +21151,125 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         question: "What if a student performs worse on the pre-board simulation than on earlier mocks?",
         answer: "That's common and not necessarily a bad sign — it usually reflects the added pressure of a cold, full-syllabus, exam-hall-conditions attempt rather than a genuine decline, and the specific gaps it surfaces are exactly what the final weeks of revision should target.",
+      },
+    ],
+  },
+  {
+    slug: 'neet-score-honest-mbbs-seat-map',
+    title: 'NEET Score to MBBS Seat: An Honest Rank-to-College Map',
+    description:
+      "A brutally honest, hype-free look at what different NEET score bands actually tend to open up — government MBBS, private/deemed, or BDS/AYUSH — and why the real gap is built years before the exam, not a Class 12 crash course, from BuzzyBrains Academy, Pune.",
+    category: 'neet',
+    datePublished: '2026-10-30',
+    readingMinutes: 12,
+    relatedProgramHref: '/12th-board-pcb',
+    relatedProgramLabel: 'NEET Program',
+    relatedGuides: [
+      { href: '/blog/95-percentile-jee-main-honest-college-map', label: '95 Percentile in JEE Main: The Honest College Map' },
+      { href: '/blog/re-neet-paper-leak-year-exam-proof-preparation', label: 'Re-NEET: What a Paper-Leak Year Teaches Every Parent' },
+      { href: '/blog/why-foundation-is-important-for-cracking-neet', label: 'Why Foundation Is Important for Cracking NEET' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A NEET score in the 620-650+ range has generally been a reasonably safe zone for General-category government MBBS admission in recent years, though this shifts meaningfully by year, state, category and All-India versus state-quota seats. Below that band, government BDS, AYUSH courses, and private or deemed MBBS (at significantly higher fees) become the more realistic paths. As with JEE, there is no single fixed number — the only reliable figures come from the current year's official counselling data — but the general pattern is genuinely useful for setting expectations early.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "620-650+ has generally been a reasonably safe General-category government MBBS benchmark in recent years — but always check current-year official data, not a fixed historical number.",
+          'Below that band, government BDS, AYUSH courses (BAMS, BHMS, BUMS), and private/deemed MBBS become the more realistic and commonly chosen paths.',
+          'All-India Quota and State Quota seats have different, separately published cutoffs — a score can be competitive for one and not the other.',
+          'Category reservation (SC/ST/OBC/EWS/PwD) shifts effective cutoffs substantially from the General-category benchmark.',
+          "The gap between a borderline and a comfortably safe score is overwhelmingly a Grade 8-10 NCERT-foundation story, the same pattern seen in JEE.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Every counselling season, the same practical question dominates parent searches: what NEET score is actually \"safe\" for a government MBBS seat? Coaching institutes rarely publish an honest, hedged answer, since a precise-sounding number sells better than an accurate, caveated one. This guide gives the general pattern, without pretending it's a guarantee.",
+      },
+      { kind: 'h2', text: 'Why There Is No Single Fixed Answer' },
+      {
+        kind: 'p',
+        text: "NEET scores are converted into an All-India rank based on that year's specific difficulty and performance distribution, and that rank is then matched to seats through separate All-India Quota (15% of government seats) and State Quota (85% plus private/deemed) counselling processes — each with its own, category-wise cutoffs that shift every year. A precise \"this score equals this college\" mapping does not exist and shouldn't be trusted if presented as guaranteed. The only current, reliable numbers come from the MCC (Medical Counselling Committee) for All-India Quota and the respective state counselling authority for State Quota seats.",
+      },
+      { kind: 'h2', text: 'The General Pattern, Band by Band' },
+      {
+        kind: 'table',
+        headers: ['Score Band (out of 720)', 'General Pattern of Realistic Outcomes'],
+        rows: [
+          ['650+', 'Government MBBS at a broad range of colleges realistically in reach, including several well-regarded ones'],
+          ['620-650', 'Government MBBS remains realistic, particularly via State Quota and reservation categories, though options narrow at the more sought-after colleges'],
+          ['550-620', 'Government MBBS becomes more state- and category-dependent; government BDS and AYUSH courses become strong, common alternatives'],
+          ['Below 550', 'Private/deemed MBBS (significantly higher fees) or AYUSH/BDS become the more likely primary paths, category and state depending'],
+        ],
+      },
+      { kind: 'h2', text: 'Why All-India Quota and State Quota Cutoffs Differ' },
+      {
+        kind: 'p',
+        text: "A score that's competitive for a home state's State Quota seats may not clear the same college's All-India Quota cutoff, and vice versa — the two pools draw from different-sized applicant fields and are counselled separately. Families evaluating a score honestly need to check both, not just one, since focusing only on All-India Quota data can make a genuinely realistic State Quota outcome look worse than it actually is.",
+      },
+      { kind: 'h2', text: 'Government BDS and AYUSH: Not Consolation Prizes' },
+      {
+        kind: 'p',
+        text: "A score that doesn't clear government MBBS at a preferred college often still clears government BDS (dentistry) or AYUSH courses (BAMS, BHMS, BUMS) at a government or well-regarded private institution — legitimate, respected medical career paths, not fallback options to be dismissed. Families who understand this full picture make more deliberate choices than those fixating only on MBBS as the sole successful outcome.",
+      },
+      { kind: 'h2', text: 'Where the Real Gap Actually Gets Built' },
+      {
+        kind: 'p',
+        text: "The difference between a borderline score and a comfortably safe one is rarely explained by a stronger final few months of Class 12 preparation — by that stage, most serious aspirants are already working hard. It's far more consistently explained by NCERT-precise depth built years earlier: a student who enters Class 11 already comfortable with Class 9-10 Biology, Physics and Chemistry fundamentals spends the two-year NEET runway building on that base at real speed, rather than partly relearning it.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          'Treating any specific score-to-college mapping as a guaranteed number, when the real conversion shifts every year and by category — always confirm current MCC/state counselling data.',
+          'Checking only All-India Quota cutoffs and ignoring State Quota, which often has a meaningfully different, sometimes more favorable, threshold.',
+          'Dismissing government BDS or AYUSH as failures rather than evaluating them as genuine, respected paths.',
+          'Assuming the gap between a borderline and a safe score can be closed through a more intense Class 12 final push alone.',
+          "Not checking mop-up and stray vacancy rounds, which often surface additional government seats after the main rounds many families stop tracking too early.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: 'Founder Dilip Sah (IIT Kanpur alumnus, 25+ years of mentoring experience) and the BuzzyBrains Academy NEET faculty are direct with families about this honest map, rather than selling an unrealistic picture. NCERT-precision diagnostic testing happens years before NEET itself, specifically because the safe-score gap is overwhelmingly built at that earlier stage. Small batches (max 12 students) let mentors track a specific student\'s trajectory toward a realistic score band honestly, rather than promising a fixed outcome.',
+      },
+      { kind: 'h2', text: 'Recommended Resources' },
+      {
+        kind: 'ul',
+        items: [
+          'The official Medical Counselling Committee (MCC) portal for All-India Quota seats, and the respective state counselling authority for State Quota — the only reliable sources for current-year cutoffs.',
+          "NCERT Biology, Physics and Chemistry (Class 9-10) — the direct foundation that determines how much of the safe-score gap is closable.",
+          "Our related guide on why Foundation is important for cracking NEET, for the grade-by-grade roadmap behind this gap.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "A NEET score in the safe government-MBBS zone is a strong, genuine achievement — but an honest look at what a specific score band typically converts to, without hype, matters more than a vague sense of triumph or disappointment. The actionable insight isn't this year's exact cutoff; it's that the gap between a borderline score and a comfortably safe one is built years before Class 12, in the depth of a student's Grade 8-10 NCERT foundation.",
+      },
+    ],
+    faq: [
+      {
+        question: 'What NEET score is safe for a government MBBS seat?',
+        answer: "As a rough, commonly cited benchmark from recent years, a score in the 620-650+ range has generally been considered a reasonably safe zone for General-category government MBBS admission, though this varies by year, state and category — always check current official counselling data.",
+      },
+      {
+        question: 'Is there a difference between All-India Quota and State Quota cutoffs?',
+        answer: "Yes — they're counselled separately with different, category-wise cutoffs, and a score can be competitive for one but not the other, so both should be checked rather than relying on All-India Quota data alone.",
+      },
+      {
+        question: 'What happens if my NEET score doesn\'t clear government MBBS?',
+        answer: "Government BDS and AYUSH courses (BAMS, BHMS, BUMS) become strong, legitimate alternatives at that band, alongside private or deemed MBBS at significantly higher fees — none of these are consolation prizes.",
+      },
+      {
+        question: 'Why does the safe NEET score benchmark change every year?',
+        answer: "It depends on that year's exam difficulty, the number and category-mix of applicants, and the exact seat matrix released by MCC and state authorities — which is why a fixed historical number should never be treated as guaranteed.",
+      },
+      {
+        question: 'What is the real difference between a borderline and a comfortably safe NEET score?',
+        answer: "Overwhelmingly, it traces back to Grade 8-10 NCERT-precision depth in Biology, Physics and Chemistry, not a stronger final year of NEET-specific preparation alone.",
       },
     ],
   },

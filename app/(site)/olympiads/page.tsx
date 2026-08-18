@@ -196,6 +196,37 @@ export default function OlympiadsPage() {
         </div>
       </section>
 
+      {/* ============ GUIDES ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="center">
+            <span className="eyebrow reveal">Free Guides</span>
+            <h2 className="section-title reveal">Olympiad preparation guides</h2>
+            <p className="section-sub reveal">In-depth, honest guides on preparing for IOQM, AMC 8, Science Olympiads and more.</p>
+          </div>
+          <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 12, listStyle: 'none', margin: '32px 0 0', padding: 0 }}>
+            {[
+              { href: '/blog/complete-guide-maths-olympiad-preparation-class-6-10', label: 'Complete Guide to Maths Olympiad Preparation for Class 6–10' },
+              { href: '/blog/how-to-prepare-for-ioqm-from-grade-8', label: 'How to Prepare for IOQM from Grade 8' },
+              { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },
+              { href: '/blog/science-olympiad-preparation-strategy-middle-school', label: 'Science Olympiad Preparation Strategy for Middle School' },
+              { href: '/blog/common-mistakes-students-make-in-olympiad-mathematics', label: 'Common Mistakes Students Make in Olympiad Mathematics' },
+              { href: '/blog/why-olympiad-preparation-improves-jee-success', label: 'Why Olympiad Preparation Improves JEE Success' },
+              { href: '/blog/best-books-for-maths-olympiad-preparation', label: 'Best Books for Maths Olympiad Preparation' },
+              { href: '/blog/how-parents-can-support-olympiad-preparation', label: 'How Parents Can Support Olympiad Preparation' },
+              { href: '/blog/olympiad-vs-school-mathematics-key-differences', label: 'Olympiad vs School Mathematics: Key Differences' },
+              { href: '/blog/mental-maths-techniques-every-olympiad-student-should-know', label: 'Mental Maths Techniques Every Olympiad Student Should Know' },
+            ].map((g) => (
+              <li key={g.href} style={{ border: '1px solid var(--line)', borderRadius: 'var(--r-md)', background: 'var(--card)' }}>
+                <Link href={g.href} style={{ display: 'block', padding: '16px 18px', fontSize: 14.5, fontWeight: 600, color: 'var(--text-2)' }}>
+                  {g.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* ============ FINAL CTA ============ */}
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
