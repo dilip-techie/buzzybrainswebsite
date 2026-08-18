@@ -170,7 +170,7 @@ export default function BoardExamStudyPlannerPage() {
           </p>
 
           <div className="tip-grid reveal" style={{ gridTemplateColumns: '1fr 1fr', marginBottom: 8 }}>
-            <div style={{ background: 'var(--card)', border: '1px solid var(--line)', borderRadius: 'var(--r-md)', padding: 20 }}>
+            <div className="planner-preview-card">
               <h3 style={{ fontSize: 15, marginBottom: 12 }}>Your Weekly Study Grid</h3>
               <div style={{ overflowX: 'auto' }}>
                 <table className="compare-table" style={{ minWidth: 320 }}>
@@ -186,7 +186,7 @@ export default function BoardExamStudyPlannerPage() {
                 </table>
               </div>
             </div>
-            <div style={{ background: 'var(--card)', border: '1px solid var(--line)', borderRadius: 'var(--r-md)', padding: 20 }}>
+            <div className="planner-preview-card">
               <h3 style={{ fontSize: 15, marginBottom: 12 }}>The Spaced-Revision Cycle We Teach</h3>
               <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 8, fontSize: 14, color: 'var(--text-2)' }}>
                 <li>First pass: learn the chapter properly.</li>
@@ -207,7 +207,7 @@ export default function BoardExamStudyPlannerPage() {
               }}
             >
               {BOARDS_COVERED.slice(0, 3).map((b) => (
-                <div key={`${b.board}-${b.grade}-locked`} style={{ background: 'var(--card)', border: '1px solid var(--line)', borderRadius: 'var(--r-md)', padding: 18, height: 150 }}>
+                <div key={`${b.board}-${b.grade}-locked`} className="planner-locked-card">
                   <p style={{ fontWeight: 700, marginBottom: 8 }}>{b.grade} · {b.board}</p>
                   <p style={{ fontSize: 13, color: 'var(--text-3)' }}>Apr–Jun: Build genuine chapter-by-chapter understanding...</p>
                   <p style={{ fontSize: 13, color: 'var(--text-3)', marginTop: 6 }}>Jul–Sep: Complete full syllabus coverage...</p>
