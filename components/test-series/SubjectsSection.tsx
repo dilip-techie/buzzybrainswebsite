@@ -33,13 +33,13 @@ export default function SubjectsSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
           <div className="max-w-xl">
-            <p className="font-ledger text-[11px] tracking-[0.25em] text-[#E4C158]">COVERAGE</p>
-            <h2 className="mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]">
+            <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#E4C158]">COVERAGE</p>
+            <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
               Four boards. Two grades. One paper standard.
             </h2>
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="reveal flex flex-wrap gap-2" data-delay="2">
             {ORDER.map((key) => (
               <button
                 key={key}
@@ -56,7 +56,7 @@ export default function SubjectsSection() {
           </div>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="reveal mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-delay="3">
           {data.subjects.map((s, i) => (
             <div
               key={s}

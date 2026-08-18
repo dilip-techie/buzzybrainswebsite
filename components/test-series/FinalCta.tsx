@@ -2,13 +2,13 @@ export default function FinalCta() {
   return (
     <section className="bg-[#0E2148] py-20 text-[#FAF7EF]">
       <div className="mx-auto max-w-4xl px-6 text-center lg:px-10">
-        <h2 className="font-display text-[32px] font-bold leading-tight sm:text-[42px]">
+        <h2 className="reveal font-display text-[32px] font-bold leading-tight sm:text-[42px]">
           The batch starting January fills up in weeks.
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-[15px] text-[#FAF7EF]/70">
+        <p className="reveal mx-auto mt-4 max-w-xl text-[15px] text-[#FAF7EF]/70" data-delay="1">
           Reserve your seat now to lock in the 72-hour evaluation window for the full 12-week cycle.
         </p>
-        <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
+        <div className="reveal mt-9 flex flex-wrap items-center justify-center gap-4" data-delay="2">
           <a
             href="https://wa.me/919850570525"
             target="_blank"

@@ -46,16 +46,16 @@ export default function PricingSection() {
     <section id="ts-pricing" className="bg-[#0E2148] py-24 text-[#FAF7EF]">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-xl">
-          <p className="font-ledger text-[11px] tracking-[0.25em] text-[#E4C158]">ENROLLMENT</p>
-          <h2 className="mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]">
+          <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#E4C158]">ENROLLMENT</p>
+          <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
             Pick the coverage you need.
           </h2>
-          <p className="mt-4 text-[15px] text-[#FAF7EF]/65">
+          <p className="reveal mt-4 text-[15px] text-[#FAF7EF]/65" data-delay="2">
             All plans follow the same 12-week, 8-paper cycle. Seats for the Jan&ndash;Mar 2027 batch are limited to keep evaluation turnaround at 72 hours.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3">
+        <div className="reveal mt-14 grid gap-6 lg:grid-cols-3" data-delay="3">
           {PLANS.map((plan) => (
             <div
               key={plan.name}

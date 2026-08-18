@@ -1752,6 +1752,62 @@
     "status": "skipped"
   },
   {
+    "title": "Why Class 10 & 12 Students Need a Test Series, Not Just More Notes",
+    "slug": "why-students-need-test-series-not-just-notes",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/why-students-need-test-series-not-just-notes.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "CBSE & ICSE Marking Schemes: What Examiner-Style Evaluation Actually Teaches You",
+    "slug": "cbse-icse-marking-scheme-examiner-evaluation",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/cbse-icse-marking-scheme-examiner-evaluation.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "How Many Mock Tests Should You Attempt Before Class 10 or 12 Boards?",
+    "slug": "how-many-mock-tests-before-board-exams",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/how-many-mock-tests-before-board-exams.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Why Fast, Detailed Feedback Beats a Pile of Practice Papers",
+    "slug": "board-exam-mock-test-feedback-why-it-matters",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/board-exam-mock-test-feedback-why-it-matters.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Class 12 Boards + JEE/NEET: Keeping Both on Track Without Sacrificing Either",
+    "slug": "class-12-boards-jee-neet-balance",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/class-12-boards-jee-neet-balance.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Why the Final Pre-Board Simulation Matters Most",
+    "slug": "pre-board-simulation-why-it-matters",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/pre-board-simulation-why-it-matters.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "NEET Score to MBBS Seat: An Honest Rank-to-College Map",
+    "slug": "neet-score-honest-mbbs-seat-map",
+    "category": "NEET",
+    "path": "/images/og/neet-score-honest-mbbs-seat-map.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
     "title": "IIT-JEE Preparation Guides",
     "slug": "category-iit-jee",
     "category": "IIT-JEE",
@@ -1878,5 +1934,21 @@
     "path": "/images/og/category-coding-olympiad.png",
     "dimensions": "1200x630",
     "status": "skipped"
+  },
+  {
+    "title": "Board Exam Test Series Guides",
+    "slug": "category-board-exams",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/category-board-exams.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "Default site social card",
+    "slug": "buzzybrains_social",
+    "category": "Sitewide default",
+    "path": "/images/buzzybrains_social.jpg",
+    "dimensions": "1200x630",
+    "status": "created"
   }
 ]

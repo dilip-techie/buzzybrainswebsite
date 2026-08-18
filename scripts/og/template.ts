@@ -1,12 +1,25 @@
+import fs from 'fs';
+import path from 'path';
+
 const COLORS = {
-  navy: '#0E2148',
-  navyLight: '#15316B',
-  gold: '#C9A227',
-  goldLight: '#E4C458',
-  steelBlue: '#5E7FB5',
-  royalBlue: '#2C5BA8',
+  navy: '#0F172A',
+  navyLight: '#1E293B',
+  blue: '#0B51C1',
+  blueLight: '#5EA0E4',
+  amber: '#ECA626',
+  amberLight: '#F2C466',
   white: '#FFFFFF',
 };
+
+/** The real BuzzyBrains bee-mark logo, embedded as a data URI so the
+ * generated OG cards use the actual brand mark instead of a fabricated
+ * text monogram — always in sync with the source asset, no giant literal
+ * base64 string checked into the template itself. */
+const LOGO_DATA_URI = (() => {
+  const logoPath = path.join(__dirname, '..', '..', 'app', 'apple-icon.png');
+  const base64 = fs.readFileSync(logoPath).toString('base64');
+  return `data:image/png;base64,${base64}`;
+})();
 
 function escapeHtml(str: string): string {
   return str
@@ -33,9 +46,10 @@ export interface OgTemplateParams {
   height: number;
 }
 
-/** BuzzyBrains Academy "Steel Echo" OG card template — navy ground, gold
- * spine, layered BB monogram (steel-blue echo behind a white front glyph),
- * gold category pill, serif headline, sans-serif wordmark/URL. */
+/** BuzzyBrains Academy OG card template — navy ground, amber spine, the
+ * real bee-mark logo, amber category pill, serif headline, sans-serif
+ * wordmark/URL. Colors match the corrected site brand tokens in
+ * app/globals.css (--blue, --amber, --navy). */
 export function renderOgHtml({ title, category, width, height }: OgTemplateParams): string {
   const safeTitle = escapeHtml(title);
   const safeCategory = escapeHtml(category.toUpperCase());
@@ -66,30 +80,27 @@ export function renderOgHtml({ title, category, width, height }: OgTemplateParam
   .dots {
     position: absolute; left: 40px; bottom: 78px;
     width: 220px; height: 90px;
-    background-image: radial-gradient(${COLORS.steelBlue} 1.6px, transparent 1.6px);
+    background-image: radial-gradient(${COLORS.blueLight} 1.6px, transparent 1.6px);
     background-size: 16px 16px;
     opacity: 0.28;
   }
   .spine {
     position: absolute; left: 72px; top: 112px; bottom: 158px;
     width: 6px;
-    background: ${COLORS.gold};
+    background: ${COLORS.amber};
     border-radius: 3px;
   }
   .brand-row {
     position: absolute; top: 56px; left: 92px;
     display: flex; align-items: center; gap: 18px;
   }
-  .monogram { position: relative; width: 64px; height: 64px; flex-shrink: 0; }
-  .monogram .echo, .monogram .front {
-    position: absolute; top: 0; left: 0;
-    font-family: 'Playfair Display', Georgia, serif;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 64px;
+  .monogram {
+    width: 64px; height: 64px; flex-shrink: 0;
+    background: ${COLORS.white};
+    border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
   }
-  .monogram .echo { color: ${COLORS.steelBlue}; opacity: 0.75; transform: translate(7px, 7px); }
-  .monogram .front { color: ${COLORS.white}; }
+  .monogram img { width: 48px; height: 48px; display: block; }
   .wordmark { display: flex; flex-direction: column; }
   .wordmark .name {
     font-family: 'Archivo', Arial, sans-serif;
@@ -98,26 +109,26 @@ export function renderOgHtml({ title, category, width, height }: OgTemplateParam
     letter-spacing: 1px;
     color: ${COLORS.white};
   }
-  .wordmark .name .accent { color: ${COLORS.gold}; }
+  .wordmark .name .accent { color: ${COLORS.amber}; }
   .wordmark .sub {
     font-family: 'Archivo', Arial, sans-serif;
     font-weight: 600;
     font-size: 11px;
     letter-spacing: 4px;
-    color: ${COLORS.steelBlue};
+    color: ${COLORS.blueLight};
     margin-top: 3px;
   }
   .pill {
     position: absolute; left: 96px; top: 168px;
     display: inline-flex; align-items: center;
     padding: 8px 20px;
-    border: 1.5px solid ${COLORS.gold};
+    border: 1.5px solid ${COLORS.amber};
     border-radius: 999px;
     font-family: 'Archivo', Arial, sans-serif;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 2px;
-    color: ${COLORS.goldLight};
+    color: ${COLORS.amberLight};
   }
   .title {
     position: absolute; left: 94px; top: 232px; right: 420px;
@@ -140,12 +151,12 @@ export function renderOgHtml({ title, category, width, height }: OgTemplateParam
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 0.5px;
-    color: ${COLORS.steelBlue};
+    color: ${COLORS.blueLight};
   }
   .footer .rule {
     position: absolute; left: 0; right: 0; top: -22px;
     height: 1px;
-    background: rgba(94,127,181,0.35);
+    background: rgba(94,160,228,0.35);
   }
 </style>
 </head>
@@ -156,8 +167,7 @@ export function renderOgHtml({ title, category, width, height }: OgTemplateParam
 
   <div class="brand-row">
     <div class="monogram">
-      <span class="echo">B</span>
-      <span class="front">B</span>
+      <img src="${LOGO_DATA_URI}" alt="" />
     </div>
     <div class="wordmark">
       <span class="name">BUZZY <span class="accent">BRAINS</span></span>

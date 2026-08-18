@@ -22,9 +22,9 @@ import {
 
 const HIGHLIGHTS = [
   { value: '3', label: 'Exam Sections', icon: Target, gradient: 'linear-gradient(135deg,#86198F,#C026D3)' },
-  { value: '20+', label: 'IIMs Accept CAT Scores', icon: Award, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { value: '25+', label: 'Years Mentoring Experience', icon: Award, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { value: '20+', label: 'IIMs Accept CAT Scores', icon: Award, gradient: 'var(--grad-purple)' },
+  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'var(--grad-blue)' },
+  { value: '25+', label: 'Years Mentoring Experience', icon: Award, gradient: 'var(--grad-green)' },
 ];
 
 const SECTIONS = [
@@ -71,8 +71,8 @@ const SECTIONS = [
 
 const SELECTION_STAGES = [
   { title: 'CAT Percentile', subtitle: 'VARC + DILR + QA', icon: FileEdit, gradient: 'linear-gradient(135deg,#86198F,#C026D3)' },
-  { title: 'WAT / Group Discussion', subtitle: 'Written or group round', icon: Users2, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { title: 'Personal Interview', subtitle: 'Final selection stage', icon: MessageSquare, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
+  { title: 'WAT / Group Discussion', subtitle: 'Written or group round', icon: Users2, gradient: 'var(--grad-purple)' },
+  { title: 'Personal Interview', subtitle: 'Final selection stage', icon: MessageSquare, gradient: 'var(--grad-blue)' },
 ];
 
 const METHODOLOGY = [
@@ -85,11 +85,11 @@ const METHODOLOGY = [
 
 const WHY_CHOOSE = [
   { title: 'Sectional-Time Native', desc: 'Every mock enforces authentic per-section time limits, not just one overall timer, matching the real exam.', gradient: 'linear-gradient(135deg,#86198F,#C026D3)', icon: Clock },
-  { title: 'IIT Kanpur & IIM Ahmedabad Mentorship', desc: 'Led by founder Dilip Sah, an IIT Kanpur and IIM Ahmedabad alumnus with 25+ years of mentoring experience.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Users },
-  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual, section-wise feedback — not generic advice.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Users },
-  { title: 'DILR Set-Selection Coaching', desc: 'Set-selection judgment is trained as its own distinct skill, not left to develop by accident.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: BarChart3 },
-  { title: 'WAT-GD-PI Ready', desc: 'Preparation extends beyond the written percentile to the WAT/GD and Personal Interview rounds that follow it.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: MessageSquare },
-  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Brain },
+  { title: 'IIT Kanpur & IIM Ahmedabad Mentorship', desc: 'Led by founder Dilip Sah, an IIT Kanpur and IIM Ahmedabad alumnus with 25+ years of mentoring experience.', gradient: 'var(--grad-purple)', icon: Users },
+  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual, section-wise feedback — not generic advice.', gradient: 'var(--grad-amber)', icon: Users },
+  { title: 'DILR Set-Selection Coaching', desc: 'Set-selection judgment is trained as its own distinct skill, not left to develop by accident.', gradient: 'var(--grad-green)', icon: BarChart3 },
+  { title: 'WAT-GD-PI Ready', desc: 'Preparation extends beyond the written percentile to the WAT/GD and Personal Interview rounds that follow it.', gradient: 'var(--grad-sky)', icon: MessageSquare },
+  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'var(--grad-red)', icon: Brain },
 ];
 
 export default function CatExamPage() {

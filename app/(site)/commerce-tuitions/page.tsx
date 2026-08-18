@@ -20,25 +20,25 @@ import {
 } from 'lucide-react';
 
 const SUBJECTS = [
-  { name: 'Accountancy', icon: Calculator, desc: 'Financial & Cost Accounting for CBSE/ICSE, plus IGCSE and IB Accounting & Finance.', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { name: 'Economics', icon: TrendingUp, desc: 'Micro, Macro and Business Economics — board pattern plus IGCSE and IB Economics.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { name: 'Business Studies', icon: Briefcase, desc: 'Principles of management — CBSE/ICSE Business Studies, IGCSE Business, and IB Business Management.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
-  { name: 'Applied & Core Maths', icon: Sigma, desc: 'Commercial Maths, Applied Maths for CBSE, and IB Maths Applications & Interpretation.', gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { name: 'Accountancy', icon: Calculator, desc: 'Financial & Cost Accounting for CBSE/ICSE, plus IGCSE and IB Accounting & Finance.', gradient: 'var(--grad-blue)' },
+  { name: 'Economics', icon: TrendingUp, desc: 'Micro, Macro and Business Economics — board pattern plus IGCSE and IB Economics.', gradient: 'var(--grad-purple)' },
+  { name: 'Business Studies', icon: Briefcase, desc: 'Principles of management — CBSE/ICSE Business Studies, IGCSE Business, and IB Business Management.', gradient: 'var(--grad-amber)' },
+  { name: 'Applied & Core Maths', icon: Sigma, desc: 'Commercial Maths, Applied Maths for CBSE, and IB Maths Applications & Interpretation.', gradient: 'var(--grad-green)' },
   { name: 'Statistics', icon: BarChart3, desc: 'Data handling, probability and statistical methods for commerce.', gradient: 'linear-gradient(135deg,#0369A1,#0EA5E9)' },
   { name: 'Informatics Practices', icon: Laptop, desc: 'Data management and practical computing for Commerce students.', gradient: 'linear-gradient(135deg,#334155,#0F172A)' },
 ];
 
 const BOARDS = [
-  { name: 'CBSE, ICSE & State Boards', icon: BookOpen, desc: 'Full board-pattern coverage for Accountancy, Economics, Business Studies and Applied/Core Maths.', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { name: 'IGCSE (Cambridge)', icon: Globe, desc: 'IGCSE Business Studies, Economics and Accounting, taught to the Cambridge assessment pattern.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { name: 'IB Diploma Programme', icon: Award, desc: 'IB Business Management, Economics and Accounting & Finance at HL/SL, including Internal Assessment support.', gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { name: 'CBSE, ICSE & State Boards', icon: BookOpen, desc: 'Full board-pattern coverage for Accountancy, Economics, Business Studies and Applied/Core Maths.', gradient: 'var(--grad-blue)' },
+  { name: 'IGCSE (Cambridge)', icon: Globe, desc: 'IGCSE Business Studies, Economics and Accounting, taught to the Cambridge assessment pattern.', gradient: 'var(--grad-purple)' },
+  { name: 'IB Diploma Programme', icon: Award, desc: 'IB Business Management, Economics and Accounting & Finance at HL/SL, including Internal Assessment support.', gradient: 'var(--grad-green)' },
 ];
 
 const HIGHLIGHTS = [
-  { value: '10', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { value: '9+', label: 'Subjects Covered', icon: BookOpen, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { value: '5', label: 'Competitive Exams Supported', icon: Target, gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
-  { value: '25+', label: 'Years Faculty Leadership Experience', icon: Award, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { value: '10', label: 'Max Students / Batch', icon: Users, gradient: 'var(--grad-blue)' },
+  { value: '9+', label: 'Subjects Covered', icon: BookOpen, gradient: 'var(--grad-purple)' },
+  { value: '5', label: 'Competitive Exams Supported', icon: Target, gradient: 'var(--grad-amber)' },
+  { value: '25+', label: 'Years Faculty Leadership Experience', icon: Award, gradient: 'var(--grad-green)' },
 ];
 
 const EXAMS = [
@@ -52,12 +52,12 @@ const EXAMS = [
 ];
 
 const WHY_CHOOSE = [
-  { title: 'Small Batches, Max 10', desc: 'Accounts and Applied Maths reward close doubt-resolution — a batch this size makes that possible every session.', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)', icon: Users },
-  { title: 'Concept-Based Teaching', desc: 'Real business case studies and practical examples, not rote memorization of formats and formulas.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Lightbulb },
-  { title: 'Career Guidance Built In', desc: 'From choosing CA vs CUET-based BCom vs BBA, students get real guidance, not just subject teaching.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Target },
-  { title: 'Weekly Tests & Chapter Assessments', desc: 'Regular, structured assessment that builds board-exam temperament from the first term.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: Award },
-  { title: 'AI-Powered, Technology-Enabled Learning', desc: 'Interactive digital classrooms and technology-driven tools, brought in from founder Dilip Sir’s 24+ years in technology leadership.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: Laptop },
-  { title: 'Regular Parent Updates', desc: 'Transparent, regular feedback so parents always know exactly where their child stands.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Users },
+  { title: 'Small Batches, Max 10', desc: 'Accounts and Applied Maths reward close doubt-resolution — a batch this size makes that possible every session.', gradient: 'var(--grad-blue)', icon: Users },
+  { title: 'Concept-Based Teaching', desc: 'Real business case studies and practical examples, not rote memorization of formats and formulas.', gradient: 'var(--grad-purple)', icon: Lightbulb },
+  { title: 'Career Guidance Built In', desc: 'From choosing CA vs CUET-based BCom vs BBA, students get real guidance, not just subject teaching.', gradient: 'var(--grad-amber)', icon: Target },
+  { title: 'Weekly Tests & Chapter Assessments', desc: 'Regular, structured assessment that builds board-exam temperament from the first term.', gradient: 'var(--grad-green)', icon: Award },
+  { title: 'AI-Powered, Technology-Enabled Learning', desc: 'Interactive digital classrooms and technology-driven tools, brought in from founder Dilip Sir’s 24+ years in technology leadership.', gradient: 'var(--grad-sky)', icon: Laptop },
+  { title: 'Regular Parent Updates', desc: 'Transparent, regular feedback so parents always know exactly where their child stands.', gradient: 'var(--grad-red)', icon: Users },
 ];
 
 export default function CommerceTuitionsPage() {
