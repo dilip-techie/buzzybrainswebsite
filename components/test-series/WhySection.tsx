@@ -36,19 +36,19 @@ export default function WhySection() {
     <section className="border-y border-[#0E2148]/10 bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-2xl">
-          <p className="font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">
+          <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">
             WHY A TEST SERIES, NOT MORE NOTES
           </p>
-          <h2 className="mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]">
+          <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
             Board exams are won on exam-hall discipline, not just syllabus knowledge.
           </h2>
-          <p className="mt-4 text-[16px] leading-relaxed text-[#0E2148]/70">
+          <p className="reveal mt-4 text-[16px] leading-relaxed text-[#0E2148]/70" data-delay="2">
             Students who&rsquo;ve covered the syllabus still lose 15&ndash;20 marks to pacing,
             presentation and unfamiliar question framing. The series is built to close that gap.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-px overflow-hidden rounded-sm border border-[#0E2148]/10 bg-[#0E2148]/10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="reveal mt-14 grid gap-px overflow-hidden rounded-sm border border-[#0E2148]/10 bg-[#0E2148]/10 sm:grid-cols-2 lg:grid-cols-3" data-delay="3">
           {FEATURES.map((f) => (
             <div key={f.title} className="group bg-[#FAF7EF] p-8 transition-colors hover:bg-white">
               <span className="font-ledger text-[10px] tracking-[0.2em] text-[#5E7FB5]">

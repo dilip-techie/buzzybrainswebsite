@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import { ChevronDown, HelpCircle } from 'lucide-react';
 import { faqs as defaultFaqs } from '@/lib/olympiad/data';
 
@@ -11,7 +12,12 @@ export default function FAQ({ faqs = defaultFaqs }: { faqs?: { q: string; a: str
     <section id="oly-faq" className="oly-section bg-oly-paper">
       <div className="oly-container">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-40px' }}
+            transition={{ duration: 0.6, ease: 'easeOut' }}
+          >
             <span className="oly-eyebrow">
               <HelpCircle size={12} /> FAQ
             </span>
@@ -22,9 +28,14 @@ export default function FAQ({ faqs = defaultFaqs }: { faqs?: { q: string; a: str
               Can&apos;t find what you&apos;re looking for? Message us on WhatsApp and
               we&apos;ll answer within the day.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="divide-y divide-oly-line rounded-2xl border border-oly-line bg-white">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-40px' }}
+            transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
+            className="divide-y divide-oly-line rounded-2xl border border-oly-line bg-white">
             {faqs.map((f, i) => {
               const isOpen = open === i;
               return (
@@ -45,7 +56,7 @@ export default function FAQ({ faqs = defaultFaqs }: { faqs?: { q: string; a: str
                 </div>
               );
             })}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

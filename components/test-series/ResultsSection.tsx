@@ -8,12 +8,12 @@ export default function ResultsSection() {
   return (
     <section className="bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">FROM THE LAST BATCH</p>
-        <h2 className="mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]">
+        <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">FROM THE LAST BATCH</p>
+        <h2 className="reveal mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
           What changes after twelve weeks of graded papers.
         </h2>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="reveal mt-14 grid gap-6 md:grid-cols-3" data-delay="2">
           {RESULTS.map((r) => (
             <figure key={r.name} className="rounded-sm border border-[#0E2148]/10 bg-white p-8">
               <div className="flex items-center gap-3">

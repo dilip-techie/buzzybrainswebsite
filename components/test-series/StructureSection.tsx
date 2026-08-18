@@ -29,12 +29,12 @@ export default function StructureSection() {
   return (
     <section id="ts-structure" className="bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">THE SCHEDULE</p>
-        <h2 className="mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]">
+        <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">THE SCHEDULE</p>
+        <h2 className="reveal mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
           A 12-week paper cycle, timed to peak right before boards.
         </h2>
 
-        <div className="relative mt-16">
+        <div className="reveal relative mt-16" data-delay="2">
           <div className="absolute left-[27px] top-2 bottom-2 hidden w-px bg-[#0E2148]/15 sm:block" />
           <ol className="space-y-10">
             {PAPERS.map((p) => (

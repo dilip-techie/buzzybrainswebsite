@@ -10,14 +10,14 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-16 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-10 lg:py-28">
         <div>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5">
+          <div className="reveal mb-6 inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-[#E4C158]" />
             <span className="font-ledger text-[11px] tracking-[0.18em] text-[#E4C158]">
               CBSE &middot; ICSE &nbsp;|&nbsp; GRADE 10 &amp; 12 &nbsp;|&nbsp; BOARDS 2027
             </span>
           </div>
 
-          <h1 className="font-display text-[42px] font-bold leading-[1.08] tracking-tight sm:text-[54px] lg:text-[60px]">
+          <h1 className="reveal font-display text-[42px] font-bold leading-[1.08] tracking-tight sm:text-[54px] lg:text-[60px]" data-delay="1">
             Practice like it&rsquo;s
             <br />
             <span className="relative inline-block text-[#E4C158]">
@@ -36,14 +36,14 @@ export default function Hero() {
             Every single time.
           </h1>
 
-          <p className="mt-7 max-w-xl text-[17px] leading-relaxed text-[#FAF7EF]/75">
+          <p className="reveal mt-7 max-w-xl text-[17px] leading-relaxed text-[#FAF7EF]/75" data-delay="2">
             The BuzzyBrains Test Series puts Grade 10 &amp; 12 CBSE and ICSE students through
             full-length papers set to the exact board pattern &mdash; then hands back a
             marked, examiner-annotated scorecard within 72 hours, so you know precisely
             what to fix before the real thing.
           </p>
 
-          <div className="mt-9 flex flex-wrap items-center gap-4">
+          <div className="reveal mt-9 flex flex-wrap items-center gap-4" data-delay="3">
             <a
               href="#ts-pricing"
               className="rounded-sm bg-[#C9A227] px-7 py-3.5 text-[14px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"
@@ -58,7 +58,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-[#FAF7EF]/15 pt-8">
+          <dl className="reveal mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-[#FAF7EF]/15 pt-8" data-delay="4">
             <div>
               <dt className="font-display text-[28px] font-bold text-[#E4C158]">8</dt>
               <dd className="mt-1 font-ledger text-[11px] leading-tight text-[#FAF7EF]/60">
@@ -81,7 +81,7 @@ export default function Hero() {
         </div>
 
         {/* Signature element: tilted marked answer sheet */}
-        <div className="relative mx-auto w-full max-w-[420px]">
+        <div className="reveal relative mx-auto w-full max-w-[420px]" data-delay="2">
           <div className="absolute -inset-6 -z-10 rounded-lg border border-[#C9A227]/20" />
           <div className="rotate-[-3deg] rounded-sm bg-[#FAF7EF] p-6 text-[#0E2148] shadow-2xl transition-transform duration-500 hover:rotate-0">
             <div className="paper-ruled margin-rule relative rounded-[2px] pb-2">
