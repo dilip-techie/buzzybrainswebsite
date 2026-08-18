@@ -22,9 +22,9 @@ import {
 
 const HIGHLIGHTS = [
   { value: '5-Yr', label: 'Integrated BBA + MBA', icon: Building2, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
-  { value: '2', label: 'Written Test Sections', icon: Target, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { value: '25+', label: 'Years Mentoring Experience', icon: Award, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { value: '2', label: 'Written Test Sections', icon: Target, gradient: 'var(--grad-purple)' },
+  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'var(--grad-blue)' },
+  { value: '25+', label: 'Years Mentoring Experience', icon: Award, gradient: 'var(--grad-green)' },
 ];
 
 const SECTIONS = [
@@ -58,8 +58,8 @@ const SECTIONS = [
 
 const SELECTION_STAGES = [
   { title: 'Written Test', subtitle: 'Quant + Verbal Ability', icon: FileEdit, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
-  { title: 'Written Ability Test', subtitle: 'WAT on a given topic', icon: MessageSquare, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { title: 'Personal Interview', subtitle: 'Communication & awareness', icon: Users, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
+  { title: 'Written Ability Test', subtitle: 'WAT on a given topic', icon: MessageSquare, gradient: 'var(--grad-purple)' },
+  { title: 'Personal Interview', subtitle: 'Communication & awareness', icon: Users, gradient: 'var(--grad-blue)' },
 ];
 
 const METHODOLOGY = [
@@ -72,11 +72,11 @@ const METHODOLOGY = [
 
 const WHY_CHOOSE = [
   { title: 'IPMAT-Specific, Not Generic', desc: 'Every drill matches the exact IPMAT format — short-answer quant, reading-heavy verbal — not a repurposed CAT-style course.', gradient: 'linear-gradient(135deg,#9F1239,#E11D48)', icon: Clock },
-  { title: 'IIT Kanpur & IIM Ahmedabad Mentorship', desc: 'Led by founder Dilip Sah, an IIT Kanpur and IIM Ahmedabad alumnus with 25+ years of mentoring experience.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Users },
-  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual, section-wise feedback — not generic advice.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Users },
-  { title: 'Target-IIM Focused', desc: 'Mocks are matched to your specific target IIM\'s actual pattern — IIM Indore and IIM Rohtak differ meaningfully.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: BarChart3 },
-  { title: 'WAT-PI Ready', desc: 'Preparation extends beyond the written test to the Written Ability Test and Personal Interview that follow it.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: MessageSquare },
-  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Brain },
+  { title: 'IIT Kanpur & IIM Ahmedabad Mentorship', desc: 'Led by founder Dilip Sah, an IIT Kanpur and IIM Ahmedabad alumnus with 25+ years of mentoring experience.', gradient: 'var(--grad-purple)', icon: Users },
+  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual, section-wise feedback — not generic advice.', gradient: 'var(--grad-amber)', icon: Users },
+  { title: 'Target-IIM Focused', desc: 'Mocks are matched to your specific target IIM\'s actual pattern — IIM Indore and IIM Rohtak differ meaningfully.', gradient: 'var(--grad-green)', icon: BarChart3 },
+  { title: 'WAT-PI Ready', desc: 'Preparation extends beyond the written test to the Written Ability Test and Personal Interview that follow it.', gradient: 'var(--grad-sky)', icon: MessageSquare },
+  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'var(--grad-red)', icon: Brain },
 ];
 
 export default function IpmatExamPage() {

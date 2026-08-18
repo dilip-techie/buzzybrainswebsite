@@ -29,10 +29,10 @@ import {
 } from 'lucide-react';
 
 const HIGHLIGHTS = [
-  { value: '24', label: 'AP Subjects Coached', icon: Trophy, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { value: 'IIT Kanpur', label: 'Founder-Led Teaching', icon: Award, gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
-  { value: '25+', label: 'Years Faculty Experience', icon: Trophy, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { value: '24', label: 'AP Subjects Coached', icon: Trophy, gradient: 'var(--grad-blue)' },
+  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'var(--grad-purple)' },
+  { value: 'IIT Kanpur', label: 'Founder-Led Teaching', icon: Award, gradient: 'var(--grad-amber)' },
+  { value: '25+', label: 'Years Faculty Experience', icon: Trophy, gradient: 'var(--grad-green)' },
 ];
 
 const COURSES = [
@@ -41,7 +41,7 @@ const COURSES = [
     subject: 'AP Calculus AB & BC',
     grade: 'Mathematics',
     icon: Calculator,
-    gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    gradient: 'var(--grad-blue)',
     pcbg: 'var(--blue-050)',
     description: 'From limits to series, built on deep conceptual foundations — not formula memorisation.',
     topics: ['Full FRQ practice with College Board rubrics', 'Unit-wise progress checks (AP Classroom aligned)', 'BC-only topics: series, parametrics, polar'],
@@ -51,7 +51,7 @@ const COURSES = [
     subject: 'AP Physics 1 & Physics C',
     grade: 'Physics',
     icon: Atom,
-    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    gradient: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.12)',
     description: 'Algebra-based Physics 1 for first-timers; calculus-based Physics C: Mechanics for engineering-bound students.',
     topics: ['Derivations from first principles', 'Experimental-design FRQ training', 'Lab-context reasoning practice'],
@@ -61,7 +61,7 @@ const COURSES = [
     subject: 'AP Chemistry',
     grade: 'Sciences',
     icon: FlaskConical,
-    gradient: 'linear-gradient(135deg,#92400E,#F59E0B)',
+    gradient: 'var(--grad-amber)',
     pcbg: 'rgba(245,158,11,.12)',
     description: 'Stoichiometry through thermodynamics and equilibrium, with the particulate-level reasoning the exam rewards.',
     topics: ['Net-ionic equation mastery', 'Long & short FRQ pattern practice', 'Full-length timed mocks'],
@@ -71,7 +71,7 @@ const COURSES = [
     subject: 'AP Statistics',
     grade: 'Mathematics',
     icon: BarChart3,
-    gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
+    gradient: 'var(--grad-purple)',
     pcbg: 'rgba(124,58,237,.12)',
     description: 'Inference, probability and study design taught through real data — with the justification language graders look for.',
     topics: ['Template answers for inference FRQs', 'Calculator fluency (TI-84 / Casio)', 'Investigative Task preparation'],
@@ -139,12 +139,12 @@ const METHODOLOGY = [
 ];
 
 const WHY_CHOOSE = [
-  { title: 'IIT Kanpur Mentorship', desc: 'Learn from an IIT Kanpur graduate (JEE AIR ~400) who teaches the why behind every method — the depth AP exams are designed to test.', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)', icon: Award },
-  { title: '1-on-1 or Small Batches', desc: 'Choose fully personalized one-on-one mentoring, or small batches capped at 12 — either way, misconceptions get caught and corrected the week they appear, not in May.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Users },
-  { title: 'FRQ-First Training', desc: 'Free-response questions decide your score band. We train rubric-aligned writing from day one, graded against College Board standards.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Target },
-  { title: 'US-Timezone Friendly', desc: 'Live online classes scheduled to suit students in the US and internationally, with recordings and doubt support between sessions.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: Clock },
-  { title: 'AP Classroom Aligned', desc: 'Unit-wise progress checks and practice mapped directly to the official College Board AP Classroom framework.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: BarChart3 },
-  { title: 'College-Credit Ready', desc: 'A prep calendar built backward from exam day, aimed at the 4s and 5s that earn credit or advanced standing.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Trophy },
+  { title: 'IIT Kanpur Mentorship', desc: 'Learn from an IIT Kanpur graduate (JEE AIR ~400) who teaches the why behind every method — the depth AP exams are designed to test.', gradient: 'var(--grad-blue)', icon: Award },
+  { title: '1-on-1 or Small Batches', desc: 'Choose fully personalized one-on-one mentoring, or small batches capped at 12 — either way, misconceptions get caught and corrected the week they appear, not in May.', gradient: 'var(--grad-purple)', icon: Users },
+  { title: 'FRQ-First Training', desc: 'Free-response questions decide your score band. We train rubric-aligned writing from day one, graded against College Board standards.', gradient: 'var(--grad-amber)', icon: Target },
+  { title: 'US-Timezone Friendly', desc: 'Live online classes scheduled to suit students in the US and internationally, with recordings and doubt support between sessions.', gradient: 'var(--grad-green)', icon: Clock },
+  { title: 'AP Classroom Aligned', desc: 'Unit-wise progress checks and practice mapped directly to the official College Board AP Classroom framework.', gradient: 'var(--grad-sky)', icon: BarChart3 },
+  { title: 'College-Credit Ready', desc: 'A prep calendar built backward from exam day, aimed at the 4s and 5s that earn credit or advanced standing.', gradient: 'var(--grad-red)', icon: Trophy },
 ];
 
 const FAQS = [
@@ -293,7 +293,7 @@ export default function ApExamPage() {
           {/* ---- Tier 2: STEM AP subjects ---- */}
           <div className="subject-tier reveal">
             <div className="subject-tier-head">
-              <span className="subject-tier-badge" style={{ background: 'linear-gradient(135deg,#065F46,#10B981)' }}>Tier 2 · STEM</span>
+              <span className="subject-tier-badge" style={{ background: 'var(--grad-green)' }}>Tier 2 · STEM</span>
               <span className="subject-tier-title">Every STEM AP subject we coach, including CSP</span>
             </div>
             <div className="subject-grid-4">
@@ -385,7 +385,7 @@ export default function ApExamPage() {
                 width: 84,
                 height: 84,
                 borderRadius: '50%',
-                background: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+                background: 'var(--grad-blue)',
                 fontFamily: 'var(--font-display)',
                 fontSize: 26,
                 fontWeight: 800,

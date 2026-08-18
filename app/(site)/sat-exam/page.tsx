@@ -19,10 +19,10 @@ import {
 } from 'lucide-react';
 
 const HIGHLIGHTS = [
-  { value: '1600', label: 'Max SAT Score', icon: Trophy, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { value: '10+', label: 'Full-Length Mock Tests', icon: BarChart3, gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
-  { value: '25+', label: 'Years Faculty Experience', icon: Award, gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { value: '1600', label: 'Max SAT Score', icon: Trophy, gradient: 'var(--grad-blue)' },
+  { value: '12', label: 'Max Students / Batch', icon: Users, gradient: 'var(--grad-purple)' },
+  { value: '10+', label: 'Full-Length Mock Tests', icon: BarChart3, gradient: 'var(--grad-amber)' },
+  { value: '25+', label: 'Years Faculty Experience', icon: Award, gradient: 'var(--grad-green)' },
 ];
 
 const SECTIONS = [
@@ -45,10 +45,10 @@ const SECTIONS = [
 ];
 
 const SCORE_BANDS = [
-  { band: '1200+', label: 'Competitive', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
-  { band: '1350+', label: 'Strong', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)' },
-  { band: '1450+', label: 'Excellent', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)' },
-  { band: '1550+', label: 'Elite / Ivy-Ready', gradient: 'linear-gradient(135deg,#065F46,#10B981)' },
+  { band: '1200+', label: 'Competitive', gradient: 'var(--grad-blue)' },
+  { band: '1350+', label: 'Strong', gradient: 'var(--grad-purple)' },
+  { band: '1450+', label: 'Excellent', gradient: 'var(--grad-amber)' },
+  { band: '1550+', label: 'Elite / Ivy-Ready', gradient: 'var(--grad-green)' },
 ];
 
 const METHODOLOGY = [
@@ -60,12 +60,12 @@ const METHODOLOGY = [
 ];
 
 const WHY_CHOOSE = [
-  { title: 'Digital-Format Native', desc: 'Every mock and drill mirrors the real adaptive, module-based Bluebook format — no outdated paper-SAT material.', gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)', icon: Clock },
-  { title: 'IIT/IIM Alumni Mentors', desc: 'Learn from mentors who have themselves cracked elite, high-stakes standardized tests.', gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)', icon: Users },
-  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual score analysis, not generic advice.', gradient: 'linear-gradient(135deg,#92400E,#F59E0B)', icon: Users },
-  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by question type so we always know exactly what to fix next.', gradient: 'linear-gradient(135deg,#065F46,#10B981)', icon: BarChart3 },
-  { title: 'Adaptive Strategy Coaching', desc: 'We teach the pacing and accuracy thresholds that decide which module 2 you unlock.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: Brain },
-  { title: 'College-Ready Timeline', desc: 'A prep calendar built backward from your target test date and application deadlines.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Target },
+  { title: 'Digital-Format Native', desc: 'Every mock and drill mirrors the real adaptive, module-based Bluebook format — no outdated paper-SAT material.', gradient: 'var(--grad-blue)', icon: Clock },
+  { title: 'IIT/IIM Alumni Mentors', desc: 'Learn from mentors who have themselves cracked elite, high-stakes standardized tests.', gradient: 'var(--grad-purple)', icon: Users },
+  { title: 'Max 12 Students', desc: 'Small batches mean every student gets individual score analysis, not generic advice.', gradient: 'var(--grad-amber)', icon: Users },
+  { title: 'Data-Driven Prep', desc: 'Every mock is broken down by question type so we always know exactly what to fix next.', gradient: 'var(--grad-green)', icon: BarChart3 },
+  { title: 'Adaptive Strategy Coaching', desc: 'We teach the pacing and accuracy thresholds that decide which module 2 you unlock.', gradient: 'var(--grad-sky)', icon: Brain },
+  { title: 'College-Ready Timeline', desc: 'A prep calendar built backward from your target test date and application deadlines.', gradient: 'var(--grad-red)', icon: Target },
 ];
 
 export default function SatExamPage() {

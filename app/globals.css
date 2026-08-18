@@ -26,6 +26,18 @@
   --glass-line:rgba(255,255,255,.55);
   --hero-grad:radial-gradient(1200px 640px at 78% -10%, rgba(37,99,235,.12), transparent 60%),
               radial-gradient(900px 520px at 8% 20%, rgba(245,158,11,.10), transparent 55%);
+
+  /* Categorical accent gradients — used sitewide to color-code icons/badges
+     by program type (blue=tech/JEE, green=foundation/success, purple=olympiad,
+     amber=achievement, red=urgency, sky=info). Centralized here since each
+     was previously repeated as a literal string dozens of times per page. */
+  --grad-blue:linear-gradient(135deg,#1E3A8A,#2563EB);
+  --grad-green:linear-gradient(135deg,#065F46,#10B981);
+  --grad-purple:linear-gradient(135deg,#6D28D9,#A855F7);
+  --grad-amber:linear-gradient(135deg,#92400E,#F59E0B);
+  --grad-red:linear-gradient(135deg,#EF4444,#DC2626);
+  --grad-sky:linear-gradient(135deg,#0EA5E9,#0284C7);
+
   --r-lg:24px; --r-md:16px; --r-sm:12px;
   --font-display:var(--font-manrope), system-ui, sans-serif;
   --font-body:var(--font-inter), system-ui, sans-serif;

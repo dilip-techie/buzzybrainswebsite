@@ -11,7 +11,7 @@ const PROGRAMS = [
     description: 'Build rock-solid concepts early and get a head start on competitive exams.',
     highlights: ['Mathematics & Science mastery', 'Logical reasoning skills', 'Olympiad & NTSE preparation', 'Runway to future IIT-JEE'],
     href: '/foundation',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pc: 'var(--grad-blue)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',
     icon: (
@@ -25,7 +25,7 @@ const PROGRAMS = [
     description: 'A focused program for students who want deeper mathematical thinking, faster problem solving and exam confidence.',
     highlights: ['Advanced maths practice', 'Olympiad-style reasoning', 'Board + entrance readiness', 'Concept-driven mentoring'],
     href: '/olympiad-math',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pc: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',
     icon: (
@@ -39,7 +39,7 @@ const PROGRAMS = [
     description: "Train for the world's most prestigious math & science competitions.",
     highlights: ['IMO · NSO · IOQM', 'PRMO · NMTC training', 'SOF · Kangaroo Maths', 'AMC 8/10 · Physics Olympiad'],
     href: '/olympiads',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pc: 'var(--grad-blue)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',
     icon: (
@@ -53,7 +53,7 @@ const PROGRAMS = [
     description: 'Deep conceptual learning in PCM with rigorous problem solving.',
     highlights: ['Physics · Chemistry · Maths', 'Concept-first teaching', 'Advanced problem solving', 'JEE Main + Advanced test series'],
     href: '/12th-board-pcm',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pc: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',
     icon: (
@@ -67,7 +67,7 @@ const PROGRAMS = [
     description: 'Complete medical entrance preparation with NCERT at the core.',
     highlights: ['Physics · Chemistry · Biology', 'Line-by-line NCERT mastery', 'High-yield revision systems', 'NEET-pattern mock tests'],
     href: '/12th-board-pcb',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pc: 'var(--grad-blue)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',
     icon: (
@@ -81,7 +81,7 @@ const PROGRAMS = [
     description: 'Accountancy, Economics, Business Studies and more — for CBSE, ICSE, State Board, IGCSE and IB — plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
     highlights: ['Accountancy · Economics · BST', 'IGCSE & IB Commerce subjects', 'CUET · CA Foundation · IPMAT', 'Small batches, max 10'],
     href: '/commerce-tuitions',
-    pc: 'linear-gradient(135deg,#92400E,#F59E0B)',
+    pc: 'var(--grad-amber)',
     pcbg: 'rgba(245,158,11,.14)',
     glow: '245,158,11',
     icon: (
@@ -95,7 +95,7 @@ const PROGRAMS = [
     description: 'Structured coaching for Cambridge-style assessments with strong conceptual pacing and exam strategy.',
     highlights: ['Cambridge/Edexcel preparation', 'Core + extended modules', 'Exam-style practice', 'Personalized support'],
     href: '/international-boards#igcse',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pc: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',
     icon: (
@@ -109,7 +109,7 @@ const PROGRAMS = [
     description: 'Premium coaching for IB MYP and DP students with expert support for internal assessments and exam performance.',
     highlights: ['IB HL/SL guidance', 'IA/EE/TOK support', 'Concept-heavy teaching', 'Score 7 strategies'],
     href: '/international-boards#ib',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pc: 'var(--grad-blue)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',
     icon: (
@@ -123,7 +123,7 @@ const PROGRAMS = [
     description: 'Cambridge International & Edexcel A Level coaching with UCAS-ready subject depth for UK university applications.',
     highlights: ['AS & A Level coverage', 'Maths · Sciences · Economics', 'A*/A focused strategy', 'UCAS-ready preparation'],
     href: '/international-boards#a-level',
-    pc: 'linear-gradient(135deg,#92400E,#F59E0B)',
+    pc: 'var(--grad-amber)',
     pcbg: 'rgba(245,158,11,.14)',
     glow: '245,158,11',
     icon: (
@@ -137,7 +137,7 @@ const PROGRAMS = [
     description: 'Focused preparation for AP subjects with clear frameworks, timed practice and college-credit readiness.',
     highlights: ['AP Calculus · Physics · Chem', 'Exam pattern mastery', 'High-scoring practice sets', 'College-ready preparation'],
     href: '/ap-exam',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pc: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',
     icon: (
@@ -151,7 +151,7 @@ const PROGRAMS = [
     description: 'Focused SAT prep to strengthen college applications with score-driven practice and strategy.',
     highlights: ['Reading & Writing mastery', 'Math section strategy', 'Full-length timed mocks', 'Score improvement tracking'],
     href: '/sat-exam',
-    pc: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    pc: 'var(--grad-blue)',
     pcbg: 'rgba(37,99,235,.12)',
     glow: '37,99,235',
     icon: (
@@ -165,7 +165,7 @@ const PROGRAMS = [
     description: 'A dedicated coding, AI foundations and logic-building track — Python, Java, Web Dev and competitive programming.',
     highlights: ['Python · Java · Web Dev', 'AI & Machine Learning basics', 'Logic & algorithmic thinking', 'Competitive programming path'],
     href: '/coding-lab',
-    pc: 'linear-gradient(135deg,#065F46,#10B981)',
+    pc: 'var(--grad-green)',
     pcbg: 'rgba(16,185,129,.14)',
     glow: '16,185,129',
     icon: (
@@ -179,8 +179,8 @@ const TRUST_CARDS = [
   { title: 'IITian Faculty', desc: 'Learn directly from IIT alumni and subject experts who love teaching.', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" /></svg> },
   { title: 'Small Batches — Max 12', desc: 'Every child is seen, heard and mentored. No one gets lost in the crowd.', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M21 21v-2a4 4 0 0 0-3-3.87" /></svg> },
   { title: 'Personalized Mentoring', desc: 'Individual learning plans, one-on-one doubt sessions and constant guidance.', gradient: 'linear-gradient(135deg,#10B981,#059669)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg> },
-  { title: 'Weekly Tests', desc: 'Regular assessments that build exam temperament and track true progress.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3 8-8" /><path d="M21 12v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11" /></svg> },
-  { title: 'Parent Progress Reports', desc: 'Transparent updates so parents always know exactly how their child is doing.', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg> },
+  { title: 'Weekly Tests', desc: 'Regular assessments that build exam temperament and track true progress.', gradient: 'var(--grad-red)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3 8-8" /><path d="M21 12v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11" /></svg> },
+  { title: 'Parent Progress Reports', desc: 'Transparent updates so parents always know exactly how their child is doing.', gradient: 'var(--grad-sky)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg> },
   { title: 'AI-Powered Learning', desc: "Smart practice engines that adapt to every student's pace and weak areas.", gradient: 'linear-gradient(135deg,#8B5CF6,#7C3AED)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="3" /><path d="M9 9h6v6H9z" /><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" /></svg> },
   { title: 'Digital Notes', desc: 'Beautifully designed digital notes and revision material, always accessible.', gradient: 'linear-gradient(135deg,#F59E0B,#EA580C)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg> },
   { title: 'Interactive Classes', desc: 'Digital boards, simulations and animations that make every concept click.', gradient: 'linear-gradient(135deg,#10B981,#0D9488)', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="14" rx="2" /><path d="M8 21h8M12 18v3" /><path d="M7 10l3 3 5-5" /></svg> },
@@ -258,21 +258,21 @@ const FACULTY = [
   { name: 'Agarwal Sir', subject: 'Mathematics & Physics', qualification: 'PhD, IIT Bombay', expertise: 'A sharp, research-trained problem-solver whose structured, exam-focused approach demystifies JEE Mathematics and Physics for even the toughest aspirants.', initials: 'AS', gradient: 'linear-gradient(135deg,#10B981,#0D9488)' },
   { name: 'Dr. Mrinmayee', subject: 'Chemistry', qualification: 'PhD, IIT Kharagpur', expertise: 'A precise, research-driven chemist who turns dense JEE and NEET Chemistry syllabi into clear, memorable, exam-ready concepts.', initials: 'MM', gradient: 'linear-gradient(135deg,#EC4899,#8B5CF6)' },
   { name: 'Dr. Todkar', subject: 'Biology', qualification: 'General Physician', expertise: 'A seasoned, empathetic physician-educator whose real clinical insight brings NEET Biology vividly to life for generations of medical aspirants.', initials: 'DT', gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
-  { name: 'Dr. Urmila', subject: 'Chemistry & Science', qualification: 'PhD, IISER Pune', expertise: 'A patient, top-rated mentor from IISER Pune, celebrated for building rock-solid fundamentals across Chemistry and Science.', initials: 'DU', gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)' },
+  { name: 'Dr. Urmila', subject: 'Chemistry & Science', qualification: 'PhD, IISER Pune', expertise: 'A patient, top-rated mentor from IISER Pune, celebrated for building rock-solid fundamentals across Chemistry and Science.', initials: 'DU', gradient: 'var(--grad-sky)' },
   { name: 'Dipak JK Sir', subject: 'Mathematics', qualification: 'M.Tech, IIT Bombay', expertise: 'A sharp, competition-focused coach who trains promising young mathletes for IOQM, AMC-8, AMC-10 and AMC-12 with precision and passion.', initials: 'DJ', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
-  { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'An engaging, detail-oriented Biology educator known for building deep conceptual clarity and genuine curiosity in every student.', initials: 'PM', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)' },
+  { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'An engaging, detail-oriented Biology educator known for building deep conceptual clarity and genuine curiosity in every student.', initials: 'PM', gradient: 'var(--grad-red)' },
   { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'An enthusiastic, encouraging Science mentor who makes learning hands-on, curious and confidence-building for young minds.', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
 ];
 
 const STATS = [
   {
     count: 25, suffix: '+', label: 'Years of Teaching Excellence',
-    gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    gradient: 'var(--grad-blue)',
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>,
   },
   {
     count: 150, suffix: '+', label: 'Students Mentored',
-    gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
+    gradient: 'var(--grad-purple)',
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" /></svg>,
   },
   {
@@ -282,7 +282,7 @@ const STATS = [
   },
   {
     count: 100, suffix: '%', label: 'Personalized Mentoring',
-    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    gradient: 'var(--grad-green)',
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>,
   },
 ];

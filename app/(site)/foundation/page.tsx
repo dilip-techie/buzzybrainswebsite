@@ -53,13 +53,13 @@ const WHY_CHOOSE = [
     icon: BookOpen,
     title: 'Physics Made Simple',
     description: 'Complex ideas broken down into clear, intuitive concepts — fundamentals built early, stress reduced later.',
-    gradient: 'linear-gradient(135deg,#0EA5E9,#0284C7)',
+    gradient: 'var(--grad-sky)',
   },
   {
     icon: Target,
     title: 'Premium Offline Learning',
     description: 'Focused, distraction-free offline classes at Amanora, designed for maximum learning effectiveness.',
-    gradient: 'linear-gradient(135deg,#EF4444,#DC2626)',
+    gradient: 'var(--grad-red)',
   },
 ];
 
