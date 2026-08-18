@@ -475,6 +475,47 @@ export default function InternationalBoardsPage() {
         </div>
       </section>
 
+      {/* Guides */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-2">Free IGCSE &amp; IB Guides</h2>
+          <p className="text-gray-600 text-center mb-10">In-depth, honest guides on Cambridge IGCSE and IB Diploma preparation.</p>
+          <div className="grid gap-6 md:grid-cols-2">
+            <div>
+              <h3 id="igcse-guides" className="text-lg font-bold text-gray-900 mb-3 scroll-mt-[220px]">🌍 Cambridge IGCSE</h3>
+              <ul className="space-y-2">
+                {[
+                  { href: '/blog/complete-guide-cambridge-igcse-mathematics-0580', label: 'Complete Guide to Cambridge IGCSE Mathematics (0580)' },
+                  { href: '/blog/how-to-score-a-star-igcse-additional-mathematics-0606', label: 'How to Score A* in IGCSE Additional Mathematics (0606)' },
+                  { href: '/blog/how-personalized-tutoring-improves-igcse-ib-results', label: 'How Personalized Tutoring Improves IGCSE and IB Results' },
+                ].map((g) => (
+                  <li key={g.href} className="border border-gray-200 rounded-lg bg-white">
+                    <Link href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
+                      {g.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 id="ib-guides" className="text-lg font-bold text-gray-900 mb-3 scroll-mt-[220px]">🎓 IB Diploma</h3>
+              <ul className="space-y-2">
+                {[
+                  { href: '/blog/ib-mathematics-aa-vs-ai-which-should-you-choose', label: 'IB Mathematics AA vs AI: Which Should You Choose?' },
+                  { href: '/blog/top-strategies-score-7-ib-physics', label: 'Top Strategies to Score a 7 in IB Physics' },
+                ].map((g) => (
+                  <li key={g.href} className="border border-gray-200 rounded-lg bg-white">
+                    <Link href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
+                      {g.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className={`py-20 px-4 bg-gradient-to-r ${gradientColors}`}>
         <div className="max-w-4xl mx-auto text-center">
