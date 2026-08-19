@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 

@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import { useState } from 'react';
 import { Mail, MapPin, MessageCircle, ChevronDown, Code, Users, Trophy, BookOpen, Zap, Target } from 'lucide-react';
 import Link from 'next/link';

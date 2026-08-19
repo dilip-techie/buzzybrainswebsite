@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import { Trophy } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
 import TrustBar from '@/components/olympiad/TrustBar';

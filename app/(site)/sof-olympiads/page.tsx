@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import Link from 'next/link';
 import { BookOpen, GraduationCap, Users, Layers, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';

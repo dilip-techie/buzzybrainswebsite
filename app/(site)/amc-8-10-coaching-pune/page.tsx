@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import { ListChecks, GraduationCap, Users, Ban, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import AmcHeroVisual from '@/components/olympiad/AmcHeroVisual';

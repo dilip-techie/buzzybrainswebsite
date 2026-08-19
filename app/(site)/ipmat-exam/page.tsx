@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import '@/app/tailwind.css';
+import { useState } from 'react';
 import {
   Calculator,
   BookOpen,
@@ -82,22 +83,6 @@ const WHY_CHOOSE = [
 
 export default function IpmatExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
-
-  useEffect(() => {
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in');
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
-    );
-    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
-    return () => io.disconnect();
-  }, []);
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);

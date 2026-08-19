@@ -336,19 +336,8 @@ export default function HomePage() {
   const [playVideo, setPlayVideo] = useState(false);
 
   useEffect(() => {
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in');
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
-    );
-    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
-
+    // Scroll-reveal (.reveal → .in) is handled globally by RevealObserver in
+    // app/(site)/layout.tsx — only the number-counter animation lives here.
     const counterIo = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -372,10 +361,7 @@ export default function HomePage() {
     );
     document.querySelectorAll('.count').forEach((el) => counterIo.observe(el));
 
-    return () => {
-      io.disconnect();
-      counterIo.disconnect();
-    };
+    return () => counterIo.disconnect();
   }, []);
 
   useEffect(() => {
@@ -589,6 +575,7 @@ export default function HomePage() {
                       fill
                       sizes="340px"
                       className="video-thumbnail"
+                      priority
                     />
                     <div className="custom-play-btn" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor">

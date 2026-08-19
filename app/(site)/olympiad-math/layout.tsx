@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://buzzybrainsacademy.com/images/Maths Excellence Program.png',
+        url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
         width: 1200,
         height: 630,
         alt: 'Maths Excellence Program - BuzzyBrains Academy'
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Build Mathematical Thinking Early - BuzzyBrains Academy Olympiad Math',
     description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
-    images: ['https://buzzybrainsacademy.com/images/Maths Excellence Program.png'],
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Globe, Calculator, Microscope, Code, DollarSign, BookOpenCheck } from 'lucide-react';
