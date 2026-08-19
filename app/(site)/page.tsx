@@ -227,30 +227,6 @@ const JOURNEY_STEPS = [
   { badge: 'Step 6', title: 'Success', desc: 'Olympiad medals, NTSE scholarships, JEE and NEET ranks — and the confidence to keep going.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5" /><path d="M9 13l-1.5 8L12 18l4.5 3L15 13" /></svg>, success: true },
 ];
 
-const TESTIMONIALS = [
-  {
-    name: 'Rahul Sharma',
-    course: 'IIT-JEE Program',
-    text: 'The visual explanations and patient mentoring helped me build long-term confidence and secure an excellent rank.',
-    avatar: 'RS',
-    gradient: 'linear-gradient(135deg,#2563EB,#7C3AED)',
-  },
-  {
-    name: 'Priya Patel',
-    course: 'NEET Program',
-    text: 'The classes felt premium, focused, and encouraging. My biology and chemistry concepts became much clearer.',
-    avatar: 'PP',
-    gradient: 'linear-gradient(135deg,#F59E0B,#EA580C)',
-  },
-  {
-    name: 'Arjun Singh',
-    course: 'Foundation Program',
-    text: 'The foundation program made problem-solving feel exciting and gave me a strong base for competitive exams.',
-    avatar: 'AS',
-    gradient: 'linear-gradient(135deg,#10B981,#0D9488)',
-  },
-];
-
 const REVIEWS = [
   {
     name: 'Kavita Khurana',
@@ -351,7 +327,6 @@ const FIELD_ERRORS: Partial<Record<keyof FormState, string>> = {
 };
 
 export default function HomePage() {
-  const trackRef = useRef<HTMLDivElement>(null);
   const heroRef = useRef<HTMLElement>(null);
   const [formData, setFormData] = useState<FormState>(INITIAL_FORM);
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
@@ -410,14 +385,6 @@ export default function HomePage() {
       hero.removeEventListener('mouseleave', handleLeave);
     };
   }, []);
-
-  const scrollCarousel = (dir: 1 | -1) => {
-    const track = trackRef.current;
-    if (!track) return;
-    const card = track.querySelector('.tcard') as HTMLElement | null;
-    const step = (card?.offsetWidth ?? 360) + 22;
-    track.scrollBy({ left: dir * step, behavior: 'smooth' });
-  };
 
   const validateField = (name: keyof FormState, value: string) => {
     const validator = VALIDATORS[name];
