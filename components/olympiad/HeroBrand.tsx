@@ -74,12 +74,12 @@ export default function HeroBrand({
 
       <div className="container hero-grid">
         <div className="hero-copy">
-          <div className="hero-badges reveal">
+          <div className="hero-badges">
             {badges.map((b) => (
               <span key={b} className={`eyebrow ${badges.indexOf(b) === 0 ? 'eyebrow-highlight' : 'eyebrow-location'}`}>{b}</span>
             ))}
           </div>
-          <h1 className="reveal" data-delay="1">
+          <h1>
             {titleLines.map((line, i) => (
               <span key={i}>
                 {line}
@@ -93,22 +93,22 @@ export default function HeroBrand({
               </span>
             )}
           </h1>
-          <p className="lede reveal" data-delay="2">{lede}</p>
-          <div className="hero-chips reveal" data-delay="2">
+          <p className="lede">{lede}</p>
+          <div className="hero-chips">
             {chips.map((c) => (
               <span key={c.label} className="chip">
                 <i className="dot" style={{ background: c.color }} /> {c.label}
               </span>
             ))}
           </div>
-          <div className="hero-ctas reveal" data-delay="3">
+          <div className="hero-ctas">
             <a href={ctaHref} className="btn btn-primary">
               {ctaLabel}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </a>
             <Link href={secondaryHref} className="btn btn-ghost">{secondaryLabel}</Link>
           </div>
-          <div className="hero-proof reveal" data-delay="4">
+          <div className="hero-proof">
             <div className="avatars" aria-hidden="true">
               <span style={{ background: '#2563EB' }}>A</span><span style={{ background: '#7C3AED' }}>S</span><span style={{ background: '#F59E0B' }}>R</span><span style={{ background: '#10B981' }}>K</span>
             </div>
@@ -119,7 +119,7 @@ export default function HeroBrand({
           </div>
         </div>
 
-        <div className="hero-visual reveal" data-delay="2">
+        <div className="hero-visual">
           {visual}
         </div>
       </div>

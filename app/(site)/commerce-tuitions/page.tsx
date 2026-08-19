@@ -80,24 +80,24 @@ export default function CommerceTuitionsPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">📊 BuzzyBrains Commerce Tuitions · Grades 11–12</span>
-          <h1 className="reveal" data-delay="1">Commerce, Taught to Be <span className="grad">Understood.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <span className="eyebrow">📊 BuzzyBrains Commerce Tuitions · Grades 11–12</span>
+          <h1>Commerce, Taught to Be <span className="grad">Understood.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             Accountancy, Economics, Business Studies and more for Class 11–12 CBSE, ICSE, State Board, <strong style={{ color: 'var(--blue)' }}>IGCSE and IB Diploma</strong> Commerce students —
             plus structured support for <strong style={{ color: 'var(--blue)' }}>CUET, CA Foundation, IPMAT, NPAT and SET</strong>.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             Small batches, real business case studies, and AI-powered digital classrooms — led by founder Dilip Sir (IIT Kanpur, IIM Ahmedabad).
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Accountancy</span>
             <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Economics</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Business Studies</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Applied Maths</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

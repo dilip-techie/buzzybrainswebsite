@@ -180,24 +180,24 @@ export default function ApExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🎯 Advanced Placement · College Board · Grades 9–12</span>
-          <h1 className="reveal" data-delay="1">
+          <span className="eyebrow">🎯 Advanced Placement · College Board · Grades 9–12</span>
+          <h1>
             AP Prep
             <br />
             with One Goal:
             <br />
             <span className="grad">A 5.</span> ⭐⭐⭐⭐⭐
           </h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             Calculus, Physics, Chemistry, Statistics and Computer Science A — taught by an{' '}
             <strong style={{ color: 'var(--blue)' }}>IIT Kanpur graduate</strong> in small batches, with FRQ-first
             training and full-length mocks.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 8px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 8px' }}>
             For students in India, the US and beyond — online and at our Pune centre.
           </p>
 
-          <div className="ap-scale reveal" data-delay="3" aria-label="AP score scale, target score 5">
+          <div className="ap-scale" aria-label="AP score scale, target score 5">
             <div className="ap-scale-step">1</div>
             <div className="ap-scale-step">2</div>
             <div className="ap-scale-step hit">3</div>
@@ -205,7 +205,7 @@ export default function ApExamPage() {
             <div className="ap-scale-step target">5</div>
           </div>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Calculus AB &amp; BC</span>
             <span className="chip"><i className="dot" style={{ background: '#10B981' }} /> Physics 1 &amp; C</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Chemistry</span>
@@ -213,13 +213,13 @@ export default function ApExamPage() {
             <span className="chip"><i className="dot" style={{ background: '#334155' }} /> Computer Science A</span>
           </div>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center', marginTop: -20 }}>
+          <div className="hero-chips" style={{ justifyContent: 'center', marginTop: -20 }}>
             <span className="chip" style={{ borderColor: 'var(--blue)', color: 'var(--blue)', fontWeight: 800 }}>👤 1-on-1 Mentoring</span>
             <span className="chip" style={{ borderColor: 'var(--blue)', color: 'var(--blue)', fontWeight: 800 }}>👥 Small Batches (Max 12)</span>
             <span style={{ fontSize: 13.5, color: 'var(--text-3)', display: 'flex', alignItems: 'center' }}>— both formats available</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo Class
               <ChevronRight size={19} />

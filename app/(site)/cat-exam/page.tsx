@@ -112,24 +112,24 @@ export default function CatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">📊 CAT Coaching · India&apos;s Top MBA Entrance Exam</span>
-          <h1 className="reveal" data-delay="1">Crack the <span className="grad">CAT.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
+          <span className="eyebrow">📊 CAT Coaching · India&apos;s Top MBA Entrance Exam</span>
+          <h1>Crack the <span className="grad">CAT.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
             Structured, sectional-time-native preparation for the <strong style={{ color: 'var(--blue)' }}>Common Admission Test</strong> —
             the entrance to 2-year MBA/PGP programmes at the IIMs and other top B-schools.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             VARC, DILR and Quantitative Ability — mentored by an IIT Kanpur and IIM Ahmedabad alumnus.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: '#C026D3' }} /> VARC</span>
             <span className="chip"><i className="dot" style={{ background: '#EA580C' }} /> DILR</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Quant</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> TITA Strategy</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

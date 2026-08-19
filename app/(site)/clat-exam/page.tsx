@@ -114,24 +114,24 @@ export default function ClatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">⚖️ CLAT Coaching · National Law Entrance Exam · Grades 11–12</span>
-          <h1 className="reveal" data-delay="1">Crack the <span className="grad">CLAT.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
+          <span className="eyebrow">⚖️ CLAT Coaching · National Law Entrance Exam · Grades 11–12</span>
+          <h1>Crack the <span className="grad">CLAT.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
             Structured, passage-first preparation for the <strong style={{ color: 'var(--blue)' }}>Common Law Admission Test</strong> —
             built around the exact current CLAT format, for admission to India&apos;s National Law Universities.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             English, Current Affairs, Legal Reasoning, Logical Reasoning and Quantitative Techniques — mentored in small, focused batches.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> English Language</span>
             <span className="chip"><i className="dot" style={{ background: '#EA580C' }} /> Legal Reasoning</span>
             <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Logical Reasoning</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Quant Techniques</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

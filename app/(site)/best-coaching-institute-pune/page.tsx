@@ -15,16 +15,16 @@ export default function BestCoachingInstitutePunePage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container article-shell center">
-          <span className="eyebrow reveal">📍 Hadapsar, Pune</span>
-          <h1 className="reveal" data-delay="1" style={{ fontSize: 'clamp(30px,4.4vw,50px)' }}>
+          <span className="eyebrow">📍 Hadapsar, Pune</span>
+          <h1 style={{ fontSize: 'clamp(30px,4.4vw,50px)' }}>
             The Best Coaching Institute in Hadapsar, Pune — <span className="grad">BuzzyBrains Academy</span>
           </h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             A premium coaching institute for Grades 4-12, led by an IIT Kanpur and IIM Ahmedabad alumnus, with every
             batch capped at 12 students. Foundation, Maths Excellence, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB,
             AP, SAT and Code Ninja — all under one roof in Amanora, Hadapsar.
           </p>
-          <div className="hero-ctas reveal" data-delay="3" style={{ justifyContent: 'center', marginTop: 20 }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
             <Link href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
             <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
           </div>

@@ -105,24 +105,24 @@ export default function IvyLeagueCounsellingPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🎓 Ivy League &amp; Top US University Counselling · Grades 9–12</span>
-          <h1 className="reveal" data-delay="1">Build the <span className="grad">academic profile</span> top universities look for.</h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 720 }}>
+          <span className="eyebrow">🎓 Ivy League &amp; Top US University Counselling · Grades 9–12</span>
+          <h1>Build the <span className="grad">academic profile</span> top universities look for.</h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 720 }}>
             A multi-year roadmap for <strong style={{ color: 'var(--blue)' }}>course strategy, SAT/AP scores and academic trajectory</strong> —
             the parts of an Ivy League or top-US-university application that structured mentorship can genuinely move.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             We focus on academics, honestly. No admission guarantees, no essay or extracurricular consulting — just a disciplined, grade-by-grade plan.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: '#CA8A04' }} /> Course Strategy</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> SAT / AP Scores</span>
             <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> Grade 9–12 Roadmap</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Term-wise Reviews</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Consultation
               <ChevronRight size={19} />
