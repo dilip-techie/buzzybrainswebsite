@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Geist_Mono, Manrope, Inter } from 'next/font/google';
+import { Manrope, Inter } from 'next/font/google';
 import './globals.css';
 
 const manrope = Manrope({
@@ -14,11 +14,6 @@ const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
@@ -95,7 +90,7 @@ export default function RootLayout({
           <style>{'.reveal{opacity:1!important;transform:none!important}'}</style>
         </noscript>
       </head>
-      <body className={`${manrope.variable} ${inter.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         {children}
         <SpeedInsights />
       </body>

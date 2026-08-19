@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { geistMono } from '@/app/fonts';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { mathsOlympiadFaqs } from '@/lib/olympiad/data';
 
@@ -36,7 +37,7 @@ export default function OlympiadMathLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className={geistMono.variable}>
       <ProgramJsonLd
         type="Course"
         name="Olympiad Mathematics Program"
@@ -45,6 +46,6 @@ export default function OlympiadMathLayout({
       />
       <FaqJsonLd items={mathsOlympiadFaqs.map((f) => ({ question: f.q, answer: f.a }))} />
       {children}
-    </>
+    </div>
   );
 }
