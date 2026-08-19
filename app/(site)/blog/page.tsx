@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
   Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
@@ -9,7 +9,8 @@ import {
   Search, X,
   type LucideIcon,
 } from 'lucide-react';
-import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/posts';
+import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/categories';
+import { BLOG_POSTS_META as BLOG_POSTS } from './_data/posts-meta';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 
 const BLOG_FAQS = [
@@ -100,22 +101,6 @@ function formatDate(iso: string) {
 }
 
 export default function BlogIndexPage() {
-  useEffect(() => {
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in');
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
-    );
-    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
-    return () => io.disconnect();
-  }, []);
-
   const [query, setQuery] = useState('');
   const trimmedQuery = query.trim();
   const isSearching = trimmedQuery.length > 0;

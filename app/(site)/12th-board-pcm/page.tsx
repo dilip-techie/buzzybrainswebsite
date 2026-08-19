@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';

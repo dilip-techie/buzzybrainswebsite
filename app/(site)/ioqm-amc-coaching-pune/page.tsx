@@ -1,3 +1,5 @@
+import '@/app/tailwind.css';
+
 import Hero from '@/components/olympiad/Hero';
 import TrustBar from '@/components/olympiad/TrustBar';
 import ExamTracks from '@/components/olympiad/ExamTracks';

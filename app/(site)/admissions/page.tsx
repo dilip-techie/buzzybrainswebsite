@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import React, { useState } from 'react';
 import { Award, CheckCircle, GraduationCap, BookOpen, Zap, Trophy, ArrowRight, ChevronRight } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';

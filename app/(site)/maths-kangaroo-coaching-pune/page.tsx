@@ -1,5 +1,6 @@
 'use client';
 
+import '@/app/tailwind.css';
 import { Rabbit, GraduationCap, Users, Layers, Smile, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import KangarooHeroVisual from '@/components/olympiad/KangarooHeroVisual';

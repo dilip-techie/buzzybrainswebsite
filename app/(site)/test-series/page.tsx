@@ -1,3 +1,5 @@
+import '@/app/tailwind.css';
+
 import { Playfair_Display, Archivo, Space_Mono } from 'next/font/google';
 import Hero from '@/components/test-series/Hero';
 import WhySection from '@/components/test-series/WhySection';

@@ -1,0 +1,5 @@
+/* Tailwind's compiled utility CSS, split out of globals.css so it's only
+ * loaded on the specific routes that actually use Tailwind utility classes
+ * (most of the site uses the hand-written design system in globals.css
+ * instead). Import this file directly in any page/layout that needs it. */
+@import "tailwindcss";
