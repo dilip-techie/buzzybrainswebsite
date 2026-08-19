@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react';
 
 const PROGRAMS = [
@@ -571,7 +572,13 @@ export default function HomePage() {
               <div className="phone-container">
                 {!playVideo ? (
                   <div className="video-thumbnail-wrapper" onClick={() => setPlayVideo(true)} role="button" aria-label="Play video">
-                    <img src="/images/oardefault.avif" alt="Video Thumbnail" className="video-thumbnail" />
+                    <Image
+                      src="/images/oardefault.avif"
+                      alt="BuzzyBrains Academy video introduction thumbnail"
+                      fill
+                      sizes="340px"
+                      className="video-thumbnail"
+                    />
                     <div className="custom-play-btn" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8 5v14l11-7z" />

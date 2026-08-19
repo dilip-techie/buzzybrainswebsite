@@ -206,6 +206,7 @@ export default function OlympiadsPage() {
           </div>
           <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 12, listStyle: 'none', margin: '32px 0 0', padding: 0 }}>
             {[
+              { href: '/olympiad-coaching-pune', label: "Olympiad Coaching in Pune: A Parent's Guide" },
               { href: '/blog/complete-guide-maths-olympiad-preparation-class-6-10', label: 'Complete Guide to Maths Olympiad Preparation for Class 6–10' },
               { href: '/blog/how-to-prepare-for-ioqm-from-grade-8', label: 'How to Prepare for IOQM from Grade 8' },
               { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },

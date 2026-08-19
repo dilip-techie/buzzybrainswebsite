@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'CLAT Coaching — National Law Entrance Exam Prep | BuzzyBrains Academy',
+  title: 'CLAT Coaching — Law Entrance Exam Prep | BuzzyBrains Academy',
   description:
-    'Structured CLAT (Common Law Admission Test) preparation covering English Language, Current Affairs, Legal Reasoning, Logical Reasoning and Quantitative Techniques — passage-first practice, full-length mocks and small batches capped at 12 students.',
+    'Structured CLAT preparation covering English, Current Affairs, Legal & Logical Reasoning and Quant — passage-first practice, full mocks, batches capped at 12.',
   keywords:
     'CLAT coaching, CLAT exam prep, Common Law Admission Test, CLAT legal reasoning, CLAT logical reasoning, National Law University entrance, CLAT coaching Pune, CLAT mock tests',
   alternates: { canonical: 'https://buzzybrainsacademy.com/clat-exam' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'CLAT Coaching - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CLAT Coaching — National Law Entrance Exam Prep',
+    description: 'Structured, passage-first CLAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

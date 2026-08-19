@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'BuzzyBrains Commerce Tuitions | Class 11-12 Commerce Coaching Pune | IGCSE & IB | BuzzyBrains Academy',
+  title: 'Commerce Tuitions Pune | Class 11-12 | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. Commerce coaching in Pune for Class 11-12 CBSE, ICSE, State Board, IGCSE and IB Diploma students — Accountancy, Economics, Business Studies, Applied Maths and more, plus CUET, CA Foundation, IPMAT, NPAT and SET preparation support. Small batches, max 10 students.',
+    'Commerce coaching in Pune for Class 11-12 — CBSE, ICSE, State Board, IGCSE and IB — plus CUET, CA Foundation and IPMAT prep support. Small batches, max 10.',
   keywords:
     'Commerce coaching Pune, Commerce classes Pune, Class 11 Commerce coaching, Class 12 Commerce coaching, Accountancy classes Pune, Economics tuition Pune, Business Studies tuition Pune, Applied Maths coaching Pune, CUET commerce coaching, CA Foundation coaching Pune, IPMAT preparation Pune, IGCSE Business Studies tuition Pune, IGCSE Economics coaching Pune, IB Business Management tuition Pune, IB Economics coaching Pune, IB Diploma Commerce coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/commerce-tuitions' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'BuzzyBrains Commerce Tuitions',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BuzzyBrains Commerce Tuitions | BuzzyBrains Academy',
+    description: 'Class 11-12 Commerce coaching in Pune — CBSE, ICSE, State Board, IGCSE and IB Diploma — Accountancy, Economics, Business Studies, Applied Maths, plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

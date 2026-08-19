@@ -667,11 +667,15 @@ export default function ProgrammingClassesPage() {
                     }`}
                   />
                 </button>
-                {openFAQ === index && (
-                  <div className="px-6 pb-6 border-t border-purple-500/20">
-                    <p className="text-gray-300">{faq.answer}</p>
+                <div
+                  className={`grid transition-all duration-300 ease-in-out ${
+                    openFAQ === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+                  }`}
+                >
+                  <div className="overflow-hidden border-t border-purple-500/20">
+                    <p className="px-6 pb-6 pt-6 text-gray-300">{faq.answer}</p>
                   </div>
-                )}
+                </div>
               </div>
             ))}
           </div>

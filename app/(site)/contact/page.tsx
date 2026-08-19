@@ -11,7 +11,7 @@ export default function ContactPage() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Contact Us
+            Contact BuzzyBrains Academy
           </h1>
           <p className="text-xl text-gray-300 mb-8">
             Get in touch with our expert mentors and admissions team

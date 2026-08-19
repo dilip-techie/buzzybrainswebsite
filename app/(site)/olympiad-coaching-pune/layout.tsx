@@ -2,17 +2,23 @@ import type { Metadata } from 'next';
 import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Olympiad Coaching Pune | Math, Physics, Chemistry, Biology & Coding | BuzzyBrains Academy',
+  title: "Olympiad Coaching in Pune: A Parent's Guide | BuzzyBrains Academy",
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. A guide to olympiad coaching in Pune across every subject — IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more — and how BuzzyBrains Academy structures olympiad prep.',
+    'A guide to olympiad coaching in Pune — how the subjects connect, and how BuzzyBrains Academy structures olympiad prep.',
   keywords: 'olympiad coaching Pune, olympiad classes Pune, IOQM coaching Pune, science olympiad coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-coaching-pune' },
   openGraph: {
-    title: 'Olympiad Coaching Pune | BuzzyBrains Academy',
+    title: "Olympiad Coaching in Pune: A Parent's Guide",
     description: 'A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
     url: 'https://buzzybrainsacademy.com/olympiad-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Olympiad Coaching in Pune: A Parent's Guide",
+    description: 'A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 
@@ -20,7 +26,7 @@ export default function OlympiadPillarLayout({ children }: { children: React.Rea
   return (
     <>
       <ArticleJsonLd
-        headline="Olympiad Coaching Pune"
+        headline="Olympiad Coaching in Pune: A Parent's Guide"
         description="A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding."
         path="/olympiad-coaching-pune"
         datePublished="2026-07-12"

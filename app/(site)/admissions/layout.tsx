@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { BreadcrumbJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Admission Enquiry & Merit Scholarships (Up to 50%) | IITian Mentor Coaching | BuzzyBrains Academy",
-  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Apply for premium coaching programs with merit-based scholarships up to 50%. Transparent admission process with no hidden charges. Expert guidance from IITian and IIM mentors for IIT-JEE, NEET & Board exams.",
+  title: "Admissions & Merit Scholarships (Up to 50%) | BuzzyBrains Academy",
+  description: "Apply for premium coaching programs with merit-based scholarships up to 50% and a transparent admission process.",
   alternates: { canonical: "https://buzzybrainsacademy.com/admissions" },
   openGraph: {
     title: "Admission Enquiry & Merit Scholarships (Up to 50%)",
@@ -19,6 +19,12 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Admission Enquiry & Merit Scholarships (Up to 50%)",
+    description: "Apply for premium coaching programs with merit-based scholarships up to 50% and a transparent admission process.",
+    images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };
 

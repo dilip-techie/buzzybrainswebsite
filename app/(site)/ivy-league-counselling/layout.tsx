@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Ivy League & Top US University Counselling — Academic Profile Building | BuzzyBrains Academy',
+  title: 'Ivy League & Top US University Counselling | BuzzyBrains Academy',
   description:
-    'Grade 9–12 academic counselling for Ivy League and top US university applications — course strategy, SAT/AP score planning and a multi-year roadmap. Honest, academics-first guidance with no admission guarantees.',
+    'Grade 9–12 counselling for Ivy League and top US applications — course strategy, SAT/AP planning and a multi-year roadmap. Honest, no guarantees.',
   keywords:
     'Ivy League counselling, US university admissions, Ivy League application help, SAT AP academic profile, US college counselling India, Ivy League coaching Pune, top university application roadmap',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ivy-league-counselling' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'Ivy League Counselling - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ivy League & Top US University Counselling',
+    description: 'Grade 9–12 academic profile building for Ivy League and top US university applications — course strategy, SAT/AP scores, honest guidance.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

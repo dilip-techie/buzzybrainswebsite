@@ -5,7 +5,7 @@ import { faqs } from '@/lib/olympiad/data';
 export const metadata: Metadata = {
   title: 'IOQM, AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
   description:
-    'Premium IOQM, AMC 8 and AMC 10 math olympiad coaching in Pune for Grades 6-12. IIT-alumni mentors, batches capped at 12, weekly timed mock papers in the real exam format. Book a free demo class.',
+    'Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
   keywords: 'IOQM coaching Pune, AMC 8 coaching Pune, AMC 10 coaching Pune, math olympiad classes Pune, IOQM classes, AMC coaching India, olympiad coaching institute Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ioqm-amc-coaching-pune' },
   openGraph: {
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'IOQM, AMC 8 & AMC 10 Coaching in Pune - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IOQM, AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
+    description: 'Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

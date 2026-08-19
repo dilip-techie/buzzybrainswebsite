@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'CUET Commerce Coaching Pune | Accountancy, Economics, Business Studies | BuzzyBrains Academy',
+  title: 'CUET Commerce Coaching in Pune | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. How to prepare for the CUET Commerce domain papers alongside Class 12 board exams — what the exam tests, how it differs from board prep, and how BuzzyBrains Academy structures CUET Commerce coaching in Pune.',
+    'How to prepare for the CUET Commerce domain papers alongside Class 12 boards, and how BuzzyBrains Academy structures CUET Commerce coaching in Pune.',
   keywords: 'CUET Commerce coaching Pune, CUET Commerce classes Pune, CUET Accountancy coaching, CUET Economics coaching Pune, CUET Business Studies coaching',
   alternates: { canonical: 'https://buzzybrainsacademy.com/cuet-commerce-coaching-pune' },
   openGraph: {
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com/cuet-commerce-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CUET Commerce Coaching Pune | BuzzyBrains Academy',
+    description: 'How to prepare for CUET Commerce domain papers alongside board exams, and how BuzzyBrains Academy structures CUET Commerce coaching.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

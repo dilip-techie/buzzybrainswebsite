@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Clock } from 'lucide-react';
 import { CollectionPageJsonLd, FaqJsonLd } from '../../../components/JsonLd';
 import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory, type BlogPost } from '../_data/posts';
@@ -43,14 +44,14 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
               ? `${posts.length} ${posts.length === 1 ? 'guide' : 'guides'} · Updated ${formatDate(sorted[0].datePublished)}`
               : 'New content track · Guides coming soon'}
           </p>
-          <img
+          <Image
             className="article-hero-image reveal"
             src={`/images/og/category-${category}.png`}
             alt={content.h1}
             width={1200}
             height={630}
-            loading="eager"
-            fetchPriority="high"
+            priority
+            sizes="(max-width: 800px) 100vw, 800px"
           />
         </div>
       </section>

@@ -3,9 +3,9 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { nmtcFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'NMTC Coaching in Pune | Primary to Senior Level (Class 5–12) | BuzzyBrains Academy',
+  title: 'NMTC Coaching in Pune | BuzzyBrains Academy',
   description:
-    'Dedicated NMTC coaching in Pune across all five AMTI levels — Primary, Sub-Junior, Junior, Inter and Senior. IIT-alumni mentors, batches capped at 12, individual Part B review. Book a free demo class.',
+    'Dedicated NMTC coaching in Pune across all five AMTI levels — Primary, Sub-Junior, Junior, Inter and Senior. IIT-alumni mentors, batches capped at 12.',
   keywords: 'NMTC coaching Pune, NMTC classes, AMTI NMTC, National Mathematics Talent Contest, NMTC Part B, NMTC preparation',
   alternates: { canonical: 'https://buzzybrainsacademy.com/nmtc-coaching-pune' },
   openGraph: {
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'NMTC Coaching in Pune - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NMTC Coaching in Pune | BuzzyBrains Academy',
+    description: 'Dedicated NMTC coaching across all five AMTI levels — IIT-alumni mentors, batches capped at 12, individual Part B review.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

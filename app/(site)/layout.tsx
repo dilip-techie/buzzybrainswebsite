@@ -51,46 +51,6 @@ export default function SiteLayout({
           ],
         }}
       />
-      <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: [
-            {
-              '@type': 'Question',
-              name: 'What is the batch size at BuzzyBrains Academy?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'Every batch is capped at a maximum of 12 students, ensuring personalized attention and mentoring for each child.',
-              },
-            },
-            {
-              '@type': 'Question',
-              name: 'Which programs does BuzzyBrains Academy offer in Pune?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'We offer Foundation coaching for Grades 6–10, IIT-JEE preparation, NEET preparation, and Olympiad training for IMO, NSO, IOQM, PRMO and NMTC.',
-              },
-            },
-            {
-              '@type': 'Question',
-              name: 'Who teaches at BuzzyBrains Academy?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'Our faculty includes IIT alumni and industry experts with 25+ years of teaching experience, focused on conceptual, visual and AI-powered learning.',
-              },
-            },
-            {
-              '@type': 'Question',
-              name: 'How do I book a free demo class?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'You can book a free demo class through the form on our website, by calling us, or by messaging us on WhatsApp.',
-              },
-            },
-          ],
-        }}
-      />
       <Navbar />
       {children}
       <Footer />

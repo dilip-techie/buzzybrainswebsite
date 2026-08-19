@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'IPMAT Coaching — 5-Year Integrated Programme in Management | BuzzyBrains Academy',
+  title: 'IPMAT Coaching — 5-Year IIM Programme | BuzzyBrains Academy',
   description:
-    'Structured IPMAT preparation — Quantitative Ability, Verbal Ability and dedicated WAT-PI coaching — for Class 12 students targeting the 5-year integrated BBA+MBA programme at IIMs. Small batches capped at 12 students.',
+    'Structured IPMAT preparation — Quantitative Ability, Verbal Ability and WAT-PI coaching — for Class 12 students targeting the 5-year BBA+MBA at IIMs.',
   keywords:
     'IPMAT coaching, IPMAT exam prep, IIM Indore IPMAT, IIM Rohtak IPMAT, Integrated Program in Management, IPMAT quantitative ability, IPMAT verbal ability, IPMAT WAT PI, IPMAT coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ipmat-exam' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'IPMAT Coaching - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IPMAT Coaching — 5-Year Integrated Programme in Management',
+    description: 'Structured IPMAT preparation with section-wise mastery, full-length mocks and dedicated WAT-PI coaching, mentored in small batches.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

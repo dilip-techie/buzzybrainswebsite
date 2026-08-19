@@ -46,6 +46,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
 
   // Specialized tracks
   { path: '/coding-lab', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/programming-classes', changeFrequency: 'monthly', priority: 0.65 },
 
   // SEO pillar guides
   { path: '/iit-jee-coaching-pune', changeFrequency: 'monthly', priority: 0.7 },
@@ -64,6 +65,11 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   // Blog
   { path: '/blog', changeFrequency: 'weekly', priority: 0.6 },
   { path: '/board-exam-study-planner', changeFrequency: 'monthly', priority: 0.7 },
+
+  // Legal
+  { path: '/privacy-policy', changeFrequency: 'yearly', priority: 0.2 },
+  { path: '/refund-policy', changeFrequency: 'yearly', priority: 0.2 },
+  { path: '/terms-and-conditions', changeFrequency: 'yearly', priority: 0.2 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

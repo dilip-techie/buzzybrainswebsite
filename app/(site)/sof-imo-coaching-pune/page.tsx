@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Medal, GraduationCap, Users, Layers, ListChecks, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import SofHeroVisual from '@/components/olympiad/SofHeroVisual';
@@ -70,6 +71,17 @@ export default function SofImoCoachingPunePage() {
         demoSubject="SOF Olympiad"
         programs={['SOF IMO', 'SOF NSO', 'SOF IEO', 'SOF NCO', 'SOF IGKO', 'SOF ISSO', 'Not sure yet — need guidance']}
       />
+      <section className="oly-section !py-10">
+        <div className="oly-container text-center">
+          <p className="text-[14.5px] text-oly-ink/60">
+            Looking beyond the six SOF exams? See our{' '}
+            <Link href="/sof-olympiads" className="font-semibold text-oly-brand-600 underline underline-offset-2">
+              multi-subject olympiad coaching
+            </Link>{' '}
+            for Commerce, Financial Literacy, NSEJS and more.
+          </p>
+        </div>
+      </section>
       <FinalCTA />
     </main>
   );

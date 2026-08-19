@@ -5,7 +5,7 @@ import { FAQS, PROGRAM_TABLE } from './_data';
 export const metadata: Metadata = {
   title: 'Best Coaching Institute in Hadapsar, Pune | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. BuzzyBrains Academy is a premium coaching institute in Hadapsar, Pune for Grades 4-12 — Foundation, Maths Excellence, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Code Ninja (Coding & AI). Founded by Dilip Sah (IIT Kanpur, IIM Ahmedabad), max 12 students per batch.',
+    'Premium coaching in Hadapsar, Pune for Grades 4-12 — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP and Coding & AI. Max 12 students per batch.',
   keywords:
     'best coaching institute in Pune, best coaching institute in Hadapsar, coaching classes Hadapsar Pune, IIT JEE coaching Hadapsar, NEET coaching Hadapsar, Foundation classes Hadapsar Pune, coaching institute Amanora, coaching classes Magarpatta, coaching institute Kharadi, Dilip Sah IIT Kanpur, BuzzyBrains Academy reviews, small batch coaching Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/best-coaching-institute-pune' },
@@ -24,6 +24,12 @@ export const metadata: Metadata = {
         alt: 'BuzzyBrains Academy — Best Coaching Institute in Hadapsar, Pune',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Coaching Institute in Hadapsar, Pune | BuzzyBrains Academy',
+    description: 'Premium coaching for Grades 4-12 in Hadapsar, Pune — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Coding & AI. IITian-led, max 12 students per batch.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

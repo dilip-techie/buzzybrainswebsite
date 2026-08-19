@@ -98,7 +98,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Our <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Story</span>
+              The BuzzyBrains Academy <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Story</span>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
               How a simple realization changed everything

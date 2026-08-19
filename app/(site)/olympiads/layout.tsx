@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Olympiad Coaching — Math, Physics, Chemistry, Biology & Coding | BuzzyBrains Academy',
+  title: 'Olympiad Training Program — All Subjects | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. Elite olympiad training across Mathematics, Physics, Chemistry, Biology and Coding. IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more — mentored by IIT/IIM alumni faculty.',
+    'From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
   keywords:
     'olympiad coaching, IMO, AMC 8 10 12, IOQM, RMO, INMO, NSEP, IPhO, NSEC, IChO, NSEB, IBO, NSO, IJSO, IOI, ZIO, INOI, Kangaroo Math, SOF, science olympiad, coding olympiad',
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiads' },
@@ -23,6 +23,12 @@ export const metadata: Metadata = {
         alt: 'Olympiad Program - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Olympiad Coaching — Every Subject, Every Prominent Competition',
+    description: 'From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

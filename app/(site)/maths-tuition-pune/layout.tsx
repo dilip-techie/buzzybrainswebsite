@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Maths Tuition Pune | 1-on-1 & Small Batch Options | BuzzyBrains Academy',
+  title: 'Maths Tuition Pune | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. How to choose maths tuition in Pune — 1-on-1 vs small batch, what "good at maths" actually requires, and how BuzzyBrains Academy structures maths tuition for Grades 6-12.',
+    'How to choose maths tuition in Pune — 1-on-1 vs small batch, and how BuzzyBrains Academy structures maths tuition for Grades 6-12.',
   keywords: 'maths tuition Pune, maths tutor Pune, maths classes Pune, best maths tuition Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/maths-tuition-pune' },
   openGraph: {
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com/maths-tuition-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Maths Tuition Pune | BuzzyBrains Academy',
+    description: 'How to choose maths tuition in Pune, and how BuzzyBrains Academy structures its maths tuition options.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

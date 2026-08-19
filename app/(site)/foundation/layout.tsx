@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { ProgramJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Foundation Program (Grades 6-10) | Expert IITian Mentor Coaching | BuzzyBrains Academy",
-  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results.",
+  title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
+  description: "Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
   alternates: { canonical: "https://buzzybrainsacademy.com/foundation" },
   openGraph: {
-    title: "Foundation Program (Grades 6-10) | Expert IITian Mentor Coaching",
-    description: "Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results.",
+    title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
+    description: "Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
     url: "https://buzzybrainsacademy.com/foundation",
     type: "website",
     images: [
@@ -18,6 +18,12 @@ export const metadata: Metadata = {
         alt: "Foundation Program - Expert IITian Mentor Coaching",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
+    description: "Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
+    images: ["https://buzzybrainsacademy.com/images/foundation.jpg"],
   },
 };
 

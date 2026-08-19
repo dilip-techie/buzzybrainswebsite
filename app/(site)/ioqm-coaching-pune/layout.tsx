@@ -3,9 +3,9 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { ioqmFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'IOQM Coaching in Pune | Indian Olympiad Qualifier in Mathematics | BuzzyBrains Academy',
+  title: 'IOQM Coaching in Pune | BuzzyBrains Academy',
   description:
-    'Dedicated IOQM coaching in Pune for Grades 8-12. IIT-alumni mentors, batches capped at 12, weekly timed mock papers, and a structured path to INMO. Book a free demo class.',
+    'Dedicated IOQM coaching in Pune for Grades 8-12. IIT-alumni mentors, batches capped at 12, weekly timed mock papers, and a structured path to INMO.',
   keywords: 'IOQM coaching Pune, IOQM classes, Indian Olympiad Qualifier in Mathematics, IOQM syllabus, INMO pathway, IOQM preparation',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ioqm-coaching-pune' },
   openGraph: {
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'IOQM Coaching in Pune - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IOQM Coaching in Pune | BuzzyBrains Academy',
+    description: 'Dedicated IOQM coaching for Grades 8-12 — IIT-alumni mentors, batches capped at 12, weekly timed mocks, and a structured path to INMO.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

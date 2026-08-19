@@ -1,0 +1,32 @@
+# BuzzyBrains Academy
+
+> BuzzyBrains Academy is a coaching institute in Pune, India, offering IIT-JEE, NEET, Olympiad, Foundation (Grades 6-10), and international-board (IGCSE/IB/AP/SAT) preparation. Batches are capped at 12 students, taught by IITian and IIM-alumni faculty, with AI-powered learning tools. Founded on 25+ years of combined teaching experience.
+
+Key facts: batches capped at 12 students; faculty are IIT/IIM alumni; centres in Amanora and Kharadi, Pune; phone +91-98505-70525; email hello@buzzybrainsacademy.com.
+
+## Programs
+
+- [Foundation Program (Grades 6-10)](https://buzzybrainsacademy.com/foundation): conceptual groundwork in Maths and Science before board/competitive exams.
+- [IIT-JEE Coaching](https://buzzybrainsacademy.com/12th-board-pcm): JEE Main and Advanced preparation for Grade 11-12 PCM students and droppers.
+- [NEET Coaching](https://buzzybrainsacademy.com/12th-board-pcb): NEET preparation for Grade 11-12 PCB students.
+- [Board Exam Test Series](https://buzzybrainsacademy.com/test-series): CBSE/ICSE Grade 10 & 12 mock exam series with examiner-style evaluation.
+- [Olympiad Coaching](https://buzzybrainsacademy.com/olympiads): Maths, Physics, Chemistry, Biology and coding olympiads (IOQM, SOF, NMTC, AMC, Math Kangaroo).
+- [Commerce Tuitions](https://buzzybrainsacademy.com/commerce-tuitions): Class 11-12 Commerce, plus CUET and CA Foundation coaching.
+- [International Boards](https://buzzybrainsacademy.com/international-boards): IGCSE, IB and AP exam coaching.
+- [Code Ninja](https://buzzybrainsacademy.com/coding-lab) and [Programming Classes](https://buzzybrainsacademy.com/programming-classes): coding, AI foundations and computational logic for Grades 6-12.
+- [One-on-One Coaching](https://buzzybrainsacademy.com/one-on-one): personalized 1-on-1 mentoring across all subjects.
+- [Ivy League Counselling](https://buzzybrainsacademy.com/ivy-league-counselling): US university application and profile-building guidance.
+- [Board Exam Study Planner](https://buzzybrainsacademy.com/board-exam-study-planner): free printable study planner for CBSE/ICSE/SSC Class 10 & 12.
+
+## Guides
+
+- [Blog](https://buzzybrainsacademy.com/blog): 200+ articles on JEE, NEET, Commerce, Olympiad, Foundation, SAT/AP/IGCSE/IB, CAT, IPMAT, CLAT and coding exam preparation.
+- [IIT JEE Coaching Pune — Guide](https://buzzybrainsacademy.com/iit-jee-coaching-pune)
+- [NEET Coaching Pune — Guide](https://buzzybrainsacademy.com/neet-coaching-pune)
+- [Foundation Classes Pune — Guide](https://buzzybrainsacademy.com/foundation-classes-pune)
+
+## Other
+
+- [About](https://buzzybrainsacademy.com/about): founder story, mission and vision.
+- [Admissions](https://buzzybrainsacademy.com/admissions): enrollment process and merit scholarships.
+- [Contact](https://buzzybrainsacademy.com/contact): enquiry form, phone, WhatsApp and centre addresses.

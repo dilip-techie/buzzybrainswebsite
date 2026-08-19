@@ -80,6 +80,7 @@ export default function Footer() {
             <h4>Specialized Tracks</h4>
             <ul className="foot-links">
               <li><Link href="/coding-lab">Code Ninja (Coding &amp; AI)</Link></li>
+              <li><Link href="/programming-classes">Programming Classes (Grades 6-12)</Link></li>
               <li><Link href="/one-on-one">One-on-One Coaching</Link></li>
             </ul>
           </nav>

@@ -4,7 +4,7 @@ import { BreadcrumbJsonLd, PersonJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
   description:
-    "IITian Mentorship. Gateway to Top IITs and AIIMS. Learn how BuzzyBrains Academy began: Dilip Sir's mission to fix a broken education system with small batches, IITian mentors and student-first teaching in Pune.",
+    "Learn how BuzzyBrains Academy began: Dilip Sir's mission to fix a broken education system with small batches, IITian mentors and student-first teaching in Pune.",
   alternates: { canonical: 'https://buzzybrainsacademy.com/about' },
   openGraph: {
     title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
       },
     ],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
+    description: 'How a simple realization changed everything: Dilip Sir\'s mission to build a beacon of quality learning in Pune.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | BuzzyBrains Academy - Expert Coaching by IITian Mentor',
-  description: 'IITian Mentorship. Gateway to Top IITs and AIIMS. Get in touch with BuzzyBrains Academy. Connect with our expert IITian and IIM mentors for personalized coaching guidance.',
+  title: 'Contact BuzzyBrains Academy | IITian Mentor Coaching',
+  description: 'Get in touch with BuzzyBrains Academy. Connect with our expert IITian and IIM mentors for personalized coaching guidance.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/contact' },
   openGraph: {
-    title: 'Contact Us | BuzzyBrains Academy',
+    title: 'Contact BuzzyBrains Academy',
     description: 'Get in touch with our expert mentors',
     url: 'https://buzzybrainsacademy.com/contact',
     siteName: 'BuzzyBrains Academy',
@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact BuzzyBrains Academy',
+    description: 'Get in touch with our expert mentors',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
+  },
 };
 
 export default function ContactLayout({
@@ -29,7 +35,7 @@ export default function ContactLayout({
 }) {
   return (
     <>
-      <BreadcrumbJsonLd name="Contact Us" path="/contact" />
+      <BreadcrumbJsonLd name="Contact" path="/contact" />
       <FaqJsonLd
         items={[
           {
