@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { ArrowUpRight, Target } from 'lucide-react';
 import { examTracks } from '@/lib/olympiad/data';
 
@@ -31,13 +28,10 @@ export default function ExamTracks() {
           {examTracks.map((t, i) => {
             const c = colorMap[t.color];
             return (
-              <motion.div
+              <div
                 key={t.code}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.1 }}
-                className={`group flex h-full flex-col rounded-3xl border-2 border-oly-line bg-white p-7 shadow-oly-card transition-colors duration-300 ${c.ring}`}
+                data-delay={String(i % 4)}
+                className={`group reveal flex h-full flex-col rounded-3xl border-2 border-oly-line bg-white p-7 shadow-oly-card transition-colors duration-300 ${c.ring}`}
               >
                 <div className="flex items-start justify-between">
                   <span className={`inline-block rounded-lg px-3 py-1.5 font-mono text-[13px] font-bold ${c.chip}`}>{t.code}</span>
@@ -82,7 +76,7 @@ export default function ExamTracks() {
                     Learn More
                   </a>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>

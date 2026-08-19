@@ -1,5 +1,3 @@
-'use client';
-
 import '@/app/tailwind.css';
 import Link from 'next/link';
 import { Medal, GraduationCap, Users, Layers, ListChecks, BrainCircuit, ClipboardCheck } from 'lucide-react';

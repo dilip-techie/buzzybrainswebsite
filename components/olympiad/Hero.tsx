@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { ArrowRight, PlayCircle } from 'lucide-react';
 
 const floaters = [
@@ -34,11 +31,7 @@ export default function Hero() {
       ))}
 
       <div className="oly-container grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: 'easeOut' }}
-        >
+        <div className="reveal">
           <span className="oly-eyebrow">
             <span className="h-1.5 w-1.5 rounded-full bg-oly-amber" /> IOQM · AMC 8 · AMC 10
           </span>
@@ -74,14 +67,9 @@ export default function Hero() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.94 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
-          className="relative mx-auto w-full max-w-[420px]"
-        >
+        <div className="reveal relative mx-auto w-full max-w-[420px]" data-delay="1">
           <div className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-gradient-to-br from-oly-brand-500/15 via-oly-amber/10 to-oly-sky-light/20 blur-2xl" />
 
           <div className="rounded-oly-4xl border border-oly-line bg-white p-6 shadow-oly-card-lg sm:p-8">
@@ -138,7 +126,7 @@ export default function Hero() {
               </span>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

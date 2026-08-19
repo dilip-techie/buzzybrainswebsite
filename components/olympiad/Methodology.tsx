@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { Sparkles, Clock, LineChart, Users2 } from 'lucide-react';
 
 const points = [
@@ -58,20 +55,17 @@ export default function Methodology() {
 
           <div className="grid gap-5 sm:grid-cols-2">
             {points.map((p, i) => (
-              <motion.div
+              <div
                 key={p.title}
-                initial={{ opacity: 0, y: 18 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                className="oly-card p-6"
+                data-delay={String(i % 4)}
+                className="oly-card reveal p-6"
               >
                 <div className="grid h-10 w-10 place-items-center rounded-xl bg-oly-brand-50 text-oly-brand-500">
                   <p.icon size={18} />
                 </div>
                 <h3 className="mt-4 text-[15.5px] font-bold leading-snug text-oly-ink">{p.title}</h3>
                 <p className="mt-2 text-[13.5px] leading-relaxed text-oly-ink/60">{p.desc}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
