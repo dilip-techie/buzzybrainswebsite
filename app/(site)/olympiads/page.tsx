@@ -116,17 +116,17 @@ export default function OlympiadsPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🏆 Olympiad Program · Grades 4–12</span>
-          <h1 className="reveal" data-delay="1">Olympiad Excellence, <span className="grad">Every Subject.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <span className="eyebrow">🏆 Olympiad Program · Grades 4–12</span>
+          <h1>Olympiad Excellence, <span className="grad">Every Subject.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             One structured program across <strong style={{ color: 'var(--blue)' }}>Mathematics, Physics, Chemistry, Biology, Science and Coding</strong> —
             mentored by IIT/IIM alumni faculty for India&apos;s and the world&apos;s most prominent olympiads.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             From IOQM and RMO to IMO, IPhO, IChO, IBO and IOI — we prepare students for the exams that matter.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             {SUBJECTS.map((s) => (
               <Link key={s.id} href={`/#${s.id}`} className="chip">
                 <i className="dot" style={{ background: s.gradient.match(/#[0-9A-Fa-f]{6}/)?.[0] }} /> {s.subject}
@@ -134,7 +134,7 @@ export default function OlympiadsPage() {
             ))}
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

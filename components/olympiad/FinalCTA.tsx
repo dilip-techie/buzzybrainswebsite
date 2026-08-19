@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { Phone, MessageCircle } from 'lucide-react';
 
 export default function FinalCTA({
@@ -13,12 +10,7 @@ export default function FinalCTA({
   return (
     <section className="oly-section">
       <div className="oly-container">
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-40px' }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="relative overflow-hidden rounded-oly-4xl bg-gradient-to-br from-oly-brand-500 via-oly-brand-600 to-oly-ink px-8 py-16 text-center sm:px-16 sm:py-20">
+        <div className="reveal relative overflow-hidden rounded-oly-4xl bg-gradient-to-br from-oly-brand-500 via-oly-brand-600 to-oly-ink px-8 py-16 text-center sm:px-16 sm:py-20">
           <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-oly-amber/20 blur-3xl" />
           <div className="pointer-events-none absolute -bottom-20 -left-16 h-64 w-64 rounded-full bg-oly-sky-light/20 blur-3xl" />
 
@@ -45,7 +37,7 @@ export default function FinalCTA({
               <MessageCircle size={16} /> WhatsApp
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

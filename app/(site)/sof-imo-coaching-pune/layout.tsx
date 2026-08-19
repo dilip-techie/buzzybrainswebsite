@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { geistMono } from '@/app/fonts';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { sofExamFaqs } from '@/lib/olympiad/data';
 
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function SofImoCoachingPuneLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <div className={geistMono.variable}>
       <ProgramJsonLd
         type="Course"
         name="SOF Olympiad Coaching (IMO, NSO, IEO, NCO, IGKO, ISSO)"
@@ -42,6 +43,6 @@ export default function SofImoCoachingPuneLayout({ children }: { children: React
       />
       <FaqJsonLd items={sofExamFaqs.map((f) => ({ question: f.q, answer: f.a }))} />
       {children}
-    </>
+    </div>
   );
 }

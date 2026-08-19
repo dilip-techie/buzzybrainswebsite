@@ -99,24 +99,24 @@ export default function IpmatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🏛️ IPMAT Coaching · 5-Year Integrated Programme in Management · Grade 12</span>
-          <h1 className="reveal" data-delay="1">Crack <span className="grad">IPMAT.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
+          <span className="eyebrow">🏛️ IPMAT Coaching · 5-Year Integrated Programme in Management · Grade 12</span>
+          <h1>Crack <span className="grad">IPMAT.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
             Structured preparation for the <strong style={{ color: 'var(--blue)' }}>Integrated Program in Management Aptitude Test</strong> —
             the entrance to 5-year integrated BBA+MBA programmes at IIMs, right after Class 12.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             Quantitative Ability, Verbal Ability, and dedicated WAT-PI preparation — mentored by an IIT Kanpur and IIM Ahmedabad alumnus.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: '#E11D48' }} /> Quantitative Ability</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Verbal Ability</span>
             <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> WAT</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Personal Interview</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { ArrowRight, PlayCircle } from 'lucide-react';
 
 export default function HeroGeneric({
@@ -26,12 +23,7 @@ export default function HeroGeneric({
       <div className="absolute inset-0 -z-10 bg-oly-dot-grid opacity-60 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
 
       <div className="oly-container">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: 'easeOut' }}
-          className="mx-auto max-w-3xl text-center"
-        >
+        <div className="reveal mx-auto max-w-3xl text-center">
           <span className="oly-eyebrow">
             <span className="h-1.5 w-1.5 rounded-full bg-oly-amber" /> {eyebrow}
           </span>
@@ -61,7 +53,7 @@ export default function HeroGeneric({
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

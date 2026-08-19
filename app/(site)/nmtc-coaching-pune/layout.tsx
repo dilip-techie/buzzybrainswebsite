@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { geistMono } from '@/app/fonts';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { nmtcFaqs } from '@/lib/olympiad/data';
 
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function NmtcCoachingPuneLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <div className={geistMono.variable}>
       <ProgramJsonLd
         type="Course"
         name="NMTC Coaching"
@@ -42,6 +43,6 @@ export default function NmtcCoachingPuneLayout({ children }: { children: React.R
       />
       <FaqJsonLd items={nmtcFaqs.map((f) => ({ question: f.q, answer: f.a }))} />
       {children}
-    </>
+    </div>
   );
 }

@@ -151,21 +151,21 @@ export default function FoundationPage() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow reveal">🌟 Foundation Program · Grades 6–10</span>
-            <h1 className="reveal" data-delay="1">Build the <span className="grad">Right Foundation</span></h1>
-            <p className="lede reveal" data-delay="2">
+            <span className="eyebrow">🌟 Foundation Program · Grades 6–10</span>
+            <h1>Build the <span className="grad">Right Foundation</span></h1>
+            <p className="lede">
               Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
               <strong style={{ color: 'var(--blue)' }}>Dilip Sir (B.Tech, IIT Kanpur)</strong>. Because strong fundamentals today decide tomorrow&apos;s success.
             </p>
 
-            <div className="hero-chips reveal" data-delay="2">
+            <div className="hero-chips">
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Grades 6–10</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Max 12 / Batch</span>
               <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> 4 Subjects</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Online Available</span>
             </div>
 
-            <div className="hero-ctas reveal" data-delay="3">
+            <div className="hero-ctas">
               <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
                 Unlock Your Child&apos;s Potential
                 <ChevronRight size={19} />
@@ -176,7 +176,7 @@ export default function FoundationPage() {
             </div>
           </div>
 
-          <div className="hero-visual reveal" data-delay="2">
+          <div className="hero-visual">
             <div className="short-embed-wrap" style={{ margin: '0 auto' }}>
               <span className="short-embed-badge">
                 <Play size={15} fill="currentColor" /> Watch: Inside a Foundation Class

@@ -83,14 +83,14 @@ export default function AchievementsPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">🏆 Our Achievements</span>
-          <h1 className="reveal" data-delay="1">Real Results. <span className="grad">Real Families.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <span className="eyebrow">🏆 Our Achievements</span>
+          <h1>Real Results. <span className="grad">Real Families.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             No inflated numbers, no stock testimonials — just our honest growth story and genuine reviews
             from the parents and students we&apos;ve worked with since 2020.
           </p>
 
-          <div className="hero-ctas reveal" data-delay="3" style={{ justifyContent: 'center', marginTop: 20 }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

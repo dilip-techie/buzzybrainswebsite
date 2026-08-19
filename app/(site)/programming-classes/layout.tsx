@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { geistMono } from '@/app/fonts';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
@@ -35,7 +36,7 @@ export default function ProgrammingClassesLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className={geistMono.variable}>
       <ProgramJsonLd
         type="Course"
         name="Programming Classes (Grades 6-12)"
@@ -87,6 +88,6 @@ export default function ProgrammingClassesLayout({
         ]}
       />
       {children}
-    </>
+    </div>
   );
 }

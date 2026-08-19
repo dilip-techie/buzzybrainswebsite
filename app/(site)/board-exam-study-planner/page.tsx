@@ -132,15 +132,15 @@ export default function BoardExamStudyPlannerPage() {
       {/* ---------- Hero ---------- */}
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container">
-          <span className="eyebrow reveal">Free Printable Download</span>
-          <h1 className="reveal" data-delay="1" style={{ fontSize: 'clamp(30px,4.2vw,46px)', maxWidth: 780 }}>
+          <span className="eyebrow">Free Printable Download</span>
+          <h1 style={{ fontSize: 'clamp(30px,4.2vw,46px)', maxWidth: 780 }}>
             The Board Exam Study Planner — Class 10 &amp; 12, Every Major Board
           </h1>
-          <p className="lede reveal" data-delay="2" style={{ maxWidth: 640 }}>
+          <p className="lede" style={{ maxWidth: 640 }}>
             A printable, month-by-month planning framework built by IIT Kanpur-mentored faculty — covering CBSE, ICSE
             and Maharashtra State Board. Enter your details below and we&apos;ll email it to you as a PDF instantly.
           </p>
-          <div className="reveal" data-delay="3" style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 8 }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginTop: 8 }}>
             {BOARDS_COVERED.map((b) => (
               <span key={`${b.board}-${b.grade}`} className="chip chip-link" style={{ pointerEvents: 'none' }}>
                 {b.grade} · {b.board}

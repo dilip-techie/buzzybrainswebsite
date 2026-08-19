@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import { GraduationCap } from 'lucide-react';
 import { faculty as defaultFaculty, type FacultyMember } from '@/lib/olympiad/data';
 
@@ -40,14 +37,11 @@ export default function Faculty({
           {faculty.map((f, i) => {
             const c = GLOWS[i % GLOWS.length];
             return (
-              <motion.div
+              <div
                 key={f.name}
-                initial={{ opacity: 0, y: 18 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
+                data-delay={String(i % 4)}
                 style={{ '--glow': c.glow, '--oly-accent': c.accent } as React.CSSProperties}
-                className="oly-glow-card p-6 text-center"
+                className="oly-glow-card reveal p-6 text-center"
               >
                 <div className="oly-glow-icon mx-auto grid h-16 w-16 place-items-center rounded-2xl font-display text-lg font-bold text-white">
                   {initials(f.name)}
@@ -58,7 +52,7 @@ export default function Faculty({
                 <div className="oly-glow-chip mt-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[11px] font-bold">
                   {f.badge}
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>

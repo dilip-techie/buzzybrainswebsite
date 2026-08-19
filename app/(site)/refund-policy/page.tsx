@@ -12,11 +12,11 @@ export default function RefundPolicyPage() {
     <main className="bb-landing bb-page-shell">
       <section className="hero">
         <div className="container article-shell center">
-          <span className="eyebrow reveal">Legal</span>
-          <h1 className="reveal" data-delay="1" style={{ fontSize: 'clamp(28px,4vw,44px)' }}>
+          <span className="eyebrow">Legal</span>
+          <h1 style={{ fontSize: 'clamp(28px,4vw,44px)' }}>
             Refund Policy
           </h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto', maxWidth: 680 }}>
+          <p className="lede" style={{ margin: '0 auto', maxWidth: 680 }}>
             Last updated: August 2026
           </p>
         </div>

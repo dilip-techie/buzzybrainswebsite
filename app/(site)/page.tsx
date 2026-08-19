@@ -473,29 +473,29 @@ export default function HomePage() {
 
         <div className="container hero-grid">
           <div className="hero-copy">
-            <div className="hero-badges reveal">
+            <div className="hero-badges">
               <span className="eyebrow eyebrow-highlight">⭐ Pune&apos;s Premium IIT-Led Coaching Institute</span>
               <span className="eyebrow eyebrow-location">📍 Near Amanora Mall, Pune</span>
             </div>
-            <h1 className="reveal" data-delay="1">
+            <h1>
               Learn Smarter.<br />Dream Bigger.<br /><span className="grad">Achieve More.</span>
               <span className="hero-tagline-sub">🎓 <span className="hero-tagline-sub-text">With IITian Mentorship.</span></span>
             </h1>
-            <p className="lede reveal" data-delay="2">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
-            <div className="hero-chips reveal" data-delay="2">
+            <p className="lede">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
+            <div className="hero-chips">
               {PROGRAMS.map((program) => (
                 <Link key={program.id} href={`/#${program.id}`} className="chip chip-link">
                   <i className="dot" style={{ background: `rgb(${program.glow})` }} /> {program.title}
                 </Link>
               ))}
             </div>
-            <div className="hero-ctas reveal" data-delay="3">
+            <div className="hero-ctas">
               <Link href="/#contact" className="btn btn-primary">Book Free Demo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </Link>
               <Link href="/#programs" className="btn btn-ghost">Explore Programs</Link>
             </div>
-            <div className="hero-proof reveal" data-delay="4">
+            <div className="hero-proof">
               <div className="avatars" aria-hidden="true">
                 <span style={{ background: '#2563EB' }}>A</span><span style={{ background: '#7C3AED' }}>S</span><span style={{ background: '#F59E0B' }}>R</span><span style={{ background: '#10B981' }}>K</span>
               </div>
@@ -506,7 +506,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="hero-visual reveal" data-delay="2">
+          <div className="hero-visual">
             <div className="hero-visual-flex">
               <div className="board" role="img" aria-label="Illustration of a digital classroom with a teacher, smart board, and students learning with tablets, AI, science and coding">
                 <div className="board-top">

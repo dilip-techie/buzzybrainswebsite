@@ -121,24 +121,24 @@ export default function CodingLabPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
-          <span className="eyebrow reveal">💻 Code Ninja · Coding, AI &amp; Logic Labs · Grades 6–12</span>
-          <h1 className="reveal" data-delay="1">Code. Create. <span className="grad">Compute.</span></h1>
-          <p className="lede reveal" data-delay="2" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
+          <span className="eyebrow">💻 Code Ninja · Coding, AI &amp; Logic Labs · Grades 6–12</span>
+          <h1>Code. Create. <span className="grad">Compute.</span></h1>
+          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             A dedicated coding track from <strong style={{ color: 'var(--blue)' }}>Grade 6 to Grade 12</strong> — programming,
             AI foundations and computational logic, mentored by an <strong style={{ color: 'var(--blue)' }}>IIT Kanpur graduate</strong>.
           </p>
-          <p className="section-sub reveal" data-delay="2" style={{ margin: '0 auto 28px' }}>
+          <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             Not just syntax — real projects, real logic, and a real path into AI and competitive programming.
           </p>
 
-          <div className="hero-chips reveal" data-delay="3" style={{ justifyContent: 'center' }}>
+          <div className="hero-chips" style={{ justifyContent: 'center' }}>
             <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Python · Java · Web Dev</span>
             <span className="chip"><i className="dot" style={{ background: '#7C3AED' }} /> AI &amp; Machine Learning</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Logic &amp; Algorithms</span>
             <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Competitive Programming</span>
           </div>
 
-          <div className="hero-ctas reveal" data-delay="4" style={{ justifyContent: 'center' }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
               Book Free Demo
               <ChevronRight size={19} />

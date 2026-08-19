@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import {
   ArrowUpRight, CheckCircle2, type LucideIcon,
   Hash, Calculator, Compass, Grid3x3, Medal, ListChecks, Rabbit,
@@ -77,15 +74,12 @@ export default function TrackGrid({
             const c = colorMap[t.color];
             const TrackIcon = TRACK_ICONS[t.id] ?? Sparkles;
             return (
-              <motion.div
+              <div
                 key={t.id}
                 id={t.id}
-                initial={{ opacity: 0, y: 28 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: (i % 6) * 0.08 }}
+                data-delay={String(i % 4)}
                 style={{ '--glow': c.glow, '--oly-accent': c.accent, '--oly-solid': c.solid } as React.CSSProperties}
-                className="oly-track-card group scroll-mt-[140px] flex h-full flex-col"
+                className="oly-track-card group reveal scroll-mt-[140px] flex h-full flex-col"
               >
                 <div className="oly-track-shine" />
 
@@ -140,7 +134,7 @@ export default function TrackGrid({
                     </a>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>

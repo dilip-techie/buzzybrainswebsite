@@ -1,5 +1,3 @@
-'use client';
-
 import '@/app/tailwind.css';
 import { Hash, GraduationCap, Users, Timer, Ban, Trophy, ClipboardCheck, BookOpen, PenLine, MessagesSquare, Route } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';

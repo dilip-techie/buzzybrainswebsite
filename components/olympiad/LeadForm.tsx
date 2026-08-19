@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { motion } from 'framer-motion';
 import { CheckCircle2, Send } from 'lucide-react';
 
 const schema = z.object({
@@ -83,11 +82,7 @@ export default function LeadForm({
 
           <div className="bg-white p-9 sm:p-12">
             {submitted ? (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="flex h-full min-h-[380px] flex-col items-center justify-center text-center"
-              >
+              <div className="flex h-full min-h-[380px] flex-col items-center justify-center text-center">
                 <div className="grid h-16 w-16 place-items-center rounded-full bg-oly-success/10 text-oly-success">
                   <CheckCircle2 size={30} />
                 </div>
@@ -99,7 +94,7 @@ export default function LeadForm({
                 <button onClick={() => setSubmitted(false)} className="mt-6 text-[13.5px] font-bold text-oly-brand-500 hover:underline">
                   Submit another request
                 </button>
-              </motion.div>
+              </div>
             ) : (
               <form onSubmit={handleSubmit(onSubmit)} noValidate className="grid gap-4 sm:grid-cols-2">
                 <Field label="Student Name" error={errors.studentName?.message}>
