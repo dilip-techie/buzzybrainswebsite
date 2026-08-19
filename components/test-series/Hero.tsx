@@ -55,7 +55,7 @@ export default function Hero() {
               href="#ts-pricing"
               className="rounded-sm bg-[#C9A227] px-7 py-3.5 text-[14px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"
             >
-              Reserve your seat
+              See pricing &amp; seats
             </a>
             <a
               href="#ts-structure"

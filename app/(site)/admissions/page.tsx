@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Award, CheckCircle, GraduationCap, BookOpen, Zap, Trophy, ArrowRight, ChevronRight } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
+import CtaModal from '@/components/CtaModal';
 
 const FAQS = [
   {
@@ -296,51 +297,30 @@ export default function AdmissionsPage() {
           <p className="text-xl text-blue-100 mb-8">
             Take the entrance test today and unlock your scholarship. Limited seats available!
           </p>
-          <button 
+          <button
             onClick={() => setShowCtaModal(true)}
             className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition text-lg font-semibold"
           >
             Apply for Scholarship
           </button>
+          <p className="mt-6 text-blue-100">
+            Prefer to talk first?{' '}
+            <a href="tel:+919850570525" className="font-bold text-white underline underline-offset-2">
+              Call 98505 70525
+            </a>
+          </p>
         </div>
       </section>
 
       {/* CTA Modal */}
-      {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Ready to Apply? 👋</h2>
-              <p className="text-gray-600">Choose how you'd like to get started with BuzzyBrains Academy</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-            </div>
-            
-            <button
-              onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
+      <CtaModal
+        open={showCtaModal}
+        onClose={() => setShowCtaModal(false)}
+        onFormClick={handleCtaModalForm}
+        onWhatsAppClick={handleCtaModalWhatsApp}
+        title="Ready to Apply? 👋"
+        subtitle="Choose how you'd like to get started with BuzzyBrains Academy"
+      />
     </div>
   );
 }

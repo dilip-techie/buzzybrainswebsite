@@ -91,6 +91,9 @@ export default function RootLayout({
             `,
           }}
         />
+        <noscript>
+          <style>{'.reveal{opacity:1!important;transform:none!important}'}</style>
+        </noscript>
       </head>
       <body className={`${manrope.variable} ${inter.variable} ${geistMono.variable} antialiased`}>
         {children}
