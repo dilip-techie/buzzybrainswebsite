@@ -12,6 +12,26 @@ import {
   ChevronRight,
   Phone,
 } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+
+const FAQS = [
+  {
+    question: "What are BuzzyBrains Academy's top results so far?",
+    answer: 'A student qualified JEE Advanced with an All India Rank of 4025, and another scored 635 out of 720 in NEET. Beyond top scorers, 35+ students have qualified for various olympiads and consistently score 95%+ in boards.',
+  },
+  {
+    question: 'How many students does BuzzyBrains Academy currently teach?',
+    answer: '150-200 active students as of 2025, taught by 8 dedicated mentors — grown from an original batch of just 8 students in 2021, while keeping the same small-batch philosophy throughout.',
+  },
+  {
+    question: 'How has BuzzyBrains Academy grown since it started?',
+    answer: 'From a single rented room and 8 students in mid-2021, to 50+ students by 2023, to 150-200 active students and 8 mentors by 2025 — growing gradually while refusing to compromise on batch size at any stage.',
+  },
+  {
+    question: 'What do parents say about BuzzyBrains Academy?',
+    answer: 'Parents consistently highlight clear, patient teaching and the individual attention their children receive — reflected in a 5-star rating across parent reviews.',
+  },
+];
 
 const HIGHLIGHTS = [
   { value: '5★', label: 'Highest Rating by Parents', icon: Award, gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)' },
@@ -183,6 +203,25 @@ export default function AchievementsPage() {
                   <h3>{m.title}</h3>
                   <p>{m.desc}</p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
               </div>
             ))}
           </div>

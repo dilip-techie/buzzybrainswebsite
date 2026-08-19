@@ -2,6 +2,31 @@
 
 import React, { useState } from 'react';
 import { Award, CheckCircle, GraduationCap, BookOpen, Zap, Trophy, ArrowRight, ChevronRight } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'How do the merit scholarships work?',
+    answer: 'Scholarships are based on your entrance test score: 20% off for 80%+, 40% off for 90%+, and 50% off for 95%+. There\'s no separate application — your entrance test score is automatically evaluated against all three tiers.',
+  },
+  {
+    question: 'Is there a fee to take the entrance test?',
+    answer: 'No — the entrance test is free, with no hidden charges anywhere in the admissions process.',
+  },
+  {
+    question: 'What does the admissions process look like?',
+    answer: 'Four steps: take the entrance test, get your score evaluated against the scholarship criteria, receive a personalized offer letter with your scholarship tier, then complete enrollment.',
+  },
+  {
+    question: 'What if my child isn\'t satisfied after enrolling?',
+    answer: 'We offer a money-back guarantee if you\'re unsatisfied, along with flexible batch timings, payment options and the freedom to change batches — enrollment isn\'t a one-way commitment.',
+  },
+  {
+    question: 'Are classes online or in person?',
+    answer: 'Both formats are available for every program, so you can choose whichever fits your family\'s schedule.',
+  },
+];
 
 export default function AdmissionsPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -259,6 +284,10 @@ export default function AdmissionsPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">

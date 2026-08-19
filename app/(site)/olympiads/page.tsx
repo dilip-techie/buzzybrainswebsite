@@ -13,6 +13,7 @@ import {
   Phone,
   Trophy,
 } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
 
 const SUBJECTS = [
   {
@@ -70,6 +71,29 @@ const HIGHLIGHTS = [
   { value: '20+', label: 'Named Competitions Covered', icon: Trophy, gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
   { value: '25+', label: 'Years Faculty Experience', icon: Trophy, gradient: 'linear-gradient(135deg,#F59E0B,#D97706)' },
   { value: '12', label: 'Max Students / Batch', icon: Trophy, gradient: 'linear-gradient(135deg,#10B981,#059669)' },
+];
+
+const FAQS = [
+  {
+    question: 'Which olympiad should my child start with?',
+    answer: 'For most students, IOQM (Maths) or NSO (general Science, junior level) are the natural entry points — both have a clear preparation path and feed into more advanced national and international olympiads.',
+  },
+  {
+    question: 'Can one program really cover Maths, Physics, Chemistry, Biology and Coding?',
+    answer: 'Yes — each subject runs as its own track with its own named-competition roadmap (e.g. IOQM→RMO→INMO for Maths, NSEP→INPhO→IPhO for Physics), taught by faculty specialized in that subject rather than one generalist covering everything.',
+  },
+  {
+    question: 'Do olympiads help with JEE/NEET preparation too?',
+    answer: 'Yes — olympiad-style problem-solving builds exactly the deep, flexible reasoning that JEE Advanced and NEET\'s harder questions reward, so olympiad prep and competitive-exam prep reinforce each other.',
+  },
+  {
+    question: 'Is olympiad coaching only for exceptionally gifted students?',
+    answer: 'No — it rewards trained, structured problem-solving more than raw natural talent. Students with a solid foundation who practice consistently regularly outperform naturally quick students who prepare only briefly before the exam.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every student gets individual feedback on mock papers.',
+  },
 ];
 
 export default function OlympiadsPage() {
@@ -225,6 +249,25 @@ export default function OlympiadsPage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
