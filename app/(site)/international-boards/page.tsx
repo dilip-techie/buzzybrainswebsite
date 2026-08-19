@@ -3,6 +3,31 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Globe, Calculator, Microscope, Code, DollarSign, BookOpenCheck } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'Which boards do you cover — IGCSE, IB, A-Level and AP?',
+    answer: 'All four. Maths, Sciences, Computer Science, Economics, Accounting and Social Studies are covered across Cambridge IGCSE, IB HL/SL, A-Level (Cambridge International & Edexcel), and AP — taught by faculty who understand each board\'s specific syllabus and assessment style.',
+  },
+  {
+    question: 'How is IGCSE/IB/AP coaching different from CBSE/ICSE coaching?',
+    answer: 'International boards emphasize application and critical thinking over recall, use different assessment formats (Internal Assessments, coursework, structured/free-response questions), and often require more independent research skills — coaching is built around those differences, not the same syllabus taught generically.',
+  },
+  {
+    question: 'Can a student switch from CBSE to IGCSE or IB mid-way?',
+    answer: 'It\'s possible but easier before Class 9 — after that, the curriculum and assessment style diverge enough that a switch needs deliberate bridging support rather than a straight transfer.',
+  },
+  {
+    question: 'What results do your students typically achieve?',
+    answer: 'Students consistently achieve A*/A in IGCSE and A-Level, a 7 in IB, and a 5 in AP exams.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every student gets individual attention on subject-specific assessment formats.',
+  },
+];
 
 type BoardTab = 'IGCSE' | 'IB' | 'A-Level' | 'AP';
 
@@ -448,6 +473,10 @@ export default function InternationalBoardsPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">

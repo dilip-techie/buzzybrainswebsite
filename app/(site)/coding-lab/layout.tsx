@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Code Ninja — Coding, AI & Logic Labs for Grades 6-12 | BuzzyBrains Academy',
+  title: 'Code Ninja — Coding & AI for Grades 6-12 | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. Code Ninja by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Development, AI/ML basics and competitive programming — mentored by an IIT Kanpur graduate.',
+    'Code Ninja by BuzzyBrains Academy: coding, AI foundations and computational logic for Grades 6-12. Python, Java, Web Dev and competitive programming.',
   keywords:
     'coding classes, AI classes for kids, logic classes, computational thinking, Python, Java, web development, competitive programming, coding olympiad, grades 6-12, IIT Kanpur mentor',
   alternates: { canonical: 'https://buzzybrainsacademy.com/coding-lab' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'Code Ninja - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Code Ninja — Coding, AI & Logic Labs for Grades 6-12',
+    description: 'A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

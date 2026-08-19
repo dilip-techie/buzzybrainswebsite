@@ -1,7 +1,32 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react';
+import { FaqJsonLd } from '../components/JsonLd';
+
+const HOME_FAQS = [
+  {
+    question: 'What is the batch size at BuzzyBrains Academy?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every child gets individual attention and a mentor who actually knows their specific weak areas — not a generic revision schedule.',
+  },
+  {
+    question: 'Which programs does BuzzyBrains Academy offer?',
+    answer: 'Foundation coaching for Grades 6–10, Maths Excellence and Olympiad training, IIT-JEE and NEET preparation for Grades 11–12 and droppers, Commerce Tuitions, IGCSE/IB/A-Level/AP coaching, SAT prep, and Code Ninja (coding & AI) for Grades 6–12.',
+  },
+  {
+    question: 'Who teaches at BuzzyBrains Academy?',
+    answer: 'Our faculty are IIT and IIM alumni with 25+ years of combined teaching experience, focused on conceptual, visual and AI-powered learning rather than rote memorization.',
+  },
+  {
+    question: 'Where are your centers located, and do you offer online classes?',
+    answer: 'Our centers are in Amanora and Kharadi, Hadapsar, Pune. Every program is also available online, so families outside these localities — or anyone who prefers not to commute — can join live classes remotely.',
+  },
+  {
+    question: 'How do I book a free demo class?',
+    answer: 'Fill out the form on this page, call us, or message us on WhatsApp — we\'ll set up a free demo class so you can experience our teaching style and meet the mentors before committing.',
+  },
+];
 
 const PROGRAMS = [
   {
@@ -571,7 +596,13 @@ export default function HomePage() {
               <div className="phone-container">
                 {!playVideo ? (
                   <div className="video-thumbnail-wrapper" onClick={() => setPlayVideo(true)} role="button" aria-label="Play video">
-                    <img src="/images/oardefault.avif" alt="Video Thumbnail" className="video-thumbnail" />
+                    <Image
+                      src="/images/oardefault.avif"
+                      alt="BuzzyBrains Academy video introduction thumbnail"
+                      fill
+                      sizes="340px"
+                      className="video-thumbnail"
+                    />
                     <div className="custom-play-btn" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8 5v14l11-7z" />
@@ -960,6 +991,25 @@ export default function HomePage() {
               </div>
               <span className="gal-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l2.4 6.2L21 9l-5 4.4L17.5 20 12 16.5 6.5 20 8 13.4 3 9l6.6-.8z" /></svg> Premium Infrastructure</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Questions parents ask us</h2>
+          </div>
+          <FaqJsonLd items={HOME_FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {HOME_FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

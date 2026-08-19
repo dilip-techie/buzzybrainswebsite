@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { BookOpen, GraduationCap, Users, Layers, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
@@ -59,6 +60,17 @@ export default function SofOlympiadsPage() {
         demoSubject="Olympiad"
         programs={['Maths', 'Science', 'English', 'General Knowledge', 'Commerce', 'Financial Literacy', 'Economics', 'Physics', 'Chemistry', 'NSEJS', 'Not sure yet — need guidance']}
       />
+      <section className="oly-section !py-10">
+        <div className="oly-container text-center">
+          <p className="text-[14.5px] text-oly-ink/60">
+            Specifically after the six official SOF exams? See our{' '}
+            <Link href="/sof-imo-coaching-pune" className="font-semibold text-oly-brand-600 underline underline-offset-2">
+              SOF exam coaching
+            </Link>{' '}
+            for IMO, NSO, IEO, NCO, IGKO and ISSO.
+          </p>
+        </div>
+      </section>
       <FinalCTA />
     </main>
   );

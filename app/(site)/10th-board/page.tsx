@@ -2,6 +2,31 @@
 
 import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'When should Grade 10 board exam preparation start?',
+    answer: 'Grade 9 is the ideal starting point — it gives a full year to build conceptual fundamentals in Maths and Science before Grade 10 shifts to board-pattern practice, mock tests and final revision.',
+  },
+  {
+    question: 'Does this program work for CBSE, ICSE and State Board students?',
+    answer: 'Yes — the core Maths and Science concepts overlap heavily across boards, so teaching is concept-first rather than tied to one textbook. Mock tests and revision are then aligned to each student\'s specific board pattern.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so doubts get resolved individually instead of getting lost in a large classroom.',
+  },
+  {
+    question: 'Does Grade 10 coaching help later with JEE or NEET?',
+    answer: 'Yes — a strong Grade 10 Maths and Science foundation is exactly what Grade 11-12 JEE/NEET preparation builds on. Students who master fundamentals now spend less time re-learning basics later.',
+  },
+  {
+    question: 'Are classes held online, offline, or both?',
+    answer: 'Classes run from our Amanora, Pune centre, with an online option available for students who prefer not to commute.',
+  },
+];
 
 export default function Class10BoardPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -287,6 +312,10 @@ export default function Class10BoardPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">

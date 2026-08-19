@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { ProgramJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Grade 12 Board Exam & JEE/NEET Prep | Score 95%+ | IITian Mentor Coaching | BuzzyBrains Academy",
-  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian mentor (IIT Kanpur & IIM Ahmedabad). Premium coaching with small batches, expert faculty, and proven 95%+ board results.",
+  title: "Grade 12 Board Exam & JEE/NEET Coaching | BuzzyBrains Academy",
+  description: "Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
   alternates: { canonical: "https://buzzybrainsacademy.com/12th-board" },
   openGraph: {
     title: "Grade 12 Board Exam & JEE/NEET Prep | Score 95%+",
@@ -19,6 +19,12 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grade 12 Board Exam & JEE/NEET Prep | Score 95%+",
+    description: "Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
+    images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };
 

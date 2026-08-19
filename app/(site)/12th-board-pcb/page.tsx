@@ -2,6 +2,31 @@
 
 import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Heart } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'How is NCERT used in this NEET + board program?',
+    answer: 'NCERT is the core text, taught line-by-line rather than skimmed — NEET Biology in particular draws heavily and directly from NCERT phrasing, so students who master it consistently outperform those relying only on reference books.',
+  },
+  {
+    question: 'Can board preparation and NEET preparation really happen together?',
+    answer: 'Yes, and it should — a well-structured program builds board-exam clarity and NEET-level depth from the same NCERT foundation, instead of treating boards and NEET as two separate syllabi competing for time.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every student gets individual attention on Biology diagrams, Organic Chemistry mechanisms and Physics numericals.',
+  },
+  {
+    question: 'Is a dropper year supported for NEET?',
+    answer: 'Yes — for students who fell short by a correctable margin, a focused dropper year with small-batch mentoring often closes the gap. It\'s a bigger commitment and should be a considered decision, not a default.',
+  },
+  {
+    question: 'Are classes online or in person?',
+    answer: 'Classes run from our Amanora, Pune centre, with an online option for students who prefer not to commute.',
+  },
+];
 
 export default function Class12BoardPCBPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -289,6 +314,10 @@ export default function Class12BoardPCBPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">

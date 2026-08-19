@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'International Boards & SAT Coaching Pune | IGCSE, IB, AP, SAT | BuzzyBrains Academy',
+  title: 'International Boards & SAT Coaching Pune | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. A guide to IGCSE, IB, AP and Digital SAT coaching in Pune, and how BuzzyBrains Academy structures its International Boards and SAT programs.',
+    'A guide to IGCSE, IB, AP and Digital SAT coaching in Pune, and how BuzzyBrains Academy structures its International Boards and SAT programs.',
   keywords: 'IGCSE coaching Pune, IB coaching Pune, AP coaching Pune, SAT coaching Pune, international board tuition Pune',
   alternates: { canonical: 'https://buzzybrainsacademy.com/international-boards-coaching-pune' },
   openGraph: {
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com/international-boards-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'International Boards & SAT Coaching Pune | BuzzyBrains Academy',
+    description: 'A guide to IGCSE, IB, AP and Digital SAT coaching in Pune.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

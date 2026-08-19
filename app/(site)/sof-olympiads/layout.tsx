@@ -3,13 +3,13 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { sofOlympiadFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'SOF Olympiads Coaching Pune | Maths, Science, English & More (Grades 3–10) | BuzzyBrains Academy',
+  title: 'Multi-Subject Olympiad Coaching in Pune | BuzzyBrains Academy',
   description:
-    'Structured olympiad coaching for Grades 3-10 across Maths, Science, English, General Knowledge, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS. Batches capped at 12. Book a free demo class.',
+    'Structured olympiad coaching for Grades 3-10 across Maths, Science, English, Commerce, Physics, Chemistry and more. Batches capped at 12.',
   keywords: 'SOF olympiad coaching Pune, IMO NSO IEO IGKO coaching, olympiad classes Pune grades 3-10, NSEJS coaching, science olympiad Pune, commerce olympiad, financial literacy olympiad',
   alternates: { canonical: 'https://buzzybrainsacademy.com/sof-olympiads' },
   openGraph: {
-    title: 'SOF Olympiads Coaching Pune | Grades 3–10 | BuzzyBrains Academy',
+    title: 'Multi-Subject Olympiad Coaching in Pune | Grades 3–10',
     description: 'Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/sof-olympiads',
     siteName: 'BuzzyBrains Academy',
@@ -19,9 +19,15 @@ export const metadata: Metadata = {
         url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
         width: 1200,
         height: 630,
-        alt: 'SOF Olympiads Coaching - BuzzyBrains Academy',
+        alt: 'Multi-Subject Olympiad Coaching - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Multi-Subject Olympiad Coaching in Pune | Grades 3–10',
+    description: 'Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

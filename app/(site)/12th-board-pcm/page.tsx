@@ -2,6 +2,31 @@
 
 import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'What makes this different from generic JEE coaching?',
+    answer: 'It\'s built as one curriculum for board and JEE together, not two separate tracks. Concept-first teaching means the same Physics/Chemistry/Maths depth that scores well in boards also builds the multi-concept problem-solving JEE Advanced rewards.',
+  },
+  {
+    question: 'What batch size should I look for in JEE coaching?',
+    answer: 'Below 15 students per batch is where individual doubt-resolution actually becomes possible. Every batch here is capped at 12.',
+  },
+  {
+    question: 'Is this for JEE Main only, or JEE Advanced too?',
+    answer: 'Both. The curriculum is sequenced so JEE Main-level mastery is built first, then extended into JEE Advanced-style multi-concept problems as students progress through Grade 11-12.',
+  },
+  {
+    question: 'Is a dropper year (repeating Grade 12 for JEE) supported?',
+    answer: 'Yes — droppers follow an accelerated version of the same curriculum, spending less time on material already covered and more on mock-test volume and rank-improvement strategy.',
+  },
+  {
+    question: 'Are classes online or in person?',
+    answer: 'Classes run from our Amanora, Pune centre, with an online option for students who prefer not to commute.',
+  },
+];
 
 export default function Class12BoardPCMPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -287,6 +312,10 @@ export default function Class12BoardPCMPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">

@@ -4,7 +4,7 @@ import { LocalBusinessJsonLd, FaqJsonLd } from '../../components/JsonLd';
 export const metadata: Metadata = {
   title: 'Coaching Classes for Kharadi Students | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. BuzzyBrains Academy serves Kharadi students with IIT-JEE, NEET, Foundation, Olympiad and Maths Tuition coaching — small batches (max 12), online and offline, from our Amanora & Aspire Towers centers.',
+    'Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
   keywords: 'coaching classes Kharadi, coaching institute near Kharadi Pune, tuition classes Kharadi, JEE NEET coaching Kharadi',
   alternates: { canonical: 'https://buzzybrainsacademy.com/coaching-in-kharadi' },
   openGraph: {
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com/coaching-in-kharadi',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Coaching Classes for Kharadi Students | BuzzyBrains Academy',
+    description: 'Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

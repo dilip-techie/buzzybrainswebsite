@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Clock } from 'lucide-react';
 import { ArticleJsonLd, FaqJsonLd } from '../../../components/JsonLd';
@@ -179,14 +180,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span>{new Date(post.datePublished).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
             <span><Clock size={13} style={{ verticalAlign: -2, marginRight: 3 }} />{post.readingMinutes} min read</span>
           </div>
-          <img
+          <Image
             className="article-hero-image reveal"
             src={`/images/og/${post.slug}.png`}
             alt={post.title}
             width={1200}
             height={630}
-            loading="eager"
-            fetchPriority="high"
+            priority
+            sizes="(max-width: 800px) 100vw, 800px"
           />
         </div>
       </section>

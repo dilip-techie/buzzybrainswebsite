@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ArticleJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'NEET Coaching Pune | Small Batches, NCERT-First Teaching | BuzzyBrains Academy',
+  title: 'NEET Coaching Pune | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. How to evaluate NEET coaching in Pune, why NCERT depth matters more than extra reference books, and how BuzzyBrains Academy structures NEET prep for Grades 11-12 and droppers.',
+    'How to evaluate NEET coaching in Pune, why NCERT depth matters, and how BuzzyBrains Academy structures NEET prep for Grades 11-12 and droppers.',
   keywords: 'NEET coaching Pune, NEET coaching institute Pune, best NEET coaching Pune, NEET Biology coaching',
   alternates: { canonical: 'https://buzzybrainsacademy.com/neet-coaching-pune' },
   openGraph: {
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com/neet-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NEET Coaching Pune | BuzzyBrains Academy',
+    description: 'A complete guide to choosing NEET coaching in Pune, and how BuzzyBrains Academy structures its NEET program.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

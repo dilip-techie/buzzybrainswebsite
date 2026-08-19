@@ -16,6 +16,7 @@ import {
   Play,
   Layers,
 } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
 
 const HIGHLIGHTS = [
   { value: '6–10', label: 'Grades Covered', icon: BookOpen, gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
@@ -104,6 +105,29 @@ const SUITABLE_FOR = [
   'Learners who enjoy understanding why, not just what',
   'Children who are anxious about Maths and Science',
   'Students who want personalized attention and guidance',
+];
+
+const FAQS = [
+  {
+    question: 'What grades and subjects does the Foundation Program cover?',
+    answer: 'Grades 6–10, across Mathematics, Physics, Chemistry and Biology — taught concept-first rather than as rote memorization, so the fundamentals hold up under JEE, NEET, Olympiad or board-exam pressure later.',
+  },
+  {
+    question: 'My child is doing fine in school — is Foundation coaching still worth it?',
+    answer: "Yes — school tuition typically reinforces what was taught in class. Foundation coaching goes further, building problem-solving ability and exposing students to competitive-exam-style thinking years before they'll need it.",
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so doubt-resolution stays individual instead of getting lost in a large classroom.',
+  },
+  {
+    question: 'When should a child start the Foundation Program?',
+    answer: 'Grade 6 is a common and effective starting point — early enough to build genuine conceptual habits before board-exam pressure begins in Grade 9-10, without rushing a younger child into exam-style coaching too early.',
+  },
+  {
+    question: 'Are classes online or in person?',
+    answer: 'Classes run from our Amanora, Pune centre, with an online option for students who prefer not to commute.',
+  },
 ];
 
 export default function FoundationPage() {
@@ -290,6 +314,25 @@ export default function FoundationPage() {
             <Rocket size={20} style={{ verticalAlign: '-4px', marginRight: 8, color: 'var(--amber-soft)' }} />
             If your answer is YES to any of the above, BuzzyBrains Academy&apos;s Foundation Program is perfect for your child!
           </p>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

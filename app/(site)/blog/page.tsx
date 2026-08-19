@@ -10,6 +10,26 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { BLOG_POSTS, CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/posts';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+
+const BLOG_FAQS = [
+  {
+    question: 'Who writes the BuzzyBrains Academy blog?',
+    answer: "Every guide is written by our IIT/IIM alumni faculty, based on how we actually teach the topic in class — not generic, syndicated exam-prep content.",
+  },
+  {
+    question: 'What subjects does the blog cover?',
+    answer: 'IIT-JEE, NEET, Foundation (Grades 6-10), Olympiads, Maths Tuition, SAT, AP, IGCSE, IB, CLAT, Ivy League admissions, Coding, Commerce (CUET/CA Foundation), IPMAT, CAT, coding olympiads, and CBSE/ICSE board exams.',
+  },
+  {
+    question: 'How often is new content added?',
+    answer: 'New guides are added regularly across all subject tracks — the blog currently holds 200+ in-depth articles and keeps growing.',
+  },
+  {
+    question: 'Are these guides free to read?',
+    answer: 'Yes — every guide on the blog is free, with no signup required.',
+  },
+];
 
 const CATEGORY_ORDER: BlogCategory[] = [
   'iit-jee',
@@ -280,6 +300,25 @@ export default function BlogIndexPage() {
           </section>
         </>
       )}
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={BLOG_FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {BLOG_FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

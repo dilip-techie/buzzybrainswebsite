@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'AP Exam Coaching — Score a 5 in Calculus, Physics, Chemistry, Stats & CS A | BuzzyBrains Academy',
+  title: 'AP Exam Coaching — Aim for a Score of 5 | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. AP Calculus AB/BC, Physics 1 & C, Chemistry, Statistics and Computer Science A — small batches, FRQ-first training and full-length mocks. US-timezone friendly, online and at our Pune centre. Book a free demo.',
+    'AP Calculus, Physics, Chemistry, Statistics and Computer Science A — small batches, FRQ-first training and full mocks. Online and at our Pune centre.',
   keywords:
     'AP exam coaching, AP Calculus AB BC, AP Physics 1, AP Physics C, AP Chemistry, AP Statistics, AP Computer Science A, AP score 5, College Board exam prep, AP exam coaching Pune, AP tutoring online',
   alternates: { canonical: 'https://buzzybrainsacademy.com/ap-exam' },
@@ -23,6 +23,12 @@ export const metadata: Metadata = {
         alt: 'AP Exam Coaching - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AP Exam Coaching — Aim for the 5',
+    description: 'Advanced Placement coaching by an IIT Kanpur graduate. AP Calculus, Physics, Chemistry, Statistics & Computer Science A. Small batches, FRQ-first practice, full-length mocks.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

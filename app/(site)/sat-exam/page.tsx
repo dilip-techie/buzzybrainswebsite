@@ -17,6 +17,30 @@ import {
   Repeat,
   Trophy,
 } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+
+const FAQS = [
+  {
+    question: 'What score should my child target on the Digital SAT?',
+    answer: '1450+ is a strong, competitive score for most selective US universities; 1550+ moves into elite/Ivy-ready territory. We set the specific target based on a full-length diagnostic and each student\'s target college list.',
+  },
+  {
+    question: 'How is the Digital SAT different from the old paper SAT?',
+    answer: 'The Digital SAT is shorter, adaptive (module 2 difficulty depends on module 1 performance), and computer-based via the Bluebook app. Pacing and strategy are genuinely different from paper-SAT material, which is why every mock and drill here mirrors the real adaptive format.',
+  },
+  {
+    question: 'When should SAT preparation start?',
+    answer: 'Most students get the best results starting focused prep about 6-9 months before their target test date, once core Grade 10-11 English and Maths fundamentals are solid.',
+  },
+  {
+    question: 'How many mock tests are included?',
+    answer: '10+ full-length, Bluebook-style adaptive mock tests under true timed conditions, each followed by section-wise error analysis so prep stays targeted rather than generic.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every student gets individual score analysis rather than generic advice.',
+  },
+];
 
 const HIGHLIGHTS = [
   { value: '1600', label: 'Max SAT Score', icon: Trophy, gradient: 'var(--grad-blue)' },
@@ -233,6 +257,25 @@ export default function SatExamPage() {
                 <div className="trust-icon" style={{ background: w.gradient }}><w.icon size={24} color="#fff" /></div>
                 <h3>{w.title}</h3>
                 <p>{w.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
               </div>
             ))}
           </div>

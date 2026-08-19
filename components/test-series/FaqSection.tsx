@@ -35,11 +35,17 @@ export default function FaqSection() {
                     +
                   </span>
                 </button>
-                {isOpen && (
-                  <p className="pb-6 pr-10 text-[14.5px] leading-relaxed text-[#0E2148]/70">
-                    {item.a}
-                  </p>
-                )}
+                <div
+                  className={`grid transition-all duration-300 ease-in-out ${
+                    isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                  }`}
+                >
+                  <div className="overflow-hidden">
+                    <p className="pb-6 pr-10 text-[14.5px] leading-relaxed text-[#0E2148]/70">
+                      {item.a}
+                    </p>
+                  </div>
+                </div>
               </div>
             );
           })}

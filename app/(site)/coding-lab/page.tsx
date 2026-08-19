@@ -12,6 +12,30 @@ import {
   Trophy,
   Users,
 } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+
+const FAQS = [
+  {
+    question: 'Does my child need any coding experience to start?',
+    answer: 'No — Grades 6-7 start with block-based coding and an intro to Python, building the coding mindset from scratch. Older students with no prior experience join the same track and catch up quickly since it\'s logic-first, not syntax-first.',
+  },
+  {
+    question: 'What will my child actually build?',
+    answer: 'Every module ends in a shipped project — an app, a game, a bot or a model — rather than isolated exercises. By Grades 11-12, projects are portfolio and college-application ready.',
+  },
+  {
+    question: 'Does this track lead into coding olympiads?',
+    answer: 'Yes — Grades 11-12 includes a dedicated Advanced + AI track covering DSA and competitive programming, with a clear path into ZIO, INOI and IOI for students who want to compete.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so every student gets hands-on, one-on-one code review instead of generic instruction.',
+  },
+  {
+    question: 'Who teaches Code Ninja?',
+    answer: 'The program is led by an IIT Kanpur graduate who has built and taught real-world software and AI systems, not just academic coding exercises.',
+  },
+];
 
 const PILLARS = [
   {
@@ -218,6 +242,25 @@ export default function CodingLabPage() {
                 <div className="trust-icon" style={{ background: w.gradient }}><w.icon size={24} color="#fff" /></div>
                 <h3>{w.title}</h3>
                 <p>{w.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FAQ ============ */}
+      <section className="bb-section" id="faq" aria-labelledby="faq-title">
+        <div className="container" style={{ maxWidth: 760 }}>
+          <div className="center">
+            <span className="eyebrow reveal">FAQ</span>
+            <h2 className="section-title reveal" id="faq-title">Frequently asked questions</h2>
+          </div>
+          <FaqJsonLd items={FAQS} />
+          <div className="article-faq reveal" style={{ marginTop: 32 }}>
+            {FAQS.map((item) => (
+              <div className="article-faq-item" key={item.question}>
+                <h3>{item.question}</h3>
+                <p>{item.answer}</p>
               </div>
             ))}
           </div>

@@ -3,8 +3,8 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { mathsOlympiadFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'Maths Excellence Program | Olympiad Mathematics | BuzzyBrains Academy',
-  description: 'IITian Mentorship. Gateway to Top IITs and AIIMS. Elite mathematics training with a grade-wise roadmap from Grade 4 foundations to IOQM, RMO, INMO, AMC and IMO. Batches capped at 12, mentored by Dilip Sah (IIT Kanpur, IIM Ahmedabad).',
+  title: 'Maths Excellence Program | BuzzyBrains Academy',
+  description: 'Elite mathematics training with a grade-wise roadmap from Grade 4 foundations to IOQM, RMO, INMO, AMC and IMO. Batches capped at 12.',
   keywords: 'olympiad mathematics, maths excellence program, INMO, RMO, IOQM, AMC, AIME, IMO, SOF IMO, NMTC, Math Kangaroo, advanced mathematics, problem solving',
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-math' },
   openGraph: {
@@ -21,7 +21,13 @@ export const metadata: Metadata = {
         alt: 'Maths Excellence Program - BuzzyBrains Academy'
       }
     ]
-  }
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Build Mathematical Thinking Early - BuzzyBrains Academy Olympiad Math',
+    description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
+    images: ['https://buzzybrainsacademy.com/images/Maths Excellence Program.png'],
+  },
 };
 
 export default function OlympiadMathLayout({

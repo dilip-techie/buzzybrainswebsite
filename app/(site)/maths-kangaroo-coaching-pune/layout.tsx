@@ -3,9 +3,9 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { kangarooFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'Math Kangaroo Coaching in Pune | All 6 Levels, Grades 1–12 | BuzzyBrains Academy',
+  title: 'Math Kangaroo Coaching in Pune | BuzzyBrains Academy',
   description:
-    'Dedicated Math Kangaroo coaching in Pune across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12. Book a free demo class.',
+    'Dedicated Math Kangaroo coaching in Pune across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
   keywords: 'Math Kangaroo coaching Pune, Math Kangaroo classes, Math Kangaroo levels, Math Kangaroo preparation India',
   alternates: { canonical: 'https://buzzybrainsacademy.com/maths-kangaroo-coaching-pune' },
   openGraph: {
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'Math Kangaroo Coaching in Pune - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Math Kangaroo Coaching in Pune | BuzzyBrains Academy',
+    description: 'Dedicated Math Kangaroo coaching across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

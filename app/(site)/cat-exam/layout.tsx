@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'CAT Coaching — India\'s Top MBA Entrance Exam | BuzzyBrains Academy',
+  title: 'CAT Coaching — India\'s Top MBA Exam | BuzzyBrains Academy',
   description:
-    'Structured CAT preparation — VARC, DILR and Quantitative Ability — with sectional-time-native mocks, DILR set-selection coaching and small batches capped at 12 students.',
+    'Structured CAT preparation — VARC, DILR and Quantitative Ability — with sectional-time-native mocks and small batches capped at 12.',
   keywords:
     'CAT coaching, CAT exam prep, Common Admission Test, CAT VARC DILR QA, CAT DILR strategy, CAT quantitative ability, MBA entrance coaching, CAT coaching Pune, IIM entrance exam',
   alternates: { canonical: 'https://buzzybrainsacademy.com/cat-exam' },
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
         alt: 'CAT Coaching - BuzzyBrains Academy',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CAT Coaching — India\'s Top MBA Entrance Exam',
+    description: 'Structured, sectional-time-native CAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

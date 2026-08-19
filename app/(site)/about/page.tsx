@@ -2,6 +2,27 @@
 
 import React, { useState } from 'react';
 import { BookOpen, Heart, Lightbulb, Target, Users, Award, ChevronRight, Zap } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'Who founded BuzzyBrains Academy, and when?',
+    answer: 'BuzzyBrains Academy was founded in mid-2021 by Dilip Sah (IIT Kanpur, IIM Ahmedabad), who left a stable job to start the academy from a 200-sq-ft rented room with just 8 students from his neighborhood.',
+  },
+  {
+    question: 'Why did BuzzyBrains Academy start with such small batches?',
+    answer: 'After watching students get lost in 60-80-student classrooms — bright kids failing not from lack of ability but from lack of individual attention — the founder built BuzzyBrains around the opposite premise: batches capped at 12, so every mentor genuinely knows every student.',
+  },
+  {
+    question: "What is BuzzyBrains Academy's mission?",
+    answer: 'To give every student the individual attention a large classroom can never offer — replacing rote memorization with genuine understanding, one small batch at a time.',
+  },
+  {
+    question: 'How is BuzzyBrains different from typical coaching institutes?',
+    answer: 'Batch size is capped at 12 (not 60-80), faculty are IIT/IIM alumni who teach directly rather than delegate to junior staff, and the focus is on conceptual understanding over rote memorization and syllabus completion.',
+  },
+];
 
 export default function AboutPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -98,7 +119,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Our <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Story</span>
+              The BuzzyBrains Academy <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Story</span>
             </h1>
             <p className="text-xl text-gray-600 mb-4">
               How a simple realization changed everything
@@ -325,6 +346,10 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">

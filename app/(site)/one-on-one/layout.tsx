@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { ProgramJsonLd, FaqJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor | BuzzyBrains Academy",
-  description: "IITian Mentorship. Gateway to Top IITs and AIIMS. Personalized 1-on-1 coaching sessions with expert IITian mentor (IIT Kanpur & IIM Ahmedabad). Custom learning plans for IIT-JEE, NEET, Board Exams, and any academic goal with flexible online/offline options.",
+  title: "1-on-1 Personalized Coaching | BuzzyBrains Academy",
+  description: "Personalized 1-on-1 coaching with an expert IITian mentor (IIT Kanpur & IIM Ahmedabad). Custom learning plans for JEE, NEET or board exams, online or offline.",
   alternates: { canonical: "https://buzzybrainsacademy.com/one-on-one" },
   openGraph: {
     title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor",
@@ -19,6 +19,12 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor",
+    description: "Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
+    images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };
 

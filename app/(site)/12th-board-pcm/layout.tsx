@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers | BuzzyBrains Academy',
+  title: 'IIT-JEE Coaching for PCM & Droppers | BuzzyBrains Academy',
   description:
-    'IITian Mentorship. Gateway to Top IITs and AIIMS. Deep conceptual IIT-JEE coaching in Physics, Chemistry & Maths for Grades 11-12 and droppers. Concept-first teaching, advanced problem solving and JEE Main + Advanced test series with IITian faculty.',
+    'Deep conceptual IIT-JEE coaching in Physics, Chemistry & Maths for Grades 11-12 and droppers. Concept-first teaching and JEE Main + Advanced test series.',
   alternates: { canonical: 'https://buzzybrainsacademy.com/12th-board-pcm' },
   openGraph: {
     title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
       },
     ],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',
+    description: 'Rigorous, concept-first IIT-JEE preparation in Physics, Chemistry & Maths, mentored by IIT alumni faculty.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
 

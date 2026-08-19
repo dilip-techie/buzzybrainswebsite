@@ -2,6 +2,31 @@
 
 import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Heart } from 'lucide-react';
+import { FaqJsonLd } from '@/app/components/JsonLd';
+import MarketingFaq from '@/components/MarketingFaq';
+
+const FAQS = [
+  {
+    question: 'Can this program prepare my child for boards and JEE/NEET at the same time?',
+    answer: 'Yes — that\'s the core design. PCM students get dual board + JEE Main preparation, and PCB students get dual board + NEET preparation, built as one coherent curriculum rather than two separate tracks competing for study time.',
+  },
+  {
+    question: 'How do I choose between the PCM and PCB track?',
+    answer: 'PCM (Physics, Chemistry, Maths) leads to engineering and JEE; PCB (Physics, Chemistry, Biology) leads to medical and NEET. Most students already know their direction by Grade 11 — if not, we help assess fit during the initial consultation.',
+  },
+  {
+    question: 'What is the batch size?',
+    answer: 'Every batch is capped at a maximum of 12 students, so doubt-resolution stays individual even with the dual board + competitive-exam workload.',
+  },
+  {
+    question: 'Is a dropper year (repeating Grade 12 for JEE/NEET) supported?',
+    answer: 'Yes — droppers follow an accelerated version of the same curriculum, with more mock-test volume and less time spent on material they\'ve already covered once.',
+  },
+  {
+    question: 'Are classes online or in person?',
+    answer: 'Classes run from our Amanora, Pune centre, with an online option for students who prefer not to commute.',
+  },
+];
 
 export default function Class12BoardPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
@@ -361,6 +386,10 @@ export default function Class12BoardPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqJsonLd items={FAQS} />
+      <MarketingFaq items={FAQS} />
 
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">
