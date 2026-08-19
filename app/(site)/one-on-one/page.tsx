@@ -1,36 +1,12 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Clock, Star } from 'lucide-react';
+import CtaModal from '@/components/CtaModal';
 
 export default function OneOnOneClassesPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
   const [isPricePopupExpanded, setIsPricePopupExpanded] = useState(false);
-
-  // Starts collapsed so page content isn't buried on first paint; expands once,
-  // after a short delay, then remembers it's been shown so repeat visitors
-  // aren't served the full banner on every single visit.
-  useEffect(() => {
-    let alreadySeen = false;
-    try {
-      alreadySeen = window.localStorage.getItem('bb-price-popup-seen') === '1';
-    } catch {}
-    if (alreadySeen) return;
-
-    const showTimer = window.setTimeout(() => {
-      setIsPricePopupExpanded(true);
-      try {
-        window.localStorage.setItem('bb-price-popup-seen', '1');
-      } catch {}
-    }, 1500);
-    return () => window.clearTimeout(showTimer);
-  }, []);
-
-  useEffect(() => {
-    if (!isPricePopupExpanded) return;
-    const timer = window.setTimeout(() => setIsPricePopupExpanded(false), 5000);
-    return () => window.clearTimeout(timer);
-  }, [isPricePopupExpanded]);
 
   const scrollToTop = (e?: React.MouseEvent) => {
     if (e) e.preventDefault();
@@ -417,10 +393,10 @@ export default function OneOnOneClassesPage() {
             First consultation is <span className="font-bold text-indigo-600">FREE</span>. We'll assess your child's needs and create a custom plan.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
+            <a href="tel:+919850570525" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-indigo-600 transition">
               <Phone className="w-6 h-6 text-indigo-600" />
               <span className="font-bold">98505 70525</span>
-            </div>
+            </a>
             <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
               <MapPin className="w-6 h-6 text-indigo-600" />
               <span className="font-bold">Amanora, Hadapsar, Pune</span>
@@ -452,41 +428,14 @@ export default function OneOnOneClassesPage() {
       </section>
 
       {/* CTA Modal */}
-      {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Book Your Free Demo? 📚</h2>
-              <p className="text-gray-600">Get started with personalized 1-on-1 classes today</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className="w-full bg-gradient-to-r from-indigo-600 to-pink-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-            </div>
-            
-            <button
-              onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
+      <CtaModal
+        open={showCtaModal}
+        onClose={() => setShowCtaModal(false)}
+        onFormClick={handleCtaModalForm}
+        onWhatsAppClick={handleCtaModalWhatsApp}
+        title="Book Your Free Demo? 📚"
+        subtitle="Get started with personalized 1-on-1 classes today"
+      />
     </div>
   );
 }

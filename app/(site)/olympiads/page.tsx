@@ -14,6 +14,7 @@ import {
   Trophy,
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
+import CtaModal from '@/components/CtaModal';
 
 const SUBJECTS = [
   {
@@ -291,46 +292,14 @@ export default function OlympiadsPage() {
       </section>
 
       {/* ============ CTA MODAL ============ */}
-      {showCtaModal && (
-        <div
-          style={{
-            position: 'fixed', inset: 0, background: 'rgba(15,23,42,.6)', zIndex: 200,
-            display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16,
-          }}
-          onClick={() => setShowCtaModal(false)}
-        >
-          <div
-            style={{
-              background: 'var(--card)', borderRadius: 'var(--r-lg)', boxShadow: 'var(--shadow-lg)',
-              maxWidth: 420, width: '100%', padding: 32,
-            }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="center" style={{ marginBottom: 24 }}>
-              <h2 style={{ fontSize: 26, fontFamily: 'var(--font-display)', fontWeight: 800, marginBottom: 8 }}>Ready to Enroll? 🏆</h2>
-              <p style={{ color: 'var(--text-2)' }}>Choose how you&apos;d like to connect with us</p>
-            </div>
-
-            <div style={{ display: 'grid', gap: 12 }}>
-              <button onClick={handleCtaModalForm} className="btn btn-primary" style={{ width: '100%', justifyContent: 'space-between' }}>
-                <span>📝 Contact Form</span>
-                <ChevronRight size={19} />
-              </button>
-              <button onClick={handleCtaModalWhatsApp} className="btn btn-green" style={{ width: '100%', justifyContent: 'space-between' }}>
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight size={19} />
-              </button>
-            </div>
-
-            <button
-              onClick={() => setShowCtaModal(false)}
-              style={{ width: '100%', marginTop: 20, color: 'var(--text-3)', fontWeight: 600, padding: '8px 0', background: 'none', border: 'none' }}
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
+      <CtaModal
+        open={showCtaModal}
+        onClose={() => setShowCtaModal(false)}
+        onFormClick={handleCtaModalForm}
+        onWhatsAppClick={handleCtaModalWhatsApp}
+        title="Ready to Enroll? 🏆"
+        subtitle="Choose how you'd like to connect with us"
+      />
     </main>
   );
 }

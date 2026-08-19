@@ -39,15 +39,18 @@ enum AttemptStatus {
 }
 
 model Lead {
-  id         String    @id @default(uuid())
-  name       String
-  email      String
-  phone      String
-  board      String?
-  grade      String?
-  source     String    @default("board-exam-study-planner") @map("source")
-  pdfSentAt  DateTime? @map("pdf_sent_at")
-  createdAt  DateTime  @default(now()) @map("created_at")
+  id          String    @id @default(uuid())
+  name        String
+  studentName String?   @map("student_name")
+  email       String
+  phone       String
+  board       String?
+  grade       String?
+  school      String?
+  program     String?
+  source      String    @default("board-exam-study-planner") @map("source")
+  pdfSentAt   DateTime? @map("pdf_sent_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
 
   @@index([email])
   @@map("leads")

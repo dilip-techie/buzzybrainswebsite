@@ -35,6 +35,17 @@ interface SendStudyPlannerParams {
   pdfBuffer: Buffer;
 }
 
+interface SendDemoLeadNotificationParams {
+  studentName: string;
+  parentName: string;
+  grade: string;
+  school?: string;
+  phone: string;
+  email: string;
+  program: string;
+  source: string;
+}
+
 // ── Shared Design Tokens ──────────────────────────────────────────────
 
 const BRAND = {
@@ -340,5 +351,44 @@ export async function sendStudyPlannerPdf({ to, name, pdfBuffer }: SendStudyPlan
     emailShell(inner),
     'STUDY PLANNER PDF',
     [{ filename: 'BuzzyBrains-Board-Exam-Study-Planner.pdf', content: pdfBuffer, contentType: 'application/pdf' }]
+  );
+}
+
+// ── 5. Demo Class Lead Notification (internal, sent to admissions) ─────
+
+export async function sendDemoLeadNotification({
+  studentName,
+  parentName,
+  grade,
+  school,
+  phone,
+  email,
+  program,
+  source,
+}: SendDemoLeadNotificationParams): Promise<{ success: boolean; message: string; messageId?: string }> {
+  const inner = `
+    <div style="background:${BRAND.bgCard};padding:24px;border-radius:12px;margin-bottom:20px;">
+      <p style="font-size:16px;margin:0 0 16px;color:${BRAND.textPrimary};">New demo class request 🎉</p>
+      <table style="width:100%;border-collapse:collapse;">
+        ${infoRow('Student', studentName)}
+        ${infoRow('Parent', parentName)}
+        ${infoRow('Grade', grade)}
+        ${school ? infoRow('School', school) : ''}
+        ${infoRow('Program', program)}
+        ${infoRow('Phone', phone)}
+        ${infoRow('Email', email)}
+        ${infoRow('Source page', source)}
+      </table>
+    </div>
+
+    ${ctaButton(`https://wa.me/91${phone.replace(/[^0-9]/g, '').slice(-10)}`, '💬  Message on WhatsApp')}
+
+    <p style="text-align:center;color:${BRAND.textMuted};font-size:13px;margin:0;">Reach out within 24 hours for the best conversion.</p>`;
+
+  return trySend(
+    'hello@buzzybrainsacademy.com',
+    `🎉 New Demo Lead: ${studentName} (${grade}) — ${program}`,
+    emailShell(inner),
+    'DEMO LEAD NOTIFICATION'
   );
 }
