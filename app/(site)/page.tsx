@@ -331,6 +331,8 @@ export default function HomePage() {
   const [formData, setFormData] = useState<FormState>(INITIAL_FORM);
   const [invalidFields, setInvalidFields] = useState<Partial<Record<keyof FormState, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [playVideo, setPlayVideo] = useState(false);
 
   useEffect(() => {
@@ -405,7 +407,7 @@ export default function HomePage() {
     validateField(e.target.name as keyof FormState, e.target.value);
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const fields = Object.keys(formData) as (keyof FormState)[];
     let allOk = true;
@@ -421,19 +423,37 @@ export default function HomePage() {
       return;
     }
 
-    const message = [
-      'Hello! I would like to book a free demo class.',
-      '',
-      `Student Name: ${formData.studentName}`,
-      `Parent Name: ${formData.parentName}`,
-      `Grade: ${formData.grade}`,
-      `School: ${formData.school}`,
-      `Phone: ${formData.phone}`,
-      `Email: ${formData.email}`,
-      `Program: ${formData.program}`,
-    ].join('\n');
-    window.open(`https://wa.me/919850570525?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
-    setSubmitted(true);
+    setSubmitting(true);
+    setSubmitError(null);
+    try {
+      const res = await fetch('/api/leads/demo', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...formData, source: 'homepage' }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(data?.error || 'Something went wrong. Please try again.');
+      }
+
+      setSubmitted(true);
+      const message = [
+        'Hello! I would like to book a free demo class.',
+        '',
+        `Student Name: ${formData.studentName}`,
+        `Parent Name: ${formData.parentName}`,
+        `Grade: ${formData.grade}`,
+        `School: ${formData.school}`,
+        `Phone: ${formData.phone}`,
+        `Email: ${formData.email}`,
+        `Program: ${formData.program}`,
+      ].join('\n');
+      window.open(`https://wa.me/919850570525?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -1055,8 +1075,17 @@ export default function HomePage() {
                     <span className="err">{FIELD_ERRORS.program}</span>
                   </div>
                 </div>
-                <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: 8 }}>Book Your FREE Demo Class
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                {submitError && (
+                  <p role="alert" style={{ fontSize: 13.5, color: '#DC2626', background: 'rgba(220,38,38,.08)', border: '1px solid rgba(220,38,38,.25)', borderRadius: 8, padding: '10px 14px', marginTop: 12 }}>
+                    {submitError} Or message us directly on{' '}
+                    <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>WhatsApp</a>{' '}
+                    or call{' '}
+                    <a href="tel:+919850570525" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>98505 70525</a>.
+                  </p>
+                )}
+                <button type="submit" className="btn btn-primary" disabled={submitting} style={{ width: '100%', marginTop: 8, opacity: submitting ? 0.7 : 1, cursor: submitting ? 'not-allowed' : 'pointer' }}>
+                  {submitting ? 'Booking your demo…' : 'Book Your FREE Demo Class'}
+                  {!submitting && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>}
                 </button>
                 <p style={{ fontSize: 12.5, color: 'var(--text-3)', textAlign: 'center', marginTop: 14 }}>No spam, ever. We&apos;ll only contact you about your demo class.</p>
               </div>

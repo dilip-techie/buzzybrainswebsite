@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { BookOpen, Heart, Lightbulb, Target, Users, Award, ChevronRight, Zap } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
+import CtaModal from '@/components/CtaModal';
 
 const FAQS = [
   {
@@ -369,41 +370,14 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Modal */}
-      {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Ready to Start? 👋</h2>
-              <p className="text-gray-600">Choose how you'd like to connect with us</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-            </div>
-            
-            <button
-              onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
+      <CtaModal
+        open={showCtaModal}
+        onClose={() => setShowCtaModal(false)}
+        onFormClick={handleCtaModalForm}
+        onWhatsAppClick={handleCtaModalWhatsApp}
+        title="Ready to Start? 👋"
+        subtitle="Choose how you'd like to connect with us"
+      />
     </div>
   );
 }

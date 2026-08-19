@@ -17,6 +17,12 @@ export default function ContactPage() {
           <p className="text-xl text-gray-300 mb-8">
             Get in touch with our expert mentors and admissions team
           </p>
+          <Link
+            href="/#contact"
+            className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-lg transition"
+          >
+            Book a Free Demo Class →
+          </Link>
         </div>
 
         {/* Contact Methods */}
@@ -50,12 +56,10 @@ export default function ContactPage() {
               Call us directly for immediate assistance with admissions and course inquiries.
             </p>
             <a
-              href="https://wa.me/919850570525"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:+919850570525"
               className="inline-block text-blue-400 font-bold py-3 px-6 rounded-lg border border-blue-400 hover:bg-blue-400/10 transition"
             >
-              Contact Us
+              Call 98505 70525
             </a>
           </div>
         </div>

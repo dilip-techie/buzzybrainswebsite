@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Lightbulb, Brain, Rocket, TrendingUp, Trophy, Heart } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
+import CtaModal from '@/components/CtaModal';
 
 const FAQS = [
   {
@@ -212,6 +213,9 @@ export default function Class12BoardPage() {
       {/* Tab Switcher - Top Navigation */}
       <section className="bg-white border-b-2 border-gray-200 sticky top-[108px] z-40 pb-4 px-4 pt-[90px]">
         <div className="max-w-7xl mx-auto">
+          <p className="text-center text-sm font-semibold text-gray-500 mb-3">
+            Not sure whether to choose PCM or PCB? Toggle below to compare both streams.
+          </p>
           <div className="flex justify-center items-center gap-4 relative">
             <div className="flex gap-4">
               <button
@@ -397,13 +401,13 @@ export default function Class12BoardPage() {
         <div className={`max-w-4xl mx-auto text-center bg-gradient-to-r ${activeTab === 'PCM' ? 'from-blue-50 to-purple-50 border-blue-200' : 'from-pink-50 to-red-50 border-pink-200'} rounded-2xl p-12 border-2`}>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">⏳ Limited Seats Available</h2>
           <p className="text-xl text-gray-700 mb-8">
-            Small batches mean <span className="font-bold text-blue-600">maximum attention</span> for each student. Enrollment fills fast!
+            Every batch is capped at <span className="font-bold text-blue-600">12 students</span> so mentoring stays personal — once a batch fills, the next one starts the following month.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
+            <a href="tel:+919850570525" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:opacity-80 transition">
               <Phone className={`w-6 h-6 ${highlightColor}`} />
               <span className="font-bold">98505 70525</span>
-            </div>
+            </a>
             <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
               <MapPin className={`w-6 h-6 ${highlightColor}`} />
               <span className="font-bold">Amanora, Hadapsar, Pune</span>
@@ -435,41 +439,14 @@ export default function Class12BoardPage() {
       </section>
 
       {/* CTA Modal */}
-      {showCtaModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 animate-in">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">Ready to Enroll? {activeTab === 'PCM' ? '🎓' : '🩺'}</h2>
-              <p className="text-gray-600">Get started with your 12th {activeTab} preparation today</p>
-            </div>
-            
-            <div className="space-y-4">
-              <button
-                onClick={handleCtaModalForm}
-                className={`w-full bg-gradient-to-r ${gradientColors} text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group`}
-              >
-                <span>📝 Contact Form</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              
-              <button
-                onClick={handleCtaModalWhatsApp}
-                className="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all font-semibold flex items-center justify-between group"
-              >
-                <span>💬 WhatsApp Chat</span>
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-            </div>
-            
-            <button
-              onClick={() => setShowCtaModal(false)}
-              className="w-full mt-6 text-gray-600 hover:text-gray-900 font-medium py-2 transition"
-            >
-              Maybe Later
-            </button>
-          </div>
-        </div>
-      )}
+      <CtaModal
+        open={showCtaModal}
+        onClose={() => setShowCtaModal(false)}
+        onFormClick={handleCtaModalForm}
+        onWhatsAppClick={handleCtaModalWhatsApp}
+        title={`Ready to Enroll? ${activeTab === 'PCM' ? '🎓' : '🩺'}`}
+        subtitle={`Get started with your 12th ${activeTab} preparation today`}
+      />
     </div>
   );
 }
