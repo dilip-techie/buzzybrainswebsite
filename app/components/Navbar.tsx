@@ -51,7 +51,7 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
     items: [
       { href: '/sof-olympiads#homi-bhabha', label: 'Homi Bhabha' },
       { href: '/sof-olympiads#nsejs', label: 'NSEJS' },
-      { href: '/sof-olympiads#physics', label: 'Physics Olympiad' },
+      { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad' },
       { href: '/sof-olympiads#chemistry', label: 'Chemistry Olympiad' },
       { href: '/sof-olympiads#biology', label: 'Biology Olympiad' },
     ],
@@ -92,6 +92,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
       { href: '/ioqm-amc-coaching-pune', label: 'IOQM / AMC Coaching (Grades 6–12)' },
+      { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad (Grades 9–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
       { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },

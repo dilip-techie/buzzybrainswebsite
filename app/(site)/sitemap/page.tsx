@@ -37,6 +37,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/cat-exam', label: 'CAT Coaching' },
       { href: '/olympiad-math', label: 'Maths Excellence Program' },
       { href: '/olympiads', label: 'Olympiad Program' },
+      { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad Coaching (NSEP, INPhO, F=ma, BPhO)' },
       { href: '/one-on-one', label: 'One-on-One Coaching' },
       { href: '/clat-exam', label: 'CLAT Coaching' },
     ],
