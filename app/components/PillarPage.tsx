@@ -34,7 +34,7 @@ export function PillarPage({
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container article-shell center">
           <nav className="blog-breadcrumb reveal" aria-label="Breadcrumb" style={{ justifyContent: 'center' }}>
-            <Link href="/">Home</Link>
+            <Link prefetch={false} href="/">Home</Link>
             <span>/</span>
             <span>{eyebrow}</span>
           </nav>
@@ -63,7 +63,7 @@ export function PillarPage({
 
           <div className="article-cta">
             <p>Ready to talk to a mentor about this?</p>
-            <Link href={primaryProgram.href} className="btn btn-primary">
+            <Link prefetch={false} href={primaryProgram.href} className="btn btn-primary">
               Explore {primaryProgram.label}
             </Link>
           </div>
@@ -71,7 +71,7 @@ export function PillarPage({
           {secondaryPrograms.length > 0 && (
             <div style={{ marginTop: 28, display: 'flex', flexWrap: 'wrap', gap: 10 }}>
               {secondaryPrograms.map((p) => (
-                <Link key={p.href} href={p.href} className="chip chip-link">
+                <Link prefetch={false} key={p.href} href={p.href} className="chip chip-link">
                   {p.label}
                 </Link>
               ))}
@@ -92,11 +92,11 @@ export function PillarPage({
             <div style={{ marginTop: 56 }}>
               <div className="blog-cluster-head">
                 <h2>Related reading</h2>
-                <Link href="/blog">All guides →</Link>
+                <Link prefetch={false} href="/blog">All guides →</Link>
               </div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
                 {relatedPosts.map((p) => (
-                  <Link key={p.href} href={p.href} className="chip chip-link">
+                  <Link prefetch={false} key={p.href} href={p.href} className="chip chip-link">
                     {p.label}
                   </Link>
                 ))}

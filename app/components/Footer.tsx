@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="foot-grid">
           <div className="foot-brand">
-            <Link href="/#top" className="logo" style={{ color: '#fff' }}>
+            <Link prefetch={false} href="/#top" className="logo" style={{ color: '#fff' }}>
               <Image src="/logo-badge.png" alt="BuzzyBrains Academy" width={523} height={307} className="logo-badge-img" />
             </Link>
             <p>Premium coaching for IIT-JEE, NEET, Olympiads and Foundation — where learning is fun, conceptual and powered by technology.</p>
@@ -26,63 +26,63 @@ export default function Footer() {
           <nav aria-label="Footer quick links">
             <h4>Quick Links</h4>
             <ul className="foot-links">
-              <li><Link href="/#programs">Programs</Link></li>
-              <li><Link href="/best-coaching-institute-pune">Best Coaching Institute in Pune</Link></li>
-              <li><Link href="/about">About Us</Link></li>
-              <li><Link href="/admissions">Admissions</Link></li>
-              <li><Link href="/#faculty">Faculty</Link></li>
-              <li><Link href="/blog">Blog</Link></li>
-              <li><Link href="/contact">Contact Us</Link></li>
-              <li><Link href="/coaching-in-amanora">Coaching in Amanora</Link></li>
-              <li><Link href="/coaching-in-kharadi">Coaching in Kharadi</Link></li>
+              <li><Link prefetch={false} href="/#programs">Programs</Link></li>
+              <li><Link prefetch={false} href="/best-coaching-institute-pune">Best Coaching Institute in Pune</Link></li>
+              <li><Link prefetch={false} href="/about">About Us</Link></li>
+              <li><Link prefetch={false} href="/admissions">Admissions</Link></li>
+              <li><Link prefetch={false} href="/#faculty">Faculty</Link></li>
+              <li><Link prefetch={false} href="/blog">Blog</Link></li>
+              <li><Link prefetch={false} href="/contact">Contact Us</Link></li>
+              <li><Link prefetch={false} href="/coaching-in-amanora">Coaching in Amanora</Link></li>
+              <li><Link prefetch={false} href="/coaching-in-kharadi">Coaching in Kharadi</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer program links">
             <h4>Indian Boards &amp; Competitive Exams</h4>
             <ul className="foot-links">
-              <li><Link href="/foundation">Foundation (6–10)</Link></li>
-              <li><Link href="/12th-board-pcm">IIT-JEE</Link></li>
-              <li><Link href="/12th-board-pcb">NEET</Link></li>
-              <li><Link href="/12th-board">Not Sure? Compare PCM vs PCB</Link></li>
-              <li><Link href="/test-series">Board Test Series</Link></li>
-              <li><Link href="/olympiad-math">Maths Excellence</Link></li>
-              <li><Link href="/olympiads">Olympiads</Link></li>
-              <li><Link href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
-              <li><Link href="/neet-coaching-pune">NEET Coaching Pune — Guide</Link></li>
-              <li><Link href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>
-              <li><Link href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
-              <li><Link href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
-              <li><Link href="/clat-exam">CLAT Coaching</Link></li>
+              <li><Link prefetch={false} href="/foundation">Foundation (6–10)</Link></li>
+              <li><Link prefetch={false} href="/12th-board-pcm">IIT-JEE</Link></li>
+              <li><Link prefetch={false} href="/12th-board-pcb">NEET</Link></li>
+              <li><Link prefetch={false} href="/12th-board">Not Sure? Compare PCM vs PCB</Link></li>
+              <li><Link prefetch={false} href="/test-series">Board Test Series</Link></li>
+              <li><Link prefetch={false} href="/olympiad-math">Maths Excellence</Link></li>
+              <li><Link prefetch={false} href="/olympiads">Olympiads</Link></li>
+              <li><Link prefetch={false} href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/neet-coaching-pune">NEET Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/clat-exam">CLAT Coaching</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer commerce links">
             <h4>Commerce</h4>
             <ul className="foot-links">
-              <li><Link href="/commerce-tuitions">Commerce Tuitions (11–12)</Link></li>
-              <li><Link href="/ipmat-exam">IPMAT Coaching</Link></li>
-              <li><Link href="/cat-exam">CAT Coaching</Link></li>
-              <li><Link href="/cuet-commerce-coaching-pune">CUET Commerce Coaching Pune — Guide</Link></li>
-              <li><Link href="/ca-foundation-coaching-pune">CA Foundation Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/commerce-tuitions">Commerce Tuitions (11–12)</Link></li>
+              <li><Link prefetch={false} href="/ipmat-exam">IPMAT Coaching</Link></li>
+              <li><Link prefetch={false} href="/cat-exam">CAT Coaching</Link></li>
+              <li><Link prefetch={false} href="/cuet-commerce-coaching-pune">CUET Commerce Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/ca-foundation-coaching-pune">CA Foundation Coaching Pune — Guide</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer international pathways links">
             <h4>International Pathways</h4>
             <ul className="foot-links">
-              <li><Link href="/international-boards#igcse">IGCSE (Cambridge)</Link></li>
-              <li><Link href="/international-boards#ib">IB Diploma</Link></li>
-              <li><Link href="/international-boards#a-level">A Level / AS Level</Link></li>
-              <li><Link href="/ap-exam">AP Exams</Link></li>
-              <li><Link href="/sat-exam">SAT Exam</Link></li>
-              <li><Link href="/ivy-league-counselling">Ivy League Counselling</Link></li>
-              <li><Link href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/international-boards#igcse">IGCSE (Cambridge)</Link></li>
+              <li><Link prefetch={false} href="/international-boards#ib">IB Diploma</Link></li>
+              <li><Link prefetch={false} href="/international-boards#a-level">A Level / AS Level</Link></li>
+              <li><Link prefetch={false} href="/ap-exam">AP Exams</Link></li>
+              <li><Link prefetch={false} href="/sat-exam">SAT Exam</Link></li>
+              <li><Link prefetch={false} href="/ivy-league-counselling">Ivy League Counselling</Link></li>
+              <li><Link prefetch={false} href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer specialized tracks links">
             <h4>Specialized Tracks</h4>
             <ul className="foot-links">
-              <li><Link href="/coding-lab">Code Ninja (Coding &amp; AI)</Link></li>
-              <li><Link href="/programming-classes">Programming Classes (Grades 6-12)</Link></li>
-              <li><Link href="/one-on-one">One-on-One Coaching</Link></li>
+              <li><Link prefetch={false} href="/coding-lab">Code Ninja (Coding &amp; AI)</Link></li>
+              <li><Link prefetch={false} href="/programming-classes">Programming Classes (Grades 6-12)</Link></li>
+              <li><Link prefetch={false} href="/one-on-one">One-on-One Coaching</Link></li>
             </ul>
           </nav>
         </div>
@@ -139,10 +139,10 @@ export default function Footer() {
         <div className="foot-bottom">
           <span>© {new Date().getFullYear()} BuzzyBrains Academy. All rights reserved.</span>
           <span>Learn Smarter. Dream Bigger. Achieve More.</span>
-          <Link href="/terms-and-conditions">Terms and Conditions</Link>
-          <Link href="/privacy-policy">Privacy Policy</Link>
-          <Link href="/refund-policy">Refund Policy</Link>
-          <Link href="/sitemap">Sitemap</Link>
+          <Link prefetch={false} href="/terms-and-conditions">Terms and Conditions</Link>
+          <Link prefetch={false} href="/privacy-policy">Privacy Policy</Link>
+          <Link prefetch={false} href="/refund-policy">Refund Policy</Link>
+          <Link prefetch={false} href="/sitemap">Sitemap</Link>
         </div>
       </div>
     </footer>
