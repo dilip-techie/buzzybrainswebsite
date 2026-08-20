@@ -822,94 +822,259 @@ export const kangarooFaqs = [
 ];
 
 // ============ Physics Olympiad — dedicated page ============
-// Five tracks: India's official pipeline (NSEP -> INPhO -> IPhO, run by
-// HBCSE/IAPT) plus the four most-recognized international physics
-// competitions. F=ma/USAPhO officially requires a US school/citizenship to
-// register, so its copy is framed around training in that problem style
-// and using it as a benchmark, not promising direct registration from India.
+// India's official pipeline (IOQP = NSEP + INPhO -> OCSC -> PDC -> IPhO,
+// run jointly by IAPT and HBCSE-TIFR) is covered separately via
+// physicsIndianPathway below. This tracks the "top 5 abroad" comparison —
+// IPhO itself (global context) plus the four programs worth a serious
+// Indian student's attention. Eligibility is stated exactly as verified:
+// F=ma/USAPhO needs a US school/citizenship; APhO is strictly country-team
+// registration with no individual entry at all; EuPhO allows guest teams
+// but still through national coordination, not open individual signup.
+// Always re-verify dates/eligibility against the current-year bulletin —
+// these change yearly and nothing here should be treated as permanent.
 export const physicsOlympiadTracks: Track[] = [
   {
-    id: 'indian-physics-olympiad',
-    code: 'India',
-    name: 'NSEP → INPhO → IPhO',
-    grades: 'Grades 9–12',
+    id: 'ipho',
+    code: 'Global',
+    name: 'IPhO',
+    grades: 'Grades 11–12',
     blurb:
-      "India's official physics olympiad pipeline, run by HBCSE and IAPT — NSEP qualifies you for INPhO, and the top ~35 scorers enter the OCSC training camp that selects India's 5-member IPhO team.",
-    meta: [['Stage 1', 'NSEP (Nov–Dec)'], ['Stage 2', 'INPhO (Jan)']],
-    topics: ['Mechanics', 'Electromagnetism', 'Waves & Optics', 'Modern Physics'],
-    outcome: 'India\'s only pathway to the IPhO team',
+      "The pinnacle — roughly 90+ countries, 5 students each, ~9–10 days of 5-hour theory and 5-hour experimental papers. India's only route in is the IOQP pipeline: NSEP + INPhO, then OCSC, then the Pre-Departure Camp.",
+    meta: [['Countries', '90+'], ['Format', 'Theory + Experimental']],
+    topics: ['Full Syllabus', 'Multi-Concept Derivation', 'Experimental Design'],
+    outcome: "The route runs entirely through India's own IOQP pipeline",
     color: 'brand',
   },
   {
     id: 'f-ma-usapho',
-    code: 'USA',
+    code: 'USA · AAPT',
     name: 'F=ma / USAPhO',
     grades: 'Grades 11–12',
     blurb:
-      'The mechanics-only exam that opens the U.S. Physics Team pipeline — 25 multiple-choice questions in 75 minutes, then the top scorers sit the free-response USAPhO. Official registration needs a U.S. school, so we train students in its exact problem style as the sharpest mechanics benchmark worldwide.',
+      'The mechanics-only exam that opens the U.S. Physics Team pipeline — 25 multiple-choice questions in 75 minutes, then top scorers sit the 3-hour free-response USAPhO. Official registration needs a U.S. school or citizenship, so we train in its exact problem style as an internationally benchmarked practice track, not a direct entry point from India.',
     meta: [['Format', '25 MCQ, 75 min'], ['Focus', 'Mechanics only']],
     topics: ['Kinematics', 'Newtonian Mechanics', 'Energy & Momentum', 'Rotational Motion'],
-    outcome: 'The gold standard for mechanics problem-solving',
+    outcome: 'The world\'s most emulated mechanics benchmark',
     color: 'amber',
   },
   {
     id: 'bpho',
-    code: 'UK',
+    code: 'UK · Oxford',
     name: 'British Physics Olympiad',
     grades: 'Grades 11–12',
     blurb:
-      "The UK's premier physics competition and a genuine Oxbridge admissions signal — questions built on A-Level physics but applied in unfamiliar, calculus-heavy ways. International schools can register through BPhO directly.",
-    meta: [['Round 1', 'BPhO'], ['Round 2', 'BPhO Round 2']],
+      "The UK's premier physics competition and a genuine Oxbridge admissions signal, run out of the University of Oxford. Questions build on A-Level physics but apply it in unfamiliar, calculus-heavy ways. International/overseas schools register by contacting BPhO directly — it isn't a self-serve individual signup.",
+    meta: [['Round', 'BPhO Round 1 + 2'], ['Entry', 'Via overseas school']],
     topics: ['Applied Mechanics', 'Thermal Physics', 'Astrophysics', 'Unfamiliar Problem-Solving'],
     outcome: 'A strong signal for UK & Ivy League applications',
     color: 'sky',
   },
   {
-    id: 'physicsbowl',
-    code: 'Global',
-    name: 'PhysicsBowl',
-    grades: 'Grades 9–12',
+    id: 'apho',
+    code: 'Asia-Pacific',
+    name: 'Asian Physics Olympiad (APhO)',
+    grades: 'Grades 11–12',
     blurb:
-      "AAPT's international multiple-choice contest, with dedicated Asia and Middle East regions — a 40-question, 45-minute paper split into Division I (first-year physics) and Division II (second-year physics).",
-    meta: [['Format', '40 MCQ, 45 min'], ['Divisions', 'I & II by experience']],
-    topics: ['Full Physics Syllabus', 'Speed Accuracy', 'Conceptual Reasoning'],
-    outcome: 'School-administered, genuinely open worldwide',
+      "A regional feeder for IPhO-level talent across Asia-Pacific — up to 8 students and 2 leaders per country. Entry is exclusively through each country's own national selection process; there is no individual or independent registration route.",
+    meta: [['Entry', 'Country team only'], ['Team size', 'Up to 8 students']],
+    topics: ['Regional IPhO-Style Problems', 'Theory + Experimental'],
+    outcome: 'A benchmark for where regional talent stands',
     color: 'brand',
   },
   {
-    id: 'opho',
-    code: 'Global',
-    name: 'Online Physics Olympiad',
-    grades: 'Grades 9–12 & early UG',
+    id: 'eupho',
+    code: 'Europe + Guests',
+    name: 'European Physics Olympiad (EuPhO)',
+    grades: 'Under 21 as of June 30',
     blurb:
-      'A free, team-based competition open to every country, no eligibility barrier — teams of up to 3 tackle a multi-day open round spanning mechanics to relativity, with the top 5–10% advancing to an invitational round.',
-    meta: [['Format', 'Team of 3'], ['Cost', 'Free to enter']],
-    topics: ['Mechanics', 'E&M', 'Thermodynamics', 'Relativity'],
-    outcome: 'The easiest genuine international physics olympiad to enter',
-    color: 'amber',
+      'A fast-growing, IPhO-format competition that welcomes guest teams from outside Europe alongside official European teams — each country sends one team of up to 5, coordinated nationally rather than through open individual entry.',
+    meta: [['Guest teams', 'Welcome'], ['Age cap', 'Under 21, June 30']],
+    topics: ['IPhO-Format Theory Problems', 'Multi-Step Derivation'],
+    outcome: 'The most accessible of the three team-based olympiads abroad',
+    color: 'sky',
+  },
+];
+
+// Bonus card: not a school-selected olympiad, genuinely open online — for
+// students who've already outgrown the tracks above.
+export const physicsCupBonus = {
+  name: 'Physics Cup',
+  organizer: 'Jaan Kalda, Tallinn University of Technology (Estonia)',
+  blurb:
+    'An online problem set, harder than EuPhO, APhO or even IPhO by design — the training material serious IPhO medalists use to sharpen further. Genuinely open online entry, no school or federation gatekeeping. Only worth attempting once the five tracks above feel comfortable.',
+};
+
+// Explicit, table-shaped fields for the comparison table — kept separate
+// from physicsOlympiadTracks' `meta` tuples, which are ordered for each
+// track's own card display rather than a shared table schema.
+export const physicsAbroadComparison = [
+  {
+    id: 'ipho',
+    name: 'IPhO',
+    region: 'Global (90+ countries)',
+    format: '5 hrs theory + 5 hrs experimental',
+    eligibility: "Via India's own IOQP pipeline only",
+    idealFor: "Students already through India's OCSC selection",
+  },
+  {
+    id: 'f-ma-usapho',
+    name: 'F=ma / USAPhO',
+    region: 'USA (AAPT)',
+    format: '25 MCQ (75 min) → free-response USAPhO',
+    eligibility: 'U.S. citizens/residents or U.S.-school students only',
+    idealFor: 'Benchmarking mechanics, even without eligibility',
+  },
+  {
+    id: 'bpho',
+    name: 'British Physics Olympiad',
+    region: 'UK (University of Oxford)',
+    format: 'BPhO Round 1 + Round 2',
+    eligibility: 'Overseas schools register directly with BPhO',
+    idealFor: 'UK & Ivy League admissions signal',
+  },
+  {
+    id: 'apho',
+    name: 'Asian Physics Olympiad',
+    region: 'Asia-Pacific',
+    format: 'Theory + experimental, IPhO-style',
+    eligibility: 'Country team only — no individual entry',
+    idealFor: 'Benchmarking against regional talent',
+  },
+  {
+    id: 'eupho',
+    name: 'European Physics Olympiad',
+    region: 'Europe + guest teams',
+    format: 'IPhO-format theory paper',
+    eligibility: 'Guest teams welcome, coordinated nationally, age <21',
+    idealFor: 'The most accessible of the three team-based tracks',
+  },
+];
+
+// India's official pathway — IOQP (combining NSEP + INPhO, run jointly by
+// IAPT and HBCSE-TIFR) through to the IPhO team. Duration/date windows are
+// deliberately kept soft ("typically", "usually") since exact dates shift
+// year to year — always confirm against the current-year HBCSE/IAPT
+// bulletin before publishing anything date-specific.
+export const physicsIndianPathway = [
+  {
+    step: '01',
+    stage: 'NSEP',
+    title: 'National Standard Examination in Physics',
+    window: 'Typically held in November',
+    format: 'Objective-type paper, run by IAPT',
+    covers: 'Class 11–12 physics, science up to Class 10, maths up to Class 12 — the full 19-unit syllabus.',
+  },
+  {
+    step: '02',
+    stage: 'INPhO',
+    title: 'Indian National Physics Olympiad',
+    window: 'Typically held shortly after NSEP',
+    format: 'Subjective, derivation-based theory paper, run by HBCSE — together with NSEP this forms the IOQP (Indian Olympiad Qualifier in Physics)',
+    covers: 'Deeper, multi-concept problems on the same syllabus — genuine derivation and non-standard reasoning, not recall.',
+  },
+  {
+    step: '03',
+    stage: 'OCSC',
+    title: 'Orientation-cum-Selection Camp',
+    window: 'Typically 3–4 weeks, mid-year',
+    format: 'Residential camp at HBCSE, Mumbai, for roughly the top 35 INPhO scorers',
+    covers: 'Theory depth plus hands-on experimental physics training, with selection tests throughout the camp.',
+  },
+  {
+    step: '04',
+    stage: 'PDC',
+    title: 'Pre-Departure Camp',
+    window: 'Shortly before IPhO',
+    format: 'Final training for the selected 5-member team',
+    covers: 'Exam-format drilling and last-mile preparation in the exact IPhO structure.',
+  },
+  {
+    step: '05',
+    stage: 'IPhO',
+    title: 'International Physics Olympiad',
+    window: 'Typically mid-year, host country rotates',
+    format: '5 students + 2 leaders, ~9–10 days: 5 hours theory, 5 hours experimental',
+    covers: 'The global finale — India competes against 90+ countries.',
+  },
+];
+
+// Syllabus cross-referenced to which stage/olympiad leans on it hardest —
+// powers the accordion breakdown on the page.
+export const physicsSyllabusTopics = [
+  {
+    topic: 'Mechanics',
+    detail: 'Kinematics, Newtonian mechanics, energy & momentum, rotational dynamics, oscillations, orbital mechanics, fluids.',
+    testedBy: 'F=ma (exclusively), NSEP/INPhO, BPhO, APhO, EuPhO — the single most heavily tested topic across every track.',
+  },
+  {
+    topic: 'Electromagnetism',
+    detail: 'Electrostatics, circuits, magnetic fields, electromagnetic induction, Maxwell\'s equations at an introductory level.',
+    testedBy: 'INPhO, USAPhO, BPhO, IPhO — a core pillar once a student moves past mechanics-only exams like F=ma.',
+  },
+  {
+    topic: 'Thermodynamics & Heat',
+    detail: 'Laws of thermodynamics, kinetic theory, heat engines, entropy.',
+    testedBy: 'INPhO, USAPhO, BPhO, IPhO.',
+  },
+  {
+    topic: 'Waves & Optics',
+    detail: 'Wave mechanics, interference, diffraction, geometrical and physical optics.',
+    testedBy: 'NSEP, INPhO, IPhO.',
+  },
+  {
+    topic: 'Modern & Quantum Physics',
+    detail: 'Photoelectric effect, atomic models, introductory quantum mechanics, wave-particle duality.',
+    testedBy: 'INPhO, IPhO — appears from Grade 12-level prep onward.',
+  },
+  {
+    topic: 'Relativity & Nuclear Physics',
+    detail: 'Special relativity basics, nuclear structure, radioactivity, binding energy.',
+    testedBy: 'INPhO, IPhO — typically the last topics introduced in a prep timeline.',
+  },
+  {
+    topic: 'Experimental Skills',
+    detail: 'Error analysis, graph-fitting, apparatus handling, designing an experiment from scratch.',
+    testedBy: 'OCSC selection tests, IPhO\'s dedicated 5-hour experimental paper.',
+  },
+  {
+    topic: 'Mathematics for Physics',
+    detail: 'Calculus fundamentals (differentiation, integration), vectors, differential equations at a basic level.',
+    testedBy: 'Required across every stage — the toolkit every olympiad above assumes, not a topic tested on its own.',
   },
 ];
 
 export const physicsOlympiadFaqs = [
   {
-    q: 'What is the official pathway for a physics olympiad team from India?',
-    a: 'The only route to representing India at the IPhO is NSEP (National Standard Examination in Physics), conducted by IAPT in November–December, followed by INPhO (Indian National Physics Olympiad) in January. The top scorers from INPhO attend HBCSE\'s OCSC training camp, which selects India\'s 5-member IPhO team.',
+    q: 'What is India\'s official pathway to the IPhO team?',
+    a: 'The IOQP (Indian Olympiad Qualifier in Physics) — combining NSEP, run by IAPT, and INPhO, run by HBCSE — is the only route in. Top INPhO scorers attend HBCSE\'s OCSC training camp, and the students selected there go through a Pre-Departure Camp before representing India at the IPhO. There is no alternate route onto India\'s team.',
   },
   {
-    q: 'Can my child in Pune actually register for F=ma or the US Physics Team?',
-    a: 'Official F=ma registration requires the student to be a U.S. citizen, U.S. permanent resident, or currently enrolled at a U.S. school — it isn\'t open to students studying purely in India. We teach the exact F=ma problem style anyway, because it is internationally regarded as the sharpest mechanics benchmark available, and many of our students use it for practice and for applications even without official eligibility.',
+    q: 'What is the actual difference between NSEP and INPhO?',
+    a: 'NSEP is the objective-type first stage, run by IAPT and testing the full syllabus at a recall-and-application level. INPhO is the deeper, subjective second stage, run by HBCSE, demanding genuine derivation and non-standard problem-solving on the same syllabus. Together they form the IOQP.',
   },
   {
-    q: 'Which international physics olympiads can an Indian student genuinely enter?',
-    a: 'PhysicsBowl (AAPT) has dedicated Asia and Middle East regions and is school-administered internationally. The Online Physics Olympiad (OPhO) is completely open worldwide with no eligibility barrier at all. The British Physics Olympiad (BPhO) accepts registrations from international schools that contact them directly. F=ma/USAPhO is the one exception, restricted to U.S. citizens, residents or U.S.-school students.',
+    q: 'Can a student in Pune actually register for F=ma or the US Physics Team?',
+    a: 'Official F=ma registration requires the student to be a U.S. citizen, U.S. permanent resident, or currently enrolled at a U.S. school — it is not open to students studying purely in India. We teach the exact F=ma problem style anyway, because it is internationally regarded as the sharpest mechanics benchmark available, and it sharpens mechanics for NSEP/INPhO too.',
+  },
+  {
+    q: 'Can an Indian student register individually for APhO or EuPhO?',
+    a: 'No, not for APhO — it is exclusively country-team registration, decided by each nation\'s own selection process, with no individual entry route at all. EuPhO is more open in spirit — it accepts guest teams from outside Europe — but participation is still coordinated at a national level, not a self-serve individual signup. We prepare students in these formats as advanced practice regardless.',
+  },
+  {
+    q: 'Which of the five tracks is realistically the most accessible from India?',
+    a: 'The British Physics Olympiad, since international schools can register directly by contacting BPhO — no national federation gatekeeping. EuPhO\'s guest-team route is the next most accessible. APhO has no individual path at all, and F=ma/USAPhO is restricted to U.S. citizens, residents or U.S.-school students.',
   },
   {
     q: 'My child has never attempted a physics olympiad before — where do we start?',
-    a: 'Every student starts with a diagnostic mock so we can see exactly where they stand across mechanics, electromagnetism and the rest of the syllabus, then build a personal preparation plan — mechanics-first, since every one of these five tracks tests it hardest.',
+    a: 'Every student starts with a diagnostic mechanics mock, since mechanics is the topic every one of these tracks tests hardest, then we build a personal preparation plan from where they actually stand — not a generic syllabus dump.',
+  },
+  {
+    q: 'How early should my child start physics olympiad preparation?',
+    a: 'Grade 9 or 10 gives the most runway to build genuine derivation-level mechanics before NSEP becomes relevant in Grade 11. Students starting in Grade 11 can still make real progress, but with a more compressed, mechanics-first timeline.',
   },
   {
     q: 'How big are the batches?',
-    a: 'Every batch is capped at a maximum of 12 students — the same limit across every BuzzyBrains Academy program — so mentors can review each student\'s problem-solving individually.',
+    a: 'Every batch is capped at a maximum of 12 students — the same limit across every BuzzyBrains Academy program — so mentors can review each student\'s derivations individually, not just final answers.',
   },
   {
     q: 'Is coaching available online, offline, or both?',

@@ -4,14 +4,14 @@ import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { physicsOlympiadFaqs } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
-  title: 'Physics Olympiad Coaching in Pune | NSEP, INPhO, F=ma, BPhO | BuzzyBrains Academy',
+  title: 'Physics Olympiad Coaching in Pune | IOQP, F=ma, BPhO',
   description:
-    'Physics olympiad coaching in Pune covering India\'s NSEP → INPhO → IPhO pipeline plus F=ma/USAPhO, the British Physics Olympiad, PhysicsBowl and the Online Physics Olympiad. IIT-alumni mentors, batches capped at 12.',
-  keywords: 'physics olympiad coaching Pune, NSEP coaching, INPhO coaching, IPhO India, F=ma exam coaching, USAPhO coaching, British Physics Olympiad coaching, BPhO India, PhysicsBowl coaching, Online Physics Olympiad, physics olympiad classes Pune',
+    'Physics Olympiad coaching in Pune — India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO. IIT-alumni mentors, batches of 12.',
+  keywords: 'physics olympiad coaching, NSEP INPhO preparation, Indian Physics Olympiad classes Pune, F=ma exam preparation India, IPhO coaching, physics olympiad syllabus India, IOQP coaching Pune, USAPhO coaching India, British Physics Olympiad coaching, Asian Physics Olympiad, European Physics Olympiad',
   alternates: { canonical: 'https://buzzybrainsacademy.com/physics-olympiad-coaching-pune' },
   openGraph: {
-    title: 'Physics Olympiad Coaching in Pune | 5 Olympiads, One Program',
-    description: 'India\'s NSEP → INPhO → IPhO pipeline plus F=ma/USAPhO, BPhO, PhysicsBowl and the Online Physics Olympiad — mechanics-first, IIT-alumni mentored, batches capped at 12.',
+    title: 'Physics Olympiad Coaching in Pune | IOQP, F=ma, BPhO, APhO, EuPhO',
+    description: 'India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored, batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/physics-olympiad-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Physics Olympiad Coaching in Pune | 5 Olympiads, One Program',
-    description: 'India\'s NSEP → INPhO → IPhO pipeline plus F=ma/USAPhO, BPhO, PhysicsBowl and the Online Physics Olympiad — mechanics-first, IIT-alumni mentored.',
+    title: 'Physics Olympiad Coaching in Pune | IOQP, F=ma, BPhO, APhO, EuPhO',
+    description: 'India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
@@ -37,8 +37,8 @@ export default function PhysicsOlympiadCoachingPuneLayout({ children }: { childr
     <div className={geistMono.variable}>
       <ProgramJsonLd
         type="Course"
-        name="Physics Olympiad Coaching (NSEP, INPhO, F=ma, BPhO, PhysicsBowl, OPhO)"
-        description="Physics olympiad coaching covering India's NSEP-to-IPhO pipeline plus F=ma/USAPhO, the British Physics Olympiad, PhysicsBowl and the Online Physics Olympiad."
+        name="Physics Olympiad Coaching (IOQP, F=ma, BPhO, APhO, EuPhO)"
+        description="Physics olympiad coaching covering India's IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, the British Physics Olympiad, the Asian Physics Olympiad and the European Physics Olympiad."
         path="/physics-olympiad-coaching-pune"
       />
       <FaqJsonLd items={physicsOlympiadFaqs.map((f) => ({ question: f.q, answer: f.a }))} />
