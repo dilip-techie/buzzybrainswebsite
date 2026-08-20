@@ -17,7 +17,7 @@ export default function ScorecardSection() {
     <section id="ts-scorecard" className="border-y border-[#0E2148]/10 bg-[#FAF7EF] py-24">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:px-10">
         <div>
-          <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">
+          <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">
             AFTER EVERY PAPER
           </p>
           <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
@@ -48,9 +48,9 @@ export default function ScorecardSection() {
           <div className="flex items-center justify-between border-b border-[#0E2148]/10 pb-4">
             <div>
               <p className="font-display text-[17px] font-bold">Topic-wise Performance</p>
-              <p className="font-ledger text-[11px] text-[#5E7FB5]">Paper 05 &middot; Mathematics &middot; CBSE X</p>
+              <p className="font-ledger text-[12px] text-[#5E7FB5]">Paper 05 &middot; Mathematics &middot; CBSE X</p>
             </div>
-            <span className="rounded-full bg-[#0E2148] px-3 py-1 font-ledger text-[11px] text-[#E4C158]">
+            <span className="rounded-full bg-[#0E2148] px-3 py-1 font-ledger text-[12px] text-[#E4C158]">
               71/80
             </span>
           </div>
@@ -73,7 +73,7 @@ export default function ScorecardSection() {
           </div>
 
           <div className="mt-7 rounded-sm bg-[#FAF7EF] px-5 py-4">
-            <p className="font-ledger text-[10px] tracking-widest text-[#B23A2E]">
+            <p className="font-ledger text-[12px] tracking-widest text-[#B23A2E]">
               PRIORITY FOR NEXT REVIEW
             </p>
             <p className="mt-1 text-[13.5px] text-[#0E2148]/80">

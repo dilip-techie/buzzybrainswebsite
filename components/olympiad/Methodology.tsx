@@ -47,7 +47,7 @@ export default function Methodology() {
               ].map(([v, l]) => (
                 <div key={l} className="text-center">
                   <div className="font-mono text-lg font-bold text-oly-brand-500">{v}</div>
-                  <div className="mt-1 text-[11px] leading-snug text-oly-ink/50">{l}</div>
+                  <div className="mt-1 text-[12px] leading-snug text-oly-ink/50">{l}</div>
                 </div>
               ))}
             </div>

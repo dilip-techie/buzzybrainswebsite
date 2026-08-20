@@ -58,7 +58,7 @@ export default function LeadForm({
         <div className="grid overflow-hidden rounded-oly-4xl border border-oly-line shadow-oly-card-lg lg:grid-cols-2">
           <div className="relative flex flex-col justify-between bg-gradient-to-br from-oly-brand-600 to-oly-brand-900 p-9 text-white sm:p-12">
             <div>
-              <span className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em]">
+              <span className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-[12px] font-bold uppercase tracking-[0.14em]">
                 Free Demo Class
               </span>
               <h2 className="mt-6 text-balance text-[30px] font-extrabold leading-tight sm:text-[36px]">
@@ -137,7 +137,7 @@ export default function LeadForm({
                 <button type="submit" disabled={isSubmitting} className="oly-btn-primary sm:col-span-2 mt-2 w-full">
                   {isSubmitting ? 'Sending...' : 'Book Your FREE Demo Class'} <Send size={16} />
                 </button>
-                <p className="text-center text-[11.5px] text-oly-ink/40 sm:col-span-2">
+                <p className="text-center text-[12px] text-oly-ink/40 sm:col-span-2">
                   By submitting, you agree to be contacted by BuzzyBrains Academy about this program.
                 </p>
               </form>
@@ -154,7 +154,7 @@ function Field({ label, error, children }: { label: string; error?: string; chil
     <label className="block">
       <span className="mb-1.5 block text-[12.5px] font-bold text-oly-ink/70">{label}</span>
       {children}
-      {error && <span className="mt-1 block text-[11.5px] font-medium text-red-500">{error}</span>}
+      {error && <span className="mt-1 block text-[12px] font-medium text-red-500">{error}</span>}
     </label>
   );
 }

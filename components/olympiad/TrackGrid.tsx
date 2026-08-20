@@ -86,7 +86,7 @@ export default function TrackGrid({
                 <div className="oly-track-banner">
                   <span className="oly-track-numeral">{String(i + 1).padStart(2, '0')}</span>
                   <div className="oly-track-top-row">
-                    <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-white/90">{t.code}</span>
+                    <span className="text-[12px] font-bold uppercase tracking-[0.16em] text-white/90">{t.code}</span>
                     <ArrowUpRight size={18} className="oly-track-arrow transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function TrackGrid({
                     <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3">
                       {t.meta.map(([k, v]) => (
                         <div key={k} className="oly-track-stat">
-                          <div className="text-[9.5px] font-bold uppercase tracking-[0.1em] text-oly-ink/40">{k}</div>
+                          <div className="text-[12px] font-bold uppercase tracking-[0.1em] text-oly-ink/40">{k}</div>
                           <div className="mt-0.5 font-mono text-[12.5px] font-bold leading-snug text-oly-ink/85">{v}</div>
                         </div>
                       ))}

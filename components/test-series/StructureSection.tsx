@@ -29,7 +29,7 @@ export default function StructureSection() {
   return (
     <section id="ts-structure" className="bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">THE SCHEDULE</p>
+        <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">THE SCHEDULE</p>
         <h2 className="reveal mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
           A 12-week paper cycle, timed to peak right before boards.
         </h2>
@@ -39,13 +39,13 @@ export default function StructureSection() {
           <ol className="space-y-10">
             {PAPERS.map((p) => (
               <li key={p.code} className="relative grid gap-4 sm:grid-cols-[56px_1fr] sm:gap-8">
-                <div className="hidden sm:flex sm:h-14 sm:w-14 sm:items-center sm:justify-center sm:rounded-full sm:border-2 sm:border-[#0E2148] sm:bg-[#FAF7EF] sm:font-ledger sm:text-[10px] sm:font-bold sm:text-[#0E2148]">
+                <div className="hidden sm:flex sm:h-14 sm:w-14 sm:items-center sm:justify-center sm:rounded-full sm:border-2 sm:border-[#0E2148] sm:bg-[#FAF7EF] sm:font-ledger sm:text-[12px] sm:font-bold sm:text-[#0E2148]">
                   {p.code.split("–")[0]}
                 </div>
                 <div className="rounded-sm border border-[#0E2148]/10 bg-white px-7 py-6 shadow-sm">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <h3 className="font-display text-[20px] font-bold">{p.name}</h3>
-                    <span className="font-ledger text-[11px] tracking-wide text-[#5E7FB5]">
+                    <span className="font-ledger text-[12px] tracking-wide text-[#5E7FB5]">
                       {p.code} &middot; {p.window}
                     </span>
                   </div>

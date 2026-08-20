@@ -46,7 +46,7 @@ export default function PricingSection() {
     <section id="ts-pricing" className="bg-[#0E2148] py-24 text-[#FAF7EF]">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-xl">
-          <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#E4C158]">ENROLLMENT</p>
+          <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#E4C158]">ENROLLMENT</p>
           <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
             Pick the coverage you need.
           </h2>
@@ -66,7 +66,7 @@ export default function PricingSection() {
               }`}
             >
               {plan.highlight && (
-                <span className="mb-4 inline-block w-fit rounded-full bg-[#0E2148] px-3 py-1 font-ledger text-[10px] tracking-wide text-[#E4C158]">
+                <span className="mb-4 inline-block w-fit rounded-full bg-[#0E2148] px-3 py-1 font-ledger text-[12px] tracking-wide text-[#E4C158]">
                   MOST ENROLLED
                 </span>
               )}
@@ -77,7 +77,7 @@ export default function PricingSection() {
 
               <div className="mt-6">
                 <span className="font-display text-[32px] font-bold">{plan.price}</span>
-                <p className={`mt-1 font-ledger text-[11px] ${plan.highlight ? "text-[#5E7FB5]" : "text-[#FAF7EF]/50"}`}>
+                <p className={`mt-1 font-ledger text-[12px] ${plan.highlight ? "text-[#5E7FB5]" : "text-[#FAF7EF]/50"}`}>
                   {plan.period}
                 </p>
               </div>
