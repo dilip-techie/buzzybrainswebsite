@@ -205,7 +205,7 @@ export default function Navbar() {
                 {msg.text}
               </a>
             ) : (
-              <Link key={`a-${i}`} href={msg.href} className="top-strip-item">
+              <Link prefetch={false} key={`a-${i}`} href={msg.href} className="top-strip-item">
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
                 {msg.text}
               </Link>
@@ -218,7 +218,7 @@ export default function Navbar() {
                 {msg.text}
               </a>
             ) : (
-              <Link key={`b-${i}`} href={msg.href} className="top-strip-item" aria-hidden="true" tabIndex={-1}>
+              <Link prefetch={false} key={`b-${i}`} href={msg.href} className="top-strip-item" aria-hidden="true" tabIndex={-1}>
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
                 {msg.text}
               </Link>
@@ -229,7 +229,7 @@ export default function Navbar() {
       <header className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
         <div className="container nav-inner">
           <div className="nav-left">
-            <Link href="/" className="logo" aria-label="BuzzyBrains Academy home">
+            <Link prefetch={false} href="/" className="logo" aria-label="BuzzyBrains Academy home">
               <Image src="/logo-badge.png" alt="BuzzyBrains Academy" width={523} height={307} className="logo-badge-img" priority />
             </Link>
           </div>
@@ -238,7 +238,7 @@ export default function Navbar() {
               {NAV_LINKS.map((link) =>
                 link.groups ? (
                   <li key={link.href} className="nav-dropdown-wrap">
-                    <Link href={link.href} className="nav-dropdown-trigger">
+                    <Link prefetch={false} href={link.href} className="nav-dropdown-trigger">
                       {link.label}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
@@ -254,13 +254,13 @@ export default function Navbar() {
                               <ul>
                                 {group.items.map((item) => (
                                   <li key={item.href}>
-                                    <Link href={item.href}>{item.label}</Link>
+                                    <Link prefetch={false} href={item.href}>{item.label}</Link>
                                   </li>
                                 ))}
                               </ul>
                               {group.footerLink && (
                                 <div className="nav-mega-footer">
-                                  <Link href={group.footerLink.href}>{group.footerLink.label}</Link>
+                                  <Link prefetch={false} href={group.footerLink.href}>{group.footerLink.label}</Link>
                                 </div>
                               )}
                             </div>
@@ -271,7 +271,7 @@ export default function Navbar() {
                   </li>
                 ) : link.simpleItems ? (
                   <li key={link.href} className="nav-dropdown-wrap">
-                    <Link href={link.href} className="nav-dropdown-trigger">
+                    <Link prefetch={false} href={link.href} className="nav-dropdown-trigger">
                       {link.label}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
@@ -279,7 +279,7 @@ export default function Navbar() {
                       <ul>
                         {link.simpleItems.map((item) => (
                           <li key={item.href}>
-                            <Link href={item.href}>{item.label}</Link>
+                            <Link prefetch={false} href={item.href}>{item.label}</Link>
                           </li>
                         ))}
                       </ul>
@@ -287,7 +287,7 @@ export default function Navbar() {
                   </li>
                 ) : (
                   <li key={link.href}>
-                    <Link href={link.href}>{link.label}</Link>
+                    <Link prefetch={false} href={link.href}>{link.label}</Link>
                   </li>
                 )
               )}
@@ -306,7 +306,7 @@ export default function Navbar() {
                 </svg>
               )}
             </button>
-            <Link href="/#contact" className="btn btn-primary nav-cta">Book Free Demo</Link>
+            <Link prefetch={false} href="/#contact" className="btn btn-primary nav-cta">Book Free Demo</Link>
             <button
               className="hamburger"
               aria-label="Open menu"
@@ -342,7 +342,7 @@ export default function Navbar() {
                     <div className="mobile-menu-group" key={group.title}>
                       <span className="mobile-menu-group-title">{group.title}</span>
                       {group.items.map((item) => (
-                        <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                        <Link prefetch={false} key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
                           {item.label}
                         </Link>
                       ))}
@@ -364,7 +364,7 @@ export default function Navbar() {
                 <div className={`mobile-menu-programs-panel${mobileAboutOpen ? ' open' : ''}`}>
                   <div className="mobile-menu-group">
                     {link.simpleItems.map((item) => (
-                      <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                      <Link prefetch={false} key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
                         {item.label}
                       </Link>
                     ))}
@@ -372,12 +372,12 @@ export default function Navbar() {
                 </div>
               </div>
             ) : (
-              <Link key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>
+              <Link prefetch={false} key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>
                 {link.label}
               </Link>
             )
           )}
-          <Link href="/#contact" style={{ color: 'var(--blue)', fontWeight: 700 }} onClick={() => setMenuOpen(false)}>
+          <Link prefetch={false} href="/#contact" style={{ color: 'var(--blue)', fontWeight: 700 }} onClick={() => setMenuOpen(false)}>
             Book Free Demo →
           </Link>
         </div>

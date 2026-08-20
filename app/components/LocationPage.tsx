@@ -28,7 +28,7 @@ export function LocationPage({
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{h1}</h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
           <div className="hero-ctas reveal" style={{ justifyContent: 'center', marginTop: 20 }}>
-            <Link href="/admissions" className="btn btn-primary">Book Free Demo</Link>
+            <Link prefetch={false} href="/admissions" className="btn btn-primary">Book Free Demo</Link>
             <a href="tel:+919850570525" className="btn btn-ghost">Call Us</a>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function LocationPage({
           </h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 8 }}>
             {programLinks.map((p) => (
-              <Link key={p.href} href={p.href} className="chip chip-link">
+              <Link prefetch={false} key={p.href} href={p.href} className="chip chip-link">
                 {p.label}
               </Link>
             ))}
@@ -69,7 +69,7 @@ export function LocationPage({
               </h2>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
                 {pillarLinks.map((p) => (
-                  <Link key={p.href} href={p.href} className="chip chip-link">
+                  <Link prefetch={false} key={p.href} href={p.href} className="chip chip-link">
                     {p.label}
                   </Link>
                 ))}
@@ -94,7 +94,7 @@ export function LocationPage({
               </h2>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
                 {nearbyLocalities.map((p) => (
-                  <Link key={p.href} href={p.href} className="chip chip-link">
+                  <Link prefetch={false} key={p.href} href={p.href} className="chip chip-link">
                     {p.label}
                   </Link>
                 ))}
