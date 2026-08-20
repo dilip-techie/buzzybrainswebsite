@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-7xl gap-16 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-10 lg:py-28">
         <div>
           <nav aria-label="Breadcrumb" className="reveal mb-5 flex items-center gap-2 font-ledger text-[11px] tracking-[0.1em] text-[#FAF7EF]/50">
-            <Link href="/" className="transition-colors hover:text-[#E4C158]">Home</Link>
+            <Link prefetch={false} href="/" className="transition-colors hover:text-[#E4C158]">Home</Link>
             <span>/</span>
             <span className="text-[#FAF7EF]/75">Board Exam Test Series</span>
           </nav>

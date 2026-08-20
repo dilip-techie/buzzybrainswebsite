@@ -484,16 +484,16 @@ export default function HomePage() {
             <p className="lede">Premium coaching where curiosity meets technology and academic excellence — built for young minds who want to go far.</p>
             <div className="hero-chips">
               {PROGRAMS.map((program) => (
-                <Link key={program.id} href={`/#${program.id}`} className="chip chip-link">
+                <Link prefetch={false} key={program.id} href={`/#${program.id}`} className="chip chip-link">
                   <i className="dot" style={{ background: `rgb(${program.glow})` }} /> {program.title}
                 </Link>
               ))}
             </div>
             <div className="hero-ctas">
-              <Link href="/#contact" className="btn btn-primary">Book Free Demo
+              <Link prefetch={false} href="/#contact" className="btn btn-primary">Book Free Demo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </Link>
-              <Link href="/#programs" className="btn btn-ghost">Explore Programs</Link>
+              <Link prefetch={false} href="/#programs" className="btn btn-ghost">Explore Programs</Link>
             </div>
             <div className="hero-proof">
               <div className="avatars" aria-hidden="true">
@@ -575,7 +575,6 @@ export default function HomePage() {
                       fill
                       sizes="340px"
                       className="video-thumbnail"
-                      priority
                     />
                     <div className="custom-play-btn" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor">
@@ -646,7 +645,7 @@ export default function HomePage() {
       {/* ============ STUDY PLANNER LEAD MAGNET ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
         <div className="container">
-          <Link
+          <Link prefetch={false}
             href="/board-exam-study-planner"
             className="reveal"
             style={{
@@ -695,7 +694,7 @@ export default function HomePage() {
                 <ul>
                   {program.highlights.map((h) => <li key={h}>{h}</li>)}
                 </ul>
-                <Link href={program.href} className="prog-link">Learn more
+                <Link prefetch={false} href={program.href} className="prog-link">Learn more
                   <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </Link>
               </article>
@@ -762,7 +761,7 @@ export default function HomePage() {
               <span className="chip"><i className="dot" style={{ background: 'var(--blue)' }} /> Mentored by IITian</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--amber)' }} /> Top 1% Faculty · IIT/IIM Alumni</span>
               <span className="chip"><i className="dot" style={{ background: 'var(--green)' }} /> Tech. Driven Platform</span>
-              <Link href="/best-coaching-institute-pune" className="chip chip-link">Why we're the best coaching institute in Pune →</Link>
+              <Link prefetch={false} href="/best-coaching-institute-pune" className="chip chip-link">Why we're the best coaching institute in Pune →</Link>
             </div>
           </div>
 

@@ -17,7 +17,7 @@ export default function ContactPage() {
           <p className="text-xl text-gray-300 mb-8">
             Get in touch with our expert mentors and admissions team
           </p>
-          <Link
+          <Link prefetch={false}
             href="/#contact"
             className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-lg transition"
           >
@@ -110,7 +110,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-lg font-bold text-purple-400 mb-2">What are the available scholarship options?</h3>
               <p className="text-gray-300">
-                We offer merit-based scholarships up to 50% for high-performing students. Visit our <Link href="/admissions" className="text-purple-400 hover:text-purple-300">Admissions page</Link> for detailed information about our scholarship tiers.
+                We offer merit-based scholarships up to 50% for high-performing students. Visit our <Link prefetch={false} href="/admissions" className="text-purple-400 hover:text-purple-300">Admissions page</Link> for detailed information about our scholarship tiers.
               </p>
             </div>
 

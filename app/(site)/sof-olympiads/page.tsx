@@ -63,7 +63,7 @@ export default function SofOlympiadsPage() {
         <div className="oly-container text-center">
           <p className="text-[14.5px] text-oly-ink/60">
             Specifically after the six official SOF exams? See our{' '}
-            <Link href="/sof-imo-coaching-pune" className="font-semibold text-oly-brand-600 underline underline-offset-2">
+            <Link prefetch={false} href="/sof-imo-coaching-pune" className="font-semibold text-oly-brand-600 underline underline-offset-2">
               SOF exam coaching
             </Link>{' '}
             for IMO, NSO, IEO, NCO, IGKO and ISSO.

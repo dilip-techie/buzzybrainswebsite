@@ -380,7 +380,7 @@ export default function InternationalBoardsPage() {
 
           {activeTab === 'AP' && (
             <div className="text-center mt-10">
-              <Link
+              <Link prefetch={false}
                 href="/ap-exam"
                 className={`inline-flex items-center gap-2 bg-gradient-to-r ${gradientColors} text-white px-8 py-4 rounded-lg hover:shadow-xl transition text-lg font-semibold`}
               >
@@ -521,7 +521,7 @@ export default function InternationalBoardsPage() {
                   { href: '/blog/how-personalized-tutoring-improves-igcse-ib-results', label: 'How Personalized Tutoring Improves IGCSE and IB Results' },
                 ].map((g) => (
                   <li key={g.href} className="border border-gray-200 rounded-lg bg-white">
-                    <Link href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
+                    <Link prefetch={false} href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
                       {g.label}
                     </Link>
                   </li>
@@ -536,7 +536,7 @@ export default function InternationalBoardsPage() {
                   { href: '/blog/top-strategies-score-7-ib-physics', label: 'Top Strategies to Score a 7 in IB Physics' },
                 ].map((g) => (
                   <li key={g.href} className="border border-gray-200 rounded-lg bg-white">
-                    <Link href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
+                    <Link prefetch={false} href={g.href} className="block px-4 py-3 text-sm font-semibold text-gray-700 hover:text-blue-600">
                       {g.label}
                     </Link>
                   </li>

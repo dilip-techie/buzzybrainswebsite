@@ -116,7 +116,7 @@ export default function SitemapPage() {
     <main className="bb-landing bb-page-shell">
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container article-shell center">
-          <span className="eyebrow reveal">🗺️ Sitemap</span>
+          <span className="eyebrow">🗺️ Sitemap</span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>Every Page on BuzzyBrains Academy</h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>
             A complete, organized index of the site — programs, SEO guides, locality pages and every blog post,
@@ -140,7 +140,7 @@ export default function SitemapPage() {
                 <ul>
                   {section.links.map((link) => (
                     <li key={link.href}>
-                      <Link href={link.href}>{link.label}</Link>
+                      <Link prefetch={false} href={link.href}>{link.label}</Link>
                     </li>
                   ))}
                 </ul>

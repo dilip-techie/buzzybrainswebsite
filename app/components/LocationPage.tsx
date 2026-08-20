@@ -24,10 +24,10 @@ export function LocationPage({
     <main className="bb-landing bb-page-shell">
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container article-shell center">
-          <span className="eyebrow reveal">Coaching in {locality}, Pune</span>
+          <span className="eyebrow">Coaching in {locality}, Pune</span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{h1}</h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
-          <div className="hero-ctas reveal" style={{ justifyContent: 'center', marginTop: 20 }}>
+          <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
             <Link prefetch={false} href="/admissions" className="btn btn-primary">Book Free Demo</Link>
             <a href="tel:+919850570525" className="btn btn-ghost">Call Us</a>
           </div>

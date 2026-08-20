@@ -28,24 +28,24 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
 
       <section className="hero" style={{ paddingBottom: 32 }}>
         <div className="container article-shell">
-          <nav className="blog-breadcrumb reveal" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
+          <nav className="blog-breadcrumb" aria-label="Breadcrumb">
+            <Link prefetch={false} href="/">Home</Link>
             <span>/</span>
-            <Link href="/blog">Blog</Link>
+            <Link prefetch={false} href="/blog">Blog</Link>
             <span>/</span>
             <span>{CATEGORY_LABELS[category]}</span>
           </nav>
-          <span className="article-cat-badge reveal" style={{ background: style.gradient }}>
+          <span className="article-cat-badge" style={{ background: style.gradient }}>
             {CATEGORY_LABELS[category]}
           </span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{content.h1}</h1>
-          <p className="lede reveal" style={{ maxWidth: 680, marginTop: 6 }}>
+          <p className="lede" style={{ maxWidth: 680, marginTop: 6 }}>
             {sorted.length > 0
               ? `${posts.length} ${posts.length === 1 ? 'guide' : 'guides'} · Updated ${formatDate(sorted[0].datePublished)}`
               : 'New content track · Guides coming soon'}
           </p>
           <Image
-            className="article-hero-image reveal"
+            className="article-hero-image"
             src={`/images/og/category-${category}.png`}
             alt={content.h1}
             width={1200}
@@ -68,7 +68,7 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
 
           <div className="article-cta" style={{ marginTop: 8, marginBottom: 40 }}>
             <p>Want personalized guidance in {CATEGORY_LABELS[category]}? Talk to our mentors.</p>
-            <Link href={pillarHref} className="btn btn-primary">
+            <Link prefetch={false} href={pillarHref} className="btn btn-primary">
               Explore {CATEGORY_LABELS[category]}
             </Link>
           </div>
@@ -78,7 +78,7 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
               {sorted.map((post, i) => {
                 const postStyle = CATEGORY_STYLE[post.category];
                 return (
-                  <Link
+                  <Link prefetch={false}
                     href={`/blog/${post.slug}`}
                     className="blog-card blog-card-rich reveal"
                     data-delay={String((i % 3) + 1)}
@@ -118,7 +118,7 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
                 {content.relatedCategories.map((relCat) => {
                   const relStyle = CATEGORY_STYLE[relCat];
                   return (
-                    <Link key={relCat} href={`/blog/${relCat}`} className="chip chip-link">
+                    <Link prefetch={false} key={relCat} href={`/blog/${relCat}`} className="chip chip-link">
                       <i className="dot" style={{ background: relStyle.solid }} /> {CATEGORY_LABELS[relCat]}
                     </Link>
                   );
@@ -128,7 +128,7 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
           )}
 
           <div style={{ marginTop: 40, textAlign: 'center' }}>
-            <Link href="/blog" className="chip chip-link">← All guides</Link>
+            <Link prefetch={false} href="/blog" className="chip chip-link">← All guides</Link>
           </div>
         </div>
       </section>
