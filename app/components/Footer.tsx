@@ -47,6 +47,7 @@ export default function Footer() {
               <li><Link prefetch={false} href="/test-series">Board Test Series</Link></li>
               <li><Link prefetch={false} href="/olympiad-math">Maths Excellence</Link></li>
               <li><Link prefetch={false} href="/olympiads">Olympiads</Link></li>
+              <li><Link prefetch={false} href="/physics-olympiad-coaching-pune">Physics Olympiad Coaching</Link></li>
               <li><Link prefetch={false} href="/iit-jee-coaching-pune">IIT JEE Coaching Pune — Guide</Link></li>
               <li><Link prefetch={false} href="/neet-coaching-pune">NEET Coaching Pune — Guide</Link></li>
               <li><Link prefetch={false} href="/foundation-classes-pune">Foundation Classes Pune — Guide</Link></li>

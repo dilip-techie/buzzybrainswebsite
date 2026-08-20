@@ -2,7 +2,7 @@ import {
   ArrowUpRight, CheckCircle2, type LucideIcon,
   Hash, Calculator, Compass, Grid3x3, Medal, ListChecks, Rabbit,
   FlaskConical, Leaf, BookOpen, Globe, Briefcase, PiggyBank, TrendingUp,
-  Atom, Award, Star, Microscope, Sparkles,
+  Atom, Award, Star, Microscope, Sparkles, Zap, Landmark, Trophy,
 } from 'lucide-react';
 import type { Track } from '@/lib/olympiad/data';
 
@@ -39,6 +39,11 @@ const TRACK_ICONS: Record<string, LucideIcon> = {
   'sof-nso': FlaskConical,
   'sof-ieo': BookOpen,
   'sof-igko': Globe,
+  'indian-physics-olympiad': Atom,
+  'f-ma-usapho': Zap,
+  bpho: Landmark,
+  physicsbowl: Trophy,
+  opho: Globe,
 };
 
 export default function TrackGrid({
