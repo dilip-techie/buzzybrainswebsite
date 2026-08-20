@@ -575,7 +575,6 @@ export default function HomePage() {
                       fill
                       sizes="340px"
                       className="video-thumbnail"
-                      priority
                     />
                     <div className="custom-play-btn" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor">
