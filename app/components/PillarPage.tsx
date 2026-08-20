@@ -33,12 +33,12 @@ export function PillarPage({
     <main className="bb-landing bb-page-shell">
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container article-shell center">
-          <nav className="blog-breadcrumb reveal" aria-label="Breadcrumb" style={{ justifyContent: 'center' }}>
+          <nav className="blog-breadcrumb" aria-label="Breadcrumb" style={{ justifyContent: 'center' }}>
             <Link prefetch={false} href="/">Home</Link>
             <span>/</span>
             <span>{eyebrow}</span>
           </nav>
-          <span className="eyebrow reveal">{eyebrow}</span>
+          <span className="eyebrow">{eyebrow}</span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{h1}</h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
         </div>

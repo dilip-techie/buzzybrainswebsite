@@ -74,7 +74,7 @@ export default function SofImoCoachingPunePage() {
         <div className="oly-container text-center">
           <p className="text-[14.5px] text-oly-ink/60">
             Looking beyond the six SOF exams? See our{' '}
-            <Link href="/sof-olympiads" className="font-semibold text-oly-brand-600 underline underline-offset-2">
+            <Link prefetch={false} href="/sof-olympiads" className="font-semibold text-oly-brand-600 underline underline-offset-2">
               multi-subject olympiad coaching
             </Link>{' '}
             for Commerce, Financial Literacy, NSEJS and more.

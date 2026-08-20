@@ -177,7 +177,7 @@ export default function CommerceTuitionsPage() {
           <div className="hero-chips reveal" style={{ justifyContent: 'center' }}>
             {EXAMS.map((exam) =>
               exam.href ? (
-                <Link href={exam.href} className="chip chip-link" key={exam.label}>
+                <Link prefetch={false} href={exam.href} className="chip chip-link" key={exam.label}>
                   <i className="dot" style={{ background: 'var(--blue)' }} /> {exam.label}
                 </Link>
               ) : (

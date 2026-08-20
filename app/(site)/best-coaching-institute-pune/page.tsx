@@ -25,7 +25,7 @@ export default function BestCoachingInstitutePunePage() {
             AP, SAT and Code Ninja — all under one roof in Amanora, Hadapsar.
           </p>
           <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
-            <Link href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
+            <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
             <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function BestCoachingInstitutePunePage() {
                 <tbody>
                   {PROGRAM_TABLE.map((p) => (
                     <tr key={p.program}>
-                      <td><Link href={p.href}>{p.program}</Link></td>
+                      <td><Link prefetch={false} href={p.href}>{p.program}</Link></td>
                       <td>{p.grades}</td>
                       <td>{p.boards}</td>
                       <td>{p.focus}</td>
@@ -175,7 +175,7 @@ export default function BestCoachingInstitutePunePage() {
               products — not bolted on as a marketing feature.
             </p>
             <p>
-              <Link href="/about" className="chip chip-link">Read the full BuzzyBrains Academy story →</Link>
+              <Link prefetch={false} href="/about" className="chip chip-link">Read the full BuzzyBrains Academy story →</Link>
             </p>
 
             {/* ============ FACULTY ============ */}
@@ -227,7 +227,7 @@ export default function BestCoachingInstitutePunePage() {
             </div>
             <p>
               BuzzyBrains Academy teaches across all of these boards, so a family does not need to switch institutes
-              if they change schools or move between curricula. <Link href="/international-boards" className="chip chip-link">Explore International Boards coaching →</Link>
+              if they change schools or move between curricula. <Link prefetch={false} href="/international-boards" className="chip chip-link">Explore International Boards coaching →</Link>
             </p>
 
             {/* ============ STUDENT JOURNEY ============ */}
@@ -286,15 +286,15 @@ export default function BestCoachingInstitutePunePage() {
               ))}
             </div>
             <p>
-              <Link href="/coaching-in-amanora" className="chip chip-link">Coaching in Amanora →</Link>{' '}
-              <Link href="/coaching-in-kharadi" className="chip chip-link">Coaching in Kharadi →</Link>
+              <Link prefetch={false} href="/coaching-in-amanora" className="chip chip-link">Coaching in Amanora →</Link>{' '}
+              <Link prefetch={false} href="/coaching-in-kharadi" className="chip chip-link">Coaching in Kharadi →</Link>
             </p>
           </article>
 
           {/* ============ CTA ============ */}
           <div className="article-cta">
             <p>Ready to see the small-batch difference for yourself?</p>
-            <Link href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
+            <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
           </div>
 
           {/* ============ FAQ ============ */}
@@ -312,21 +312,21 @@ export default function BestCoachingInstitutePunePage() {
           <div style={{ marginTop: 56 }}>
             <div className="blog-cluster-head">
               <h2>Explore More</h2>
-              <Link href="/blog">All guides →</Link>
+              <Link prefetch={false} href="/blog">All guides →</Link>
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-              <Link href="/about" className="chip chip-link">About BuzzyBrains Academy</Link>
-              <Link href="/foundation" className="chip chip-link">Foundation Programme</Link>
-              <Link href="/olympiads" className="chip chip-link">Olympiad Coaching</Link>
-              <Link href="/olympiad-math" className="chip chip-link">Maths Excellence</Link>
-              <Link href="/12th-board-pcm" className="chip chip-link">IIT-JEE Coaching</Link>
-              <Link href="/12th-board-pcb" className="chip chip-link">NEET Coaching</Link>
-              <Link href="/commerce-tuitions" className="chip chip-link">Commerce Coaching</Link>
-              <Link href="/coding-lab" className="chip chip-link">Code Ninja (Coding & AI)</Link>
-              <Link href="/international-boards" className="chip chip-link">IGCSE / IB / AP / SAT</Link>
-              <Link href="/admissions" className="chip chip-link">Admissions & Scholarships</Link>
-              <Link href="/blog" className="chip chip-link">Blog</Link>
-              <Link href="/contact" className="chip chip-link">Contact Us</Link>
+              <Link prefetch={false} href="/about" className="chip chip-link">About BuzzyBrains Academy</Link>
+              <Link prefetch={false} href="/foundation" className="chip chip-link">Foundation Programme</Link>
+              <Link prefetch={false} href="/olympiads" className="chip chip-link">Olympiad Coaching</Link>
+              <Link prefetch={false} href="/olympiad-math" className="chip chip-link">Maths Excellence</Link>
+              <Link prefetch={false} href="/12th-board-pcm" className="chip chip-link">IIT-JEE Coaching</Link>
+              <Link prefetch={false} href="/12th-board-pcb" className="chip chip-link">NEET Coaching</Link>
+              <Link prefetch={false} href="/commerce-tuitions" className="chip chip-link">Commerce Coaching</Link>
+              <Link prefetch={false} href="/coding-lab" className="chip chip-link">Code Ninja (Coding & AI)</Link>
+              <Link prefetch={false} href="/international-boards" className="chip chip-link">IGCSE / IB / AP / SAT</Link>
+              <Link prefetch={false} href="/admissions" className="chip chip-link">Admissions & Scholarships</Link>
+              <Link prefetch={false} href="/blog" className="chip chip-link">Blog</Link>
+              <Link prefetch={false} href="/contact" className="chip chip-link">Contact Us</Link>
             </div>
           </div>
         </div>

@@ -317,7 +317,7 @@ export default function BoardExamStudyPlannerPage() {
                 </p>
                 <p style={{ color: 'var(--text-3)', fontSize: 13.5, marginTop: 16 }}>
                   Want a plan built around your child&apos;s specific board and subjects?{' '}
-                  <Link href="/#contact" style={{ color: 'var(--blue)', fontWeight: 600 }}>Book a free demo class</Link>.
+                  <Link prefetch={false} href="/#contact" style={{ color: 'var(--blue)', fontWeight: 600 }}>Book a free demo class</Link>.
                 </p>
               </div>
             )}

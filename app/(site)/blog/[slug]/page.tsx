@@ -113,7 +113,7 @@ function renderInline(text: string): ReactNode[] {
       const isInternal = href.startsWith('/');
       nodes.push(
         isInternal ? (
-          <Link key={key++} href={href}>
+          <Link prefetch={false} key={key++} href={href}>
             {match[2]}
           </Link>
         ) : (
@@ -161,14 +161,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
       <section className="hero" style={{ paddingBottom: 40 }}>
         <div className="container article-shell">
-          <nav className="blog-breadcrumb reveal" aria-label="Breadcrumb">
-            <Link href="/">Home</Link>
+          <nav className="blog-breadcrumb" aria-label="Breadcrumb">
+            <Link prefetch={false} href="/">Home</Link>
             <span>/</span>
-            <Link href="/blog">Blog</Link>
+            <Link prefetch={false} href="/blog">Blog</Link>
             <span>/</span>
             <span>{CATEGORY_LABELS[post.category]}</span>
           </nav>
-          <span className="article-cat-badge reveal" style={{ background: style.gradient }}>
+          <span className="article-cat-badge" style={{ background: style.gradient }}>
             {CATEGORY_LABELS[post.category]}
           </span>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{post.title}</h1>
@@ -181,7 +181,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span><Clock size={13} style={{ verticalAlign: -2, marginRight: 3 }} />{post.readingMinutes} min read</span>
           </div>
           <Image
-            className="article-hero-image reveal"
+            className="article-hero-image"
             src={`/images/og/${post.slug}.png`}
             alt={post.title}
             width={1200}
@@ -252,7 +252,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           {post.relatedGuides && post.relatedGuides.length > 0 && (
             <div style={{ marginTop: 28, display: 'flex', flexWrap: 'wrap', gap: 10 }}>
               {post.relatedGuides.map((g) => (
-                <Link key={g.href} href={g.href} className="chip chip-link">
+                <Link prefetch={false} key={g.href} href={g.href} className="chip chip-link">
                   {g.label}
                 </Link>
               ))}
@@ -261,7 +261,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
           <div className="article-cta">
             <p>Want personalized guidance on this? Talk to our {post.relatedProgramLabel} mentors.</p>
-            <Link href={post.relatedProgramHref} className="btn btn-primary">
+            <Link prefetch={false} href={post.relatedProgramHref} className="btn btn-primary">
               Explore {post.relatedProgramLabel}
             </Link>
           </div>
@@ -282,13 +282,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div style={{ marginTop: 56 }}>
               <div className="blog-cluster-head">
                 <h2>More in {CATEGORY_LABELS[post.category]}</h2>
-                <Link href="/blog">All guides →</Link>
+                <Link prefetch={false} href="/blog">All guides →</Link>
               </div>
               <div className="blog-grid">
                 {related.map((r) => {
                   const rStyle = CATEGORY_STYLE[r.category];
                   return (
-                    <Link href={`/blog/${r.slug}`} className="blog-card blog-card-rich" key={r.slug}>
+                    <Link prefetch={false} href={`/blog/${r.slug}`} className="blog-card blog-card-rich" key={r.slug}>
                       <div className="blog-card-accent" style={{ background: rStyle.gradient }} />
                       <span className="blog-card-cat" style={{ color: rStyle.solid }}>{CATEGORY_LABELS[r.category]}</span>
                       <h3>{r.title}</h3>

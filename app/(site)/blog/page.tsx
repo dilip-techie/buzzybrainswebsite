@@ -126,7 +126,7 @@ export default function BlogIndexPage() {
     <main className="bb-landing bb-page-shell">
       <section className="hero blog-hero-compact">
         <div className="container">
-          <div className="blog-hero-top reveal">
+          <div className="blog-hero-top">
             <div>
               <span className="eyebrow">The BuzzyBrains Academy Blog</span>
               <h1>The strategies behind the top ranks,<br />from Master Educators.</h1>
@@ -136,14 +136,14 @@ export default function BlogIndexPage() {
               </p>
             </div>
             <div className="blog-hero-actions">
-              <Link href="/#contact" className="btn btn-primary">
+              <Link prefetch={false} href="/#contact" className="btn btn-primary">
                 Book Free Demo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </Link>
               <a href="#all-guides" className="btn btn-ghost">All Guides ↓</a>
             </div>
           </div>
-          <div className="blog-search reveal" data-delay="1">
+          <div className="blog-search">
             <Search size={18} className="blog-search-icon" aria-hidden="true" />
             <input
               type="search"
@@ -174,7 +174,7 @@ export default function BlogIndexPage() {
                 {searchResults.map((post) => {
                   const style = CATEGORY_STYLE[post.category];
                   return (
-                    <Link
+                    <Link prefetch={false}
                       href={`/blog/${post.slug}`}
                       className="blog-card blog-card-rich"
                       key={post.slug}
@@ -211,7 +211,7 @@ export default function BlogIndexPage() {
                   const count = BLOG_POSTS.filter((p) => p.category === category).length;
                   const href = count > 0 ? `/blog/${category}` : CATEGORY_PILLAR_HREF[category];
                   return (
-                    <Link
+                    <Link prefetch={false}
                       key={category}
                       href={href}
                       className="category-card category-card-compact"
@@ -237,7 +237,7 @@ export default function BlogIndexPage() {
 
           <section className="bb-section" id="all-guides" style={{ paddingTop: 0 }}>
             <div className="container">
-              <Link href={`/blog/${featured.slug}`} className="blog-featured reveal">
+              <Link prefetch={false} href={`/blog/${featured.slug}`} className="blog-featured reveal">
                 <div className="blog-featured-accent" style={{ background: CATEGORY_STYLE[featured.category].gradient }} />
                 <div className="blog-featured-body">
                   <span className="blog-featured-tag" style={{ background: CATEGORY_STYLE[featured.category].gradient }}>
@@ -261,7 +261,7 @@ export default function BlogIndexPage() {
                   {rest.map((post, i) => {
                     const style = CATEGORY_STYLE[post.category];
                     return (
-                      <Link
+                      <Link prefetch={false}
                         href={`/blog/${post.slug}`}
                         className="blog-card blog-card-rich reveal"
                         data-delay={String((i % 3) + 1)}

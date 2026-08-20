@@ -128,7 +128,7 @@ export default function OlympiadsPage() {
 
           <div className="hero-chips" style={{ justifyContent: 'center' }}>
             {SUBJECTS.map((s) => (
-              <Link key={s.id} href={`/#${s.id}`} className="chip">
+              <Link prefetch={false} key={s.id} href={`/#${s.id}`} className="chip">
                 <i className="dot" style={{ background: s.gradient.match(/#[0-9A-Fa-f]{6}/)?.[0] }} /> {s.subject}
               </Link>
             ))}
@@ -229,7 +229,7 @@ export default function OlympiadsPage() {
               { href: '/blog/mental-maths-techniques-every-olympiad-student-should-know', label: 'Mental Maths Techniques Every Olympiad Student Should Know' },
             ].map((g) => (
               <li key={g.href} style={{ border: '1px solid var(--line)', borderRadius: 'var(--r-md)', background: 'var(--card)' }}>
-                <Link href={g.href} style={{ display: 'block', padding: '16px 18px', fontSize: 14.5, fontWeight: 600, color: 'var(--text-2)' }}>
+                <Link prefetch={false} href={g.href} style={{ display: 'block', padding: '16px 18px', fontSize: 14.5, fontWeight: 600, color: 'var(--text-2)' }}>
                   {g.label}
                 </Link>
               </li>
