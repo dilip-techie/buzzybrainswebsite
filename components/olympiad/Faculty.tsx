@@ -49,7 +49,7 @@ export default function Faculty({
                 <h3 className="mt-4 text-[15px] font-bold text-oly-ink">{f.name}</h3>
                 <p className="mt-1 text-[12.5px] font-semibold text-oly-brand-500">{f.role}</p>
                 <p className="mt-2.5 text-[12.5px] leading-relaxed text-oly-ink/55">{f.creds}</p>
-                <div className="oly-glow-chip mt-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[11px] font-bold">
+                <div className="oly-glow-chip mt-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-[12px] font-bold">
                   {f.badge}
                 </div>
               </div>

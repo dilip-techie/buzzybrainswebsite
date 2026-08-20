@@ -50,7 +50,7 @@ export default function ExamTracks() {
                     ['Scoring', t.scoring],
                   ].map(([k, v]) => (
                     <div key={k}>
-                      <dt className="text-[10.5px] font-bold uppercase tracking-[0.1em] text-oly-ink/35">{k}</dt>
+                      <dt className="text-[12px] font-bold uppercase tracking-[0.1em] text-oly-ink/35">{k}</dt>
                       <dd className="mt-0.5 font-mono text-[12.5px] font-semibold leading-snug text-oly-ink/75">{v}</dd>
                     </div>
                   ))}
@@ -58,7 +58,7 @@ export default function ExamTracks() {
 
                 <div className="mt-6 flex flex-wrap gap-1.5">
                   {t.topics.map((top) => (
-                    <span key={top} className="rounded-full border border-oly-line px-2.5 py-1 text-[11px] font-medium text-oly-ink/55">
+                    <span key={top} className="rounded-full border border-oly-line px-2.5 py-1 text-[12px] font-medium text-oly-ink/55">
                       {top}
                     </span>
                   ))}

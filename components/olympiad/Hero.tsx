@@ -75,7 +75,7 @@ export default function Hero() {
           <div className="rounded-oly-4xl border border-oly-line bg-white p-6 shadow-oly-card-lg sm:p-8">
             <div className="mb-5 flex items-center justify-between">
               <div>
-                <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-oly-ink/40">
+                <p className="text-[12px] font-bold uppercase tracking-[0.14em] text-oly-ink/40">
                   Answer Sheet · Live Mock
                 </p>
                 <p className="font-mono text-sm font-semibold text-oly-ink">AMC 10 · Set B</p>

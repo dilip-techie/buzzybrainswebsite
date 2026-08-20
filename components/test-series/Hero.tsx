@@ -12,14 +12,14 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-16 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-10 lg:py-28">
         <div>
-          <nav aria-label="Breadcrumb" className="reveal mb-5 flex items-center gap-2 font-ledger text-[11px] tracking-[0.1em] text-[#FAF7EF]/50">
+          <nav aria-label="Breadcrumb" className="reveal mb-5 flex items-center gap-2 font-ledger text-[12px] tracking-[0.1em] text-[#FAF7EF]/50">
             <Link prefetch={false} href="/" className="transition-colors hover:text-[#E4C158]">Home</Link>
             <span>/</span>
             <span className="text-[#FAF7EF]/75">Board Exam Test Series</span>
           </nav>
           <div className="reveal mb-6 inline-flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-4 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-[#E4C158]" />
-            <span className="font-ledger text-[11px] tracking-[0.18em] text-[#E4C158]">
+            <span className="font-ledger text-[12px] tracking-[0.18em] text-[#E4C158]">
               CBSE &middot; ICSE &nbsp;|&nbsp; GRADE 10 &amp; 12 &nbsp;|&nbsp; BOARDS 2027
             </span>
           </div>
@@ -68,19 +68,19 @@ export default function Hero() {
           <dl className="reveal mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-[#FAF7EF]/15 pt-8" data-delay="4">
             <div>
               <dt className="font-display text-[28px] font-bold text-[#E4C158]">8</dt>
-              <dd className="mt-1 font-ledger text-[11px] leading-tight text-[#FAF7EF]/60">
+              <dd className="mt-1 font-ledger text-[12px] leading-tight text-[#FAF7EF]/60">
                 Full-length papers per subject
               </dd>
             </div>
             <div>
               <dt className="font-display text-[28px] font-bold text-[#E4C158]">72 hrs</dt>
-              <dd className="mt-1 font-ledger text-[11px] leading-tight text-[#FAF7EF]/60">
+              <dd className="mt-1 font-ledger text-[12px] leading-tight text-[#FAF7EF]/60">
                 Turnaround to marked scorecard
               </dd>
             </div>
             <div>
               <dt className="font-display text-[28px] font-bold text-[#E4C158]">1:1</dt>
-              <dd className="mt-1 font-ledger text-[11px] leading-tight text-[#FAF7EF]/60">
+              <dd className="mt-1 font-ledger text-[12px] leading-tight text-[#FAF7EF]/60">
                 Weak-topic review call
               </dd>
             </div>
@@ -94,19 +94,19 @@ export default function Hero() {
             <div className="paper-ruled margin-rule relative rounded-[2px] pb-2">
               <div className="flex items-start justify-between border-b-2 border-[#0E2148] pb-3">
                 <div>
-                  <p className="font-ledger text-[10px] tracking-widest text-[#5E7FB5]">
+                  <p className="font-ledger text-[12px] tracking-widest text-[#5E7FB5]">
                     BUZZYBRAINS ACADEMY &mdash; MOCK BOARD PAPER
                   </p>
                   <p className="mt-1 font-display text-[15px] font-bold">
                     Mathematics &middot; CBSE Class X
                   </p>
                 </div>
-                <span className="rotate-6 rounded-sm border-2 border-[#B23A2E] px-2 py-1 font-ledger text-[9px] font-bold text-[#B23A2E]">
+                <span className="rotate-6 rounded-sm border-2 border-[#B23A2E] px-2 py-1 font-ledger text-[12px] font-bold text-[#B23A2E]">
                   VERIFIED
                 </span>
               </div>
 
-              <div className="mt-4 flex items-center justify-between font-ledger text-[10px] text-[#0E2148]/60">
+              <div className="mt-4 flex items-center justify-between font-ledger text-[12px] text-[#0E2148]/60">
                 <span>Roll No. BB&#8209;X&#8209;0417</span>
                 <span>Time: 3 hrs</span>
                 <span>M.M. 80</span>
@@ -133,7 +133,7 @@ export default function Hero() {
               </div>
 
               <div className="mt-5 flex items-center justify-between rounded-sm bg-[#0E2148] px-4 py-3">
-                <span className="font-ledger text-[10px] tracking-widest text-[#FAF7EF]/70">
+                <span className="font-ledger text-[12px] tracking-widest text-[#FAF7EF]/70">
                   TOTAL AWARDED
                 </span>
                 <span className="font-display text-[22px] font-bold text-[#E4C158]">71 / 80</span>
@@ -143,7 +143,7 @@ export default function Hero() {
 
           {/* small floating gold percentile tag */}
           <div className="absolute -bottom-5 -left-5 rotate-[4deg] rounded-full bg-[#C9A227] px-4 py-2 shadow-lg">
-            <span className="font-ledger text-[11px] font-bold text-[#0E2148]">92nd percentile</span>
+            <span className="font-ledger text-[12px] font-bold text-[#0E2148]">92nd percentile</span>
           </div>
         </div>
       </div>

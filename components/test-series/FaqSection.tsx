@@ -9,7 +9,7 @@ export default function FaqSection() {
   return (
     <section id="ts-faq" className="border-t border-[#0E2148]/10 bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-4xl px-6 lg:px-10">
-        <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">QUESTIONS</p>
+        <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">QUESTIONS</p>
         <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
           Before you enroll
         </h2>

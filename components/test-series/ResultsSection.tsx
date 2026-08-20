@@ -8,7 +8,7 @@ export default function ResultsSection() {
   return (
     <section className="bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="reveal font-ledger text-[11px] tracking-[0.25em] text-[#B23A2E]">FROM THE LAST BATCH</p>
+        <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">FROM THE LAST BATCH</p>
         <h2 className="reveal mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
           What changes after twelve weeks of graded papers.
         </h2>
@@ -22,7 +22,7 @@ export default function ResultsSection() {
                 </span>
                 <div>
                   <figcaption className="font-display text-[15px] font-bold">{r.name}</figcaption>
-                  <p className="font-ledger text-[10.5px] text-[#5E7FB5]">{r.grade}</p>
+                  <p className="font-ledger text-[12px] text-[#5E7FB5]">{r.grade}</p>
                 </div>
               </div>
               <blockquote className="mt-5 text-[14px] leading-relaxed text-[#0E2148]/75">
