@@ -904,6 +904,21 @@ export const physicsCupBonus = {
     'An online problem set, harder than EuPhO, APhO or even IPhO by design — the training material serious IPhO medalists use to sharpen further. Genuinely open online entry, no school or federation gatekeeping. Only worth attempting once the five tracks above feel comfortable.',
 };
 
+// Real, named student achievements — confirmed by Dilip Sir. Add to this
+// list as more are confirmed; do not invent entries.
+export const physicsStudentAchievements = [
+  {
+    name: 'Aditya Raj',
+    school: "Bishop's School",
+    achievement: 'Selected in SOF Science Olympiad, Level 2',
+  },
+  {
+    name: 'Rohini Agarwal',
+    school: 'HDFC School',
+    achievement: 'Selected in SOF Science Olympiad',
+  },
+];
+
 // Explicit, table-shaped fields for the comparison table — kept separate
 // from physicsOlympiadTracks' `meta` tuples, which are ordered for each
 // track's own card display rather than a shared table schema.
