@@ -21207,7 +21207,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The JEE-or-NEET decision quietly gets made by default for thousands of students who never explicitly choose — they just keep doing whatever their coaching batch does. Here's a real framework for deciding before Class 11 ends, not after two years of split focus.",
     category: 'iit-jee',
-    datePublished: '2026-11-02',
+    datePublished: '2026-08-22',
     readingMinutes: 10,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -21329,7 +21329,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Six months out from JEE Main is late enough that there's no time to waste, and early enough that a genuinely structured plan still changes the outcome. Here's a realistic, week-by-week breakdown of what that final stretch should actually look like.",
     category: 'iit-jee',
-    datePublished: '2026-11-03',
+    datePublished: '2026-08-22',
     readingMinutes: 11,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -21436,7 +21436,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "A clear breakdown of the NEET exam pattern — sections, question types, marking scheme, and what each part actually rewards — so preparation is built around the real exam, not a vague sense of what NEET tests.",
     category: 'neet',
-    datePublished: '2026-11-04',
+    datePublished: '2026-08-23',
     readingMinutes: 8,
     relatedProgramHref: '/12th-board-pcb',
     relatedProgramLabel: 'NEET Program',
@@ -21539,7 +21539,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The registration form is the first place many JEE Main candidates lose marks or options — not through preparation gaps, but through avoidable errors in documents, photo specifications, or city and category selection. Here's how to get it right the first time.",
     category: 'iit-jee',
-    datePublished: '2026-11-05',
+    datePublished: '2026-08-23',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -21639,7 +21639,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Most study timetables fail within two weeks because they're built for an idealized day that never actually happens. Here's how to build one that survives school, coaching, commute, and the days that just don't go to plan.",
     category: 'neet',
-    datePublished: '2026-11-06',
+    datePublished: '2026-08-24',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcb',
     relatedProgramLabel: 'NEET Program',
@@ -21749,7 +21749,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "JEE and NEET Physics share almost the entire syllabus on paper, but the same chapter often needs to be studied in genuinely different ways for each exam. Here's exactly where that difference matters and how to prepare accordingly.",
     category: 'iit-jee',
-    datePublished: '2026-11-09',
+    datePublished: '2026-08-25',
     readingMinutes: 10,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -21853,7 +21853,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "State CET exams like MHT-CET run alongside JEE Main, not instead of it, and confusing the two — or ignoring one while preparing for the other — can quietly cost genuinely strong engineering options. Here's how the two actually fit together.",
     category: 'iit-jee',
-    datePublished: '2026-11-10',
+    datePublished: '2026-08-26',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -21957,7 +21957,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "\"How many mock tests\" is the wrong first question — the right one is when to start, how often, and what happens between attempts. Here's a realistic, phased testing timeline for NEET and JEE aspirants, not just a number.",
     category: 'neet',
-    datePublished: '2026-11-11',
+    datePublished: '2026-08-26',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcb',
     relatedProgramLabel: 'NEET Program',
@@ -22060,7 +22060,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "JEE Main's two-session structure is a genuine strategic advantage most students underuse. Here's how to treat Session 1 as a real, serious attempt while still extracting maximum data from it to improve Session 2.",
     category: 'iit-jee',
-    datePublished: '2026-11-12',
+    datePublished: '2026-08-27',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
@@ -22163,7 +22163,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The moment an exam ends, rank predictors and percentile calculators flood in with instant, confident-sounding numbers. Here's an honest look at how they actually work, where they're useful, and where they mislead.",
     category: 'neet',
-    datePublished: '2026-11-13',
+    datePublished: '2026-08-28',
     readingMinutes: 9,
     relatedProgramHref: '/12th-board-pcb',
     relatedProgramLabel: 'NEET Program',
