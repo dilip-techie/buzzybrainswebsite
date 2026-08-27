@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/achievements' },
   openGraph: {
     title: 'Our Achievements — Results & Reviews',
-    description: 'Real results, a real growth story, and genuine reviews from BuzzyBrains Academy families.',
+    description: 'IITian Mentorship. Real results, a real growth story, and genuine reviews from BuzzyBrains Academy families.',
     url: 'https://buzzybrainsacademy.com/achievements',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Our Achievements — Results & Reviews',
-    description: 'Real results, a real growth story, and genuine reviews from BuzzyBrains Academy families.',
+    description: 'IITian Mentorship. Real results, a real growth story, and genuine reviews from BuzzyBrains Academy families.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

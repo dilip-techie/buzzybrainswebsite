@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sitemap | BuzzyBrains Academy',
     description:
-      'A complete, organized list of every page on the BuzzyBrains Academy website — programs, SEO guides, locality pages and blog posts.',
+      'IITian Mentorship. A complete, organized list of every page on the BuzzyBrains Academy website — programs, SEO guides, locality pages and blog posts.',
     url: 'https://buzzybrainsacademy.com/sitemap',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Sitemap | BuzzyBrains Academy',
     description:
-      'A complete, organized list of every page on the BuzzyBrains Academy website — programs, SEO guides, locality pages and blog posts.',
+      'IITian Mentorship. A complete, organized list of every page on the BuzzyBrains Academy website — programs, SEO guides, locality pages and blog posts.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

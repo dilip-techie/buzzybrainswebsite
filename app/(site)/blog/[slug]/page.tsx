@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       alternates: { canonical: url },
       openGraph: {
         title: content.h1,
-        description: content.metaDescription,
+        description: `IITian Mentorship. ${content.metaDescription}`,
         url,
         siteName: 'BuzzyBrains Academy',
         type: 'website',
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       twitter: {
         card: 'summary_large_image',
         title: content.h1,
-        description: content.metaDescription,
+        description: `IITian Mentorship. ${content.metaDescription}`,
         images: [ogImage],
       },
     };
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     alternates: { canonical: `https://buzzybrainsacademy.com/blog/${post.slug}` },
     openGraph: {
       title: post.title,
-      description: post.description,
+      description: `IITian Mentorship. ${post.description}`,
       url: `https://buzzybrainsacademy.com/blog/${post.slug}`,
       siteName: 'BuzzyBrains Academy',
       type: 'article',
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: {
       card: 'summary_large_image',
       title: post.title,
-      description: post.description,
+      description: `IITian Mentorship. ${post.description}`,
       images: [ogImage],
     },
   };

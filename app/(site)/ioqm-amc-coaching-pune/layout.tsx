@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/ioqm-amc-coaching-pune' },
   openGraph: {
     title: 'IOQM, AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
-    description: 'Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
+    description: 'IITian Mentorship. Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
     url: 'https://buzzybrainsacademy.com/ioqm-amc-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IOQM, AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
-    description: 'Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
+    description: 'IITian Mentorship. Elite IOQM, AMC 8 and AMC 10 olympiad coaching in Pune. IIT-alumni mentors, batches capped at 12, weekly timed mocks in the real exam format.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

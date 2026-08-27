@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
     description:
-      "How a simple realization changed everything: Dilip Sir's mission to build a beacon of quality learning in Pune.",
+      "IITian Mentorship. How a simple realization changed everything: Dilip Sir's mission to build a beacon of quality learning in Pune.",
     url: 'https://buzzybrainsacademy.com/about',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About Us — Our Story & Mission | BuzzyBrains Academy',
-    description: 'How a simple realization changed everything: Dilip Sir\'s mission to build a beacon of quality learning in Pune.',
+    description: 'IITian Mentorship. How a simple realization changed everything: Dilip Sir\'s mission to build a beacon of quality learning in Pune.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

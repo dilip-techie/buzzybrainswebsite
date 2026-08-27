@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/ivy-league-counselling' },
   openGraph: {
     title: 'Ivy League & Top US University Counselling',
-    description: 'Grade 9–12 academic profile building for Ivy League and top US university applications — course strategy, SAT/AP scores, honest guidance.',
+    description: 'IITian Mentorship. Grade 9–12 academic profile building for Ivy League and top US university applications — course strategy, SAT/AP scores, honest guidance.',
     url: 'https://buzzybrainsacademy.com/ivy-league-counselling',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ivy League & Top US University Counselling',
-    description: 'Grade 9–12 academic profile building for Ivy League and top US university applications — course strategy, SAT/AP scores, honest guidance.',
+    description: 'IITian Mentorship. Grade 9–12 academic profile building for Ivy League and top US university applications — course strategy, SAT/AP scores, honest guidance.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

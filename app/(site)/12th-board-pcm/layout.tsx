@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',
     description:
-      'Rigorous, concept-first IIT-JEE preparation in Physics, Chemistry & Maths, mentored by IIT alumni faculty.',
+      'IITian Mentorship. Rigorous, concept-first IIT-JEE preparation in Physics, Chemistry & Maths, mentored by IIT alumni faculty.',
     url: 'https://buzzybrainsacademy.com/12th-board-pcm',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',
-    description: 'Rigorous, concept-first IIT-JEE preparation in Physics, Chemistry & Maths, mentored by IIT alumni faculty.',
+    description: 'IITian Mentorship. Rigorous, concept-first IIT-JEE preparation in Physics, Chemistry & Maths, mentored by IIT alumni faculty.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

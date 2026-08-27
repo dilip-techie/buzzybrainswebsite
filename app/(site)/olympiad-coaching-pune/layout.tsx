@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-coaching-pune' },
   openGraph: {
     title: "Olympiad Coaching in Pune: A Parent's Guide",
-    description: 'A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
+    description: 'IITian Mentorship. A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
     url: 'https://buzzybrainsacademy.com/olympiad-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Olympiad Coaching in Pune: A Parent's Guide",
-    description: 'A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
+    description: 'IITian Mentorship. A guide to olympiad coaching in Pune across Math, Physics, Chemistry, Biology and Coding.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

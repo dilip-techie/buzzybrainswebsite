@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://buzzybrainsacademy.com/12th-board" },
   openGraph: {
     title: "Grade 12 Board Exam & JEE/NEET Prep | Score 95%+",
-    description: "Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
+    description: "IITian Mentorship. Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
     url: "https://buzzybrainsacademy.com/12th-board",
     siteName: "BuzzyBrains Academy",
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Grade 12 Board Exam & JEE/NEET Prep | Score 95%+",
-    description: "Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
+    description: "IITian Mentorship. Master Grade 12 PCM/PCB with dual preparation for JEE/NEET by IITian & IIM mentors.",
     images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };

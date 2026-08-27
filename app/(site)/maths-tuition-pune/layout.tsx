@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/maths-tuition-pune' },
   openGraph: {
     title: 'Maths Tuition Pune | BuzzyBrains Academy',
-    description: 'How to choose maths tuition in Pune, and how BuzzyBrains Academy structures its maths tuition options.',
+    description: 'IITian Mentorship. How to choose maths tuition in Pune, and how BuzzyBrains Academy structures its maths tuition options.',
     url: 'https://buzzybrainsacademy.com/maths-tuition-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Maths Tuition Pune | BuzzyBrains Academy',
-    description: 'How to choose maths tuition in Pune, and how BuzzyBrains Academy structures its maths tuition options.',
+    description: 'IITian Mentorship. How to choose maths tuition in Pune, and how BuzzyBrains Academy structures its maths tuition options.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

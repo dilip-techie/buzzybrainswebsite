@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/sof-olympiads' },
   openGraph: {
     title: 'Multi-Subject Olympiad Coaching in Pune | Grades 3–10',
-    description: 'Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
+    description: 'IITian Mentorship. Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/sof-olympiads',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Multi-Subject Olympiad Coaching in Pune | Grades 3–10',
-    description: 'Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
+    description: 'IITian Mentorship. Structured olympiad coaching across Maths, Science, English, GK, Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS for Grades 3-10. Batches capped at 12.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

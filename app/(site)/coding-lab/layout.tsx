@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/coding-lab' },
   openGraph: {
     title: 'Code Ninja — Coding, AI & Logic Labs for Grades 6-12',
-    description: 'A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
+    description: 'IITian Mentorship. A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
     url: 'https://buzzybrainsacademy.com/coding-lab',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Code Ninja — Coding, AI & Logic Labs for Grades 6-12',
-    description: 'A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
+    description: 'IITian Mentorship. A dedicated coding, AI and logic-building track for Grades 6-12, led by an IIT Kanpur graduate.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/neet-coaching-pune' },
   openGraph: {
     title: 'NEET Coaching Pune | BuzzyBrains Academy',
-    description: 'A complete guide to choosing NEET coaching in Pune, and how BuzzyBrains Academy structures its NEET program.',
+    description: 'IITian Mentorship. A complete guide to choosing NEET coaching in Pune, and how BuzzyBrains Academy structures its NEET program.',
     url: 'https://buzzybrainsacademy.com/neet-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NEET Coaching Pune | BuzzyBrains Academy',
-    description: 'A complete guide to choosing NEET coaching in Pune, and how BuzzyBrains Academy structures its NEET program.',
+    description: 'IITian Mentorship. A complete guide to choosing NEET coaching in Pune, and how BuzzyBrains Academy structures its NEET program.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

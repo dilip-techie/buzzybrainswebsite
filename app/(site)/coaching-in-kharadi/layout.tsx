@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/coaching-in-kharadi' },
   openGraph: {
     title: 'Coaching Classes for Kharadi Students | BuzzyBrains Academy',
-    description: 'Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
+    description: 'IITian Mentorship. Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
     url: 'https://buzzybrainsacademy.com/coaching-in-kharadi',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Coaching Classes for Kharadi Students | BuzzyBrains Academy',
-    description: 'Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
+    description: 'IITian Mentorship. Small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching for Kharadi students, online and offline.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

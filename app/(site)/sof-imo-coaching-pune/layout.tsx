@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/sof-imo-coaching-pune' },
   openGraph: {
     title: 'SOF Exam Coaching Pune | IMO, NSO, IEO, NCO, IGKO & ISSO',
-    description: 'Dedicated coaching for all six SOF exams — IMO, NSO, IEO, NCO, IGKO and ISSO — for Grades 1-12. Batches capped at 12.',
+    description: 'IITian Mentorship. Dedicated coaching for all six SOF exams — IMO, NSO, IEO, NCO, IGKO and ISSO — for Grades 1-12. Batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/sof-imo-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'SOF Exam Coaching Pune | IMO, NSO, IEO, NCO, IGKO & ISSO',
-    description: 'Dedicated coaching for all six SOF exams — IMO, NSO, IEO, NCO, IGKO and ISSO — for Grades 1-12. Batches capped at 12.',
+    description: 'IITian Mentorship. Dedicated coaching for all six SOF exams — IMO, NSO, IEO, NCO, IGKO and ISSO — for Grades 1-12. Batches capped at 12.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

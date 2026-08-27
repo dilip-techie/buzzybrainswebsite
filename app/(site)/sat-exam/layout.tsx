@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/sat-exam' },
   openGraph: {
     title: 'SAT Exam Prep — Score 1400+ on the Digital SAT',
-    description: 'Structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and full-length mocks.',
+    description: 'IITian Mentorship. Structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and full-length mocks.',
     url: 'https://buzzybrainsacademy.com/sat-exam',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'SAT Exam Prep — Score 1400+ on the Digital SAT',
-    description: 'Structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and full-length mocks.',
+    description: 'IITian Mentorship. Structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and full-length mocks.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

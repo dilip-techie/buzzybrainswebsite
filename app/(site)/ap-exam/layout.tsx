@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AP Exam Coaching — Aim for the 5',
     description:
-      'Advanced Placement coaching by an IIT Kanpur graduate. AP Calculus, Physics, Chemistry, Statistics & Computer Science A. Small batches, FRQ-first practice, full-length mocks.',
+      'IITian Mentorship. Advanced Placement coaching by an IIT Kanpur graduate. AP Calculus, Physics, Chemistry, Statistics & Computer Science A. Small batches, FRQ-first practice, full-length mocks.',
     url: 'https://buzzybrainsacademy.com/ap-exam',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AP Exam Coaching — Aim for the 5',
-    description: 'Advanced Placement coaching by an IIT Kanpur graduate. AP Calculus, Physics, Chemistry, Statistics & Computer Science A. Small batches, FRQ-first practice, full-length mocks.',
+    description: 'IITian Mentorship. Advanced Placement coaching by an IIT Kanpur graduate. AP Calculus, Physics, Chemistry, Statistics & Computer Science A. Small batches, FRQ-first practice, full-length mocks.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

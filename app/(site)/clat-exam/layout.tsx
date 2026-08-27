@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/clat-exam' },
   openGraph: {
     title: 'CLAT Coaching — National Law Entrance Exam Prep',
-    description: 'Structured, passage-first CLAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    description: 'IITian Mentorship. Structured, passage-first CLAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
     url: 'https://buzzybrainsacademy.com/clat-exam',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CLAT Coaching — National Law Entrance Exam Prep',
-    description: 'Structured, passage-first CLAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    description: 'IITian Mentorship. Structured, passage-first CLAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

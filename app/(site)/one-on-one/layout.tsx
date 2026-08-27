@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://buzzybrainsacademy.com/one-on-one" },
   openGraph: {
     title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor",
-    description: "Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
+    description: "IITian Mentorship. Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
     url: "https://buzzybrainsacademy.com/one-on-one",
     siteName: "BuzzyBrains Academy",
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor",
-    description: "Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
+    description: "IITian Mentorship. Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
     images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };

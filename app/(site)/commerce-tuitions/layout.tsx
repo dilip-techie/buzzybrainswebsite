@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/commerce-tuitions' },
   openGraph: {
     title: 'BuzzyBrains Commerce Tuitions | BuzzyBrains Academy',
-    description: 'Class 11-12 Commerce coaching in Pune — CBSE, ICSE, State Board, IGCSE and IB Diploma — Accountancy, Economics, Business Studies, Applied Maths, plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
+    description: 'IITian Mentorship. Class 11-12 Commerce coaching in Pune — CBSE, ICSE, State Board, IGCSE and IB Diploma — Accountancy, Economics, Business Studies, Applied Maths, plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
     url: 'https://buzzybrainsacademy.com/commerce-tuitions',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'BuzzyBrains Commerce Tuitions | BuzzyBrains Academy',
-    description: 'Class 11-12 Commerce coaching in Pune — CBSE, ICSE, State Board, IGCSE and IB Diploma — Accountancy, Economics, Business Studies, Applied Maths, plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
+    description: 'IITian Mentorship. Class 11-12 Commerce coaching in Pune — CBSE, ICSE, State Board, IGCSE and IB Diploma — Accountancy, Economics, Business Studies, Applied Maths, plus CUET, CA Foundation, IPMAT, NPAT and SET prep support.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

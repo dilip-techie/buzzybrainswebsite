@@ -102,11 +102,13 @@ function formatDate(iso: string) {
 
 export default function BlogIndexPage() {
   const [query, setQuery] = useState('');
+  const [tickerPaused, setTickerPaused] = useState(false);
   const trimmedQuery = query.trim();
   const isSearching = trimmedQuery.length > 0;
 
   const featured = POSTS_BY_DATE[0];
   const rest = POSTS_BY_DATE.slice(1);
+  const latestTen = POSTS_BY_DATE.slice(0, 10);
 
   const categoriesWithPosts = useMemo(
     () => CATEGORY_ORDER.filter((category) => BLOG_POSTS.some((post) => post.category === category)),
@@ -157,6 +159,46 @@ export default function BlogIndexPage() {
                 <X size={16} />
               </button>
             )}
+          </div>
+
+          <div className="latest-blogs-ticker">
+            <div className="latest-blogs-ticker-head">
+              <span className="latest-blogs-live-dot" aria-hidden="true" />
+              <h2>Top 10 Latest</h2>
+            </div>
+            <div
+              className="latest-blogs-viewport"
+              onMouseEnter={() => setTickerPaused(true)}
+              onMouseLeave={() => setTickerPaused(false)}
+            >
+              <div className={`latest-blogs-track${tickerPaused ? ' is-paused' : ''}`}>
+                {[...latestTen, ...latestTen].map((post, i) => {
+                  const style = CATEGORY_STYLE[post.category];
+                  const isDuplicate = i >= latestTen.length;
+                  return (
+                    <Link
+                      prefetch={false}
+                      href={`/blog/${post.slug}`}
+                      key={`${post.slug}-${i}`}
+                      className="latest-blog-card"
+                      aria-hidden={isDuplicate || undefined}
+                      tabIndex={isDuplicate ? -1 : undefined}
+                    >
+                      <span className="latest-blog-card-accent" style={{ background: style.gradient }} />
+                      <span className="latest-blog-card-cat" style={{ color: style.solid }}>
+                        {CATEGORY_LABELS[post.category]}
+                      </span>
+                      <h3>{post.title}</h3>
+                      <span className="latest-blog-card-meta">
+                        <span>{formatDate(post.datePublished)}</span>
+                        <span className="blog-stat-dot" aria-hidden="true" />
+                        <span><Clock size={11} /> {post.readingMinutes} min</span>
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/cat-exam' },
   openGraph: {
     title: 'CAT Coaching — India\'s Top MBA Entrance Exam',
-    description: 'Structured, sectional-time-native CAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    description: 'IITian Mentorship. Structured, sectional-time-native CAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
     url: 'https://buzzybrainsacademy.com/cat-exam',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CAT Coaching — India\'s Top MBA Entrance Exam',
-    description: 'Structured, sectional-time-native CAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
+    description: 'IITian Mentorship. Structured, sectional-time-native CAT preparation with section-wise mastery and full-length mocks, mentored in small batches.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

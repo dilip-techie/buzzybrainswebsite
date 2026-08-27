@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/amc-8-10-coaching-pune' },
   openGraph: {
     title: 'AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated AMC 8 and AMC 10 coaching for Grades 6-10 — IIT-alumni mentors, batches capped at 12, a structured path to AIME.',
+    description: 'IITian Mentorship. Dedicated AMC 8 and AMC 10 coaching for Grades 6-10 — IIT-alumni mentors, batches capped at 12, a structured path to AIME.',
     url: 'https://buzzybrainsacademy.com/amc-8-10-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AMC 8 & AMC 10 Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated AMC 8 and AMC 10 coaching for Grades 6-10 — IIT-alumni mentors, batches capped at 12, a structured path to AIME.',
+    description: 'IITian Mentorship. Dedicated AMC 8 and AMC 10 coaching for Grades 6-10 — IIT-alumni mentors, batches capped at 12, a structured path to AIME.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

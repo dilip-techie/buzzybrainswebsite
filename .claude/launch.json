@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "buzzybrains-test-series",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/apple/Downloads/buzzybrains-test-series", "run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "buzzybrains-main",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
