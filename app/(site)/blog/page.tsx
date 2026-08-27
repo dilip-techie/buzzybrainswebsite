@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useMemo, useState } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
@@ -12,6 +13,7 @@ import {
 import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/categories';
 import { BLOG_POSTS_META as BLOG_POSTS } from './_data/posts-meta';
 import { FaqJsonLd } from '@/app/components/JsonLd';
+import { BlogCard } from './_components/BlogCard';
 
 const BLOG_FAQS = [
   {
@@ -184,16 +186,26 @@ export default function BlogIndexPage() {
                       aria-hidden={isDuplicate || undefined}
                       tabIndex={isDuplicate ? -1 : undefined}
                     >
-                      <span className="latest-blog-card-accent" style={{ background: style.gradient }} />
-                      <span className="latest-blog-card-cat" style={{ color: style.solid }}>
-                        {CATEGORY_LABELS[post.category]}
-                      </span>
-                      <h3>{post.title}</h3>
-                      <span className="latest-blog-card-meta">
-                        <span>{formatDate(post.datePublished)}</span>
-                        <span className="blog-stat-dot" aria-hidden="true" />
-                        <span><Clock size={11} /> {post.readingMinutes} min</span>
-                      </span>
+                      <div className="latest-blog-card-thumb">
+                        <Image
+                          src={`/images/og/${post.slug}.png`}
+                          alt=""
+                          fill
+                          sizes="240px"
+                          priority={i < latestTen.length}
+                        />
+                        <span className="latest-blog-card-cat" style={{ background: style.gradient }}>
+                          {CATEGORY_LABELS[post.category]}
+                        </span>
+                      </div>
+                      <div className="latest-blog-card-body">
+                        <h3>{post.title}</h3>
+                        <span className="latest-blog-card-meta">
+                          <span>{formatDate(post.datePublished)}</span>
+                          <span className="blog-stat-dot" aria-hidden="true" />
+                          <span><Clock size={11} /> {post.readingMinutes} min</span>
+                        </span>
+                      </div>
                     </Link>
                   );
                 })}
@@ -213,26 +225,9 @@ export default function BlogIndexPage() {
             </p>
             {searchResults.length > 0 ? (
               <div className="blog-grid blog-grid-rich">
-                {searchResults.map((post) => {
-                  const style = CATEGORY_STYLE[post.category];
-                  return (
-                    <Link prefetch={false}
-                      href={`/blog/${post.slug}`}
-                      className="blog-card blog-card-rich"
-                      key={post.slug}
-                    >
-                      <div className="blog-card-accent" style={{ background: style.gradient }} />
-                      <span className="blog-card-cat" style={{ color: style.solid }}>{CATEGORY_LABELS[post.category]}</span>
-                      <h3>{post.title}</h3>
-                      <p>{post.description}</p>
-                      <span className="blog-card-meta">
-                        <span>{formatDate(post.datePublished)}</span>
-                        <span className="blog-stat-dot" aria-hidden="true" />
-                        <span><Clock size={12} /> {post.readingMinutes} min</span>
-                      </span>
-                    </Link>
-                  );
-                })}
+                {searchResults.map((post) => (
+                  <BlogCard post={post} key={post.slug} />
+                ))}
               </div>
             ) : (
               <div className="blog-search-empty">
@@ -281,6 +276,15 @@ export default function BlogIndexPage() {
             <div className="container">
               <Link prefetch={false} href={`/blog/${featured.slug}`} className="blog-featured reveal">
                 <div className="blog-featured-accent" style={{ background: CATEGORY_STYLE[featured.category].gradient }} />
+                <div className="blog-featured-thumb">
+                  <Image
+                    src={`/images/og/${featured.slug}.png`}
+                    alt={featured.title}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 260px"
+                    priority
+                  />
+                </div>
                 <div className="blog-featured-body">
                   <span className="blog-featured-tag" style={{ background: CATEGORY_STYLE[featured.category].gradient }}>
                     Latest &middot; {CATEGORY_LABELS[featured.category]}
@@ -300,27 +304,9 @@ export default function BlogIndexPage() {
 
               {rest.length > 0 && (
                 <div className="blog-grid blog-grid-rich">
-                  {rest.map((post, i) => {
-                    const style = CATEGORY_STYLE[post.category];
-                    return (
-                      <Link prefetch={false}
-                        href={`/blog/${post.slug}`}
-                        className="blog-card blog-card-rich reveal"
-                        data-delay={String((i % 3) + 1)}
-                        key={post.slug}
-                      >
-                        <div className="blog-card-accent" style={{ background: style.gradient }} />
-                        <span className="blog-card-cat" style={{ color: style.solid }}>{CATEGORY_LABELS[post.category]}</span>
-                        <h3>{post.title}</h3>
-                        <p>{post.description}</p>
-                        <span className="blog-card-meta">
-                          <span>{formatDate(post.datePublished)}</span>
-                          <span className="blog-stat-dot" aria-hidden="true" />
-                          <span><Clock size={12} /> {post.readingMinutes} min</span>
-                        </span>
-                      </Link>
-                    );
-                  })}
+                  {rest.map((post, i) => (
+                    <BlogCard post={post} key={post.slug} reveal delay={(i % 3) + 1} />
+                  ))}
                 </div>
               )}
             </div>

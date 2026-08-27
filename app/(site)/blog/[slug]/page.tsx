@@ -17,6 +17,7 @@ import {
 import { ReadingProgress } from '../_components/ReadingProgress';
 import { ShareBar } from '../_components/ShareBar';
 import { CategoryPage } from '../_components/CategoryPage';
+import { BlogCard } from '../_components/BlogCard';
 
 const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS) as BlogCategory[];
 
@@ -285,20 +286,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <Link prefetch={false} href="/blog">All guides →</Link>
               </div>
               <div className="blog-grid">
-                {related.map((r) => {
-                  const rStyle = CATEGORY_STYLE[r.category];
-                  return (
-                    <Link prefetch={false} href={`/blog/${r.slug}`} className="blog-card blog-card-rich" key={r.slug}>
-                      <div className="blog-card-accent" style={{ background: rStyle.gradient }} />
-                      <span className="blog-card-cat" style={{ color: rStyle.solid }}>{CATEGORY_LABELS[r.category]}</span>
-                      <h3>{r.title}</h3>
-                      <p>{r.description}</p>
-                      <span className="blog-card-meta">
-                        <span><Clock size={12} /> {r.readingMinutes} min read</span>
-                      </span>
-                    </Link>
-                  );
-                })}
+                {related.map((r) => (
+                  <BlogCard post={r} key={r.slug} />
+                ))}
               </div>
             </div>
           )}
