@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/programming-classes' },
   openGraph: {
     title: 'Programming Classes | Master Coding with IIT Kanpur Expert',
-    description: 'Learn programming from an IIT Kanpur graduate. Complete curriculum for all boards, small batches, hands-on projects.',
+    description: 'IITian Mentorship. Learn programming from an IIT Kanpur graduate. Complete curriculum for all boards, small batches, hands-on projects.',
     url: 'https://buzzybrainsacademy.com/programming-classes',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Programming Classes | Master Coding with IIT Kanpur Expert',
-    description: 'Learn programming from an IIT Kanpur graduate. Complete curriculum for all boards, small batches, hands-on projects.',
+    description: 'IITian Mentorship. Learn programming from an IIT Kanpur graduate. Complete curriculum for all boards, small batches, hands-on projects.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

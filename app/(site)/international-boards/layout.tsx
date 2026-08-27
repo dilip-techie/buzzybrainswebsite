@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://buzzybrainsacademy.com/international-boards" },
   openGraph: {
     title: "IGCSE, IB & AP Exam Coaching | A*/7/5 Results",
-    description: "Premier coaching for IGCSE, IB, and AP exams — personalized mentorship and proven international board expertise.",
+    description: "IITian Mentorship. Premier coaching for IGCSE, IB, and AP exams — personalized mentorship and proven international board expertise.",
     url: "https://buzzybrainsacademy.com/international-boards",
     siteName: "BuzzyBrains Academy",
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "IGCSE, IB & AP Exam Coaching | A*/7/5 Results",
-    description: "Premier coaching for IGCSE, IB, and AP exams — personalized mentorship and proven international board expertise.",
+    description: "IITian Mentorship. Premier coaching for IGCSE, IB, and AP exams — personalized mentorship and proven international board expertise.",
     images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };

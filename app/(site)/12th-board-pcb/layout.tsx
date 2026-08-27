@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NEET Coaching — Grade 11-12 PCB & Droppers',
     description:
-      'Complete medical entrance preparation in Physics, Chemistry & Biology with NCERT at the core, mentored by expert faculty.',
+      'IITian Mentorship. Complete medical entrance preparation in Physics, Chemistry & Biology with NCERT at the core, mentored by expert faculty.',
     url: 'https://buzzybrainsacademy.com/12th-board-pcb',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NEET Coaching — Grade 11-12 PCB & Droppers',
-    description: 'Complete medical entrance preparation in Physics, Chemistry & Biology with NCERT at the core, mentored by expert faculty.',
+    description: 'IITian Mentorship. Complete medical entrance preparation in Physics, Chemistry & Biology with NCERT at the core, mentored by expert faculty.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

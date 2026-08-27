@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Best Coaching Institute in Hadapsar, Pune | BuzzyBrains Academy',
     description:
-      'Premium coaching for Grades 4-12 in Hadapsar, Pune — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Coding & AI. IITian-led, max 12 students per batch.',
+      'IITian Mentorship. Premium coaching for Grades 4-12 in Hadapsar, Pune — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Coding & AI. IITian-led, max 12 students per batch.',
     url: 'https://buzzybrainsacademy.com/best-coaching-institute-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Coaching Institute in Hadapsar, Pune | BuzzyBrains Academy',
-    description: 'Premium coaching for Grades 4-12 in Hadapsar, Pune — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Coding & AI. IITian-led, max 12 students per batch.',
+    description: 'IITian Mentorship. Premium coaching for Grades 4-12 in Hadapsar, Pune — Foundation, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Coding & AI. IITian-led, max 12 students per batch.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://buzzybrainsacademy.com/10th-board" },
   openGraph: {
     title: "Grade 10 Board Exam Coaching | Score 90%+",
-    description: "Achieve 90%+ in Grade 10 board exams with expert coaching from an IITian mentor (IIT Kanpur).",
+    description: "IITian Mentorship. Achieve 90%+ in Grade 10 board exams with expert coaching from an IITian mentor (IIT Kanpur).",
     url: "https://buzzybrainsacademy.com/10th-board",
     siteName: "BuzzyBrains Academy",
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Grade 10 Board Exam Coaching | Score 90%+",
-    description: "Achieve 90%+ in Grade 10 board exams with expert coaching from an IITian mentor (IIT Kanpur).",
+    description: "IITian Mentorship. Achieve 90%+ in Grade 10 board exams with expert coaching from an IITian mentor (IIT Kanpur).",
     images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };

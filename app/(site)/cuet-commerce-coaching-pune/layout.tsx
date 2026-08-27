@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/cuet-commerce-coaching-pune' },
   openGraph: {
     title: 'CUET Commerce Coaching Pune | BuzzyBrains Academy',
-    description: 'How to prepare for CUET Commerce domain papers alongside board exams, and how BuzzyBrains Academy structures CUET Commerce coaching.',
+    description: 'IITian Mentorship. How to prepare for CUET Commerce domain papers alongside board exams, and how BuzzyBrains Academy structures CUET Commerce coaching.',
     url: 'https://buzzybrainsacademy.com/cuet-commerce-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CUET Commerce Coaching Pune | BuzzyBrains Academy',
-    description: 'How to prepare for CUET Commerce domain papers alongside board exams, and how BuzzyBrains Academy structures CUET Commerce coaching.',
+    description: 'IITian Mentorship. How to prepare for CUET Commerce domain papers alongside board exams, and how BuzzyBrains Academy structures CUET Commerce coaching.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/ipmat-exam' },
   openGraph: {
     title: 'IPMAT Coaching — 5-Year Integrated Programme in Management',
-    description: 'Structured IPMAT preparation with section-wise mastery, full-length mocks and dedicated WAT-PI coaching, mentored in small batches.',
+    description: 'IITian Mentorship. Structured IPMAT preparation with section-wise mastery, full-length mocks and dedicated WAT-PI coaching, mentored in small batches.',
     url: 'https://buzzybrainsacademy.com/ipmat-exam',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IPMAT Coaching — 5-Year Integrated Programme in Management',
-    description: 'Structured IPMAT preparation with section-wise mastery, full-length mocks and dedicated WAT-PI coaching, mentored in small batches.',
+    description: 'IITian Mentorship. Structured IPMAT preparation with section-wise mastery, full-length mocks and dedicated WAT-PI coaching, mentored in small batches.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/foundation-classes-pune' },
   openGraph: {
     title: 'Foundation Classes Pune (Grades 6-10) | BuzzyBrains Academy',
-    description: 'Why starting foundation-level coaching early matters, and how BuzzyBrains Academy structures its Foundation program.',
+    description: 'IITian Mentorship. Why starting foundation-level coaching early matters, and how BuzzyBrains Academy structures its Foundation program.',
     url: 'https://buzzybrainsacademy.com/foundation-classes-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Foundation Classes Pune (Grades 6-10) | BuzzyBrains Academy',
-    description: 'Why starting foundation-level coaching early matters, and how BuzzyBrains Academy structures its Foundation program.',
+    description: 'IITian Mentorship. Why starting foundation-level coaching early matters, and how BuzzyBrains Academy structures its Foundation program.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-math' },
   openGraph: {
     title: 'Build Mathematical Thinking Early - BuzzyBrains Academy Olympiad Math',
-    description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
+    description: 'IITian Mentorship. Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
     url: 'https://buzzybrainsacademy.com/olympiad-math',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Build Mathematical Thinking Early - BuzzyBrains Academy Olympiad Math',
-    description: 'Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
+    description: 'IITian Mentorship. Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

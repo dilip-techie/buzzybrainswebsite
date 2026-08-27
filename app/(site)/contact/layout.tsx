@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/contact' },
   openGraph: {
     title: 'Contact BuzzyBrains Academy',
-    description: 'Get in touch with our expert mentors',
+    description: 'IITian Mentorship. Get in touch with our expert mentors',
     url: 'https://buzzybrainsacademy.com/contact',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Contact BuzzyBrains Academy',
-    description: 'Get in touch with our expert mentors',
+    description: 'IITian Mentorship. Get in touch with our expert mentors',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

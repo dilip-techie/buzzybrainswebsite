@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Board Exam Test Series 2027 | CBSE & ICSE Grade 10 & 12',
     description:
-      'Full-length CBSE/ICSE board-pattern papers, examiner-style evaluation and a marked scorecard within 72 hours. By BuzzyBrains Academy, Pune.',
+      'IITian Mentorship. Full-length CBSE/ICSE board-pattern papers, examiner-style evaluation and a marked scorecard within 72 hours. By BuzzyBrains Academy, Pune.',
     url: 'https://buzzybrainsacademy.com/test-series',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Board Exam Test Series 2027 | CBSE & ICSE Grade 10 & 12',
-    description: 'Full-length CBSE/ICSE board-pattern papers, examiner-style evaluation and a marked scorecard within 72 hours. By BuzzyBrains Academy, Pune.',
+    description: 'IITian Mentorship. Full-length CBSE/ICSE board-pattern papers, examiner-style evaluation and a marked scorecard within 72 hours. By BuzzyBrains Academy, Pune.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

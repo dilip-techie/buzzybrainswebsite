@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/international-boards-coaching-pune' },
   openGraph: {
     title: 'International Boards & SAT Coaching Pune | BuzzyBrains Academy',
-    description: 'A guide to IGCSE, IB, AP and Digital SAT coaching in Pune.',
+    description: 'IITian Mentorship. A guide to IGCSE, IB, AP and Digital SAT coaching in Pune.',
     url: 'https://buzzybrainsacademy.com/international-boards-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'International Boards & SAT Coaching Pune | BuzzyBrains Academy',
-    description: 'A guide to IGCSE, IB, AP and Digital SAT coaching in Pune.',
+    description: 'IITian Mentorship. A guide to IGCSE, IB, AP and Digital SAT coaching in Pune.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

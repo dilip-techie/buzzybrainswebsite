@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/ca-foundation-coaching-pune' },
   openGraph: {
     title: 'CA Foundation Coaching Pune | BuzzyBrains Academy',
-    description: 'What CA Foundation covers, when to register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation.',
+    description: 'IITian Mentorship. What CA Foundation covers, when to register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation.',
     url: 'https://buzzybrainsacademy.com/ca-foundation-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CA Foundation Coaching Pune | BuzzyBrains Academy',
-    description: 'What CA Foundation covers, when to register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation.',
+    description: 'IITian Mentorship. What CA Foundation covers, when to register, and how BuzzyBrains Academy structures CA Foundation coaching alongside board preparation.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

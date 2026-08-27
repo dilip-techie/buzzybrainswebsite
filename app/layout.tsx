@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BuzzyBrains Academy — Learn Smarter. Dream Bigger. Achieve More.',
     description:
-      'Elite coaching for IIT-JEE, NEET, Olympiads & Foundation (Grades 6–10) in Pune. IITian faculty, max 12 students per batch, AI-powered learning.',
+      'IITian Mentorship. Elite coaching for IIT-JEE, NEET, Olympiads & Foundation (Grades 6–10) in Pune. IITian faculty, max 12 students per batch, AI-powered learning.',
     url: 'https://buzzybrainsacademy.com',
     type: 'website',
     locale: 'en_IN',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'BuzzyBrains Academy — Premium Coaching in Pune',
-    description: 'IIT-JEE • NEET • Olympiads • Foundation. Where curiosity meets technology and academic excellence.',
+    description: 'IITian Mentorship. IIT-JEE • NEET • Olympiads • Foundation. Where curiosity meets technology and academic excellence.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
   robots: {

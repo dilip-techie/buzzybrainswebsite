@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/nmtc-coaching-pune' },
   openGraph: {
     title: 'NMTC Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated NMTC coaching across all five AMTI levels — IIT-alumni mentors, batches capped at 12, individual Part B review.',
+    description: 'IITian Mentorship. Dedicated NMTC coaching across all five AMTI levels — IIT-alumni mentors, batches capped at 12, individual Part B review.',
     url: 'https://buzzybrainsacademy.com/nmtc-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NMTC Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated NMTC coaching across all five AMTI levels — IIT-alumni mentors, batches capped at 12, individual Part B review.',
+    description: 'IITian Mentorship. Dedicated NMTC coaching across all five AMTI levels — IIT-alumni mentors, batches capped at 12, individual Part B review.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/coaching-in-amanora' },
   openGraph: {
     title: 'Coaching Classes in Amanora, Pune | BuzzyBrains Academy',
-    description: 'Our flagship center is in Amanora, Hadapsar — small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching.',
+    description: 'IITian Mentorship. Our flagship center is in Amanora, Hadapsar — small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching.',
     url: 'https://buzzybrainsacademy.com/coaching-in-amanora',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Coaching Classes in Amanora, Pune | BuzzyBrains Academy',
-    description: 'Our flagship center is in Amanora, Hadapsar — small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching.',
+    description: 'IITian Mentorship. Our flagship center is in Amanora, Hadapsar — small-batch IIT-JEE, NEET, Foundation, Olympiad and Maths coaching.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

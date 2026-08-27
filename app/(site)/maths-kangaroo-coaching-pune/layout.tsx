@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/maths-kangaroo-coaching-pune' },
   openGraph: {
     title: 'Math Kangaroo Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated Math Kangaroo coaching across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
+    description: 'IITian Mentorship. Dedicated Math Kangaroo coaching across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/maths-kangaroo-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Math Kangaroo Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated Math Kangaroo coaching across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
+    description: 'IITian Mentorship. Dedicated Math Kangaroo coaching across all six levels — Pre-Ecolier to Student. IIT-alumni mentors, batches capped at 12.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

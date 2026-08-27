@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/blog' },
   openGraph: {
     title: 'BuzzyBrains Academy Blog',
-    description: 'Guides on IIT-JEE, NEET, Commerce, Olympiad, Foundation and Maths Tuition preparation, written by IIT/IIM alumni faculty in Pune.',
+    description: 'IITian Mentorship. Guides on IIT-JEE, NEET, Commerce, Olympiad, Foundation and Maths Tuition preparation, written by IIT/IIM alumni faculty in Pune.',
     url: 'https://buzzybrainsacademy.com/blog',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'BuzzyBrains Academy Blog',
-    description: 'Guides on IIT-JEE, NEET, Commerce, Olympiad, Foundation and Maths Tuition preparation, written by IIT/IIM alumni faculty in Pune.',
+    description: 'IITian Mentorship. Guides on IIT-JEE, NEET, Commerce, Olympiad, Foundation and Maths Tuition preparation, written by IIT/IIM alumni faculty in Pune.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

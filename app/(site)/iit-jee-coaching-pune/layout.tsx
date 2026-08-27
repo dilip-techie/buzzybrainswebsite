@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/iit-jee-coaching-pune' },
   openGraph: {
     title: 'IIT JEE Coaching Pune | BuzzyBrains Academy',
-    description: 'A complete guide to choosing IIT-JEE coaching in Pune, and how BuzzyBrains Academy structures its JEE program.',
+    description: 'IITian Mentorship. A complete guide to choosing IIT-JEE coaching in Pune, and how BuzzyBrains Academy structures its JEE program.',
     url: 'https://buzzybrainsacademy.com/iit-jee-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'article',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IIT JEE Coaching Pune | BuzzyBrains Academy',
-    description: 'A complete guide to choosing IIT-JEE coaching in Pune, and how BuzzyBrains Academy structures its JEE program.',
+    description: 'IITian Mentorship. A complete guide to choosing IIT-JEE coaching in Pune, and how BuzzyBrains Academy structures its JEE program.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

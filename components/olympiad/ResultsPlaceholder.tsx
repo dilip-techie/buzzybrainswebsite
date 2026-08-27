@@ -1,4 +1,5 @@
-import { Trophy } from 'lucide-react';
+import { Trophy, Sparkles, Medal } from 'lucide-react';
+import { physicsStudentAchievements } from '@/lib/olympiad/data';
 
 export default function ResultsPlaceholder() {
   return (
@@ -11,15 +12,44 @@ export default function ResultsPlaceholder() {
           </h2>
         </div>
 
-        <div className="mt-10 flex flex-col items-center gap-4 rounded-2xl border-2 border-dashed border-oly-line bg-white p-10 text-center">
+        <div className="mt-10 flex items-start gap-4 rounded-2xl border border-oly-line bg-white p-8">
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-oly-success/10 text-oly-success">
+            <Sparkles size={22} />
+          </span>
+          <div>
+            <h3 className="text-[16px] font-bold text-oly-ink">Level 1 selections, across cohorts</h3>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-oly-ink/65">
+              Many of our students have been selected in Level 1 of the SOF olympiads and NSEJS (National
+              Standard Examination in Junior Science) — an early, encouraging signal for students now building
+              toward NSEP, INPhO and the international tracks on this page.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          {physicsStudentAchievements.map((s) => (
+            <div key={s.name} className="flex items-start gap-4 rounded-2xl border border-oly-line bg-white p-6">
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-oly-amber/15 text-oly-amber-dark">
+                <Medal size={20} />
+              </span>
+              <div>
+                <h3 className="text-[15px] font-bold text-oly-ink">{s.name}</h3>
+                <p className="text-[12.5px] font-semibold uppercase tracking-[0.04em] text-oly-ink/40">{s.school}</p>
+                <p className="mt-1.5 text-[13.5px] leading-relaxed text-oly-ink/65">{s.achievement}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl border-2 border-dashed border-oly-line bg-white p-10 text-center">
           <span className="grid h-14 w-14 place-items-center rounded-2xl bg-oly-brand-50 text-oly-brand-500">
             <Trophy size={26} />
           </span>
-          <h3 className="text-[17px] font-bold text-oly-ink">Section reserved for real student results</h3>
+          <h3 className="text-[17px] font-bold text-oly-ink">Section reserved for detailed results</h3>
           <p className="max-w-md text-[14px] leading-relaxed text-oly-ink/60">
-            This space is ready for actual NSEP/INPhO qualifiers, OCSC selections and international-track results
-            once the current cycle&apos;s numbers are confirmed — no placeholder scores or names are shown here
-            until Dilip Sir approves real data to publish.
+            This space is ready for specific NSEP/INPhO qualifiers, OCSC selections and international-track
+            results once the current cycle&apos;s numbers are confirmed — no placeholder scores or names beyond
+            the above until Dilip Sir approves real data to publish.
           </p>
         </div>
       </div>

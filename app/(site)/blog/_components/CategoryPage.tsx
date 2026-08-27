@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock } from 'lucide-react';
 import { CollectionPageJsonLd, FaqJsonLd } from '../../../components/JsonLd';
 import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory, type BlogPost } from '../_data/posts';
 import { CATEGORY_CONTENT } from '../_data/categoryContent';
+import { BlogCard } from './BlogCard';
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' });
@@ -75,27 +75,9 @@ export function CategoryPage({ category, posts }: { category: BlogCategory; post
 
           {sorted.length > 0 ? (
             <div className="blog-grid blog-grid-rich">
-              {sorted.map((post, i) => {
-                const postStyle = CATEGORY_STYLE[post.category];
-                return (
-                  <Link prefetch={false}
-                    href={`/blog/${post.slug}`}
-                    className="blog-card blog-card-rich reveal"
-                    data-delay={String((i % 3) + 1)}
-                    key={post.slug}
-                  >
-                    <div className="blog-card-accent" style={{ background: postStyle.gradient }} />
-                    <span className="blog-card-cat" style={{ color: postStyle.solid }}>{CATEGORY_LABELS[post.category]}</span>
-                    <h3>{post.title}</h3>
-                    <p>{post.description}</p>
-                    <span className="blog-card-meta">
-                      <span>{formatDate(post.datePublished)}</span>
-                      <span className="blog-stat-dot" aria-hidden="true" />
-                      <span><Clock size={12} /> {post.readingMinutes} min</span>
-                    </span>
-                  </Link>
-                );
-              })}
+              {sorted.map((post, i) => (
+                <BlogCard post={post} key={post.slug} reveal delay={(i % 3) + 1} />
+              ))}
             </div>
           ) : (
             <div className="blog-cluster-empty">More {CATEGORY_LABELS[category]} guides are on the way.</div>

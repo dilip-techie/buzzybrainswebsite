@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,
-    description: DESCRIPTION,
+    description: `IITian Mentorship. ${DESCRIPTION}`,
     url: URL,
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: TITLE,
-    description: DESCRIPTION,
+    description: `IITian Mentorship. ${DESCRIPTION}`,
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

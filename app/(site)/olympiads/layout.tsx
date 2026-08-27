@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Olympiad Coaching — Every Subject, Every Prominent Competition',
     description:
-      'From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
+      'IITian Mentorship. From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
     url: 'https://buzzybrainsacademy.com/olympiads',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Olympiad Coaching — Every Subject, Every Prominent Competition',
-    description: 'From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
+    description: 'IITian Mentorship. From Math to Coding — structured olympiad training for IMO, AMC, IOQM, NSEP, NSEC, NSEB, NSO, IOI and more, led by IIT/IIM alumni.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

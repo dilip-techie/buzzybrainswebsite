@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/physics-olympiad-coaching-pune' },
   openGraph: {
     title: 'Physics Olympiad Coaching in Pune | IOQP, F=ma, BPhO, APhO, EuPhO',
-    description: 'India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored, batches capped at 12.',
+    description: 'IITian Mentorship. India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored, batches capped at 12.',
     url: 'https://buzzybrainsacademy.com/physics-olympiad-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Physics Olympiad Coaching in Pune | IOQP, F=ma, BPhO, APhO, EuPhO',
-    description: 'India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored.',
+    description: 'IITian Mentorship. India\'s IOQP (NSEP+INPhO) pathway to IPhO, plus F=ma/USAPhO, BPhO, APhO and EuPhO — mechanics-first, IIT-alumni mentored.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };

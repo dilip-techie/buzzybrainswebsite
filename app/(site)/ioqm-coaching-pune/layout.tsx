@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://buzzybrainsacademy.com/ioqm-coaching-pune' },
   openGraph: {
     title: 'IOQM Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated IOQM coaching for Grades 8-12 — IIT-alumni mentors, batches capped at 12, weekly timed mocks, and a structured path to INMO.',
+    description: 'IITian Mentorship. Dedicated IOQM coaching for Grades 8-12 — IIT-alumni mentors, batches capped at 12, weekly timed mocks, and a structured path to INMO.',
     url: 'https://buzzybrainsacademy.com/ioqm-coaching-pune',
     siteName: 'BuzzyBrains Academy',
     type: 'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IOQM Coaching in Pune | BuzzyBrains Academy',
-    description: 'Dedicated IOQM coaching for Grades 8-12 — IIT-alumni mentors, batches capped at 12, weekly timed mocks, and a structured path to INMO.',
+    description: 'IITian Mentorship. Dedicated IOQM coaching for Grades 8-12 — IIT-alumni mentors, batches capped at 12, weekly timed mocks, and a structured path to INMO.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
