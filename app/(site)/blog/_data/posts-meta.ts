@@ -18,7 +18,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Main vs JEE Advanced: What's Actually Different",
     description: "JEE Main and JEE Advanced aren't two difficulty levels of the same test — they're run by different bodies, test different things, and serve different purposes. Here's exactly how they differ.",
     category: "iit-jee",
-    datePublished: "2026-01-15",
+    datePublished: "2025-11-13",
     readingMinutes: 7
   },
   {
@@ -26,7 +26,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IOQM Syllabus and Preparation Guide",
     description: "IOQM is the first rung on India's mathematical olympiad ladder — and the one most students underprepare for because it looks deceptively like a school test. Here's what it actually covers and how to prepare.",
     category: "olympiad",
-    datePublished: "2026-01-22",
+    datePublished: "2025-11-20",
     readingMinutes: 8
   },
   {
@@ -34,7 +34,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Vedic Maths Shortcuts That Actually Help in Exams",
     description: "Vedic maths gets oversold as a magic bullet and dismissed as a party trick in equal measure. Here's an honest look at which techniques genuinely save time in JEE/NEET/board exams, and where they can't substitute for real conceptual work.",
     category: "maths-tuition",
-    datePublished: "2026-02-03",
+    datePublished: "2025-12-02",
     readingMinutes: 6
   },
   {
@@ -42,7 +42,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CUET Commerce Section: What It Actually Tests and How to Prepare",
     description: "CUET's Commerce-stream papers reward a different kind of preparation than board exams do — here's what the Accountancy, Economics and Business Studies domain papers actually look like, and how to prepare for both at once without one crowding out the other.",
     category: "commerce",
-    datePublished: "2026-02-18",
+    datePublished: "2025-12-17",
     readingMinutes: 7
   },
   {
@@ -50,7 +50,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CA Foundation vs a CUET-Based B.Com: Choosing a Path After Class 12 Commerce",
     description: "Two of the most common next steps for a Class 12 Commerce student — CA Foundation and a CUET-based B.Com admission — lead to very different journeys. Here's an honest comparison of what each path actually involves.",
     category: "commerce",
-    datePublished: "2026-02-25",
+    datePublished: "2025-12-24",
     readingMinutes: 8
   },
   {
@@ -58,7 +58,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "When Should You Start Foundation Coaching? A Grade-by-Grade Guide",
     description: "Parents ask two opposite questions constantly: is Grade 6 too early to start Foundation coaching, and is Grade 9 already too late? Here's a grade-by-grade, honest answer to both.",
     category: "foundation",
-    datePublished: "2026-03-04",
+    datePublished: "2025-12-31",
     readingMinutes: 7
   },
   {
@@ -66,7 +66,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Foundation Programme vs Regular School Tuition: What’s Actually Different",
     description: "Both promise to help your child \"do better in school.\" But a Foundation programme and a regular tuition class are usually optimizing for two different things entirely. Here's the real difference.",
     category: "foundation",
-    datePublished: "2026-03-11",
+    datePublished: "2026-01-07",
     readingMinutes: 6
   },
   {
@@ -74,7 +74,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Class 8-10 Foundation Concepts Quietly Decide JEE/NEET Success Later",
     description: "Most JEE and NEET droppers don't fail because of Grade 11-12 material — they fail because of an unresolved Grade 8-9 gap that Grade 11 quietly assumed was already fixed. Here's how that chain actually works.",
     category: "foundation",
-    datePublished: "2026-03-18",
+    datePublished: "2026-01-14",
     readingMinutes: 7
   },
   {
@@ -82,7 +82,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Most Common Foundation-Level Gaps That Trip Up Class 11 Students",
     description: "Five specific Foundation-level gaps show up again and again in Class 11 students, and all five are easy to test for at home in a few minutes. Here's what to look for.",
     category: "foundation",
-    datePublished: "2026-03-25",
+    datePublished: "2026-01-21",
     readingMinutes: 6
   },
   {
@@ -90,7 +90,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CBSE vs ICSE vs State Board: What It Means for Foundation-Level Coaching",
     description: "CBSE, ICSE and State Board students all sit through Foundation-age years differently — not just in syllabus, but in how much depth each board expects at Grade 6-10 level. Here's what actually changes.",
     category: "foundation",
-    datePublished: "2026-04-01",
+    datePublished: "2026-01-28",
     readingMinutes: 6
   },
   {
@@ -98,7 +98,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What Is a Maths Excellence Programme, and Who Actually Needs One?",
     description: "A Maths Excellence Programme is not just \"more maths.\" It serves three genuinely different kinds of students, and understanding which one your child is changes what the programme should actually focus on.",
     category: "maths-tuition",
-    datePublished: "2026-03-06",
+    datePublished: "2026-01-02",
     readingMinutes: 6
   },
   {
@@ -106,7 +106,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "From Board Maths to Olympiad Maths: How the Jump Actually Works",
     description: "Board maths and Olympiad maths use the same textbook topics but test completely different skills. Here's exactly what changes, and a realistic picture of how long the transition actually takes.",
     category: "maths-tuition",
-    datePublished: "2026-03-13",
+    datePublished: "2026-01-09",
     readingMinutes: 7
   },
   {
@@ -114,7 +114,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Know If Your Child Is Ready for Advanced Mathematics",
     description: "Readiness for advanced maths has less to do with current test scores than most parents assume. Here are four real signals to look for, and what it means if your child isn't ready yet.",
     category: "maths-tuition",
-    datePublished: "2026-03-20",
+    datePublished: "2026-01-16",
     readingMinutes: 6
   },
   {
@@ -122,7 +122,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Number Theory, Algebra, Geometry, Combinatorics: The Four Pillars of Competition Maths",
     description: "Almost every competition maths problem, from a school-level Olympiad to IOQM, draws from four core areas. Here's what each one actually is, in plain language, and why these four specifically.",
     category: "maths-tuition",
-    datePublished: "2026-03-27",
+    datePublished: "2026-01-23",
     readingMinutes: 7
   },
   {
@@ -130,7 +130,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Building Genuine Problem-Solving Speed Without Losing Understanding",
     description: "Parents often worry that building speed means sacrificing understanding, or vice versa. In practice, real speed is a byproduct of genuine understanding — here's how that actually works.",
     category: "maths-tuition",
-    datePublished: "2026-04-03",
+    datePublished: "2026-01-30",
     readingMinutes: 6
   },
   {
@@ -138,7 +138,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "A Parent's Guide to Olympiad Exams in India: IMO, NSO, IOQM Explained",
     description: "IMO, NSO, IOQM, PRMO, NMTC, SOF — the Olympiad landscape in India is a genuine alphabet soup. Here's a plain-language map of what each one actually is and how they connect.",
     category: "olympiad",
-    datePublished: "2026-03-05",
+    datePublished: "2026-01-01",
     readingMinutes: 8
   },
   {
@@ -146,7 +146,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "PRMO vs IOQM: What Changed and What It Means for Your Child",
     description: "IOQM replaced PRMO in 2020, but many practice materials and older guides still reference the old exam. Here's exactly what changed, why, and how it should affect the prep material you choose.",
     category: "olympiad",
-    datePublished: "2026-03-12",
+    datePublished: "2026-01-08",
     readingMinutes: 6
   },
   {
@@ -154,7 +154,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NMTC and SOF Olympiads: Are They Worth Preparing For?",
     description: "NMTC and SOF Olympiads (like NSO and SOF's own IMO) are hugely popular but serve a different purpose from the elite IOQM pipeline. Here's an honest look at who should prepare for them, and why.",
     category: "olympiad",
-    datePublished: "2026-03-19",
+    datePublished: "2026-01-15",
     readingMinutes: 6
   },
   {
@@ -162,7 +162,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Early Should Olympiad Preparation Start?",
     description: "Starting too late and starting the wrong way too early are both real risks. Here's a grade-by-grade, honest picture of what Olympiad preparation should actually look like at each age.",
     category: "olympiad",
-    datePublished: "2026-03-26",
+    datePublished: "2026-01-22",
     readingMinutes: 6
   },
   {
@@ -170,7 +170,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "From Olympiad Training to JEE Advanced: The Hidden Overlap",
     description: "Olympiad-trained students often have a real edge in JEE Advanced specifically — not JEE Main. Here's exactly which skills transfer, which don't, and how to sequence both without one starving the other.",
     category: "olympiad",
-    datePublished: "2026-04-02",
+    datePublished: "2026-01-29",
     readingMinutes: 7
   },
   {
@@ -178,7 +178,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Complete Guide to Maths Olympiad Preparation for Class 6–10",
     description: "A grade-by-grade guide to Maths Olympiad preparation for Class 6–10 — what to study, when to start, and how IOQM, NMTC and SOF exams connect, from IIT Kanpur-mentored faculty at BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-04-09",
+    datePublished: "2026-02-05",
     readingMinutes: 14
   },
   {
@@ -186,7 +186,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for IOQM from Grade 8",
     description: "A tactical, month-by-month IOQM preparation plan for Grade 8 students — syllabus breakdown, weekly structure, and realistic timelines from IIT Kanpur-mentored faculty at BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-04-16",
+    datePublished: "2026-02-12",
     readingMinutes: 13
   },
   {
@@ -194,7 +194,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AMC 8 Preparation Guide for Beginners",
     description: "A beginner's guide to AMC 8 preparation — exam format, syllabus, scoring, and a realistic study plan for middle school students, from BuzzyBrains Academy's IIT Kanpur-mentored faculty in Pune.",
     category: "olympiad",
-    datePublished: "2026-04-23",
+    datePublished: "2026-02-19",
     readingMinutes: 12
   },
   {
@@ -202,7 +202,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Science Olympiad Preparation Strategy for Middle School",
     description: "A complete Science Olympiad preparation strategy for middle school students — NSO, IJSO and subject-wise Olympiads explained, with a realistic study plan from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-04-30",
+    datePublished: "2026-02-26",
     readingMinutes: 13
   },
   {
@@ -210,7 +210,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes Students Make in Olympiad Mathematics",
     description: "The most common mistakes students make preparing for Maths Olympiads — from over-reliance on past papers to skipping the 'why' — and how to fix each one, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-05-07",
+    datePublished: "2026-03-05",
     readingMinutes: 13
   },
   {
@@ -218,7 +218,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Olympiad Preparation Improves JEE Success",
     description: "Why students with a Maths Olympiad background often perform better in JEE Advanced specifically — the real overlap, the limits, and how to sequence both, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-05-14",
+    datePublished: "2026-03-12",
     readingMinutes: 12
   },
   {
@@ -226,7 +226,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Best Books for Maths Olympiad Preparation",
     description: "A curated, grade-by-grade list of the best books for Maths Olympiad preparation — from beginner puzzle books to IOQM and INMO-level texts, recommended by BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-05-21",
+    datePublished: "2026-03-19",
     readingMinutes: 12
   },
   {
@@ -234,7 +234,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Parents Can Support Olympiad Preparation",
     description: "Practical, honest guidance for parents supporting a child's Maths Olympiad preparation — what genuinely helps, what to avoid, and how to stay involved without adding pressure.",
     category: "olympiad",
-    datePublished: "2026-05-28",
+    datePublished: "2026-03-26",
     readingMinutes: 12
   },
   {
@@ -242,7 +242,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Olympiad vs School Mathematics: Key Differences",
     description: "How Olympiad mathematics genuinely differs from school maths — in skill, format, and mindset — and why success in one doesn't automatically transfer to the other, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-06-04",
+    datePublished: "2026-04-02",
     readingMinutes: 12
   },
   {
@@ -250,7 +250,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Mental Maths Techniques Every Olympiad Student Should Know",
     description: "The genuinely useful mental maths techniques for Olympiad students — what actually saves time in competition exams, and where mental maths can't substitute for real problem-solving, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-06-11",
+    datePublished: "2026-04-09",
     readingMinutes: 12
   },
   {
@@ -258,7 +258,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Complete Guide to Cambridge IGCSE Mathematics (0580)",
     description: "A complete guide to Cambridge IGCSE Mathematics (0580) — syllabus, Core vs Extended tiers, grading, and how to prepare, from BuzzyBrains Academy's Cambridge-experienced faculty in Pune.",
     category: "igcse",
-    datePublished: "2026-06-18",
+    datePublished: "2026-04-16",
     readingMinutes: 14
   },
   {
@@ -266,7 +266,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Score A* in Cambridge IGCSE Additional Mathematics (0606)",
     description: "A practical strategy for scoring A* in Cambridge IGCSE Additional Mathematics (0606) — syllabus focus areas, common pitfalls, and exam technique, from BuzzyBrains Academy, Pune.",
     category: "igcse",
-    datePublished: "2026-06-25",
+    datePublished: "2026-04-23",
     readingMinutes: 13
   },
   {
@@ -274,7 +274,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IB Mathematics AA vs AI: Which Should You Choose?",
     description: "A clear, honest comparison of IB Mathematics Analysis & Approaches (AA) and Applications & Interpretation (AI) — content, difficulty, and how to choose the right one, from BuzzyBrains Academy, Pune.",
     category: "ib",
-    datePublished: "2026-07-02",
+    datePublished: "2026-04-30",
     readingMinutes: 13
   },
   {
@@ -282,7 +282,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Top Strategies to Score a 7 in IB Physics",
     description: "Practical, honest strategies for scoring a 7 in IB Physics — Paper structure, Internal Assessment, and common pitfalls, from BuzzyBrains Academy's international boards faculty in Pune.",
     category: "ib",
-    datePublished: "2026-07-09",
+    datePublished: "2026-05-07",
     readingMinutes: 13
   },
   {
@@ -290,7 +290,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Personalized Tutoring Improves IGCSE and IB Results",
     description: "Why personalized, small-batch tutoring genuinely improves IGCSE and IB results — beyond generic claims, with specific mechanisms and honest limits, from BuzzyBrains Academy, Pune.",
     category: "igcse",
-    datePublished: "2026-07-16",
+    datePublished: "2026-05-14",
     readingMinutes: 12
   },
   {
@@ -298,7 +298,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Main Exam Pattern and Marking Scheme Explained",
     description: "A clear breakdown of the JEE Main exam pattern — sections, question types, marking scheme, and what each part actually rewards, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-04",
+    datePublished: "2026-05-02",
     readingMinutes: 12
   },
   {
@@ -306,7 +306,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Balance Physics, Chemistry and Maths for JEE",
     description: "A practical framework for allocating study time across Physics, Chemistry and Maths for JEE Main and Advanced, based on how each subject actually rewards effort, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-05",
+    datePublished: "2026-05-03",
     readingMinutes: 12
   },
   {
@@ -314,7 +314,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why NCERT Is Non-Negotiable for JEE Preparation",
     description: "Why NCERT textbooks remain the essential base for JEE preparation even for students using advanced reference material, and how to actually use NCERT well, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-06",
+    datePublished: "2026-05-04",
     readingMinutes: 11
   },
   {
@@ -322,7 +322,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Dropper Year: How to Structure a Successful Repeat Attempt",
     description: "A practical, honest framework for structuring a JEE dropper year — diagnosing what actually went wrong, building a realistic schedule, and avoiding the mistakes that waste a second attempt, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-07",
+    datePublished: "2026-05-05",
     readingMinutes: 13
   },
   {
@@ -330,7 +330,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Time Management Strategies for JEE Exam Day",
     description: "Practical, exam-day time management strategies for JEE Main and Advanced — question selection, pacing, and how to avoid the specific traps that cost well-prepared students marks, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-08",
+    datePublished: "2026-05-06",
     readingMinutes: 11
   },
   {
@@ -338,7 +338,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Biology Preparation Strategy: NCERT-First Approach",
     description: "A practical, NCERT-first strategy for NEET Biology preparation — why NCERT precision matters more here than in any other NEET subject, and how to build genuine mastery, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-10",
+    datePublished: "2026-05-08",
     readingMinutes: 12
   },
   {
@@ -346,7 +346,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Master NEET Physics Numericals Without Fear",
     description: "A practical strategy for building genuine confidence and speed in NEET Physics numericals — the specific skill that separates strong Physics scorers from the rest, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-11",
+    datePublished: "2026-05-09",
     readingMinutes: 12
   },
   {
@@ -354,7 +354,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Organic Chemistry: A Concept-First Study Plan",
     description: "Why memorizing named reactions is not enough for NEET Organic Chemistry, and a concept-first study plan built around understanding reaction mechanisms instead, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-12",
+    datePublished: "2026-05-10",
     readingMinutes: 12
   },
   {
@@ -362,7 +362,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Dropper Year: Building a Realistic Comeback Plan",
     description: "A practical, honest framework for a NEET dropper year — diagnosing the real gap from the first attempt, structuring a realistic schedule, and rebuilding genuine exam-day confidence, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-13",
+    datePublished: "2026-05-11",
     readingMinutes: 13
   },
   {
@@ -370,7 +370,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Class 11 vs Class 12 Syllabus: Where to Focus First",
     description: "How the Class 11 and Class 12 portions of the NEET syllabus differ in weight and difficulty, and a practical guide to sequencing preparation across both years, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-14",
+    datePublished: "2026-05-12",
     readingMinutes: 11
   },
   {
@@ -378,7 +378,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Geometry Problem-Solving Techniques for Maths Olympiads",
     description: "Core geometry problem-solving techniques for Maths Olympiad students — angle chasing, auxiliary constructions, and synthetic reasoning — with guidance on when to reach for each, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-07-15",
+    datePublished: "2026-05-13",
     readingMinutes: 13
   },
   {
@@ -386,7 +386,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Combinatorics for Beginners: Counting Techniques for Olympiad Maths",
     description: "A beginner-friendly introduction to the core combinatorics counting techniques Olympiad maths problems rely on — and the common traps of overcounting and undercounting, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-07-17",
+    datePublished: "2026-05-15",
     readingMinutes: 12
   },
   {
@@ -394,7 +394,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "From IOQM to INMO: What Changes at the Next Level",
     description: "How INMO genuinely differs from IOQM in format, expectations and preparation — and what a student who has cleared IOQM needs to do differently to prepare for the next stage, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-07-18",
+    datePublished: "2026-05-16",
     readingMinutes: 12
   },
   {
@@ -402,7 +402,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Build an Effective Olympiad Practice Routine",
     description: "A practical framework for building a weekly Olympiad maths practice routine that actually builds skill — balancing new concepts, guided practice, and timed problem sets, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-07-19",
+    datePublished: "2026-05-17",
     readingMinutes: 12
   },
   {
@@ -410,7 +410,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Kangaroo Math Olympiad: What It Is and How to Prepare",
     description: "What the Kangaroo Math Olympiad actually is, how it differs from IOQM and AMC 8, and a practical preparation approach for students considering it, from BuzzyBrains Academy, Pune.",
     category: "olympiad",
-    datePublished: "2026-07-20",
+    datePublished: "2026-05-18",
     readingMinutes: 11
   },
   {
@@ -418,7 +418,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Crack NEET in the First Attempt: A Complete Strategy",
     description: "A realistic, complete strategy for cracking NEET on the first attempt — syllabus sequencing, revision rhythm, and the specific habits that separate first-attempt success from a dropper year, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-10",
+    datePublished: "2026-04-08",
     readingMinutes: 13
   },
   {
@@ -426,7 +426,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Crack JEE in the First Attempt: A Complete Strategy",
     description: "A realistic, complete strategy for cracking JEE Main and Advanced on the first attempt — subject balance, mock-test rhythm, and the habits that separate first-attempt success from a dropper year, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-12",
+    datePublished: "2026-04-10",
     readingMinutes: 13
   },
   {
@@ -434,7 +434,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Foundation Is Important for Cracking NEET",
     description: "A grade-by-grade look at why strong Class 8-10 Foundation concepts quietly decide NEET outcomes years later, and a practical roadmap for building that foundation deliberately, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-13",
+    datePublished: "2026-04-11",
     readingMinutes: 12
   },
   {
@@ -442,7 +442,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Foundation Is Important for Cracking JEE",
     description: "A grade-by-grade look at why strong Class 8-10 Foundation concepts quietly decide JEE outcomes years later, and a practical roadmap for building that foundation deliberately, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-14",
+    datePublished: "2026-04-12",
     readingMinutes: 12
   },
   {
@@ -450,7 +450,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Physical Chemistry: Building Calculation Fluency from the Basics",
     description: "Why NEET Physical Chemistry rewards calculation fluency built from genuine conceptual basics, and a practical plan for developing it, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-15",
+    datePublished: "2026-04-13",
     readingMinutes: 11
   },
   {
@@ -458,7 +458,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Mock Test Strategy: How to Actually Learn From Every Attempt",
     description: "Why most JEE aspirants under-use their mock tests, and a practical review framework for converting every attempt into genuine improvement, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-16",
+    datePublished: "2026-04-14",
     readingMinutes: 11
   },
   {
@@ -466,7 +466,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Many Hours a Day Should You Study for NEET? A Realistic Answer",
     description: "An honest look at how many study hours NEET preparation actually needs, why raw hours matter less than quality and consistency, and how to build a sustainable daily routine, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-17",
+    datePublished: "2026-04-15",
     readingMinutes: 10
   },
   {
@@ -474,7 +474,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common JEE Preparation Mistakes That Cost Students a Rank",
     description: "The specific, avoidable preparation mistakes that quietly cost otherwise capable JEE students a stronger rank, and how to fix each one, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-19",
+    datePublished: "2026-04-17",
     readingMinutes: 12
   },
   {
@@ -482,7 +482,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Mock Test Strategy: How to Actually Learn From Every Attempt",
     description: "Why most NEET aspirants under-use their mock tests, and a practical review framework for converting every attempt into genuine improvement, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-20",
+    datePublished: "2026-04-18",
     readingMinutes: 11
   },
   {
@@ -490,7 +490,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Revision Strategy for the Final 3 Months",
     description: "A practical, month-by-month revision strategy for the final three months before JEE — what to prioritize, how to structure mock tests, and how to avoid last-minute panic, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-21",
+    datePublished: "2026-04-19",
     readingMinutes: 12
   },
   {
@@ -498,7 +498,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common NEET Preparation Mistakes That Cost Students a Rank",
     description: "The specific, avoidable preparation mistakes that quietly cost otherwise capable NEET students a stronger rank, and how to fix each one, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-22",
+    datePublished: "2026-04-20",
     readingMinutes: 12
   },
   {
@@ -506,7 +506,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Coaching vs Self-Study: How to Choose",
     description: "An honest comparison of JEE coaching and self-study, the specific factors that should actually drive the decision, and how to make a hybrid approach work if you choose it, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-23",
+    datePublished: "2026-04-21",
     readingMinutes: 11
   },
   {
@@ -514,7 +514,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Revision Strategy for the Final 3 Months",
     description: "A practical, month-by-month revision strategy for the final three months before NEET — what to prioritize, how to structure mock tests, and how to avoid last-minute panic, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-24",
+    datePublished: "2026-04-22",
     readingMinutes: 12
   },
   {
@@ -522,7 +522,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Many Hours a Day Should You Study for JEE? A Realistic Answer",
     description: "An honest look at how many study hours JEE preparation actually needs, why raw hours matter less than quality and consistency, and how to build a sustainable daily routine, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-26",
+    datePublished: "2026-04-24",
     readingMinutes: 10
   },
   {
@@ -530,7 +530,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Coaching vs Self-Study: How to Choose",
     description: "An honest comparison of NEET coaching and self-study, the specific factors that should actually drive the decision, and how to make a hybrid approach work if you choose it, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-27",
+    datePublished: "2026-04-25",
     readingMinutes: 11
   },
   {
@@ -538,7 +538,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Advanced Problem-Solving: Moving from Formula Recall to Multi-Concept Thinking",
     description: "Why JEE Advanced rewards combining ideas across chapters rather than recalling formulas, and a practical approach for building this specific problem-solving skill, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-28",
+    datePublished: "2026-04-26",
     readingMinutes: 12
   },
   {
@@ -546,7 +546,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy",
     description: "Why NEET Inorganic Chemistry offers some of the fastest score gains for time invested, and a practical, memorization-focused strategy for mastering it efficiently, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-29",
+    datePublished: "2026-04-27",
     readingMinutes: 11
   },
   {
@@ -554,7 +554,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Early Should JEE Preparation Actually Start?",
     description: "An honest, grade-by-grade answer to when JEE preparation should actually begin, and what \"starting early\" should and should not look like at each stage, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-30",
+    datePublished: "2026-04-28",
     readingMinutes: 11
   },
   {
@@ -562,7 +562,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Early Should NEET Preparation Actually Start?",
     description: "An honest, grade-by-grade answer to when NEET preparation should actually begin, and what \"starting early\" should and should not look like at each stage, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-07-01",
+    datePublished: "2026-04-29",
     readingMinutes: 11
   },
   {
@@ -570,7 +570,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "From JEE Main Result to JEE Advanced: What Changes in Your Prep",
     description: "What a JEE Main-qualified student should actually change in their preparation approach for JEE Advanced, in the limited weeks between the two exams, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-07-03",
+    datePublished: "2026-05-01",
     readingMinutes: 11
   },
   {
@@ -578,7 +578,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IIT vs NIT vs IIIT: The Closing-Rank Squeeze, and What It Means for Your Child in Grade 9",
     description: "Why CSE and AI/Data Science branches at top NITs and IIITs keep closing earlier and more competitively each year — and the Class 9-10 foundation that actually determines whether your child is in that race, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-05",
+    datePublished: "2026-04-03",
     readingMinutes: 12
   },
   {
@@ -586,7 +586,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Re-NEET: What a Paper-Leak Year Teaches Every Parent About Exam-Proof Preparation",
     description: "When a NEET paper leak forces re-examination and uncertainty, one thing consistently separates students who hold steady from those who fall apart: genuine concept mastery versus memorized, rote preparation. From BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-06-06",
+    datePublished: "2026-04-04",
     readingMinutes: 11
   },
   {
@@ -594,7 +594,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Olympiad Advantage: How IOQM & NSO Toppers Build Their IIT Edge Before Class 12",
     description: "How genuine Olympiad training in Grade 6-8 builds the exact reasoning skill JEE Advanced rewards years later, and where Olympiad credentials open real, direct doors at ISI, CMI and abroad, from BuzzyBrains Academy, Pune founder and IIT Kanpur alumnus Dilip Sah.",
     category: "olympiad",
-    datePublished: "2026-06-07",
+    datePublished: "2026-04-05",
     readingMinutes: 13
   },
   {
@@ -602,7 +602,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "95 Percentile in JEE Main Gets You... What Exactly? The Honest College Map",
     description: "A brutally honest, hype-free look at what different JEE Main percentile bands actually tend to open up — and why the real gap between a 95 and a 99 is built in Grades 8-10, not a Class 12 crash course, from BuzzyBrains Academy, Pune.",
     category: "iit-jee",
-    datePublished: "2026-06-08",
+    datePublished: "2026-04-06",
     readingMinutes: 12
   },
   {
@@ -610,7 +610,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CBSE vs ICSE vs IGCSE vs IBDP: Which Board Actually Prepares Your Child for JEE/NEET?",
     description: "An honest, board-by-board comparison of CBSE, ICSE, IGCSE and IBDP for JEE/NEET readiness, from a coaching institute that actually teaches all of them — because the real answer is not the board, it is the foundation, from BuzzyBrains Academy, Pune.",
     category: "ib",
-    datePublished: "2026-06-09",
+    datePublished: "2026-04-07",
     readingMinutes: 13
   },
   {
@@ -618,7 +618,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Crack the Digital SAT: A Complete Strategy",
     description: "A realistic, complete strategy for the Digital SAT — adaptive-format mastery, section-wise prep, and the habits that separate a strong score from an average one, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-13",
+    datePublished: "2026-03-11",
     readingMinutes: 12
   },
   {
@@ -626,7 +626,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP Calculus AB vs BC: Which Should You Take?",
     description: "A clear comparison of AP Calculus AB and BC — content depth, pacing, and how to choose the right one for your math background and college goals, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-15",
+    datePublished: "2026-03-13",
     readingMinutes: 12
   },
   {
@@ -634,7 +634,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Digital SAT Math: Why the Built-In Calculator Changes Everything",
     description: "How the Digital SAT's full-section calculator access changes Math strategy — when to use it, when it slows you down, and how to prepare accordingly, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-16",
+    datePublished: "2026-03-14",
     readingMinutes: 11
   },
   {
@@ -642,7 +642,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Master AP Calculus FRQs (Free-Response Questions)",
     description: "Why AP Calculus free-response questions reward complete, justified reasoning over correct final answers alone, and a practical strategy for writing them well, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-17",
+    datePublished: "2026-03-15",
     readingMinutes: 12
   },
   {
@@ -650,7 +650,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Digital SAT Reading & Writing: How to Handle Short Passages Fast",
     description: "Why the Digital SAT's short, single-question passages demand a different reading strategy than the old SAT's long passages, and how to build the specific speed and precision they reward, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-18",
+    datePublished: "2026-03-16",
     readingMinutes: 11
   },
   {
@@ -658,7 +658,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The AP Calculus Topics That Decide Your Score (and Where Students Lose Points)",
     description: "Which AP Calculus topic areas carry the most weight and cause the most common mistakes, and a focused strategy for prioritizing your remaining study time, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-19",
+    datePublished: "2026-03-17",
     readingMinutes: 12
   },
   {
@@ -666,7 +666,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)",
     description: "How the Digital SAT's adaptive module system actually works, why module 1 performance matters so much, and a practical strategy for maximizing your score within it, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-20",
+    datePublished: "2026-03-18",
     readingMinutes: 11
   },
   {
@@ -674,7 +674,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP Computer Science A: What the Exam Actually Tests (Java-Based FRQs Explained)",
     description: "A clear breakdown of what AP Computer Science A actually tests — Java fundamentals, the specific FRQ types, and how the exam rewards structured programming thinking, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-22",
+    datePublished: "2026-03-20",
     readingMinutes: 12
   },
   {
@@ -682,7 +682,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What SAT Score Do You Actually Need for Top US Universities?",
     description: "An honest look at how SAT scores actually factor into competitive US university admissions, and why the target score should shape your prep timeline, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-23",
+    datePublished: "2026-03-21",
     readingMinutes: 11
   },
   {
@@ -690,7 +690,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for AP CSA Without Prior Coding Experience",
     description: "A realistic preparation plan for AP Computer Science A students starting with no prior programming background, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-24",
+    datePublished: "2026-03-22",
     readingMinutes: 11
   },
   {
@@ -698,7 +698,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Prep Timeline: When to Start and How Long It Really Takes",
     description: "A realistic, honest timeline for Digital SAT preparation — when to start, how many months genuine score improvement actually takes, and how to sequence the process, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-25",
+    datePublished: "2026-03-23",
     readingMinutes: 10
   },
   {
@@ -706,7 +706,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP Computer Science Principles: Understanding the Create Performance Task",
     description: "What AP CSP's Create Performance Task actually requires, how it's scored, and a practical plan for building a genuinely strong submission, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-26",
+    datePublished: "2026-03-24",
     readingMinutes: 12
   },
   {
@@ -714,7 +714,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Digital SAT Mistakes That Cost Students Points",
     description: "The specific, avoidable mistakes that quietly cost otherwise well-prepared Digital SAT students points, and how to fix each one, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-27",
+    datePublished: "2026-03-25",
     readingMinutes: 11
   },
   {
@@ -722,7 +722,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP CSP vs AP CSA: Which Should Your Child Take First?",
     description: "A clear comparison of AP Computer Science Principles and AP Computer Science A, and a practical guide to sequencing them for students new to computer science, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-29",
+    datePublished: "2026-03-27",
     readingMinutes: 11
   },
   {
@@ -730,7 +730,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT vs ACT: Which Should Indian Students Take?",
     description: "An honest comparison of the Digital SAT and the ACT for Indian students applying to US universities — format differences, and how to actually decide, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-30",
+    datePublished: "2026-03-28",
     readingMinutes: 11
   },
   {
@@ -738,7 +738,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP Physics 1 vs Physics C: Understanding the Real Difference",
     description: "A clear comparison of AP Physics 1 and Physics C — algebra-based versus calculus-based approaches, and how to choose the right one for your math background and goals, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-05-31",
+    datePublished: "2026-03-29",
     readingMinutes: 12
   },
   {
@@ -746,7 +746,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Use Official Bluebook Practice Tests Effectively",
     description: "Why most students under-use their Bluebook practice tests, and a structured review framework for converting every attempt into genuine score improvement, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-06-01",
+    datePublished: "2026-03-30",
     readingMinutes: 10
   },
   {
@@ -754,7 +754,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Score a 5 on AP Physics: FRQ Strategy That Actually Works",
     description: "Why AP Physics free-response questions reward complete, justified reasoning over correct final answers, and a practical strategy for writing them well, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-06-02",
+    datePublished: "2026-03-31",
     readingMinutes: 12
   },
   {
@@ -762,7 +762,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Prep for Students Also Doing IGCSE, IB or CBSE: Balancing Both",
     description: "How to prepare for the Digital SAT without letting it crowd out IGCSE, IB or CBSE board coursework, and how the two actually reinforce each other, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-06-03",
+    datePublished: "2026-04-01",
     readingMinutes: 11
   },
   {
@@ -770,7 +770,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP Physics C: Mechanics vs E&M — Choosing and Preparing for Both",
     description: "How AP Physics C: Mechanics and Electricity & Magnetism actually differ in content and difficulty, and a practical strategy for students taking one or both, from BuzzyBrains Academy, Pune.",
     category: "ap-exam",
-    datePublished: "2026-07-21",
+    datePublished: "2026-05-19",
     readingMinutes: 12
   },
   {
@@ -778,7 +778,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Vocabulary Strategy: Mastering Word-in-Context Questions",
     description: "A practical strategy for the Digital SAT's word-in-context and craft-and-structure vocabulary questions — how to approach them without rote word lists, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-04-27",
+    datePublished: "2026-02-23",
     readingMinutes: 10
   },
   {
@@ -786,7 +786,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CLAT Exam Pattern and Syllabus: The Complete Guide",
     description: "A complete, section-by-section breakdown of the CLAT exam pattern and syllabus for students starting their preparation — from BuzzyBrains Academy, Pune.",
     category: "clat",
-    datePublished: "2026-04-28",
+    datePublished: "2026-02-24",
     readingMinutes: 11
   },
   {
@@ -794,7 +794,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What Holistic Admissions Review Actually Means for Indian Students",
     description: "A clear, honest explanation of holistic admissions review at Ivy League and top US universities, and what it means for students preparing from India — from BuzzyBrains Academy, Pune.",
     category: "ivy-colleges",
-    datePublished: "2026-04-29",
+    datePublished: "2026-02-25",
     readingMinutes: 10
   },
   {
@@ -802,7 +802,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Grammar Rules: The Complete Standard English Conventions Guide",
     description: "The core grammar and punctuation rules the Digital SAT actually tests under Standard English Conventions, with a practical study approach — from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-01",
+    datePublished: "2026-02-27",
     readingMinutes: 11
   },
   {
@@ -810,7 +810,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CLAT Legal Reasoning: A Complete Section Strategy Guide",
     description: "How to approach CLAT's Legal Reasoning section — principle-to-fact application, common traps, and how to build this skill without a legal background — from BuzzyBrains Academy, Pune.",
     category: "clat",
-    datePublished: "2026-05-02",
+    datePublished: "2026-02-28",
     readingMinutes: 11
   },
   {
@@ -818,7 +818,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Building a Competitive Academic Profile: A Grade 9-12 Roadmap",
     description: "A realistic, grade-by-grade roadmap for building a strong academic profile for Ivy League and top US university applications — from BuzzyBrains Academy, Pune.",
     category: "ivy-colleges",
-    datePublished: "2026-05-03",
+    datePublished: "2026-03-01",
     readingMinutes: 11
   },
   {
@@ -826,7 +826,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Retake Strategy: When (and How Many Times) to Retake the Digital SAT",
     description: "A practical framework for deciding whether, when and how many times to retake the Digital SAT, including superscoring context for US applications — from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-04",
+    datePublished: "2026-03-02",
     readingMinutes: 10
   },
   {
@@ -834,7 +834,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CLAT Current Affairs and GK: A Structured Preparation Strategy",
     description: "How to build a consistent, effective Current Affairs and GK preparation habit for CLAT, without relying on last-minute cramming — from BuzzyBrains Academy, Pune.",
     category: "clat",
-    datePublished: "2026-05-05",
+    datePublished: "2026-03-03",
     readingMinutes: 10
   },
   {
@@ -842,7 +842,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AP vs IB vs IGCSE: Which Builds a Stronger Profile for Top US Universities?",
     description: "An honest comparison of AP, IB and IGCSE/A Level for students building a US-university-focused academic profile — from BuzzyBrains Academy, Pune.",
     category: "ivy-colleges",
-    datePublished: "2026-05-06",
+    datePublished: "2026-03-04",
     readingMinutes: 11
   },
   {
@@ -850,7 +850,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SAT Prep for Grade 9 and 10 Students: An Early-Start Roadmap",
     description: "How Grade 9 and 10 students can build genuine SAT readiness early, without burnout — a realistic, foundation-first roadmap from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-08",
+    datePublished: "2026-03-06",
     readingMinutes: 10
   },
   {
@@ -858,7 +858,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CLAT Preparation Timeline: When to Start and How Long It Takes",
     description: "A realistic CLAT preparation timeline for Class 11 and 12 students, including how long genuine preparation actually takes — from BuzzyBrains Academy, Pune.",
     category: "clat",
-    datePublished: "2026-05-09",
+    datePublished: "2026-03-07",
     readingMinutes: 10
   },
   {
@@ -866,7 +866,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Early Decision vs Early Action vs Regular Decision, Explained",
     description: "A clear explanation of Early Decision, Early Action and Regular Decision application rounds for US universities, and how to think about choosing between them — from BuzzyBrains Academy, Pune.",
     category: "ivy-colleges",
-    datePublished: "2026-05-10",
+    datePublished: "2026-03-08",
     readingMinutes: 10
   },
   {
@@ -874,7 +874,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Digital SAT Math: Mastering Problem-Solving & Data Analysis Questions",
     description: "A focused guide to the Digital SAT Math domain covering ratios, percentages, statistics and data interpretation — strategy and common traps, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
-    datePublished: "2026-05-11",
+    datePublished: "2026-03-09",
     readingMinutes: 11
   },
   {
@@ -882,7 +882,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common CLAT Mistakes That Cost Rank (and How to Avoid Them)",
     description: "The recurring, avoidable mistakes that cost CLAT aspirants rank — from section strategy to time management — with specific fixes, from BuzzyBrains Academy, Pune.",
     category: "clat",
-    datePublished: "2026-05-12",
+    datePublished: "2026-03-10",
     readingMinutes: 10
   },
   {
@@ -890,7 +890,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes Indian Students Make Applying to Ivy League Schools",
     description: "The recurring, avoidable mistakes Indian applicants make when applying to Ivy League and top US universities — and how to address each one honestly, from BuzzyBrains Academy, Pune.",
     category: "ivy-colleges",
-    datePublished: "2026-07-22",
+    datePublished: "2026-05-20",
     readingMinutes: 11
   },
   {
@@ -898,7 +898,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT Exam Pattern and Syllabus: The Complete Guide",
     description: "A complete breakdown of the IPMAT exam pattern and syllabus for Class 12 students targeting the 5-year integrated IPM programme — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-21",
+    datePublished: "2026-02-17",
     readingMinutes: 11
   },
   {
@@ -906,7 +906,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT Exam Pattern and Syllabus: The Complete Guide",
     description: "A complete, section-by-section breakdown of the CAT exam pattern and syllabus for MBA aspirants — from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-22",
+    datePublished: "2026-02-18",
     readingMinutes: 11
   },
   {
@@ -914,7 +914,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT vs CAT: Which Path Is Right for Your Child?",
     description: "An honest comparison of the 5-year integrated IPM route via IPMAT and the traditional bachelor's-then-CAT route, to help families choose — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-24",
+    datePublished: "2026-02-20",
     readingMinutes: 10
   },
   {
@@ -922,7 +922,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT Data Interpretation & Logical Reasoning: A Strategy Guide",
     description: "A practical strategy for CAT's DILR section — set-selection judgment, common traps, and how to build genuine speed under sectional time pressure, from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-25",
+    datePublished: "2026-02-21",
     readingMinutes: 11
   },
   {
@@ -930,7 +930,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT Preparation Timeline: When to Start in Class 11 and 12",
     description: "A realistic, phase-based IPMAT preparation timeline for Class 11-12 students, including how much runway genuine preparation actually needs — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-26",
+    datePublished: "2026-02-22",
     readingMinutes: 10
   },
   {
@@ -938,7 +938,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Master SAT Problem Solving & Data Analysis: The Ultimate Guide to Scoring 750+ in SAT Math",
     description: "Learn the best strategies to master SAT Problem Solving & Data Analysis — expert tips, a 2-week study plan, top resources and practice techniques from IIT Kanpur alumnus Dilip Sah.",
     category: "sat-exam",
-    datePublished: "2026-04-20",
+    datePublished: "2026-02-16",
     readingMinutes: 12
   },
   {
@@ -946,7 +946,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT Quantitative Ability: Mastering Short-Answer Questions",
     description: "A focused strategy for IPMAT's short-answer (non-MCQ) Quantitative Ability questions, where elimination-based guessing doesn't work — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-08",
+    datePublished: "2026-02-04",
     readingMinutes: 10
   },
   {
@@ -954,7 +954,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT Quantitative Ability: A Preparation Strategy",
     description: "A focused preparation strategy for CAT's calculator-free Quantitative Ability section — topic priorities, common traps and practice approach, from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-10",
+    datePublished: "2026-02-06",
     readingMinutes: 11
   },
   {
@@ -962,7 +962,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT Verbal Ability: Reading Comprehension & Grammar Strategy",
     description: "A practical strategy for IPMAT's Verbal Ability section — reading comprehension, vocabulary and grammar — built on consistent reading habits, from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-11",
+    datePublished: "2026-02-07",
     readingMinutes: 10
   },
   {
@@ -970,7 +970,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT VARC: Verbal Ability & Reading Comprehension Strategy",
     description: "A practical strategy for CAT's VARC section — reading comprehension passages and standalone verbal questions, under real sectional time pressure, from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-12",
+    datePublished: "2026-02-08",
     readingMinutes: 10
   },
   {
@@ -978,7 +978,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IIM Indore vs IIM Rohtak IPMAT: Key Differences",
     description: "How IIM Indore's and IIM Rohtak's IPMAT exams differ, and why preparing for a specific target IIM matters — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-13",
+    datePublished: "2026-02-09",
     readingMinutes: 9
   },
   {
@@ -986,7 +986,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT Preparation Timeline: When to Start",
     description: "A realistic, phase-based CAT preparation timeline for graduating students and working professionals, including how long genuine preparation actually takes — from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-14",
+    datePublished: "2026-02-10",
     readingMinutes: 10
   },
   {
@@ -994,7 +994,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common IPMAT Mistakes That Cost Rank (and How to Avoid Them)",
     description: "The recurring, avoidable mistakes that cost IPMAT aspirants rank — from exam-format assumptions to WAT-PI neglect — with specific fixes, from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-15",
+    datePublished: "2026-02-11",
     readingMinutes: 10
   },
   {
@@ -1002,7 +1002,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common CAT Mistakes That Cost Percentile (and How to Avoid Them)",
     description: "The recurring, avoidable mistakes that cost CAT aspirants percentile — from DILR set-selection to sectional time management — with specific fixes, from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-17",
+    datePublished: "2026-02-13",
     readingMinutes: 10
   },
   {
@@ -1010,7 +1010,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IPMAT WAT-PI: How to Prepare for the Interview Stage",
     description: "A practical guide to preparing for the Written Ability Test and Personal Interview stage of IPMAT selection, beyond the written exam — from BuzzyBrains Academy, Pune.",
     category: "ipmat",
-    datePublished: "2026-04-18",
+    datePublished: "2026-02-14",
     readingMinutes: 10
   },
   {
@@ -1018,7 +1018,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CAT WAT-GD-PI: Preparing Beyond the Written Exam",
     description: "A practical guide to preparing for the Written Ability Test, Group Discussion and Personal Interview stage that follows the CAT percentile — from BuzzyBrains Academy, Pune.",
     category: "cat",
-    datePublished: "2026-04-19",
+    datePublished: "2026-02-15",
     readingMinutes: 10
   },
   {
@@ -1026,7 +1026,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Competitive Programming for School Students: An Introduction to Coding Contests",
     description: "What competitive programming actually is, how it differs from regular coding, and how school students can get started — from BuzzyBrains Academy, Pune.",
     category: "coding-olympiad",
-    datePublished: "2026-04-04",
+    datePublished: "2026-01-31",
     readingMinutes: 10
   },
   {
@@ -1034,7 +1034,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Informatics Olympiad Pipeline: ZIO to INOI to IOI Explained",
     description: "A clear explanation of India's national informatics olympiad pipeline — ZIO, INOI and IOI — and what each stage actually tests, from BuzzyBrains Academy, Pune.",
     category: "coding-olympiad",
-    datePublished: "2026-04-05",
+    datePublished: "2026-02-01",
     readingMinutes: 10
   },
   {
@@ -1042,7 +1042,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "USACO for Indian Students: A Beginner's Guide",
     description: "What USACO is, how its divisions work, and how Indian students can realistically get started with this international competitive programming contest — from BuzzyBrains Academy, Pune.",
     category: "coding-olympiad",
-    datePublished: "2026-04-06",
+    datePublished: "2026-02-02",
     readingMinutes: 9
   },
   {
@@ -1050,7 +1050,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Competitive Programming Builds Skills Beyond Coding",
     description: "Why competitive programming and coding olympiads build genuinely transferable analytical skills — connecting to Maths Olympiad, JEE and beyond — from BuzzyBrains Academy, Pune.",
     category: "coding-olympiad",
-    datePublished: "2026-04-07",
+    datePublished: "2026-02-03",
     readingMinutes: 9
   },
   {
@@ -1058,7 +1058,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes Students Make in Coding Contests",
     description: "The recurring, avoidable mistakes that cost students in competitive programming contests — from time management to testing habits — with specific fixes, from BuzzyBrains Academy, Pune.",
     category: "coding-olympiad",
-    datePublished: "2026-07-23",
+    datePublished: "2026-05-21",
     readingMinutes: 10
   },
   {
@@ -1066,7 +1066,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Which Programming Language Should Your Child Learn First?",
     description: "An honest comparison of Scratch, Python and other beginner languages, and how to choose the right first language for your child — from BuzzyBrains Academy, Pune.",
     category: "coding",
-    datePublished: "2026-03-24",
+    datePublished: "2026-01-20",
     readingMinutes: 9
   },
   {
@@ -1074,7 +1074,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Coding for Kids: When and How to Start",
     description: "A practical, honest guide to when children are ready to start coding and how to introduce it without pressure — from BuzzyBrains Academy, Pune.",
     category: "coding",
-    datePublished: "2026-03-28",
+    datePublished: "2026-01-24",
     readingMinutes: 9
   },
   {
@@ -1082,7 +1082,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Scratch to Python: A Realistic Learning Path for School Students",
     description: "A practical, staged roadmap for moving from Scratch to Python, without skipping the foundational logic that makes the transition actually work — from BuzzyBrains Academy, Pune.",
     category: "coding",
-    datePublished: "2026-03-29",
+    datePublished: "2026-01-25",
     readingMinutes: 10
   },
   {
@@ -1090,7 +1090,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AI Literacy for School Students: What It Actually Means",
     description: "A clear, honest explanation of what AI literacy actually involves for school students, beyond just \"using ChatGPT\" — from BuzzyBrains Academy, Pune.",
     category: "coding",
-    datePublished: "2026-03-30",
+    datePublished: "2026-01-26",
     readingMinutes: 9
   },
   {
@@ -1098,7 +1098,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Coding Skills Support Maths, Science and Problem-Solving",
     description: "The genuine, transferable connections between coding and academic problem-solving in Maths and Science — from BuzzyBrains Academy, Pune.",
     category: "coding",
-    datePublished: "2026-03-31",
+    datePublished: "2026-01-27",
     readingMinutes: 9
   },
   {
@@ -1106,7 +1106,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AMC 10 Preparation Guide: From AMC 10 to AIME Qualification",
     description: "AMC 10 is where competition maths stops being a warm-up and starts being a genuine filter — a strong score is the only route to AIME. Here's what the exam actually tests and how to prepare for it.",
     category: "olympiad",
-    datePublished: "2026-08-01",
+    datePublished: "2026-05-30",
     readingMinutes: 8
   },
   {
@@ -1114,7 +1114,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IOQM vs AMC 8 vs AMC 10: Choosing the Right Track for Your Child",
     description: "IOQM, AMC 8 and AMC 10 are the three exams parents ask about most — and the three are genuinely different in format, timing and purpose. Here's how to decide which one fits your child right now.",
     category: "olympiad",
-    datePublished: "2026-08-02",
+    datePublished: "2026-05-31",
     readingMinutes: 8
   },
   {
@@ -1122,7 +1122,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What Happens After AMC 10: Understanding AIME and USAMO",
     description: "A strong AMC 10 score isn't the finish line — it's an invitation to AIME, and from there, potentially USAMO. Here's how the pathway actually works and what changes at each stage.",
     category: "olympiad",
-    datePublished: "2026-08-03",
+    datePublished: "2026-06-01",
     readingMinutes: 7
   },
   {
@@ -1130,7 +1130,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AMC Scoring Explained: Why 6/1.5/0 Demands a Different Strategy Than IOQM",
     description: "AMC 10's scoring system rewards a skipped question over a wild guess — a strategy IOQM doesn't need at all. Here's how to actually use the scoring rules to your advantage on exam day.",
     category: "olympiad",
-    datePublished: "2026-08-04",
+    datePublished: "2026-06-02",
     readingMinutes: 6
   },
   {
@@ -1138,7 +1138,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Preparing for IOQM and AMC in Parallel: A Dual-Track Strategy",
     description: "Many strong Grade 8-10 students prepare for IOQM and the AMC series at the same time rather than choosing one. Here's how to structure that without burning out or diluting either exam.",
     category: "olympiad",
-    datePublished: "2026-08-05",
+    datePublished: "2026-06-03",
     readingMinutes: 7
   },
   {
@@ -1146,7 +1146,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NMTC: Primary & Sub-Junior Levels (Class 5–7)",
     description: "NMTC's Primary and Sub-Junior levels are a young student's first real taste of proof-and-reasoning mathematics. Here's what each level actually tests and how to prepare, grade by grade.",
     category: "olympiad",
-    datePublished: "2026-08-06",
+    datePublished: "2026-06-04",
     readingMinutes: 7
   },
   {
@@ -1154,7 +1154,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NMTC: Junior Level (Class 8–9)",
     description: "NMTC Junior level (Class 8-9) is where the exam starts to genuinely resemble IOQM-style reasoning. Here's what changes at this level and how to prepare for it.",
     category: "olympiad",
-    datePublished: "2026-08-07",
+    datePublished: "2026-06-05",
     readingMinutes: 7
   },
   {
@@ -1162,7 +1162,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NMTC: Inter & Senior Levels (Class 10–12)",
     description: "NMTC's Inter and Senior levels are proof-writing exams in every meaningful sense — the closest AMTI gets to INMO-style rigor. Here's how Class 10-12 students should prepare.",
     category: "olympiad",
-    datePublished: "2026-08-08",
+    datePublished: "2026-06-06",
     readingMinutes: 7
   },
   {
@@ -1170,7 +1170,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NSEJS in Class 9: A Starting Guide",
     description: "For most students, Class 9 is the first serious encounter with NSEJS. Here's a realistic starting guide to the exam, what it tests, and how a first-time Class 9 student should prepare.",
     category: "olympiad",
-    datePublished: "2026-08-09",
+    datePublished: "2026-06-07",
     readingMinutes: 7
   },
   {
@@ -1178,7 +1178,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NSEJS in Class 10: Final-Year Strategy",
     description: "Class 10 is the last window for NSEJS before the exam becomes unavailable. Here's how final-year preparation should differ from a first Class 9 attempt.",
     category: "olympiad",
-    datePublished: "2026-08-10",
+    datePublished: "2026-06-08",
     readingMinutes: 7
   },
   {
@@ -1186,7 +1186,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NSEP: Physics Olympiad Guide for Class 11 & 12",
     description: "NSEP is the first stage of India's Physics Olympiad pipeline toward IPhO. Here's what it tests and how Class 11 and Class 12 students should approach it differently.",
     category: "olympiad",
-    datePublished: "2026-08-11",
+    datePublished: "2026-06-09",
     readingMinutes: 8
   },
   {
@@ -1194,7 +1194,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NSEC: Chemistry Olympiad Guide for Class 11 & 12",
     description: "NSEC is the entry stage of India's Chemistry Olympiad pipeline toward IChO. Here's what it tests and how Class 11 and Class 12 students should prepare differently.",
     category: "olympiad",
-    datePublished: "2026-08-12",
+    datePublished: "2026-06-10",
     readingMinutes: 8
   },
   {
@@ -1202,7 +1202,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for NSEB: Biology Olympiad Guide for Class 11 & 12",
     description: "NSEB is the first stage of India's Biology Olympiad pipeline toward IBO. Here's what it tests and how Class 11 and Class 12 students should approach it.",
     category: "olympiad",
-    datePublished: "2026-08-13",
+    datePublished: "2026-06-11",
     readingMinutes: 8
   },
   {
@@ -1210,7 +1210,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for INAO: Astronomy Olympiad Guide for Class 11 & 12",
     description: "The Astronomy Olympiad pipeline toward IOAA starts with NSEA and INAO. Here's what these exams test and how Class 11 and Class 12 students should prepare.",
     category: "olympiad",
-    datePublished: "2026-08-14",
+    datePublished: "2026-06-12",
     readingMinutes: 7
   },
   {
@@ -1218,7 +1218,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Coding Olympiads: A Grade-Wise Preparation Roadmap from Class 6 to 12",
     description: "ZIO isn't formally split by grade the way NMTC is, but readiness for it genuinely is. Here's a grade-wise roadmap for building toward India's informatics olympiad pipeline.",
     category: "coding-olympiad",
-    datePublished: "2026-08-15",
+    datePublished: "2026-06-13",
     readingMinutes: 8
   },
   {
@@ -1226,7 +1226,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NMTC Exam Pattern: Understanding Part A and Part B",
     description: "NMTC's two-part format is what makes it genuinely different from a school test. Here's exactly how Part A and Part B work, and why the split matters for how you prepare.",
     category: "olympiad",
-    datePublished: "2026-08-16",
+    datePublished: "2026-06-14",
     readingMinutes: 6
   },
   {
@@ -1234,7 +1234,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Write Full-Marks NMTC Part B Solutions",
     description: "Knowing the answer and writing a full-marks solution are two different skills. Here's how to structure an NMTC Part B answer so it earns every mark it deserves.",
     category: "olympiad",
-    datePublished: "2026-08-17",
+    datePublished: "2026-06-15",
     readingMinutes: 7
   },
   {
@@ -1242,7 +1242,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes in NMTC Part B (and How to Fix Them)",
     description: "Most NMTC Part B marks aren't lost to wrong ideas — they're lost to a handful of repeatable, fixable writing mistakes. Here are the most common ones.",
     category: "olympiad",
-    datePublished: "2026-08-18",
+    datePublished: "2026-06-16",
     readingMinutes: 6
   },
   {
@@ -1250,7 +1250,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Best Books and Resources for NMTC Preparation",
     description: "A focused, level-appropriate resource list for NMTC preparation — named books, authors and past-paper sources, from Primary level pattern books to Senior level proof-writing references.",
     category: "olympiad",
-    datePublished: "2026-08-19",
+    datePublished: "2026-06-17",
     readingMinutes: 8
   },
   {
@@ -1258,7 +1258,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NMTC vs IOQM: Which Should Your Child Prioritize?",
     description: "For a Class 8-9 student eligible for both, this is a genuinely common question. Here's a clear-eyed comparison to help decide where to put the most preparation time.",
     category: "olympiad",
-    datePublished: "2026-08-20",
+    datePublished: "2026-06-18",
     readingMinutes: 7
   },
   {
@@ -1266,7 +1266,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "AMC 10A vs AMC 10B: Which Should You Take?",
     description: "The MAA runs two separate AMC 10 papers each year. Here's what actually differs between them and whether your child should attempt one or both.",
     category: "olympiad",
-    datePublished: "2026-08-21",
+    datePublished: "2026-06-19",
     readingMinutes: 6
   },
   {
@@ -1274,7 +1274,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Understanding Your AMC Score Report: What the AIME Index Means",
     description: "An AMC score report has more on it than a single number. Here's what the AIME qualification index actually represents and how to read your child's report.",
     category: "olympiad",
-    datePublished: "2026-08-22",
+    datePublished: "2026-06-20",
     readingMinutes: 6
   },
   {
@@ -1282,7 +1282,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Best Books and Resources for AMC Preparation",
     description: "A focused resource list for AMC 8 and AMC 10 preparation — named books, the official MAA past-paper archive, and the AoPS online community.",
     category: "olympiad",
-    datePublished: "2026-08-23",
+    datePublished: "2026-06-21",
     readingMinutes: 7
   },
   {
@@ -1290,7 +1290,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes Students Make on AMC 8 and AMC 10",
     description: "Most points lost on AMC 8 and AMC 10 aren't lost to hard problems — they're lost to a repeatable set of avoidable mistakes. Here are the most common ones.",
     category: "olympiad",
-    datePublished: "2026-08-24",
+    datePublished: "2026-06-22",
     readingMinutes: 6
   },
   {
@@ -1298,7 +1298,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Indian Students Can Register for and Take the AMC",
     description: "AMC isn't a US-only exam — Indian students can and do take it every year. Here's a general guide to how the process works.",
     category: "olympiad",
-    datePublished: "2026-08-25",
+    datePublished: "2026-06-23",
     readingMinutes: 6
   },
   {
@@ -1306,7 +1306,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Math Kangaroo Levels Explained: From Pre-Ecolier to Student",
     description: "Math Kangaroo runs six levels across every school grade. Here's exactly what each level covers and how to know which one your child should attempt.",
     category: "olympiad",
-    datePublished: "2026-08-26",
+    datePublished: "2026-06-24",
     readingMinutes: 6
   },
   {
@@ -1314,7 +1314,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Math Kangaroo Is Scored (and Why Guessing Isn't Free)",
     description: "Math Kangaroo's scoring system rewards later, harder questions more than earlier ones — and the rules around wrong answers are worth understanding before exam day.",
     category: "olympiad",
-    datePublished: "2026-08-27",
+    datePublished: "2026-06-25",
     readingMinutes: 6
   },
   {
@@ -1322,7 +1322,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Best Resources and Practice Papers for Math Kangaroo",
     description: "A focused, level-appropriate resource guide for Math Kangaroo preparation, from the youngest levels through Student level, with named books and official past-paper sources.",
     category: "olympiad",
-    datePublished: "2026-08-28",
+    datePublished: "2026-06-26",
     readingMinutes: 7
   },
   {
@@ -1330,7 +1330,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Math Kangaroo vs SOF IMO: Choosing Your Child's First Olympiad",
     description: "Both are accessible, multiple-choice, low-pressure entry points into competitive maths. Here's how they actually differ and how to pick between them.",
     category: "olympiad",
-    datePublished: "2026-08-29",
+    datePublished: "2026-06-27",
     readingMinutes: 6
   },
   {
@@ -1338,7 +1338,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Math Kangaroo Is a Great First Step Before IOQM or AMC",
     description: "Math Kangaroo isn't just a fun exam for younger students — it genuinely builds the foundation IOQM and AMC reward later. Here's how the pieces connect.",
     category: "olympiad",
-    datePublished: "2026-08-30",
+    datePublished: "2026-06-28",
     readingMinutes: 6
   },
   {
@@ -1346,7 +1346,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SOF IMO Syllabus and Exam Pattern: A Complete Guide",
     description: "SOF IMO is India's most widely taken school-level maths olympiad. Here's exactly what it covers, how it's structured, and what changes across grades.",
     category: "olympiad",
-    datePublished: "2026-08-31",
+    datePublished: "2026-06-29",
     readingMinutes: 7
   },
   {
@@ -1354,7 +1354,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Every Student Should Attempt SOF IMO At Least Once",
     description: "SOF IMO isn't just for students who love maths competitions. Here's why it's worth attempting even for a student who has never done an olympiad before.",
     category: "olympiad",
-    datePublished: "2026-09-01",
+    datePublished: "2026-06-30",
     readingMinutes: 6
   },
   {
@@ -1362,7 +1362,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SOF IMO Level 1 vs Level 2: What Changes",
     description: "Qualifying for Level 2 is a genuine step up, not just a formality. Here's exactly what changes between the two rounds and how to prepare for the jump.",
     category: "olympiad",
-    datePublished: "2026-09-02",
+    datePublished: "2026-07-01",
     readingMinutes: 6
   },
   {
@@ -1370,7 +1370,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for SOF IMO in the Last 30 Days",
     description: "With a month left before SOF IMO, the priority shifts from learning new content to sharpening what's already known. Here's a realistic 30-day plan.",
     category: "olympiad",
-    datePublished: "2026-09-03",
+    datePublished: "2026-07-02",
     readingMinutes: 6
   },
   {
@@ -1378,7 +1378,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SOF IMO Results: Understanding Ranks, Medals and Certificates",
     description: "An SOF IMO result has more on it than a single score. Here's how to read rank, medal and certificate information and what each actually signals.",
     category: "olympiad",
-    datePublished: "2026-09-04",
+    datePublished: "2026-07-03",
     readingMinutes: 5
   },
   {
@@ -1386,7 +1386,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "ISSO Syllabus Explained: History, Geography and Civics Topics by Grade",
     description: "ISSO covers a genuinely broad syllabus across History, Geography and Civics, tracking the NCERT social studies curriculum. Here's how the topics build up by grade and what to expect at each level.",
     category: "olympiad",
-    datePublished: "2026-09-05",
+    datePublished: "2026-07-04",
     readingMinutes: 8
   },
   {
@@ -1394,7 +1394,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Social Studies Olympiad Matters Even for Science-Focused Students",
     description: "A student aiming for JEE or NEET might see ISSO as a distraction. Here's why broad social studies literacy is worth building anyway.",
     category: "olympiad",
-    datePublished: "2026-09-06",
+    datePublished: "2026-07-05",
     readingMinutes: 5
   },
   {
@@ -1402,7 +1402,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Prepare for ISSO Without Rote Memorization",
     description: "Social studies preparation often defaults to memorizing facts. Here's a more effective, reasoning-based approach for ISSO specifically.",
     category: "olympiad",
-    datePublished: "2026-09-07",
+    datePublished: "2026-07-06",
     readingMinutes: 6
   },
   {
@@ -1410,7 +1410,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "ISSO vs School Social Studies: What's Actually Different",
     description: "If a student is already doing well in school social studies, what does ISSO add? Here's a clear-eyed comparison.",
     category: "olympiad",
-    datePublished: "2026-09-08",
+    datePublished: "2026-07-07",
     readingMinutes: 5
   },
   {
@@ -1418,7 +1418,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Building General Awareness: How ISSO Complements Every Other Subject",
     description: "General awareness isn't a separate skill from academic subjects — it reinforces them. Here's how ISSO-style preparation supports learning broadly.",
     category: "olympiad",
-    datePublished: "2026-09-09",
+    datePublished: "2026-07-08",
     readingMinutes: 5
   },
   {
@@ -1426,7 +1426,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NSO Syllabus and Preparation Guide by Grade",
     description: "SOF's National Science Olympiad draws on and extends the NCERT science curriculum at every grade. Here's what it tests, grade by grade, and how to prepare.",
     category: "olympiad",
-    datePublished: "2026-09-10",
+    datePublished: "2026-07-09",
     readingMinutes: 8
   },
   {
@@ -1434,7 +1434,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Attempt NSO: Building Scientific Temper Early",
     description: "NSO isn't just exam prep — it builds a habit of questioning and reasoning about the natural world. Here's why that habit matters early.",
     category: "olympiad",
-    datePublished: "2026-09-11",
+    datePublished: "2026-07-10",
     readingMinutes: 5
   },
   {
@@ -1442,7 +1442,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NSO vs School Science Exams: Key Differences",
     description: "A student who does well in school science might still find NSO challenging. Here's exactly why, and what the difference actually is.",
     category: "olympiad",
-    datePublished: "2026-09-12",
+    datePublished: "2026-07-11",
     readingMinutes: 5
   },
   {
@@ -1450,7 +1450,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IEO Syllabus and Preparation Guide",
     description: "SOF's International English Olympiad tests grammar, vocabulary and comprehension at a level beyond standard school English. Here's what to expect and how to prepare.",
     category: "olympiad",
-    datePublished: "2026-09-13",
+    datePublished: "2026-07-12",
     readingMinutes: 6
   },
   {
@@ -1458,7 +1458,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why English Olympiad Matters for Every Student's Future",
     description: "Strong English literacy underpins performance across nearly every other exam a student will eventually take. Here's why IEO-style practice is worth the time.",
     category: "olympiad",
-    datePublished: "2026-09-14",
+    datePublished: "2026-07-13",
     readingMinutes: 5
   },
   {
@@ -1466,7 +1466,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common Mistakes Students Make in IEO",
     description: "Most points lost on IEO aren't from not knowing English — they're from a handful of avoidable, repeatable mistakes. Here are the most common ones.",
     category: "olympiad",
-    datePublished: "2026-09-15",
+    datePublished: "2026-07-14",
     readingMinutes: 5
   },
   {
@@ -1474,7 +1474,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NCO Syllabus: What Cyber Olympiad Actually Tests",
     description: "SOF's National Cyber Olympiad covers more than typing skills. Here's what it actually tests, from computer fundamentals to cyber safety.",
     category: "olympiad",
-    datePublished: "2026-09-16",
+    datePublished: "2026-07-15",
     readingMinutes: 6
   },
   {
@@ -1482,7 +1482,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Every Student Should Attempt NCO in the Digital Age",
     description: "Digital literacy is no longer optional. Here's why NCO is a genuinely practical exam for students growing up online.",
     category: "olympiad",
-    datePublished: "2026-09-17",
+    datePublished: "2026-07-16",
     readingMinutes: 5
   },
   {
@@ -1490,7 +1490,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How NCO Builds the Foundation for Coding and Cybersecurity",
     description: "NCO isn't a coding exam, but it lays groundwork that makes later coding and cybersecurity learning easier. Here's how the pieces connect.",
     category: "olympiad",
-    datePublished: "2026-09-18",
+    datePublished: "2026-07-17",
     readingMinutes: 5
   },
   {
@@ -1498,7 +1498,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IGKO Syllabus and Preparation Guide",
     description: "SOF's International General Knowledge Olympiad covers current affairs and general awareness broadly. Here's what it tests and how to prepare.",
     category: "olympiad",
-    datePublished: "2026-09-19",
+    datePublished: "2026-07-18",
     readingMinutes: 5
   },
   {
@@ -1506,7 +1506,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why General Knowledge Olympiad Matters Beyond the Classroom",
     description: "IGKO builds a habit of staying informed and curious about the world — a habit with value that extends well past the exam itself.",
     category: "olympiad",
-    datePublished: "2026-09-20",
+    datePublished: "2026-07-19",
     readingMinutes: 5
   },
   {
@@ -1514,7 +1514,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Build a Weekly Current Affairs Habit for IGKO",
     description: "A sustainable, low-effort weekly routine works better for IGKO preparation than cramming. Here's a practical structure that actually sticks.",
     category: "olympiad",
-    datePublished: "2026-09-21",
+    datePublished: "2026-07-20",
     readingMinutes: 5
   },
   {
@@ -1522,7 +1522,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What Marks Are Needed to Qualify IOQM? Understanding the Cutoff System",
     description: "There is no single fixed IOQM cutoff — it changes every year and varies by region. Here's how the cutoff system actually works and why a fixed target score is the wrong way to think about it.",
     category: "olympiad",
-    datePublished: "2026-09-22",
+    datePublished: "2026-07-21",
     readingMinutes: 7
   },
   {
@@ -1530,7 +1530,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "IOQM Regional Quota Explained: Why Cutoffs Differ by Region",
     description: "IOQM cutoffs aren't uniform across India — they're set region by region. Here's why HBCSE structures qualification this way and what it means for students in different parts of the country.",
     category: "olympiad",
-    datePublished: "2026-09-23",
+    datePublished: "2026-07-22",
     readingMinutes: 7
   },
   {
@@ -1538,7 +1538,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Girls' Quota in India's Maths Olympiad Pipeline: What It Is and Why It Exists",
     description: "India's olympiad maths pipeline includes a specific pathway to encourage and support girls' participation, connected to the EGMO team. Here's what it is and why it matters.",
     category: "olympiad",
-    datePublished: "2026-09-24",
+    datePublished: "2026-07-23",
     readingMinutes: 7
   },
   {
@@ -1546,7 +1546,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How to Use Olympiad Achievements in International University Applications",
     description: "Beyond whether olympiad achievement helps a foreign university application, here's the practical mechanics: where it goes on the application, how to describe it, and what admissions officers actually look for.",
     category: "olympiad",
-    datePublished: "2026-09-25",
+    datePublished: "2026-07-24",
     readingMinutes: 8
   },
   {
@@ -1554,7 +1554,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Stanford Math Tournament: What It Is and How Indian Students Can Participate",
     description: "The Stanford Math Tournament is one of the most prestigious student-run maths competitions in the US. Here's what it tests and how students outside the US can get involved.",
     category: "olympiad",
-    datePublished: "2026-09-26",
+    datePublished: "2026-07-25",
     readingMinutes: 6
   },
   {
@@ -1562,7 +1562,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "SASMO: Singapore's International Maths Olympiad and Why Indian Students Take It",
     description: "SASMO is one of the most widely taken international maths competitions among Indian students. Here's what it is, how it's structured, and why it's grown so popular.",
     category: "olympiad",
-    datePublished: "2026-09-27",
+    datePublished: "2026-07-26",
     readingMinutes: 6
   },
   {
@@ -1570,7 +1570,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Purple Comet Math Meet: A Free, Team-Based Global Maths Competition Worth Trying",
     description: "Purple Comet is a free, online, team-based maths competition with genuinely global participation. Here's what makes it distinctive and why it's worth adding to a student's olympiad calendar.",
     category: "olympiad",
-    datePublished: "2026-09-28",
+    datePublished: "2026-07-27",
     readingMinutes: 6
   },
   {
@@ -1578,7 +1578,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET 2027 Dropper Study Plan: Month-by-Month Strategy",
     description: "A concrete, month-by-month roadmap for a NEET 2027 dropper year — from the first diagnostic in June through the final taper before exam day — built around weekly testing, not a vague \"study harder\" resolution.",
     category: "neet",
-    datePublished: "2026-09-29",
+    datePublished: "2026-07-28",
     readingMinutes: 11
   },
   {
@@ -1586,7 +1586,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Is Taking a Drop Year Worth It for NEET? Honest Pros, Cons & Who Should (Not) Repeat",
     description: "A balanced, non-salesy look at whether a NEET drop year is actually worth it — the real costs, the real upside, and an honest framework for who should repeat and who probably should not.",
     category: "neet",
-    datePublished: "2026-09-30",
+    datePublished: "2026-07-29",
     readingMinutes: 10
   },
   {
@@ -1594,7 +1594,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Repeater Mistakes: Why Doing the Same Thing Again Won't Get a Different Result",
     description: "The single biggest risk in a NEET repeat year isn't lack of effort — it's repeating the exact approach that produced the first score. Here's how to break that pattern with an honest diagnostic.",
     category: "neet",
-    datePublished: "2026-10-01",
+    datePublished: "2026-07-30",
     readingMinutes: 9
   },
   {
@@ -1602,7 +1602,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NCERT Biology for Droppers: How to Extract 340+ Marks from One Section",
     description: "Biology is 360 of NEET's 720 marks. Here's a precise, NCERT-line-level approach droppers can use to push Biology toward its ceiling, rather than leaving marks on the table in the single highest-weightage section.",
     category: "neet",
-    datePublished: "2026-10-02",
+    datePublished: "2026-07-31",
     readingMinutes: 10
   },
   {
@@ -1610,7 +1610,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Second Attempt NEET: How to Handle Self-Doubt and Family Pressure in a Drop Year",
     description: "The academic side of a NEET repeat year gets most of the attention, but self-doubt and family pressure are just as real — and just as capable of undoing a well-built study plan. Here's how to actually handle both.",
     category: "neet",
-    datePublished: "2026-10-03",
+    datePublished: "2026-08-01",
     readingMinutes: 9
   },
   {
@@ -1618,7 +1618,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE 2027 Dropper Roadmap: What Changes in Your Second Attempt Strategy",
     description: "A concrete look at what should structurally change in a JEE 2027 second attempt — not just a repeat of the first year's routine at higher intensity — from diagnostic to the final Advanced-focused sprint.",
     category: "iit-jee",
-    datePublished: "2026-10-04",
+    datePublished: "2026-08-02",
     readingMinutes: 11
   },
   {
@@ -1626,7 +1626,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Advanced vs JEE Main Repeater Strategy: Should You Prepare Differently the Second Time?",
     description: "A student who cleared JEE Main but missed their target JEE Advanced rank needs a genuinely different second-attempt strategy than one who missed Main qualification entirely. Here's how the two should actually differ.",
     category: "iit-jee",
-    datePublished: "2026-10-05",
+    datePublished: "2026-08-03",
     readingMinutes: 9
   },
   {
@@ -1634,7 +1634,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Common JEE Repeater Mistakes: Why Restarting from Class 12 Content Is the Wrong Move",
     description: "The instinct to \"go back to basics\" and restart the whole syllabus feels responsible, but for most JEE repeaters it wastes months on content that was never the actual problem. Here's the diagnostic-first alternative.",
     category: "iit-jee",
-    datePublished: "2026-10-06",
+    datePublished: "2026-08-04",
     readingMinutes: 9
   },
   {
@@ -1642,7 +1642,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "JEE Dropper Batch vs Self-Study: What Actually Improves Rank in a Repeat Attempt",
     description: "For a JEE repeater, the coaching-versus-self-study decision matters more than in a first attempt, since a repeat year has less margin for an unstructured approach. Here's an honest comparison of what each actually provides.",
     category: "iit-jee",
-    datePublished: "2026-10-07",
+    datePublished: "2026-08-05",
     readingMinutes: 9
   },
   {
@@ -1650,7 +1650,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Many JEE Droppers Actually Improve Their Rank? What the Data Really Shows",
     description: "There's no single official, centralized dataset on JEE repeater outcomes — but there's enough honest, publicly observable pattern to draw real conclusions about what actually determines whether a repeat attempt improves on the first.",
     category: "iit-jee",
-    datePublished: "2026-10-08",
+    datePublished: "2026-08-06",
     readingMinutes: 9
   },
   {
@@ -1658,7 +1658,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Can Droppers Give BITSAT? Eligibility Rules Every Repeater Must Know",
     description: "BITSAT eligibility has a specific, often-overlooked time window tied to when you completed Class 12 — a rule that catches multi-year droppers off guard. Here's exactly what to check before assuming you're eligible.",
     category: "iit-jee",
-    datePublished: "2026-10-09",
+    datePublished: "2026-08-07",
     readingMinutes: 8
   },
   {
@@ -1666,7 +1666,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "BITSAT vs JEE Main Preparation: Should Droppers Prep for Both Simultaneously?",
     description: "Most BITSAT aspirants are also JEE Main aspirants. Here's an honest look at how much the two exams' preparation actually overlaps, where they genuinely differ, and how a dropper should structure dual prep without diluting either.",
     category: "iit-jee",
-    datePublished: "2026-10-10",
+    datePublished: "2026-08-08",
     readingMinutes: 9
   },
   {
@@ -1674,7 +1674,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Beyond IITs and NITs: Top Colleges JEE Droppers Can Target (VITEEE, COMEDK, MHT-CET, State CETs)",
     description: "A dropper's anxiety often centers on \"what if I don't improve enough\" — this is a genuine, reassuring map of strong engineering options beyond IITs and NITs, including Pune-relevant MHT-CET, for exactly that scenario.",
     category: "iit-jee",
-    datePublished: "2026-10-11",
+    datePublished: "2026-08-09",
     readingMinutes: 10
   },
   {
@@ -1682,7 +1682,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "BITSAT 2027 Last-Month Speed Strategy: Formula Recall, Mental Math & the Bonus Question Rule",
     description: "BITSAT's calculator-free, tightly-paced, bonus-question format is genuinely different from JEE prep in its final stretch. Here's a focused, final-month speed strategy built specifically around what BITSAT actually rewards.",
     category: "iit-jee",
-    datePublished: "2026-10-12",
+    datePublished: "2026-08-10",
     readingMinutes: 9
   },
   {
@@ -1690,7 +1690,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Foundation Matters for JEE/NEET: The Concepts Class 6–8 Skip That Class 11 Assumes You Know",
     description: "Class 11 Physics, Chemistry and Maths don't re-teach ratios, basic algebra or elementary geometry — they assume Class 6-8 already settled them. Here's exactly which Class 6-8 concepts quietly become JEE/NEET foundations.",
     category: "foundation",
-    datePublished: "2026-10-13",
+    datePublished: "2026-08-11",
     readingMinutes: 10
   },
   {
@@ -1698,7 +1698,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "What's Actually Missing in School Education: Rote Learning vs. Conceptual Understanding",
     description: "Most school systems are built to test whether a method was applied correctly this week, not whether a concept was genuinely understood for years of reuse. Here's what that gap actually looks like, and how a Foundation program is built to close it.",
     category: "foundation",
-    datePublished: "2026-10-14",
+    datePublished: "2026-08-12",
     readingMinutes: 10
   },
   {
@@ -1706,7 +1706,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Right Age to Start Foundation Classes: Class 6, 8, or 10 — What Does the Data Say?",
     description: "There's no single published national study on the ideal Foundation-coaching start age — but there's a clear, honest, structural answer for what changes at Class 6, 8 and 10 starts, and what each one actually costs and gains.",
     category: "foundation",
-    datePublished: "2026-10-15",
+    datePublished: "2026-08-13",
     readingMinutes: 9
   },
   {
@@ -1714,7 +1714,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Foundation Course vs. Regular Tuition: What's the Real Difference in How Progress Gets Tracked and Tested",
     description: "Beyond the concept-versus-syllabus distinction, the sharpest practical difference between a Foundation program and regular tuition is how each tracks progress — weekly testing and competitive-exam-aligned assessment versus unit-test cramming.",
     category: "foundation",
-    datePublished: "2026-10-16",
+    datePublished: "2026-08-14",
     readingMinutes: 8
   },
   {
@@ -1722,7 +1722,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How School Board Exams and Competitive Exams Test Completely Different Skills (And Why Your Child Needs Both)",
     description: "A 95% board score and a strong JEE/NEET rank aren't the same achievement measured twice — they're two genuinely different skills, and a student needs both, built deliberately, not just one assumed to produce the other.",
     category: "foundation",
-    datePublished: "2026-10-17",
+    datePublished: "2026-08-15",
     readingMinutes: 9
   },
   {
@@ -1730,7 +1730,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "5 Warning Signs Your Child Needs Stronger Concept-Building Before High School",
     description: "A parent-diagnostic checklist for spotting a hidden conceptual gap before high school makes it far more costly to fix — from memorized formulas that can't be applied, to a quiet avoidance of Science.",
     category: "foundation",
-    datePublished: "2026-10-18",
+    datePublished: "2026-08-16",
     readingMinutes: 8
   },
   {
@@ -1738,7 +1738,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Olympiads as a Foundation-Building Tool: Why Competition Math Makes Better JEE/NEET Aspirants",
     description: "Olympiad participation at Class 6-8 isn't a separate track from JEE/NEET preparation — it's one of the most effective ways to build the exact unfamiliar-problem reasoning skill competitive exams reward, years before the real stakes arrive.",
     category: "foundation",
-    datePublished: "2026-10-19",
+    datePublished: "2026-08-17",
     readingMinutes: 9
   },
   {
@@ -1746,7 +1746,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NCERT vs. School Textbooks: Why Foundation Students Should Start Reading NCERT Early",
     description: "For students on a CBSE, ICSE or state-board track eventually aiming at NEET or JEE, building an early NCERT reading habit — years before Class 11 — pays off far more than waiting until it suddenly matters.",
     category: "foundation",
-    datePublished: "2026-10-20",
+    datePublished: "2026-08-18",
     readingMinutes: 8
   },
   {
@@ -1754,7 +1754,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "The Hidden Cost of Starting JEE/NEET Prep Late: What a Late Starter Has to Cram vs. an Early Starter",
     description: "A Class 9-10 student who hasn't started serious preparation isn't behind by a few months — the compressed timeline compounds in a specific, measurable way. Here's what that actually looks like, honestly, without the scare tactics.",
     category: "foundation",
-    datePublished: "2026-10-21",
+    datePublished: "2026-08-19",
     readingMinutes: 9
   },
   {
@@ -1762,7 +1762,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Small Batches Change Foundation Learning: What 12 Students Can Do That 60 Can't",
     description: "Batch size isn't a minor logistical detail — it structurally determines whether a mentor can actually catch an individual conceptual gap or is limited to teaching the average of the room. Here's exactly what changes at 12 versus 60.",
     category: "foundation",
-    datePublished: "2026-10-22",
+    datePublished: "2026-08-20",
     readingMinutes: 8
   },
   {
@@ -1770,7 +1770,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Class 10 & 12 Students Need a Test Series, Not Just More Notes",
     description: "Covering the syllabus isn't the same as being exam-ready. Here's why board exams are won on exam-hall discipline as much as content knowledge, and what a structured test series actually adds.",
     category: "board-exams",
-    datePublished: "2026-10-23",
+    datePublished: "2026-08-21",
     readingMinutes: 6
   },
   {
@@ -1778,7 +1778,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "CBSE & ICSE Marking Schemes: What Examiner-Style Evaluation Actually Teaches You",
     description: "A correct final answer doesn't always mean full marks, and an incorrect one doesn't always mean zero. Here's how board marking schemes actually work, and why hand-marked practice papers matter.",
     category: "board-exams",
-    datePublished: "2026-10-24",
+    datePublished: "2026-08-22",
     readingMinutes: 6
   },
   {
@@ -1786,7 +1786,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "How Many Mock Tests Should You Attempt Before Class 10 or 12 Boards?",
     description: "Too few mocks and pacing stays untested; too many and there's no time left to act on the feedback. Here's a practical cadence for the months before CBSE and ICSE board exams.",
     category: "board-exams",
-    datePublished: "2026-10-25",
+    datePublished: "2026-08-23",
     readingMinutes: 6
   },
   {
@@ -1794,7 +1794,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why Fast, Detailed Feedback Beats a Pile of Practice Papers",
     description: "Solving forty practice papers with no one checking the working builds a false sense of readiness. Here's why a fast, topic-wise scorecard matters more than raw paper volume.",
     category: "board-exams",
-    datePublished: "2026-10-26",
+    datePublished: "2026-08-24",
     readingMinutes: 5
   },
   {
@@ -1802,7 +1802,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Class 12 Boards + JEE/NEET: Keeping Both on Track Without Sacrificing Either",
     description: "JEE and NEET preparation can quietly crowd out board-specific exam technique. Here's how a board-pattern test series keeps Class 12 board scores on track alongside competitive exam prep.",
     category: "board-exams",
-    datePublished: "2026-10-27",
+    datePublished: "2026-08-25",
     readingMinutes: 6
   },
   {
@@ -1810,7 +1810,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "Why the Final Pre-Board Simulation Matters Most",
     description: "Every practice paper before it is preparation. The final pre-board simulation is the one true test of whether that preparation holds up under real exam-day conditions.",
     category: "board-exams",
-    datePublished: "2026-10-28",
+    datePublished: "2026-08-26",
     readingMinutes: 5
   },
   {
@@ -1818,7 +1818,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     title: "NEET Score to MBBS Seat: An Honest Rank-to-College Map",
     description: "A brutally honest, hype-free look at what different NEET score bands actually tend to open up — government MBBS, private/deemed, or BDS/AYUSH — and why the real gap is built years before the exam, not a Class 12 crash course, from BuzzyBrains Academy, Pune.",
     category: "neet",
-    datePublished: "2026-10-30",
+    datePublished: "2026-08-28",
     readingMinutes: 12
   },
   {
