@@ -2,6 +2,7 @@
 
 import '@/app/tailwind.css';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { BookOpen, Heart, Lightbulb, Target, Users, Award, ChevronRight, Zap } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
@@ -138,6 +139,20 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
+              <div className="flex items-center gap-4 mb-8">
+                <Image
+                  src="/images/team/dilip-sah-founder.png"
+                  alt="Dilip Sah, Founder of BuzzyBrains Academy"
+                  width={128}
+                  height={128}
+                  className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover object-top ring-4 ring-blue-100 shadow-lg flex-shrink-0"
+                />
+                <div>
+                  <p className="text-lg font-bold text-gray-900">Dilip Sah</p>
+                  <p className="text-sm text-gray-600">Founder, BuzzyBrains Academy</p>
+                  <p className="text-sm text-gray-500">IIT Kanpur &middot; IIM Ahmedabad</p>
+                </div>
+              </div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">The Reality Dilip Sir Witnessed</h2>
               <div className="space-y-6 text-lg text-gray-700">
                 <p>
