@@ -790,6 +790,30 @@ button{font-family:inherit;cursor:pointer}
   border:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;
 }
 .article-cta p{margin:0;font-size:15px;color:var(--text);font-weight:600;max-width:420px}
+
+/* ---- Mid-article lead-capture CTA ---- */
+.mid-article-cta{
+  display:flex;align-items:center;flex-wrap:wrap;gap:16px;
+  margin:36px 0;padding:22px 24px;border-radius:var(--r-lg);
+  background:var(--bg-alt);border:1.5px solid var(--line);
+}
+.mid-article-cta-icon{
+  width:42px;height:42px;border-radius:12px;flex-shrink:0;color:#fff;
+  display:grid;place-items:center;box-shadow:var(--shadow-sm);
+}
+.mid-article-cta-body{flex:1;min-width:200px}
+.mid-article-cta-title{margin:0 0 3px;font-size:15px;font-weight:700;color:var(--text);font-family:var(--font-display)}
+.mid-article-cta-text{margin:0;font-size:13.5px;color:var(--text-2);line-height:1.5}
+.mid-article-cta-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;flex-shrink:0}
+.mid-article-cta-actions .btn{padding:10px 18px;font-size:13.5px;gap:7px}
+.mid-article-cta-actions .btn svg{width:16px;height:16px}
+.mid-article-cta-link{font-size:13.5px;font-weight:700;color:var(--blue);white-space:nowrap}
+.mid-article-cta-link:hover{text-decoration:underline}
+@media(max-width:560px){
+  .mid-article-cta{padding:20px}
+  .mid-article-cta-actions{width:100%}
+  .mid-article-cta-actions .btn{flex:1;justify-content:center}
+}
 .article-faq{margin-top:44px}
 .article-faq h2{font-size:22px;margin-bottom:18px}
 .article-faq-item{border-top:1px solid var(--line);padding:18px 0}
