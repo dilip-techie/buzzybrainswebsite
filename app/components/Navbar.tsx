@@ -134,6 +134,7 @@ const NAV_LINKS = [
   { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
+  { href: '/resource-centre', label: 'Free Tools' },
   { href: '/about', label: 'About Us', simpleItems: ABOUT_US_MENU },
   { href: '/#contact', label: 'Contact Us' },
 ];
