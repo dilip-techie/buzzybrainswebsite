@@ -783,6 +783,34 @@ button{font-family:inherit;cursor:pointer}
 .predictor-error{color:#DC2626;font-size:13.5px;font-weight:600;margin:-12px 0 20px}
 .calc-input-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:420px;margin-bottom:8px}
 @media(max-width:480px){.calc-input-grid{grid-template-columns:1fr}}
+
+/* ---- Quiz tools (JEE/NEET quick quiz) ---- */
+.quiz-progress{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.quiz-progress-track{flex:1;height:6px;border-radius:999px;background:var(--bg-alt);overflow:hidden}
+.quiz-progress-fill{height:100%;border-radius:999px;transition:width .3s var(--ease)}
+.quiz-progress-label{font-size:13px;font-weight:700;color:var(--text-2);white-space:nowrap;font-family:var(--font-display)}
+.quiz-question-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding:28px;margin-bottom:24px;box-shadow:var(--shadow-sm);
+}
+.quiz-question-subject{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:10px}
+.quiz-question-text{font-size:19px;line-height:1.4;margin:0 0 20px}
+.quiz-options{display:flex;flex-direction:column;gap:10px}
+.quiz-option{
+  text-align:left;padding:13px 16px;border-radius:var(--r-md);border:1.5px solid var(--line);
+  background:var(--bg-alt);color:var(--text);font-size:14.5px;font-family:var(--font-body);cursor:pointer;
+  transition:border-color .18s ease,background .18s ease,transform .18s ease;
+}
+.quiz-option:hover{border-color:var(--blue);transform:translateX(2px)}
+.quiz-option.selected{border-color:var(--blue);background:var(--blue-050);color:var(--blue);font-weight:600}
+.quiz-nav{display:flex;justify-content:space-between;gap:12px}
+.quiz-review{display:flex;flex-direction:column;gap:16px;margin-top:24px}
+.quiz-review-item{border:1px solid var(--line);border-radius:var(--r-md);padding:16px 18px;background:var(--card)}
+.quiz-review-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.quiz-review-subject{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-3);background:var(--bg-alt);padding:2px 8px;border-radius:999px}
+.quiz-review-q{font-weight:700;color:var(--text);font-size:14.5px}
+.quiz-review-answer{margin:0 0 4px;font-size:13.5px;color:var(--text-2)}
+.quiz-review-explanation{margin:0;font-size:13.5px;color:var(--text-3);line-height:1.6}
 .compare-table td:first-child,.compare-table th:first-child{color:var(--text);font-weight:700}
 .compare-table a{color:var(--blue);font-weight:600}
 
