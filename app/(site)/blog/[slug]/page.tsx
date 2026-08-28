@@ -18,6 +18,7 @@ import { ReadingProgress } from '../_components/ReadingProgress';
 import { ShareBar } from '../_components/ShareBar';
 import { CategoryPage } from '../_components/CategoryPage';
 import { BlogCard } from '../_components/BlogCard';
+import { MidArticleCta, findMidArticleInsertIndex } from '../_components/MidArticleCta';
 
 const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS) as BlogCategory[];
 
@@ -145,6 +146,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const related = relatedPosts(post);
   const style = CATEGORY_STYLE[post.category];
   const headings = post.body.filter((block): block is { kind: 'h2'; text: string } => block.kind === 'h2');
+  const midCtaIndex = findMidArticleInsertIndex(post.body);
 
   return (
     <main className="bb-landing bb-page-shell">
@@ -209,20 +211,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           )}
 
           <article className="article-body">
-            {post.body.map((block, i) => {
-              if (block.kind === 'h2') return <h2 key={i} id={headingSlug(block.text)}>{block.text}</h2>;
-              if (block.kind === 'h3') return <h3 key={i}>{renderInline(block.text)}</h3>;
-              if (block.kind === 'answer') return <div key={i} className="answer-block">{renderInline(block.text)}</div>;
-              if (block.kind === 'ul')
-                return (
+            {post.body.flatMap((block, i) => {
+              let rendered: ReactNode;
+              if (block.kind === 'h2') rendered = <h2 key={i} id={headingSlug(block.text)}>{block.text}</h2>;
+              else if (block.kind === 'h3') rendered = <h3 key={i}>{renderInline(block.text)}</h3>;
+              else if (block.kind === 'answer') rendered = <div key={i} className="answer-block">{renderInline(block.text)}</div>;
+              else if (block.kind === 'ul')
+                rendered = (
                   <ul key={i}>
                     {block.items.map((item) => (
                       <li key={item}>{renderInline(item)}</li>
                     ))}
                   </ul>
                 );
-              if (block.kind === 'table')
-                return (
+              else if (block.kind === 'table')
+                rendered = (
                   <div key={i} className="table-wrap">
                     <table className="compare-table">
                       <thead>
@@ -244,7 +247,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     </table>
                   </div>
                 );
-              return <p key={i}>{renderInline(block.text)}</p>;
+              else rendered = <p key={i}>{renderInline(block.text)}</p>;
+
+              return i === midCtaIndex ? [<MidArticleCta key={`mid-cta-${i}`} post={post} />, rendered] : [rendered];
             })}
           </article>
 
