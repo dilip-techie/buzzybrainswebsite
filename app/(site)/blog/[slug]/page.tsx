@@ -177,7 +177,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>{post.title}</h1>
           <div className="article-meta">
             <span className="article-byline">
-              <span className="article-byline-avatar" style={{ background: style.gradient }}>BB</span>
+              <Image
+                src="/images/team/dilip-sah-founder.png"
+                alt="Dilip Sah"
+                width={26}
+                height={26}
+                className="article-byline-avatar"
+              />
               BuzzyBrains Academy Faculty
             </span>
             <span>{new Date(post.datePublished).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
