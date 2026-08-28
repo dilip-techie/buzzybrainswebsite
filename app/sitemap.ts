@@ -72,6 +72,11 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/jee-quiz', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/neet-quiz', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/board-exam-study-planner', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/foundation-maths-quiz-class-6', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/foundation-maths-quiz-class-7', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/foundation-maths-quiz-class-8', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/foundation-maths-quiz-class-9', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/foundation-maths-quiz-class-10', changeFrequency: 'monthly', priority: 0.7 },
 
   // Legal
   { path: '/privacy-policy', changeFrequency: 'yearly', priority: 0.2 },
