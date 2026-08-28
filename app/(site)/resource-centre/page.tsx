@@ -37,14 +37,24 @@ const CALCULATORS: ToolEntry[] = [
 
 const QUIZZES: ToolEntry[] = [
   {
-    slug: '/jee-or-neet-quiz',
-    title: 'Should I Prep for JEE or NEET?',
-    description: 'A short quiz on subject interest and goals that points you toward the track that genuinely fits.',
+    slug: '/jee-quiz',
+    title: 'JEE Quick Quiz',
+    description: '10 Physics, Chemistry and Maths questions at JEE Main level, with instant scoring and explanations.',
     icon: HelpCircle,
-    live: false,
-    gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
-    solid: '#A855F7',
-    glow: '124,58,237',
+    live: true,
+    gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    solid: '#2563EB',
+    glow: '37,99,235',
+  },
+  {
+    slug: '/neet-quiz',
+    title: 'NEET Quick Quiz',
+    description: '10 Physics, Chemistry and Biology questions at NEET level, with instant scoring and explanations.',
+    icon: HelpCircle,
+    live: true,
+    gradient: 'linear-gradient(135deg,#991B1B,#EF4444)',
+    solid: '#EF4444',
+    glow: '239,68,68',
   },
 ];
 
