@@ -28,7 +28,7 @@ const CALCULATORS: ToolEntry[] = [
     title: 'NEET/JEE Score Calculator',
     description: 'Enter your correct, incorrect and unattempted counts per section and get your score using the real official marking scheme.',
     icon: Calculator,
-    live: false,
+    live: true,
     gradient: 'linear-gradient(135deg,#991B1B,#EF4444)',
     solid: '#EF4444',
     glow: '239,68,68',
