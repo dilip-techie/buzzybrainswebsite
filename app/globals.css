@@ -532,6 +532,9 @@ button{font-family:inherit;cursor:pointer}
   padding:4px 9px;border-radius:999px;white-space:nowrap;margin-top:2px;
 }
 .category-card-count.soon{color:var(--cc-solid);background:rgba(var(--cc-glow),.13)}
+.category-card-disabled{cursor:default;opacity:.72}
+.category-card-disabled:hover{transform:none;box-shadow:none;border-color:var(--line)}
+.category-card-disabled:hover::before{opacity:0}
 .category-card h3{position:relative;z-index:1;font-family:var(--font-display);font-weight:700;font-size:15px;margin:0;color:var(--text)}
 .category-card p{position:relative;z-index:1;font-size:12px;color:var(--text-3);margin:0;line-height:1.5}
 
@@ -774,6 +777,21 @@ button{font-family:inherit;cursor:pointer}
 }
 .compare-table td{padding:13px 16px;border-bottom:1px solid var(--line);color:var(--text-2);vertical-align:top}
 .compare-table tr:last-child td{border-bottom:none}
+.predictor-row-active{background:var(--blue-050)}
+.predictor-row-active td:first-child{color:var(--blue)}
+
+/* ---- Resource Centre tools (rank predictor, calculators, etc.) ---- */
+.predictor-tabs{display:flex;gap:10px;margin-bottom:28px}
+.predictor-tab{min-width:120px;text-align:center}
+.predictor-input-row{display:flex;flex-direction:column;gap:8px;max-width:360px;margin-bottom:20px}
+.predictor-label{font-size:13.5px;font-weight:700;color:var(--text-2);font-family:var(--font-display)}
+.predictor-input{
+  font-size:22px;font-weight:800;font-family:var(--font-display);color:var(--text);
+  padding:14px 18px;border-radius:var(--r-md);border:1.5px solid var(--line);background:var(--card);
+  transition:border-color .2s var(--ease),box-shadow .2s var(--ease);
+}
+.predictor-input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(37,99,235,.12)}
+.predictor-error{color:#DC2626;font-size:13.5px;font-weight:600;margin:-12px 0 20px}
 .compare-table td:first-child,.compare-table th:first-child{color:var(--text);font-weight:700}
 .compare-table a{color:var(--blue);font-weight:600}
 
