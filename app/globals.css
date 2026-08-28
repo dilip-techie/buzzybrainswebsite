@@ -792,6 +792,8 @@ button{font-family:inherit;cursor:pointer}
 }
 .predictor-input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(37,99,235,.12)}
 .predictor-error{color:#DC2626;font-size:13.5px;font-weight:600;margin:-12px 0 20px}
+.calc-input-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:420px;margin-bottom:8px}
+@media(max-width:480px){.calc-input-grid{grid-template-columns:1fr}}
 .compare-table td:first-child,.compare-table th:first-child{color:var(--text);font-weight:700}
 .compare-table a{color:var(--blue);font-weight:600}
 

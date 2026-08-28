@@ -1,7 +1,8 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { Suspense, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { MessageCircle } from 'lucide-react';
 
 type ExamKey = 'neet' | 'jee';
@@ -136,10 +137,20 @@ function findBand(bands: Band[], value: number): Band | null {
   return bands.find((b) => value >= b.min && value <= b.max) ?? null;
 }
 
-export default function RankPredictorPage() {
+function RankPredictorInner() {
+  const searchParams = useSearchParams();
   const [exam, setExam] = useState<ExamKey>('neet');
   const [rawValue, setRawValue] = useState('');
   const config = EXAM_CONFIG[exam];
+
+  // Lets the Score Calculator hand off directly into a prefilled result
+  // (?exam=neet&score=610) instead of making a student re-type it.
+  useEffect(() => {
+    const examParam = searchParams.get('exam');
+    const scoreParam = searchParams.get('score');
+    if (examParam === 'neet' || examParam === 'jee') setExam(examParam);
+    if (scoreParam && !Number.isNaN(Number(scoreParam))) setRawValue(scoreParam);
+  }, [searchParams]);
 
   const numericValue = rawValue.trim() === '' ? null : Number(rawValue);
   const isValid = numericValue !== null && !Number.isNaN(numericValue) && numericValue >= 0 && numericValue <= config.max;
@@ -286,5 +297,13 @@ export default function RankPredictorPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+export default function RankPredictorPage() {
+  return (
+    <Suspense fallback={null}>
+      <RankPredictorInner />
+    </Suspense>
   );
 }
