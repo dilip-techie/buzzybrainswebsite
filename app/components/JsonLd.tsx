@@ -87,6 +87,27 @@ export function FaqJsonLd({ items }: { items: { question: string; answer: string
  * EducationalOrganization + LocalBusiness type so it's eligible for both
  * education-specific and local-pack rich results, plus a matching Breadcrumb.
  */
+/**
+ * Real, named testimonials only — no fabricated star ratings. Google's
+ * structured-data guidelines treat self-published, unverifiable review
+ * scores as spam (and risk a manual action), so `ratingValue` is only
+ * ever set here from a genuine source the site owner supplies, never
+ * invented. Reviews without a rating are still valid, honest Review
+ * markup — they just won't independently trigger a rich-result star
+ * snippet without an aggregateRating alongside them.
+ */
+export interface RealReview {
+  author: string;
+  text: string;
+}
+
+export interface RealAggregateRating {
+  /** Out of `bestRating` (5) — must come from a real, current source
+   * (e.g. the business's actual Google Business Profile), never guessed. */
+  ratingValue: number;
+  reviewCount: number;
+}
+
 export function LocalBusinessJsonLd({
   name,
   description,
@@ -95,6 +116,8 @@ export function LocalBusinessJsonLd({
   streetAddress,
   geo,
   breadcrumbName,
+  reviews,
+  aggregateRating,
 }: {
   name: string;
   description: string;
@@ -103,6 +126,8 @@ export function LocalBusinessJsonLd({
   streetAddress?: string;
   geo?: { latitude: number; longitude: number };
   breadcrumbName: string;
+  reviews?: RealReview[];
+  aggregateRating?: RealAggregateRating;
 }) {
   const url = `${SITE_URL}${path}`;
   return (
@@ -134,6 +159,25 @@ export function LocalBusinessJsonLd({
             name: 'BuzzyBrains Academy',
             url: SITE_URL,
           },
+          ...(aggregateRating
+            ? {
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: aggregateRating.ratingValue,
+                  reviewCount: aggregateRating.reviewCount,
+                  bestRating: 5,
+                },
+              }
+            : {}),
+          ...(reviews && reviews.length > 0
+            ? {
+                review: reviews.map((r) => ({
+                  '@type': 'Review',
+                  author: { '@type': 'Person', name: r.author },
+                  reviewBody: r.text,
+                })),
+              }
+            : {}),
         }}
       />
       <JsonLd

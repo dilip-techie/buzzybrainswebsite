@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import JsonLd, { LocalBusinessJsonLd, PersonJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { FAQS, PROGRAM_TABLE } from './_data';
+import { testimonials } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
   title: 'Best Coaching Institute in Hadapsar, Pune | BuzzyBrains Academy',
@@ -43,6 +44,8 @@ export default function BestCoachingInstituteLayout({ children }: { children: Re
         streetAddress="201, Pallazo, Nr. Wisdom World School, Amanora"
         areaServed={['Hadapsar', 'Amanora', 'Magarpatta', 'Kharadi', 'Mundhwa', 'Wanowrie', 'Fatima Nagar', 'NIBM', 'Kondhwa', 'Manjri', 'Fursungi', 'Pune']}
         breadcrumbName="Best Coaching Institute in Pune"
+        reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 24 }}
       />
       <PersonJsonLd
         name="Dilip Sah"
