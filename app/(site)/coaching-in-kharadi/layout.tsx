@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { LocalBusinessJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { testimonials } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
   title: 'Coaching Classes for Kharadi Students | BuzzyBrains Academy',
@@ -31,6 +32,7 @@ export default function KharadiLocationLayout({ children }: { children: React.Re
         path="/coaching-in-kharadi"
         areaServed={['Kharadi', 'Viman Nagar', 'Mundhwa']}
         breadcrumbName="Coaching in Kharadi"
+        reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
       />
       <FaqJsonLd
         items={[

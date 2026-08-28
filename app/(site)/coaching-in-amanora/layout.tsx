@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { LocalBusinessJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { testimonials } from '@/lib/olympiad/data';
 
 export const metadata: Metadata = {
   title: 'Coaching Classes in Amanora, Pune | BuzzyBrains Academy',
@@ -32,6 +33,7 @@ export default function AmanoraLocationLayout({ children }: { children: React.Re
         streetAddress="201, Pallazo, Nr. Wisdom World School, Amanora"
         areaServed={['Amanora', 'Hadapsar', 'Magarpatta', 'Mundhwa', 'Keshav Nagar']}
         breadcrumbName="Coaching in Amanora"
+        reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
       />
       <FaqJsonLd
         items={[
