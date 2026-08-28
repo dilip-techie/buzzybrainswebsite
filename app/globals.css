@@ -483,7 +483,7 @@ button{font-family:inherit;cursor:pointer}
 .blog-stat-dot{width:4px;height:4px;border-radius:50%;background:var(--text-3);opacity:.5;flex-shrink:0}
 
 /* ---- Blog category filter tabs ---- */
-.blog-filter-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.blog-filter-tabs{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:36px}
 .blog-filter-tab{
   font-size:13.5px;font-weight:700;font-family:var(--font-display);
   padding:9px 18px;border-radius:999px;border:1.5px solid var(--line);
@@ -491,7 +491,18 @@ button{font-family:inherit;cursor:pointer}
   transition:transform .2s ease,border-color .2s ease,color .2s ease,box-shadow .2s ease,background .2s ease;
 }
 .blog-filter-tab:hover{transform:translateY(-2px);border-color:var(--blue);color:var(--blue)}
-.blog-filter-tab.active{box-shadow:0 10px 24px rgba(0,0,0,.14)}
+.blog-filter-tab.active{
+  background:var(--blue);border-color:var(--blue);color:#fff;
+  box-shadow:0 10px 24px rgba(37,99,235,.35);
+}
+.blog-filter-divider{width:1px;height:22px;background:var(--line);flex-shrink:0}
+@media(max-width:560px){.blog-filter-divider{display:none}}
+
+/* ---- Search-match highlighting ---- */
+.blog-card mark{
+  background:rgba(37,99,235,.16);color:var(--blue);
+  border-radius:3px;padding:0 1px;font-weight:inherit;
+}
 
 /* ---- Category discovery grid (blog index) ---- */
 .category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:48px}
