@@ -33,6 +33,7 @@ export default function KharadiLocationLayout({ children }: { children: React.Re
         areaServed={['Kharadi', 'Viman Nagar', 'Mundhwa']}
         breadcrumbName="Coaching in Kharadi"
         reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 24 }}
       />
       <FaqJsonLd
         items={[

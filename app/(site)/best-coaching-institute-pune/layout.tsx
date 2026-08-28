@@ -45,6 +45,7 @@ export default function BestCoachingInstituteLayout({ children }: { children: Re
         areaServed={['Hadapsar', 'Amanora', 'Magarpatta', 'Kharadi', 'Mundhwa', 'Wanowrie', 'Fatima Nagar', 'NIBM', 'Kondhwa', 'Manjri', 'Fursungi', 'Pune']}
         breadcrumbName="Best Coaching Institute in Pune"
         reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 24 }}
       />
       <PersonJsonLd
         name="Dilip Sah"

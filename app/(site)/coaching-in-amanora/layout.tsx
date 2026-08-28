@@ -34,6 +34,7 @@ export default function AmanoraLocationLayout({ children }: { children: React.Re
         areaServed={['Amanora', 'Hadapsar', 'Magarpatta', 'Mundhwa', 'Keshav Nagar']}
         breadcrumbName="Coaching in Amanora"
         reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 24 }}
       />
       <FaqJsonLd
         items={[
