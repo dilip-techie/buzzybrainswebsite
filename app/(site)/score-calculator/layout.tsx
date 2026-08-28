@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
-import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { BreadcrumbJsonLd, FaqJsonLd, WebApplicationJsonLd } from '../../components/JsonLd';
 
-const TITLE = 'Free NEET & JEE Main Score Calculator | BuzzyBrains Academy';
+const TITLE = 'Free NEET & JEE Main Score Calculator | Mentored by IITian | BuzzyBrains Academy';
 const DESCRIPTION =
-  'Enter your correct, incorrect and unattempted counts and get your exact NEET or JEE Main score using the real official marking scheme — instant, no signup.';
+  'Enter your correct, incorrect and unattempted counts and get your exact NEET or JEE Main score using the real official marking scheme — instant, no signup, mentored by IITian faculty.';
 const URL = 'https://buzzybrainsacademy.com/score-calculator';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'NEET score calculator, JEE Main score calculator, NEET marking scheme calculator, JEE Main marks calculator, negative marking calculator',
+  keywords: 'NEET score calculator, JEE Main score calculator, NEET marking scheme calculator, JEE Main marks calculator, negative marking calculator, mentored by IITian',
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,
@@ -53,6 +53,7 @@ export default function ScoreCalculatorLayout({ children }: { children: React.Re
   return (
     <>
       <BreadcrumbJsonLd name="NEET & JEE Main Score Calculator" path="/score-calculator" />
+      <WebApplicationJsonLd name="NEET & JEE Main Score Calculator" description={DESCRIPTION} path="/score-calculator" />
       <FaqJsonLd items={FAQS} />
       {children}
     </>

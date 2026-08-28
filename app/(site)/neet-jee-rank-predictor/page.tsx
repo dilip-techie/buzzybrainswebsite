@@ -177,7 +177,10 @@ function RankPredictorInner() {
             <span>/</span>
             <span>Rank Predictor</span>
           </nav>
-          <span className="eyebrow">Free Tool</span>
+          <div className="hero-badges">
+            <span className="eyebrow">Free Tool</span>
+            <span className="eyebrow">Mentored by IITian</span>
+          </div>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>NEET & JEE Main Rank + College Predictor</h1>
           <p className="lede" style={{ maxWidth: 680, marginTop: 6 }}>
             An honest, banded estimate — not a fake precise number. Enter your expected score to see the general pattern from recent years.

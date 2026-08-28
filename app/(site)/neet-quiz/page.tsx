@@ -86,7 +86,10 @@ export default function NeetQuizPage() {
             <span>/</span>
             <span>NEET Quiz</span>
           </nav>
-          <span className="eyebrow">Free Tool</span>
+          <div className="hero-badges">
+            <span className="eyebrow">Free Tool</span>
+            <span className="eyebrow">Mentored by IITian</span>
+          </div>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>NEET Quick Quiz</h1>
           <p className="lede" style={{ maxWidth: 680, marginTop: 6 }}>
             10 Physics, Chemistry and Biology questions at NEET level. A quick pulse check, not a mock test — see how you do.

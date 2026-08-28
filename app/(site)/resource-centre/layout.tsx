@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 import { BreadcrumbJsonLd } from '../../components/JsonLd';
 
-const TITLE = 'Free Tools & Calculators for JEE, NEET & Board Exams | BuzzyBrains Academy';
+const TITLE = 'Free Tools & Calculators for JEE, NEET & Board Exams | Mentored by IITian | BuzzyBrains Academy';
 const DESCRIPTION =
-  'Free, honest calculators and planners for JEE and NEET aspirants — rank predictors, score calculators, study timetables and mock-test planners. No signup required.';
+  'Free, honest calculators and planners for JEE and NEET aspirants — rank predictors, score calculators, study timetables and mock-test planners. Mentored by IITian faculty, no signup required.';
 const URL = 'https://buzzybrainsacademy.com/resource-centre';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'JEE NEET free tools, NEET rank predictor, JEE percentile calculator, study timetable generator, mock test planner, board exam study planner',
+  keywords: 'JEE NEET free tools, NEET rank predictor, JEE percentile calculator, study timetable generator, mock test planner, board exam study planner, mentored by IITian',
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,

@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
-import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { BreadcrumbJsonLd, FaqJsonLd, WebApplicationJsonLd } from '../../components/JsonLd';
 
-const TITLE = 'Free NEET Quick Quiz — 10 Physics, Chemistry & Biology Questions | BuzzyBrains Academy';
+const TITLE = 'Free NEET Quick Quiz — 10 Physics, Chemistry & Biology Questions | Mentored by IITian | BuzzyBrains Academy';
 const DESCRIPTION =
-  'A free, 10-question NEET-level quiz across Physics, Chemistry and Biology, with instant scoring and explanations for every answer. No signup required.';
+  'A free, 10-question NEET-level quiz across Physics, Chemistry and Biology, with instant scoring and explanations for every answer — mentored by IITian faculty, no signup required.';
 const URL = 'https://buzzybrainsacademy.com/neet-quiz';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'NEET quiz, NEET practice questions, NEET biology quiz, NEET physics quiz, NEET chemistry quiz, free NEET test',
+  keywords: 'NEET quiz, NEET practice questions, NEET biology quiz, NEET physics quiz, NEET chemistry quiz, free NEET test, mentored by IITian',
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,
@@ -53,6 +53,7 @@ export default function NeetQuizLayout({ children }: { children: React.ReactNode
   return (
     <>
       <BreadcrumbJsonLd name="NEET Quick Quiz" path="/neet-quiz" />
+      <WebApplicationJsonLd name="NEET Quick Quiz" description={DESCRIPTION} path="/neet-quiz" />
       <FaqJsonLd items={FAQS} />
       {children}
     </>

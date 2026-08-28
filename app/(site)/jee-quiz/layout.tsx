@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
-import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { BreadcrumbJsonLd, FaqJsonLd, WebApplicationJsonLd } from '../../components/JsonLd';
 
-const TITLE = 'Free JEE Quick Quiz — 10 Physics, Chemistry & Maths Questions | BuzzyBrains Academy';
+const TITLE = 'Free JEE Quick Quiz — 10 Physics, Chemistry & Maths Questions | Mentored by IITian | BuzzyBrains Academy';
 const DESCRIPTION =
-  'A free, 10-question JEE Main-level quiz across Physics, Chemistry and Maths, with instant scoring and explanations for every answer. No signup required.';
+  'A free, 10-question JEE Main-level quiz across Physics, Chemistry and Maths, with instant scoring and explanations for every answer — mentored by IITian faculty, no signup required.';
 const URL = 'https://buzzybrainsacademy.com/jee-quiz';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: 'JEE quiz, JEE Main practice questions, JEE physics quiz, JEE chemistry quiz, JEE maths quiz, free JEE test',
+  keywords: 'JEE quiz, JEE Main practice questions, JEE physics quiz, JEE chemistry quiz, JEE maths quiz, free JEE test, mentored by IITian',
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,
@@ -53,6 +53,7 @@ export default function JeeQuizLayout({ children }: { children: React.ReactNode 
   return (
     <>
       <BreadcrumbJsonLd name="JEE Quick Quiz" path="/jee-quiz" />
+      <WebApplicationJsonLd name="JEE Quick Quiz" description={DESCRIPTION} path="/jee-quiz" />
       <FaqJsonLd items={FAQS} />
       {children}
     </>

@@ -3217,6 +3217,10 @@ export const BLOG_POSTS: BlogPost[] = [
     readingMinutes: 12,
     relatedProgramHref: '/12th-board-pcm',
     relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/score-calculator', label: 'Free Tool: NEET & JEE Main Score Calculator' },
+      { href: '/jee-quiz', label: 'Free Tool: JEE Quick Quiz' },
+    ],
     body: [
       { kind: 'answer', text: "JEE Main tests Physics, Chemistry and Mathematics through a mix of multiple-choice questions (four marks for a correct answer, one negative mark for a wrong one) and numerical-value questions (four marks for a correct answer, typically no negative marking). Understanding this split matters strategically — numerical-value questions remove the guessing penalty, which should change how a student allocates risk during the exam, not just how they revise content." },
       { kind: 'h2', text: "Key Takeaways" },
@@ -21443,6 +21447,8 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedGuides: [
       { href: '/blog/jee-main-exam-pattern-and-marking-scheme-explained', label: 'JEE Main Exam Pattern and Marking Scheme Explained' },
       { href: '/blog/neet-score-honest-mbbs-seat-map', label: 'NEET Score to MBBS Seat: An Honest Rank-to-College Map' },
+      { href: '/score-calculator', label: 'Free Tool: NEET & JEE Main Score Calculator' },
+      { href: '/neet-quiz', label: 'Free Tool: NEET Quick Quiz' },
     ],
     body: [
       {
@@ -22170,6 +22176,7 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedGuides: [
       { href: '/blog/95-percentile-jee-main-honest-college-map', label: '95 Percentile in JEE Main: The Honest College Map' },
       { href: '/blog/neet-score-honest-mbbs-seat-map', label: 'NEET Score to MBBS Seat: An Honest Rank-to-College Map' },
+      { href: '/neet-jee-rank-predictor', label: 'Free Tool: NEET & JEE Main Rank + College Predictor' },
     ],
     body: [
       {

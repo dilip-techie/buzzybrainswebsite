@@ -64,6 +64,13 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
 
   // Blog
   { path: '/blog', changeFrequency: 'weekly', priority: 0.6 },
+
+  // Resource Centre — free tools
+  { path: '/resource-centre', changeFrequency: 'weekly', priority: 0.8 },
+  { path: '/neet-jee-rank-predictor', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/score-calculator', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/jee-quiz', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/neet-quiz', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/board-exam-study-planner', changeFrequency: 'monthly', priority: 0.7 },
 
   // Legal

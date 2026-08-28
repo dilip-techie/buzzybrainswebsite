@@ -32,6 +32,7 @@ export default function Footer() {
               <li><Link prefetch={false} href="/admissions">Admissions</Link></li>
               <li><Link prefetch={false} href="/#faculty">Faculty</Link></li>
               <li><Link prefetch={false} href="/blog">Blog</Link></li>
+              <li><Link prefetch={false} href="/resource-centre">Free Tools</Link></li>
               <li><Link prefetch={false} href="/contact">Contact Us</Link></li>
               <li><Link prefetch={false} href="/coaching-in-amanora">Coaching in Amanora</Link></li>
               <li><Link prefetch={false} href="/coaching-in-kharadi">Coaching in Kharadi</Link></li>

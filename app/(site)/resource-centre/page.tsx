@@ -131,7 +131,10 @@ export default function ResourceCentrePage() {
     <main className="bb-landing bb-page-shell">
       <section className="hero blog-hero-compact">
         <div className="container">
-          <span className="eyebrow">Resource Centre</span>
+          <div className="hero-badges">
+            <span className="eyebrow">Resource Centre</span>
+            <span className="eyebrow">Mentored by IITian</span>
+          </div>
           <h1>Free tools for JEE, NEET & board exams.</h1>
           <p className="lede">
             No signup, no fake precision — just the same honest, banded thinking behind our blog guides, made interactive.
