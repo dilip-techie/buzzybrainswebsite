@@ -660,6 +660,8 @@ button{font-family:inherit;cursor:pointer}
 
 /* ---- Rich blog cards with thumbnail + category chip ---- */
 .blog-grid-rich{margin-bottom:8px}
+.blog-load-more{display:flex;justify-content:center;margin-top:36px}
+.blog-load-more .btn{padding:13px 28px}
 .blog-card-rich{position:relative}
 
 /* ---- Coming soon strip ---- */

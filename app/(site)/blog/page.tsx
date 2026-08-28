@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
   Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
@@ -98,6 +98,11 @@ const POSTS_BY_DATE = [...BLOG_POSTS].sort(
   (a, b) => new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime()
 );
 
+/** Rendering all 200+ posts (each now with a thumbnail) on first load makes
+ * this the heaviest page on the site. Both the main grid and search results
+ * load in batches of this size instead, via a "Load more" button. */
+const PAGE_SIZE = 24;
+
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' });
 }
@@ -105,8 +110,15 @@ function formatDate(iso: string) {
 export default function BlogIndexPage() {
   const [query, setQuery] = useState('');
   const [tickerPaused, setTickerPaused] = useState(false);
+  const [gridVisibleCount, setGridVisibleCount] = useState(PAGE_SIZE);
+  const [searchVisibleCount, setSearchVisibleCount] = useState(PAGE_SIZE);
   const trimmedQuery = query.trim();
   const isSearching = trimmedQuery.length > 0;
+
+  // A new search query is a new result set — start it back at one page.
+  useEffect(() => {
+    setSearchVisibleCount(PAGE_SIZE);
+  }, [trimmedQuery]);
 
   const featured = POSTS_BY_DATE[0];
   const rest = POSTS_BY_DATE.slice(1);
@@ -224,11 +236,20 @@ export default function BlogIndexPage() {
                 : `${searchResults.length} guide${searchResults.length === 1 ? '' : 's'} matching "${trimmedQuery}"`}
             </p>
             {searchResults.length > 0 ? (
-              <div className="blog-grid blog-grid-rich">
-                {searchResults.map((post) => (
-                  <BlogCard post={post} key={post.slug} />
-                ))}
-              </div>
+              <>
+                <div className="blog-grid blog-grid-rich">
+                  {searchResults.slice(0, searchVisibleCount).map((post) => (
+                    <BlogCard post={post} key={post.slug} />
+                  ))}
+                </div>
+                {searchVisibleCount < searchResults.length && (
+                  <div className="blog-load-more">
+                    <button type="button" className="btn btn-ghost" onClick={() => setSearchVisibleCount((c) => c + PAGE_SIZE)}>
+                      Load More Guides ({searchResults.length - searchVisibleCount} more)
+                    </button>
+                  </div>
+                )}
+              </>
             ) : (
               <div className="blog-search-empty">
                 <p>Try a different keyword, or browse by subject instead.</p>
@@ -303,11 +324,20 @@ export default function BlogIndexPage() {
               </Link>
 
               {rest.length > 0 && (
-                <div className="blog-grid blog-grid-rich">
-                  {rest.map((post, i) => (
-                    <BlogCard post={post} key={post.slug} reveal delay={(i % 3) + 1} />
-                  ))}
-                </div>
+                <>
+                  <div className="blog-grid blog-grid-rich">
+                    {rest.slice(0, gridVisibleCount).map((post, i) => (
+                      <BlogCard post={post} key={post.slug} reveal delay={(i % 3) + 1} />
+                    ))}
+                  </div>
+                  {gridVisibleCount < rest.length && (
+                    <div className="blog-load-more">
+                      <button type="button" className="btn btn-ghost" onClick={() => setGridVisibleCount((c) => c + PAGE_SIZE)}>
+                        Load More Guides ({rest.length - gridVisibleCount} more)
+                      </button>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </section>
