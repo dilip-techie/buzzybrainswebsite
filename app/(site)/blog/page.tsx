@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
+import Fuse from 'fuse.js';
 import {
   ArrowUpRight, Clock, Atom, Stethoscope, BookOpen, Trophy, Calculator,
   Target, Award, Globe, Compass, Scale, Landmark, Code2, Briefcase, Building2, BarChart3, Swords,
@@ -11,7 +12,7 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE, type BlogCategory } from './_data/categories';
-import { BLOG_POSTS_META as BLOG_POSTS } from './_data/posts-meta';
+import { BLOG_POSTS_META as BLOG_POSTS, type BlogPostMeta } from './_data/posts-meta';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import { BlogCard } from './_components/BlogCard';
 
@@ -103,8 +104,36 @@ const POSTS_BY_DATE = [...BLOG_POSTS].sort(
  * load in batches of this size instead, via a "Load more" button. */
 const PAGE_SIZE = 24;
 
+type LengthFilter = 'all' | 'short' | 'medium' | 'long';
+
+/** Category label is folded in as its own searchable field (rather than
+ * relying on Fuse to search a computed string) so a query like "jee" scores
+ * a title match and a category match separately instead of one blended one. */
+const SEARCHABLE_POSTS = BLOG_POSTS.map((post) => ({
+  ...post,
+  categoryLabel: CATEGORY_LABELS[post.category],
+}));
+
+const searchIndex = new Fuse(SEARCHABLE_POSTS, {
+  keys: [
+    { name: 'title', weight: 0.5 },
+    { name: 'description', weight: 0.3 },
+    { name: 'categoryLabel', weight: 0.2 },
+  ],
+  threshold: 0.32,
+  ignoreLocation: true,
+  minMatchCharLength: 2,
+});
+
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function matchesLength(minutes: number, filter: LengthFilter): boolean {
+  if (filter === 'short') return minutes < 5;
+  if (filter === 'medium') return minutes >= 5 && minutes <= 10;
+  if (filter === 'long') return minutes > 10;
+  return true;
 }
 
 export default function BlogIndexPage() {
@@ -112,13 +141,10 @@ export default function BlogIndexPage() {
   const [tickerPaused, setTickerPaused] = useState(false);
   const [gridVisibleCount, setGridVisibleCount] = useState(PAGE_SIZE);
   const [searchVisibleCount, setSearchVisibleCount] = useState(PAGE_SIZE);
+  const [categoryFilter, setCategoryFilter] = useState<BlogCategory | 'all'>('all');
+  const [lengthFilter, setLengthFilter] = useState<LengthFilter>('all');
   const trimmedQuery = query.trim();
   const isSearching = trimmedQuery.length > 0;
-
-  // A new search query is a new result set — start it back at one page.
-  useEffect(() => {
-    setSearchVisibleCount(PAGE_SIZE);
-  }, [trimmedQuery]);
 
   const featured = POSTS_BY_DATE[0];
   const rest = POSTS_BY_DATE.slice(1);
@@ -129,14 +155,35 @@ export default function BlogIndexPage() {
     []
   );
 
-  const searchResults = useMemo(() => {
+  const searchResults = useMemo<BlogPostMeta[]>(() => {
     if (!isSearching) return [];
-    const q = trimmedQuery.toLowerCase();
-    return POSTS_BY_DATE.filter((post) => {
-      const haystack = `${post.title} ${post.description} ${CATEGORY_LABELS[post.category]}`.toLowerCase();
-      return haystack.includes(q);
-    });
+    return searchIndex.search(trimmedQuery).map((result) => result.item);
   }, [isSearching, trimmedQuery]);
+
+  const searchCategoryCounts = useMemo(() => {
+    const counts = new Map<BlogCategory, number>();
+    for (const post of searchResults) counts.set(post.category, (counts.get(post.category) ?? 0) + 1);
+    return CATEGORY_ORDER.filter((c) => counts.has(c)).map((c) => ({ category: c, count: counts.get(c)! }));
+  }, [searchResults]);
+
+  const filteredSearchResults = useMemo(() => {
+    return searchResults.filter(
+      (post) =>
+        (categoryFilter === 'all' || post.category === categoryFilter) &&
+        matchesLength(post.readingMinutes, lengthFilter)
+    );
+  }, [searchResults, categoryFilter, lengthFilter]);
+
+  // A new query, or a changed filter, is a new result set — start back at one page.
+  useEffect(() => {
+    setSearchVisibleCount(PAGE_SIZE);
+  }, [trimmedQuery, categoryFilter, lengthFilter]);
+
+  function clearSearch() {
+    setQuery('');
+    setCategoryFilter('all');
+    setLengthFilter('all');
+  }
 
   return (
     <main className="bb-landing bb-page-shell">
@@ -169,7 +216,7 @@ export default function BlogIndexPage() {
               aria-label="Search blog guides"
             />
             {isSearching && (
-              <button type="button" className="blog-search-clear" onClick={() => setQuery('')} aria-label="Clear search">
+              <button type="button" className="blog-search-clear" onClick={clearSearch} aria-label="Clear search">
                 <X size={16} />
               </button>
             )}
@@ -233,27 +280,72 @@ export default function BlogIndexPage() {
             <p className="blog-search-count">
               {searchResults.length === 0
                 ? `No guides match "${trimmedQuery}"`
-                : `${searchResults.length} guide${searchResults.length === 1 ? '' : 's'} matching "${trimmedQuery}"`}
+                : `${filteredSearchResults.length} of ${searchResults.length} guide${searchResults.length === 1 ? '' : 's'} matching "${trimmedQuery}"`}
             </p>
-            {searchResults.length > 0 ? (
+
+            {searchResults.length > 0 && (
+              <div className="blog-filter-tabs">
+                <button
+                  type="button"
+                  className={`blog-filter-tab${categoryFilter === 'all' ? ' active' : ''}`}
+                  onClick={() => setCategoryFilter('all')}
+                >
+                  All categories
+                </button>
+                {searchCategoryCounts.map(({ category, count }) => (
+                  <button
+                    type="button"
+                    key={category}
+                    className={`blog-filter-tab${categoryFilter === category ? ' active' : ''}`}
+                    onClick={() => setCategoryFilter(category)}
+                  >
+                    {CATEGORY_LABELS[category]} ({count})
+                  </button>
+                ))}
+                <span className="blog-filter-divider" aria-hidden="true" />
+                {(
+                  [
+                    ['all', 'Any length'],
+                    ['short', 'Under 5 min'],
+                    ['medium', '5–10 min'],
+                    ['long', '10+ min'],
+                  ] as [LengthFilter, string][]
+                ).map(([value, label]) => (
+                  <button
+                    type="button"
+                    key={value}
+                    className={`blog-filter-tab${lengthFilter === value ? ' active' : ''}`}
+                    onClick={() => setLengthFilter(value)}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {filteredSearchResults.length > 0 ? (
               <>
                 <div className="blog-grid blog-grid-rich">
-                  {searchResults.slice(0, searchVisibleCount).map((post) => (
-                    <BlogCard post={post} key={post.slug} />
+                  {filteredSearchResults.slice(0, searchVisibleCount).map((post) => (
+                    <BlogCard post={post} key={post.slug} highlightQuery={trimmedQuery} />
                   ))}
                 </div>
-                {searchVisibleCount < searchResults.length && (
+                {searchVisibleCount < filteredSearchResults.length && (
                   <div className="blog-load-more">
                     <button type="button" className="btn btn-ghost" onClick={() => setSearchVisibleCount((c) => c + PAGE_SIZE)}>
-                      Load More Guides ({searchResults.length - searchVisibleCount} more)
+                      Load More Guides ({filteredSearchResults.length - searchVisibleCount} more)
                     </button>
                   </div>
                 )}
               </>
             ) : (
               <div className="blog-search-empty">
-                <p>Try a different keyword, or browse by subject instead.</p>
-                <button type="button" className="btn btn-ghost" onClick={() => setQuery('')}>Clear search</button>
+                <p>
+                  {searchResults.length === 0
+                    ? 'Try a different keyword, or browse by subject instead.'
+                    : 'No guides match these filters — try widening the category or length.'}
+                </p>
+                <button type="button" className="btn btn-ghost" onClick={clearSearch}>Clear search</button>
               </div>
             )}
           </div>
