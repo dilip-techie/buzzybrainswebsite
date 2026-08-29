@@ -26,6 +26,7 @@ All tools are mentored by IITian faculty, free, and require no signup.
 - [NEET & JEE Main Score Calculator](https://buzzybrainsacademy.com/score-calculator): enter correct/incorrect/unattempted counts, get an exact score using the real official marking scheme.
 - [JEE Quick Quiz](https://buzzybrainsacademy.com/jee-quiz): 10 Physics, Chemistry and Maths questions at JEE Main level, instant scoring with explanations.
 - [NEET Quick Quiz](https://buzzybrainsacademy.com/neet-quiz): 10 Physics, Chemistry and Biology questions at NEET level, instant scoring with explanations.
+- [Study Timetable Generator](https://buzzybrainsacademy.com/study-timetable-generator): mark coaching/heavy days, get a realistic weekly JEE/NEET timetable with subject rotation, a mock day and real rest.
 - [Board Exam Study Planner](https://buzzybrainsacademy.com/board-exam-study-planner): free printable study planner for CBSE/ICSE/SSC Class 10 & 12.
 - [Class 6 Maths Quiz](https://buzzybrainsacademy.com/foundation-maths-quiz-class-6), [Class 7](https://buzzybrainsacademy.com/foundation-maths-quiz-class-7), [Class 8](https://buzzybrainsacademy.com/foundation-maths-quiz-class-8), [Class 9](https://buzzybrainsacademy.com/foundation-maths-quiz-class-9), [Class 10](https://buzzybrainsacademy.com/foundation-maths-quiz-class-10): free 10-question Foundation Maths quizzes with instant scoring and explanations.
 

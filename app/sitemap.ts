@@ -71,6 +71,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/score-calculator', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/jee-quiz', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/neet-quiz', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/study-timetable-generator', changeFrequency: 'monthly', priority: 0.75 },
   { path: '/board-exam-study-planner', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/foundation-maths-quiz-class-6', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/foundation-maths-quiz-class-7', changeFrequency: 'monthly', priority: 0.7 },

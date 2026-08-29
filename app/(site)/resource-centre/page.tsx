@@ -64,7 +64,7 @@ const PLANNERS: ToolEntry[] = [
     title: 'Study Timetable Generator',
     description: 'Enter your school and coaching hours, get a realistic weekly timetable built around subject rotation, not guesswork.',
     icon: CalendarClock,
-    live: false,
+    live: true,
     gradient: 'linear-gradient(135deg,#0369A1,#0EA5E9)',
     solid: '#0EA5E9',
     glow: '14,165,233',
