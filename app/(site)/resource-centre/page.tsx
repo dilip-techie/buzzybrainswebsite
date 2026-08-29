@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Target, Calculator, HelpCircle, CalendarClock, ListChecks, BookOpen, type LucideIcon } from 'lucide-react';
+import { Target, Calculator, HelpCircle, CalendarClock, ListChecks, BookOpen, GraduationCap, type LucideIcon } from 'lucide-react';
 
 interface ToolEntry {
   slug: string;
@@ -37,14 +37,24 @@ const CALCULATORS: ToolEntry[] = [
 
 const QUIZZES: ToolEntry[] = [
   {
-    slug: '/jee-or-neet-quiz',
-    title: 'Should I Prep for JEE or NEET?',
-    description: 'A short quiz on subject interest and goals that points you toward the track that genuinely fits.',
+    slug: '/jee-quiz',
+    title: 'JEE Quick Quiz',
+    description: '10 Physics, Chemistry and Maths questions at JEE Main level, with instant scoring and explanations.',
     icon: HelpCircle,
-    live: false,
-    gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
-    solid: '#A855F7',
-    glow: '124,58,237',
+    live: true,
+    gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
+    solid: '#2563EB',
+    glow: '37,99,235',
+  },
+  {
+    slug: '/neet-quiz',
+    title: 'NEET Quick Quiz',
+    description: '10 Physics, Chemistry and Biology questions at NEET level, with instant scoring and explanations.',
+    icon: HelpCircle,
+    live: true,
+    gradient: 'linear-gradient(135deg,#991B1B,#EF4444)',
+    solid: '#EF4444',
+    glow: '239,68,68',
   },
 ];
 
@@ -78,6 +88,59 @@ const PLANNERS: ToolEntry[] = [
     gradient: 'linear-gradient(135deg,#92400E,#F59E0B)',
     solid: '#F59E0B',
     glow: '245,158,11',
+  },
+];
+
+const FOUNDATION_QUIZZES: ToolEntry[] = [
+  {
+    slug: '/foundation-maths-quiz-class-6',
+    title: 'Class 6 Maths Quiz',
+    description: '10 questions on numbers, fractions, integers and basic geometry, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-7',
+    title: 'Class 7 Maths Quiz',
+    description: '10 questions on simple equations, percentages, rational numbers and geometry, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-8',
+    title: 'Class 8 Maths Quiz',
+    description: '10 questions on linear equations, squares/cubes, factorization and proportion, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-9',
+    title: 'Class 9 Maths Quiz',
+    description: '10 questions on number systems, polynomials, coordinate geometry and triangles, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-10',
+    title: 'Class 10 Maths Quiz',
+    description: '10 questions on quadratic equations, trigonometry, coordinate geometry and circles, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
   },
 ];
 
@@ -121,7 +184,10 @@ export default function ResourceCentrePage() {
     <main className="bb-landing bb-page-shell">
       <section className="hero blog-hero-compact">
         <div className="container">
-          <span className="eyebrow">Resource Centre</span>
+          <div className="hero-badges">
+            <span className="eyebrow">Resource Centre</span>
+            <span className="eyebrow">Mentored by IITian</span>
+          </div>
           <h1>Free tools for JEE, NEET & board exams.</h1>
           <p className="lede">
             No signup, no fake precision — just the same honest, banded thinking behind our blog guides, made interactive.
@@ -134,6 +200,7 @@ export default function ResourceCentrePage() {
           <ToolGroup heading="Calculators" tools={CALCULATORS} />
           <ToolGroup heading="Quizzes" tools={QUIZZES} />
           <ToolGroup heading="Planners" tools={PLANNERS} />
+          <ToolGroup heading="Foundation Maths Quizzes (Class 6-10)" tools={FOUNDATION_QUIZZES} />
 
           <div style={{ marginTop: 20, textAlign: 'center' }}>
             <Link prefetch={false} href="/blog" className="chip chip-link">Looking for guides instead? Browse the blog &rarr;</Link>

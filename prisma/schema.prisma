@@ -43,13 +43,15 @@ model Lead {
   name        String
   studentName String?   @map("student_name")
   email       String
-  phone       String
+  phone       String?
   board       String?
   grade       String?
   school      String?
   program     String?
   source      String    @default("board-exam-study-planner") @map("source")
   pdfSentAt   DateTime? @map("pdf_sent_at")
+  quizScore   Int?      @map("quiz_score")
+  quizTotal   Int?      @map("quiz_total")
   createdAt   DateTime  @default(now()) @map("created_at")
 
   @@index([email])

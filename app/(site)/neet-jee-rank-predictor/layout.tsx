@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
-import { BreadcrumbJsonLd, FaqJsonLd } from '../../components/JsonLd';
+import { BreadcrumbJsonLd, FaqJsonLd, WebApplicationJsonLd } from '../../components/JsonLd';
 
-const TITLE = 'Free NEET & JEE Main Rank + College Predictor | BuzzyBrains Academy';
+const TITLE = 'Free NEET & JEE Main Rank + College Predictor | Mentored by IITian | BuzzyBrains Academy';
 const DESCRIPTION =
-  'Enter your expected NEET score or JEE Main percentile and get an honest, banded read on what it typically converts to — no fake precise cutoffs, just the real pattern from recent years.';
+  'Enter your expected NEET score or JEE Main percentile and get an honest, banded read on what it typically converts to — no fake precise cutoffs, just the real pattern from recent years, mentored by IITian faculty.';
 const URL = 'https://buzzybrainsacademy.com/neet-jee-rank-predictor';
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords:
-    'NEET rank predictor, JEE Main percentile predictor, NEET score to college, JEE Main percentile to NIT, NEET college predictor, JEE rank calculator',
+    'NEET rank predictor, JEE Main percentile predictor, NEET score to college, JEE Main percentile to NIT, NEET college predictor, JEE rank calculator, mentored by IITian',
   alternates: { canonical: URL },
   openGraph: {
     title: TITLE,
@@ -57,6 +57,7 @@ export default function RankPredictorLayout({ children }: { children: React.Reac
   return (
     <>
       <BreadcrumbJsonLd name="NEET & JEE Main Rank Predictor" path="/neet-jee-rank-predictor" />
+      <WebApplicationJsonLd name="NEET & JEE Main Rank + College Predictor" description={DESCRIPTION} path="/neet-jee-rank-predictor" />
       <FaqJsonLd items={FAQS} />
       {children}
     </>

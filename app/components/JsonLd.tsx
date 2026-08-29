@@ -346,3 +346,41 @@ export function ArticleJsonLd({
     </>
   );
 }
+
+/**
+ * For free interactive tools (calculators, predictors, quizzes) in the
+ * Resource Centre — signals to search engines that the page is a
+ * functional application, not just an article, which is what makes it
+ * eligible for tool-style rich results distinct from a blog post.
+ */
+export function WebApplicationJsonLd({
+  name,
+  description,
+  path,
+}: {
+  name: string;
+  description: string;
+  path: string;
+}) {
+  const url = `${SITE_URL}${path}`;
+  return (
+    <JsonLd
+      data={{
+        '@context': 'https://schema.org',
+        '@type': 'WebApplication',
+        name,
+        description,
+        url,
+        applicationCategory: 'EducationApplication',
+        operatingSystem: 'Any (web browser)',
+        isAccessibleForFree: true,
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
+        provider: {
+          '@type': 'EducationalOrganization',
+          name: 'BuzzyBrains Academy',
+          url: SITE_URL,
+        },
+      }}
+    />
+  );
+}

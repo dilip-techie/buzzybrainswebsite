@@ -71,7 +71,10 @@ export default function ScoreCalculatorPage() {
             <span>/</span>
             <span>Score Calculator</span>
           </nav>
-          <span className="eyebrow">Free Tool</span>
+          <div className="hero-badges">
+            <span className="eyebrow">Free Tool</span>
+            <span className="eyebrow">Mentored by IITian</span>
+          </div>
           <h1 style={{ fontSize: 'clamp(30px,4vw,44px)' }}>NEET & JEE Main Score Calculator</h1>
           <p className="lede" style={{ maxWidth: 680, marginTop: 6 }}>
             Enter your correct and incorrect counts, get your exact score from the real official marking scheme — instantly, no signup.

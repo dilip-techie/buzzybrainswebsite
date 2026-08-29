@@ -16,7 +16,18 @@ Key facts: batches capped at 12 students; faculty are IIT/IIM alumni; centres in
 - [Code Ninja](https://buzzybrainsacademy.com/coding-lab) and [Programming Classes](https://buzzybrainsacademy.com/programming-classes): coding, AI foundations and computational logic for Grades 6-12.
 - [One-on-One Coaching](https://buzzybrainsacademy.com/one-on-one): personalized 1-on-1 mentoring across all subjects.
 - [Ivy League Counselling](https://buzzybrainsacademy.com/ivy-league-counselling): US university application and profile-building guidance.
+
+## Free Tools
+
+All tools are mentored by IITian faculty, free, and require no signup.
+
+- [Resource Centre](https://buzzybrainsacademy.com/resource-centre): hub for every free tool below.
+- [NEET & JEE Main Rank + College Predictor](https://buzzybrainsacademy.com/neet-jee-rank-predictor): enter an expected NEET score or JEE Main percentile, get an honest banded read on realistic college outcomes.
+- [NEET & JEE Main Score Calculator](https://buzzybrainsacademy.com/score-calculator): enter correct/incorrect/unattempted counts, get an exact score using the real official marking scheme.
+- [JEE Quick Quiz](https://buzzybrainsacademy.com/jee-quiz): 10 Physics, Chemistry and Maths questions at JEE Main level, instant scoring with explanations.
+- [NEET Quick Quiz](https://buzzybrainsacademy.com/neet-quiz): 10 Physics, Chemistry and Biology questions at NEET level, instant scoring with explanations.
 - [Board Exam Study Planner](https://buzzybrainsacademy.com/board-exam-study-planner): free printable study planner for CBSE/ICSE/SSC Class 10 & 12.
+- [Class 6 Maths Quiz](https://buzzybrainsacademy.com/foundation-maths-quiz-class-6), [Class 7](https://buzzybrainsacademy.com/foundation-maths-quiz-class-7), [Class 8](https://buzzybrainsacademy.com/foundation-maths-quiz-class-8), [Class 9](https://buzzybrainsacademy.com/foundation-maths-quiz-class-9), [Class 10](https://buzzybrainsacademy.com/foundation-maths-quiz-class-10): free 10-question Foundation Maths quizzes with instant scoring and explanations.
 
 ## Guides
 
