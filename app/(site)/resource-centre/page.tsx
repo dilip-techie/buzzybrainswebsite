@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Target, Calculator, HelpCircle, CalendarClock, ListChecks, BookOpen, type LucideIcon } from 'lucide-react';
+import { Target, Calculator, HelpCircle, CalendarClock, ListChecks, BookOpen, GraduationCap, type LucideIcon } from 'lucide-react';
 
 interface ToolEntry {
   slug: string;
@@ -91,6 +91,59 @@ const PLANNERS: ToolEntry[] = [
   },
 ];
 
+const FOUNDATION_QUIZZES: ToolEntry[] = [
+  {
+    slug: '/foundation-maths-quiz-class-6',
+    title: 'Class 6 Maths Quiz',
+    description: '10 questions on numbers, fractions, integers and basic geometry, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-7',
+    title: 'Class 7 Maths Quiz',
+    description: '10 questions on simple equations, percentages, rational numbers and geometry, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-8',
+    title: 'Class 8 Maths Quiz',
+    description: '10 questions on linear equations, squares/cubes, factorization and proportion, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-9',
+    title: 'Class 9 Maths Quiz',
+    description: '10 questions on number systems, polynomials, coordinate geometry and triangles, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+  {
+    slug: '/foundation-maths-quiz-class-10',
+    title: 'Class 10 Maths Quiz',
+    description: '10 questions on quadratic equations, trigonometry, coordinate geometry and circles, with instant scoring and explanations.',
+    icon: GraduationCap,
+    live: true,
+    gradient: 'linear-gradient(135deg,#065F46,#10B981)',
+    solid: '#10B981',
+    glow: '16,185,129',
+  },
+];
+
 function ToolGroup({ heading, tools }: { heading: string; tools: ToolEntry[] }) {
   return (
     <div style={{ marginBottom: 40 }}>
@@ -147,6 +200,7 @@ export default function ResourceCentrePage() {
           <ToolGroup heading="Calculators" tools={CALCULATORS} />
           <ToolGroup heading="Quizzes" tools={QUIZZES} />
           <ToolGroup heading="Planners" tools={PLANNERS} />
+          <ToolGroup heading="Foundation Maths Quizzes (Class 6-10)" tools={FOUNDATION_QUIZZES} />
 
           <div style={{ marginTop: 20, textAlign: 'center' }}>
             <Link prefetch={false} href="/blog" className="chip chip-link">Looking for guides instead? Browse the blog &rarr;</Link>
