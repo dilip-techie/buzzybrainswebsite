@@ -74,7 +74,7 @@ const PLANNERS: ToolEntry[] = [
     title: 'Mock Test Schedule Planner',
     description: 'Enter your exam date and get a phased mock-test calendar — diagnostic, core, intensive, taper.',
     icon: ListChecks,
-    live: false,
+    live: true,
     gradient: 'linear-gradient(135deg,#065F46,#10B981)',
     solid: '#10B981',
     glow: '16,185,129',
