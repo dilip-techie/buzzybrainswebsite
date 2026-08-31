@@ -1900,5 +1900,45 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "neet",
     datePublished: "2026-08-28",
     readingMinutes: 9
+  },
+  {
+    slug: "ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry",
+    title: "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry",
+    description: "\"Best books for IOQM\" lists rarely tell you which book actually fixes your weak topic. Here's a direct, topic-by-topic answer — the specific book worth picking up for Number Theory, Algebra, Combinatorics and Geometry.",
+    category: "olympiad",
+    datePublished: "2026-08-29",
+    readingMinutes: 10
+  },
+  {
+    slug: "how-to-study-from-an-ioqm-prep-book-a-real-method",
+    title: "How to Actually Study From an IOQM Prep Book (Not Just Own One)",
+    description: "Owning the right IOQM book and actually extracting value from it are two different skills. Here's a real, step-by-step method for working through an olympiad book — pacing, when to check solutions, and how to build an error log from it.",
+    category: "olympiad",
+    datePublished: "2026-08-29",
+    readingMinutes: 9
+  },
+  {
+    slug: "ioqm-free-vs-paid-resources-honest-cost-benefit-guide",
+    title: "Free vs Paid IOQM Resources: An Honest Cost-Benefit Guide",
+    description: "Paid olympiad books aren't the only path to IOQM prep, but free resources aren't a complete substitute either. Here's an honest, specific look at what free resources genuinely cover, and where paying for a book actually matters.",
+    category: "olympiad",
+    datePublished: "2026-08-30",
+    readingMinutes: 9
+  },
+  {
+    slug: "ioqm-book-reading-timeline-what-to-read-in-class-8-9-10-11",
+    title: "The IOQM Book Reading Timeline: What to Read in Class 8, 9, 10 and 11",
+    description: "Knowing which IOQM books are good doesn't answer when to actually read them. Here's a grade-by-grade reading sequence that matches how olympiad difficulty and the school curriculum actually build over Class 8-11.",
+    category: "olympiad",
+    datePublished: "2026-08-30",
+    readingMinutes: 9
+  },
+  {
+    slug: "common-mistakes-choosing-ioqm-prep-books",
+    title: "Common Mistakes Students Make When Choosing IOQM Prep Books",
+    description: "The wrong book choice costs more than money — it costs the months spent working through material that was never the right fit. Here are the specific, avoidable mistakes families make when picking IOQM prep books.",
+    category: "olympiad",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
   }
 ];
