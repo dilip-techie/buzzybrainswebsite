@@ -1940,5 +1940,125 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-08-31",
     readingMinutes: 8
+  },
+  {
+    slug: "neet-time-management-splitting-hours-across-physics-chemistry-biology",
+    title: "NEET Time Management: How to Split Study Hours Across Physics, Chemistry and Biology",
+    description: "An even three-way split of study hours feels fair, but it's usually the wrong call for NEET, where Biology alone carries half the total marks. Here's a realistic hour-allocation framework built around actual mark weightage.",
+    category: "neet",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "neet-answer-strategy-when-to-guess-when-to-leave-blank",
+    title: "NEET Answer Strategy: When to Guess, When to Leave Blank Under the +4/-1 Scheme",
+    description: "NEET's +4/-1 marking scheme makes every uncertain question a real decision, not a reflex. Here's a specific, practical framework for when guessing is worth the risk — and when leaving a question blank is the smarter move.",
+    category: "neet",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "botany-vs-zoology-different-study-techniques-neet",
+    title: "Botany vs Zoology: Why NEET's Two Biology Halves Need Different Study Techniques",
+    description: "NEET Biology gets treated as one subject, but Botany and Zoology reward genuinely different study habits. Here's exactly how the two halves differ, and how to study each one accordingly.",
+    category: "neet",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "building-a-neet-weekly-test-routine-from-day-one-of-class-11",
+    title: "Building a NEET Weekly Test Routine From Day One of Class 11",
+    description: "Most NEET students start weekly testing seriously only in Class 12, once the pressure is already high. Here's how to build a genuine weekly test habit from the very first weeks of Class 11 instead.",
+    category: "neet",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "neet-assertion-reason-questions-strategy",
+    title: "NEET Assertion-Reason Questions: A Specific Strategy for a Specific Question Type",
+    description: "Assertion-reason questions trip up students who know the content but haven't practiced the format's specific logic. Here's exactly how to approach them, and the common ways they're misread under time pressure.",
+    category: "neet",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "class-12-boards-mht-cet-week-by-week-balance-plan",
+    title: "Class 12 Boards + MHT-CET: A Week-by-Week Balance Plan for the Final Term",
+    description: "Board exams and MHT-CET reward genuinely different skills, and the final term is where students most often let one quietly crowd out the other. Here's a week-by-week plan for keeping both on track.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-board-marks-component-how-it-changes-board-study",
+    title: "Why MHT-CET's Board-Marks Component Changes How You Should Study for Boards",
+    description: "State CET admission formulas have, in various cycles, factored in board exam marks alongside the CET score itself — which means board exam performance isn't just a separate hurdle, it can directly affect CET-linked admissions too.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "state-cet-syllabus-vs-board-syllabus-overlap",
+    title: "State CET Syllabus vs Board Syllabus: Where They Overlap and Where They Don't",
+    description: "Treating CET and board syllabi as either identical or completely separate both lead to wasted time. Here's a clearer, honest breakdown of where the overlap genuinely helps, and where it quietly runs out.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "prioritizing-when-board-exams-and-mht-cet-dates-clash",
+    title: "How to Prioritize When Board Exams and MHT-CET Dates Land in the Same Month",
+    description: "A tight calendar with board exams and MHT-CET close together forces real prioritization decisions. Here's a practical framework for deciding where to direct limited time in the final stretch.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "cet-focused-students-should-you-attempt-jee-main-too",
+    title: "CET-Focused Students: Should You Even Attempt JEE Main Alongside Boards?",
+    description: "For a student already balancing boards and state CET, adding JEE Main into the mix isn't automatically worth it. Here's an honest framework for deciding, based on genuine cost and realistic upside, not just \"why not.\"",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "should-you-attempt-mht-cet-twice-pros-and-cons",
+    title: "Should You Attempt MHT-CET Twice? A Genuine Pros-and-Cons Breakdown",
+    description: "When a state CET offers more than one sitting in a cycle, attempting both isn't automatically the right call for every student. Here's an honest look at what a second attempt actually costs and actually buys.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-two-attempt-strategy-what-to-change-between-attempts",
+    title: "MHT-CET Two-Attempt Strategy: What Should Actually Change Between Attempt 1 and 2",
+    description: "Repeating the same preparation for a second MHT-CET attempt tends to produce a similar result. Here's what should genuinely change between attempts, based on a real review of the first one.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "time-cost-of-a-second-mht-cet-attempt",
+    title: "The Time Cost of a Second MHT-CET Attempt: Is It Worth Delaying Other Prep?",
+    description: "A second attempt's potential score gain gets most of the attention, but the real decision hinges on what it costs elsewhere. Here's an honest accounting of that time cost, and when it's worth paying.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "mht-cet-best-of-two-scoring-explained",
+    title: "MHT-CET Best-of-Two Scoring: How It Works and What It Means for Your Prep",
+    description: "A best-of-two scoring format, where offered, changes the risk calculus of a second attempt significantly. Here's what that generally means in practice, and why the exact current-year rule always needs checking.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "one-attempt-vs-two-mht-cet-decision-framework",
+    title: "One Attempt vs Two: A Decision Framework Based on Your First-Attempt Score",
+    description: "The right answer to \"should I attempt MHT-CET again\" depends heavily on where the first score actually landed relative to a realistic target. Here's a practical, score-band-based way to decide.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 8
   }
 ];

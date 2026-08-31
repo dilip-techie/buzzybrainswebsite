@@ -1893,7 +1893,7 @@
     "category": "Olympiad",
     "path": "/images/og/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How to Actually Study From an IOQM Prep Book (Not Just Own One)",
@@ -1901,7 +1901,7 @@
     "category": "Olympiad",
     "path": "/images/og/how-to-study-from-an-ioqm-prep-book-a-real-method.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Free vs Paid IOQM Resources: An Honest Cost-Benefit Guide",
@@ -1909,7 +1909,7 @@
     "category": "Olympiad",
     "path": "/images/og/ioqm-free-vs-paid-resources-honest-cost-benefit-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "The IOQM Book Reading Timeline: What to Read in Class 8, 9, 10 and 11",
@@ -1917,13 +1917,133 @@
     "category": "Olympiad",
     "path": "/images/og/ioqm-book-reading-timeline-what-to-read-in-class-8-9-10-11.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Common Mistakes Students Make When Choosing IOQM Prep Books",
     "slug": "common-mistakes-choosing-ioqm-prep-books",
     "category": "Olympiad",
     "path": "/images/og/common-mistakes-choosing-ioqm-prep-books.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "NEET Time Management: How to Split Study Hours Across Physics, Chemistry and Biology",
+    "slug": "neet-time-management-splitting-hours-across-physics-chemistry-biology",
+    "category": "NEET",
+    "path": "/images/og/neet-time-management-splitting-hours-across-physics-chemistry-biology.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Answer Strategy: When to Guess, When to Leave Blank Under the +4/-1 Scheme",
+    "slug": "neet-answer-strategy-when-to-guess-when-to-leave-blank",
+    "category": "NEET",
+    "path": "/images/og/neet-answer-strategy-when-to-guess-when-to-leave-blank.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Botany vs Zoology: Why NEET's Two Biology Halves Need Different Study Techniques",
+    "slug": "botany-vs-zoology-different-study-techniques-neet",
+    "category": "NEET",
+    "path": "/images/og/botany-vs-zoology-different-study-techniques-neet.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Building a NEET Weekly Test Routine From Day One of Class 11",
+    "slug": "building-a-neet-weekly-test-routine-from-day-one-of-class-11",
+    "category": "NEET",
+    "path": "/images/og/building-a-neet-weekly-test-routine-from-day-one-of-class-11.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Assertion-Reason Questions: A Specific Strategy for a Specific Question Type",
+    "slug": "neet-assertion-reason-questions-strategy",
+    "category": "NEET",
+    "path": "/images/og/neet-assertion-reason-questions-strategy.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Class 12 Boards + MHT-CET: A Week-by-Week Balance Plan for the Final Term",
+    "slug": "class-12-boards-mht-cet-week-by-week-balance-plan",
+    "category": "IIT-JEE",
+    "path": "/images/og/class-12-boards-mht-cet-week-by-week-balance-plan.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why MHT-CET's Board-Marks Component Changes How You Should Study for Boards",
+    "slug": "mht-cet-board-marks-component-how-it-changes-board-study",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-board-marks-component-how-it-changes-board-study.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "State CET Syllabus vs Board Syllabus: Where They Overlap and Where They Don't",
+    "slug": "state-cet-syllabus-vs-board-syllabus-overlap",
+    "category": "IIT-JEE",
+    "path": "/images/og/state-cet-syllabus-vs-board-syllabus-overlap.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Prioritize When Board Exams and MHT-CET Dates Land in the Same Month",
+    "slug": "prioritizing-when-board-exams-and-mht-cet-dates-clash",
+    "category": "IIT-JEE",
+    "path": "/images/og/prioritizing-when-board-exams-and-mht-cet-dates-clash.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "CET-Focused Students: Should You Even Attempt JEE Main Alongside Boards?",
+    "slug": "cet-focused-students-should-you-attempt-jee-main-too",
+    "category": "IIT-JEE",
+    "path": "/images/og/cet-focused-students-should-you-attempt-jee-main-too.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Should You Attempt MHT-CET Twice? A Genuine Pros-and-Cons Breakdown",
+    "slug": "should-you-attempt-mht-cet-twice-pros-and-cons",
+    "category": "IIT-JEE",
+    "path": "/images/og/should-you-attempt-mht-cet-twice-pros-and-cons.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Two-Attempt Strategy: What Should Actually Change Between Attempt 1 and 2",
+    "slug": "mht-cet-two-attempt-strategy-what-to-change-between-attempts",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-two-attempt-strategy-what-to-change-between-attempts.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Time Cost of a Second MHT-CET Attempt: Is It Worth Delaying Other Prep?",
+    "slug": "time-cost-of-a-second-mht-cet-attempt",
+    "category": "IIT-JEE",
+    "path": "/images/og/time-cost-of-a-second-mht-cet-attempt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Best-of-Two Scoring: How It Works and What It Means for Your Prep",
+    "slug": "mht-cet-best-of-two-scoring-explained",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-best-of-two-scoring-explained.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "One Attempt vs Two: A Decision Framework Based on Your First-Attempt Score",
+    "slug": "one-attempt-vs-two-mht-cet-decision-framework",
+    "category": "IIT-JEE",
+    "path": "/images/og/one-attempt-vs-two-mht-cet-decision-framework.png",
     "dimensions": "1200x630",
     "status": "created"
   },
