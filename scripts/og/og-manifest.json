@@ -1813,7 +1813,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/jee-2027-vs-neet-2027-choosing-your-track-before-class-11-ends.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "The Last 6 Months Before JEE Main: A Week-by-Week Revision Plan",
@@ -1821,7 +1821,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/last-6-months-before-jee-main-week-by-week-revision-plan.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "NEET 2027 Exam Pattern and Marking Scheme Explained",
@@ -1829,7 +1829,7 @@
     "category": "NEET",
     "path": "/images/og/neet-2027-exam-pattern-and-marking-scheme-explained.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "JEE Main Registration 2027: Dates, Documents, and Mistakes to Avoid",
@@ -1837,7 +1837,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/jee-main-registration-2027-dates-documents-mistakes-to-avoid.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Building a NEET/JEE Study Timetable That Survives School, Coaching, and Real Life",
@@ -1845,7 +1845,7 @@
     "category": "NEET",
     "path": "/images/og/building-a-neet-jee-study-timetable-that-survives-school-and-coaching.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Physics for JEE vs NEET: Where the Same Chapter Needs a Different Approach",
@@ -1853,7 +1853,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/physics-for-jee-vs-neet-same-chapter-different-approach.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CET vs JEE Main: Understanding State Engineering Admissions Alongside National Exams",
@@ -1861,7 +1861,7 @@
     "category": "IIT-JEE",
     "path": "/images/og/cet-vs-jee-main-state-engineering-admissions-explained.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How Many Mock Tests Are Enough Before NEET/JEE? A Realistic Testing Timeline",
@@ -1869,7 +1869,7 @@
     "category": "NEET",
     "path": "/images/og/how-many-mock-tests-before-neet-jee-realistic-testing-timeline.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Two-Session Advantage: How to Use JEE Main Session 1 as a Practice Run for Session 2",
@@ -1877,13 +1877,53 @@
     "category": "IIT-JEE",
     "path": "/images/og/two-session-advantage-jee-main-session-1-as-practice-run-for-session-2.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "NEET/JEE Rank Predictors and Percentile Calculators: How Reliable Are They, Really?",
     "slug": "neet-jee-rank-predictors-percentile-calculators-how-reliable-are-they",
     "category": "NEET",
     "path": "/images/og/neet-jee-rank-predictors-percentile-calculators-how-reliable-are-they.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry",
+    "slug": "ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry",
+    "category": "Olympiad",
+    "path": "/images/og/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Actually Study From an IOQM Prep Book (Not Just Own One)",
+    "slug": "how-to-study-from-an-ioqm-prep-book-a-real-method",
+    "category": "Olympiad",
+    "path": "/images/og/how-to-study-from-an-ioqm-prep-book-a-real-method.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Free vs Paid IOQM Resources: An Honest Cost-Benefit Guide",
+    "slug": "ioqm-free-vs-paid-resources-honest-cost-benefit-guide",
+    "category": "Olympiad",
+    "path": "/images/og/ioqm-free-vs-paid-resources-honest-cost-benefit-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The IOQM Book Reading Timeline: What to Read in Class 8, 9, 10 and 11",
+    "slug": "ioqm-book-reading-timeline-what-to-read-in-class-8-9-10-11",
+    "category": "Olympiad",
+    "path": "/images/og/ioqm-book-reading-timeline-what-to-read-in-class-8-9-10-11.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Common Mistakes Students Make When Choosing IOQM Prep Books",
+    "slug": "common-mistakes-choosing-ioqm-prep-books",
+    "category": "Olympiad",
+    "path": "/images/og/common-mistakes-choosing-ioqm-prep-books.png",
     "dimensions": "1200x630",
     "status": "created"
   },
