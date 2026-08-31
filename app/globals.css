@@ -794,6 +794,8 @@ button{font-family:inherit;cursor:pointer}
 .predictor-error{color:#DC2626;font-size:13.5px;font-weight:600;margin:-12px 0 20px}
 .calc-input-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:420px;margin-bottom:8px}
 @media(max-width:480px){.calc-input-grid{grid-template-columns:1fr}}
+.timetable-day-toggles{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.timetable-day-toggles .blog-filter-tab{padding:9px 14px;min-width:56px;text-align:center}
 
 /* ---- Quiz tools (JEE/NEET quick quiz) ---- */
 .quiz-progress{display:flex;align-items:center;gap:14px;margin-bottom:24px}
