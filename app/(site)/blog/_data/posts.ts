@@ -27413,6 +27413,719 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'ioqm-2026-cutoff-how-its-actually-decided',
+    title: 'IOQM 2026 Cutoff: How It\'s Actually Decided (Not a Fixed Number)',
+    description:
+      "There's no pre-set IOQM 2026 cutoff to look up — it's determined after the exam based on how the paper and the aspirant pool actually performed. Here's the real mechanism.",
+    category: 'olympiad',
+    datePublished: '2026-09-30',
+    readingMinutes: 7,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [
+      { href: '/blog/ioqm-syllabus-preparation-guide', label: 'IOQM Syllabus & Preparation Guide' },
+      { href: '/blog/ioqm-and-amc-dual-track-preparation-strategy', label: 'IOQM and AMC Dual-Track Preparation Strategy' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "Every year, in the days right after IOQM, the same search spikes: \"IOQM cutoff 2026.\" There's no such number sitting in a document waiting to be found. IOQM doesn't publish a fixed qualifying score in advance, or even fix one immediately after the exam — the actual cutoff is calculated afterward, from how that specific year's paper and aspirant pool performed, which is exactly why searching for it before results are out returns nothing solid.",
+      },
+      { kind: 'h2', text: 'What the IOQM cutoff mechanism actually is' },
+      {
+        kind: 'p',
+        text: "IOQM sorts students into two categories: Category A covers Classes 8 through 11, Category B covers Class 12. Within each category, a student first needs to clear a minimum eligibility threshold — 10% of the total marks — just to be considered at all. From the students who clear that threshold, the top 200 in Category A (including ties at the 200th position) and the top 40 in Category B (including ties) qualify for RMO. On top of that, 5 additional female students from Category A qualify under a separate girls' quota, regardless of how many women are already in the top 200.",
+      },
+      { kind: 'h2', text: 'Why this means the cutoff moves every year' },
+      {
+        kind: 'ul',
+        items: [
+          "A harder paper naturally pulls the 200th-ranked score down; an easier paper pushes it up — the cutoff is a consequence of the paper's difficulty, not a target set before the exam.",
+          "The number of students appearing, and how the aspirant pool's overall strength shifts year to year, changes where the 200th or 40th position actually lands.",
+          "Regional and category-wise participation patterns mean the same raw score can matter differently depending on how competitive that year's specific pool was.",
+        ],
+      },
+      { kind: 'h2', text: 'What this means for how you should actually think about your score' },
+      {
+        kind: 'p',
+        text: "Rather than waiting to compare your raw score against a number that doesn't exist yet, the more useful exercise is understanding where you'd likely rank against the exact selection rule — a top-200 or top-40 cut within your category, not a percentage threshold. A student who scored well by their own past standards, but doesn't know how that year's paper compared in difficulty to previous years, genuinely can't predict qualification from the raw score alone.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "At BuzzyBrains Academy, students preparing for IOQM get their mock papers benchmarked against a percentile-and-rank framework, not just a percentage score — because a rank-based selection process like IOQM's is what a student actually needs to gauge readiness against, not an arbitrary passing mark.",
+      },
+      {
+        kind: 'p',
+        text: "If you're waiting on your IOQM 2026 result and want a clearer sense of where a given score actually stands, the IOQM Coaching program is a good place to start — a diagnostic mock benchmarked the right way tells you more than searching for a number that hasn't been set yet.",
+      },
+    ],
+    faq: [
+      {
+        question: 'When is the IOQM cutoff typically announced?',
+        answer: "The cutoff is derived once results are processed after the exam — it isn't pre-announced, and it's published alongside or shortly after the official result declaration on the exam's official result portal.",
+      },
+      {
+        question: 'Does a 10% score guarantee qualification for RMO?',
+        answer: "No — 10% is only the minimum eligibility threshold to be considered at all. Actual qualification depends on ranking in the top 200 (Category A) or top 40 (Category B), which is almost always well above the 10% floor.",
+      },
+    ],
+  },
+  {
+    slug: 'ioqm-category-a-vs-category-b-cutoff-explained',
+    title: 'Category A vs Category B: What the IOQM Cutoff Split Actually Means',
+    description:
+      "IOQM doesn't use one cutoff for everyone — Classes 8-11 and Class 12 are judged separately, under different quotas. Here's why that split exists and what it means for your prep.",
+    category: 'olympiad',
+    datePublished: '2026-10-02',
+    readingMinutes: 6,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10: Choosing the Right Track' },
+      { href: '/blog/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry', label: 'IOQM Topic-Wise Book Guide' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "A Class 11 student and a Class 12 student can sit the exact same IOQM paper and be judged by entirely different selection rules — a detail that surprises a lot of families comparing scores across grades. IOQM splits aspirants into Category A (Classes 8 through 11) and Category B (Class 12 only), and each category has its own separate qualification cutoff for RMO.",
+      },
+      { kind: 'h2', text: 'Why IOQM separates Class 12 from the rest' },
+      {
+        kind: 'p',
+        text: "Class 12 students are in their final year of school, often balancing board exams and competitive exam preparation at the same time, and typically have less runway left in the school-olympiad pipeline than a Class 8, 9, 10, or 11 student who can attempt IOQM again in future years. Category B's smaller quota — top 40, versus Category A's top 200 — reflects this: a narrower, final opportunity for the oldest eligible group, evaluated on its own terms rather than pooled against four other grades' worth of aspirants.",
+      },
+      { kind: 'h2', text: 'What this means if you\'re comparing scores across grades' },
+      {
+        kind: 'ul',
+        items: [
+          "A Class 10 student's score is only ever compared against other Class 8-11 students, not against Class 12 students, even though they sit the same paper.",
+          "Category A's top-200 cutoff is drawn from a much larger, four-grade pool, while Category B's top-40 is drawn from Class 12 aspirants only — the two cutoffs are not directly comparable numbers.",
+          "The girls' quota (5 additional Category A qualifiers) applies only within Category A, not Category B, which is a further distinction worth knowing if you're estimating a specific student's odds.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: assuming a Class 12 student needs a lower score to qualify' },
+      {
+        kind: 'p',
+        text: "Because Category B's quota (40) is smaller in absolute terms than Category A's (200), some families assume it's therefore easier to clear. It isn't necessarily — Category B draws from one grade's aspirant pool competing for fewer spots, and historically has been at least as competitive as Category A on a per-seat basis. The right comparison is competitiveness per seat, not the raw quota number.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's IOQM coaching tracks Category A and Category B students separately from the diagnostic stage onward, since the actual competitive benchmark each group needs to hit is genuinely different, even on an identical paper.",
+      },
+      {
+        kind: 'p',
+        text: "If you're unsure which category applies to your child, or how competitive their specific category has looked in recent years, the IOQM Coaching program page is a reasonable place to get that context before the next attempt.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a Class 12 student who narrowly misses Category B still qualify some other way?',
+        answer: "Only through the standard Category B selection process (top 40, including ties) — there isn't a separate fallback route specific to narrowly-missed Class 12 aspirants.",
+      },
+      {
+        question: "Does the girls' quota apply to Category B as well as Category A?",
+        answer: "The additional girls' quota of 5 qualifiers applies specifically within Category A — Category B's selection is the standard top-40 rule without a separate quota addition.",
+      },
+    ],
+  },
+  {
+    slug: 'what-to-do-while-waiting-for-ioqm-2026-cutoff',
+    title: 'What to Do While Waiting for the IOQM 2026 Cutoff to Be Announced',
+    description:
+      "The gap between attempting IOQM and knowing your result is real, unproductive-feeling time if you let it be. Here's a concrete, non-anxious way to use it.",
+    category: 'olympiad',
+    datePublished: '2026-10-05',
+    readingMinutes: 6,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [
+      { href: '/blog/how-to-study-from-an-ioqm-prep-book-a-real-method', label: 'How to Study From an IOQM Prep Book: A Real Method' },
+      { href: '/blog/common-mistakes-choosing-ioqm-prep-books', label: 'Common Mistakes Choosing IOQM Prep Books' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "The weeks between sitting IOQM and the cutoff and result being announced are genuinely strange ones — the exam is over, but there's nothing concrete to act on yet, and re-checking the official result portal daily doesn't actually change when the announcement comes. Most students either spiral into anxious waiting or check out of maths prep entirely until the result lands. Neither is the useful option.",
+      },
+      { kind: 'h2', text: 'Why this waiting period is not actually dead time' },
+      {
+        kind: 'p',
+        text: "Whether or not this specific IOQM attempt clears the cutoff, the next milestone — RMO if you qualify, or another IOQM attempt next year if you don't — draws on the same underlying skills: number theory, algebra, combinatorics, and geometry at olympiad depth. Time spent now on genuine skill-building isn't contingent on the result; it compounds either way.",
+      },
+      { kind: 'h2', text: 'A concrete way to use the waiting period' },
+      {
+        kind: 'ul',
+        items: [
+          "Do an honest post-mortem of your own attempted paper while it's still fresh — which questions did you solve confidently, which did you guess on, and which topic area cost the most time relative to marks earned.",
+          "If you have access to the paper, attempt the questions you didn't solve under exam conditions, untimed, to distinguish a genuine content gap from a time-pressure mistake.",
+          "Start, or continue, RMO-level problem sets in your strongest topic area, since RMO's proof-based format is a real step up from IOQM's integer-answer format and benefits from an early start regardless of whether this year's IOQM clears.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: treating the wait as a reason to pause preparation entirely' },
+      {
+        kind: 'p',
+        text: "Pausing all olympiad-level practice until the result is announced means losing weeks of momentum right when RMO's proof-writing format — genuinely different from IOQM's — needs to start being practiced if you do qualify. Students who keep working through this gap arrive at RMO prep, if they qualify, already partway there instead of starting cold.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy runs a structured post-IOQM review with students during exactly this window — going through their own attempted paper in detail, and starting foundational RMO-style proof practice regardless of the pending result, so the waiting period turns into preparation rather than limbo.",
+      },
+      {
+        kind: 'p',
+        text: "If you'd like structured guidance through this specific gap, the IOQM Coaching program covers exactly this post-exam review process — worth starting now rather than once the result is out.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is it worth trying to reconstruct my exact IOQM score before the official result?',
+        answer: "It's useful as a rough self-check if you remember your answers clearly, but since the cutoff itself isn't known until after processing, an estimated score mainly helps direct your immediate revision, not predict qualification with certainty.",
+      },
+      {
+        question: 'Should I start RMO preparation before knowing if I\'ve qualified?',
+        answer: "Yes, at least the foundational proof-writing skills — they're useful for future olympiad attempts even if this specific IOQM attempt doesn't clear the cutoff, so there's little downside to starting early.",
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-2026-stage-1-to-stage-2-cutoff-mechanism',
+    title: 'NMTC 2026 Stage 1 to Stage 2: How the Cutoff Actually Works',
+    description:
+      "AMTI doesn't publish a fixed NMTC passing score — Stage 2 qualification is percentile-based within each level. Here's exactly how that works and why it varies by level.",
+    category: 'olympiad',
+    datePublished: '2026-10-01',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-sof-olympiads-worth-it', label: 'Is NMTC Worth It Alongside SOF Olympiads?' },
+      { href: '/blog/nmtc-preparation-junior-level-class-8-9', label: 'NMTC Preparation: Junior Level (Class 8-9)' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "Parents searching for an \"NMTC 2026 cutoff marks\" list are looking for something AMTI, the contest's organizing body, doesn't publish as a fixed number. NMTC Stage 1 to Stage 2 qualification works on a percentile basis within each level, which means the actual mark needed shifts depending on how that specific level's paper and aspirant pool performed that year.",
+      },
+      { kind: 'h2', text: 'How NMTC\'s percentile-based qualification actually works' },
+      {
+        kind: 'p',
+        text: "AMTI runs NMTC across five levels — Primary (Class 5-6), Sub-Junior (Class 7-8), Junior (Class 9-10), Inter (Class 11-12), and Senior (degree level) — and roughly the top 10% of Stage 1 performers within each level typically advance to Stage 2, rather than everyone clearing some fixed absolute score. Historically, this has translated to Stage 1 qualifying marks landing somewhere in the 50-60% range of the total, though this varies by level and year rather than being a guaranteed number.",
+      },
+      { kind: 'h2', text: 'Why the qualifying mark moves by level and by year' },
+      {
+        kind: 'ul',
+        items: [
+          "Each level's paper is set to that level's specific difficulty, so a Junior-level qualifying mark and a Senior-level qualifying mark aren't measuring the same thing even as raw percentages.",
+          "A stronger or weaker aspirant pool in a given year, at a given level, shifts where the top-10% line actually falls.",
+          "Regional participation patterns can vary meaningfully year to year, which also affects the competitive threshold within a percentile-based system.",
+        ],
+      },
+      { kind: 'h2', text: 'What this means for how to prepare, rather than what score to memorize' },
+      {
+        kind: 'p',
+        text: "Since there's no fixed target score to aim for, the more useful preparation goal is maximizing genuine problem-solving strength relative to your level's actual difficulty — through timed, level-matched mock papers — rather than fixating on hitting an arbitrary percentage that may or may not match this year's actual qualifying threshold.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's NMTC preparation runs level-matched mock papers — Primary, Sub-Junior, Junior, Inter, or Senior — under real timing, with scores benchmarked relative to the batch rather than against an assumed fixed passing mark, since the real qualification standard is relative, not absolute.",
+      },
+      {
+        kind: 'p',
+        text: "If your child is preparing for NMTC 2026, the NMTC Coaching program has level-specific guidance — worth checking regardless of which of the five levels applies, since the underlying percentile mechanism is the same across all of them.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Does AMTI ever publish the exact Stage 1 cutoff after results are out?',
+        answer: "AMTI typically releases the Stage 1 merit list and qualification details on its official channels after processing — this is the authoritative source for the actual number for a given year and level, rather than a pre-set figure.",
+      },
+      {
+        question: 'Is the same percentile rule used for Stage 2 qualification into the final results?',
+        answer: "Stage 2 (and any subsequent evaluation) follows its own merit-based process specific to that stage's format and marking, which for NMTC includes a written Part B component evaluated on its own criteria, separate from Stage 1's mechanism.",
+      },
+    ],
+  },
+  {
+    slug: 'why-nmtc-doesnt-publish-fixed-cutoff',
+    title: "Why NMTC Doesn't Publish a Fixed Cutoff Score — And What That Means for You",
+    description:
+      "No fixed NMTC passing mark exists to look up, by design. Here's why AMTI runs a relative, percentile-based system instead, and how that should change your prep strategy.",
+    category: 'olympiad',
+    datePublished: '2026-10-04',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-preparation-primary-sub-junior-class-5-7', label: 'NMTC Preparation: Primary & Sub-Junior (Class 5-7)' },
+      { href: '/blog/nmtc-preparation-inter-senior-class-10-12', label: 'NMTC Preparation: Inter & Senior (Class 10-12)' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "A student who scores 55% on last year's NMTC paper and 55% on this year's paper hasn't necessarily performed the same both times — because NMTC's qualification standard was never a fixed 55%, or any other fixed number, to begin with. It's a relative, percentile-based cut, and treating it as a fixed target is the single most common misunderstanding about how the contest actually works.",
+      },
+      { kind: 'h2', text: 'Why a relative system exists instead of a fixed passing mark' },
+      {
+        kind: 'p',
+        text: "A fixed passing percentage assumes every year's paper is equally difficult, which genuinely isn't true for a contest that sets a fresh paper for each level, every year. A percentile-based system — qualify by ranking within roughly the top 10% of that year's aspirants at your level — adjusts automatically for paper difficulty, since the standard is always relative to how everyone else performed on the exact same paper, not to an assumed constant difficulty level.",
+      },
+      { kind: 'h2', text: 'What this means if you\'re using old cutoff numbers to gauge readiness' },
+      {
+        kind: 'ul',
+        items: [
+          "A percentage that qualified two years ago at your level doesn't reliably predict qualification this year, since that percentage reflected that specific year's paper difficulty and aspirant pool, not a universal standard.",
+          "Comparing your mock score to an old, remembered cutoff number can create false confidence or false alarm, depending on how that old paper's difficulty compares to what you're actually preparing for.",
+          "The more reliable signal is relative performance against a genuinely comparable peer group attempting genuinely comparable, current-difficulty papers.",
+        ],
+      },
+      { kind: 'h2', text: 'How to actually gauge readiness under a relative system' },
+      {
+        kind: 'p',
+        text: "The right benchmark is percentile standing within a realistic peer group on a current-difficulty mock paper, not a remembered percentage from a different year's contest. A mock series that reports where a student ranks against others attempting the same paper gives a far more honest readiness signal than any historical cutoff number could.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's NMTC mock papers are scored with a percentile ranking against the batch, specifically because that's the same kind of relative standard NMTC itself uses — a score without that context is close to meaningless for gauging real qualification odds.",
+      },
+      {
+        kind: 'p',
+        text: "If you've been trying to gauge readiness against an old remembered cutoff number, the NMTC Coaching program is a better starting point — a current, level-matched mock with real percentile feedback tells you far more.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is it useless to look at previous years\' NMTC cutoff trends at all?',
+        answer: "Not entirely — they can give a rough sense of the general range a level has historically required, but they shouldn't be treated as this year's target, since the exact figure depends on that year's specific paper and pool.",
+      },
+      {
+        question: "Does every NMTC level use the same roughly-10% qualification rate?",
+        answer: "The general principle of a relative, percentile-based cut applies across levels, though the exact proportion advancing can vary somewhat by level and year — checking AMTI's official communication for your specific level is the most reliable source.",
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-stage-2-what-changes-after-clearing-cutoff',
+    title: 'NMTC Stage 2: What Changes Once You\'ve Cleared the Cutoff',
+    description:
+      "Clearing NMTC Stage 1 isn't the finish line — Stage 2 tests something genuinely different. Here's what actually changes in format and preparation once you're through.",
+    category: 'olympiad',
+    datePublished: '2026-10-07',
+    readingMinutes: 6,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-preparation-junior-level-class-8-9', label: 'NMTC Preparation: Junior Level (Class 8-9)' },
+      { href: '/blog/nmtc-sof-olympiads-worth-it', label: 'Is NMTC Worth It Alongside SOF Olympiads?' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "Clearing the NMTC Stage 1 cutoff feels like the hard part is over, and for a lot of students it quietly isn't — Stage 2 tests a genuinely different skill from Stage 1, and preparation that got a student through the first stage doesn't automatically carry over to the second.",
+      },
+      { kind: 'h2', text: 'How Stage 2 actually differs from Stage 1' },
+      {
+        kind: 'p',
+        text: "NMTC's format includes a written component with full, shown-working solutions, evaluated on the quality and completeness of the reasoning, not just a final answer — a meaningfully different skill from Stage 1's shorter-response format. A student who is fast and accurate at Stage 1-style problems can still find Stage 2 genuinely difficult if they've never practiced writing out a complete, rigorous mathematical solution before.",
+      },
+      { kind: 'h2', text: 'What specifically trips students up at this transition' },
+      {
+        kind: 'ul',
+        items: [
+          "Assuming the correct final answer is sufficient, when Stage 2's evaluation rewards the reasoning and steps shown, similar in spirit to how board exam step-marking works but applied to genuine mathematical proof.",
+          "Running out of time because a written, full-solution format takes considerably longer per problem than a shorter-response Stage 1 question.",
+          "Underestimating how much of Stage 2 preparation is really about writing practice — clearly structuring an argument on paper — not just knowing more mathematics.",
+        ],
+      },
+      { kind: 'h2', text: 'How to prepare specifically for this shift' },
+      {
+        kind: 'p',
+        text: "The most direct preparation is attempting full, written-solution problems under real time pressure, and getting that written work reviewed by someone who can judge whether the reasoning would actually earn credit — not just whether the final answer is correct. This is a distinct skill from Stage 1 speed-and-accuracy practice and deserves its own dedicated preparation window once Stage 1 is cleared.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy runs dedicated Stage 2 preparation for students who clear NMTC Stage 1, focused specifically on written-solution practice and evaluation — reviewed the way Stage 2 itself is actually judged, not just answer-checked.",
+      },
+      {
+        kind: 'p',
+        text: "If your child has cleared or expects to clear NMTC Stage 1, the NMTC Coaching program has dedicated Stage 2 preparation — worth starting as soon as Stage 1 is done, since the format shift needs its own runway.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How much time is there between Stage 1 results and Stage 2?',
+        answer: "The exact gap varies by year — for the 2026 cycle, Stage 1 was held August 30 and Stage 2 is scheduled for October 25, giving roughly two months, though this should always be confirmed against AMTI's official calendar for your specific year.",
+      },
+      {
+        question: 'Is Stage 2 preparation just "more of the same" at a harder level?',
+        answer: "Not quite — while the underlying maths topics carry over, Stage 2's written, full-solution format demands a genuinely different skill (structuring and presenting a complete proof) that Stage 1's shorter-response format doesn't require.",
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-most-likely-question-types-2026',
+    title: 'AMC 8 Most Likely Question Types 2026: What the Last Several Years Actually Show',
+    description:
+      "No one can predict exact AMC 8 questions, but the topic distribution across recent papers is genuinely consistent. Here's what that pattern actually shows, and how to use it.",
+    category: 'olympiad',
+    datePublished: '2026-10-03',
+    readingMinutes: 7,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },
+      { href: '/blog/amc-scoring-negative-marking-strategy-explained', label: 'AMC Scoring & Negative Marking Strategy Explained' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "\"Most likely questions\" makes AMC 8 sound like something that can be predicted problem-by-problem — it can't, and any resource claiming to know the exact questions in advance isn't telling the truth. What genuinely exists, though, is a consistent topic distribution across recent papers, and that pattern is worth understanding, because it tells you where to concentrate practice time.",
+      },
+      { kind: 'h2', text: 'What the actual topic pattern looks like across recent AMC 8 papers' },
+      {
+        kind: 'p',
+        text: "AMC 8 is a 25-question, 40-minute paper for middle-school-level mathematics, and analysis of recent papers shows geometry and word problems consistently holding the leading share of questions, with counting and probability, estimation, proportional reasoning, and elementary geometry (including the Pythagorean Theorem) appearing reliably every year. Number theory's share has decreased slightly in recent papers, while algebra, counting, and probability have modestly increased — a real shift worth reflecting in how practice time is allocated.",
+      },
+      { kind: 'h2', text: 'Why this pattern is useful even though individual questions can\'t be predicted' },
+      {
+        kind: 'ul',
+        items: [
+          "Concentrating extra practice on geometry and word-problem-style questions reflects where the largest share of the actual paper consistently lands, not a guess.",
+          "The slight algebra, counting, and probability uptick means these areas deserve more attention than a student preparing from an older-pattern resource might expect.",
+          "Later questions on the paper sometimes touch beginning algebra — linear or quadratic functions, coordinate geometry — so practice shouldn't stop at purely arithmetic-level topics.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: over-indexing on the hardest topic instead of the most frequent one' },
+      {
+        kind: 'p',
+        text: "Students preparing for AMC 8 often gravitate toward the topics that feel most advanced or interesting — sometimes deeper number theory — rather than the topics that actually show up most often on the real paper. Since geometry and word problems consistently make up the largest share of questions, time is generally better spent building speed and confidence there than over-preparing a topic that appears in only one or two questions.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's AMC 8 preparation is weighted to match this actual topic distribution — more structured practice on geometry, word problems, counting, and probability, without neglecting the number theory and beginning algebra that still make up a meaningful share of the paper.",
+      },
+      {
+        kind: 'p',
+        text: "If you want a practice plan built around where AMC 8 questions actually concentrate rather than a guess, the AMC 8/10 Coaching program is worth a look — a diagnostic mock will also show exactly where your own preparation currently stands against this pattern.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can anyone genuinely predict the exact AMC 8 questions in advance?',
+        answer: "No — the MAA writes a fresh, secure paper each year, and any resource claiming to know exact upcoming questions isn't credible. Topic-distribution patterns from past papers are a legitimate guide; specific question prediction isn't.",
+      },
+      {
+        question: 'Does the topic pattern change meaningfully from year to year?',
+        answer: "The broad emphasis has stayed relatively consistent — geometry and word problems leading — though the exact proportions can shift slightly, which is why practicing across the full topic range still matters, not just the top one or two areas.",
+      },
+    ],
+  },
+  {
+    slug: 'amc-10-most-likely-question-types-2026',
+    title: 'AMC 10 Most Likely Question Types 2026: The Topics That Show Up Every Year',
+    description:
+      "AMC 10's topic emphasis is more stable than most students expect. Here's what recent papers actually show, and how it should shape a 2026 preparation plan.",
+    category: 'olympiad',
+    datePublished: '2026-10-06',
+    readingMinutes: 7,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-10-preparation-guide-aime-qualification', label: 'AMC 10 Preparation Guide & AIME Qualification' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10: Choosing the Right Track' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "A student preparing for AMC 10 by working randomly through old papers, topic by topic in whatever order a textbook presents them, is missing something recent papers make fairly clear: certain topic areas show up with real consistency, year after year, and preparation weighted to match that pattern is simply a better use of limited prep time.",
+      },
+      { kind: 'h2', text: 'What recent AMC 10 papers actually emphasize' },
+      {
+        kind: 'p',
+        text: "AMC 10's syllabus spans elementary algebra, basic geometry, area and volume, elementary number theory, probability, and counting, layered with intermediate algebra — quadratic equations and functions, factoring, systems of equations, arithmetic and geometric sequences, inequalities, and polynomial manipulation. Across recent papers, algebra and geometry consistently anchor the largest share of questions, with counting, probability, and number theory forming a reliable secondary cluster.",
+      },
+      { kind: 'h2', text: 'Why mixed-topic practice matters more at this level than at AMC 8' },
+      {
+        kind: 'ul',
+        items: [
+          "AMC 10 questions increasingly combine concepts from different topic areas within a single problem — a geometry question that also requires algebraic manipulation, for instance — which single-topic drilling doesn't prepare a student for.",
+          "Solving previous AMC 10 papers in full, rather than only practicing isolated topic sets, is what actually builds familiarity with this combined-concept style.",
+          "A student strong in isolated algebra and isolated geometry can still struggle the first time those two show up together in one question, simply from lack of combined practice.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: treating AMC 10 prep as an extension of AMC 8 prep' },
+      {
+        kind: 'p',
+        text: "AMC 10 shares some topic overlap with AMC 8, but its intermediate algebra content — quadratics, sequences, inequalities, polynomial work — goes meaningfully beyond AMC 8's scope. Students who move up from AMC 8 sometimes assume their existing preparation transfers directly, and under-invest in the additional algebra depth AMC 10 specifically requires.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's AMC 10 preparation is built around full past papers attempted under real time pressure, specifically to build the combined-concept fluency recent papers reward, alongside targeted depth in the intermediate algebra areas that go beyond AMC 8 preparation.",
+      },
+      {
+        kind: 'p',
+        text: "If your AMC 10 prep has been topic-by-topic rather than full-paper, the AMC 8/10 Coaching program is a good next step — a mixed-topic mock paper is usually the fastest way to see where that gap actually shows up.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Should AMC 10 prep focus more on algebra or geometry?',
+        answer: "Both anchor a large share of the paper, so neither should be neglected — the more useful shift for most students is spending more time on mixed-topic, full-paper practice rather than choosing one area to over-prioritize.",
+      },
+      {
+        question: 'Is intermediate algebra really necessary if a student is already strong in basic algebra?',
+        answer: "Yes — AMC 10 specifically tests quadratics, sequences, inequalities, and polynomial manipulation at a level beyond basic algebra, and this is a common gap for students transitioning up from AMC 8.",
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-vs-amc-10-how-most-likely-topics-differ',
+    title: 'AMC 8 vs AMC 10: How the "Most Likely" Topics Actually Differ',
+    description:
+      "AMC 8 and AMC 10 share a name and a format, but their actual topic emphasis is genuinely different. Here's exactly where the two diverge, and why it matters for prep.",
+    category: 'olympiad',
+    datePublished: '2026-10-08',
+    readingMinutes: 6,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },
+      { href: '/blog/amc-10-preparation-guide-aime-qualification', label: 'AMC 10 Preparation Guide & AIME Qualification' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "A student moving from AMC 8 to AMC 10 often expects a harder version of the same paper. It's not quite that — the two competitions share a multiple-choice format and some topic overlap, but their actual emphasis diverges enough that AMC 8 preparation habits don't fully transfer without some real adjustment.",
+      },
+      { kind: 'h2', text: 'Where AMC 8 and AMC 10 topic emphasis genuinely overlaps' },
+      {
+        kind: 'p',
+        text: "Both competitions draw on elementary geometry, counting and probability, and proportional or number-based reasoning, and both reward speed and pattern recognition built through solving full past papers under real time pressure rather than isolated topic drills. A student with strong AMC 8 fundamentals in these shared areas does carry forward a genuine head start.",
+      },
+      { kind: 'h2', text: 'Where the two genuinely diverge' },
+      {
+        kind: 'ul',
+        items: [
+          "AMC 8 stays largely at middle-school depth — arithmetic, pre-algebra, elementary geometry, with only some later questions touching beginning algebra like linear or quadratic functions.",
+          "AMC 10 goes considerably further into intermediate algebra — quadratics, factoring, systems of equations, sequences, inequalities, and polynomial manipulation — content that simply doesn't appear on AMC 8.",
+          "AMC 10 questions more frequently combine concepts across topics within a single problem, a style AMC 8's more topic-isolated questions don't emphasize to the same degree.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: assuming AMC 8 success predicts AMC 10 readiness directly' },
+      {
+        kind: 'p',
+        text: "A strong AMC 8 score is a genuine positive signal, but it measures readiness for AMC 8's specific topic depth, not AMC 10's additional intermediate algebra content. Students who assume the transition needs no extra preparation often find the gap shows up specifically in algebra-heavy questions that have no AMC 8 equivalent.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy runs AMC 8 and AMC 10 as related but distinct tracks — shared foundational work in the overlapping topics, with AMC 10 students getting dedicated additional coverage in the intermediate algebra areas AMC 8 doesn't touch.",
+      },
+      {
+        kind: 'p',
+        text: "If your child is moving from AMC 8 to AMC 10, the AMC 8/10 Coaching program is built around exactly this transition — worth checking to see specifically where the additional preparation needs to go.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How much of AMC 8 preparation actually carries over to AMC 10?',
+        answer: "The overlapping areas — elementary geometry, counting, probability, and general problem-solving speed — carry over well; the intermediate algebra content specific to AMC 10 needs to be built separately.",
+      },
+      {
+        question: 'Should a student attempt both AMC 8 and AMC 10 in the same year if eligible?',
+        answer: "It can work well for students near the age/grade boundary, since the shared topic areas mean dual preparation isn't purely additional work — though the AMC 10-specific algebra content still needs its own dedicated time.",
+      },
+    ],
+  },
+  {
+    slug: 'ioqm-cutoff-2023-2025-actual-historical-numbers',
+    title: 'IOQM Cutoff 2023-2025: The Actual Historical Numbers by Category and Region',
+    description:
+      "The 2026 IOQM cutoff isn't out yet, but three years of published MTA(I) data show real, consistent patterns by category and region. Here are the actual numbers.",
+    category: 'olympiad',
+    datePublished: '2026-10-09',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [
+      { href: '/blog/ioqm-2026-cutoff-how-its-actually-decided', label: "IOQM 2026 Cutoff: How It's Actually Decided" },
+      { href: '/blog/ioqm-category-a-vs-category-b-cutoff-explained', label: 'Category A vs Category B: What the IOQM Cutoff Split Means' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "This year's IOQM cutoff won't exist until MTA(I) processes the results, but that doesn't mean there's nothing concrete to look at. The Mathematics Teachers' Association (India) has published region-wise, category-wise cutoff data for 2023, 2024, and 2025, and three years of real numbers show patterns worth understanding before assuming your own result is or isn't competitive.",
+      },
+      { kind: 'h2', text: 'IOQM 2025 cutoff — sample regional figures' },
+      {
+        kind: 'p',
+        text: "IOQM 2025 used normalized scores, with Leg 2 (28 September) attempts multiplied by 1.5 before comparison. The national certificate threshold was 24.0. A sample of published regional Category A / Category B / Girls' cutoffs:",
+      },
+      {
+        kind: 'table',
+        headers: ['Region', 'Category A', 'Category B', 'Girls (Category A)'],
+        rows: [
+          ['Delhi', '37.0', '49.0', '35.0'],
+          ['Mumbai', '28.0', '39.0', '25.0'],
+          ['Telangana', '43.0', '46.0', '42.0'],
+          ['Tamil Nadu', '30.0', '43.0', '28.0'],
+        ],
+      },
+      { kind: 'h2', text: 'IOQM 2024 cutoff — sample regional figures (revised)' },
+      {
+        kind: 'p',
+        text: "The 2024 cutoff was revised on 21 October 2024 after the initial release — worth knowing, since it means even an official cutoff can be corrected after first publication. The national certificate threshold was 24 (raw scores, no normalization that year).",
+      },
+      {
+        kind: 'table',
+        headers: ['Region', 'Category A', 'Category B', 'Girls (Category A)'],
+        rows: [
+          ['Delhi / Haryana / UP / Rajasthan / Odisha', '35', '48', '33'],
+          ['Maharashtra', '25', '44', '23'],
+          ['Karnataka', '33', '48', '31'],
+          ['Telangana', '38', '46', '36'],
+        ],
+      },
+      { kind: 'h2', text: 'IOQM 2023 cutoff — sample figures (RMO-selection only)' },
+      {
+        kind: 'p',
+        text: "2023's published table covered RMO-selection cutoffs only; separate certificate-only figures weren't broken out the same way, and the general certificate threshold was the standard 10% of total marks.",
+      },
+      {
+        kind: 'table',
+        headers: ['Region', 'Category A', 'Girls (Category A)', 'Category B'],
+        rows: [
+          ['Delhi', '17', '15', '27'],
+          ['Rajasthan', '13', '12', '23'],
+          ['Karnataka', '11', '10', '24'],
+        ],
+      },
+      { kind: 'h2', text: 'What three years of real data actually shows' },
+      {
+        kind: 'ul',
+        items: [
+          "Category B (Class 12) cutoffs are consistently and substantially higher than Category A across every region and year shown here — often by 10-15 marks, reflecting a single-grade pool competing for a smaller quota.",
+          "The same region can move a lot year to year — Delhi's Category A cutoff went from 17 (2023) to 35 (2024) to 37 (2025), which tracks a harder overall pool and paper, not a change in how the exam is graded.",
+          "Some regions (Telangana, Karnataka) show up as consistently high-cutoff, competitive pools across multiple years, which is useful context if you're benchmarking a specific region rather than a national average.",
+          "The Girls' quota cutoff sits just a few marks below the regular Category A cutoff in the same region and year, not dramatically lower — it's a targeted relaxation, not a separate easy track.",
+        ],
+      },
+      { kind: 'h2', text: 'A caution on using this data' },
+      {
+        kind: 'p',
+        text: "These figures are compiled from published MTA(I) archives via third-party aggregators, and the 2024 example above shows even an official cutoff can be revised after initial release. Treat these as directional historical context — genuinely useful for understanding the range and trend — rather than a number to match exactly. For your specific year and region, the authoritative source is MTA(I)'s own results portal, not a compiled table.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's IOQM mock series benchmarks students against this kind of historical range for their specific category, rather than a single assumed passing score — since the real historical pattern is a moving band, not a fixed number, and preparation should target comfortably above the upper end of that band, not the lowest year on record.",
+      },
+      {
+        kind: 'p',
+        text: "If you want to see where a mock score would have landed against these actual historical bands, the IOQM Coaching program runs diagnostic papers benchmarked exactly this way.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Why did the IOQM 2024 cutoff get revised after it was first published?',
+        answer: "MTA(I) issued a revision notice on 21 October 2024 correcting the initially published figures — the organizing body doesn't publicly detail every reason for such revisions, but it's a reminder to check the most current official figure rather than an early or cached one.",
+      },
+      {
+        question: 'Is it safe to assume this year\'s cutoff will be similar to last year\'s?',
+        answer: "It's a reasonable starting reference, but as the region-by-region year-over-year swings above show, it can move substantially — treat last year's number as a rough range indicator, not a prediction.",
+      },
+    ],
+  },
+  {
+    slug: 'nmtc-stage-1-cutoff-2024-2025-real-selection-numbers',
+    title: 'NMTC Stage 1 Cutoff 2024 & 2025: The Real Selection Numbers by Level',
+    description:
+      "AMTI doesn't publish a percentage cutoff, but it does publish exact registered-vs-selected counts every year. Here's what two years of real NMTC data actually show.",
+    category: 'olympiad',
+    datePublished: '2026-10-10',
+    readingMinutes: 8,
+    relatedProgramHref: '/nmtc-coaching-pune',
+    relatedProgramLabel: 'NMTC Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-2026-stage-1-to-stage-2-cutoff-mechanism', label: 'NMTC 2026 Stage 1 to Stage 2: How the Cutoff Actually Works' },
+      { href: '/blog/why-nmtc-doesnt-publish-fixed-cutoff', label: "Why NMTC Doesn't Publish a Fixed Cutoff Score" },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "AMTI has never published a fixed passing score for NMTC Stage 1 — but it does publish, in its own official results documents, exactly how many students registered and how many were selected to advance at each level, every year. Two years of that real data (the 56th NMTC, 2024, and the 57th NMTC, 2025) show a strikingly consistent pattern worth understanding directly, rather than relying on guesswork.",
+      },
+      { kind: 'h2', text: 'NMTC 2024 (56th edition) — registered vs. selected for Stage 2' },
+      {
+        kind: 'table',
+        headers: ['Level', 'Registered', 'Selected for Stage 2', '% Advancing'],
+        rows: [
+          ['Primary', '11,677', '1,216', '10.4%'],
+          ['Sub-Junior', '16,154', '1,760', '10.9%'],
+          ['Junior', '22,149', '2,345', '10.6%'],
+          ['Inter', '6,464', '683', '10.6%'],
+          ['Senior', '151', '151', '100%'],
+        ],
+      },
+      { kind: 'h2', text: 'NMTC 2025 (57th edition) — registered vs. selected for Stage 2' },
+      {
+        kind: 'table',
+        headers: ['Level', 'Registered', 'Selected for Stage 2', '% Advancing'],
+        rows: [
+          ['Primary', '15,391', '1,529', '9.9%'],
+          ['Sub-Junior', '22,463', '2,310', '10.3%'],
+          ['Junior', '33,866', '3,460', '10.2%'],
+          ['Inter', '11,285', '1,129', '10.0%'],
+          ['Senior', '216', '216', '100%'],
+        ],
+      },
+      { kind: 'h2', text: 'What two years of real numbers actually show' },
+      {
+        kind: 'ul',
+        items: [
+          "The advancement rate is remarkably stable at almost exactly 10% across every level in both years — Primary, Sub-Junior, Junior, and Inter all land within a tight 9.9%-10.9% band, confirming NMTC's own stated 'top 10%' rule with real published figures.",
+          "Senior level (degree students) shows 100% advancement in both years — every registrant moved to Stage 2, most likely reflecting genuinely low registration numbers at that level rather than an easier bar.",
+          "Registration volume grew sharply year over year — Junior level alone went from 22,149 registrants in 2024 to 33,866 in 2025, a 53% jump — while the roughly-10% advancement rate held steady, which means the absolute competition for each Stage 2 seat intensified even though the percentage rule didn't change.",
+          "Because the rate is percentage-based, a growing aspirant pool doesn't loosen the bar — it raises the raw score likely needed to land in that same top 10%, purely from more competition at the same cutoff percentile.",
+        ],
+      },
+      { kind: 'h2', text: 'What this means for how to prepare' },
+      {
+        kind: 'p',
+        text: "Since the qualifying rate is a fixed roughly-10% slice regardless of the specific score, the right preparation target isn't a remembered percentage from an old paper — it's genuine, timed, level-matched practice that builds real relative strength against a growing, increasingly competitive pool. A student aiming for \"last year's cutoff percentage\" on this year's paper is aiming at a moving target, since the pool itself has grown.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's NMTC preparation tracks a student's standing against a realistic, current-size peer group rather than an old cutoff percentage, precisely because the registrant pool is growing fast enough each year that a stale benchmark understates how competitive the real top-10% bar has become.",
+      },
+      {
+        kind: 'p',
+        text: "If you want a genuine read on where your child stands against this year's likely pool size, the NMTC Coaching program runs level-matched mock papers with percentile feedback built around exactly this trend.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Where does this registered-vs-selected data actually come from?',
+        answer: "Directly from AMTI's own official NMTC results documents for the 56th (2024) and 57th (2025) editions, published on their results archive — these aren't estimates, they're the organizing body's own reported figures.",
+      },
+      {
+        question: 'Why does the Senior level show 100% advancement?',
+        answer: "The published data shows every Senior-level registrant advanced to Stage 2 in both 2024 and 2025, most likely because registration at that degree-level category is small enough that AMTI doesn't apply the same top-10% filter — AMTI hasn't publicly detailed the exact policy reasoning.",
+      },
+      {
+        question: 'Does a growing registrant pool mean NMTC is getting harder?',
+        answer: "Not in terms of syllabus difficulty, but the effective competition for a Stage 2 seat is increasing, since roughly the same 10% slice is now being drawn from a substantially larger pool of registrants year over year.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

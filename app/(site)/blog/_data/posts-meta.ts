@@ -2396,5 +2396,93 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "board-exams",
     datePublished: "2026-09-24",
     readingMinutes: 7
+  },
+  {
+    slug: "ioqm-2026-cutoff-how-its-actually-decided",
+    title: "IOQM 2026 Cutoff: How It's Actually Decided (Not a Fixed Number)",
+    description: "There's no pre-set IOQM 2026 cutoff to look up — it's determined after the exam based on how the paper and the aspirant pool actually performed. Here's the real mechanism.",
+    category: "olympiad",
+    datePublished: "2026-09-30",
+    readingMinutes: 7
+  },
+  {
+    slug: "ioqm-category-a-vs-category-b-cutoff-explained",
+    title: "Category A vs Category B: What the IOQM Cutoff Split Actually Means",
+    description: "IOQM doesn't use one cutoff for everyone — Classes 8-11 and Class 12 are judged separately, under different quotas. Here's why that split exists and what it means for your prep.",
+    category: "olympiad",
+    datePublished: "2026-10-02",
+    readingMinutes: 6
+  },
+  {
+    slug: "what-to-do-while-waiting-for-ioqm-2026-cutoff",
+    title: "What to Do While Waiting for the IOQM 2026 Cutoff to Be Announced",
+    description: "The gap between attempting IOQM and knowing your result is real, unproductive-feeling time if you let it be. Here's a concrete, non-anxious way to use it.",
+    category: "olympiad",
+    datePublished: "2026-10-05",
+    readingMinutes: 6
+  },
+  {
+    slug: "nmtc-2026-stage-1-to-stage-2-cutoff-mechanism",
+    title: "NMTC 2026 Stage 1 to Stage 2: How the Cutoff Actually Works",
+    description: "AMTI doesn't publish a fixed NMTC passing score — Stage 2 qualification is percentile-based within each level. Here's exactly how that works and why it varies by level.",
+    category: "olympiad",
+    datePublished: "2026-10-01",
+    readingMinutes: 6
+  },
+  {
+    slug: "why-nmtc-doesnt-publish-fixed-cutoff",
+    title: "Why NMTC Doesn't Publish a Fixed Cutoff Score — And What That Means for You",
+    description: "No fixed NMTC passing mark exists to look up, by design. Here's why AMTI runs a relative, percentile-based system instead, and how that should change your prep strategy.",
+    category: "olympiad",
+    datePublished: "2026-10-04",
+    readingMinutes: 6
+  },
+  {
+    slug: "nmtc-stage-2-what-changes-after-clearing-cutoff",
+    title: "NMTC Stage 2: What Changes Once You've Cleared the Cutoff",
+    description: "Clearing NMTC Stage 1 isn't the finish line — Stage 2 tests something genuinely different. Here's what actually changes in format and preparation once you're through.",
+    category: "olympiad",
+    datePublished: "2026-10-07",
+    readingMinutes: 6
+  },
+  {
+    slug: "amc-8-most-likely-question-types-2026",
+    title: "AMC 8 Most Likely Question Types 2026: What the Last Several Years Actually Show",
+    description: "No one can predict exact AMC 8 questions, but the topic distribution across recent papers is genuinely consistent. Here's what that pattern actually shows, and how to use it.",
+    category: "olympiad",
+    datePublished: "2026-10-03",
+    readingMinutes: 7
+  },
+  {
+    slug: "amc-10-most-likely-question-types-2026",
+    title: "AMC 10 Most Likely Question Types 2026: The Topics That Show Up Every Year",
+    description: "AMC 10's topic emphasis is more stable than most students expect. Here's what recent papers actually show, and how it should shape a 2026 preparation plan.",
+    category: "olympiad",
+    datePublished: "2026-10-06",
+    readingMinutes: 7
+  },
+  {
+    slug: "amc-8-vs-amc-10-how-most-likely-topics-differ",
+    title: "AMC 8 vs AMC 10: How the \"Most Likely\" Topics Actually Differ",
+    description: "AMC 8 and AMC 10 share a name and a format, but their actual topic emphasis is genuinely different. Here's exactly where the two diverge, and why it matters for prep.",
+    category: "olympiad",
+    datePublished: "2026-10-08",
+    readingMinutes: 6
+  },
+  {
+    slug: "ioqm-cutoff-2023-2025-actual-historical-numbers",
+    title: "IOQM Cutoff 2023-2025: The Actual Historical Numbers by Category and Region",
+    description: "The 2026 IOQM cutoff isn't out yet, but three years of published MTA(I) data show real, consistent patterns by category and region. Here are the actual numbers.",
+    category: "olympiad",
+    datePublished: "2026-10-09",
+    readingMinutes: 8
+  },
+  {
+    slug: "nmtc-stage-1-cutoff-2024-2025-real-selection-numbers",
+    title: "NMTC Stage 1 Cutoff 2024 & 2025: The Real Selection Numbers by Level",
+    description: "AMTI doesn't publish a percentage cutoff, but it does publish exact registered-vs-selected counts every year. Here's what two years of real NMTC data actually show.",
+    category: "olympiad",
+    datePublished: "2026-10-10",
+    readingMinutes: 8
   }
 ];
