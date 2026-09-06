@@ -9,6 +9,19 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   // Core
   { path: '', changeFrequency: 'weekly', priority: 1 },
   { path: '/best-coaching-institute-pune', changeFrequency: 'monthly', priority: 0.9 },
+
+  // "Best X Institute in Pune" local SEO pages
+  { path: '/best-ioqm-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-nmtc-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-amc-coaching-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-maths-olympiad-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-jee-coaching-institute-in-pune', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/best-neet-coaching-institute-in-pune', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/best-igcse-ib-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-foundation-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },
+  { path: '/best-physics-olympiad-institute-in-pune', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/best-science-olympiad-institute-in-pune', changeFrequency: 'monthly', priority: 0.7 },
+
   { path: '/about', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/admissions', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/achievements', changeFrequency: 'monthly', priority: 0.6 },
