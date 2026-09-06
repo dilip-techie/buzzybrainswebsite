@@ -114,7 +114,7 @@ export const faculty = [
     badge: 'IIT Bombay alumnus',
   },
   {
-    name: 'Pooja Singla',
+    name: 'Pooja Madam',
     role: 'One-to-One Online Mathematics Coaching, Grades 6–12',
     creds: 'B.Tech, IIT Delhi',
     badge: '5+ yrs experience',
