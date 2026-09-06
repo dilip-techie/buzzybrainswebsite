@@ -21,6 +21,15 @@ interface MegaMenuGroup {
   column: number;
 }
 
+const TEST_SERIES_MENU: MegaMenuItem[] = [
+  { href: '/test-series', label: 'All Boards — Test Series Home' },
+  { href: '/cbse-board-test-series', label: 'CBSE Board Test Series' },
+  { href: '/icse-board-test-series', label: 'ICSE Board Test Series' },
+  { href: '/maharashtra-board-test-series', label: 'Maharashtra Board Test Series' },
+  { href: '/igcse-cambridge-test-series', label: 'IGCSE Cambridge Board Test Series' },
+  { href: '/ib-test-series', label: 'IB Test Series' },
+];
+
 const ABOUT_US_MENU: MegaMenuItem[] = [
   { href: '/about', label: 'About BuzzyBrains' },
   { href: '/about#founder-story', label: 'About Our Founder' },
@@ -131,6 +140,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
 
 const NAV_LINKS = [
   { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
+  { href: '/test-series', label: 'Board Test Series', simpleItems: TEST_SERIES_MENU },
   { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
@@ -157,7 +167,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
-  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
+  const [openMobileSimpleMenu, setOpenMobileSimpleMenu] = useState<string | null>(null);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [stripPaused, setStripPaused] = useState(false);
   const pathname = usePathname();
@@ -357,13 +367,13 @@ export default function Navbar() {
                 <button
                   type="button"
                   className="mobile-menu-programs-trigger"
-                  aria-expanded={mobileAboutOpen}
-                  onClick={() => setMobileAboutOpen((prev) => !prev)}
+                  aria-expanded={openMobileSimpleMenu === link.href}
+                  onClick={() => setOpenMobileSimpleMenu((prev) => (prev === link.href ? null : link.href))}
                 >
                   {link.label}
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                 </button>
-                <div className={`mobile-menu-programs-panel${mobileAboutOpen ? ' open' : ''}`}>
+                <div className={`mobile-menu-programs-panel${openMobileSimpleMenu === link.href ? ' open' : ''}`}>
                   <div className="mobile-menu-group">
                     {link.simpleItems.map((item) => (
                       <Link prefetch={false} key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>

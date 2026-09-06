@@ -1,4 +1,17 @@
-const FEATURES = [
+export interface WhyFeature {
+  tag: string;
+  title: string;
+  body: string;
+}
+
+export interface WhySectionProps {
+  eyebrow?: string;
+  title?: string;
+  subtitle?: React.ReactNode;
+  features?: WhyFeature[];
+}
+
+export const DEFAULT_FEATURES: WhyFeature[] = [
   {
     tag: "Paper setting",
     title: "Set to the actual board blueprint",
@@ -31,25 +44,32 @@ const FEATURES = [
   },
 ];
 
-export default function WhySection() {
+export default function WhySection({
+  eyebrow = "WHY A TEST SERIES, NOT MORE NOTES",
+  title = "Board exams are won on exam-hall discipline, not just syllabus knowledge.",
+  subtitle = (
+    <>
+      Students who&rsquo;ve covered the syllabus still lose 15&ndash;20 marks to pacing,
+      presentation and unfamiliar question framing. The series is built to close that gap.
+    </>
+  ),
+  features = DEFAULT_FEATURES,
+}: WhySectionProps) {
   return (
     <section className="border-y border-[#0E2148]/10 bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-2xl">
-          <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">
-            WHY A TEST SERIES, NOT MORE NOTES
-          </p>
+          <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">{eyebrow}</p>
           <h2 className="reveal mt-4 font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
-            Board exams are won on exam-hall discipline, not just syllabus knowledge.
+            {title}
           </h2>
           <p className="reveal mt-4 text-[16px] leading-relaxed text-[#0E2148]/70" data-delay="2">
-            Students who&rsquo;ve covered the syllabus still lose 15&ndash;20 marks to pacing,
-            presentation and unfamiliar question framing. The series is built to close that gap.
+            {subtitle}
           </p>
         </div>
 
         <div className="reveal mt-14 grid gap-px overflow-hidden rounded-sm border border-[#0E2148]/10 bg-[#0E2148]/10 sm:grid-cols-2 lg:grid-cols-3" data-delay="3">
-          {FEATURES.map((f) => (
+          {features.map((f) => (
             <div key={f.title} className="group bg-[#FAF7EF] p-8 transition-colors hover:bg-white">
               <span className="font-ledger text-[12px] tracking-[0.2em] text-[#5E7FB5]">
                 {f.tag.toUpperCase()}
