@@ -28126,6 +28126,192 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'nsejs-2026-enrollment-closes-september-14',
+    title: 'NSEJS 2026: Why Enrollment Closes This Week and Why That Matters',
+    description:
+      "NSEJS 2026 is on 22 November, but student enrollment itself closes 14 September. Here's what the exam actually tests and why the enrollment window matters more than the exam date.",
+    category: 'olympiad',
+    datePublished: '2026-09-08',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-olympiads',
+    relatedProgramLabel: 'Science Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-sof-olympiads-worth-it', label: 'Is NMTC Worth It Alongside SOF Olympiads?' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10: Choosing the Right Track' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "With IOQM done and NMTC's Stage 1 already behind most students, the natural question is what comes next in the olympiad calendar. For Grade 9 and 10 students specifically, the answer arriving fastest isn't a maths olympiad at all — it's NSEJS, and its enrollment window closes considerably sooner than most families realize.",
+      },
+      { kind: 'h2', text: 'What NSEJS actually is, and why the timeline matters' },
+      {
+        kind: 'p',
+        text: "The National Standard Examination in Junior Science (NSEJS), run by IAPT, is scheduled for 22 November 2026. Student enrollment, however, opened 21 August and closes 14 September 2026 — meaning the window to register is measured in days now, not months, even though the exam itself is over two months away. Missing the enrollment date means missing the exam entirely, regardless of how much time is left before 22 November.",
+      },
+      { kind: 'h2', text: 'Why NSEJS is worth the enrollment rush' },
+      {
+        kind: 'ul',
+        items: [
+          "It's a genuine national-level science exam, not a school-level enrichment olympiad, covering Physics, Chemistry, and Biology at a depth comparable to board-level science plus applied reasoning beyond it.",
+          "It's the entry point to the NSE senior-science pipeline — NSEP, NSEC, NSEB, and NSEA — that Grade 11-12 students use as India's route toward the International Physics, Chemistry, Biology, and Astronomy Olympiads.",
+          "Starting the NSE pipeline habit in Grade 9-10 via NSEJS means the format, timing, and question style are already familiar by the time NSEP-level exams matter for a genuine IPhO/IChO/IBO shot in Grade 11-12.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: treating this as "just another olympiad" and deferring the decision' },
+      {
+        kind: 'p',
+        text: "Families weighing whether to add one more exam to an already busy olympiad season often delay the decision until they've compared it against everything else — IOQM results, NMTC Stage 2, SOF Olympiad dates. NSEJS doesn't allow that comparison-shopping approach, because its enrollment closes well before any of those other results or decisions land. The practical choice is to enroll now and decide on the depth of preparation once the exam is actually locked in.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's Science Olympiad coaching covers NSEJS alongside SOF's science tracks, with the same diagnostic-first approach — a baseline assessment across Physics, Chemistry, and Biology, then targeted preparation for the specific gaps it reveals, running through to the 22 November exam date.",
+      },
+      {
+        kind: 'p',
+        text: "If your child is in Grade 9 or 10 and NSEJS isn't on your radar yet, the enrollment window closes 14 September — the Science Olympiad Coaching program can help you decide quickly whether it fits, but the enrollment step itself can't wait for that conversation to happen at leisure.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student enroll for NSEJS after 14 September if they missed the deadline?',
+        answer: "Enrollment is managed through IAPT's official window and registered examination centres — once the enrollment period closes, options are limited, so it's worth confirming directly with IAPT (iapt.org.in) or your school's exam centre if you're right at the deadline.",
+      },
+      {
+        question: 'Is NSEJS only useful for students planning to pursue NSEP later?',
+        answer: "No — it's a strong standalone science credential and a genuine test of applied science reasoning even for students who don't continue into the NSE pipeline, though it's especially valuable for those who do.",
+      },
+    ],
+  },
+  {
+    slug: 'sof-imo-nso-2026-27-which-level-1-date-to-choose',
+    title: 'SOF IMO & NSO 2026-27: Which Level 1 Date Should Your School Choose?',
+    description:
+      "SOF's IMO and NSO Level 1 run on three separate dates this cycle. Here's what actually differs between them, and how to think about which one to pick.",
+    category: 'olympiad',
+    datePublished: '2026-09-15',
+    readingMinutes: 6,
+    relatedProgramHref: '/sof-imo-coaching-pune',
+    relatedProgramLabel: 'SOF IMO Coaching',
+    relatedGuides: [
+      { href: '/blog/nmtc-sof-olympiads-worth-it', label: 'Is NMTC Worth It Alongside SOF Olympiads?' },
+      { href: '/blog/nsejs-2026-enrollment-closes-september-14', label: 'NSEJS 2026: Why Enrollment Closes This Week' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "Once IOQM and NMTC are behind a student, the Science Olympiad Foundation's exams are usually next on the calendar — and unlike NSEJS, SOF gives schools an actual choice of date. IMO and NSO Level 1 for 2026-27 each run on three separate dates, and the choice a school makes affects more than just when the exam happens.",
+      },
+      { kind: 'h2', text: 'The actual dates on offer' },
+      {
+        kind: 'p',
+        text: "SOF IMO 2026-27 Level 1 runs on 23 October, 26 November, or 10 December 2026. NSO 2026-27 Level 1 runs on 30 October, 19 November, or 3 December 2026. A school selects one date per Olympiad, and every student registered through that school sits the exam on the chosen date — students don't choose individually.",
+      },
+      { kind: 'h2', text: 'What actually differs between an earlier and a later date' },
+      {
+        kind: 'ul',
+        items: [
+          "An earlier date (late October) means less total preparation runway, but also means results and Level 2 qualification land sooner, leaving more time to prepare specifically for Level 2 if a student qualifies.",
+          "A later date (early December) gives more weeks of preparation and more syllabus coverage before the exam, but compresses the gap between results and Level 2 preparation, which is often the more content-demanding stage.",
+          "Since registration must be submitted up to 30 days before the chosen date, the earliest option (23 October for IMO) already has a registration deadline landing in late September — worth checking with your school now rather than assuming there's ample time.",
+        ],
+      },
+      { kind: 'h2', text: 'A common mistake: assuming the date doesn\'t matter since it\'s the same syllabus' },
+      {
+        kind: 'p',
+        text: "The syllabus for a given level is the same regardless of which date a school picks, which leads some families to treat the date as a scheduling footnote. In practice, the date determines how much runway a student actually gets to prepare, and — more importantly — how much time is left between the Level 1 result and Level 2 if the school's chosen date is on the later side of the window.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's SOF IMO coaching builds the preparation calendar around whichever date a student's school has actually selected, rather than a generic one-size-fits-all timeline — since a student sitting the 23 October date needs a materially different weekly pace than one sitting 10 December.",
+      },
+      {
+        kind: 'p',
+        text: "If you don't yet know which Level 1 date your child's school has chosen, that's the first thing worth confirming — the SOF IMO Coaching program can then build a schedule around the actual date rather than a guess.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can a student choose a different Level 1 date than what their school selects?',
+        answer: "No — SOF registers students through their school, and every student registered via a given school sits the exam on that school's chosen date for that Olympiad.",
+      },
+      {
+        question: 'Does sitting an earlier date put a student at a disadvantage against those sitting later?',
+        answer: "Not inherently — the exam and syllabus are the same regardless of date, though a student on an earlier date has less overall preparation time and should plan accordingly rather than assuming a full season's worth of runway.",
+      },
+    ],
+  },
+  {
+    slug: 'which-olympiad-next-after-ioqm-nmtc',
+    title: 'After IOQM and NMTC: Which Olympiad Should Your Child Attempt Next?',
+    description:
+      "With IOQM and NMTC Stage 1 done, several other genuine olympiads are opening up through October and November. Here's how to decide which one actually fits.",
+    category: 'olympiad',
+    datePublished: '2026-09-12',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Programs',
+    relatedGuides: [
+      { href: '/blog/nsejs-2026-enrollment-closes-september-14', label: 'NSEJS 2026: Why Enrollment Closes This Week' },
+      { href: '/blog/sof-imo-nso-2026-27-which-level-1-date-to-choose', label: 'SOF IMO & NSO 2026-27: Which Level 1 Date to Choose' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "Every year around this time, once IOQM and NMTC Stage 1 are done, the same question comes up from parents: is that it for this season, or is there more worth attempting? There genuinely is more — but not everything on the calendar fits every student, and picking based on \"what's available\" rather than \"what actually fits\" wastes preparation time on the wrong exam.",
+      },
+      { kind: 'h2', text: 'What\'s actually still open right now' },
+      {
+        kind: 'ul',
+        items: [
+          "NSEJS (Grade 9-10, science): exam 22 November, but enrollment closes 14 September — the most time-urgent option on this list.",
+          "SOF IMO and NSO (Grades 1-12, maths and science): Level 1 runs on one of three school-selected dates between late October and mid-December, with registration due up to 30 days before that date.",
+          "Math Kangaroo and other SOF tracks (English, GK, Cyber): generally later in the academic year, worth noting now but not urgent this month.",
+        ],
+      },
+      { kind: 'h2', text: 'How to actually decide, rather than attempting everything' },
+      {
+        kind: 'p',
+        text: "The right filter isn't \"which exams are open\" — it's which exam matches the specific skill a student is already building. A student deep in IOQM-style number theory and combinatorics gets more value from SOF IMO, which rewards similar applied-logic thinking, than from NSEJS, which is a different subject area entirely. A student who found NMTC's written proof format engaging is better served staying in that maths-reasoning lane than switching to a science exam purely because it's available.",
+      },
+      { kind: 'h2', text: 'A common mistake: chasing certificate count instead of skill depth' },
+      {
+        kind: 'p',
+        text: "Attempting every available olympiad in a season can look impressive on paper, but it usually means shallow, last-minute preparation for each one rather than genuine depth in any single track. A student who commits to one or two olympiads that align with their actual strengths — and prepares for them properly, with real diagnostic testing and correction cycles — typically outperforms a student who spreads thin attention across four or five.",
+      },
+      { kind: 'h2', text: 'A simple way to choose' },
+      {
+        kind: 'ul',
+        items: [
+          "If your child is in Grade 9-10 and enjoys applied science reasoning, NSEJS is the most time-sensitive option — decide this week, since enrollment closes 14 September.",
+          "If your child is already deep in maths-olympiad mode from IOQM or NMTC, SOF IMO extends that momentum in a lower-stakes, broader-syllabus format.",
+          "If your child is younger (Grades 1-8) and hasn't attempted a national-level olympiad yet, SOF's IMO or NSO are the most accessible starting points on the current calendar.",
+        ],
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy runs a short diagnostic conversation with families at exactly this point in the season — reviewing what a student has already shown strength in through IOQM or NMTC, and recommending one or two olympiads worth the remaining season's attention, rather than defaulting to all of them.",
+      },
+      {
+        kind: 'p',
+        text: "If you're unsure what's worth attempting next, the Olympiad Programs page covers the full current-season lineup — a quick conversation is usually enough to narrow it down to the one or two that actually fit.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is it better to attempt one olympiad deeply or several olympiads at a lighter level?',
+        answer: "For most students, one or two olympiads prepared for properly — with real diagnostic testing and correction — build more genuine skill and a stronger result than several attempted with shallow, last-minute preparation.",
+      },
+      {
+        question: 'What if my child wants to try NSEJS but the enrollment deadline has already passed by the time we decide?',
+        answer: "If the 14 September enrollment window closes before you can act, SOF's IMO and NSO remain open with later registration deadlines tied to their October-December exam dates — worth checking those next.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

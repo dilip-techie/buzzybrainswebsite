@@ -2484,5 +2484,29 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-10-10",
     readingMinutes: 8
+  },
+  {
+    slug: "nsejs-2026-enrollment-closes-september-14",
+    title: "NSEJS 2026: Why Enrollment Closes This Week and Why That Matters",
+    description: "NSEJS 2026 is on 22 November, but student enrollment itself closes 14 September. Here's what the exam actually tests and why the enrollment window matters more than the exam date.",
+    category: "olympiad",
+    datePublished: "2026-09-08",
+    readingMinutes: 6
+  },
+  {
+    slug: "sof-imo-nso-2026-27-which-level-1-date-to-choose",
+    title: "SOF IMO & NSO 2026-27: Which Level 1 Date Should Your School Choose?",
+    description: "SOF's IMO and NSO Level 1 run on three separate dates this cycle. Here's what actually differs between them, and how to think about which one to pick.",
+    category: "olympiad",
+    datePublished: "2026-09-15",
+    readingMinutes: 6
+  },
+  {
+    slug: "which-olympiad-next-after-ioqm-nmtc",
+    title: "After IOQM and NMTC: Which Olympiad Should Your Child Attempt Next?",
+    description: "With IOQM and NMTC Stage 1 done, several other genuine olympiads are opening up through October and November. Here's how to decide which one actually fits.",
+    category: "olympiad",
+    datePublished: "2026-09-12",
+    readingMinutes: 7
   }
 ];
