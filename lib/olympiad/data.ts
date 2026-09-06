@@ -113,6 +113,12 @@ export const faculty = [
     creds: 'PhD, IIT Bombay',
     badge: 'IIT Bombay alumnus',
   },
+  {
+    name: 'Pooja Singla',
+    role: 'One-to-One Online Mathematics Coaching, Grades 6–12',
+    creds: 'B.Tech, IIT Delhi',
+    badge: '5+ yrs experience',
+  },
 ];
 
 // Real, previously-published parent reviews of BuzzyBrains Academy.
