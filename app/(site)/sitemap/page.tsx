@@ -26,6 +26,21 @@ const SECTIONS: SiteSection[] = [
     ],
   },
   {
+    title: 'Best Institute in Pune — By Exam',
+    links: [
+      { href: '/best-ioqm-institute-in-pune', label: 'Best IOQM Institute in Pune' },
+      { href: '/best-nmtc-institute-in-pune', label: 'Best NMTC Institute in Pune' },
+      { href: '/best-amc-coaching-institute-in-pune', label: 'Best AMC 8/10 Coaching Institute in Pune' },
+      { href: '/best-maths-olympiad-institute-in-pune', label: 'Best Maths Olympiad Institute in Pune' },
+      { href: '/best-jee-coaching-institute-in-pune', label: 'Best IIT-JEE Coaching Institute in Pune' },
+      { href: '/best-neet-coaching-institute-in-pune', label: 'Best NEET Coaching Institute in Pune' },
+      { href: '/best-igcse-ib-institute-in-pune', label: 'Best IGCSE & IB Coaching Institute in Pune' },
+      { href: '/best-foundation-institute-in-pune', label: 'Best Foundation Coaching Institute in Pune' },
+      { href: '/best-physics-olympiad-institute-in-pune', label: 'Best Physics Olympiad Institute in Pune' },
+      { href: '/best-science-olympiad-institute-in-pune', label: 'Best Science Olympiad Coaching Institute in Pune' },
+    ],
+  },
+  {
     title: 'Indian Boards & Competitive Exams',
     links: [
       { href: '/foundation', label: 'Foundation Program (Grades 6–10)' },
