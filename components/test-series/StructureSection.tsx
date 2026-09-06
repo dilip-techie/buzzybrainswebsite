@@ -1,4 +1,17 @@
-const PAPERS = [
+export interface StructureStage {
+  code: string;
+  name: string;
+  window: string;
+  detail: string;
+}
+
+export interface StructureSectionProps {
+  eyebrow?: string;
+  title?: string;
+  stages?: StructureStage[];
+}
+
+export const DEFAULT_PAPERS: StructureStage[] = [
   {
     code: "P01–P02",
     name: "Diagnostic Papers",
@@ -25,19 +38,23 @@ const PAPERS = [
   },
 ];
 
-export default function StructureSection() {
+export default function StructureSection({
+  eyebrow = "THE SCHEDULE",
+  title = "A 12-week paper cycle, timed to peak right before boards.",
+  stages = DEFAULT_PAPERS,
+}: StructureSectionProps) {
   return (
     <section id="ts-structure" className="bg-[#FAF7EF] py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">THE SCHEDULE</p>
+        <p className="reveal font-ledger text-[12px] tracking-[0.25em] text-[#B23A2E]">{eyebrow}</p>
         <h2 className="reveal mt-4 max-w-2xl font-display text-[34px] font-bold leading-tight sm:text-[40px]" data-delay="1">
-          A 12-week paper cycle, timed to peak right before boards.
+          {title}
         </h2>
 
         <div className="reveal relative mt-16" data-delay="2">
           <div className="absolute left-[27px] top-2 bottom-2 hidden w-px bg-[#0E2148]/15 sm:block" />
           <ol className="space-y-10">
-            {PAPERS.map((p) => (
+            {stages.map((p) => (
               <li key={p.code} className="relative grid gap-4 sm:grid-cols-[56px_1fr] sm:gap-8">
                 <div className="hidden sm:flex sm:h-14 sm:w-14 sm:items-center sm:justify-center sm:rounded-full sm:border-2 sm:border-[#0E2148] sm:bg-[#FAF7EF] sm:font-ledger sm:text-[12px] sm:font-bold sm:text-[#0E2148]">
                   {p.code.split("–")[0]}
