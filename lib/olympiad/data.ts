@@ -109,7 +109,7 @@ export const faculty = [
   },
   {
     name: 'Agarwal Sir',
-    role: 'JEE Mathematics & Physics Mentor',
+    role: 'JEE Chemistry & Physics Mentor',
     creds: 'PhD, IIT Bombay',
     badge: 'IIT Bombay alumnus',
   },

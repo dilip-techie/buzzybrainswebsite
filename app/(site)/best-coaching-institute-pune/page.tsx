@@ -185,8 +185,8 @@ export default function BestCoachingInstitutePunePage() {
               specialists across Physics, Chemistry, Biology and Mathematics:
             </p>
             <ul>
-              <li><strong>Dilip Sir</strong> — Mathematics; B.Tech, IIT Kanpur, MBA, IIM Ahmedabad, AIR 400. A meticulous, concept-first mentor with 25+ years of experience.</li>
-              <li><strong>Agarwal Sir</strong> — Mathematics & Physics; PhD, IIT Bombay. A sharp, research-trained problem-solver known for exam-focused clarity.</li>
+              <li><strong>Dilip Sir</strong> — Mathematics & Physics; B.Tech, IIT Kanpur, MBA, IIM Ahmedabad, AIR 400. A meticulous, concept-first mentor with 25+ years of experience.</li>
+              <li><strong>Agarwal Sir</strong> — Chemistry & Physics; PhD, IIT Bombay. A sharp, research-trained problem-solver known for exam-focused clarity.</li>
               <li><strong>Dr. Mrinmayee</strong> — Chemistry; PhD, IIT Kharagpur. A precise, research-driven educator specializing in JEE and NEET Chemistry.</li>
               <li><strong>Dr. Todkar</strong> — Biology; General Physician, NEET Biology expert. A seasoned, empathetic physician-educator.</li>
               <li><strong>Dr. Urmila</strong> — Chemistry & Science; PhD, IISER Pune. A patient, top-rated mentor known for rock-solid fundamentals.</li>
