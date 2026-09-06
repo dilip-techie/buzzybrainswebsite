@@ -93,7 +93,7 @@ export const roadmap = [
   },
 ];
 
-// Real BuzzyBrains Academy Mathematics faculty — all three are IIT alumni.
+// Real BuzzyBrains Academy Mathematics faculty.
 export const faculty = [
   {
     name: 'Dilip Sir',
@@ -118,6 +118,12 @@ export const faculty = [
     role: 'One-to-One Online Mathematics Coaching, Grades 6–12',
     creds: 'B.Tech, IIT Delhi',
     badge: '5+ yrs experience',
+  },
+  {
+    name: 'Arun Sir',
+    role: 'Mathematics Mentor — Grades 6–12, Engineering Maths & Olympiad',
+    creds: 'M.Sc. Mathematics • All Boards • Engineering Mathematics',
+    badge: '12+ yrs experience',
   },
 ];
 

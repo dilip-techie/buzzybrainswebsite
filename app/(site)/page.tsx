@@ -264,6 +264,7 @@ const FACULTY = [
   { name: 'Dipak JK Sir', subject: 'Mathematics', qualification: 'M.Tech, IIT Bombay', expertise: 'A sharp, competition-focused coach who trains promising young mathletes for IOQM, AMC-8, AMC-10 and AMC-12 with precision and passion.', initials: 'DJ', gradient: 'linear-gradient(135deg,#7C3AED,#6D28D9)' },
   { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'An engaging, detail-oriented Biology educator known for building deep conceptual clarity and genuine curiosity in every student.', initials: 'PM', gradient: 'var(--grad-red)' },
   { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'An enthusiastic, encouraging Science mentor who makes learning hands-on, curious and confidence-building for young minds.', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
+  { name: 'Arun Sir', subject: 'Mathematics', qualification: 'M.Sc. Mathematics • 12+ Years Teaching Experience', expertise: 'A versatile Mathematics educator who has taught Grade 6 to 12 and Engineering Mathematics across all boards, bringing the same rigor to school curricula and Maths Olympiad coaching alike.', initials: 'AR', gradient: 'var(--grad-amber)' },
 ];
 
 const STATS = [
