@@ -122,7 +122,7 @@ export const faculty = [
   {
     name: 'Arun Sir',
     role: 'Mathematics Mentor — Grades 6–12, Engineering Maths & Olympiad',
-    creds: 'All Boards • Engineering Mathematics',
+    creds: 'M.Sc. Mathematics • All Boards • Engineering Mathematics',
     badge: '12+ yrs experience',
   },
 ];
