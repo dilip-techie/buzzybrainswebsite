@@ -23,9 +23,9 @@ const DEFAULT_POINTS: TrustPoint[] = [
     body: "Designed and taught by Dilip Sir (B.Tech, IIT Kanpur, MBA, IIM Ahmedabad) with hands-on, year-round experience across Cambridge IGCSE, A-Level, IB HL/SL and AP.",
   },
   {
-    tag: "Small batches",
-    title: "12 students per batch, not a marking queue",
-    body: "Every batch is capped at 12 students, so Internal Assessment drafts, Extended Essay outlines and mock scripts get real individual feedback, not a generic rubric tick.",
+    tag: "Individual feedback",
+    title: "Every script reviewed one-on-one, not run through a queue",
+    body: "Internal Assessment drafts, Extended Essay outlines and mock scripts are marked and reviewed individually by faculty — not a generic rubric tick or an automated check.",
   },
 ];
 

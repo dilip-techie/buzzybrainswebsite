@@ -128,8 +128,8 @@ export const IGCSE_TEST_SERIES_FAQS = [
     a: "Both. Let us know your board (Cambridge/Edexcel) and exact subject codes when you enroll so your papers are set to the right syllabus version.",
   },
   {
-    q: "How big are the batches, and is coaching available online?",
-    a: "Every batch is capped at 12 students for individual feedback. The series is fully available online, which suits most IGCSE families since Cambridge schools in India are spread across cities.",
+    q: "Is coaching available online, and how fast is evaluation turnaround?",
+    a: "The series is fully available online, which suits most IGCSE families since Cambridge schools in India are spread across cities. Every script is marked individually and returned within 72 hours, regardless of how many students enroll.",
   },
 ];
 
@@ -155,7 +155,7 @@ export const IB_TEST_SERIES_FAQS = [
     a: "Mathematics AA/AI, Physics, Chemistry, Biology, Economics and English are our core groups — message us on WhatsApp if your specific Group 1-6 subject isn't listed and we'll confirm faculty availability.",
   },
   {
-    q: "How big are the batches, and is coaching available online?",
-    a: "Every batch is capped at 12 students so IA drafts and mock scripts get real individual feedback. The series is fully available online.",
+    q: "Is coaching available online, and how fast is evaluation turnaround?",
+    a: "The series is fully available online. Every IA draft and mock script is marked individually and returned within 72 hours, regardless of how many students enroll.",
   },
 ];
