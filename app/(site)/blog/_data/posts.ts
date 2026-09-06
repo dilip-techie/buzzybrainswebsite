@@ -24955,7 +24955,7 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedProgramHref: '/12th-board-pcb',
     relatedProgramLabel: 'NEET Program',
     relatedGuides: [
-      { href: '/blog/neet-round-2-counselling-choice-locking', label: 'NEET Round 2 Counselling Opens Sept 3 — Choice Locking Closes in Just 6 Days' },
+      { href: '/blog/neet-round-2-counselling-choice-locking-2026', label: 'NEET Round 2 Counselling Opens Sept 3 — Choice Locking Closes in Just 6 Days' },
       { href: '/blog/neet-round-1-resignation-window', label: 'Floated Your Round 1 NEET Seat? Here\'s the Resignation Window You\'re About to Miss' },
     ],
     body: [
