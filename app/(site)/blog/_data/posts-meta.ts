@@ -2196,5 +2196,205 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-09-01",
     readingMinutes: 8
+  },
+  {
+    slug: "when-should-you-start-cbse-test-series",
+    title: "When Should You Start a CBSE Board Test Series? (The Answer Is Now)",
+    description: "There's a real window for CBSE test-series prep to work, and it isn't January. Here's why starting now, in September, changes what a mock series can actually fix.",
+    category: "board-exams",
+    datePublished: "2026-09-04",
+    readingMinutes: 7
+  },
+  {
+    slug: "why-every-cbse-student-needs-test-series-2027-boards",
+    title: "Why Every CBSE Class 10 & 12 Student Needs a Test Series Before the 2027 Boards",
+    description: "Good school marks don't always translate to board marks. Here's the specific gap a CBSE test series closes that regular school testing structurally can't.",
+    category: "board-exams",
+    datePublished: "2026-09-07",
+    readingMinutes: 7
+  },
+  {
+    slug: "cbse-competency-based-questions-how-to-practice",
+    title: "How CBSE's Competency-Based Questions Are Changing the Board Exam — And How to Practice for Them",
+    description: "CBSE has steadily shifted toward competency-based, application questions. Here's what that actually means for how you should be practicing, not just what you should be studying.",
+    category: "board-exams",
+    datePublished: "2026-09-10",
+    readingMinutes: 8
+  },
+  {
+    slug: "cbse-board-exam-anxiety-mock-tests-confidence",
+    title: "CBSE Board Exam Anxiety: How Structured Mock Tests Build Real Exam-Day Confidence",
+    description: "Exam anxiety isn't fixed by reassurance — it's fixed by familiarity. Here's the actual mechanism by which a structured CBSE mock series reduces board exam anxiety.",
+    category: "board-exams",
+    datePublished: "2026-09-13",
+    readingMinutes: 7
+  },
+  {
+    slug: "cbse-pcm-pcb-commerce-test-series-pack-guide",
+    title: "CBSE PCM vs PCB vs Commerce: Picking the Right Test Series Pack for Class 12",
+    description: "Choosing between PCM, PCB, and Commerce test series packs isn't just about your stream — it's about where your specific subjects need the most exam-condition practice.",
+    category: "board-exams",
+    datePublished: "2026-09-16",
+    readingMinutes: 7
+  },
+  {
+    slug: "when-to-start-icse-isc-test-series",
+    title: "When to Start Your ICSE/ISC Test Series for the 2027 Boards",
+    description: "ICSE examines Physics, Chemistry and Biology as three separate papers. That structure changes when a test series needs to start — here's the realistic timeline.",
+    category: "board-exams",
+    datePublished: "2026-09-05",
+    readingMinutes: 7
+  },
+  {
+    slug: "icse-physics-chemistry-biology-separate-test-series",
+    title: "Why ICSE Students Need a Test Series That Treats Physics, Chemistry & Biology Separately",
+    description: "Bundling ICSE's three science papers into one generic 'Science' test series misses how differently each subject is actually examined. Here's why separate matters.",
+    category: "board-exams",
+    datePublished: "2026-09-08",
+    readingMinutes: 7
+  },
+  {
+    slug: "why-icse-students-score-lower-than-expected",
+    title: "Why ICSE Students Score Lower Than Expected — And How Mock Papers Fix It",
+    description: "A student who knows the syllabus cold can still underperform on ICSE boards. Here's the specific, fixable reason, and how structured mock papers catch it in time.",
+    category: "board-exams",
+    datePublished: "2026-09-11",
+    readingMinutes: 6
+  },
+  {
+    slug: "icse-vs-cbse-different-test-series-approach",
+    title: "ICSE vs CBSE: Why the Same Test Series Approach Doesn't Work for Both Boards",
+    description: "Families choosing between ICSE and CBSE — or moving between them — often assume board exam prep looks the same either way. Here's exactly where it doesn't.",
+    category: "board-exams",
+    datePublished: "2026-09-14",
+    readingMinutes: 7
+  },
+  {
+    slug: "isc-class-12-pcm-pcb-start-september",
+    title: "ISC Class 12: Why PCM/PCB Test Series Prep Should Start This September",
+    description: "ISC Class 12 science papers carry the same structural complexity as ICSE Class 10, at higher stakes. Here's why September is the realistic starting point.",
+    category: "board-exams",
+    datePublished: "2026-09-17",
+    readingMinutes: 6
+  },
+  {
+    slug: "when-should-maharashtra-ssc-hsc-start-mock-tests",
+    title: "When Should Maharashtra Board SSC/HSC Students Start Mock Test Practice? (Now)",
+    description: "SSC splits Maths and Science into separate papers, which changes the realistic prep timeline. Here's why September, not December, is when mock testing should begin.",
+    category: "board-exams",
+    datePublished: "2026-09-06",
+    readingMinutes: 7
+  },
+  {
+    slug: "maharashtra-board-underperform-despite-good-school-marks",
+    title: "Why Maharashtra Board Students Underperform in Board Exams Despite Good School Marks",
+    description: "Strong school marks and strong SSC/HSC board marks aren't the same signal. Here's the specific, fixable reason Maharashtra Board students sometimes underperform on the day.",
+    category: "board-exams",
+    datePublished: "2026-09-09",
+    readingMinutes: 7
+  },
+  {
+    slug: "msbshse-new-question-paper-pattern-how-to-prepare",
+    title: "MSBSHSE's Question Paper Pattern: What It Actually Tests and How to Prepare",
+    description: "The Maharashtra State Board's question-type distribution is specific and consistent — here's what it actually rewards, and how mock practice should be built around it.",
+    category: "board-exams",
+    datePublished: "2026-09-12",
+    readingMinutes: 7
+  },
+  {
+    slug: "hsc-pcm-pcb-commerce-maharashtra-test-series-pack",
+    title: "HSC PCM, PCB & Commerce: Choosing the Right Maharashtra Board Test Series Pack",
+    description: "HSC Class 12 streams carry the same board weightage across all three subjects. Here's how to pick a test series pack that reflects the actual stream, not just the strongest subject.",
+    category: "board-exams",
+    datePublished: "2026-09-15",
+    readingMinutes: 6
+  },
+  {
+    slug: "maharashtra-ssc-hsc-test-series-timeline-september",
+    title: "The SSC/HSC Test Series Timeline: Why September Is Not Too Early",
+    description: "Working backward from board exam dates, here's a realistic week-by-week test series timeline for Maharashtra SSC and HSC students starting this September.",
+    category: "board-exams",
+    datePublished: "2026-09-18",
+    readingMinutes: 6
+  },
+  {
+    slug: "when-should-you-start-igcse-mock-exam-prep",
+    title: "When Should You Start IGCSE Mock Exam Prep? (Right Now, for This Session)",
+    description: "Cambridge IGCSE's multi-component papers need more preparation cycles than a single-paper exam. Here's why starting mock practice this term matters more than it seems.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 7
+  },
+  {
+    slug: "igcse-grade-boundaries-explained-mock-series",
+    title: "IGCSE Grade Boundaries Explained: How a Mock Series Predicts Your Actual Grade",
+    description: "IGCSE grade boundaries shift every session, which makes raw marks hard to interpret on their own. Here's how a mock series translates a raw score into a realistic grade prediction.",
+    category: "board-exams",
+    datePublished: "2026-09-22",
+    readingMinutes: 7
+  },
+  {
+    slug: "igcse-core-vs-extended-test-series",
+    title: "IGCSE Core vs Extended: How a Test Series Helps You Choose the Right Tier",
+    description: "Choosing Core or Extended tier affects a student's maximum possible grade. Here's how mock exam performance under real conditions makes that decision less of a guess.",
+    category: "board-exams",
+    datePublished: "2026-09-25",
+    readingMinutes: 6
+  },
+  {
+    slug: "igcse-combined-science-vs-separate-sciences-test-series",
+    title: "Combined Science vs Separate Sciences: Which IGCSE Test Series Pack Fits Your School?",
+    description: "Whether your school teaches IGCSE Combined Science or separate Physics, Chemistry and Biology changes what your test series prep should actually look like.",
+    category: "board-exams",
+    datePublished: "2026-09-28",
+    readingMinutes: 6
+  },
+  {
+    slug: "pune-international-school-parents-igcse-mock-exams",
+    title: "Why Pune's International School Parents Are Turning to IGCSE Mock Exam Series Now",
+    description: "More Pune families with children in Cambridge IGCSE schools are seeking structured mock exam practice outside school. Here's what's actually driving that shift.",
+    category: "board-exams",
+    datePublished: "2026-09-21",
+    readingMinutes: 6
+  },
+  {
+    slug: "when-should-dp2-start-ib-mock-exam-series",
+    title: "When Should DP2 Students Start Their IB Mock Exam Series? (Earlier Than You Think — Now)",
+    description: "Between IA deadlines, EE submission, and content depth, DP2 has less spare runway than it looks. Here's why mock exam prep needs to start at the beginning of the year, not before May.",
+    category: "board-exams",
+    datePublished: "2026-09-20",
+    readingMinutes: 7
+  },
+  {
+    slug: "ib-predicted-grades-depend-on-mock-exam-performance",
+    title: "Why IB Predicted Grades Depend Heavily on Mock Exam Performance",
+    description: "University offers are often conditional on IB predicted grades, and those predictions lean heavily on mock exam results. Here's how that mechanism actually works.",
+    category: "board-exams",
+    datePublished: "2026-09-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "ib-ia-ee-review-why-waiting-until-deadline-week-is-a-mistake",
+    title: "IB Internal Assessment & Extended Essay Review: Why Waiting Until Deadline Week Is a Mistake",
+    description: "IA and EE feedback only helps if there's time left to act on it. Here's why getting a draft reviewed early changes the outcome more than a last-minute polish ever can.",
+    category: "board-exams",
+    datePublished: "2026-09-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "ib-hl-vs-sl-how-to-choose-test-series-combination",
+    title: "HL vs SL: How to Choose the Right IB Test Series Combination",
+    description: "The HL/SL decision affects workload, university requirements, and realistic grade outcomes. Here's how mock exam evidence should inform that choice, subject by subject.",
+    category: "board-exams",
+    datePublished: "2026-09-29",
+    readingMinutes: 7
+  },
+  {
+    slug: "ib-diploma-criterion-based-mocks-not-just-past-papers",
+    title: "Why IB Diploma Students Need Criterion-Based Mock Exams, Not Just Past Papers",
+    description: "Solving past papers alone doesn't reveal whether an answer would actually meet IB's grading criteria. Here's why criterion-based marking is what makes mock practice useful.",
+    category: "board-exams",
+    datePublished: "2026-09-24",
+    readingMinutes: 7
   }
 ];
