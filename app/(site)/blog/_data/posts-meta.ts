@@ -2060,5 +2060,141 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-08-31",
     readingMinutes: 8
+  },
+  {
+    slug: "sat-september-12-2026-ten-day-study-sprint",
+    title: "Sept 12 SAT Is Locked — Here's the Exact 10-Day Study Sprint",
+    description: "With late registration for the September 12, 2026 Digital SAT closing September 1, most students walking in now have under two weeks left. Here's a realistic, day-by-day sprint plan for that exact window — not a generic \"study more\" list.",
+    category: "sat-exam",
+    datePublished: "2026-09-02",
+    readingMinutes: 9
+  },
+  {
+    slug: "do-indian-students-actually-need-the-sat",
+    title: "25,000 Indian Students Take the SAT Every Year — Do You Actually Need It?",
+    description: "SAT test-taking among Indian students has grown roughly threefold over the past decade, from around 8,000 to an estimated 25,000-30,000 test-takers annually. Here's an honest look at who actually needs the SAT and who doesn't.",
+    category: "sat-exam",
+    datePublished: "2026-09-01",
+    readingMinutes: 8
+  },
+  {
+    slug: "digital-sat-two-years-later-what-changed",
+    title: "Digital SAT Format Two Years In: What's Different From the Old Paper Test",
+    description: "The Digital SAT fully replaced the paper-based test worldwide starting in 2024. Two years on, here's a clear-eyed look at what's actually different, and what that means for how students should prepare.",
+    category: "sat-exam",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-2027-moving-to-december-what-it-means",
+    title: "MHT-CET Is Moving to December: What the New 2-Attempt Cycle Means for Class 11 Students",
+    description: "For the 2027 admission cycle, Maharashtra's CET Cell has proposed shifting MHT-CET's first attempt to December 2026-January 2027, with a second attempt in April 2027 — a major break from the exam's traditional April-May timing. Here's what it means for current Class 11 students.",
+    category: "iit-jee",
+    datePublished: "2026-09-02",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-cap-round-4-choice-filling-mistakes",
+    title: "MHT-CET CAP Round 4 Option Filling Is Closing — Last-Minute Choice-Filling Mistakes to Avoid",
+    description: "MHT-CET CAP Round 4 option filling for engineering admissions runs through September 1, 2026, with roughly 23,000 vacant seats on offer. Here are the specific mistakes that cost students good seats in this final round.",
+    category: "iit-jee",
+    datePublished: "2026-09-01",
+    readingMinutes: 8
+  },
+  {
+    slug: "mht-cet-cap-round-4-allotment-to-reporting",
+    title: "Got an MHT-CET CAP Round 4 Seat? Here's What Happens Between Allotment and Reporting",
+    description: "MHT-CET CAP Round 4 seat allotment is expected around September 3, 2026, with acceptance running September 4-7. Here's a clear walkthrough of what students need to do in that window, and the mistakes that cost seats even after allotment.",
+    category: "iit-jee",
+    datePublished: "2026-09-03",
+    readingMinutes: 8
+  },
+  {
+    slug: "mht-cet-round-3-vs-round-4-cutoff-drop",
+    title: "MHT-CET CAP Round 3 vs Round 4 Cutoffs: What the Cutoff Drop Tells You About Your Branch Choice",
+    description: "Cutoffs for the same college and branch typically drop noticeably between MHT-CET CAP Round 3 and Round 4. Here's what actually drives that drop, and how to read it when deciding on a branch this round.",
+    category: "iit-jee",
+    datePublished: "2026-09-02",
+    readingMinutes: 8
+  },
+  {
+    slug: "neet-state-cap-counselling-choice-filling-mistakes",
+    title: "NEET State CAP Counselling: Choice-Filling Mistakes Students Make in the Later Rounds",
+    description: "Beyond the central MCC counselling process, Maharashtra runs its own State CAP rounds for NEET-based MBBS/BDS state-quota seats. Here are the specific choice-filling mistakes that cost students good seats in the later rounds of that process.",
+    category: "neet",
+    datePublished: "2026-09-01",
+    readingMinutes: 8
+  },
+  {
+    slug: "neet-round-2-counselling-choice-locking-2026",
+    title: "NEET Round 2 Counselling Opens Sept 3 — Choice Locking Closes in Just 6 Days",
+    description: "MCC's NEET UG Round 2 counselling registration opens September 3 and runs through September 8, with choice locking closing September 9. Here's the exact timeline and what students need to do in this narrow window.",
+    category: "neet",
+    datePublished: "2026-09-02",
+    readingMinutes: 8
+  },
+  {
+    slug: "neet-round-1-resignation-window",
+    title: "Floated Your Round 1 NEET Seat? Here's the Resignation Window You're About to Miss",
+    description: "MCC opened a seat resignation facility for NEET UG Round 1 candidates from August 31 (2 PM) to September 2 (1 PM), 2026, without forfeiture of the security deposit. Here's exactly who this applies to and what the deadline means.",
+    category: "neet",
+    datePublished: "2026-09-02",
+    readingMinutes: 7
+  },
+  {
+    slug: "neet-round-1-vs-round-2-cutoff-movement",
+    title: "NEET Round 1 vs Round 2: How Much Do Counselling Cutoffs Actually Move?",
+    description: "NEET counselling cutoffs typically shift between Round 1 and Round 2 for the same college and course. Here's an honest explanation of why that movement happens and how to read it when planning Round 2 choices — without guessing at specific numbers before Round 2 results are out.",
+    category: "neet",
+    datePublished: "2026-09-01",
+    readingMinutes: 8
+  },
+  {
+    slug: "nta-exam-overhaul-four-tier-paper-checking-jee-main-2027",
+    title: "NTA Just Overhauled Its Exam Team — What the Four-Tier Paper-Checking System Means for JEE Main 2027",
+    description: "In August 2026, the Education Ministry announced a major NTA overhaul — replacing around 600 subject experts, introducing a four-tier question paper verification system, and deploying CISF security at NTA offices. Here's what it likely means for JEE Main 2027 candidates.",
+    category: "iit-jee",
+    datePublished: "2026-09-01",
+    readingMinutes: 9
+  },
+  {
+    slug: "jee-main-2027-notification-expected-october-prep-checklist",
+    title: "JEE Main 2027 Notification Expected in October — Your Class 11 Prep Checklist Before It Drops",
+    description: "NTA is expected to release the JEE Main 2027 information bulletin in the last week of October 2026, with Session 1 registration opening shortly after. Here's what Class 11 students should have in place before that notification drops.",
+    category: "iit-jee",
+    datePublished: "2026-09-02",
+    readingMinutes: 9
+  },
+  {
+    slug: "one-nation-one-entrance-exam-jee-neet-merger-proposal",
+    title: "One Nation, One Entrance Exam? What the JEE-NEET Merger Proposal Actually Says (and Doesn't)",
+    description: "Following the NEET-UG 2026 paper leak controversy, the Central Government is examining a unified national entrance exam for engineering and medical admissions. Here's an honest look at what's actually been proposed, and what remains unconfirmed speculation.",
+    category: "iit-jee",
+    datePublished: "2026-09-01",
+    readingMinutes: 9
+  },
+  {
+    slug: "bitsat-2026-eligibility-rule-change-class-12-reattempt",
+    title: "BITSAT 2026 Quietly Changed Its Eligibility Rule — Are You Still Qualified?",
+    description: "BITSAT 2026's eligibility criteria removed the earlier clause allowing full Class 12 reattempt candidates to apply. Here's exactly what changed, who it affects, and what the (narrower) exception for subject-wise improvement still allows.",
+    category: "iit-jee",
+    datePublished: "2026-09-02",
+    readingMinutes: 8
+  },
+  {
+    slug: "bitsat-vs-jee-main-vs-mht-cet-which-to-prioritize",
+    title: "BITSAT vs JEE Main vs MHT-CET: Which Should a Confused Class 11 Student Prioritize This Year?",
+    description: "With BITSAT, JEE Main, and MHT-CET all having their own syllabus emphasis, timing, and format, a Class 11 student juggling all three often ends up spread too thin. Here's a practical way to prioritize without giving any one exam up entirely.",
+    category: "iit-jee",
+    datePublished: "2026-08-31",
+    readingMinutes: 9
+  },
+  {
+    slug: "bitsat-2027-what-usually-changes-between-sessions",
+    title: "BITSAT 2027 Is Coming — Here's What Usually Changes Between Sessions",
+    description: "BITS Pilani hasn't announced official BITSAT 2027 dates or details yet, but looking at what's genuinely changed between recent BITSAT cycles — from eligibility rules to exam pattern tweaks — gives a realistic sense of what to watch for.",
+    category: "iit-jee",
+    datePublished: "2026-09-01",
+    readingMinutes: 8
   }
 ];
