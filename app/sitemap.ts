@@ -8,6 +8,7 @@ type ChangeFreq = MetadataRoute.Sitemap[number]['changeFrequency'];
 const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] = [
   // Core
   { path: '', changeFrequency: 'weekly', priority: 1 },
+  { path: '/faculty', changeFrequency: 'monthly', priority: 0.85 },
   { path: '/best-coaching-institute-pune', changeFrequency: 'monthly', priority: 0.9 },
 
   // "Best X Institute in Pune" local SEO pages
