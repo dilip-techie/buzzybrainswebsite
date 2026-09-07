@@ -2516,5 +2516,245 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-09-08",
     readingMinutes: 8
+  },
+  {
+    slug: "sat-registration-test-dates-india-2026-planning-guide",
+    title: "SAT Registration and Test Dates for Indian Students: A 2026 Planning Guide",
+    description: "A practical planning guide to SAT test dates, registration deadlines and test centers in India for the 2026-27 application cycle — built around when to actually book, not just when the test exists.",
+    category: "sat-exam",
+    datePublished: "2026-09-10",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-sat-optional-admissions-actually-work",
+    title: "How SAT-Optional Admissions Actually Work: Submit, Don't Submit, or Somewhere In Between?",
+    description: "Test-optional does not mean test-blind, and the Ivy League's own testing policies have been shifting year over year. Here's what \"optional\" actually means in practice, and how to decide whether to submit a score.",
+    category: "sat-exam",
+    datePublished: "2026-09-14",
+    readingMinutes: 8
+  },
+  {
+    slug: "sat-math-topics-indian-students-underestimate",
+    title: "SAT Math Section Breakdown: Topics Indian Students Often Underestimate",
+    description: "Indian students often assume SAT Math will be easy because the content looks simpler than JEE or board-exam math. The topics that actually cost points aren't the hard ones — they're the ones this preparation habit skips.",
+    category: "sat-exam",
+    datePublished: "2026-09-17",
+    readingMinutes: 7
+  },
+  {
+    slug: "sat-1400-to-1550-study-roadmap",
+    title: "From 1400 to 1550: A Study Roadmap for the Digital SAT",
+    description: "Moving from a solid 1400 to a genuinely competitive 1550 requires a different kind of preparation than getting to 1400 in the first place. Here's what actually closes that specific 150-point gap.",
+    category: "sat-exam",
+    datePublished: "2026-09-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "how-sat-superscoring-works-retake-strategy",
+    title: "How Superscoring Works on the Digital SAT (and Why It Changes Your Retake Strategy)",
+    description: "Most colleges that accept the SAT will superscore it — but not all, and the ones that don't change how a retake should actually be planned. Here's how superscoring works and what it means for deciding whether to retake.",
+    category: "sat-exam",
+    datePublished: "2026-09-24",
+    readingMinutes: 6
+  },
+  {
+    slug: "which-ap-courses-impress-ivy-league-admissions",
+    title: "Which AP Courses Actually Impress Ivy League Admissions Officers?",
+    description: "Admissions officers don't rank AP courses by difficulty — they read them for fit with your stated academic interest. Here's how that actually works, and why a random pile of five APs impresses less than three that tell a story.",
+    category: "ap-exam",
+    datePublished: "2026-09-11",
+    readingMinutes: 7
+  },
+  {
+    slug: "ap-calculus-bc-vs-ap-statistics-stem-majors",
+    title: "AP Calculus BC vs AP Statistics: Which Helps More for STEM Majors?",
+    description: "These two AP courses are often chosen based on which sounds less intimidating. For a STEM-bound applicant, that's the wrong basis for the decision — here's what each course actually signals, and when each one is the right call.",
+    category: "ap-exam",
+    datePublished: "2026-09-15",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-many-ap-courses-is-enough",
+    title: "How Many AP Courses Is \"Enough\" for a Competitive US Application?",
+    description: "There is no universal magic number of AP courses. The real answer depends on what a student's specific school offers and how those courses connect to the rest of the application — here's how to actually think about the question.",
+    category: "ap-exam",
+    datePublished: "2026-09-18",
+    readingMinutes: 6
+  },
+  {
+    slug: "self-studying-ap-exams-from-india-realistic-guide",
+    title: "Self-Studying APs from India: A Realistic Guide",
+    description: "Most Indian schools don't offer AP courses, which means most Indian AP candidates are self-studying by definition. Here's what that actually requires, done honestly — not the version that assumes a US-style classroom is available.",
+    category: "ap-exam",
+    datePublished: "2026-09-22",
+    readingMinutes: 8
+  },
+  {
+    slug: "ap-exams-college-credit-money-time-savings",
+    title: "AP Exams and College Credit: How Much Money (and Time) They Can Save You",
+    description: "A strong AP score can convert directly into skipped college coursework — sometimes literal tuition savings. Here's how that actually works, and why it depends entirely on which university a student ends up attending.",
+    category: "ap-exam",
+    datePublished: "2026-09-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "moems-to-amc-to-aime-complete-pathway",
+    title: "MOEMS to AMC to AIME: The Complete Pathway for Young Mathematicians",
+    description: "American competition math has a real, structured ladder, starting years before AMC. Here's how MOEMS, AMC and AIME actually connect, grade by grade — not as separate competitions, but as one continuous pathway.",
+    category: "olympiad",
+    datePublished: "2026-09-12",
+    readingMinutes: 8
+  },
+  {
+    slug: "what-is-amc-8-10-12-why-colleges-notice",
+    title: "What Is AMC 8/10/12, and Why US Colleges Notice It?",
+    description: "AMC is a genuine credential in US admissions, but not for the reason most families assume. Here's what the exam actually is, and the specific reason it carries weight beyond just being a math competition.",
+    category: "olympiad",
+    datePublished: "2026-09-16",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-start-preparing-for-moems-grades-4-6",
+    title: "How to Start Preparing for MOEMS in Grades 4-6",
+    description: "MOEMS is most students' first real encounter with competition math, and the goal at this stage isn't a perfect score — it's building the instinct for unfamiliar problems that every later competition depends on.",
+    category: "olympiad",
+    datePublished: "2026-09-19",
+    readingMinutes: 6
+  },
+  {
+    slug: "amc-12-explained-how-it-differs-from-amc-10",
+    title: "AMC 12 Explained: How It Differs From AMC 10, and Who Should Take It",
+    description: "AMC 10 gets most of the attention, but AMC 12 is a genuinely different exam — not just a harder version. Here's what actually changes, and how to decide which one (or both) a student should take.",
+    category: "olympiad",
+    datePublished: "2026-09-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "moems-to-amc-8-transition-when-to-make-the-jump",
+    title: "MOEMS to AMC 8: What Changes, and When to Make the Jump",
+    description: "Moving from MOEMS to AMC 8 is a genuine step up in content, not just a slightly harder version of the same test. Here's what actually changes, and the readiness signs worth waiting for before making the switch.",
+    category: "olympiad",
+    datePublished: "2026-09-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "why-olympiad-math-builds-better-problem-solvers",
+    title: "Why Olympiad Math Builds Better Problem-Solvers Than School Curriculum",
+    description: "School math and olympiad math train genuinely different skills, even when they cover overlapping topics. Here's the specific mechanism behind why olympiad training produces better problem-solvers, not just better test-takers.",
+    category: "olympiad",
+    datePublished: "2026-09-29",
+    readingMinutes: 7
+  },
+  {
+    slug: "beyond-usamo-putnam-imo-training-camp-explained",
+    title: "Beyond USAMO: What the Putnam and IMO Training Camp Actually Involve",
+    description: "USAMO is not the ceiling — for the small number of students who go further, MOP (the IMO training camp) and, later, the Putnam Competition are the next real stages. Here's what each one actually is.",
+    category: "olympiad",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "do-math-olympiads-move-the-needle-ivy-league",
+    title: "Do Math Olympiads Really Move the Needle for Ivy League Admissions?",
+    description: "Olympiad achievement is genuinely valued in Ivy League admissions, but not unconditionally, and not in isolation. Here's an honest look at what it actually does and doesn't do for an application.",
+    category: "ivy-colleges",
+    datePublished: "2026-09-13",
+    readingMinutes: 8
+  },
+  {
+    slug: "how-admissions-officers-read-olympiad-track-record",
+    title: "How Admissions Officers Read a Student's Olympiad Track Record",
+    description: "Admissions officers don't just look for the highest result — they read the shape of a multi-year record. Here's what that reading process actually looks for, beyond the single best achievement.",
+    category: "ivy-colleges",
+    datePublished: "2026-09-20",
+    readingMinutes: 7
+  },
+  {
+    slug: "building-a-spike-profile-depth-over-activity-list",
+    title: "Building a \"Spike\" Profile: Why Depth in Math Beats a Long Activity List",
+    description: "US admissions consultants talk about \"spike\" profiles constantly, but rarely explain the actual mechanism behind why depth outperforms breadth. Here's what a spike profile really means, and how to build a genuine one in math.",
+    category: "ivy-colleges",
+    datePublished: "2026-09-27",
+    readingMinutes: 7
+  },
+  {
+    slug: "what-a-strong-olympiad-to-ivy-league-profile-looks-like",
+    title: "What a Strong Olympiad-to-Ivy-League Profile Actually Looks Like",
+    description: "Rather than naming specific admitted students — which no one outside their own family can honestly verify — here are composite, illustrative profile shapes built from publicly understood admissions patterns, showing how olympiad achievement typically fits into a complete application.",
+    category: "ivy-colleges",
+    datePublished: "2026-09-30",
+    readingMinutes: 8
+  },
+  {
+    slug: "olympiads-vs-research-papers-stem-applicants",
+    title: "Olympiads vs Research Papers: Which Matters More for STEM Applicants?",
+    description: "Both are common on strong STEM applications, but they signal different things to admissions readers, and one is far easier to fake convincingly than the other. Here's an honest comparison.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-03",
+    readingMinutes: 8
+  },
+  {
+    slug: "grade-wise-roadmap-sat-ap-olympiads-grade-8-to-12",
+    title: "A Grade-Wise Roadmap: SAT, AP, and Olympiads from Grade 8 to 12",
+    description: "SAT, AP and olympiad preparation are often planned as three separate tracks, competing for the same hours. Laid out on one shared timeline, most of that conflict disappears — here's what that timeline actually looks like.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-06",
+    readingMinutes: 9
+  },
+  {
+    slug: "balance-school-sat-olympiad-training-without-burnout",
+    title: "How to Balance School, SAT Prep, and Olympiad Training Without Burning Out",
+    description: "The families who manage this well aren't doing more hours than everyone else — they're avoiding the specific scheduling mistakes that turn a demanding but sustainable schedule into a burnout risk.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-09",
+    readingMinutes: 7
+  },
+  {
+    slug: "choosing-between-sat-prep-and-olympiad-training",
+    title: "Choosing Between SAT Prep and Olympiad Training When Time Is Limited",
+    description: "When there genuinely isn't enough time for both at full intensity, this is how to actually decide — based on the student's target schools, current stage, and where the marginal hour does more good.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-12",
+    readingMinutes: 7
+  },
+  {
+    slug: "ivy-league-math-applicant-checklist",
+    title: "The Ivy League Math Applicant Checklist: Tests, Competitions, and Essays",
+    description: "A consolidated, honest checklist for a math-focused US application — covering tests, competitions, coursework and essays — built to be used as a planning tool, not a guarantee of admission.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-15",
+    readingMinutes: 9
+  },
+  {
+    slug: "how-buzzybrains-structures-4-year-us-admissions-plan",
+    title: "How Coaching Institutes Like BuzzyBrains Structure a 4-Year US Admissions Plan",
+    description: "A genuine 4-year plan sequences competition math, coursework and standardized testing deliberately, rather than treating them as separate services bolted together. Here's how that sequencing actually works at BuzzyBrains Academy.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "parents-guide-us-admissions-system-from-india",
+    title: "Parents' Guide: Understanding the US Admissions System from India",
+    description: "US admissions runs on assumptions Indian parents often don't have context for, since it's structurally different from India's marks-based system. Here's a clear, honest orientation to how it actually works.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-21",
+    readingMinutes: 9
+  },
+  {
+    slug: "too-late-to-start-sat-olympiad-prep-grade-10-11",
+    title: "Is It Too Late to Start SAT/Olympiad Prep in Grade 10 or 11?",
+    description: "It's later than ideal, but rarely too late — the honest answer depends on which specific outcome a family is targeting, and what gets deliberately deprioritized to make a compressed timeline work.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "cost-of-us-application-journey-tests-coaching-applications",
+    title: "Cost of the US Application Journey: Tests, Coaching, and Applications Explained",
+    description: "The US application process has a real, often underestimated cost, spread across test fees, coaching, application fees and more. Here's an honest breakdown of where the money actually goes, using published official figures.",
+    category: "ivy-colleges",
+    datePublished: "2026-10-27",
+    readingMinutes: 8
   }
 ];
