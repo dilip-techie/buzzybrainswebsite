@@ -2508,5 +2508,13 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-09-12",
     readingMinutes: 7
+  },
+  {
+    slug: "ioqm-2025-final-cutoffs-complete-list-judging-2026",
+    title: "IOQM 2025 Final Cutoffs (Complete List) — and How to Judge Whether 2026's Will Be Higher",
+    description: "The IOQM 2025 final cutoffs, region by region, plus the actual reasoning for judging whether this year's cutoff will land higher or lower — not a guess dressed up as a forecast.",
+    category: "olympiad",
+    datePublished: "2026-09-08",
+    readingMinutes: 8
   }
 ];
