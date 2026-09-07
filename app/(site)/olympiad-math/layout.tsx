@@ -2,12 +2,16 @@ import type { Metadata } from 'next';
 import { geistMono } from '@/app/fonts';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { mathsOlympiadFaqs } from '@/lib/olympiad/data';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 
 export const metadata: Metadata = {
   title: 'Maths Excellence Program | BuzzyBrains Academy',
   description: 'Elite mathematics training with a grade-wise roadmap from Grade 4 foundations to IOQM, RMO, INMO, AMC and IMO. Batches capped at 12.',
   keywords: 'olympiad mathematics, maths excellence program, INMO, RMO, IOQM, AMC, AIME, IMO, SOF IMO, NMTC, Math Kangaroo, advanced mathematics, problem solving',
-  alternates: { canonical: 'https://buzzybrainsacademy.com/olympiad-math' },
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com/olympiad-math',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com/olympiad-math'),
+  },
   openGraph: {
     title: 'Build Mathematical Thinking Early - BuzzyBrains Academy Olympiad Math',
     description: 'IITian Mentorship. Advanced mathematics program with IITian mentorship focused on olympiad preparation and mathematical excellence.',

@@ -18,6 +18,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/', label: 'Home' },
       { href: '/faculty', label: 'Our Faculty — Top 1% Mentors' },
       { href: '/best-coaching-institute-pune', label: 'Best Coaching Institute in Pune — Complete Guide' },
+      { href: '/online-coaching-for-nri-students', label: 'Online Coaching for NRI Students' },
       { href: '/about', label: 'About Us' },
       { href: '/admissions', label: 'Admissions & Scholarships' },
       { href: '/achievements', label: 'Achievements' },

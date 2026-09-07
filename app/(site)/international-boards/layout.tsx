@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { ProgramJsonLd } from "../../components/JsonLd";
+import { buildLanguageAlternates } from "@/lib/seo/hreflang";
 
 export const metadata: Metadata = {
   title: "IGCSE, IB & AP Exam Coaching | BuzzyBrains Academy",
   description: "Premier coaching for IGCSE, IB and AP exams with expert guidance from an IITian mentor — personalized mentorship and proven results.",
-  alternates: { canonical: "https://buzzybrainsacademy.com/international-boards" },
+  alternates: {
+    canonical: "https://buzzybrainsacademy.com/international-boards",
+    languages: buildLanguageAlternates("https://buzzybrainsacademy.com/international-boards"),
+  },
   openGraph: {
     title: "IGCSE, IB & AP Exam Coaching | A*/7/5 Results",
     description: "IITian Mentorship. Premier coaching for IGCSE, IB, and AP exams — personalized mentorship and proven international board expertise.",

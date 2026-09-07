@@ -77,6 +77,7 @@ export default function Footer() {
               <li><Link prefetch={false} href="/sat-exam">SAT Exam</Link></li>
               <li><Link prefetch={false} href="/ivy-league-counselling">Ivy League Counselling</Link></li>
               <li><Link prefetch={false} href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
+              <li><Link prefetch={false} href="/online-coaching-for-nri-students">Online Coaching for NRI Students</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer specialized tracks links">

@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 
 export const metadata: Metadata = {
   title: 'NEET Coaching — Grade 11-12 PCB & Droppers | BuzzyBrains Academy',
   description:
     'Complete medical entrance preparation in Physics, Chemistry & Biology with NCERT at the core, mentored by expert faculty.',
-  alternates: { canonical: 'https://buzzybrainsacademy.com/12th-board-pcb' },
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com/12th-board-pcb',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com/12th-board-pcb'),
+  },
   openGraph: {
     title: 'NEET Coaching — Grade 11-12 PCB & Droppers',
     description:

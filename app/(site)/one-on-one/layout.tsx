@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { ProgramJsonLd, FaqJsonLd } from "../../components/JsonLd";
+import { buildLanguageAlternates } from "@/lib/seo/hreflang";
 
 export const metadata: Metadata = {
   title: "1-on-1 Personalized Coaching | BuzzyBrains Academy",
   description: "Personalized 1-on-1 coaching with an expert IITian mentor (IIT Kanpur & IIM Ahmedabad). Custom learning plans for JEE, NEET or board exams, online or offline.",
-  alternates: { canonical: "https://buzzybrainsacademy.com/one-on-one" },
+  alternates: {
+    canonical: "https://buzzybrainsacademy.com/one-on-one",
+    languages: buildLanguageAlternates("https://buzzybrainsacademy.com/one-on-one"),
+  },
   openGraph: {
     title: "1-on-1 Personalized Coaching | Expert IITian & IIM Mentor",
     description: "IITian Mentorship. Custom learning plans for IIT-JEE, NEET, Board Exams and more, with flexible online/offline 1-on-1 sessions.",
