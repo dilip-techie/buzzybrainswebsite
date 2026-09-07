@@ -58,7 +58,7 @@ const WHY_CHOOSE = [
   { title: 'Concept-Based Teaching', desc: 'Real business case studies and practical examples, not rote memorization of formats and formulas.', gradient: 'var(--grad-purple)', icon: Lightbulb },
   { title: 'Career Guidance Built In', desc: 'From choosing CA vs CUET-based BCom vs BBA, students get real guidance, not just subject teaching.', gradient: 'var(--grad-amber)', icon: Target },
   { title: 'Weekly Tests & Chapter Assessments', desc: 'Regular, structured assessment that builds board-exam temperament from the first term.', gradient: 'var(--grad-green)', icon: Award },
-  { title: 'AI-Powered, Technology-Enabled Learning', desc: 'Interactive digital classrooms and technology-driven tools, brought in from founder Dilip Sir’s 24+ years in technology leadership.', gradient: 'var(--grad-sky)', icon: Laptop },
+  { title: 'AI-Powered, Technology-Enabled Learning', desc: 'Interactive digital classrooms and technology-driven tools, brought in from founder Dilip Sir’s 25+ years in technology leadership.', gradient: 'var(--grad-sky)', icon: Laptop },
   { title: 'Regular Parent Updates', desc: 'Transparent, regular feedback so parents always know exactly where their child stands.', gradient: 'var(--grad-red)', icon: Users },
 ];
 
