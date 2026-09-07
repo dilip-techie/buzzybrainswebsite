@@ -291,7 +291,7 @@ button{font-family:inherit;cursor:pointer}
 }
 .navbar.scrolled{border-bottom-color:var(--glass-line);box-shadow:var(--shadow-sm)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px}
-.nav-left{display:flex;align-items:center;gap:16px}
+.nav-left{display:flex;align-items:center;gap:16px;flex-shrink:0;margin-right:28px}
 .logo{display:flex;align-items:center;gap:11px;font-family:var(--font-display);letter-spacing:-.02em}
 .logo-badge-img{height:44px;width:auto;border-radius:10px}
 @media(max-width:520px){.logo-badge-img{height:38px}}
