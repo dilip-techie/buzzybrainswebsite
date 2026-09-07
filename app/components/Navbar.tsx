@@ -35,7 +35,7 @@ const ABOUT_US_MENU: MegaMenuItem[] = [
   { href: '/about#founder-story', label: 'About Our Founder' },
   { href: '/about#mission', label: 'Our Mission' },
   { href: '/about#vision', label: 'Our Vision' },
-  { href: '/#faculty', label: 'Our Faculties' },
+  { href: '/faculty', label: 'Our Faculty' },
   { href: '/exams', label: 'Exams Portal' },
 ];
 

@@ -16,6 +16,7 @@ const SECTIONS: SiteSection[] = [
     title: 'Main Pages',
     links: [
       { href: '/', label: 'Home' },
+      { href: '/faculty', label: 'Our Faculty — Top 1% Mentors' },
       { href: '/best-coaching-institute-pune', label: 'Best Coaching Institute in Pune — Complete Guide' },
       { href: '/about', label: 'About Us' },
       { href: '/admissions', label: 'Admissions & Scholarships' },
