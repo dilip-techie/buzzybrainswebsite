@@ -2477,7 +2477,7 @@
     "category": "Olympiad",
     "path": "/images/og/nsejs-2026-enrollment-closes-september-14.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "SOF IMO & NSO 2026-27: Which Level 1 Date Should Your School Choose?",
@@ -2485,13 +2485,21 @@
     "category": "Olympiad",
     "path": "/images/og/sof-imo-nso-2026-27-which-level-1-date-to-choose.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "After IOQM and NMTC: Which Olympiad Should Your Child Attempt Next?",
     "slug": "which-olympiad-next-after-ioqm-nmtc",
     "category": "Olympiad",
     "path": "/images/og/which-olympiad-next-after-ioqm-nmtc.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "IOQM 2025 Final Cutoffs (Complete List) — and How to Judge Whether 2026's Will Be Higher",
+    "slug": "ioqm-2025-final-cutoffs-complete-list-judging-2026",
+    "category": "Olympiad",
+    "path": "/images/og/ioqm-2025-final-cutoffs-complete-list-judging-2026.png",
     "dimensions": "1200x630",
     "status": "created"
   },

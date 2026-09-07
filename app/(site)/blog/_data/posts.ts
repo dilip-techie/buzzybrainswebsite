@@ -28312,6 +28312,115 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'ioqm-2025-final-cutoffs-complete-list-judging-2026',
+    title: 'IOQM 2025 Final Cutoffs (Complete List) — and How to Judge Whether 2026\'s Will Be Higher',
+    description:
+      "The IOQM 2025 final cutoffs, region by region, plus the actual reasoning for judging whether this year's cutoff will land higher or lower — not a guess dressed up as a forecast.",
+    category: 'olympiad',
+    datePublished: '2026-09-08',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-coaching-pune',
+    relatedProgramLabel: 'IOQM Coaching',
+    relatedGuides: [
+      { href: '/blog/ioqm-2026-cutoff-how-its-actually-decided', label: "IOQM 2026 Cutoff: How It's Actually Decided" },
+      { href: '/blog/ioqm-category-a-vs-category-b-cutoff-explained', label: 'Category A vs Category B: What the IOQM Cutoff Split Means' },
+    ],
+    body: [
+      {
+        kind: 'p',
+        text: "The day after IOQM, the search that spikes every year isn't \"IOQM syllabus\" — it's some version of \"was this year's paper easy or hard.\" That question matters because it's the single biggest driver of where the cutoff lands, and the honest answer is that no one — not a coaching institute, not a forum, not this article — can tell you the actual 2026 cutoff before MTA(I) processes the results. What we can do is show you exactly how much cutoffs move based on difficulty, using real numbers, so you can reason about your own paper properly instead of guessing.",
+      },
+      { kind: 'h2', text: "IOQM 2025's complete final cutoffs, by region" },
+      {
+        kind: 'p',
+        text: "Here is the full, official region-wise cutoff table for IOQM 2025 — Category A (Classes 8-11), Category B (Class 12), the Girls' quota, and the Regional Certificate threshold. Cutoffs were counted against normalized scores, with Leg 2 (28 September) scores multiplied by 1.5.",
+      },
+      {
+        kind: 'table',
+        headers: ['Region', 'Category A', 'Category B', 'Girls', 'Regional Certificate'],
+        rows: [
+          ['Delhi', '37.0', '49.0', '35.0', '31.0'],
+          ['Uttar Pradesh', '27.0', '36.0', '25.0', '26.0'],
+          ['Uttarakhand', '15.0', '22.0', '14.0', '22.0'],
+          ['North-West', '42.0', '70.5', '39.0', '48.0'],
+          ['Jammu', '10.5', '21.0', 'NA', '28.5'],
+          ['Kashmir, Ladakh', '10.0', '10.0', 'NA', '21.0'],
+          ['Mumbai', '28.0', '39.0', '25.0', '33.0'],
+          ['Maharashtra, Goa', '32.0', '43.0', '31.0', '28.0'],
+          ['Gujarat, Dadra & Nagar Haveli, Daman & Diu', '25.0', '37.0', '23.0', '28.0'],
+          ['Rajasthan', '34.0', '43.0', '33.0', '31.0'],
+          ['Madhya Pradesh', '23.0', '33.0', '21.0', '26.0'],
+          ['Chhattisgarh', '18.0', '24.0', '16.0', '25.0'],
+          ['North Bihar', '23.0', '29.0', '21.0', '25.0'],
+          ['South Bihar', '16.0', '19.0', '15.0', '24.0'],
+          ['Jharkhand', '22.0', '27.0', '21.0', '26.0'],
+          ['West Bengal', '30.0', '38.0', '27.0', '29.0'],
+          ['Odisha', '21.0', '30.0', '19.0', '28.0'],
+          ['Assam', '14.0', '20.0', '13.0', '18.0'],
+          ['Andhra Pradesh', '35.0', '39.0', '33.0', '29.0'],
+          ['Telangana', '43.0', '46.0', '42.0', '31.0'],
+          ['Karnataka', '32.0', '42.0', '30.0', '29.0'],
+          ['Kerala, Lakshadweep', '21.0', '32.0', '20.0', '23.0'],
+          ['Tamil Nadu, Pondicherry, Andaman & Nicobar', '30.0', '43.0', '28.0', '26.0'],
+          ['Jawahar Navodaya Vidyalaya', '28.5', '39.0', '28.0', '16.0'],
+          ['Kendriya Vidyalaya', '25.0', '32.0', '24.0', '15.0'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "National certificate cutoff for 2025 was 24.0. A few regions (Meghalaya, Mizoram, Nagaland, Arunachal Pradesh) had NA or very low Category A/B figures reflecting smaller candidate pools — those are omitted here for space but follow the same official table.",
+      },
+      { kind: 'h2', text: 'Why the same region\'s cutoff can swing wildly year to year' },
+      {
+        kind: 'p',
+        text: "Delhi's Category A cutoff was 17 in 2023, jumped to 35 in 2024, then rose only slightly to 37 in 2025. That first jump — nearly doubling in one year — wasn't a change in how IOQM is graded. It reflects a harder-to-parse mix of a tougher (or easier) paper, a stronger or weaker candidate pool that year, and how many students from that region actually attempted the exam. The lesson isn't \"cutoffs always rise\" — it's that the swing can be large in either direction, and pinning a specific number on this year without seeing the paper and the results is guesswork dressed up as analysis.",
+      },
+      { kind: 'h2', text: 'The actual mechanism: why an easier paper usually raises the cutoff' },
+      {
+        kind: 'ul',
+        items: [
+          "The cutoff isn't a fixed pass mark — it's set by where the 200th-ranked score (Category A) or 40th-ranked score (Category B) falls, per region.",
+          "An easier paper means more students solve more questions correctly, which pushes scores up across the board — including at whatever position the cutoff rank sits.",
+          "A harder paper does the reverse: fewer students score high, so the 200th or 40th position lands on a lower raw score.",
+          "This is why comparing your raw score to last year's cutoff, without any sense of how this year's paper compared in difficulty, tells you very little on its own.",
+        ],
+      },
+      { kind: 'h2', text: 'How to actually reason about your own result — without a fake number' },
+      {
+        kind: 'p',
+        text: "Instead of asking \"what will the cutoff be,\" the more useful question is: relative to a typical IOQM paper, did this year's feel easier or harder to you, specifically in the areas that usually separate scores — the harder combinatorics and number theory questions toward the back of the paper? If several of those felt more standard or familiar than usual, it's reasonable to expect the cutoff in your region moved up, following the same pattern Delhi's 2023-to-2024 jump shows. If they felt unusually novel or multi-step, the opposite is more likely. This won't give you an exact number, but it's a genuinely better way to gauge your own standing than comparing raw scores to a table that reflects a different year's paper.",
+      },
+      { kind: 'h2', text: 'A common mistake: anchoring on the lowest historical cutoff you can find' },
+      {
+        kind: 'p',
+        text: "It's tempting to search out the lowest cutoff a region has ever had and treat it as a safety net — \"my region's cutoff was only 10 in 2023, so I should be fine.\" As the Delhi numbers show, a cutoff can more than double the very next year. Preparing to comfortably beat the higher end of a region's recent range is a safer target than hoping for a repeat of an unusually low year.",
+      },
+      { kind: 'h2', text: 'What this looks like in practice' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's IOQM mock series benchmarks students against a range drawn from recent years' actual regional cutoffs, not a single assumed number — so a student knows roughly where the bar has moved historically and can aim comfortably above it, rather than exactly at last year's figure.",
+      },
+      {
+        kind: 'p',
+        text: "If you want a genuine read on where your own preparation stands against this kind of historical range, the IOQM Coaching program runs diagnostic mocks benchmarked exactly this way.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is there any way to know the actual 2026 IOQM cutoff before it\'s officially announced?',
+        answer: "No — the cutoff is only finalized after MTA(I) processes the actual results, based on that year's real score distribution. Anyone claiming to know the exact number in advance is guessing, not reporting a fact.",
+      },
+      {
+        question: 'My region\'s 2025 cutoff was very low — can I assume 2026 will be similar?',
+        answer: "Not safely — as the Delhi example shows, a cutoff can swing dramatically year to year based on paper difficulty and candidate pool strength, so treating a low historical year as a reliable baseline is risky.",
+      },
+      {
+        question: 'Where can I find the official, final 2026 cutoff once it\'s released?',
+        answer: "Directly through MTA(I)'s official channels (mtai.org.in) or the official IOQM result portal (ioqexam.in) — these are the authoritative sources, not third-party compilations.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
