@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { ProgramJsonLd } from "../../components/JsonLd";
+import { buildLanguageAlternates } from "@/lib/seo/hreflang";
 
 export const metadata: Metadata = {
   title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
   description: "Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
-  alternates: { canonical: "https://buzzybrainsacademy.com/foundation" },
+  alternates: {
+    canonical: "https://buzzybrainsacademy.com/foundation",
+    languages: buildLanguageAlternates("https://buzzybrainsacademy.com/foundation"),
+  },
   openGraph: {
     title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
     description: "IITian Mentorship. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",

@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 
 export const metadata: Metadata = {
   title: 'IIT-JEE Coaching for PCM & Droppers | BuzzyBrains Academy',
   description:
     'Deep conceptual IIT-JEE coaching in Physics, Chemistry & Maths for Grades 11-12 and droppers. Concept-first teaching and JEE Main + Advanced test series.',
-  alternates: { canonical: 'https://buzzybrainsacademy.com/12th-board-pcm' },
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com/12th-board-pcm',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com/12th-board-pcm'),
+  },
   openGraph: {
     title: 'IIT-JEE Coaching — Grade 11-12 PCM & Droppers',
     description:

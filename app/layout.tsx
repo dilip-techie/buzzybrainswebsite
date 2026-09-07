@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Manrope, Inter } from 'next/font/google';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 import './globals.css';
 
 const manrope = Manrope({
@@ -31,7 +32,10 @@ export const metadata: Metadata = {
     'Maths Coaching Pune',
     'Science Coaching Pune',
   ],
-  alternates: { canonical: 'https://buzzybrainsacademy.com' },
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com'),
+  },
   openGraph: {
     title: 'BuzzyBrains Academy — Learn Smarter. Dream Bigger. Achieve More.',
     description:

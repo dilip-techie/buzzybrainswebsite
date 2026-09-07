@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { ProgramJsonLd, FaqJsonLd } from '../../components/JsonLd';
 import { TEST_SERIES_FAQS } from '@/lib/test-series/faqs';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 
 export const metadata: Metadata = {
   title: 'Board Exam Test Series 2027 | CBSE, ICSE & Maharashtra Board',
@@ -8,7 +9,10 @@ export const metadata: Metadata = {
     'Weighted mock test series for CBSE, ICSE & Maharashtra Board (SSC/HSC) Grade 10 & 12 — examiner-style evaluation and subject-wise scorecards, marked and returned within 72 hours.',
   keywords:
     'CBSE test series, ICSE test series, Maharashtra board test series, SSC test series, HSC test series, board exam mock papers, Grade 10 test series Pune, Grade 12 test series Pune, board exam evaluation, exam paper checking Pune',
-  alternates: { canonical: 'https://buzzybrainsacademy.com/test-series' },
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com/test-series',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com/test-series'),
+  },
   openGraph: {
     title: 'Board Exam Test Series 2027 | CBSE, ICSE & Maharashtra Board',
     description:
