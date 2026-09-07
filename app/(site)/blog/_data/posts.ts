@@ -26066,7 +26066,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "CBSE has steadily shifted toward competency-based, application questions. Here's what that actually means for how you should be practicing, not just what you should be studying.",
     category: 'board-exams',
-    datePublished: '2026-09-10',
+    datePublished: '2026-08-08',
     readingMinutes: 8,
     relatedProgramHref: '/cbse-board-test-series',
     relatedProgramLabel: 'CBSE Board Test Series',
@@ -26125,7 +26125,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Exam anxiety isn't fixed by reassurance — it's fixed by familiarity. Here's the actual mechanism by which a structured CBSE mock series reduces board exam anxiety.",
     category: 'board-exams',
-    datePublished: '2026-09-13',
+    datePublished: '2026-08-11',
     readingMinutes: 7,
     relatedProgramHref: '/cbse-board-test-series',
     relatedProgramLabel: 'CBSE Board Test Series',
@@ -26184,7 +26184,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Choosing between PCM, PCB, and Commerce test series packs isn't just about your stream — it's about where your specific subjects need the most exam-condition practice.",
     category: 'board-exams',
-    datePublished: '2026-09-16',
+    datePublished: '2026-08-14',
     readingMinutes: 7,
     relatedProgramHref: '/cbse-board-test-series',
     relatedProgramLabel: 'CBSE Board Test Series',
@@ -26302,7 +26302,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Bundling ICSE's three science papers into one generic 'Science' test series misses how differently each subject is actually examined. Here's why separate matters.",
     category: 'board-exams',
-    datePublished: '2026-09-08',
+    datePublished: '2026-08-06',
     readingMinutes: 7,
     relatedProgramHref: '/icse-board-test-series',
     relatedProgramLabel: 'ICSE Board Test Series',
@@ -26361,7 +26361,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "A student who knows the syllabus cold can still underperform on ICSE boards. Here's the specific, fixable reason, and how structured mock papers catch it in time.",
     category: 'board-exams',
-    datePublished: '2026-09-11',
+    datePublished: '2026-08-09',
     readingMinutes: 6,
     relatedProgramHref: '/icse-board-test-series',
     relatedProgramLabel: 'ICSE Board Test Series',
@@ -26420,7 +26420,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Families choosing between ICSE and CBSE — or moving between them — often assume board exam prep looks the same either way. Here's exactly where it doesn't.",
     category: 'board-exams',
-    datePublished: '2026-09-14',
+    datePublished: '2026-08-12',
     readingMinutes: 7,
     relatedProgramHref: '/icse-board-test-series',
     relatedProgramLabel: 'ICSE Board Test Series',
@@ -26479,7 +26479,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "ISC Class 12 science papers carry the same structural complexity as ICSE Class 10, at higher stakes. Here's why September is the realistic starting point.",
     category: 'board-exams',
-    datePublished: '2026-09-17',
+    datePublished: '2026-08-15',
     readingMinutes: 6,
     relatedProgramHref: '/icse-board-test-series',
     relatedProgramLabel: 'ICSE Board Test Series',
@@ -26597,7 +26597,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Strong school marks and strong SSC/HSC board marks aren't the same signal. Here's the specific, fixable reason Maharashtra Board students sometimes underperform on the day.",
     category: 'board-exams',
-    datePublished: '2026-09-09',
+    datePublished: '2026-08-07',
     readingMinutes: 7,
     relatedProgramHref: '/maharashtra-board-test-series',
     relatedProgramLabel: 'Maharashtra Board Test Series',
@@ -26656,7 +26656,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The Maharashtra State Board's question-type distribution is specific and consistent — here's what it actually rewards, and how mock practice should be built around it.",
     category: 'board-exams',
-    datePublished: '2026-09-12',
+    datePublished: '2026-08-10',
     readingMinutes: 7,
     relatedProgramHref: '/maharashtra-board-test-series',
     relatedProgramLabel: 'Maharashtra Board Test Series',
@@ -26715,7 +26715,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "HSC Class 12 streams carry the same board weightage across all three subjects. Here's how to pick a test series pack that reflects the actual stream, not just the strongest subject.",
     category: 'board-exams',
-    datePublished: '2026-09-15',
+    datePublished: '2026-08-13',
     readingMinutes: 6,
     relatedProgramHref: '/maharashtra-board-test-series',
     relatedProgramLabel: 'Maharashtra Board Test Series',
@@ -26774,7 +26774,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Working backward from board exam dates, here's a realistic week-by-week test series timeline for Maharashtra SSC and HSC students starting this September.",
     category: 'board-exams',
-    datePublished: '2026-09-18',
+    datePublished: '2026-08-16',
     readingMinutes: 6,
     relatedProgramHref: '/maharashtra-board-test-series',
     relatedProgramLabel: 'Maharashtra Board Test Series',
@@ -26834,7 +26834,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Cambridge IGCSE's multi-component papers need more preparation cycles than a single-paper exam. Here's why starting mock practice this term matters more than it seems.",
     category: 'board-exams',
-    datePublished: '2026-09-19',
+    datePublished: '2026-08-17',
     readingMinutes: 7,
     relatedProgramHref: '/igcse-cambridge-test-series',
     relatedProgramLabel: 'IGCSE Cambridge Test Series',
@@ -26893,7 +26893,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "IGCSE grade boundaries shift every session, which makes raw marks hard to interpret on their own. Here's how a mock series translates a raw score into a realistic grade prediction.",
     category: 'board-exams',
-    datePublished: '2026-09-22',
+    datePublished: '2026-08-20',
     readingMinutes: 7,
     relatedProgramHref: '/igcse-cambridge-test-series',
     relatedProgramLabel: 'IGCSE Cambridge Test Series',
@@ -26952,7 +26952,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Choosing Core or Extended tier affects a student's maximum possible grade. Here's how mock exam performance under real conditions makes that decision less of a guess.",
     category: 'board-exams',
-    datePublished: '2026-09-25',
+    datePublished: '2026-08-23',
     readingMinutes: 6,
     relatedProgramHref: '/igcse-cambridge-test-series',
     relatedProgramLabel: 'IGCSE Cambridge Test Series',
@@ -27011,7 +27011,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Whether your school teaches IGCSE Combined Science or separate Physics, Chemistry and Biology changes what your test series prep should actually look like.",
     category: 'board-exams',
-    datePublished: '2026-09-28',
+    datePublished: '2026-08-26',
     readingMinutes: 6,
     relatedProgramHref: '/igcse-cambridge-test-series',
     relatedProgramLabel: 'IGCSE Cambridge Test Series',
@@ -27070,7 +27070,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "More Pune families with children in Cambridge IGCSE schools are seeking structured mock exam practice outside school. Here's what's actually driving that shift.",
     category: 'board-exams',
-    datePublished: '2026-09-21',
+    datePublished: '2026-08-19',
     readingMinutes: 6,
     relatedProgramHref: '/igcse-cambridge-test-series',
     relatedProgramLabel: 'IGCSE Cambridge Test Series',
@@ -27124,7 +27124,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Between IA deadlines, EE submission, and content depth, DP2 has less spare runway than it looks. Here's why mock exam prep needs to start at the beginning of the year, not before May.",
     category: 'board-exams',
-    datePublished: '2026-09-20',
+    datePublished: '2026-08-18',
     readingMinutes: 7,
     relatedProgramHref: '/ib-test-series',
     relatedProgramLabel: 'IB Test Series',
@@ -27183,7 +27183,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "University offers are often conditional on IB predicted grades, and those predictions lean heavily on mock exam results. Here's how that mechanism actually works.",
     category: 'board-exams',
-    datePublished: '2026-09-23',
+    datePublished: '2026-08-21',
     readingMinutes: 7,
     relatedProgramHref: '/ib-test-series',
     relatedProgramLabel: 'IB Test Series',
@@ -27242,7 +27242,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "IA and EE feedback only helps if there's time left to act on it. Here's why getting a draft reviewed early changes the outcome more than a last-minute polish ever can.",
     category: 'board-exams',
-    datePublished: '2026-09-26',
+    datePublished: '2026-08-24',
     readingMinutes: 7,
     relatedProgramHref: '/ib-test-series',
     relatedProgramLabel: 'IB Test Series',
@@ -27301,7 +27301,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The HL/SL decision affects workload, university requirements, and realistic grade outcomes. Here's how mock exam evidence should inform that choice, subject by subject.",
     category: 'board-exams',
-    datePublished: '2026-09-29',
+    datePublished: '2026-08-27',
     readingMinutes: 7,
     relatedProgramHref: '/ib-test-series',
     relatedProgramLabel: 'IB Test Series',
@@ -27360,7 +27360,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Solving past papers alone doesn't reveal whether an answer would actually meet IB's grading criteria. Here's why criterion-based marking is what makes mock practice useful.",
     category: 'board-exams',
-    datePublished: '2026-09-24',
+    datePublished: '2026-08-22',
     readingMinutes: 7,
     relatedProgramHref: '/ib-test-series',
     relatedProgramLabel: 'IB Test Series',
@@ -27419,7 +27419,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "There's no pre-set IOQM 2026 cutoff to look up — it's determined after the exam based on how the paper and the aspirant pool actually performed. Here's the real mechanism.",
     category: 'olympiad',
-    datePublished: '2026-09-30',
+    datePublished: '2026-08-28',
     readingMinutes: 7,
     relatedProgramHref: '/ioqm-coaching-pune',
     relatedProgramLabel: 'IOQM Coaching',
@@ -27478,7 +27478,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "IOQM doesn't use one cutoff for everyone — Classes 8-11 and Class 12 are judged separately, under different quotas. Here's why that split exists and what it means for your prep.",
     category: 'olympiad',
-    datePublished: '2026-10-02',
+    datePublished: '2026-08-30',
     readingMinutes: 6,
     relatedProgramHref: '/ioqm-coaching-pune',
     relatedProgramLabel: 'IOQM Coaching',
@@ -27537,7 +27537,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The gap between attempting IOQM and knowing your result is real, unproductive-feeling time if you let it be. Here's a concrete, non-anxious way to use it.",
     category: 'olympiad',
-    datePublished: '2026-10-05',
+    datePublished: '2026-09-02',
     readingMinutes: 6,
     relatedProgramHref: '/ioqm-coaching-pune',
     relatedProgramLabel: 'IOQM Coaching',
@@ -27596,7 +27596,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "AMTI doesn't publish a fixed NMTC passing score — Stage 2 qualification is percentile-based within each level. Here's exactly how that works and why it varies by level.",
     category: 'olympiad',
-    datePublished: '2026-10-01',
+    datePublished: '2026-08-29',
     readingMinutes: 6,
     relatedProgramHref: '/nmtc-coaching-pune',
     relatedProgramLabel: 'NMTC Coaching',
@@ -27655,7 +27655,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "No fixed NMTC passing mark exists to look up, by design. Here's why AMTI runs a relative, percentile-based system instead, and how that should change your prep strategy.",
     category: 'olympiad',
-    datePublished: '2026-10-04',
+    datePublished: '2026-09-01',
     readingMinutes: 6,
     relatedProgramHref: '/nmtc-coaching-pune',
     relatedProgramLabel: 'NMTC Coaching',
@@ -27714,7 +27714,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Clearing NMTC Stage 1 isn't the finish line — Stage 2 tests something genuinely different. Here's what actually changes in format and preparation once you're through.",
     category: 'olympiad',
-    datePublished: '2026-10-07',
+    datePublished: '2026-09-04',
     readingMinutes: 6,
     relatedProgramHref: '/nmtc-coaching-pune',
     relatedProgramLabel: 'NMTC Coaching',
@@ -27773,7 +27773,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "No one can predict exact AMC 8 questions, but the topic distribution across recent papers is genuinely consistent. Here's what that pattern actually shows, and how to use it.",
     category: 'olympiad',
-    datePublished: '2026-10-03',
+    datePublished: '2026-08-31',
     readingMinutes: 7,
     relatedProgramHref: '/amc-8-10-coaching-pune',
     relatedProgramLabel: 'AMC 8/10 Coaching',
@@ -27832,7 +27832,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "AMC 10's topic emphasis is more stable than most students expect. Here's what recent papers actually show, and how it should shape a 2026 preparation plan.",
     category: 'olympiad',
-    datePublished: '2026-10-06',
+    datePublished: '2026-09-03',
     readingMinutes: 7,
     relatedProgramHref: '/amc-8-10-coaching-pune',
     relatedProgramLabel: 'AMC 8/10 Coaching',
@@ -27891,7 +27891,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "AMC 8 and AMC 10 share a name and a format, but their actual topic emphasis is genuinely different. Here's exactly where the two diverge, and why it matters for prep.",
     category: 'olympiad',
-    datePublished: '2026-10-08',
+    datePublished: '2026-09-05',
     readingMinutes: 6,
     relatedProgramHref: '/amc-8-10-coaching-pune',
     relatedProgramLabel: 'AMC 8/10 Coaching',
@@ -27950,7 +27950,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The 2026 IOQM cutoff isn't out yet, but three years of published MTA(I) data show real, consistent patterns by category and region. Here are the actual numbers.",
     category: 'olympiad',
-    datePublished: '2026-10-09',
+    datePublished: '2026-09-06',
     readingMinutes: 8,
     relatedProgramHref: '/ioqm-coaching-pune',
     relatedProgramLabel: 'IOQM Coaching',
@@ -28049,7 +28049,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "AMTI doesn't publish a percentage cutoff, but it does publish exact registered-vs-selected counts every year. Here's what two years of real NMTC data actually show.",
     category: 'olympiad',
-    datePublished: '2026-10-10',
+    datePublished: '2026-09-07',
     readingMinutes: 8,
     relatedProgramHref: '/nmtc-coaching-pune',
     relatedProgramLabel: 'NMTC Coaching',
@@ -28132,7 +28132,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "NSEJS 2026 is on 22 November, but student enrollment itself closes 14 September. Here's what the exam actually tests and why the enrollment window matters more than the exam date.",
     category: 'olympiad',
-    datePublished: '2026-09-08',
+    datePublished: '2026-08-06',
     readingMinutes: 6,
     relatedProgramHref: '/sof-olympiads',
     relatedProgramLabel: 'Science Olympiad Coaching',
@@ -28191,7 +28191,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "SOF's IMO and NSO Level 1 run on three separate dates this cycle. Here's what actually differs between them, and how to think about which one to pick.",
     category: 'olympiad',
-    datePublished: '2026-09-15',
+    datePublished: '2026-08-13',
     readingMinutes: 6,
     relatedProgramHref: '/sof-imo-coaching-pune',
     relatedProgramLabel: 'SOF IMO Coaching',
@@ -28250,7 +28250,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "With IOQM and NMTC Stage 1 done, several other genuine olympiads are opening up through October and November. Here's how to decide which one actually fits.",
     category: 'olympiad',
-    datePublished: '2026-09-12',
+    datePublished: '2026-08-10',
     readingMinutes: 7,
     relatedProgramHref: '/olympiads',
     relatedProgramLabel: 'Olympiad Programs',
@@ -28318,7 +28318,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "The IOQM 2025 final cutoffs, region by region, plus the actual reasoning for judging whether this year's cutoff will land higher or lower — not a guess dressed up as a forecast.",
     category: 'olympiad',
-    datePublished: '2026-09-08',
+    datePublished: '2026-08-06',
     readingMinutes: 8,
     relatedProgramHref: '/ioqm-coaching-pune',
     relatedProgramLabel: 'IOQM Coaching',
