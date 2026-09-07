@@ -2504,18 +2504,10 @@
     "status": "skipped"
   },
   {
-    "title": "SAT Registration and Test Dates for Indian Students: A 2026 Planning Guide",
-    "slug": "sat-registration-test-dates-india-2026-planning-guide",
-    "category": "SAT Exam",
-    "path": "/images/og/sat-registration-test-dates-india-2026-planning-guide.png",
-    "dimensions": "1200x630",
-    "status": "created"
-  },
-  {
-    "title": "How SAT-Optional Admissions Actually Work: Submit, Don't Submit, or Somewhere In Between?",
-    "slug": "how-sat-optional-admissions-actually-work",
-    "category": "SAT Exam",
-    "path": "/images/og/how-sat-optional-admissions-actually-work.png",
+    "title": "How SAT Scores Actually Factor into Ivy League Admissions (Test-Optional Reality Check)",
+    "slug": "how-sat-scores-factor-into-ivy-league-admissions",
+    "category": "Ivy Colleges",
+    "path": "/images/og/how-sat-scores-factor-into-ivy-league-admissions.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2525,7 +2517,7 @@
     "category": "SAT Exam",
     "path": "/images/og/sat-math-topics-indian-students-underestimate.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "From 1400 to 1550: A Study Roadmap for the Digital SAT",
@@ -2533,21 +2525,29 @@
     "category": "SAT Exam",
     "path": "/images/og/sat-1400-to-1550-study-roadmap.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
-    "title": "How Superscoring Works on the Digital SAT (and Why It Changes Your Retake Strategy)",
-    "slug": "how-sat-superscoring-works-retake-strategy",
+    "title": "SAT Superscore Strategy: How Colleges Actually Combine Your Section Scores",
+    "slug": "sat-superscore-strategy-how-colleges-combine-scores",
     "category": "SAT Exam",
-    "path": "/images/og/how-sat-superscoring-works-retake-strategy.png",
+    "path": "/images/og/sat-superscore-strategy-how-colleges-combine-scores.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "Which AP Courses Actually Impress Ivy League Admissions Officers?",
-    "slug": "which-ap-courses-impress-ivy-league-admissions",
+    "title": "PSAT and National Merit: Why Most Indian Students Don't Need to Worry About It (and Who Actually Should)",
+    "slug": "psat-national-merit-what-indian-students-should-know",
+    "category": "SAT Exam",
+    "path": "/images/og/psat-national-merit-what-indian-students-should-know.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Which AP Courses Actually Strengthen a Math/STEM-Focused Ivy League Application",
+    "slug": "ap-courses-that-strengthen-stem-ivy-application",
     "category": "AP Exam",
-    "path": "/images/og/which-ap-courses-impress-ivy-league-admissions.png",
+    "path": "/images/og/ap-courses-that-strengthen-stem-ivy-application.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2557,21 +2557,21 @@
     "category": "AP Exam",
     "path": "/images/og/ap-calculus-bc-vs-ap-statistics-stem-majors.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How Many AP Courses Is \"Enough\" for a Competitive US Application?",
-    "slug": "how-many-ap-courses-is-enough",
+    "slug": "how-many-ap-courses-is-enough-competitive-application",
     "category": "AP Exam",
-    "path": "/images/og/how-many-ap-courses-is-enough.png",
+    "path": "/images/og/how-many-ap-courses-is-enough-competitive-application.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
     "title": "Self-Studying APs from India: A Realistic Guide",
-    "slug": "self-studying-ap-exams-from-india-realistic-guide",
+    "slug": "self-studying-aps-from-india-realistic-guide",
     "category": "AP Exam",
-    "path": "/images/og/self-studying-ap-exams-from-india-realistic-guide.png",
+    "path": "/images/og/self-studying-aps-from-india-realistic-guide.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2581,7 +2581,7 @@
     "category": "AP Exam",
     "path": "/images/og/ap-exams-college-credit-money-time-savings.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "MOEMS to AMC to AIME: The Complete Pathway for Young Mathematicians",
@@ -2589,13 +2589,13 @@
     "category": "Olympiad",
     "path": "/images/og/moems-to-amc-to-aime-complete-pathway.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
-    "title": "What Is AMC 8/10/12, and Why US Colleges Notice It?",
-    "slug": "what-is-amc-8-10-12-why-colleges-notice",
+    "title": "AMC 8, 10, and 12 Compared: Picking the Right Level and Why It Matters Beyond the Score",
+    "slug": "amc-8-10-12-compared-choosing-the-right-level",
     "category": "Olympiad",
-    "path": "/images/og/what-is-amc-8-10-12-why-colleges-notice.png",
+    "path": "/images/og/amc-8-10-12-compared-choosing-the-right-level.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2605,77 +2605,77 @@
     "category": "Olympiad",
     "path": "/images/og/how-to-start-preparing-for-moems-grades-4-6.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
-    "title": "AMC 12 Explained: How It Differs From AMC 10, and Who Should Take It",
-    "slug": "amc-12-explained-how-it-differs-from-amc-10",
+    "title": "How to Read an AMC/AIME Cutoff Table: Understanding Percentiles Year to Year",
+    "slug": "how-to-read-amc-aime-cutoff-tables",
     "category": "Olympiad",
-    "path": "/images/og/amc-12-explained-how-it-differs-from-amc-10.png",
+    "path": "/images/og/how-to-read-amc-aime-cutoff-tables.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "MOEMS to AMC 8: What Changes, and When to Make the Jump",
-    "slug": "moems-to-amc-8-transition-when-to-make-the-jump",
+    "title": "How to Read an AMC Score Report the First Time: A Beginner's Walkthrough",
+    "slug": "how-to-read-amc-score-report-beginners-walkthrough",
     "category": "Olympiad",
-    "path": "/images/og/moems-to-amc-8-transition-when-to-make-the-jump.png",
+    "path": "/images/og/how-to-read-amc-score-report-beginners-walkthrough.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "Why Olympiad Math Builds Better Problem-Solvers Than School Curriculum",
-    "slug": "why-olympiad-math-builds-better-problem-solvers",
+    "title": "USAMO and Beyond: MOP, the IMO Team, and the Elite Tier of American Math Competitions",
+    "slug": "usamo-and-beyond-elite-tier-american-math-competitions",
     "category": "Olympiad",
-    "path": "/images/og/why-olympiad-math-builds-better-problem-solvers.png",
+    "path": "/images/og/usamo-and-beyond-elite-tier-american-math-competitions.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "Beyond USAMO: What the Putnam and IMO Training Camp Actually Involve",
-    "slug": "beyond-usamo-putnam-imo-training-camp-explained",
-    "category": "Olympiad",
-    "path": "/images/og/beyond-usamo-putnam-imo-training-camp-explained.png",
-    "dimensions": "1200x630",
-    "status": "created"
-  },
-  {
-    "title": "Do Math Olympiads Really Move the Needle for Ivy League Admissions?",
-    "slug": "do-math-olympiads-move-the-needle-ivy-league",
+    "title": "What Ivy League Math Departments Actually Look For Beyond Competition Scores",
+    "slug": "what-ivy-league-math-departments-look-for",
     "category": "Ivy Colleges",
-    "path": "/images/og/do-math-olympiads-move-the-needle-ivy-league.png",
+    "path": "/images/og/what-ivy-league-math-departments-look-for.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "How Admissions Officers Read a Student's Olympiad Track Record",
-    "slug": "how-admissions-officers-read-olympiad-track-record",
+    "title": "Letters of Recommendation for STEM Applicants: What a Math or Science Teacher Should Actually Write",
+    "slug": "letters-of-recommendation-stem-applicants-what-to-write",
     "category": "Ivy Colleges",
-    "path": "/images/og/how-admissions-officers-read-olympiad-track-record.png",
+    "path": "/images/og/letters-of-recommendation-stem-applicants-what-to-write.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Common Application vs Coalition App: What International STEM Applicants Need to Know",
+    "slug": "common-app-vs-coalition-app-international-stem-applicants",
+    "category": "Ivy Colleges",
+    "path": "/images/og/common-app-vs-coalition-app-international-stem-applicants.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
     "title": "Building a \"Spike\" Profile: Why Depth in Math Beats a Long Activity List",
-    "slug": "building-a-spike-profile-depth-over-activity-list",
+    "slug": "building-spike-profile-depth-in-math",
     "category": "Ivy Colleges",
-    "path": "/images/og/building-a-spike-profile-depth-over-activity-list.png",
+    "path": "/images/og/building-spike-profile-depth-in-math.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "What a Strong Olympiad-to-Ivy-League Profile Actually Looks Like",
-    "slug": "what-a-strong-olympiad-to-ivy-league-profile-looks-like",
+    "title": "What Financial Aid and Need-Blind Admissions Actually Mean for International Families",
+    "slug": "financial-aid-need-blind-admissions-international-families",
     "category": "Ivy Colleges",
-    "path": "/images/og/what-a-strong-olympiad-to-ivy-league-profile-looks-like.png",
+    "path": "/images/og/financial-aid-need-blind-admissions-international-families.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
     "title": "Olympiads vs Research Papers: Which Matters More for STEM Applicants?",
-    "slug": "olympiads-vs-research-papers-stem-applicants",
+    "slug": "olympiads-vs-research-papers-which-matters-more",
     "category": "Ivy Colleges",
-    "path": "/images/og/olympiads-vs-research-papers-stem-applicants.png",
+    "path": "/images/og/olympiads-vs-research-papers-which-matters-more.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2685,21 +2685,21 @@
     "category": "Ivy Colleges",
     "path": "/images/og/grade-wise-roadmap-sat-ap-olympiads-grade-8-to-12.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How to Balance School, SAT Prep, and Olympiad Training Without Burning Out",
-    "slug": "balance-school-sat-olympiad-training-without-burnout",
+    "slug": "how-to-balance-school-sat-prep-olympiad-training",
     "category": "Ivy Colleges",
-    "path": "/images/og/balance-school-sat-olympiad-training-without-burnout.png",
+    "path": "/images/og/how-to-balance-school-sat-prep-olympiad-training.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
     "title": "Choosing Between SAT Prep and Olympiad Training When Time Is Limited",
-    "slug": "choosing-between-sat-prep-and-olympiad-training",
+    "slug": "choosing-between-sat-prep-olympiad-training-limited-time",
     "category": "Ivy Colleges",
-    "path": "/images/og/choosing-between-sat-prep-and-olympiad-training.png",
+    "path": "/images/og/choosing-between-sat-prep-olympiad-training-limited-time.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2709,7 +2709,7 @@
     "category": "Ivy Colleges",
     "path": "/images/og/ivy-league-math-applicant-checklist.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How Coaching Institutes Like BuzzyBrains Structure a 4-Year US Admissions Plan",
@@ -2717,21 +2717,21 @@
     "category": "Ivy Colleges",
     "path": "/images/og/how-buzzybrains-structures-4-year-us-admissions-plan.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Parents' Guide: Understanding the US Admissions System from India",
-    "slug": "parents-guide-us-admissions-system-from-india",
+    "slug": "parents-guide-understanding-us-admissions-system-from-india",
     "category": "Ivy Colleges",
-    "path": "/images/og/parents-guide-us-admissions-system-from-india.png",
+    "path": "/images/og/parents-guide-understanding-us-admissions-system-from-india.png",
     "dimensions": "1200x630",
     "status": "created"
   },
   {
-    "title": "Is It Too Late to Start SAT/Olympiad Prep in Grade 10 or 11?",
-    "slug": "too-late-to-start-sat-olympiad-prep-grade-10-11",
+    "title": "Is It Too Late to Start SAT or Olympiad Prep in Grade 11? A Realistic Timeline, Not a Scare Tactic",
+    "slug": "too-late-to-start-sat-olympiad-prep-grade-11",
     "category": "Ivy Colleges",
-    "path": "/images/og/too-late-to-start-sat-olympiad-prep-grade-10-11.png",
+    "path": "/images/og/too-late-to-start-sat-olympiad-prep-grade-11.png",
     "dimensions": "1200x630",
     "status": "created"
   },
@@ -2741,7 +2741,7 @@
     "category": "Ivy Colleges",
     "path": "/images/og/cost-of-us-application-journey-tests-coaching-applications.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "IIT-JEE Preparation Guides",
