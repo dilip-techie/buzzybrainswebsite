@@ -21,7 +21,7 @@ export const FACULTY_PROFILES: FacultyProfile[] = [
     initials: 'DS',
     gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)',
     tagline: 'Founder & Lead Mentor — 25+ years turning confusion into confidence',
-    bio: "Dilip Sir cleared JEE with an All India Rank of 400 before spending 24+ years in technology leadership — then founded BuzzyBrains Academy in 2021 to fix a problem he'd watched play out for years: bright students failing not from lack of ability, but because no one in a 60-student classroom had time to catch their specific gap. He personally teaches Mathematics and Physics, and every program at the academy — from Foundation to JEE to Olympiad — carries his concept-first philosophy: a topic isn't 'done' until a student can explain why it works, not just how to solve it.",
+    bio: "Dilip Sir cleared JEE with an All India Rank of 400 before spending 25+ years in technology leadership — then founded BuzzyBrains Academy in 2021 to fix a problem he'd watched play out for years: bright students failing not from lack of ability, but because no one in a 60-student classroom had time to catch their specific gap. He personally teaches Mathematics and Physics, and every program at the academy — from Foundation to JEE to Olympiad — carries his concept-first philosophy: a topic isn't 'done' until a student can explain why it works, not just how to solve it.",
     highlights: [
       'JEE All India Rank 400 — he has personally been through the exam he now coaches for.',
       '25+ years of teaching experience, spanning Foundation through JEE Advanced.',

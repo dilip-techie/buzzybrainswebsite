@@ -1179,7 +1179,7 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       { kind: 'h2', text: "Expert Tips from BuzzyBrains Academy Faculty" },
-      { kind: 'p', text: "At BuzzyBrains Academy, Olympiad coaching is led by founder **Dilip Sah**, an **IIT Kanpur alumnus** who cleared JEE with an **All India Rank of 400**, bringing over **25 years of mentoring experience** to how the programme is structured. A few principles that shape our approach:" },
+      { kind: 'p', text: "At BuzzyBrains Academy, Olympiad coaching is led by founder **Dilip Sah**, an **IIT Kanpur alumnus** who cleared JEE with an **All India Rank of 400**, bringing over **25+ years of mentoring experience** to how the programme is structured. A few principles that shape our approach:" },
       {
         kind: 'ul',
         items: [
@@ -1755,7 +1755,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { kind: 'p', text: "Generic \"hard maths problems\" practice is not the same as practicing the specific format of a target exam — whether that's IOQM's integer-answer style, AMC 8's multiple-choice format, or another exam's structure entirely." },
       { kind: 'p', text: "**The fix:** In the final months before an exam, practice should specifically mirror the real exam's format, not just its general difficulty level." },
       { kind: 'h2', text: "Expert Tips from BuzzyBrains Academy Faculty" },
-      { kind: 'p', text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years mentoring experience**) has watched these patterns repeat across hundreds of students. A few observations that shape how BuzzyBrains Academy structures preparation:" },
+      { kind: 'p', text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has watched these patterns repeat across hundreds of students. A few observations that shape how BuzzyBrains Academy structures preparation:" },
       {
         kind: 'ul',
         items: [
