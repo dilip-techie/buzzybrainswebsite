@@ -11,7 +11,7 @@ import CtaModal from '@/components/CtaModal';
 const FAQS = [
   {
     question: 'Who founded BuzzyBrains Academy, and when?',
-    answer: 'BuzzyBrains Academy was founded in mid-2021 by Dilip Sah (IIT Kanpur, IIM Ahmedabad), who left a stable job to start the academy from a 200-sq-ft rented room with just 8 students from his neighborhood.',
+    answer: 'BuzzyBrains Academy was founded in mid-2021 by Dilip Sah (IIT Kanpur, IIM Ahmedabad), who left a stable job to start the academy from a spare room in his own house, with just 8 students from his neighborhood.',
   },
   {
     question: 'Why did BuzzyBrains Academy start with such small batches?',
@@ -79,7 +79,7 @@ export default function AboutPage() {
     {
       year: "Mid-2021",
       title: "The Leap",
-      description: "Rented a small room with borrowed furniture. Started with 8 students and a promise: quality over numbers. No ads, just word of mouth."
+      description: "Started teaching out of a spare room in his own house. 8 students, and a promise: quality over numbers. No ads, just word of mouth."
     },
     {
       year: "2022",
@@ -165,7 +165,7 @@ export default function AboutPage() {
                   The few good teachers he knew? They were exhausted, underpaid, and frustrated by the system that forced them to choose between their principles and their paychecks.
                 </p>
                 <p className="text-blue-600 font-bold text-lg">
-                  "I couldn't sleep at night watching this. I had to try something different."
+                  "I saw the same story repeat too many times. I had to try something different."
                 </p>
               </div>
             </div>
@@ -229,10 +229,10 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">So, We Started Small. Really Small.</h3>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  In mid-2021, Dilip Sir left his stable job and started BuzzyBrains Academy from a 200-sq-ft rented room with an old whiteboard and borrowed chairs. The first batch? Just 8 students from his neighborhood who trusted him enough to take the risk.
+                  In mid-2021, Dilip Sir left his stable job and started BuzzyBrains Academy from a spare room in his own house. The first batch? Just 8 students from his neighborhood who trusted him enough to take the risk.
                 </p>
                 <p>
-                  It was terrifying. No fancy infrastructure. No fancy ads. Just him, a pen, and a promise: "I will know each of you personally. I will help you understand, not just complete the syllabus."
+                  There was no infrastructure, no marketing budget — just him and a promise: "I will know each of you personally. I will help you understand, not just complete the syllabus."
                 </p>
                 <p className="font-semibold text-blue-600 mb-4">The first year was hard:</p>
                 <ul className="space-y-3 ml-4">
@@ -373,7 +373,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Be Part of Our Story</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of students who transformed their lives with BuzzyBrains Academy. Your success story starts here.
+            Join the hundreds of students who've transformed their learning with BuzzyBrains Academy. Your success story starts here.
           </p>
           <button 
             onClick={() => setShowCtaModal(true)}
