@@ -633,7 +633,7 @@ export default function HomePage() {
                 <div className="stat-card-icon" style={{ background: stat.gradient }}>{stat.icon}</div>
                 <div>
                   <b>
-                    <span className="count" data-count={stat.count}>0</span>
+                    <span className="count" data-count={stat.count}>{stat.count}</span>
                     {stat.suffix ? <span className="stat-suffix-lg">{stat.suffix}</span> : null}
                   </b>
                   <span className="stat-label">{stat.label}</span>
