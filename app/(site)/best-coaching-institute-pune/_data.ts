@@ -97,7 +97,7 @@ export const FAQS: Faq[] = [
   {
     question: 'How do I book a free demo class at BuzzyBrains Academy?',
     answer:
-      'You can book a free demo class through the contact form on the BuzzyBrains Academy website, by calling +91 98505 70525, or by messaging on WhatsApp. A counsellor will confirm your child\'s grade and goals and schedule a demo class with the relevant subject mentor.',
+      'You can book a free demo class through the contact form on the BuzzyBrains Academy website, by calling +91 89836 04478, or by messaging on WhatsApp. A counsellor will confirm your child\'s grade and goals and schedule a demo class with the relevant subject mentor.',
   },
   {
     question: 'Which areas of Pune does BuzzyBrains Academy serve?',
@@ -127,7 +127,7 @@ export const FAQS: Faq[] = [
   {
     question: 'How do I contact BuzzyBrains Academy or enrol my child?',
     answer:
-      "You can reach BuzzyBrains Academy by phone or WhatsApp at +91 98505 70525, by email at hello@buzzybrainsacademy.com, or by visiting the Amanora center at 201, Pallazo, near Wisdom World School, Hadapsar, Pune. The website's contact form and admissions page also outline the entrance test and enrollment process.",
+      "You can reach BuzzyBrains Academy by phone or WhatsApp at +91 89836 04478, by email at hello@buzzybrainsacademy.com, or by visiting the Amanora center at 201, Pallazo, near Wisdom World School, Hadapsar, Pune. The website's contact form and admissions page also outline the entrance test and enrollment process.",
   },
 ];
 

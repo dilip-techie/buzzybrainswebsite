@@ -85,7 +85,7 @@ export default function TermsAndConditionsPage() {
             <p>
               Questions about these terms can be directed to{' '}
               <a href="mailto:hello@buzzybrainsacademy.com">hello@buzzybrainsacademy.com</a> or{' '}
-              <a href="tel:+919850570525">+91 98505 70525</a>.
+              <a href="tel:+918983604478">+91 89836 04478</a>.
             </p>
           </article>
         </div>

@@ -29,7 +29,7 @@ export function LocationPage({
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
           <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
             <Link prefetch={false} href="/admissions" className="btn btn-primary">Book Free Demo</Link>
-            <a href="tel:+919850570525" className="btn btn-ghost">Call Us</a>
+            <a href="tel:+918983604478" className="btn btn-ghost">Call Us</a>
           </div>
         </div>
       </section>

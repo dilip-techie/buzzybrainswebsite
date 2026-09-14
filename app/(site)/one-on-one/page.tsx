@@ -18,7 +18,7 @@ export default function OneOnOneClassesPage() {
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
-    window.open('https://wa.me/919850570525', '_blank');
+    window.open('https://wa.me/918983604478', '_blank');
   };
 
   const handleCtaModalForm = () => {
@@ -394,9 +394,9 @@ export default function OneOnOneClassesPage() {
             First consultation is <span className="font-bold text-indigo-600">FREE</span>. We'll assess your child's needs and create a custom plan.
           </p>
           <div className="space-y-4 mb-8">
-            <a href="tel:+919850570525" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-indigo-600 transition">
+            <a href="tel:+918983604478" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-indigo-600 transition">
               <Phone className="w-6 h-6 text-indigo-600" />
-              <span className="font-bold">98505 70525</span>
+              <span className="font-bold">89836 04478</span>
             </a>
             <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
               <MapPin className="w-6 h-6 text-indigo-600" />

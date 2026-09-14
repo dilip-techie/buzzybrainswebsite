@@ -113,7 +113,7 @@ export default function MockTestPlannerPage() {
 
   const totalMocks = phases.reduce((sum, p) => sum + p.mockCount, 0);
   const waMessage = `Hi! I built a mock test schedule using your Mock Test Planner for ${config.label} (exam date: ${examDate || 'not set'}). Can I get a mentor's feedback on it?`;
-  const waHref = `https://wa.me/919850570525?text=${encodeURIComponent(waMessage)}`;
+  const waHref = `https://wa.me/918983604478?text=${encodeURIComponent(waMessage)}`;
 
   return (
     <main className="bb-landing bb-page-shell">

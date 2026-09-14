@@ -478,7 +478,7 @@ function ChecklistPage() {
           led by founder Dilip Sah — IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience.
         </Text>
         <Text style={{ fontSize: 9.5, color: BRAND.amber, fontFamily: 'Helvetica-Bold' }}>
-          Book a free demo class: +91 98505 70525 · hello@buzzybrainsacademy.com
+          Book a free demo class: +91 89836 04478 · hello@buzzybrainsacademy.com
         </Text>
         <Text style={{ fontSize: 9, color: '#94A3B8', marginTop: 4 }}>
           201, Pallazo, Nr. Wisdom World School, Amanora, Hadapsar, Pune

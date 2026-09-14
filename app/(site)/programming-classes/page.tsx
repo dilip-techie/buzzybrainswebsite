@@ -84,7 +84,7 @@ export default function ProgrammingClassesPage() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://wa.me/919850570525"
+                  href="https://wa.me/918983604478"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 px-8 rounded-lg transition transform hover:scale-105"
@@ -92,7 +92,7 @@ export default function ProgrammingClassesPage() {
                   Book FREE Demo Class
                 </a>
                 <a
-                  href="https://wa.me/919850570525"
+                  href="https://wa.me/918983604478"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block border-2 border-purple-400 text-purple-400 hover:bg-purple-400/10 font-bold py-4 px-8 rounded-lg transition"
@@ -695,7 +695,7 @@ export default function ProgrammingClassesPage() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 px-8 rounded-lg transition transform hover:scale-105"
@@ -703,7 +703,7 @@ export default function ProgrammingClassesPage() {
               Book FREE Demo Class
             </a>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border-2 border-white text-white hover:bg-white/10 font-bold py-4 px-8 rounded-lg transition"
@@ -715,7 +715,7 @@ export default function ProgrammingClassesPage() {
           <div className="mt-12 pt-8 border-t border-purple-500/20">
             <p className="text-gray-400 mb-6">Get in touch with us for quick assistance</p>
             <div className="flex flex-col sm:flex-row justify-center gap-8 text-gray-300">
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-purple-400 transition">
+              <a href="https://wa.me/918983604478" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-purple-400 transition">
                 <MessageCircle className="w-5 h-5 mr-2" />
                 <span>WhatsApp</span>
               </a>

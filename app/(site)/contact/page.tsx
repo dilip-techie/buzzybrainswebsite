@@ -37,7 +37,7 @@ export default function ContactPage() {
               Connect with us instantly on WhatsApp for quick responses and personalized guidance.
             </p>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition"
@@ -56,10 +56,10 @@ export default function ContactPage() {
               Call us directly for immediate assistance with admissions and course inquiries.
             </p>
             <a
-              href="tel:+919850570525"
+              href="tel:+918983604478"
               className="inline-block text-blue-400 font-bold py-3 px-6 rounded-lg border border-blue-400 hover:bg-blue-400/10 transition"
             >
-              Call 98505 70525
+              Call 89836 04478
             </a>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function ContactPage() {
             Connect with our expert mentors today and unlock your potential
           </p>
           <a
-            href="https://wa.me/919850570525"
+            href="https://wa.me/918983604478"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-purple-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition"

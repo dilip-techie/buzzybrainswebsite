@@ -108,7 +108,7 @@ export default function DiscountPopup() {
           </div>
 
           <a
-            href="https://wa.me/919850570525"
+            href="https://wa.me/918983604478"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 block w-full rounded-sm bg-[#C9A227] px-6 py-3.5 text-center text-[14px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"
