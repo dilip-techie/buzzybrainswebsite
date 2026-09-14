@@ -10,7 +10,7 @@ export default function CtaModal({
   onWhatsAppClick,
   title = 'Ready to Enroll?',
   subtitle = "Choose how you'd like to connect with us",
-  phone = '+919850570525',
+  phone = '+918983604478',
 }: {
   open: boolean;
   onClose: () => void;

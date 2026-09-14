@@ -450,7 +450,7 @@ export default function HomePage() {
         `Email: ${formData.email}`,
         `Program: ${formData.program}`,
       ].join('\n');
-      window.open(`https://wa.me/919850570525?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+      window.open(`https://wa.me/918983604478?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
     } catch (err) {
       setSubmitError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
     } finally {
@@ -1000,11 +1000,11 @@ export default function HomePage() {
               <a href="#leadForm" className="btn btn-amber">Book Free Demo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </a>
-              <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
+              <a href="tel:+918983604478" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.7 2z" /></svg>
                 Call Now
               </a>
-              <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" className="btn btn-green">
+              <a href="https://wa.me/918983604478" target="_blank" rel="noopener noreferrer" className="btn btn-green">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.4.9-.9 1-.7 1.4.9 1.5 2 2.5 3.4 3.1.4.2.6.2.8-.1.2-.2.9-1 1.1-1.3.2-.3.4-.3.7-.2l2 1c.3.1.5.2.6.3 0 .2 0 .8-.2 1.5z" /></svg>
                 WhatsApp
               </a>
@@ -1079,9 +1079,9 @@ export default function HomePage() {
                 {submitError && (
                   <p role="alert" style={{ fontSize: 13.5, color: '#DC2626', background: 'rgba(220,38,38,.08)', border: '1px solid rgba(220,38,38,.25)', borderRadius: 8, padding: '10px 14px', marginTop: 12 }}>
                     {submitError} Or message us directly on{' '}
-                    <a href="https://wa.me/919850570525" target="_blank" rel="noopener noreferrer" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>WhatsApp</a>{' '}
+                    <a href="https://wa.me/918983604478" target="_blank" rel="noopener noreferrer" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>WhatsApp</a>{' '}
                     or call{' '}
-                    <a href="tel:+919850570525" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>98505 70525</a>.
+                    <a href="tel:+918983604478" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>89836 04478</a>.
                   </p>
                 )}
                 <button type="submit" className="btn btn-primary" disabled={submitting} style={{ width: '100%', marginTop: 8, opacity: submitting ? 0.7 : 1, cursor: submitting ? 'not-allowed' : 'pointer' }}>

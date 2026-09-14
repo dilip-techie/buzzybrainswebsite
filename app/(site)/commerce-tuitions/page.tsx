@@ -67,7 +67,7 @@ export default function CommerceTuitionsPage() {
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
-    window.open('https://wa.me/919850570525', '_blank');
+    window.open('https://wa.me/918983604478', '_blank');
   };
 
   const handleCtaModalForm = () => {
@@ -102,7 +102,7 @@ export default function CommerceTuitionsPage() {
               Book Free Demo
               <ChevronRight size={19} />
             </button>
-            <a href="tel:+919850570525" className="btn btn-ghost">
+            <a href="tel:+918983604478" className="btn btn-ghost">
               <Phone size={17} /> Call Us
             </a>
           </div>
@@ -219,8 +219,8 @@ export default function CommerceTuitionsPage() {
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
               Book Your Free Demo <ChevronRight size={19} />
             </button>
-            <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
-              <Phone size={17} /> 98505 70525
+            <a href="tel:+918983604478" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
+              <Phone size={17} /> 89836 04478
             </a>
           </div>
         </div>

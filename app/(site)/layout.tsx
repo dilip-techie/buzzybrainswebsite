@@ -36,7 +36,7 @@ export default function SiteLayout({
             'Premium coaching institute in Pune for IIT-JEE, NEET, Olympiads, NTSE and Foundation courses (Grades 6–10) with IITian faculty and AI-powered learning.',
           url: 'https://buzzybrainsacademy.com',
           logo: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
-          telephone: '+91-98505-70525',
+          telephone: '+91-89836-04478',
           email: 'hello@buzzybrainsacademy.com',
           address: {
             '@type': 'PostalAddress',

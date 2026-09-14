@@ -20,7 +20,7 @@ export default function FinalCta({
         </p>
         <div className="reveal mt-9 flex flex-wrap items-center justify-center gap-4" data-delay="2">
           <a
-            href="https://wa.me/919850570525"
+            href="https://wa.me/918983604478"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-sm bg-[#C9A227] px-8 py-4 text-[14px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"

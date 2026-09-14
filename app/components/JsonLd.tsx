@@ -139,7 +139,7 @@ export function LocalBusinessJsonLd({
           name,
           description,
           url,
-          telephone: '+91-98505-70525',
+          telephone: '+91-89836-04478',
           email: 'hello@buzzybrainsacademy.com',
           priceRange: '₹₹',
           address: {

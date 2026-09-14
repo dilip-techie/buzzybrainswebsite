@@ -66,7 +66,7 @@ export function BestInstituteTemplate({ data }: { data: BestInstituteData }) {
           </p>
           <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
             <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
-            <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
+            <a href="tel:+918983604478" className="btn btn-ghost">Call +91 89836 04478</a>
           </div>
         </div>
       </section>

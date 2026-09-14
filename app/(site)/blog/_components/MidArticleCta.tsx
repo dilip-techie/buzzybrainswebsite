@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 import { CATEGORY_STYLE, type BlogCategory } from '../_data/categories';
 import type { BlogBlock } from '../_data/posts';
 
-const WHATSAPP_NUMBER = '919850570525';
+const WHATSAPP_NUMBER = '918983604478';
 
 /** Program labels that start with a vowel *sound* (not just a vowel letter —
  * "NMTC" is said "en-em-tee-see", "SAT" is said as a word), so "an" reads

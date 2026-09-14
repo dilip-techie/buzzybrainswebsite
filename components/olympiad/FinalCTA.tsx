@@ -25,11 +25,11 @@ export default function FinalCTA({
             <a href="#oly-lead-form" className="oly-btn-primary !bg-white !text-oly-brand-700 hover:!bg-oly-amber hover:!text-oly-ink">
               Book Free Demo
             </a>
-            <a href="tel:+919850570525" className="oly-btn-secondary !border-white/25 !bg-transparent !text-white hover:!border-white">
+            <a href="tel:+918983604478" className="oly-btn-secondary !border-white/25 !bg-transparent !text-white hover:!border-white">
               <Phone size={16} /> Call Now
             </a>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="oly-btn-secondary !border-white/25 !bg-transparent !text-white hover:!border-white"

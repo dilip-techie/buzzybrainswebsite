@@ -43,7 +43,7 @@ export default function Class12BoardPage() {
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
-    window.open('https://wa.me/919850570525', '_blank');
+    window.open('https://wa.me/918983604478', '_blank');
   };
 
   const handleCtaModalForm = () => {
@@ -404,9 +404,9 @@ export default function Class12BoardPage() {
             Every batch is capped at <span className="font-bold text-blue-600">12 students</span> so mentoring stays personal — once a batch fills, the next one starts the following month.
           </p>
           <div className="space-y-4 mb-8">
-            <a href="tel:+919850570525" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:opacity-80 transition">
+            <a href="tel:+918983604478" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:opacity-80 transition">
               <Phone className={`w-6 h-6 ${highlightColor}`} />
-              <span className="font-bold">98505 70525</span>
+              <span className="font-bold">89836 04478</span>
             </a>
             <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
               <MapPin className={`w-6 h-6 ${highlightColor}`} />

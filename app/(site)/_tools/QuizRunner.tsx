@@ -173,7 +173,7 @@ export function QuizRunner({
   if (phase === 'results') {
     const percent = Math.round((score / total) * 100);
     const waMessage = `Hi! I scored ${score}/${total} on the ${examLabel} quiz on your site. Can I get personalized guidance on my ${examLabel} prep?`;
-    const waHref = `https://wa.me/919850570525?text=${encodeURIComponent(waMessage)}`;
+    const waHref = `https://wa.me/918983604478?text=${encodeURIComponent(waMessage)}`;
 
     return (
       <div>
