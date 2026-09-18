@@ -33249,7 +33249,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         kind: 'ul',
         items: [
-          "The Crash Course is an 8-week batch, sequenced to complete before the MHT CET 2027 Session 1 window opens on December 15, 2026.",
+          "The Crash Course is an 8-week sprint into MHT CET 2027 Session 1 (opening December 15, 2026), with support carried through the Session 2 attempt in April 2027 and results in May — one enrollment covers both attempts.",
           "It is led personally by Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) — not delegated to junior faculty.",
           "Batches are capped at 12 students so every weekly mock gets reviewed chapter-by-chapter, not just scored and forgotten.",
           "The curriculum is weightage-first: it starts from CET's actual high-scoring chapters, not a page-by-page reread of the textbook.",
@@ -33327,7 +33327,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: 'Does this also prepare students for the April 2027 Session 2 attempt?',
-        answer: "This particular batch is built for Session 1. Students who want to sharpen their score further for the April 2027 attempt can join a separate, shorter top-up batch closer to that date — ask about it when you enroll.",
+        answer: "Yes — enrollment covers both attempts. The 8-week sprint targets Session 1, and the same batch regroups for a shorter refresher cycle ahead of the April 2027 Session 2 attempt, with support continuing through results in May.",
       },
     ],
   },

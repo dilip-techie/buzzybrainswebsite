@@ -104,7 +104,6 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad (Grades 9–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
-      { href: '/mht-cet-crash-course-pune', label: 'MHT CET Crash Course (Grade 12)' },
       { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
       { href: '/test-series', label: 'Board Test Series (Grades 10 & 12)' },
     ],
@@ -140,10 +139,42 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   },
 ];
 
+const CRASH_COURSE_MEGA_MENU: MegaMenuGroup[] = [
+  {
+    title: 'Engineering Entrance',
+    subtitle: 'MHT-CET · Both Attempts, Till May',
+    column: 1,
+    items: [
+      { href: '/mht-cet-crash-course-pune', label: 'MHT CET Crash Course (Grade 12)' },
+    ],
+    footerLink: { href: '/mht-cet-crash-course-pune', label: 'View MHT CET Crash Course →' },
+  },
+  {
+    title: 'Class 10 Boards',
+    subtitle: 'CBSE · ICSE',
+    column: 2,
+    items: [
+      { href: '/10th-cbse-crash-course-pune', label: '10th CBSE Maths & Science' },
+      { href: '/10th-icse-crash-course-pune', label: '10th ICSE Maths, Physics, Chemistry & Biology' },
+    ],
+    footerLink: { href: '/10th-cbse-crash-course-pune', label: 'View Class 10 Crash Courses →' },
+  },
+  {
+    title: 'Class 12 Board',
+    subtitle: 'CBSE PCMB',
+    column: 3,
+    items: [
+      { href: '/12th-cbse-crash-course-pune', label: '12th CBSE Physics, Chemistry, Maths & Biology' },
+    ],
+    footerLink: { href: '/12th-cbse-crash-course-pune', label: 'View 12th CBSE Crash Course →' },
+  },
+];
+
 const NAV_LINKS = [
   { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
   { href: '/test-series', label: 'Board Test Series', simpleItems: TEST_SERIES_MENU },
   { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
+  { href: '/mht-cet-crash-course-pune', label: '2026-27 Crash Course', groups: CRASH_COURSE_MEGA_MENU },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
   { href: '/resource-centre', label: 'Free Tools' },
@@ -168,7 +199,7 @@ const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: b
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
+  const [openMobileGroupsMenu, setOpenMobileGroupsMenu] = useState<string | null>(null);
   const [openMobileSimpleMenu, setOpenMobileSimpleMenu] = useState<string | null>(null);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [stripPaused, setStripPaused] = useState(false);
@@ -345,13 +376,13 @@ export default function Navbar() {
                 <button
                   type="button"
                   className="mobile-menu-programs-trigger"
-                  aria-expanded={mobileProgramsOpen}
-                  onClick={() => setMobileProgramsOpen((prev) => !prev)}
+                  aria-expanded={openMobileGroupsMenu === link.href}
+                  onClick={() => setOpenMobileGroupsMenu((prev) => (prev === link.href ? null : link.href))}
                 >
                   {link.label}
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                 </button>
-                <div className={`mobile-menu-programs-panel${mobileProgramsOpen ? ' open' : ''}`}>
+                <div className={`mobile-menu-programs-panel${openMobileGroupsMenu === link.href ? ' open' : ''}`}>
                   {link.groups.map((group) => (
                     <div className="mobile-menu-group" key={group.title}>
                       <span className="mobile-menu-group-title">{group.title}</span>

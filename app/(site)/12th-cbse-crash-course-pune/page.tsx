@@ -3,7 +3,7 @@
 import '@/app/tailwind.css';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Brain, Rocket, TrendingUp, Clock } from 'lucide-react';
+import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, ChevronRight, Brain, Clock, Rocket, Stethoscope } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
 import CtaModal from '@/components/CtaModal';
@@ -12,35 +12,31 @@ const FAQS = [
   {
     question: 'Who is this crash course actually for?',
     answer:
-      "Class 12 PCM/PCB students who have covered most of their syllabus and need concentrated, CET-pattern practice before Session 1 — not students with major foundational gaps. If a topic hasn't been taught in school yet, we'll say so upfront and suggest our full-year 12th Board program instead. A crash course tops up a mostly-complete foundation; it doesn't build one from scratch.",
+      "CBSE Class 12 PCM or PCB students who have covered most of their syllabus in school and need focused, board-pattern practice before the Feb-March 2027 exams — not a first introduction to the subjects. If entire chapters are still untaught, we'll say so upfront rather than rushing through them.",
   },
   {
-    question: 'When does the batch run, and why does the timing matter this year?',
-    answer:
-      "MHT CET 2027 Session 1 is set for December 15, 2026 - January 15, 2027 — the first time CET has ever landed before boards instead of after. This batch is timed to finish before that window opens, so the sprint itself doesn't eat into board-exam study time later.",
+    question: 'Does this cover PCM, PCB, or both?',
+    answer: "Both — Physics and Chemistry are shared across streams, Mathematics runs as the PCM track and Biology as the PCB track, so a student joins the shared subjects plus whichever of Maths or Biology applies to them.",
+  },
+  {
+    question: 'Who teaches each subject?',
+    answer: "Mathematics and Physics are led by founder Dilip Sir (IIT Kanpur, JEE AIR 400), Physics and Chemistry by Agarwal Sir (PhD, IIT Bombay), Chemistry additionally by Dr. Mrinmayee (PhD, IIT Kharagpur), and Biology by Dr. Todkar, a practicing General Physician — named specialists, not one generalist covering everything.",
+  },
+  {
+    question: 'Does this also help with JEE Main or NEET preparation?',
+    answer: "This particular batch is built specifically as a CBSE board-exam sprint, not a JEE/NEET prep track. If you also want competitive-exam preparation, see our full-year 12th Board PCM or PCB programs, which combine board and entrance-exam prep from earlier in the year.",
   },
   {
     question: 'Is this online, offline, or both?',
     answer: 'Sessions run from our Amanora, Pune centre, with a live online option for students who prefer not to commute — both formats get the same content, faculty and test schedule.',
   },
   {
-    question: 'How is this different from just doing mock tests on my own?',
-    answer:
-      "Self-run mocks tell you a score; they don't tell you which of the 20% of chapters is costing you 80% of your lost marks, or how to actually use a second CET attempt if you get one. Dilip Sir reviews every mock with the batch, chapter by chapter, and adjusts the next week's focus accordingly.",
-  },
-  {
-    question: 'What if my syllabus isn\'t fully finished by the batch start date?',
-    answer:
-      "Tell us during the enrollment call — we'll either recommend waiting for the next batch or pair the crash course with a few extra one-on-one sessions on the specific chapters you're behind on, so the group sessions aren't wasted on material you're not ready for yet.",
-  },
-  {
-    question: 'Does this cover the MHT CET Session 2 attempt in April as well?',
-    answer:
-      "Yes — enrollment isn't limited to the Session 1 sprint alone. Dilip Sir and the batch stay with you through the Session 2 attempt in April 2027 and through results in May, with refresher sessions and updated mocks ahead of the second attempt, so you don't need to sign up for a separate program to be supported on both attempts.",
+    question: "What if my child hasn't finished the syllabus yet in one subject?",
+    answer: "Tell us during the enrollment call — we'll either recommend a later batch for that subject or pair the crash course with a few one-on-one sessions on the specific weak chapters first, so group sessions aren't spent on material that hasn't been taught yet.",
   },
 ];
 
-export default function MhtCetCrashCoursePage() {
+export default function TwelfthCbseCrashCoursePage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
   const handleCtaModalWhatsApp = () => {
@@ -56,13 +52,13 @@ export default function MhtCetCrashCoursePage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: 'Led by Dilip Sir',
-      description: 'Designed and personally taught by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring Pune students) — not handed off to a junior batch of tutors.',
+      title: 'Led by Founder Dilip Sir',
+      description: 'Mathematics & Physics led personally by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring) — not handed off to a junior batch of tutors.',
     },
     {
       icon: Clock,
-      title: 'Built for the New Dec 15 Window',
-      description: "MHT CET 2027 Session 1 runs Dec 15, 2026 - Jan 15, 2027, before boards for the first time. This batch is sequenced to finish before that window opens.",
+      title: 'Built for the Feb-March 2027 Window',
+      description: 'CBSE Class 12 board exams are expected in February-March 2027, as a single annual exam. This sprint is sequenced to finish well before that window.',
     },
     {
       icon: Users,
@@ -72,66 +68,65 @@ export default function MhtCetCrashCoursePage() {
     {
       icon: Target,
       title: 'Weightage-First Triage',
-      description: "Limited weeks mean we start from CET's actual high-weightage chapters, not a page-by-page reread of the textbook.",
+      description: "Limited weeks mean we start from CBSE's actual high-weightage chapters, not a page-by-page reread of the NCERT textbook.",
     },
     {
-      icon: TrendingUp,
-      title: 'Support Through Both Attempts, Till May',
-      description: "Enrollment doesn't end when Session 1 does — you stay with Dilip Sir through the April 2027 Session 2 attempt and through results in May, with best-of-two attempt strategy built in throughout.",
+      icon: Stethoscope,
+      title: 'PCM and PCB, Properly Separated',
+      description: "Mathematics is taught for PCM, Biology for PCB — each stream gets its own track alongside the shared Physics and Chemistry sessions.",
     },
     {
       icon: Rocket,
-      title: 'CET-Pattern Mocks Every Week',
-      description: 'Full-length, negative-marking-free MCQ mocks in the actual MHT CET pattern, under real time pressure, from week one.',
+      title: 'Board-Pattern Mocks Every Week',
+      description: 'Full-length CBSE-pattern papers under real time pressure from week one, with step-marking review built into every session.',
     },
   ];
 
   const curriculum = [
     {
-      subject: 'Physics & Chemistry',
-      focus: 'High-weightage numericals, quick qualitative recall, and the CET-specific MCQ traps that cost marks under time pressure.',
+      subject: 'Physics & Maths — Dilip Sir',
+      focus: 'High-weightage numericals and derivations, with the step-marking discipline CBSE evaluation specifically rewards.',
     },
     {
-      subject: 'Mathematics / Biology',
-      focus: 'PCM batches drill calculus, algebra and coordinate geometry speed; PCB batches drill high-yield Botany/Zoology recall and NCERT-line accuracy.',
+      subject: 'Physics & Chemistry — Agarwal Sir',
+      focus: 'Research-level depth applied to exam technique — the derivation underneath a formula or reaction, not just the memorized shortcut.',
     },
     {
-      subject: 'Every Week',
-      focus: 'One full CET-pattern mock, one detailed error-pattern review session with Dilip Sir, and a short list of exactly what to fix before the next mock.',
+      subject: 'Chemistry — Dr. Mrinmayee',
+      focus: 'Organic mechanisms and inorganic exceptions broken into clear, exam-ready concepts that hold up under exam pressure.',
+    },
+    {
+      subject: 'Biology — Dr. Todkar',
+      focus: 'Applied, clinically-grounded Biology for the PCB stream, taught by a practicing General Physician — real context, not just diagrams.',
     },
   ];
 
   const weeklyPlan = [
     {
       phase: 'Weeks 1-2: Diagnostic & Triage',
-      focus: 'A full-syllabus diagnostic mock identifies exactly which chapters are weak, then the schedule is built around CET\'s actual weightage — not an even split across every topic.',
+      focus: "A full-syllabus diagnostic paper in each enrolled subject identifies exactly which chapters are weak, then the schedule is built around CBSE's actual weightage.",
     },
     {
       phase: 'Weeks 3-5: High-Weightage Drilling',
-      focus: 'Daily/alternate-day sessions target the chapters carrying the most marks, with speed-focused problem sets and quickfire revision for high-recall topics.',
+      focus: 'Daily/alternate-day sessions target the chapters carrying the most marks, with step-marking practice for numericals and structured recall for theory.',
     },
     {
-      phase: 'Weeks 6-8: Full Mocks & Attempt Strategy',
-      focus: 'Weekly full-length CET-pattern mocks under real time limits, plus a session on how to use a Session 1 score to decide what changes before Session 2.',
-    },
-    {
-      phase: 'Jan – May 2027: Carried Through to Session 2',
-      focus: "After Session 1 results, the batch regroups for a shorter refresher cycle ahead of the April attempt — revisiting exactly what Session 1 exposed — and stays available through results in May.",
+      phase: 'Weeks 6-8: Full Mocks & Exam Strategy',
+      focus: 'Weekly full-length board-pattern papers under real time limits, plus a session on time allocation and presentation for the actual exam.',
     },
   ];
 
   const suitableFor = [
-    'Class 12 PCM/PCB students who have covered most of their board syllabus already',
-    'Students who want CET-specific pattern practice, not a general revision class',
-    'Anyone recalibrating their prep now that Session 1 lands before boards, not after',
-    'Students planning to use Session 1 as a genuine attempt, with Session 2 as backup',
-    'Families who want small-batch, faculty-reviewed mocks instead of self-scored practice',
+    'CBSE Class 12 PCM or PCB students who have covered most of their syllabus already',
+    'Students who want board-pattern practice and speed, not a first pass through the syllabus',
+    'Families who want named subject specialists rather than one teacher stretched across every subject',
+    'Students focused on the board exam itself, not combined JEE/NEET preparation',
   ];
 
   const notFor = [
-    "Students who haven't yet completed the bulk of their PCM/PCB syllabus in school",
-    'Anyone looking for a first introduction to Physics, Chemistry, Maths or Biology concepts',
-    'Students wanting a year-long, board-plus-JEE program (see our full 12th Board PCM program instead)',
+    "Students who haven't yet completed the bulk of their syllabus in a given subject",
+    'Students who want combined board-plus-JEE or board-plus-NEET preparation (see our full-year programs instead)',
+    'Families wanting year-round tuition rather than a focused pre-board sprint',
   ];
 
   return (
@@ -142,18 +137,18 @@ export default function MhtCetCrashCoursePage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-6 inline-block">
-              <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">⏱ MHT CET Crash Course</span>
+              <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">⏱ 2026-27 Crash Course</span>
               <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              A Focused Final Sprint Before <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">MHT CET Session 1</span>
+              12th CBSE <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">PCMB</span> Crash Course
             </h1>
-            <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Dec 15, 2026 – Jan 15, 2027 Window · Grade 12 PCM &amp; PCB</h2>
+            <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Physics · Chemistry · Maths · Biology — Class 12 CBSE</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Led personally by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span>
+              Led by <span className="font-bold text-blue-600">Dilip Sir</span>, with <span className="font-bold text-blue-600">Agarwal Sir, Dr. Mrinmayee &amp; Dr. Todkar</span>
             </p>
             <p className="text-lg text-gray-700 mb-8">
-              High-weightage chapter triage, weekly CET-pattern mocks and support through <span className="font-semibold text-gray-900">both attempts, all the way to results in May 2027</span> — built for the year MHT CET moved before boards.
+              High-weightage chapter triage and weekly board-pattern mocks for both PCM and PCB, finishing well ahead of the Feb-March 2027 exam window.
             </p>
             <button
               onClick={() => setShowCtaModal(true)}
@@ -163,11 +158,15 @@ export default function MhtCetCrashCoursePage() {
               <ChevronRight className="w-5 h-5" />
             </button>
             <p className="text-sm text-gray-500 mt-4">
-              Not sure a crash course is right for you yet? Read{' '}
-              <Link prefetch={false} href="/blog/who-should-and-shouldnt-join-a-cet-crash-course" className="text-blue-600 underline">
-                who this program is (and isn&apos;t) built for
-              </Link>
-              .
+              Want combined board-plus-entrance prep instead? See our{' '}
+              <Link prefetch={false} href="/12th-board-pcm" className="text-blue-600 underline">
+                12th Board PCM
+              </Link>{' '}
+              or{' '}
+              <Link prefetch={false} href="/12th-board-pcb" className="text-blue-600 underline">
+                12th Board PCB
+              </Link>{' '}
+              programs.
             </p>
           </div>
         </div>
@@ -178,19 +177,19 @@ export default function MhtCetCrashCoursePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
-              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Till May</div>
-              <p className="text-gray-600 text-lg">Both attempts covered</p>
-              <p className="text-gray-500 mt-2">8-week sprint into Session 1, then support through Session 2 &amp; results</p>
+              <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">8 Weeks</div>
+              <p className="text-gray-600 text-lg">Sprint batch</p>
+              <p className="text-gray-500 mt-2">Finishes well ahead of Feb-March board exams</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
               <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
-              <p className="text-gray-500 mt-2">Every mock reviewed with Dilip Sir personally</p>
+              <p className="text-gray-500 mt-2">Every mock reviewed personally by named faculty</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">PCM &amp; PCB</div>
-              <p className="text-gray-600 text-lg">Both groups covered</p>
-              <p className="text-gray-500 mt-2">Weekly full-length CET-pattern mocks</p>
+              <p className="text-gray-600 text-lg">Both streams covered</p>
+              <p className="text-gray-500 mt-2">Weekly full-length CBSE-pattern mocks</p>
             </div>
           </div>
         </div>
@@ -201,7 +200,7 @@ export default function MhtCetCrashCoursePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Why This Crash Course, and Why Now</h2>
-            <p className="text-xl text-gray-600">MHT CET 2027 Session 1 is the first attempt ever scheduled before boards. The prep calendar has to change with it.</p>
+            <p className="text-xl text-gray-600">A focused pre-board sprint, not a generic revision class squeezed into whatever time is left.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -226,14 +225,14 @@ export default function MhtCetCrashCoursePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">What Gets Covered</h2>
-            <p className="text-xl text-gray-600">A weightage-first sprint, not a page-by-page reread</p>
+            <p className="text-xl text-gray-600">A weightage-first sprint per subject, not a page-by-page reread</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {curriculum.map((item, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
-                  <BookOpen className="w-6 h-6 text-blue-600" />
+                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
+                  <BookOpen className="w-6 h-6 text-blue-600 flex-shrink-0" />
                   <span>{item.subject}</span>
                 </h3>
                 <p className="text-gray-700 text-sm">{item.focus}</p>
@@ -247,11 +246,11 @@ export default function MhtCetCrashCoursePage() {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">The Sprint, Then Support Through May</h2>
-            <p className="text-xl text-gray-600">An 8-week sprint into Session 1, carried through to Session 2 and results — not a one-shot batch</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">The 8-Week Sprint Plan</h2>
+            <p className="text-xl text-gray-600">Sequenced to finish well before the Feb-March 2027 exam window</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {weeklyPlan.map((phase, index) => (
               <div key={index} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border-2 border-blue-600">
                 <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full text-white font-bold mb-4 mx-auto">
@@ -295,11 +294,15 @@ export default function MhtCetCrashCoursePage() {
                 ))}
               </div>
               <p className="text-blue-100 mt-6 text-sm">
-                Looking for a full board-plus-JEE year, not just a sprint? See our{' '}
+                Want board results and a JEE/NEET score together? See our full{' '}
                 <Link prefetch={false} href="/12th-board-pcm" className="underline text-white font-semibold">
-                  12th Board PCM program
-                </Link>
-                .
+                  12th Board PCM
+                </Link>{' '}
+                or{' '}
+                <Link prefetch={false} href="/12th-board-pcb" className="underline text-white font-semibold">
+                  PCB
+                </Link>{' '}
+                program instead.
               </p>
             </div>
           </div>
@@ -313,9 +316,9 @@ export default function MhtCetCrashCoursePage() {
       {/* Limited Seats */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-12 border-2 border-blue-200">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">⏳ Limited Seats — One Enrollment, Both Attempts</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">⏳ Limited Seats — PCM &amp; PCB Tracks</h2>
           <p className="text-xl text-gray-700 mb-8">
-            Every batch is capped at <span className="font-bold text-blue-600">12 students</span> so every mock gets reviewed personally — enrollment closes once the batch is full or the sprint window starts, whichever comes first, and carries you through Session 2 and results in May without re-enrolling.
+            Every batch is capped at <span className="font-bold text-blue-600">12 students</span> so every mock gets reviewed personally — enrollment closes once a subject&apos;s batch is full or the sprint window starts, whichever comes first.
           </p>
           <div className="space-y-4 mb-8">
             <a href="tel:+918983604478" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-blue-600 transition">
@@ -339,9 +342,9 @@ export default function MhtCetCrashCoursePage() {
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Session 1 Starts December 15. Weeks Matter Now.</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Boards Start February. Weeks Matter Now.</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Talk to Dilip Sir directly about whether the crash course fits where your syllabus stands today.
+            Talk to Dilip Sir directly about whether the crash course fits where your child&apos;s syllabus stands today.
           </p>
           <button
             onClick={() => setShowCtaModal(true)}
@@ -358,7 +361,7 @@ export default function MhtCetCrashCoursePage() {
         onClose={() => setShowCtaModal(false)}
         onFormClick={handleCtaModalForm}
         onWhatsAppClick={handleCtaModalWhatsApp}
-        title="Join the MHT CET Crash Course 🎯"
+        title="Join the 12th CBSE PCMB Crash Course 🎯"
         subtitle="Check current batch dates and remaining seats"
       />
     </div>

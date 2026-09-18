@@ -3,17 +3,17 @@ import { ProgramJsonLd } from '../../components/JsonLd';
 import { buildLanguageAlternates } from '@/lib/seo/hreflang';
 
 export const metadata: Metadata = {
-  title: 'MHT CET Crash Course (Session 1, Dec 15 Window) | BuzzyBrains Academy',
+  title: 'MHT CET Crash Course 2026-27 (Both Attempts, Till May) | BuzzyBrains Academy',
   description:
-    'A focused sprint batch for MHT CET 2027 Session 1 (Dec 15, 2026 - Jan 15, 2027), led by Dilip Sir (IIT Kanpur). High-weightage PCM/PCB revision, CET-pattern mocks and best-of-two strategy — 12 students per batch.',
+    'An 8-week sprint into MHT CET 2027 Session 1 (Dec 15, 2026 - Jan 15, 2027), led by Dilip Sir (IIT Kanpur), with support carried through the Session 2 attempt in April and results in May. High-weightage PCM/PCB revision, CET-pattern mocks — 12 students per batch.',
   alternates: {
     canonical: 'https://buzzybrainsacademy.com/mht-cet-crash-course-pune',
     languages: buildLanguageAlternates('https://buzzybrainsacademy.com/mht-cet-crash-course-pune'),
   },
   openGraph: {
-    title: 'MHT CET Crash Course — Session 1 Sprint Batch',
+    title: 'MHT CET Crash Course — Both Attempts, Till May',
     description:
-      'A concentrated pre-Session 1 sprint for MHT CET 2027: high-weightage chapter triage, timed CET-pattern mocks and best-of-two attempt strategy, mentored by IIT alumni faculty.',
+      'An 8-week sprint into MHT CET 2027 Session 1, carried through the April Session 2 attempt and results in May: high-weightage chapter triage, timed CET-pattern mocks and attempt strategy, mentored by IIT alumni faculty.',
     url: 'https://buzzybrainsacademy.com/mht-cet-crash-course-pune',
     siteName: 'BuzzyBrains Academy',
     images: [
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MHT CET Crash Course — Session 1 Sprint Batch',
-    description: 'A concentrated pre-Session 1 sprint for MHT CET 2027, mentored by IIT alumni faculty. 12 students per batch.',
+    title: 'MHT CET Crash Course — Both Attempts, Till May',
+    description: 'An 8-week sprint into MHT CET 2027 Session 1, carried through Session 2 and results in May, mentored by IIT alumni faculty. 12 students per batch.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
@@ -39,8 +39,8 @@ export default function MhtCetCrashCourseLayout({ children }: { children: React.
     <>
       <ProgramJsonLd
         type="Course"
-        name="MHT CET Crash Course (Session 1 Sprint Batch)"
-        description="A focused final-sprint program for MHT CET 2027 Session 1 (Dec 15, 2026 - Jan 15, 2027): high-weightage chapter triage across PCM/PCB, timed CET-pattern mock tests, and best-of-two attempt strategy, mentored by IIT alumni faculty in small batches of 12."
+        name="MHT CET Crash Course (Both Attempts, Till May)"
+        description="A final-sprint program for MHT CET 2027: an 8-week weightage-first sprint into Session 1 (Dec 15, 2026 - Jan 15, 2027), with support carried through the Session 2 attempt in April 2027 and results in May — high-weightage chapter triage across PCM/PCB, timed CET-pattern mock tests, and attempt strategy, mentored by IIT alumni faculty in small batches of 12."
         path="/mht-cet-crash-course-pune"
       />
       {children}

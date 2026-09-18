@@ -1,0 +1,49 @@
+import type { Metadata } from 'next';
+import { ProgramJsonLd } from '../../components/JsonLd';
+import { buildLanguageAlternates } from '@/lib/seo/hreflang';
+
+export const metadata: Metadata = {
+  title: '10th CBSE Maths & Science Crash Course 2026-27 | BuzzyBrains Academy',
+  description:
+    'An 8-week weightage-first sprint in Maths & Science for CBSE Class 10, led by Arun Sir and Dr. Urmila, finishing ahead of the Feb-March 2027 board exams — with support carried through to the optional May re-exam. 12 students per batch.',
+  alternates: {
+    canonical: 'https://buzzybrainsacademy.com/10th-cbse-crash-course-pune',
+    languages: buildLanguageAlternates('https://buzzybrainsacademy.com/10th-cbse-crash-course-pune'),
+  },
+  openGraph: {
+    title: '10th CBSE Maths & Science Crash Course — 2026-27',
+    description:
+      'A focused pre-board sprint for CBSE Class 10 Maths & Science: high-weightage chapter triage, board-pattern mocks and NCERT-line accuracy, mentored by IIT/PhD faculty.',
+    url: 'https://buzzybrainsacademy.com/10th-cbse-crash-course-pune',
+    siteName: 'BuzzyBrains Academy',
+    images: [
+      {
+        url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg',
+        width: 1200,
+        height: 630,
+        alt: '10th CBSE Maths & Science Crash Course - BuzzyBrains Academy',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '10th CBSE Maths & Science Crash Course — 2026-27',
+    description: 'A focused pre-board sprint for CBSE Class 10 Maths & Science, mentored by IIT/PhD faculty. 12 students per batch.',
+    images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
+  },
+};
+
+export default function TenthCbseCrashCourseLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <ProgramJsonLd
+        type="Course"
+        name="10th CBSE Maths & Science Crash Course"
+        description="An 8-week weightage-first sprint for CBSE Class 10 Maths & Science, finishing ahead of the Feb-March 2027 board exams, with support carried through to the optional May re-exam. High-weightage chapter triage, board-pattern mock papers and NCERT-line accuracy, mentored by IIT/PhD faculty in small batches of 12."
+        path="/10th-cbse-crash-course-pune"
+      />
+      {children}
+    </>
+  );
+}

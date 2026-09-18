@@ -44,7 +44,6 @@ export default function Footer() {
               <li><Link prefetch={false} href="/foundation">Foundation (6–10)</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcb">NEET</Link></li>
-              <li><Link prefetch={false} href="/mht-cet-crash-course-pune">MHT CET Crash Course</Link></li>
               <li><Link prefetch={false} href="/12th-board">Not Sure? Compare PCM vs PCB</Link></li>
               <li><Link prefetch={false} href="/test-series">Board Test Series</Link></li>
               <li><Link prefetch={false} href="/olympiad-math">Maths Excellence</Link></li>
@@ -56,6 +55,15 @@ export default function Footer() {
               <li><Link prefetch={false} href="/maths-tuition-pune">Maths Tuition Pune — Guide</Link></li>
               <li><Link prefetch={false} href="/olympiad-coaching-pune">Olympiad Coaching Pune — Guide</Link></li>
               <li><Link prefetch={false} href="/clat-exam">CLAT Coaching</Link></li>
+            </ul>
+          </nav>
+          <nav aria-label="Footer crash course links">
+            <h4>2026-27 Crash Course</h4>
+            <ul className="foot-links">
+              <li><Link prefetch={false} href="/mht-cet-crash-course-pune">MHT CET Crash Course</Link></li>
+              <li><Link prefetch={false} href="/10th-cbse-crash-course-pune">10th CBSE Maths &amp; Science</Link></li>
+              <li><Link prefetch={false} href="/10th-icse-crash-course-pune">10th ICSE Maths, Physics, Chemistry &amp; Biology</Link></li>
+              <li><Link prefetch={false} href="/12th-cbse-crash-course-pune">12th CBSE PCMB</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer commerce links">
