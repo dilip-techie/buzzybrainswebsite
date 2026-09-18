@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: '12th CBSE PCMB Crash Course 2026-27 | BuzzyBrains Academy',
   description:
     'An 8-week weightage-first sprint in Physics, Chemistry, Maths & Biology for CBSE Class 12 (PCM & PCB), led by Dilip Sir and named subject specialists, finishing ahead of the Feb-March 2027 board exams. 12 students per batch.',
+  keywords:
+    'CBSE class 12 crash course Pune, 12th CBSE PCMB crash course, class 12 CBSE board exam 2027 preparation, class 12 physics chemistry maths biology crash course Pune, CBSE 12th board exam last minute revision, 12th CBSE PCM PCB tuition Pune',
   alternates: {
     canonical: 'https://buzzybrainsacademy.com/12th-cbse-crash-course-pune',
     languages: buildLanguageAlternates('https://buzzybrainsacademy.com/12th-cbse-crash-course-pune'),

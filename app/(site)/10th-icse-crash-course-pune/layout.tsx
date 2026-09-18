@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: '10th ICSE Crash Course — Maths, Physics, Chemistry & Biology | BuzzyBrains Academy',
   description:
     'An 8-week weightage-first sprint across all four ICSE Class 10 science/maths papers — Maths, Physics, Chemistry & Biology — finishing ahead of the Feb-March 2027 board exams. Named faculty per subject, 12 students per batch.',
+  keywords:
+    'ICSE class 10 crash course Pune, 10th ICSE physics chemistry biology maths crash course, ICSE board exam 2027 preparation, ICSE class 10 tuition Pune, 10th ICSE science tutor Pune, ICSE class 10 last minute revision, ICSE board exam Feb March 2027',
   alternates: {
     canonical: 'https://buzzybrainsacademy.com/10th-icse-crash-course-pune',
     languages: buildLanguageAlternates('https://buzzybrainsacademy.com/10th-icse-crash-course-pune'),

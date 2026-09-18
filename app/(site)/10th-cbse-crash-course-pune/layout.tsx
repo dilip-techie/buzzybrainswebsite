@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: '10th CBSE Maths & Science Crash Course 2026-27 | BuzzyBrains Academy',
   description:
     'An 8-week weightage-first sprint in Maths & Science for CBSE Class 10, led by Arun Sir and Dr. Urmila, finishing ahead of the Feb-March 2027 board exams — with support carried through to the optional May re-exam. 12 students per batch.',
+  keywords:
+    'CBSE class 10 crash course Pune, 10th CBSE maths science crash course, CBSE board exam 2027 preparation, class 10 CBSE last minute revision Pune, CBSE class 10 science tuition Pune, 10th CBSE maths tutor Pune, CBSE class 10 May improvement exam',
   alternates: {
     canonical: 'https://buzzybrainsacademy.com/10th-cbse-crash-course-pune',
     languages: buildLanguageAlternates('https://buzzybrainsacademy.com/10th-cbse-crash-course-pune'),
