@@ -172,9 +172,9 @@ const CRASH_COURSE_MEGA_MENU: MegaMenuGroup[] = [
 
 const NAV_LINKS = [
   { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
-  { href: '/test-series', label: 'Board Test Series', simpleItems: TEST_SERIES_MENU },
+  { href: '/test-series', label: 'Board Test Series', simpleItems: TEST_SERIES_MENU, isNew: true },
   { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
-  { href: '/mht-cet-crash-course-pune', label: '2026-27 Crash Course', groups: CRASH_COURSE_MEGA_MENU },
+  { href: '/mht-cet-crash-course-pune', label: '2026-27 Crash Course', groups: CRASH_COURSE_MEGA_MENU, isNew: true },
   { href: '/achievements', label: 'Achievements' },
   { href: '/blog', label: 'Blogs' },
   { href: '/resource-centre', label: 'Free Tools' },
@@ -182,8 +182,9 @@ const NAV_LINKS = [
   { href: '/#contact', label: 'Contact Us' },
 ];
 
-const STRIP_MESSAGES: { text: string; live?: boolean; href: string; external?: boolean }[] = [
-  { text: '📝 Test Series Available for Board Exams — Complete Package Starts ₹19,999', href: '/test-series' },
+const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: string; external?: boolean }[] = [
+  { text: '🎯 MHT-CET Crash Course — Both Attempts, Till May', href: '/mht-cet-crash-course-pune', isNew: true },
+  { text: '📝 Test Series Available for Board Exams — Complete Package Starts ₹19,999', href: '/test-series', isNew: true },
   { text: '🚀 IOQM 2027 Batch Open — Enroll Now', href: '/ioqm-coaching-pune' },
   { text: '🎓 An IIT/IIM Alumni Initiative', href: '/about' },
   { text: '✅ Top 1% Faculty Led by Dilip Sir', href: '/about' },
@@ -247,11 +248,13 @@ export default function Navbar() {
             msg.external ? (
               <a key={`a-${i}`} href={msg.href} target="_blank" rel="noopener noreferrer" className="top-strip-item">
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.isNew && <span className="new-badge">New</span>}
                 {msg.text}
               </a>
             ) : (
               <Link prefetch={false} key={`a-${i}`} href={msg.href} className="top-strip-item">
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.isNew && <span className="new-badge">New</span>}
                 {msg.text}
               </Link>
             )
@@ -260,11 +263,13 @@ export default function Navbar() {
             msg.external ? (
               <a key={`b-${i}`} href={msg.href} target="_blank" rel="noopener noreferrer" className="top-strip-item" aria-hidden="true" tabIndex={-1}>
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.isNew && <span className="new-badge">New</span>}
                 {msg.text}
               </a>
             ) : (
               <Link prefetch={false} key={`b-${i}`} href={msg.href} className="top-strip-item" aria-hidden="true" tabIndex={-1}>
                 {msg.live && <i className="strip-live-dot" aria-hidden="true" />}
+                {msg.isNew && <span className="new-badge">New</span>}
                 {msg.text}
               </Link>
             )
@@ -285,6 +290,7 @@ export default function Navbar() {
                   <li key={link.href} className="nav-dropdown-wrap">
                     <Link prefetch={false} href={link.href} className="nav-dropdown-trigger">
                       {link.label}
+                      {link.isNew && <span className="new-badge">New</span>}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
                     <div className="nav-mega">
@@ -318,6 +324,7 @@ export default function Navbar() {
                   <li key={link.href} className="nav-dropdown-wrap">
                     <Link prefetch={false} href={link.href} className="nav-dropdown-trigger">
                       {link.label}
+                      {link.isNew && <span className="new-badge">New</span>}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                     </Link>
                     <div className="nav-simple-menu">
@@ -379,7 +386,10 @@ export default function Navbar() {
                   aria-expanded={openMobileGroupsMenu === link.href}
                   onClick={() => setOpenMobileGroupsMenu((prev) => (prev === link.href ? null : link.href))}
                 >
-                  {link.label}
+                  <span>
+                    {link.label}
+                    {link.isNew && <span className="new-badge">New</span>}
+                  </span>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                 </button>
                 <div className={`mobile-menu-programs-panel${openMobileGroupsMenu === link.href ? ' open' : ''}`}>
@@ -403,7 +413,10 @@ export default function Navbar() {
                   aria-expanded={openMobileSimpleMenu === link.href}
                   onClick={() => setOpenMobileSimpleMenu((prev) => (prev === link.href ? null : link.href))}
                 >
-                  {link.label}
+                  <span>
+                    {link.label}
+                    {link.isNew && <span className="new-badge">New</span>}
+                  </span>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg>
                 </button>
                 <div className={`mobile-menu-programs-panel${openMobileSimpleMenu === link.href ? ' open' : ''}`}>
