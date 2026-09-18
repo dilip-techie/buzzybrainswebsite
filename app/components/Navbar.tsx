@@ -104,6 +104,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad (Grades 9–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
+      { href: '/mht-cet-crash-course-pune', label: 'MHT CET Crash Course (Grade 12)' },
       { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
       { href: '/test-series', label: 'Board Test Series (Grades 10 & 12)' },
     ],

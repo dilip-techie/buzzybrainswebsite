@@ -31430,6 +31430,2113 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+
+  {
+    slug: 'mht-cet-2027-notification-dec-jan-attempt-window-explained',
+    title: 'MHT CET 2027 Notification Alert: What Changed With the New Dec–Jan Attempt Window',
+    description:
+      "MHT CET 2027 Session 1 has been confirmed for December 15, 2026 to January 15, 2027, moving the exam ahead of JEE Main for the first time. Here's what's confirmed, what's still pending official notification, and what it means for your prep schedule.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/mht-cet-2027-moving-to-december-what-it-means', label: 'MHT-CET Is Moving to December: What the New 2-Attempt Cycle Means for Class 11 Students' },
+      { href: '/blog/cet-vs-jee-main-state-engineering-admissions-explained', label: 'CET vs JEE Main: Understanding State Engineering Admissions Alongside National Exams' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "MHT CET 2027 Session 1 has been confirmed for December 15, 2026 to January 15, 2027 by Maharashtra CET Cell Commissioner Dileep Sardesai, moving the exam ahead of board exams for the first time in more than a decade. The shift lines up with JEE Main Session 1, which NTA confirmed for January 22-24 and 28-30, 2027 (with January 31 kept as a buffer day) in its official examination calendar released on September 16, 2026 — so CET now runs about a week before JEE Main instead of a couple of months after it. The window itself can be treated as settled, but the CET Cell's detailed, date-and-shift-wise notification, along with exact registration dates, had not been released as of this writing.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "MHT CET 2027 Session 1 runs December 15, 2026 to January 15, 2027 — confirmed by the CET Cell Commissioner's public statements, though the formal, detailed notification is still pending.",
+          "JEE Main Session 1 2027 is confirmed for January 22-24 and 28-30, 2027 (January 31 as buffer) — released via NTA's official calendar on September 16, 2026.",
+          "For the first time, MHT CET's first attempt lands before JEE Main rather than after it, and before board exams too, which previously ran in April-May, after both.",
+          "A second CET attempt is expected around April 2027, and a best-of-two scoring approach is the tentative plan — but neither is formally confirmed yet.",
+          "Syllabus and pattern are unchanged from 2026: 20% Class 11 plus 80% Class 12 weightage, the same PCM/PCB/MBA-MMS groups, and the same MCQ format.",
+        ],
+      },
+      { kind: 'h2', text: "What's Actually Confirmed So Far" },
+      {
+        kind: 'p',
+        text: "In the second week of September 2026, CET Cell Commissioner Dileep Sardesai spoke publicly about the timeline for the 2027 admission cycle, stating that the first MHT CET attempt would run in the December 15 to January 15 window rather than the traditional April-May slot. That statement is the most authoritative confirmation available right now, and it's specific enough — a named month-long window, attributed to the officer who runs the CET Cell — that families can reasonably treat it as the working plan rather than speculation. Around the same time, NTA locked in JEE Main Session 1 for January 22-24 and 28-30, 2027, with January 31 held as a buffer date, through its official examination calendar published on September 16, 2026. Put those two together and the picture is clear: CET now runs first, JEE Main follows roughly a week later, and both land well before the Maharashtra board exams that typically begin in late February.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**MHT CET 2027 Session 1 window**: December 15, 2026 – January 15, 2027 (confirmed via Commissioner's statement).",
+          "**JEE Main 2027 Session 1 dates**: January 22-24 and 28-30, 2027, with January 31 as buffer (confirmed via NTA's official calendar, released September 16, 2026).",
+          "**Syllabus and pattern**: unchanged from MHT CET 2026 — 20% Class 11 weightage, 80% Class 12, same subject groups, same MCQ-based test.",
+          "**Sequence**: CET now runs before JEE Main, a reversal of the order students have prepared around for years.",
+        ],
+      },
+      { kind: 'h2', text: "What's Still Pending Official Notification" },
+      {
+        kind: 'p',
+        text: "A public statement from the Commissioner is not the same thing as the CET Cell's formal information bulletin, and a few genuinely important details still depend on that document landing. The window (December 15-January 15) tells you roughly when to be ready; it doesn't tell you which exact days PCM candidates sit their papers versus PCB candidates, how many shifts run per day, or when registration itself opens and closes. Families who've been through a CET cycle before know these details matter — a candidate's actual exam date within a month-long window can fall anywhere in it, and that affects everything from travel planning to how the final fortnight of revision gets structured.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Exact date-and-shift schedule within the December 15-January 15 window** — which days, which shifts, and which subject groups sit when.",
+          "**Registration open and close dates** — expected around September-October 2026 opening and a November 2026 no-late-fee deadline, based on how past cycles have typically been timed, but not yet formally announced.",
+          "**The precise mechanics of best-of-two scoring** — whether it applies exactly as it did for the 2026 cycle, and how ties or partial attempts are handled, still awaits confirmation. Our dedicated explainer on [best-of-two scoring](/blog/mht-cet-best-of-two-scoring-explained) covers how this generally works when it does apply.",
+          "**Exact Session 2 (April 2027) dates** — treated as tentative for now, since only Session 1 has been addressed with this level of specificity so far.",
+        ],
+      },
+      { kind: 'h2', text: 'Why the CET Cell Moved the Exam Earlier' },
+      {
+        kind: 'p',
+        text: "None of this happened by accident, and the reasoning the CET Cell has given lines up with problems Pune parents have complained about for years. Three things are driving the change.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Alignment with JEE Main.** With JEE Main Session 1 now sitting in the third week of January 2027, holding CET in April-May as before would have meant a nearly four-month gap between the two exams, during which most PCM aspirants' preparation naturally drifts toward whichever exam feels more urgent. Running CET just ahead of JEE Main keeps both exams inside the same tight preparation window instead of splitting the year in two.",
+          "**Two genuine attempts, not one rushed one.** Mirroring JEE Main's two-session structure gives CET candidates a real second chance if Session 1 doesn't go well, rather than a single make-or-break sitting. This is the same logic behind JEE Main's own multi-attempt design, and it's a big part of why a best-of-two scoring approach is the tentative plan for CET as well.",
+          "**Separating CET from the HSC board period.** For over a decade, CET's April-May slot sat right on top of, or immediately after, Maharashtra's HSC board exams (typically February-March), forcing students to prepare for both in the same compressed stretch. Moving CET's first attempt to December pulls it out of that collision entirely — Session 1 is done and banked before board revision even begins in earnest.",
+        ],
+      },
+      { kind: 'h2', text: 'What This Means for Your Prep Schedule' },
+      {
+        kind: 'p',
+        text: "The practical consequence is straightforward but genuinely disruptive to how most families have planned CET preparation until now: there is no longer a comfortable post-board runway to lean on. In every previous cycle, students finished boards in March and had a solid six-to-eight week stretch to pivot into CET-specific practice before the April-May exam. That runway is gone for Session 1. If you're a current Class 12 student, December 15 is roughly three months from today (mid-September 2026), and a meaningful chunk of that time will also be competing with board-exam coursework, JEE Main preparation if you're attempting it, and — for Class 11 students entering this cycle — the reality that CET-specific practice needs to start well before Class 12 begins. If you're weighing which exam to prioritize when they now sit so close together, our post on [CET vs JEE Main admissions](/blog/cet-vs-jee-main-state-engineering-admissions-explained) is a useful starting point, and if you're specifically a Class 11 student trying to work out how much runway you actually have left, [our earlier piece on the December shift](/blog/mht-cet-2027-moving-to-december-what-it-means) goes deeper into that angle.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Waiting for the formal notification before doing anything.** The window itself is confirmed enough to act on now — waiting for every last detail before starting CET-specific revision wastes real weeks you don't have this cycle.",
+          "**Assuming the exact date within the window won't matter until it's announced.** It's tempting to ignore scheduling until shift-wise dates drop, but a candidate sitting on December 16 versus January 10 has a genuinely different final-fortnight plan, so build in flexibility now rather than scrambling later.",
+          "**Treating JEE Main's new January dates as unrelated to CET planning.** With barely a week between the two exams, revision that assumes they're independent events tends to leave one of them under-prepared in the final stretch — plan them together, not as two separate sprints.",
+          "**Assuming best-of-two scoring is guaranteed to carry over.** It's the tentative plan, not a confirmed rule — building a second-attempt strategy entirely around it before the CET Cell confirms the mechanics is premature.",
+          "**Ignoring board preparation because CET now comes first.** Boards still matter enormously for admissions in many states and for overall academic standing — this cycle asks for parallel effort, not CET at the expense of boards.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has been recalibrating batch schedules at BuzzyBrains Academy since the Commissioner's statement first circulated in September:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Students are told plainly what's confirmed and what isn't**, rather than either panicking over every rumour or waiting passively for the CET Cell — the window is real enough to plan around today.",
+          "**Revision calendars are being rebuilt around the December 15 date as the working deadline**, with board and JEE Main preparation layered in alongside rather than treated as separate tracks.",
+          "**For students who've largely finished their PCM or PCB syllabus and just need a focused final push before December**, the [MHT CET Crash Course](/mht-cet-crash-course-pune) — an 8-week sprint batch led personally by Dilip Sir — is built specifically for this compressed window. It's not a substitute for a year's foundation, but it's a genuinely useful top-up for students who are otherwise ready.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre (and online) mean each student's individual timeline gets adjusted the moment a new detail is confirmed, rather than everyone following one generic calendar.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you're unsure how the new timeline maps onto your own child's current syllabus progress, [book a free consultation with Dilip Sir](/contact) — it's a fifteen-minute conversation, not a sales pitch, and it usually clarifies more than another week of second-guessing the notification would.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is the MHT CET 2027 December 15-January 15 window officially confirmed?',
+        answer: "The window has been confirmed through public statements by CET Cell Commissioner Dileep Sardesai, which is authoritative but not the same as the formal, detailed CET Cell notification. Exact per-date and per-shift scheduling, along with registration dates, still await that formal release.",
+      },
+      {
+        question: 'Why did MHT CET move from April-May to December-January?',
+        answer: "Three reasons the CET Cell has given: aligning CET's timing with JEE Main Session 1 (now in the third week of January 2027), giving candidates two genuine attempts similar to JEE Main's structure, and separating CET entirely from the February-March HSC board exam period, which it previously overlapped or immediately followed.",
+      },
+      {
+        question: 'Does this mean MHT CET now happens before JEE Main?',
+        answer: "Yes — with CET Session 1 running December 15, 2026 to January 15, 2027 and JEE Main Session 1 confirmed for January 22-30, 2027, CET now lands roughly a week before JEE Main. This is a reversal of the usual order students have prepared around for years.",
+      },
+      {
+        question: 'Is best-of-two scoring confirmed for MHT CET 2027?',
+        answer: "It's the tentative plan, mirroring how JEE Main scoring works, but the CET Cell has not formally confirmed the exact scoring mechanics yet. Treat it as likely, not guaranteed, until the official notification is released.",
+      },
+      {
+        question: 'When will MHT CET 2027 registration open?',
+        answer: "Based on the pattern from previous CET Cell announcements, registration is expected to open around September-October 2026 with a no-late-fee deadline around November 2026 — but this hasn't been formally confirmed as of mid-September 2026, so keep checking the official CET Cell website directly.",
+      },
+      {
+        question: 'Has the MHT CET syllabus changed for 2027?',
+        answer: "No. The syllabus weightage remains 20% Class 11 topics and 80% Class 12 topics, with the same PCM, PCB, and MBA-MMS subject groups and the same MCQ-based exam pattern as MHT CET 2026.",
+      },
+    ],
+  },
+  {
+    slug: 'mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide',
+    title: 'MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know',
+    description:
+      "A side-by-side comparison of MHT CET 2026 and the proposed MHT CET 2027 cycle — timing, number of attempts, syllabus weightage, and scoring — written for parents trying to understand exactly what's different this year.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/mht-cet-best-of-two-scoring-explained', label: 'MHT-CET Best-of-Two Scoring: How It Works and What It Means for Your Prep' },
+      { href: '/blog/mht-cet-board-marks-component-how-it-changes-board-study', label: "Why MHT-CET's Board-Marks Component Changes How You Should Study for Boards" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The biggest change between MHT CET 2026 and MHT CET 2027 is timing: the first attempt moves from April-May to December 15, 2026-January 15, 2027, running before board exams instead of after them. Syllabus weightage (20% Class 11, 80% Class 12), subject groups, and the MCQ exam pattern remain unchanged. The number of attempts likely stays at two, with a second sitting expected around April 2027, though the exact scoring mechanics for combining two scores await formal confirmation from the CET Cell.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "Session 1 moves from April-May (2026 cycle) to December 15, 2026-January 15, 2027 (2027 cycle) — the single biggest structural change parents need to plan around.",
+          "This is the first year CET's first attempt lands before board exams rather than after — a genuine break from the pattern every older sibling or cousin likely followed.",
+          "Syllabus weightage, subject groups (PCM/PCB/MBA-MMS), and the MCQ exam format are unchanged from 2026 — nothing new to learn on the content side.",
+          "A second attempt is expected around April 2027, similar to the two-attempt structure introduced in the 2026 cycle, though exact scoring mechanics still await formal notification.",
+          "Registration timing shifts earlier too — expected September-October 2026 opening versus a typically later-in-the-year opening for the 2026 cycle's April exam.",
+        ],
+      },
+      { kind: 'h2', text: 'MHT CET 2026 vs MHT CET 2027: Side by Side' },
+      {
+        kind: 'table',
+        headers: ['Aspect', 'MHT CET 2026', 'MHT CET 2027'],
+        rows: [
+          ['Session 1 timing', 'April-May 2026 (after boards)', 'December 15, 2026 – January 15, 2027 (before boards) — confirmed via CET Cell Commissioner statement'],
+          ['Position relative to board exams', 'After HSC boards were largely finished', 'Before HSC boards begin — a first for MHT CET'],
+          ['Position relative to JEE Main', 'JEE Main Session 1 typically ran earlier in the year, CET followed months later', 'CET now runs about a week before JEE Main Session 1 (Jan 22-30, 2027)'],
+          ['Number of attempts', 'Two, with best-of-two scoring introduced', 'Two expected — Session 1 (Dec-Jan) and Session 2 (~April 2027, tentative)'],
+          ['Scoring across attempts', 'Best-of-two applied', 'Best-of-two is the tentative plan; exact mechanics not yet formally confirmed'],
+          ['Syllabus weightage', '20% Class 11, 80% Class 12', 'Unchanged — 20% Class 11, 80% Class 12'],
+          ['Subject groups', 'PCM, PCB, MBA-MMS', 'Unchanged'],
+          ['Exam pattern', 'MCQ-based', 'Unchanged'],
+          ['Registration opening (typical/expected)', 'Generally opened closer to the exam window', 'Expected September-October 2026 — not yet formally confirmed'],
+        ],
+      },
+      { kind: 'h2', text: "What Hasn't Changed (and Why That Matters)" },
+      {
+        kind: 'p',
+        text: "It's worth saying plainly: this is a timing change, not a content or difficulty change. A student who has been working through the standard MHT CET syllabus doesn't need to relearn anything or adjust to a new format. The 20-80 split between Class 11 and Class 12 topics holds, the three subject-group structures (PCM, PCB, and MBA-MMS) are unchanged, and the exam itself remains a straightforward multiple-choice test rather than shifting to a different question format. If your child has already been following a structured MHT CET preparation plan, none of that groundwork is wasted or needs reworking because of this announcement.",
+      },
+      {
+        kind: 'p',
+        text: "What has changed is entirely about the calendar — when the exam happens relative to everything else in a Class 12 student's year. And that calendar shift is significant enough on its own that it changes how preparation time should be allocated, even though the destination (the syllabus itself) hasn't moved.",
+      },
+      { kind: 'h2', text: 'A Knock-On Effect Worth Watching: CAP Counselling Timing' },
+      {
+        kind: 'p',
+        text: "One thing the CET Cell hasn't addressed publicly yet, but that parents should keep an eye on, is what this timing shift does to the CAP (Centralized Admission Process) counselling schedule that follows the exam. In the old April-May cycle, results, merit lists, and the multi-round CAP counselling process were all compressed into a fairly predictable window between the exam and the start of the academic year in July-August. If Session 1 results come out earlier — potentially as soon as late January or February 2027 — it's not yet clear whether CAP rounds will also move earlier, run on their usual schedule and simply wait, or restructure around both sessions' combined results. None of this changes anything about how to prepare for the exam itself, but it's worth tracking once results season approaches, since choice-filling strategy in later CAP rounds depends on knowing the full admission calendar, not just the exam date. Our guide on [CAP Round 4 choice-filling mistakes](/blog/mht-cet-cap-round-4-choice-filling-mistakes) is a useful reference once that stage arrives, whenever it ends up falling.",
+      },
+      { kind: 'h2', text: 'What Has Changed, in Plain Terms' },
+      {
+        kind: 'p',
+        text: "Three structural things are different this cycle, and each has a knock-on effect worth understanding before you plan your child's next few months.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Session 1 now comes before boards, not after.** For as long as most parents can remember, MHT CET followed the Maharashtra board exams, which meant board revision came first and CET-specific practice was concentrated in the final six-to-eight weeks before the April-May exam. That sequence is now reversed for Session 1 — CET preparation has to be substantially complete by mid-December, well before board revision typically intensifies in January-February.",
+          "**CET now sits about a week ahead of JEE Main**, rather than months apart as in previous years. For families whose children are attempting both exams, this means the two preparation tracks can no longer be treated as sequential phases — they need to run together through the final quarter of 2026. Our post on [sequencing CET and JEE Main prep](/blog/mht-cet-or-jee-main-first-sequencing-prep-2027) walks through how to structure that overlap.",
+          "**Registration itself is expected to open earlier in the year.** If the September-October 2026 window holds, families need to be ready with documents and category certificates sooner than the typical cycle would have required — there's less lead time to sort out paperwork issues at the last minute.",
+        ],
+      },
+      { kind: 'h2', text: "What This Means Practically for Your Child's Schedule" },
+      {
+        kind: 'p',
+        text: "If your child is currently in Class 12, the practical math is this: mid-September 2026 to December 15, 2026 is roughly thirteen weeks. Whatever CET-specific revision, mock-test practice, and weak-area correction was previously spread across the entire final term now needs to be substantially finished inside that shorter window — while board-exam coursework continues in parallel, not after. That's a genuinely tighter squeeze than any previous batch has faced, and it rewards starting structured, CET-specific practice now rather than treating September and October as low-intensity months.",
+      },
+      {
+        kind: 'p',
+        text: "If your child is in Class 11 and will sit MHT CET in a future cycle, the lesson is different but just as important: don't assume the traditional post-board CET runway will exist when your child's turn comes. Building CET familiarity — pattern, pacing, and weak-topic identification — earlier in the two-year cycle is now a safer default than waiting for Class 12's second half.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming last year's preparation calendar still applies.** A plan built around an April-May exam and a post-board CET sprint no longer matches the 2027 timeline — recalculate from December 15 backward, not from the old exam month.",
+          "**Confusing a syllabus change with a timing change.** Parents sometimes assume a major exam-date shift must come with new topics or a new pattern — it hasn't. Don't spend time hunting for a \"new syllabus\" that doesn't exist.",
+          "**Underestimating how little runway remains before December.** Thirteen weeks feels like a lot in September; it compresses fast once school assessments, JEE Main prep, and daily coursework are factored in.",
+          "**Delaying registration preparation because \"the exam is still months away.\"** With registration itself expected to open earlier, documents, photographs, and category certificates should be sorted well before the opening date, not after.",
+          "**Treating the second attempt (April 2027) as a guaranteed safety net.** It's the tentative plan, not a confirmed one — Session 1 in December-January should be approached as the exam that matters most, not a warm-up.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has spent the past few weeks walking Pune parents through exactly this comparison, one family at a time:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Parents are shown the calendar math directly** — how many actual working weeks remain before December 15 once school commitments are subtracted — rather than a vague sense that \"there's still time.\"",
+          "**Board and CET preparation are planned as one combined calendar, not two separate ones**, since this cycle no longer allows for sequential focus the way previous years did.",
+          "**For students whose syllabus is largely finished and just need a structured final sprint**, the [MHT CET Crash Course](/mht-cet-crash-course-pune) — an 8-week programme led personally by Dilip Sir — is designed around exactly this December window. It's a focused top-up, not a substitute for foundational preparation a student hasn't yet built.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, with an online option, mean each student's specific gap between where they are and where they need to be by December is tracked individually.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you're still working out what this timeline means specifically for your child's current preparation stage, [book a free consultation with Dilip Sir](/contact) — it's often easier to get a clear answer in a short conversation than to keep comparing forum posts and WhatsApp forwards.",
+      },
+    ],
+    faq: [
+      {
+        question: "What's the single biggest difference between MHT CET 2026 and 2027?",
+        answer: "Timing. Session 1 moves from the traditional April-May slot to December 15, 2026-January 15, 2027, running before board exams instead of after them. Everything else — syllabus weightage, subject groups, and exam pattern — stays the same.",
+      },
+      {
+        question: 'Has the MHT CET syllabus changed for 2027?',
+        answer: "No. The weightage remains 20% Class 11 topics and 80% Class 12 topics, the subject groups (PCM, PCB, MBA-MMS) are unchanged, and the exam remains MCQ-based, identical to the 2026 cycle.",
+      },
+      {
+        question: 'Will there still be two MHT CET attempts in 2027?',
+        answer: "That's the expectation — Session 1 in December-January and a second sitting around April 2027 — mirroring the two-attempt structure introduced for the 2026 cycle. The exact Session 2 dates and scoring mechanics haven't been formally confirmed yet.",
+      },
+      {
+        question: 'Does MHT CET 2027 still use best-of-two scoring like 2026 did?',
+        answer: "It's the tentative plan, following the same logic as the 2026 cycle, but the CET Cell hasn't formally confirmed the exact scoring rule for 2027 yet. Check the official notification once released before assuming it carries over unchanged.",
+      },
+      {
+        question: 'When should we expect MHT CET 2027 registration to open?',
+        answer: "Based on the pattern of past CET Cell announcements, registration is expected around September-October 2026 with a no-late-fee deadline around November 2026 — but treat this as an expected window, not a confirmed one, until the formal notification is out.",
+      },
+    ],
+  },
+  {
+    slug: 'mht-cet-session-1-study-calendar-dec-15-jan-15',
+    title: 'How to Plan Your Study Calendar for MHT CET Session 1 (Dec 15 – Jan 15)',
+    description:
+      "A practical, month-by-month study calendar for MHT CET 2027 Session 1, counting back from mid-September 2026 to the December 15 exam window — what to prioritize in each phase and why the sequence matters.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 10,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/mht-cet-two-attempt-strategy-what-to-change-between-attempts', label: 'MHT-CET Two-Attempt Strategy: What Should Actually Change Between Attempt 1 and 2' },
+      { href: '/blog/mht-cet-cap-round-4-choice-filling-mistakes', label: 'MHT-CET CAP Round 4 Option Filling Is Closing — Last-Minute Choice-Filling Mistakes to Avoid' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "With MHT CET 2027 Session 1 confirmed for December 15, 2026-January 15, 2027, students have roughly thirteen weeks from mid-September to build exam readiness — a genuinely compressed runway compared to previous cycles' post-board timeline. The most effective use of that window is three rough phases: syllabus completion and concept revision through mid-October, full-syllabus mock practice and weak-area correction through late November, and a final exam-simulation and revision-only phase through mid-December. The exact days within the window still await the CET Cell's detailed notification, so build in a buffer rather than planning around a single assumed date.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "Counting back from December 15, 2026, students have about thirteen weeks from mid-September to build genuine exam readiness for Session 1.",
+          "A three-phase structure works best: syllabus completion first, mock-test practice and correction second, exam simulation and light revision last.",
+          "Board-exam coursework and (for many students) JEE Main preparation run in parallel through this entire window — this isn't a CET-only stretch.",
+          "The exact exam date within the December 15-January 15 window isn't known yet, so plan the final two weeks as a flexible buffer rather than a fixed countdown to one date.",
+          "Starting mock-test practice too late is the single most common planning mistake — full-length, timed practice needs at least four to six weeks of runway, not a final cram week.",
+        ],
+      },
+      { kind: 'h2', text: 'The Calendar, Counting Back From December 15' },
+      {
+        kind: 'table',
+        headers: ['Period', 'Focus', 'What "Done" Looks Like by the End'],
+        rows: [
+          ['Sep 18 – Oct 5 (Phase 1a)', 'Audit syllabus completion; identify weak chapters across PCM/PCB', 'A clear, honest list of which chapters are solid, which are shaky, and which haven\'t been started'],
+          ['Oct 6 – Oct 26 (Phase 1b)', 'Finish remaining syllabus; revise weak chapters with topic-wise tests', 'Full syllabus covered at least once, with weak areas specifically re-taught, not just re-read'],
+          ['Oct 27 – Nov 16 (Phase 2a)', 'Begin full-length, timed CET-pattern mock tests (1-2 per week)', 'A baseline mock score established, with error patterns tracked by chapter, not just overall percentage'],
+          ['Nov 17 – Dec 7 (Phase 2b)', 'Increase mock frequency (2-3 per week); targeted correction of recurring errors', 'Measurable score improvement on repeat topics; speed and accuracy both being tracked'],
+          ['Dec 8 – Dec 14 (Phase 3)', 'Taper mock intensity; full-syllabus revision; exam-day logistics sorted', 'Revision only — no new topics; admit card, documents, and exam-day plan confirmed'],
+          ['Dec 15 – Jan 15', 'Exam window — exact date depends on CET Cell\'s shift-wise schedule', 'Attempt completed; if a second Session is planned, initial reflection on error areas begins immediately after'],
+        ],
+      },
+      { kind: 'h2', text: 'Phase 1: Syllabus Completion and Concept Revision (Now Through Late October)' },
+      {
+        kind: 'p',
+        text: "The instinct in September is often to jump straight into mock tests because the exam feels urgent. Resist that for the first few weeks. A mock test taken on an incomplete or shaky syllabus mostly measures gaps you already suspected existed, and the low score can do more damage to motivation than the practice is worth. Spend the first two to three weeks doing an honest audit: which chapters, across Physics, Chemistry, and Maths or Biology, are genuinely exam-ready, and which need a serious second pass. This is also the point to lean on topic-wise tests rather than full mocks — they isolate weak areas without the time pressure of a complete paper, making it easier to fix the underlying gap rather than just noting that it exists.",
+      },
+      {
+        kind: 'p',
+        text: "By late October, the goal is full syllabus coverage at least once, with the weakest chapters specifically re-taught rather than passively re-read. This phase overlaps with ongoing school coursework and, for many students, JEE Main preparation too — that overlap is normal and expected this cycle, not a sign of falling behind.",
+      },
+      { kind: 'h2', text: 'Phase 2: Mock-Test Practice and Error Correction (Late October Through Early December)' },
+      {
+        kind: 'p',
+        text: "This is the phase that actually builds exam readiness, and it needs real runway — at least five to six weeks, not a rushed final ten days. Start with one to two full-length, timed, CET-pattern mocks per week in late October, and ramp up to two or three per week by mid-November. The mock score itself matters less than what you do with it afterward: every mock should be followed by an honest error-pattern review — not just \"I got 62%\" but \"I lost 9 marks specifically on organic chemistry reaction mechanisms and 6 more on rushed calculation errors in the last twenty minutes.\" That level of specificity is what turns a mock test from a scorecard into an actual improvement tool.",
+      },
+      {
+        kind: 'p',
+        text: "By early December, you're looking for two signals: a measurable score improvement on topics that were previously weak, and steadier pacing — finishing papers with time to review rather than rushing the final section. If neither signal is showing up by early December, that's worth addressing directly rather than hoping the final week fixes it; a structured, [two-attempt strategy](/blog/mht-cet-two-attempt-strategy-what-to-change-between-attempts) is also worth reading if you're already thinking ahead to what a second sitting in April might need to look like.",
+      },
+      { kind: 'h2', text: 'Phase 3: Taper and Exam-Day Readiness (Final Week Before the Window Opens)' },
+      {
+        kind: 'p',
+        text: "The week before December 15 is not the week to discover a new weak topic and try to fix it — that almost never works and mostly adds stress. This is a taper week: lighter revision, no new content, and a final read-through of formula sheets and frequently-confused concepts rather than fresh problem-solving. It's also the week to lock down logistics — admit card downloaded, exam centre location confirmed, required documents ready, and a realistic plan for exam morning that doesn't involve last-minute travel stress. Because the exact date within the December 15-January 15 window isn't public yet, keep this phase flexible: treat December 8-14 as the taper regardless of which specific day your paper falls on, and extend the taper slightly if your actual date lands later in the window.",
+      },
+      { kind: 'h2', text: "If You're Also Attempting JEE Main, Adjust the Calendar Rather Than Running Two Separate Ones" },
+      {
+        kind: 'p',
+        text: "This calendar assumes CET is the only exam in the picture, which isn't true for every student. If JEE Main Session 1 (January 22-30, 2027) is also on your radar, don't build a second, parallel calendar from scratch — layer it onto this one instead. Phase 1 (syllabus completion) already serves both exams, since the underlying topics overlap heavily. Where it genuinely diverges is Phase 2: CET-pattern mocks are more direct and formula-based, while JEE Main-style practice needs multi-step, conceptual problem sets kept alive in the background, even at reduced frequency, so that skill isn't cold by the third week of January. A fuller breakdown of how to weight the two exams week by week through this stretch is in our post on [sequencing MHT CET and JEE Main preparation](/blog/mht-cet-or-jee-main-first-sequencing-prep-2027) — worth reading alongside this calendar rather than instead of it.",
+      },
+      { kind: 'h2', text: 'Tracking Progress Without Guessing' },
+      {
+        kind: 'p',
+        text: "A calendar only works if you can tell, honestly, whether you're on pace. The simplest way to do that without overcomplicating things is a weekly ten-minute check-in, ideally on the same day each week: which chapters from the plan actually got covered, what the most recent mock score and error breakdown looked like, and whether the coming week's plan needs adjusting because something is taking longer than expected. Skipping this check-in is how three lost weeks in October quietly turn into a genuine crisis in the first week of December — the fix isn't a more elaborate plan, it's just checking against the one you already have, consistently, rather than assuming things are on track by default.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Starting full-length mocks too late.** Cramming eight mock tests into the final two weeks doesn't build the same skill as spreading them across five to six weeks — timing pressure and error correction both need repetition over time, not a burst at the end.",
+          "**Treating September and early October as \"low-intensity\" months.** With only thirteen weeks total, treating the first month as a warm-up eats into runway that Phase 2 genuinely needs later.",
+          "**Reviewing mock scores without reviewing mock errors.** A percentage tells you almost nothing actionable — the chapter-and-error-type breakdown is where the actual improvement plan comes from.",
+          "**Ignoring board coursework entirely during this window.** Boards typically begin not long after the CET window closes — falling seriously behind on board syllabus to chase CET mock scores just shifts the crunch to February instead of solving it.",
+          "**Planning around a single assumed exam date** before the CET Cell's shift-wise schedule is out. Build a few flexible days into your Phase 3 taper rather than assuming you know your exact date in advance.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has been building exactly this kind of phased calendar with Pune students since the December window was first confirmed:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Every student gets a written, dated calendar, not a vague plan** — specific weeks assigned to specific chapters and mock milestones, reviewed and adjusted as actual progress comes in.",
+          "**Mock reviews are done chapter-by-chapter and error-type by error-type**, in-session with the student, rather than leaving score interpretation to the student alone.",
+          "**Students who've largely finished their syllabus but need the structured mock-and-correction phase (Phase 2 above) built for them** often do well in the [MHT CET Crash Course](/mht-cet-crash-course-pune) — an 8-week sprint batch, led personally by Dilip Sir, timed specifically around this December window. It assumes a foundation is mostly in place and focuses entirely on high-yield revision and mock discipline, not building syllabus understanding from zero.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, and online, mean each student's actual Phase 1/Phase 2 progress is tracked individually rather than assumed from a generic timeline.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you'd like a second opinion on whether your child's current pace realistically gets them through all three phases by December 15, [book a free consultation with Dilip Sir](/contact) — a short conversation usually clarifies the gap faster than trying to self-assess it.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many weeks of preparation time is there before MHT CET 2027 Session 1?',
+        answer: "Counting from mid-September 2026 to the start of the confirmed December 15, 2026-January 15, 2027 window, students have roughly thirteen weeks — noticeably shorter than the runway previous cycles had after board exams.",
+      },
+      {
+        question: 'When should I start taking full-length MHT CET mock tests?',
+        answer: "Ideally by late October, once the syllabus has been covered at least once. Starting mocks any later than early November leaves too little time for the error-correction cycle that actually improves scores between mock attempts.",
+      },
+      {
+        question: "Should board exam preparation pause during this CET-focused window?",
+        answer: "No — board coursework should continue in parallel throughout this window, not pause. Boards typically begin soon after the CET window closes, so falling behind on board syllabus now just shifts a bigger crunch to February.",
+      },
+      {
+        question: "What should the final week before the exam window look like?",
+        answer: "A taper, not a cram session — lighter revision of existing material, no new topics, formula and concept read-throughs, and exam-day logistics (admit card, documents, centre location) confirmed well in advance.",
+      },
+      {
+        question: "The exact exam date within the window isn't announced yet — how do I plan around that?",
+        answer: "Treat the last week before December 15 as a flexible taper period regardless of your exact date, and be ready to extend it slightly if your specific date falls later in the December 15-January 15 window once the CET Cell's shift-wise schedule is released.",
+      },
+    ],
+  },
+  {
+    slug: 'mht-cet-or-jee-main-first-sequencing-prep-2027',
+    title: 'MHT CET or JEE Main First? Sequencing Your Prep Now That MHT CET Moves Earlier',
+    description:
+      "With MHT CET Session 1 (Dec 15-Jan 15) now landing about a week before JEE Main Session 1 (Jan 22-30), the two exams can no longer be prepared for sequentially. Here's how to sequence combined prep for students attempting both.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/jee-main-registration-2027-dates-documents-mistakes-to-avoid', label: 'JEE Main Registration 2027: Dates, Documents, and Mistakes to Avoid' },
+      { href: '/blog/cet-focused-students-should-you-attempt-jee-main-too', label: 'CET-Focused Students: Should You Even Attempt JEE Main Alongside Boards?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "MHT CET 2027 Session 1 (December 15, 2026-January 15, 2027) now runs before JEE Main Session 1 (January 22-24 and 28-30, 2027), a complete reversal from previous years when CET followed JEE Main by months. For students attempting both, this means preparation can no longer be sequential — CET-specific practice and JEE-level problem-solving both need dedicated time between now and mid-January, with a short but real pivot window between the two exam dates. The right sequencing depends on which exam matters more for a given student's admission goals, but both need active preparation running simultaneously through the final quarter of 2026.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "CET Session 1 (Dec 15-Jan 15) now lands before JEE Main Session 1 (Jan 22-30) — roughly a week separates the end of the CET window and the start of JEE Main, depending on a student's exact CET date.",
+          "This is a structural reversal from previous cycles, where CET followed JEE Main by two to three months, allowing genuinely sequential preparation.",
+          "Combined prep now needs to run in parallel through October-December, rather than CET-first-then-JEE or JEE-first-then-CET as separate phases.",
+          "The short gap between the two exams (about a week) is better used for pattern-switching and rest than for cramming new content for either exam.",
+          "Students should decide which exam is the higher admissions priority for their goals and weight daily study time accordingly, without abandoning the other entirely.",
+        ],
+      },
+      { kind: 'h2', text: 'The New Order: CET Before JEE Main' },
+      {
+        kind: 'p',
+        text: "For every previous MHT CET cycle, the sequence was JEE Main first (typically January and April sessions), then boards, then MHT CET in April-May, well after JEE Main was done. That order let students genuinely finish one exam's specific preparation before shifting focus to the next. That sequence is now gone. With CET Session 1 confirmed for December 15, 2026-January 15, 2027, and JEE Main Session 1 confirmed for January 22-24 and 28-30, 2027 (via NTA's official calendar released September 16, 2026), CET now comes first — and by only about a week, depending on where in the CET window a given student's exam date falls.",
+      },
+      {
+        kind: 'p',
+        text: "That's a genuinely different planning problem than \"which exam is more important.\" It's closer to \"how do I keep both exams' preparation alive at the same time without either one going stale.\" MHT CET and JEE Main test overlapping syllabus but with different question styles and difficulty calibration — CET questions are generally more direct and formula-application-based, while JEE Main leans more conceptual and occasionally multi-step. A student who spends October and November purely on CET-style direct questions can find their JEE Main problem-solving muscle noticeably rusty come the third week of January, even though the underlying topics are the same.",
+      },
+      { kind: 'h2', text: 'Why a One-Week Gap Changes Strategy' },
+      {
+        kind: 'p',
+        text: "A one-week gap between finishing CET and starting JEE Main is not enough time to pivot from a standing start. It's enough time to recover, recalibrate, and sharpen — but not to rebuild a skill that was neglected for the preceding two months. This is the core planning implication: JEE Main-style problem-solving practice (multi-step numericals, conceptual application questions, previous years' JEE Main papers) needs to continue right through the CET-focused stretch, even while CET-pattern mock tests take up a growing share of study time closer to mid-December.",
+      },
+      {
+        kind: 'p',
+        text: "In practice, that means a weekly split rather than a monthly block. Rather than \"all CET in October-November, all JEE Main in December,\" a more realistic split allocates the majority of weekly hours to CET pattern as December approaches, while keeping a smaller, consistent block — two to three sessions a week — devoted to JEE Main-style problem sets throughout. That keeps both skills warm without either one dominating so completely that the other atrophies.",
+      },
+      { kind: 'h2', text: 'A Rough Combined-Prep Calendar' },
+      {
+        kind: 'table',
+        headers: ['Period', 'CET Weighting', 'JEE Main Weighting', 'Focus'],
+        rows: [
+          ['Mid-Sep – Mid-Oct', '50%', '50%', 'Syllabus completion for both; CET-pattern and JEE-pattern practice introduced together, topic by topic'],
+          ['Mid-Oct – Late Nov', '65%', '35%', 'CET mock frequency increases; JEE Main problem-solving continues at a steady, smaller weekly dose'],
+          ['Dec 1 – Dec 14 (CET taper)', '80%', '20%', 'CET-specific revision dominates; light JEE Main problem sets keep that muscle from going cold'],
+          ['Dec 15 – Jan 15 (CET window)', 'Exam period', '20-30%', 'CET attempt happens within this window; JEE Main practice continues in the background around the exam date'],
+          ['Post-CET – Jan 21 (pivot week)', '10%', '90%', 'Full pivot to JEE Main-style problem-solving, previous papers, and speed/accuracy drills'],
+          ['Jan 22-31', 'Done for Session 1', 'Exam period', 'JEE Main Session 1 attempt window'],
+        ],
+      },
+      { kind: 'h2', text: 'How to Sequence Combined Prep, Practically' },
+      {
+        kind: 'p',
+        text: "Start by being honest about which exam carries more weight for your specific admission goals. A student set on an IIT or NIT should keep JEE Main as the anchor exam even while CET preparation ramps up in the weeks before December — the two aren't equally weighted just because they're both happening. A student primarily targeting Maharashtra state engineering colleges through the CAP round process should weight the opposite way, treating CET as the priority and JEE Main as a secondary attempt worth keeping alive but not over-invested in. Our post on [whether CET-focused students should attempt JEE Main at all](/blog/cet-focused-students-should-you-attempt-jee-main-too) is worth reading if you're still deciding whether JEE Main is worth the parallel effort in your specific case.",
+      },
+      {
+        kind: 'p',
+        text: "Whichever way that weighting goes, don't let the CET exam window itself become a full stop on JEE Main preparation. The days immediately before and after a CET paper are naturally lower-intensity for JEE-specific work, and that's fine — but the pivot week between the end of the CET window and January 22 is short enough that it needs to be a sharpening period, not a starting-from-scratch period. If JEE Main registration is still pending on your side, get that administrative step out of the way early too, since scrambling with document uploads during exam week is an avoidable stressor — [our guide to JEE Main 2027 registration](/blog/jee-main-registration-2027-dates-documents-mistakes-to-avoid) covers the dates and common errors to watch for.",
+      },
+      { kind: 'h2', text: 'What Changes if MHT CET Session 1 Goes Well' },
+      {
+        kind: 'p',
+        text: "There's a practical upside to sequencing worth naming directly. If a student's CET Session 1 attempt in December goes genuinely well, that score is likely to be banked — under the tentative best-of-two plan — regardless of how a second attempt in April turns out. That's real information a student didn't have in previous cycles until much later in the year, and it can meaningfully change how the pivot week into JEE Main is approached: a student who walked out of the CET window confident about their state-college admission prospects can afford to pour the full pivot week into JEE Main without the background anxiety of an unresolved CET result. Conversely, a shakier CET attempt doesn't mean panic either — Session 2 in April is still ahead, and the immediate priority simply becomes JEE Main first, CET recovery planning second. Either way, treating CET Session 1 as a genuine data point rather than just \"one of two exams to get through\" makes the JEE Main pivot week a more deliberate decision than a reflexive one.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Treating the exams as strictly sequential, the way previous cycles allowed.** With only about a week between them, a \"finish CET, then start JEE Main\" mindset leaves far too little runway to sharpen JEE-specific problem-solving.",
+          "**Letting JEE Main practice go completely dormant during the CET-focused weeks.** Even a light, consistent weekly dose of JEE-style problems is far better than a two-month gap followed by a rushed restart.",
+          "**Assuming CET-pattern practice automatically transfers to JEE Main readiness.** The overlapping syllabus can create false confidence — direct-recall CET questions don't build the same multi-step problem-solving speed that JEE Main demands.",
+          "**Ignoring JEE Main registration until after the CET exam is done.** With the two exams so close together, administrative tasks like registration and document upload should be finished well before the CET window opens, not squeezed into the short pivot week.",
+          "**Burning out before either exam by refusing to prioritize.** Trying to give both exams 100% effort simultaneously, every single week, without a weighted approach usually means both suffer — pick a weighting based on genuine admission priorities and stick to it.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has personally been through JEE preparation and has been adjusting BuzzyBrains Academy's combined CET-JEE batches specifically around this new sequencing:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Students attempting both exams are given a weighted weekly schedule, not a 50-50 split by default** — the weighting is based on each student's actual admission priorities, discussed directly with the family.",
+          "**JEE Main problem-solving sessions are kept running through the CET-focused stretch**, even at reduced frequency, specifically so the pivot week after CET doesn't start from a cold restart.",
+          "**For students whose syllabus is largely complete and who mainly need a focused CET-specific push before December**, the [MHT CET Crash Course](/mht-cet-crash-course-pune) runs alongside — not instead of — continued JEE Main practice, so the crash course's 8-week sprint doesn't come at JEE Main's expense.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre and online let mentors track each student's actual weighting decision and adjust it as December approaches, rather than applying one fixed plan to every student.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you're unsure how to weight your own child's CET and JEE Main preparation this cycle, [book a free consultation with Dilip Sir](/contact) to talk through the specific admission goals involved — the right sequencing genuinely depends on that, not on a one-size-fits-all rule.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How much time is there between MHT CET Session 1 and JEE Main Session 1 in 2027?',
+        answer: "Roughly a week, depending on a student's exact CET exam date within the December 15, 2026-January 15, 2027 window, before JEE Main Session 1 begins on January 22, 2027 (running January 22-24 and 28-30, with January 31 as buffer).",
+      },
+      {
+        question: 'Should I prepare for MHT CET first and then switch fully to JEE Main?',
+        answer: "Not entirely. A short, week-long gap isn't enough to rebuild JEE Main-specific problem-solving speed from a standing start, so a light, consistent stream of JEE Main practice should continue even while CET preparation intensifies through November and December.",
+      },
+      {
+        question: 'Which exam should get more preparation time — CET or JEE Main?',
+        answer: "That depends on genuine admission priorities. A student targeting IITs or NITs should keep JEE Main as the anchor even as CET-specific practice ramps up before December; a student focused on Maharashtra state colleges via CAP rounds should weight the opposite way, while still keeping JEE Main practice alive.",
+      },
+      {
+        question: 'Does CET-pattern practice help with JEE Main preparation too?',
+        answer: "Only partially. The syllabus overlaps significantly, but CET questions tend to be more direct and formula-based while JEE Main questions are often more conceptual and multi-step — practicing one pattern exclusively can create false confidence about readiness for the other.",
+      },
+      {
+        question: "What should the week between MHT CET and JEE Main be used for?",
+        answer: "Recovery and sharpening, not new content. It's best spent on JEE Main-specific problem sets, previous years' papers, and pacing drills to rebuild speed on the exam's more conceptual question style — not on learning topics that haven't been covered yet.",
+      },
+    ],
+  },
+  {
+    slug: 'mht-cet-2027-application-form-mistakes-maharashtra-students',
+    title: '5 Common Mistakes Maharashtra Students Make While Filling the MHT CET 2027 Application',
+    description:
+      "MHT CET 2027 registration isn't formally open yet, but the mistakes students repeat every single cycle while filling the application are entirely predictable. Here are the five worth preparing for in advance.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 8,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/bitsat-vs-jee-main-vs-mht-cet-which-to-prioritize', label: 'BITSAT vs JEE Main vs MHT-CET: Which Should a Confused Class 11 Student Prioritize This Year?' },
+      { href: '/blog/jee-main-registration-2027-dates-documents-mistakes-to-avoid', label: 'JEE Main Registration 2027: Dates, Documents, and Mistakes to Avoid' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "MHT CET 2027 registration hasn't formally opened as of mid-September 2026 — it's expected around September-October 2026, based on the pattern of previous CET Cell announcements, though this isn't confirmed yet. What is entirely predictable, because it repeats every single cycle, is the handful of application mistakes Maharashtra students make: domicile and category certificate issues, photo and signature specification errors, missed correction-window deadlines, choosing the wrong subject group, and missing the no-late-fee deadline. None of these require knowing the exact registration dates to prepare for — they're evergreen problems worth solving well before the form even opens.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "Domicile and category certificates are the single most common source of MHT CET application rejection or delay — and they take the longest to fix once a mistake is discovered.",
+          "Photo and signature files rejected for wrong size, format, or background cost students actual application time, sometimes right up against a deadline.",
+          "The correction window after submission exists specifically to fix errors — but only for a short, defined period, and it's frequently missed entirely.",
+          "Choosing the wrong subject group (PCM, PCB, or MBA-MMS) at the application stage restricts which courses a student can later apply for through CAP rounds.",
+          "Registering close to the no-late-fee deadline, rather than well before it, is a self-inflicted risk that a slow payment gateway or server load can turn into a genuine problem.",
+        ],
+      },
+      { kind: 'h2', text: 'Registration Timing: What to Expect (and What to Wait For)' },
+      {
+        kind: 'p',
+        text: "Before getting into the mistakes themselves, it's worth being clear about what's known and what isn't. As of mid-September 2026, the Maharashtra CET Cell had not formally opened registration for MHT CET 2027, and the detailed notification with exact opening and closing dates had not been released either. Based on the pattern of previous cycles, registration is expected to open sometime around September-October 2026, with a no-late-fee deadline likely falling in November 2026 — but treat both of these as expected windows, not confirmed dates, until the CET Cell's own notification is out. The five mistakes below don't depend on knowing those exact dates, though — they're the same mistakes students make every single year regardless of when the form opens, which is exactly why it's worth preparing for them now.",
+      },
+      { kind: 'h2', text: 'The 5 Mistakes That Cost Students Time (or Their Application)' },
+      {
+        kind: 'ul',
+        items: [
+          "**1. Domicile and category certificate issues.** This is, year after year, the single biggest source of application trouble. Maharashtra domicile certificates, caste/category certificates, and non-creamy-layer certificates (where applicable) often have validity periods, and a certificate that's technically expired or issued in a slightly outdated format gets flagged during verification — sometimes not until much later in the admission process, when it's far harder to fix. Families frequently assume an old certificate from a sibling's admission cycle, or one issued a few years ago, will simply carry over. It often won't.",
+          "**2. Photo and signature specification errors.** MHT CET's application portal, like most Indian entrance exam portals, has specific requirements for photograph and signature uploads — file size limits, dimensions, background color, and sometimes a requirement that the photo be recent (taken within a certain number of months). Students routinely try to upload an old passport photo or a signature scanned on a phone with poor lighting, and the upload gets rejected repeatedly, eating into time that should have gone toward the rest of the form.",
+          "**3. Missing the correction-window deadline.** Most CET applications open a short correction window after the initial submission, specifically so students can fix genuine errors — a mistyped percentage, a wrong category selection, an incorrect exam-centre preference. The problem is that this window is usually brief and not always prominently reminded, so students who submitted the form correctly at first but later notice an error sometimes miss the window entirely, leaving an avoidable mistake locked into their application.",
+          "**4. Choosing the wrong subject group.** The application requires selecting a group — PCM, PCB, or MBA-MMS (for students also considering the management stream) — and this choice determines which engineering, pharmacy, or other courses a student can later apply for during CAP counselling rounds. Students sometimes select based on what a friend chose, or default to PCM without considering that PCB keeps pharmacy and other biology-linked options open too. Getting this wrong doesn't just cause paperwork friction — it can quietly close off admission options months later.",
+          "**5. Missing the no-late-fee deadline.** Every cycle, a predictable number of students register in the final hours before the no-late-fee deadline, when the portal is under the heaviest load of the entire registration period. Slow page loads, payment gateway timeouts, and last-minute document upload failures are far more common in that final window than earlier in the registration period — entirely avoidable stress that comes from treating the deadline as a target rather than a limit to stay well clear of.",
+        ],
+      },
+      { kind: 'h2', text: 'Why Certificate Issues Deserve Extra Attention' },
+      {
+        kind: 'p',
+        text: "Of the five, domicile and category certificate problems are worth a closer look because they're the hardest to fix quickly. Unlike a photo upload, which can be redone in minutes, a certificate issue often means a trip to a government office (Tehsildar or SETU centre, depending on the certificate type), and government offices don't move at application-portal speed. If a family suspects a certificate might be outdated, incorrectly issued, or simply hasn't been obtained yet for a younger sibling now entering the CET process, the smart move is to start that paperwork well before registration opens — not after discovering a problem mid-application. This is exactly the kind of task that benefits from the fact that registration timing is only \"expected,\" not confirmed: it gives extra runway to get certificates sorted now, while there's no clock actively running.",
+      },
+      { kind: 'h2', text: 'What to Do If You Discover a Mistake After Submission' },
+      {
+        kind: 'p',
+        text: "If an error is only noticed after the form has already been submitted, the first move is to check whether the correction window is still open — that's the intended fix path, and it's far cleaner than trying to resolve things afterward through email or a helpline call. If the correction window has already closed, the next step is contacting the CET Cell directly through its official grievance or helpdesk channel rather than assuming the mistake is unfixable; genuine clerical errors are sometimes addressed on a case-by-case basis outside the standard window, though this isn't guaranteed and shouldn't be relied on as a backup plan. Either way, the earlier a mistake is caught, the more options remain — which is really the underlying argument for reviewing the submitted form carefully within a day or two of submitting it, rather than filing it away and assuming it's correct.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming a certificate from a previous year or an older sibling's application will automatically be valid.** Validity periods and format requirements can differ; verify the specific certificate's current status rather than assuming.",
+          "**Waiting until the form is open to prepare photos and signatures.** These can be prepared to the correct specifications well in advance, removing one entire category of last-minute friction.",
+          "**Not knowing the correction window exists, or when it closes.** Once the CET Cell's notification is out, note the correction-window dates specifically — don't assume it stays open indefinitely.",
+          "**Choosing a subject group without checking which courses it opens or closes.** A five-minute conversation about long-term course preferences before selecting PCM, PCB, or MBA-MMS avoids a decision that's difficult to reverse later.",
+          "**Registering in the final 24-48 hours before the no-late-fee deadline.** Portal load increases sharply near deadlines — registering with at least a week of buffer avoids the entire category of last-minute technical failures.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has watched these same five mistakes repeat across Pune families for over two decades of admission cycles:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Families are advised to start certificate verification now**, well before MHT CET 2027 registration formally opens, specifically because certificate issues take the longest to resolve of any application problem.",
+          "**Students are walked through the subject-group decision explicitly**, tied to their actual course and college preferences, rather than defaulting to whatever a peer group chose.",
+          "**A reminder to register well ahead of the no-late-fee deadline, not against it**, is built into every batch's communication as the expected registration window approaches.",
+          "**Students who are also weighing MHT CET against BITSAT or JEE Main this cycle** may find our [BITSAT vs JEE Main vs MHT CET priority guide](/blog/bitsat-vs-jee-main-vs-mht-cet-which-to-prioritize) useful for deciding where to focus limited preparation time — the application-mistakes above apply regardless of that prioritization, but the strategic weighting shouldn't be an afterthought.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you'd like help sorting out documentation or subject-group choices before MHT CET 2027 registration opens, [book a free consultation with Dilip Sir](/contact) — getting this right before the form opens is far less stressful than fixing it under deadline pressure.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Has MHT CET 2027 registration opened yet?',
+        answer: "No, not as of mid-September 2026. Based on the pattern of previous CET Cell announcements, it's expected to open around September-October 2026, but this hasn't been formally confirmed — check the official CET Cell website directly for the exact date once released.",
+      },
+      {
+        question: 'What is the most common reason MHT CET applications get flagged or delayed?',
+        answer: "Domicile and category certificate issues — either an expired certificate, an outdated format, or one that was never obtained for a younger sibling now applying. These take the longest to resolve because they often require a fresh visit to a government office.",
+      },
+      {
+        question: 'Can I fix a mistake after submitting the MHT CET application?',
+        answer: "Usually yes, through a short correction window the CET Cell typically opens after initial submission — but it closes fairly quickly and isn't always prominently reminded, so it's worth checking for and using promptly rather than assuming it stays open indefinitely.",
+      },
+      {
+        question: "Does the subject group I choose (PCM, PCB, or MBA-MMS) really matter for admissions later?",
+        answer: "Yes — the subject group selected at application stage determines which courses a student can apply for during CAP counselling rounds later. Choosing without considering long-term course preferences can quietly close off options like pharmacy for a student who only selected PCM.",
+      },
+      {
+        question: 'Is it risky to register close to the MHT CET deadline?',
+        answer: "Yes, in a practical sense — portal traffic, payment gateway load, and document upload failures all increase sharply in the final day or two before a deadline. Registering with at least a week of buffer avoids that entirely avoidable risk.",
+      },
+      {
+        question: "Should I wait for the official notification before preparing documents?",
+        answer: "No — certificate verification, photo and signature preparation, and subject-group decisions can all be handled before the formal notification is released. Only the exact registration dates themselves need to wait for official confirmation.",
+      },
+    ],
+  },
+
+  {
+    slug: 'jee-main-2027-official-dates-month-by-month-prep-roadmap',
+    title: "JEE Main 2027 Official Dates Are Out — Here's Your Month-by-Month Prep Roadmap",
+    description:
+      "NTA's September 16, 2026 examination calendar has confirmed JEE Main 2027 Session 1 exam dates for the first time. Here's exactly what's now official, what's still pending, and a month-by-month plan from today through exam day.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/jee-main-2027-notification-expected-october-prep-checklist', label: 'JEE Main 2027 Notification Expected in October — Your Class 11 Prep Checklist Before It Drops' },
+      { href: '/blog/nta-exam-overhaul-four-tier-paper-checking-jee-main-2027', label: 'NTA Just Overhauled Its Exam Team — What the Four-Tier Paper-Checking System Means for JEE Main 2027' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "On September 16, 2026, NTA published its official examination calendar confirming JEE Main 2027 Session 1 will be held across six Computer-Based Test days — January 22, 23, 24, 28, 29, and 30, 2027 — with January 31 kept as a buffer date. This is the first genuinely official confirmation of Session 1 exam dates and supersedes earlier \"expected in October\" reporting. It confirms only the exam window itself, though — registration dates, application fee, and the detailed information bulletin are still to come in a separate NTA notification, expected on the historical pattern around November 2026.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "NTA's September 16, 2026 examination calendar confirmed JEE Main 2027 Session 1 dates: January 22–24 and 28–30, 2027, with January 31 as a buffer date, in Computer-Based Test mode.",
+          "This calendar release is not the full information bulletin — NTA has explicitly stated that publishing the exam calendar \"does not constitute a notification for any particular examination,\" so registration dates, fees, and detailed pattern information follow separately.",
+          "Based on past cycles, the detailed bulletin and registration window are expected around November 2026 — this is a historical-pattern estimate, not a confirmed date.",
+          "From today (September 18, 2026) to the first exam day, there are roughly 125 days — enough time for a genuinely structured plan if it starts now rather than after the bulletin drops.",
+          "Session 2 is expected around April 2027 on the established two-session structure, but as of this writing NTA has announced no dates — exam or registration — for Session 2 at all.",
+        ],
+      },
+      { kind: 'h2', text: 'What NTA Actually Confirmed on September 16' },
+      {
+        kind: 'p',
+        text: "For months, anyone searching for JEE Main 2027 information found the same tentative language — dates \"expected\" in October, registration \"likely\" in November, all pattern-based guesswork because NTA simply hadn't said anything official yet. That changed on September 16, 2026, when NTA released its examination calendar for the upcoming cycle and, for the first time, put real dates against JEE Main 2027 Session 1: six Computer-Based Test days spread across two windows — January 22 to 24, then January 28 to 30 — with January 31 held in reserve as a buffer date, most likely for candidates affected by technical glitches, server issues, or a shift cancelled for reasons outside their control.",
+      },
+      {
+        kind: 'p',
+        text: "It's worth reading the fine print carefully, because this is exactly the kind of announcement that gets oversimplified once it starts circulating on WhatsApp and coaching forums. NTA's own calendar release carried an explicit caveat: publishing the exam calendar does not amount to a notification for any specific exam. In plain terms, NTA has told the country when the exam will happen, but hasn't yet told anyone how to register for it, what it will cost, or exactly what the detailed pattern and syllabus notes will say for 2027. That fuller information bulletin is a separate document NTA releases closer to the registration window opening.",
+      },
+      { kind: 'h2', text: "Confirmed vs. Still Expected — Don't Blur the Two" },
+      {
+        kind: 'p',
+        text: "This distinction matters more than it might seem, because the two categories carry very different levels of certainty and deserve different levels of trust when you're planning around them.",
+      },
+      {
+        kind: 'table',
+        headers: ['Item', 'Status', 'Detail'],
+        rows: [
+          ['Session 1 exam dates', 'Confirmed (Sept 16, 2026)', 'Jan 22–24 & 28–30, 2027, CBT mode, buffer date Jan 31'],
+          ['Session 1 registration open/close', 'Expected (not confirmed)', 'Historical pattern suggests around November 2026, closing late November'],
+          ['Application fee & correction window', 'Expected (not confirmed)', 'Details follow in the separate information bulletin'],
+          ['Admit card release', 'Expected (not confirmed)', 'Historically about a week before the first exam shift, so early-to-mid January 2027'],
+          ['Session 1 result / percentile', 'Expected (not confirmed)', 'Historically within roughly two to three weeks of the last exam day, so February 2027'],
+          ['Session 2 exam dates', 'Not announced', 'Expected around April 2027 based on the established two-session structure, but no dates released'],
+        ],
+      },
+      { kind: 'h2', text: 'A Month-by-Month Roadmap From Today to Exam Day' },
+      {
+        kind: 'p',
+        text: "With the exam window now fixed, it's finally possible to build a real calendar backward from January 22, 2027, instead of a vague \"start revising soon\" plan. Here's how BuzzyBrains Academy is mapping this stretch for its own Class 12 and dropper batches, month by month, from where things stand today.",
+      },
+      {
+        kind: 'table',
+        headers: ['Month', "What's Happening Externally", 'What You Should Be Doing'],
+        rows: [
+          ['September 2026 (now)', 'Exam calendar confirmed; detailed bulletin pending', 'Finish consolidating any remaining Class 11 topics; map out a syllabus-coverage calendar against the now-known January window'],
+          ['October 2026', 'Detailed information bulletin likely to follow (based on past-cycle timing), though not guaranteed for this exact month', 'Complete syllabus coverage; start the first full revision cycle; take your first proper diagnostic full-length mock'],
+          ['November 2026', 'Registration expected to open', 'Register promptly once the window opens; keep documents ready in advance; shift into a structured 2–3 mocks-per-week rhythm'],
+          ['December 2026', 'Registration likely closing; correction window likely follows', 'Use the correction window carefully if it applies to you; move into topic-wise weak-area drilling alongside continued mocks'],
+          ['Early January 2027', 'Admit card expected to release', 'Final formula and reaction-sheet consolidation; taper new content; simulate exam-day timing and logistics'],
+          ['Jan 22–31, 2027', 'Confirmed exam window (six exam days, buffer on the 31st)', 'Sit for your allotted shift(s); manage rest and recovery between exam days if your city allots you a later shift'],
+          ['February 2027', 'Results and percentile expected', 'Review your Session 1 attempt question-by-question; decide how seriously to prepare for Session 2'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "One detail this table makes clearer than a single \"exam date\" ever could: the six exam days aren't one shift, they're spread across two separate windows almost a week apart. If your city allots you a shift in the second window (January 28–30) rather than the first, that's a few extra days of preparation time — genuinely useful, but not something to plan around, since shift and date allotment isn't something a candidate controls.",
+      },
+      { kind: 'h2', text: 'Why the Confirmed Window Changes How You Should Plan Right Now' },
+      {
+        kind: 'p',
+        text: "Before September 16, any prep calendar built around JEE Main 2027 had to hedge its most important variable — the exam date itself. That's no longer true. A confirmed exam window means you can now count backward in actual days rather than approximate months, and a hard January 22 anchor makes it much easier to catch a plan that's quietly drifting behind schedule. It also means the Class 12 board exam calendar (typically running through February and March) sits comfortably after Session 1 rather than overlapping it — which is one less scheduling conflict to worry about this cycle, though it's still worth confirming your own board's exact dates once your school releases them.",
+      },
+      {
+        kind: 'p',
+        text: "The one thing this confirmation should not trigger is a rush to \"finalize\" registration-adjacent decisions — exam city preference, category documentation, correction-window planning — because none of that is open yet, and rushing decisions based on last cycle's registration form risks working from outdated information. The right response to the September 16 announcement is to lock in your syllabus and revision calendar now, while treating registration logistics as a November task.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming the confirmed exam calendar also confirms registration dates** — it doesn't. NTA has been explicit that a separate, detailed bulletin covers registration, fees, and the correction window.",
+          "**Waiting for the information bulletin before starting revision** — the syllabus, exam pattern, and marking scheme are all already well established from prior cycles; there's no reason to sit idle until every administrative detail is published.",
+          "**Treating the buffer date (January 31) as extra exam time you're guaranteed** — it's a contingency date NTA holds in reserve, not a date every candidate automatically sits for.",
+          "**Ignoring the gap between the two exam windows** (Jan 22–24 versus Jan 28–30) when planning your final week — your actual revision taper should be built around your specific allotted shift once it's known, not a single fixed date.",
+          "**Confusing this post's confirmed dates with older estimates still circulating online** — several sources, including [our own earlier post on the expected October notification](/blog/jee-main-2027-notification-expected-october-prep-checklist), were written before this September 16 confirmation and should now be read alongside this update, not in place of it.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has watched several notification cycles play out, and his read on this one is consistent with what he tells every Class 12 batch the moment real dates appear:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**A confirmed exam date is treated as the trigger to finalize the revision calendar, not to start preparation** — by this point, batches at BuzzyBrains Academy have already covered the bulk of the syllabus, so the January 22 anchor mainly reshapes the pacing of revision and mock cycles.",
+          "**Students are walked through the confirmed-vs-expected distinction explicitly**, so they don't build false confidence around registration or admit-card dates that haven't actually been announced yet.",
+          "**Small batches (capped at 12 students)** mean each student's personal countdown — accounting for their specific weak topics and mock performance — gets built individually rather than handed out as one generic calendar.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you'd like a personal, day-by-day version of this roadmap built around your own current standing, you can [book a free consultation with Dilip Sir](/contact) at BuzzyBrains Academy's Amanora, Hadapsar centre in Pune, or online.",
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the confirmed JEE Main 2027 Session 1 exam dates?',
+        answer: "NTA's September 16, 2026 examination calendar confirmed Session 1 will be held on January 22, 23, 24, 28, 29, and 30, 2027, in Computer-Based Test mode, with January 31, 2027 kept as a buffer date.",
+      },
+      {
+        question: 'Is JEE Main 2027 registration open now?',
+        answer: "No. Only the exam date calendar has been released so far. Registration dates, application fee, and the detailed information bulletin are still pending and are expected, based on historical patterns, around November 2026 — but this has not been officially confirmed.",
+      },
+      {
+        question: "Does NTA's September 16 calendar count as the official JEE Main 2027 notification?",
+        answer: "Not in full. NTA has explicitly stated that publishing the exam calendar does not constitute a notification for any particular examination. A separate, more detailed information bulletin covering registration and application specifics follows later.",
+      },
+      {
+        question: 'When is JEE Main 2027 Session 2 expected to be held?',
+        answer: "Around April 2027, consistent with the established two-session JEE Main structure — but as of this writing, NTA has not announced any dates, exam or registration, for Session 2.",
+      },
+      {
+        question: 'How many days are there between now and the JEE Main 2027 Session 1 exam?',
+        answer: "From September 18, 2026, there are roughly 125 days until the first exam day on January 22, 2027 — enough time for a structured, month-by-month preparation plan if it starts now.",
+      },
+      {
+        question: 'Should I wait for the full information bulletin before starting serious revision?',
+        answer: "No. The syllabus, exam pattern, and marking scheme are already well established from previous JEE Main cycles, so there's no reason to delay revision until every administrative detail around registration is published.",
+      },
+    ],
+  },
+  {
+    slug: 'jee-main-2027-session-1-vs-session-2-should-you-attempt-both',
+    title: 'Session 1 vs Session 2: Should You Attempt Both JEE Main 2027 Sessions?',
+    description:
+      "With JEE Main 2027 Session 1 dates now confirmed for January and Session 2 expected around April, most candidates default to attempting both — but the decision is worth making deliberately. Here's the actual strategic case, and how to use Session 1 as real data.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/two-session-advantage-jee-main-session-1-as-practice-run-for-session-2', label: 'Two-Session Advantage: How to Use JEE Main Session 1 as a Practice Run for Session 2' },
+      { href: '/blog/last-6-months-before-jee-main-week-by-week-revision-plan', label: 'The Last 6 Months Before JEE Main: A Week-by-Week Revision Plan' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Yes — for the large majority of JEE Main 2027 candidates, attempting both Session 1 (confirmed for January 22–30, 2027) and Session 2 (expected around April 2027) is the stronger strategy, because NTA counts whichever of the two scores is higher toward your final percentile and rank. The exceptions are narrow: candidates with a genuine scheduling conflict, or those who are certain a January attempt would be so under-prepared it risks denting confidence rather than adding useful data. For nearly everyone else, Session 1 is a real, fully-counting attempt and a diagnostic tool at the same time.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "NTA takes the better of your two session scores — so attempting Session 1 in January 2027 carries almost no downside if you're already planning to sit for Session 2.",
+          "Session 1's exam dates (January 22–24 and 28–30, 2027) are now officially confirmed; Session 2 is expected around April 2027 but has no announced dates yet, so treat any April planning as provisional.",
+          "The roughly ten-to-twelve-week gap between the two sessions is real, usable time — but only if it's spent on a targeted review of your actual Session 1 attempt, not generic re-revision.",
+          "A candidate who skips Session 1 entirely to \"save\" effort for Session 2 is giving up a low-risk opportunity, not being strategic.",
+          "The exception worth taking seriously is a genuine scheduling clash — board exam proximity, health, or family circumstances — not a vague sense of not being ready yet.",
+        ],
+      },
+      { kind: 'h2', text: 'The Core Argument: Best-of-Two Is a Real Advantage, Not a Marketing Line' },
+      {
+        kind: 'p',
+        text: "It's easy to hear \"the better score counts\" so often that it stops registering as a genuine strategic fact. But sit with what it actually means: if your Session 1 percentile ends up lower than your Session 2 percentile, the lower one is simply discarded. It doesn't average in, it doesn't get flagged, it doesn't appear anywhere on your final scorecard. The only way attempting Session 1 hurts you is if it costs you preparation time you'd have otherwise spent on Session 2 — and for most students, the diagnostic value of a real, full-syllabus, exam-pressure attempt more than pays that cost back.",
+      },
+      {
+        kind: 'p',
+        text: "We've written a full breakdown of how to actually use that inter-session gap — reviewing your response sheet question by question, separating genuine concept gaps from careless errors, and deciding what deserves a change in your Session 2 plan versus what was just a one-off — in [our dedicated guide on the two-session advantage](/blog/two-session-advantage-jee-main-session-1-as-practice-run-for-session-2). This post focuses on a narrower question that guide doesn't fully answer: given that Session 1's dates are now locked in for January 2027, should you commit to both sessions at all, and what specifically changes for a candidate attempting both in this particular cycle.",
+      },
+      { kind: 'h2', text: 'What Changes Between Session 1 and Session 2, Practically' },
+      {
+        kind: 'p',
+        text: "The syllabus doesn't change between sessions — that's fixed for the year. What changes is everything around it. Session 1 falls in late January 2027, which for most Class 12 students lands before board exam pressure has fully taken over, but after a long, largely uninterrupted stretch of JEE-focused preparation through the second half of Class 12. Session 2, expected around April 2027, falls after board exams are done (board exams typically run through February and March), which means Session 2 preparation time overlaps directly with board revision — a genuinely different preparation environment, not just \"round two\" of the same routine.",
+      },
+      {
+        kind: 'p',
+        text: "This has a direct implication: a candidate attempting both sessions needs two different preparation postures, not one continuous plan. Session 1 preparation can be JEE-exclusive, since boards haven't started biting into study time yet. Session 2 preparation has to be split — and for many students, split unevenly, with board exams taking the lead through February and March and JEE revision squeezed into whatever windows remain. A strong Session 1 score meaningfully changes how much pressure that squeeze puts you under.",
+      },
+      { kind: 'h2', text: "Treat Session 1 as a Genuine Attempt, Not a Trial Run" },
+      {
+        kind: 'p',
+        text: "The single most common way students undersell this opportunity is by mentally filing Session 1 as \"practice\" and holding back full effort for Session 2. This is backwards. Because the syllabus doesn't change and the better score counts, there's no strategic reason to prepare for Session 1 at anything less than full intensity. If Session 1 goes well — genuinely well, not just \"okay\" — it can functionally end your JEE Main prep months early, freeing that entire board-exam stretch for boards alone, or for early JEE Advanced groundwork if you're aiming that high. That outcome is only available to candidates who walked into January 22 as prepared as they could possibly be.",
+      },
+      { kind: 'h2', text: 'When Skipping Session 1 Might Actually Make Sense' },
+      {
+        kind: 'p',
+        text: "There are a small number of situations where sitting out Session 1 is a defensible call, though they're narrower than most students assume. A genuine scheduling conflict — a health issue, a family emergency, or (less commonly, since board exams typically start after Session 1 this cycle) an unavoidable clash — is a legitimate reason. What isn't a strong reason is simply feeling underprepared. An underprepared Session 1 attempt still produces a real diagnostic: it shows you exactly where the gaps are under actual exam pressure, which mock tests, however realistic, never fully replicate. The only real cost of an underprepared attempt is the registration fee and a day of nerves — not a lasting mark against you, since a weak score is discarded the moment Session 2 does better.",
+      },
+      { kind: 'h2', text: 'Building a Plan Around Both Sessions, With 2027-Specific Dates' },
+      {
+        kind: 'ul',
+        items: [
+          'Plan full-intensity Session 1 preparation to peak in the second half of January 2027, around the confirmed January 22–30 window, rather than assuming you have "extra time" because Session 2 exists.',
+          'Book a firm, short review window immediately after Session 1 results (expected around February 2027) to go through your attempt in detail before board exam pressure fully takes over.',
+          'Treat February and March 2027 as primarily board-exam months, with JEE revision reduced to weak-topic maintenance rather than fresh coverage — this is realistic given Session 2 is expected only around April 2027.',
+          'Re-intensify JEE preparation specifically for Session 2 only after your board exams are substantially done, using the diagnostic list built from your Session 1 review as the starting priority list rather than the full syllabus again.',
+          'Keep checking the official NTA JEE Main portal for Session 2 exam and registration dates as the cycle progresses, since none have been announced yet and April is currently only an expectation based on past years.',
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Treating Session 1 as low-stakes and under-preparing for it deliberately** — this forfeits a real, low-risk opportunity for no corresponding benefit, since the syllabus is identical across both sessions.",
+          "**Skipping Session 1 out of a vague feeling of not being ready**, rather than a genuine scheduling conflict — an underprepared attempt still produces valuable diagnostic data, and a weak score simply doesn't count if Session 2 goes better.",
+          "**Assuming Session 2 dates are already fixed for April** — they're an expectation based on the established two-session pattern, not an announced date, and should be confirmed on the official NTA portal as the cycle progresses.",
+          "**Skipping the post-Session-1 review** and jumping straight into board-exam mode, losing the chance to build a targeted priority list before board pressure takes over.",
+          "**Assuming board exams and Session 2 preparation can run on full JEE intensity simultaneously** — realistically, February and March need to be board-forward months, with JEE revision scaled to weak-topic maintenance.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) builds every Class 12 batch's calendar around attempting both sessions by default, and adjusts only when a student has a genuine, specific reason not to:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Every student is prepared for Session 1 at full intensity**, with no informal \"this one's just practice\" framing allowed to creep into how a student approaches it mentally.",
+          "**The post-Session-1 review is scheduled as a fixed calendar event**, not left to happen informally, so the diagnostic work actually gets done before board revision consumes the student's attention.",
+          "**Small batches (capped at 12 students)** let mentors track which students genuinely need the Session 1 attempt as a confidence and diagnostic tool versus which are already tracking strongly enough that the main value is simply banking a good score early.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Does JEE Main count both session scores, or just the better one?',
+        answer: "NTA counts the better of your two session percentiles for the final rank and admission process. A weaker score from either session is simply not used if the other session is stronger.",
+      },
+      {
+        question: 'Should I skip JEE Main Session 1 if I feel underprepared?',
+        answer: "Generally no. An underprepared attempt still produces a genuine diagnostic — it shows you where the real gaps are under exam pressure — and a weak score doesn't count against you if Session 2 goes better. Skipping is more defensible for a genuine scheduling conflict than for a general feeling of not being ready.",
+      },
+      {
+        question: 'Are JEE Main 2027 Session 2 dates confirmed yet?',
+        answer: "No. Only Session 1 exam dates (January 22–24 and 28–30, 2027) have been officially confirmed, as of the September 16, 2026 NTA examination calendar. Session 2 is expected around April 2027 based on the established two-session pattern, but no exam or registration dates have been announced.",
+      },
+      {
+        question: "How much time is there between JEE Main 2027 Session 1 and Session 2?",
+        answer: "Based on Session 1 ending January 30 (with a buffer date on the 31st) and Session 2 expected around April 2027, the realistic gap is roughly ten to twelve weeks — though this is an estimate until Session 2 dates are officially announced.",
+      },
+      {
+        question: 'Does attempting Session 1 affect my Session 2 attempt in any way?',
+        answer: "No, they're independent attempts with independent scores, and the better one counts. Attempting Session 1 doesn't use up or limit your Session 2 attempt in any way, beyond the preparation time and registration process each requires separately.",
+      },
+    ],
+  },
+  {
+    slug: 'jee-main-january-session-last-100-days-strategy-pcm',
+    title: 'JEE Main January Session: Last 100 Days Strategy for Physics, Chemistry & Maths',
+    description:
+      "With JEE Main 2027 Session 1 confirmed for January 22–30, the last-100-days mark falls around mid-October 2026 — right now. Here's a phased, subject-wise plan across Physics, Chemistry, and Maths for exactly this stretch.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 10,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/last-6-months-before-jee-main-week-by-week-revision-plan', label: 'The Last 6 Months Before JEE Main: A Week-by-Week Revision Plan' },
+      { href: '/blog/bitsat-vs-jee-main-dual-preparation-strategy', label: 'BITSAT vs JEE Main Preparation: Should Droppers Prep for Both Simultaneously?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Counting back roughly 100 days from JEE Main 2027 Session 1's confirmed exam window (January 22–30, 2027) lands on approximately October 14, 2026 — meaning the true \"last 100 days\" stretch starts in a few weeks from now. The right structure for this window is three overlapping phases: roughly the first five weeks for closing remaining syllabus gaps and one full revision pass, the next five weeks for intensive mixed-topic practice and full-length mocks, and the final two to three weeks for pure revision, error-log review, and exam-day simulation — applied specifically and somewhat differently across Physics, Chemistry, and Maths.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "The last-100-days mark for JEE Main 2027 Session 1 falls around mid-October 2026 — this window starts very soon, not months from now.",
+          "Physics, Chemistry, and Maths need genuinely different last-100-days treatment — Chemistry rewards high-yield memorization and recall drilling, Maths rewards speed and pattern recognition, Physics rewards concept application under mixed-topic pressure.",
+          "A three-phase structure (gap-closing, intensive practice, pure revision) works better than a single undifferentiated \"revise everything\" approach across the full 100 days.",
+          "Full-length, timed mocks should start no later than the midpoint of this window, not be saved for the final two weeks.",
+          "An error log — tracking exactly which questions go wrong and why — becomes the single most valuable resource in the final three weeks, more useful at that stage than fresh practice sets.",
+        ],
+      },
+      { kind: 'h2', text: 'Why 100 Days Out Is the Right Planning Anchor' },
+      {
+        kind: 'p',
+        text: "A hundred days is long enough to meaningfully close gaps and short enough to force real prioritization — which is exactly why it's a more useful planning unit than \"the last few months\" or \"until the exam.\" With Session 1's dates now officially confirmed for January 22–30, 2027, the hundred-day mark works out to roughly October 14, 2026 — which, depending on when you're reading this, is either right now or a couple of weeks away. That's worth sitting with for a second: however prepared you feel today is roughly the base you're building this final stretch on. There isn't a lot of runway left for \"I'll get to that topic eventually.\"",
+      },
+      {
+        kind: 'p',
+        text: "For a broader, week-by-week structure covering a longer stretch of the year, [our last-6-months revision plan](/blog/last-6-months-before-jee-main-week-by-week-revision-plan) is worth reading alongside this one. This post is deliberately narrower and more urgent — it's built specifically around the confirmed January 2027 window and the exact hundred-day countdown, with more granular, subject-specific guidance for what to actually do with each of the three PCM subjects in this exact stretch.",
+      },
+      { kind: 'h2', text: 'The Three-Phase Structure' },
+      {
+        kind: 'table',
+        headers: ['Phase', 'Approx. Duration', 'Primary Focus'],
+        rows: [
+          ['Phase 1: Gap-closing', 'Weeks 1–5 (mid-Oct to mid-Nov 2026)', 'Finish any incomplete topics; one full revision pass across all three subjects; light, topic-wise practice'],
+          ['Phase 2: Intensive practice', 'Weeks 6–10 (mid-Nov to late Dec 2026)', 'Mixed-topic problem sets; weekly full-length mocks; building speed and stamina under timed conditions'],
+          ['Phase 3: Pure revision', 'Final 2–3 weeks (early-to-mid Jan 2027)', 'Error-log review, formula and reaction-sheet consolidation, exam-day simulation, tapering new content entirely'],
+        ],
+      },
+      { kind: 'h2', text: 'Physics: Concept Application Under Mixed-Topic Pressure' },
+      {
+        kind: 'p',
+        text: "Physics is where students most often plateau in the final stretch, because Physics questions in JEE Main increasingly combine two or three concepts from different chapters — mechanics with rotational motion, electrostatics with basic circuits — rather than testing one formula in isolation. In Phase 1, prioritize closing any gaps in mechanics, electrodynamics, and modern physics specifically, since these carry disproportionate weight and are also the chapters most commonly left half-finished going into Class 12's second half. In Phase 2, shift almost entirely to mixed-topic problem sets rather than chapter-wise practice — this is what actually trains the pattern-recognition JEE Main rewards. In Phase 3, revisit your formula sheet daily but stop attempting genuinely new problem types; the goal is recall speed, not new learning.",
+      },
+      { kind: 'h2', text: 'Chemistry: The Highest-Yield Subject for a Hundred-Day Sprint' },
+      {
+        kind: 'p',
+        text: "Chemistry rewards this specific window more than any other subject, because a large share of it — inorganic chemistry especially, along with named reactions in organic chemistry — is genuinely a memorization-and-recall exercise rather than a deep-reasoning one. That makes it the subject where a hundred days of focused, repeated exposure produces the most visible score improvement. In Phase 1, build (or rebuild) a consolidated set of notes covering periodic trends, reaction mechanisms, and named reactions rather than relying on scattered chapter notes. In Phase 2, drill these daily in short, high-frequency sessions — Chemistry recall degrades faster than Physics or Maths problem-solving skill if it isn't touched regularly. In Phase 3, Chemistry becomes almost pure repetition: flashcard-style review of the same consolidated notes, right up to exam day.",
+      },
+      { kind: 'h2', text: 'Maths: Speed and Pattern Recognition Over Raw Coverage' },
+      {
+        kind: 'p',
+        text: "By this stage, most serious JEE Main candidates have covered the Maths syllabus at least once — the last hundred days is less about new coverage and more about converting known methods into fast, reliable execution under time pressure. In Phase 1, identify which chapters still cost you disproportionate time relative to their weight (Coordinate Geometry and Calculus are common culprits) and drill those specifically. In Phase 2, timed sectional tests matter more here than in any other subject — Maths is where slow, careful, technically-correct solving costs the most marks relative to what faster, pattern-recognition-based solving would earn in the same time. In Phase 3, review your error log for careless calculation mistakes specifically, since these — not conceptual gaps — are usually what's still costing marks this close to the exam.",
+      },
+      { kind: 'h2', text: 'Full-Length Mocks: Start by the Midpoint, Not the Final Stretch' },
+      {
+        kind: 'p',
+        text: "A mistake worth calling out on its own: many students save full-length, three-hour timed mocks for the last two or three weeks, treating them as a final check rather than a training tool. By then, it's too late for a mock to actually change anything — it can only confirm what's already true. Full-length mocks need to start by the end of Phase 1 or the very start of Phase 2 (roughly mid-November 2026), so there's enough runway left in Phase 2 to actually act on what each mock reveals — adjusting shift-specific pacing, section-order strategy, and which questions to skip and return to.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Applying one undifferentiated revision approach across all three subjects**, when Chemistry, Maths, and Physics genuinely reward different kinds of practice at this stage.",
+          "**Starting full-length mocks only in the final two weeks**, leaving no time to act on what those mocks reveal.",
+          "**Continuing to learn new Chemistry reactions or Physics derivations in Phase 3**, when the priority at that stage should be recall speed and error correction, not fresh content.",
+          "**Ignoring the error log in favor of endless fresh practice sets** — by Phase 3, reviewing exactly why past mistakes happened is usually more valuable than attempting new questions.",
+          "**Treating this hundred-day window as starting \"whenever I feel ready\"** rather than the actual calendar date it maps to — with Session 1 confirmed for January 22–30, 2027, the countdown is fixed regardless of how prepared any individual student feels right now.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**), together with Mathematics & Physics mentor **Agarwal Sir** (PhD, IIT Bombay), structure the final hundred days around exactly this subject-differentiated approach:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Chemistry gets a dedicated daily recall slot** distinct from problem-solving time, since the two skills degrade and build differently.",
+          "**Every student maintains a live error log** reviewed weekly with a mentor, not just informally kept and occasionally glanced at.",
+          "**Full-length mocks begin by mid-November** for every batch, with results reviewed individually so pacing and strategy adjustments are specific to each student rather than generic advice.",
+          "**Small batches (capped at 12 students)** mean a mentor can actually track which of the three subjects is dragging down a given student's mock scores, and adjust that student's final stretch accordingly.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'When does the last-100-days window for JEE Main 2027 Session 1 begin?',
+        answer: "Counting back from the confirmed exam window of January 22–30, 2027, the hundred-day mark falls around October 14, 2026 — so this window is starting now or within the next couple of weeks, depending on exactly when you're reading this.",
+      },
+      {
+        question: 'Which subject should get the most attention in the final 100 days?',
+        answer: "There's no single answer, but Chemistry typically shows the fastest visible improvement in a short window, since a large share of it is memorization and recall rather than deep problem-solving — which makes it especially responsive to focused, repeated review in a hundred-day sprint.",
+      },
+      {
+        question: 'When should I start taking full-length mock tests in this window?',
+        answer: "By the midpoint of the hundred days, roughly mid-November 2026, not in the final two or three weeks. Starting earlier leaves enough time to actually act on what a mock reveals about pacing and weak topics.",
+      },
+      {
+        question: 'Should I still be learning new topics this close to the exam?',
+        answer: "In the first phase (roughly the first five weeks), yes, if there are genuine gaps left. By the final two-to-three-week phase, no — the priority shifts entirely to revision, recall speed, and error-log review rather than new content.",
+      },
+      {
+        question: 'How is this different from a general last-6-months revision plan?',
+        answer: "This plan is deliberately narrower and more urgent, built specifically around the now-confirmed January 22–30, 2027 exam window and broken down by subject-specific strategy for Physics, Chemistry, and Maths. For a longer-horizon, broader week-by-week structure, see our [last-6-months revision plan](/blog/last-6-months-before-jee-main-week-by-week-revision-plan).",
+      },
+    ],
+  },
+  {
+    slug: 'jee-main-2027-application-timeline-registration-correction-window',
+    title: 'Understanding JEE Main 2027 Application Timeline: Registration, Correction Window & Deadlines Explained',
+    description:
+      "JEE Main 2027 Session 1 exam dates are officially confirmed, but the application timeline — registration, fee, correction window, admit card — is still based on historical patterns, not official announcements. Here's exactly what's confirmed and what's expected.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/jee-main-registration-2027-dates-documents-mistakes-to-avoid', label: 'JEE Main Registration 2027: Dates, Documents, and Mistakes to Avoid' },
+      { href: '/blog/cet-vs-jee-main-state-engineering-admissions-explained', label: 'CET vs JEE Main: Understanding State Engineering Admissions Alongside National Exams' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "As of September 18, 2026, only one part of the JEE Main 2027 Session 1 timeline is officially confirmed: the exam dates themselves (January 22–24 and 28–30, 2027, buffer date January 31), announced by NTA on September 16. Everything around the application process — registration open and close dates, the fee amount, the correction window, and the admit card release date — is still unannounced and, in this post, presented only as an expectation based on how previous JEE Main cycles have run, most likely registration opening around November 2026 and closing by late November. Treat every date in this post other than the exam window itself as provisional until NTA's detailed information bulletin confirms it.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "Only the Session 1 exam window is officially confirmed as of this writing — everything about registration, fees, and the correction window is still an expectation, not an announcement.",
+          "Based on historical patterns, Session 1 registration is expected to open around November 2026 and close around late November 2026, roughly two months before the exam window.",
+          "The correction window, which historically opens shortly after registration closes, is a genuinely important safety net — but only for candidates who use it deliberately.",
+          "Admit cards are historically released roughly a week to ten days before the first exam shift, which would put the expected release around mid-January 2027.",
+          "The only reliable source for confirmed dates, once released, is the official NTA JEE Main portal — not forwarded messages, coaching-institute estimates, or older blog posts written before the September 16 exam calendar.",
+        ],
+      },
+      { kind: 'h2', text: "The One Confirmed Fact, and Everything Still Around It" },
+      {
+        kind: 'p',
+        text: "It's worth being precise about this, because a lot of information floating around right now blurs a hard fact with a reasonable guess. NTA's September 16, 2026 announcement confirmed exactly one thing: the exam calendar, meaning the six specific dates Session 1 will be held on. It did not confirm registration dates, the application fee, correction window timing, or admit card release — and NTA said as much directly, noting that publishing the exam calendar doesn't amount to a notification for any particular exam. That fuller notification, covering the actual application process, comes separately.",
+      },
+      {
+        kind: 'p',
+        text: "That distinction isn't pedantic — it changes what you should actually be doing right now. If you assume registration is imminent because \"the dates are out,\" you might find yourself checking the portal daily for a form that genuinely isn't live yet. If you assume nothing has changed because the full bulletin isn't out, you might miss that the exam window — the one fact this cycle needed most to plan around — is now real and fixed.",
+      },
+      { kind: 'h2', text: 'Expected Application Timeline (Based on Historical Patterns)' },
+      {
+        kind: 'p',
+        text: "With that caveat firmly in place, here's how the application timeline has typically unfolded in recent JEE Main cycles, projected onto the now-confirmed January 22–30, 2027 exam window. Every date below is an estimate based on past patterns, not an NTA announcement.",
+      },
+      {
+        kind: 'table',
+        headers: ['Stage', 'Status', 'Expected Timing'],
+        rows: [
+          ['Exam calendar (dates only)', 'Confirmed', 'Released September 16, 2026'],
+          ['Detailed information bulletin', 'Expected, not confirmed', 'Historically follows the calendar by several weeks; often around October–November 2026'],
+          ['Registration opens', 'Expected, not confirmed', 'Around November 2026, based on past cycles'],
+          ['Registration closes', 'Expected, not confirmed', 'Around late November 2026'],
+          ['Correction window', 'Expected, not confirmed', 'Typically opens shortly after registration closes, for a short fixed period'],
+          ['Admit card release', 'Expected, not confirmed', 'Historically about a week to ten days before the first shift — likely early-to-mid January 2027'],
+          ['Session 1 exam', 'Confirmed', 'January 22–24 & 28–30, 2027, buffer date January 31'],
+          ['Result / percentile', 'Expected, not confirmed', 'Historically within two to three weeks of the last exam day — likely February 2027'],
+        ],
+      },
+      { kind: 'h2', text: 'What the Registration Process Typically Involves' },
+      {
+        kind: 'p',
+        text: "While exact 2027 specifics aren't out yet, the structure of the registration process itself has been stable across recent cycles, and it's reasonable to prepare for it now even without final dates. It typically requires a valid email address and mobile number the candidate personally controls (not a parent's, since OTPs and all official communication route through these), a scanned photograph and signature meeting exact specifications, Class 10 and Class 12 academic details, and category or PwD certificates where applicable. Our [dedicated registration guide](/blog/jee-main-registration-2027-dates-documents-mistakes-to-avoid) covers this process, the common document mistakes, and how to handle the correction window in much more depth — this section is a summary specifically framed around the newly confirmed exam calendar.",
+      },
+      { kind: 'h2', text: 'Why the Correction Window Matters More Than It Seems' },
+      {
+        kind: 'p',
+        text: "NTA has historically opened a short correction window after the main registration period closes, letting candidates fix specific fields in an already-submitted form. It's a genuine safety net, catching photo specification mismatches, city preference errors, or category detail issues before they become a problem on exam day. But it only works for a candidate who actually reviews their submitted form carefully during that window — treating it as optional, rather than as a mandatory second check, is one of the more preventable mistakes candidates make every cycle, and there's no reason to expect the 2027 cycle to be different.",
+      },
+      { kind: 'h2', text: 'How to Use the Waiting Period Before Registration Opens' },
+      {
+        kind: 'ul',
+        items: [
+          'Prepare all required documents now — photographs, signatures, mark sheets, category or PwD certificates — in the general specifications used in recent cycles, so there\'s minimal scramble once the exact 2027 specifications are published.',
+          'Set up (or confirm access to) an email address and phone number you personally control and check regularly, since these become the primary channel for every official communication once you register.',
+          'Decide your realistic exam city preferences in advance, factoring in travel and accommodation logistics, so this decision isn\'t rushed once the registration form is live and a deadline is looming.',
+          'Bookmark the official NTA JEE Main portal (jeemain.nta.nic.in) and check it directly and periodically, rather than relying on forwarded screenshots or third-party summaries for registration-date updates.',
+          'Continue syllabus preparation on the timeline set by the confirmed exam dates, not the still-unconfirmed registration dates — the exam window is what actually determines how much preparation time remains.',
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Treating this post's registration-timeline dates as confirmed** — they're historical-pattern estimates, and only the exam window itself has been officially announced by NTA as of this writing.",
+          "**Waiting for the registration window to begin before preparing documents**, when photo specifications, certificates, and account details can genuinely be sorted out in advance.",
+          "**Checking outdated sources for 2027 dates** — including older articles (our own included) written before the September 16, 2026 exam calendar was released — instead of the official NTA portal.",
+          "**Skipping the correction window once registration is complete**, assuming the original submission was error-free rather than treating the correction period as a mandatory review step.",
+          "**Confusing the exam calendar release with the full information bulletin** — the two are genuinely different documents released at different times, and only the first has happened so far.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has seen the confirmed-dates-versus-expected-dates confusion trip up otherwise well-prepared families every cycle, and BuzzyBrains Academy builds a few specific habits around it:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Families are given a clear written summary distinguishing confirmed from expected dates**, updated as NTA releases more information, so no one is planning around a rumor mistaken for an announcement.",
+          "**Document preparation is treated as a task for right now**, independent of whether the registration window has technically opened yet, since none of it depends on the form actually being live.",
+          "**Every student is pointed only to the official NTA JEE Main portal** for date confirmations, with third-party forwards and coaching-circuit rumors explicitly flagged as unreliable.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Has JEE Main 2027 registration opened yet?',
+        answer: "No. As of September 18, 2026, only the Session 1 exam calendar (dates) has been officially released. Registration dates have not been announced and are expected, based on historical patterns, around November 2026.",
+      },
+      {
+        question: 'What is officially confirmed about JEE Main 2027 so far?',
+        answer: "Only the Session 1 exam window: January 22, 23, 24, 28, 29, and 30, 2027, with January 31 as a buffer date, in Computer-Based Test mode. This was confirmed via NTA's examination calendar released September 16, 2026.",
+      },
+      {
+        question: 'When is the JEE Main 2027 correction window expected to open?',
+        answer: "Based on past cycles, the correction window typically opens for a short period shortly after the main registration window closes. Since registration itself isn't confirmed yet, treat any specific correction-window date as an estimate until NTA's detailed bulletin is released.",
+      },
+      {
+        question: 'When will JEE Main 2027 admit cards be released?',
+        answer: "Not yet announced. Based on historical patterns of roughly a week to ten days before the first exam shift, admit cards would likely release around early-to-mid January 2027 — but this is an expectation, not a confirmed date.",
+      },
+      {
+        question: 'Where should I check for official JEE Main 2027 registration dates once they are announced?',
+        answer: "Directly on the official NTA JEE Main portal (jeemain.nta.nic.in). This is the only authoritative source — third-party sites, forwarded messages, and even blog posts (including this one) should be treated as secondary until cross-checked against the official portal.",
+      },
+      {
+        question: 'Why does this post use "expected" dates instead of giving exact ones?',
+        answer: "Because exact application dates genuinely haven't been announced by NTA yet. Only the exam window itself is confirmed. Presenting historical-pattern estimates as if they were official would risk families making decisions around information that later turns out to be wrong.",
+      },
+    ],
+  },
+  {
+    slug: 'jee-main-to-jee-advanced-seamless-prep-bridge-2027',
+    title: 'From JEE Main to JEE Advanced: Building a Seamless Prep Bridge for 2027 Aspirants',
+    description:
+      "Clearing JEE Main's cutoff and being genuinely ready for JEE Advanced are two different achievements. With Session 1 2027 dates now confirmed, here's how to structure the transition so Advanced preparation doesn't start from scratch after Main is done.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/jee-main-vs-advanced-explained', label: "JEE Main vs JEE Advanced: What's Actually Different" },
+      { href: '/blog/two-session-advantage-jee-main-session-1-as-practice-run-for-session-2', label: 'Two-Session Advantage: How to Use JEE Main Session 1 as a Practice Run for Session 2' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For students who intend to attempt JEE Advanced, the safest strategy is to keep a dedicated, if smaller, share of study time on Advanced-style problem-solving throughout JEE Main preparation, rather than treating Advanced prep as something that starts only after Main is fully done. JEE Advanced is typically held around three months after JEE Main's second session results — for the 2027 cycle, with Session 1 confirmed for January 22–30 and Session 2 expected around April, that likely places JEE Advanced sometime around May 2027, though no official Advanced date exists yet. That gap is real but short, and it rewards a student who has never fully stepped away from Advanced-style thinking over one who has to rebuild it from a standing start.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "JEE Main and JEE Advanced test genuinely different skills, not the same syllabus at different difficulty levels — treating the gap between them as a simple \"level up\" undersells the transition.",
+          "With Session 1 confirmed for January 22–30, 2027 and Session 2 expected around April, JEE Advanced likely falls around May 2027 based on the historical roughly-three-month gap, though this isn't officially confirmed yet.",
+          "The strongest Advanced candidates maintain some Advanced-style practice throughout Main preparation, rather than switching modes entirely only after Main is over.",
+          "A high JEE Main score is not, by itself, evidence of Advanced readiness — the two exams reward meaningfully different problem-solving habits.",
+          "The post-Main, pre-Advanced window is short (roughly six to eight weeks in most recent cycles) and needs a specific, front-loaded plan rather than an open-ended \"switch to Advanced mode now\" approach.",
+        ],
+      },
+      { kind: 'h2', text: "Why This Bridge Deserves Its Own Plan" },
+      {
+        kind: 'p',
+        text: "For a full breakdown of exactly how JEE Main and JEE Advanced differ — who conducts each, what each is actually for, and how the question style diverges — [our dedicated Main-vs-Advanced guide](/blog/jee-main-vs-advanced-explained) covers that ground thoroughly, and this post won't re-derive it. What that guide doesn't focus on is the transition itself: the specific, time-boxed stretch between finishing Main and sitting for Advanced, and how a 2027 aspirant should structure preparation so that stretch is a genuine sprint toward Advanced-level readiness rather than a scramble to relearn a different exam's rhythm from scratch.",
+      },
+      {
+        kind: 'p',
+        text: "This matters because the two exams don't just differ in difficulty — they reward different instincts. Main rewards fast, accurate application of a known method to a clearly recognizable problem type. Advanced rewards the ability to notice that a problem is actually two or three separate ideas stitched together, and to work out the stitching in real time. A student who has spent an entire year training only the first instinct doesn't automatically have the second one — it has to be built deliberately, and building it entirely after Main is finished leaves very little runway.",
+      },
+      { kind: 'h2', text: 'Mapping the 2027 Timeline (With Appropriate Caveats)' },
+      {
+        kind: 'p',
+        text: "Here's what can be said with reasonable confidence about the 2027 cycle's timeline, and where the honest uncertainty sits. Session 1 is officially confirmed for January 22–30, 2027 (buffer date January 31). Session 2 is expected around April 2027, following the established two-session structure, though NTA hasn't announced its dates. JEE Advanced is conducted by a rotating IIT, typically around three months after JEE Main's final results, which historically places it in the May–June window. Stacking these together, a reasonable working estimate for JEE Advanced 2027 is sometime in May 2027 — but this is a projection built on pattern, not an announced date, and should be treated exactly that way until the conducting IIT releases its own notification.",
+      },
+      {
+        kind: 'p',
+        text: "What this means practically: a student attempting both Main sessions and planning for Advanced is looking at roughly four months from Session 1 (January) through an estimated Advanced date (May) — but the actual dedicated Advanced-prep runway, after Session 2 and its results are done, is considerably shorter. That's the real planning constraint, and it's why waiting until after Session 2 results to even start thinking about Advanced-specific practice is a risky sequencing choice.",
+      },
+      { kind: 'h2', text: 'The Three-Layer Bridge Strategy' },
+      {
+        kind: 'h3', text: '1. During Main Preparation: A Standing Advanced-Style Practice Habit' },
+      {
+        kind: 'p',
+        text: "This doesn't mean splitting focus evenly between Main and Advanced-style problems throughout the year — Main preparation still needs to dominate, since clearing Main's cutoff is the mandatory gate to even sit for Advanced. But a small, consistent weekly habit of attempting multi-concept, Advanced-style problems (even just a handful a week, in topics you've already covered for Main) keeps that different problem-solving muscle from going completely dormant. Students who maintain this habit consistently report the post-Main transition feeling like a shift in gear, not a cold start.",
+      },
+      {
+        kind: 'h3', text: '2. Between Session 1 and Session 2: A Natural Window to Lean Slightly More Advanced' },
+      {
+        kind: 'p',
+        text: "If Session 1 (January 2027) goes well, the gap before Session 2 (expected around April) is a genuinely good moment to shift the balance slightly — not abandon Main revision, since Session 2 still matters, but to let a somewhat larger share of practice time lean toward Advanced-style, multi-concept problems in topics you're already confident on for Main. This overlaps directly with the diagnostic-review approach covered in [our two-session advantage guide](/blog/two-session-advantage-jee-main-session-1-as-practice-run-for-session-2) — the same gap period that guide uses for Main-focused review is also the natural first opportunity to start leaning toward Advanced.",
+      },
+      {
+        kind: 'h3', text: '3. After Session 2, Before Advanced: A Front-Loaded, Full-Intensity Sprint' },
+      {
+        kind: 'p',
+        text: "Once Session 2 and its results are behind you, the remaining weeks before an expected May 2027 Advanced exam need to go almost entirely toward Advanced-specific preparation: multi-concept problem sets, previous years' Advanced papers specifically (not Main papers), and practice with Advanced's distinct question formats — multi-correct options, matrix-match sets, paragraph-based questions, and partial-marking schemes that punish guessing far more heavily than Main does. Front-load the hardest, least-familiar material into the first half of this window, since the final stretch before any exam is better spent consolidating than encountering genuinely new problem types for the first time.",
+      },
+      { kind: 'h2', text: 'What Actually Transfers From Main Prep — and What Doesn\'t' },
+      {
+        kind: 'ul',
+        items: [
+          'NCERT-level conceptual foundation transfers directly — Advanced problems build on the same core concepts, just combined and applied less predictably.',
+          'Raw formula recall and single-step application speed, heavily trained for Main, transfers only partially — Advanced rewards knowing when and how to combine formulas, not just recalling them quickly.',
+          "Exam-day stamina and time-management habits transfer well, since both exams are long and demanding, even though Advanced's paper structure (two papers, on the same day in a rotating-IIT format) differs from Main's single-paper structure.",
+          "Comfort with MCQ-and-numerical-value formats (Main's core style) does not transfer to Advanced's multi-correct, matrix-match, and paragraph-based formats — these need dedicated, separate practice regardless of how strong Main performance was.",
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming a strong JEE Main score is itself evidence of Advanced readiness** — the two exams reward different instincts, and Main performance alone doesn't guarantee Advanced-level comfort with multi-concept problems.",
+          "**Waiting until after Session 2 results to start any Advanced-style practice**, leaving the entire transition to happen inside an already-short pre-Advanced window.",
+          "**Treating the projected May 2027 Advanced date as confirmed** — it's a reasonable estimate based on the historical roughly-three-month gap after Main's final results, not an announced date from the conducting IIT.",
+          "**Practicing only Main-format previous-year papers in the pre-Advanced sprint**, instead of shifting specifically to Advanced-format papers with their distinct multi-correct and partial-marking structure.",
+          "**Neglecting Main preparation itself in favor of premature, heavy Advanced focus** — Main's cutoff is a mandatory gate, and under-preparing for it in pursuit of Advanced readiness risks missing the gate entirely.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) went through this exact Main-to-Advanced transition himself, and structures BuzzyBrains Academy's IIT-JEE program around it directly:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Advanced-style, multi-concept problems are woven into weekly practice for Advanced-track students throughout the year**, not introduced for the first time after Session 2.",
+          "**The gap between sessions is used deliberately to begin shifting emphasis**, guided by each student's actual Session 1 performance rather than a fixed generic calendar.",
+          "**The post-Session-2 sprint is front-loaded with the least familiar Advanced question formats first**, so the final days before the exam are spent consolidating rather than encountering new formats under pressure.",
+          "**Small batches (capped at 12 students)** let mentors judge, student by student, how much Advanced-style practice to layer in during Main preparation without compromising Main readiness.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'How long after JEE Main is JEE Advanced usually held?',
+        answer: "Historically, roughly three months after JEE Main's final (Session 2) results are declared. For the 2027 cycle, with Session 2 expected around April 2027, this would place JEE Advanced around May 2027 — though this is a pattern-based estimate, not an official date from the conducting IIT.",
+      },
+      {
+        question: 'Is a high JEE Main score enough preparation for JEE Advanced?',
+        answer: "No. JEE Main and JEE Advanced test different problem-solving skills — Main rewards fast, accurate application of known methods, while Advanced rewards combining multiple concepts in less predictable ways. A strong Main score confirms eligibility, not Advanced readiness.",
+      },
+      {
+        question: 'When should I start preparing for JEE Advanced if I also plan to attempt JEE Main?',
+        answer: "A small, consistent Advanced-style practice habit is best maintained throughout Main preparation itself, rather than started only after Main is complete. The post-Main window before Advanced is comparatively short and works better as an intensification of existing practice than a cold start.",
+      },
+      {
+        question: 'What specifically is different about JEE Advanced\'s question format?',
+        answer: "Advanced uses multi-correct options, matrix-match sets, and paragraph-based questions, along with partial-marking schemes that punish guessing more heavily than Main does. These formats need dedicated practice regardless of how strong a student's Main-format performance is.",
+      },
+      {
+        question: 'Are JEE Advanced 2027 dates announced yet?',
+        answer: "No. As of this writing, only JEE Main 2027 Session 1 exam dates are officially confirmed. JEE Advanced dates are set separately by the conducting IIT and are typically announced after JEE Main's Session 2 results, so any 2027 Advanced date at this stage is an estimate based on past cycles.",
+      },
+    ],
+  },
+
+  {
+    slug: 'amc-2026-27-dates-announced-prep-timeline-amc-10-12-amc-8',
+    title: 'AMC 2026-27 Dates Announced: A Complete Prep Timeline for AMC 10/12 (Nov) and AMC 8 (Jan)',
+    description:
+      "The MAA has confirmed AMC 10/12 dates for November 2026 and the AMC 8 window for January 2027. Here's a realistic, date-anchored prep timeline for both, built by counting backward from exam day.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-10-preparation-guide-aime-qualification', label: 'AMC 10 Preparation Guide: From AMC 10 to AIME Qualification' },
+      { href: '/blog/how-indian-students-register-take-amc', label: 'How Indian Students Can Register for and Take the AMC' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The MAA has confirmed AMC 10A and AMC 12A for November 5, 2026, AMC 10B and AMC 12B for November 13, 2026, and the AMC 8 for a window running January 21-27, 2027, with the exact date inside that window set by each test center. From today, that leaves roughly seven weeks to the first November sitting and just over four months to the AMC 8 window — enough runway to build a genuine, staged prep timeline, provided the countdown actually starts now rather than in late October.",
+      },
+      { kind: 'h2', text: 'The Confirmed 2026-27 AMC Calendar' },
+      {
+        kind: 'p',
+        text: "Every AMC cycle, the MAA fixes its dates months ahead, and 2026-27 is no different. Families sometimes wait for a school circular or a coaching center reminder before treating the calendar as real, but the dates below are already locked — planning against them now is strictly better than starting to plan in October, when there's far less room to fix content gaps.",
+      },
+      {
+        kind: 'table',
+        headers: ['Contest', 'Confirmed Date', 'Who Sits It'],
+        rows: [
+          ['AMC 10A / AMC 12A', 'November 5, 2026', 'AMC 10A: Grade 10 and below, under 17.5. AMC 12A: Grade 12 and below, under 19.5.'],
+          ['AMC 10B / AMC 12B', 'November 13, 2026', 'Same eligibility rules as the A papers — an independently written second sitting, eight days later.'],
+          ['AMC 8', 'January 21–27, 2027 (exact date set by each test center within this window)', 'Grade 8 and below, under 14.5.'],
+        ],
+      },
+      { kind: 'h2', text: 'Counting Back From November 5: A Timeline for AMC 10/12' },
+      {
+        kind: 'p',
+        text: "A seven-week runway sounds tight, but it's workable if the weeks are used for genuinely different things rather than repeating the same generic practice sets. The most useful way to structure it is to work backward from November 5 in blocks, each with a specific job to do.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Weeks 7-6 (now through early October):** an honest diagnostic — full-length past papers under timed conditions — to find out which topics are genuinely shaky versus which are just rusty. This block is about mapping the gap, not closing it yet.",
+          "**Weeks 5-4 (early to mid-October):** targeted content work on the weakest two or three topic areas identified above, mixed with continued timed practice so speed doesn't atrophy while content gaps are being patched.",
+          "**Weeks 3-2 (mid to late October):** full past papers at real exam pace, reviewed problem by problem — not just for the final answer but for where time was lost, where a guess-and-check shortcut would have been faster, and where a careless slip cost a point that content mastery alone wouldn't have prevented.",
+          "**Final week (late October to November 4):** taper, not cram. Lighter review, sleep and routine protected, maybe one last timed set early in the week — not three papers crammed into the final weekend.",
+        ],
+      },
+      { kind: 'h2', text: 'Why the Eight-Day Gap Between the A and B Papers Changes the Plan' },
+      {
+        kind: 'p',
+        text: "This cycle, AMC 10B/12B falls just eight days after the A papers, on November 13 — tighter than the two-week gap some families remember from other years. That compresses how much can realistically be fixed between the two sittings, which matters for anyone planning to attempt both and counting on the better of the two scores toward AIME qualification. The review window after November 5 needs to be planned in advance, not figured out the morning after the first paper. For the logistics and strategy of sitting both this cycle, see [AMC 10A/12A vs AMC 10B/12B: Should Students Attempt Both?](/blog/amc-10a-12a-nov-5-vs-10b-12b-nov-13-attempt-both) — and for what actually differs between an A and a B paper in general, the existing guide on [AMC 10A vs AMC 10B](/blog/amc-10a-vs-amc-10b-which-to-take) covers that ground well.",
+      },
+      { kind: 'h2', text: 'A Separate, Shorter Countdown for the AMC 8 Window in January' },
+      {
+        kind: 'p',
+        text: "AMC 8 sitters are a different cohort — grade 8 and below — and January 21-27, 2027 is far enough out that the temptation is to treat it as someone else's problem until December. That's usually a mistake. Four months sounds generous, but it includes the run-up to the November AMC 10/12 season (which absorbs a lot of a coaching center's and a family's bandwidth if an older sibling is also sitting those), followed by school exams and winter holidays, both of which quietly eat into study weeks that looked available in September.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**September-October:** steady syllabus coverage — pre-algebra, early algebra, basic geometry, introductory number theory — at a pace that doesn't need to be rushed yet.",
+          "**November-December:** this is where momentum often stalls if the household's attention is on an older sibling's AMC 10/12. Protecting even two structured sessions a week through this stretch matters more than it looks like it does in the moment.",
+          "**Early January:** shift to full-length timed AMC 8 papers, reviewed thoroughly, plus a deliberate push on whichever topic area is still weakest.",
+          "**The week of January 21-27 itself:** confirm the test center's specific date well before the window opens — centers do vary, and this is exactly the kind of detail that causes avoidable last-week stress if left unconfirmed.",
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Starting serious prep only after the dates 'feel close.'** Seven weeks and four months both look like a lot of time in September; both shrink fast once school assessments, festivals, and ordinary life get factored in.",
+          "**Treating the AMC 8 window as a single fixed date.** It's a window — confirming the actual test-center date early avoids a scramble in the third week of January.",
+          "**Ignoring the eight-day gap when planning intensity for 10B/12B.** A student who treats the days after November 5 as a rest period, rather than a short, focused review window, loses the main advantage of having a second sitting at all.",
+          "**Registering late.** Popular test centers fill up, and a late registration can mean traveling further or settling for a less convenient time — worth locking in as soon as a center is chosen.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) builds this kind of date-backward timeline with every AMC batch as soon as the MAA calendar is confirmed, rather than waiting for exam season to start feeling urgent:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Diagnostics happen in week one, not week five** — a student's actual topic gaps are mapped against the confirmed exam date immediately, so the remaining weeks are spent closing real gaps instead of guessing at them.",
+          "**The AMC 8 cohort gets protected study time through November-December**, specifically because that's the stretch families with an older AMC 10/12 sibling tend to quietly deprioritize it.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre — with an online option — mean each student's timeline is tracked individually against these dates, not run on a single generic countdown. Parents who want a timeline built around their own child's current level can [book a free consultation with Dilip Sir](/contact).",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Are the November 5 and November 13, 2026 AMC dates officially confirmed?',
+        answer: 'Yes — these are the official MAA-confirmed dates for AMC 10A/12A and AMC 10B/12B for the 2026-27 cycle.',
+      },
+      {
+        question: 'Is the AMC 8 on a single fixed date in January 2027?',
+        answer: "No — the MAA sets a window, January 21-27, 2027, and each test center schedules its own specific date within that window. Confirm the exact date with your test center rather than assuming one fixed day.",
+      },
+      {
+        question: 'How many weeks of prep time is realistic before November 5, 2026?',
+        answer: "From mid-September, that's roughly seven weeks — workable for a focused, staged plan (diagnostic, targeted content work, timed practice, taper), though not enough time to build content from scratch if a student hasn't started at all.",
+      },
+      {
+        question: "Should AMC 8 prep wait until after the November AMC 10/12 season?",
+        answer: "It's better not to pause it entirely. Steady, lighter sessions through November-December keep momentum for AMC 8 sitters, since the January window arrives faster than the calendar distance suggests once school exams and holidays are accounted for.",
+      },
+      {
+        question: 'Does registering early for AMC 10/12 matter if the dates are months away?',
+        answer: 'Yes — popular test centers can fill up well before the exam date, so registering as soon as a center is chosen avoids being pushed to a less convenient location or time.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-vs-10-vs-12-which-level-for-your-child-this-cycle',
+    title: 'AMC 8 vs AMC 10 vs AMC 12: Which Level Is Right for Your Child This Cycle?',
+    description:
+      "A quick, parent-facing decision checklist for choosing the right AMC level this cycle — based on grade, prior competition experience, and how much runway is left before this year's dates.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 7,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-10-12-compared-choosing-the-right-level', label: 'AMC 8, 10, and 12 Compared: Picking the Right Level and Why It Matters Beyond the Score' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10: Choosing the Right Track for Your Child' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For most families, the right AMC level this cycle comes down to three quick checks: current grade (which sets eligibility), prior competition experience (which signals actual readiness, not just eligibility), and how much prep runway is realistically left before November 5, 2026. A student new to timed competition maths, even if eligible for a higher level, is usually better served attempting the level matched to genuine readiness rather than the highest one they technically qualify for.",
+      },
+      { kind: 'h2', text: 'Start With Eligibility, Not Preference' },
+      {
+        kind: 'p',
+        text: "Eligibility is the first filter and it's non-negotiable: AMC 8 is open to grade 8 and below (under 14.5 on test date), AMC 10 to grade 10 and below (under 17.5), and AMC 12 to grade 12 and below (under 19.5). A student can be eligible for more than one level in a given year — a strong grade 8 student can sit both AMC 8 and, in some cases, be building toward AMC 10 the following cycle. Eligibility tells you what's allowed. It doesn't tell you what's wise.",
+      },
+      { kind: 'h2', text: 'The Three-Question Checklist' },
+      {
+        kind: 'ul',
+        items: [
+          "**1. What grade is your child in right now, and which levels does that make them eligible for?** Check this against the current year's official MAA rules directly rather than assuming last year's cutoffs still apply.",
+          "**2. What's their track record with timed competition maths so far** — MOEMS, Math Kangaroo, a previous AMC attempt, IOQM? A student who has never sat a timed, multiple-choice competition paper benefits from starting at the level matched to their content, not the level matched to their ambition.",
+          "**3. How much runway is genuinely left before this cycle's dates** — November 5/13, 2026 for AMC 10/12, or the January 21-27, 2027 window for AMC 8? A student with seven weeks left and shaky algebra fundamentals is better served consolidating at a level they can prepare for properly than stretching for one they can't.",
+        ],
+      },
+      { kind: 'h2', text: 'A Fast Default, and When It Applies' },
+      {
+        kind: 'p',
+        text: "If none of the three questions above throw up a red flag, the sensible default is: grade 8 and below with no prior AMC experience starts at AMC 8; grade 9-10 students with solid algebra and geometry attempt AMC 10; grade 11-12 students who are genuinely comfortable with trigonometry and logarithms, not just grade-eligible, move to AMC 12. This default holds for most students most years. It's the exceptions that need a closer look.",
+      },
+      { kind: 'h2', text: 'When to Deviate From the Default' },
+      {
+        kind: 'ul',
+        items: [
+          "**A grade 10 student who is eligible for AMC 12 but hasn't covered precalculus yet** should stay with AMC 10 this cycle. AMC 12 tests trigonometry and logarithms that simply aren't on the AMC 10 syllabus at all — this isn't a difficulty gap, it's a content gap.",
+          "**A grade 8 student who has already outgrown AMC 8-level material** through strong MOEMS or Math Kangaroo results might be a candidate for an early AMC 10 attempt where eligibility allows, but this should follow an honest content check, not just a hunch that the child is 'ahead.'",
+          "**A student returning after a gap year from competition maths** should generally treat this cycle as a rebuilding one at a level slightly below where they last competed, rather than assuming the previous level's readiness has been preserved.",
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Choosing the highest eligible level for prestige reasons**, without an honest check of whether that level's actual syllabus — especially AMC 12's precalculus content — has genuinely been covered.",
+          "**Comparing AMC levels only by 'how hard the problems look'** rather than by what's actually being tested — AMC 12 isn't just a harder AMC 10, it includes different content entirely.",
+          "**Deciding the level in late October** instead of now, when there's still enough runway to prepare properly for whichever level is chosen.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) runs this exact three-question check with every new family before recommending a level:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Content readiness is checked against the actual syllabus of each level**, not inferred from grade or confidence alone, before a level is recommended.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, with an online option, mean this check happens individually rather than as a one-size-fits-all recommendation for an entire class.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "For the fuller comparison of content, eligibility, and AIME pathways across all three levels, the existing deep-dive on [AMC 8, 10, and 12 Compared](/blog/amc-8-10-12-compared-choosing-the-right-level) covers that ground thoroughly — this piece is meant as the quick decision tool to use alongside it.",
+      },
+    ],
+    faq: [
+      {
+        question: "My child is grade 9 and eligible for AMC 10 — should they wait a year to be 'more ready'?",
+        answer: "Not necessarily. If algebra and geometry fundamentals are solid, grade 9 is a reasonable starting point for AMC 10 — waiting purely to feel 'more ready' often just delays useful exam experience without adding real content readiness.",
+      },
+      {
+        question: 'Can a student sit both AMC 8 and AMC 10 in the same school year?',
+        answer: "It depends on grade and age eligibility for each — a younger grade 8 student may be eligible for AMC 8 in January while not yet eligible for AMC 10, since AMC 10 requires grade 10 or below rather than a specific younger cutoff, so check the current year's exact eligibility windows for both.",
+      },
+      {
+        question: "Is it better to attempt AMC 12 for the 'higher achievement' even without full precalculus coverage?",
+        answer: "No — AMC 12 includes trigonometry and logarithms genuinely absent from AMC 10, so attempting it without that content covered usually means facing unfamiliar material rather than just harder versions of familiar material, with little strategic upside.",
+      },
+      {
+        question: "How much prep time is enough to decide on a level for this cycle's dates?",
+        answer: "With roughly seven weeks left before November 5, 2026, there's enough time to prepare properly for a level matched to current readiness — but not enough to build an entirely new level of content from scratch, which is exactly why the honest checklist matters now rather than in late October.",
+      },
+    ],
+  },
+  {
+    slug: 'road-from-amc-to-aime-to-usamo-for-ambitious-mathletes',
+    title: 'The Road from AMC to AIME to USAMO: What Ambitious Young Mathletes Should Know',
+    description:
+      "AMC, AIME, and USAMO form a multi-year competition-maths pathway, not three unrelated exams. Here's the long-horizon roadmap — typical grade and age at each stage, and what genuinely changes along the way.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    relatedGuides: [
+      { href: '/blog/after-amc-10-understanding-aime-and-usamo', label: 'What Happens After AMC 10: Understanding AIME and USAMO' },
+      { href: '/blog/moems-to-amc-to-aime-complete-pathway', label: 'MOEMS to AMC to AIME: The Complete Pathway for Young Mathematicians' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC, AIME, and USAMO form a genuine multi-year pathway rather than three unrelated exams: strong AMC 10/12 scorers earn an AIME invitation, strong AIME performers (combined with their AMC score, via the USAMO index) earn a USAMO invitation, and each stage typically arrives one to three years after the previous one for a student progressing at a normal, unhurried pace. Treating it as a roadmap rather than a single exam to 'clear' changes how a family should plan — and how much patience the earlier stages actually deserve.",
+      },
+      { kind: 'h2', text: 'The Shape of the Pathway, Zoomed Out' },
+      {
+        kind: 'p',
+        text: "It's easy to describe this pathway in one sentence — AMC leads to AIME leads to USAMO — and lose the fact that it typically plays out over several years of a student's schooling, not one intense season. A student who first sits AMC 8 in grade 6 or 7 is often several years away from a realistic AIME qualification, and further still from USAMO. Ambition matters here, but the ambition that actually pays off looks like sustained, patient skill-building across years, not a push to reach the final stage as fast as possible.",
+      },
+      { kind: 'h2', text: 'A Milestone Map: Typical Grade, Age, and Stage' },
+      {
+        kind: 'p',
+        text: "There's no fixed rule that a student must hit each stage at a specific grade — plenty of strong mathletes move faster or slower than the table below and do just fine. It's meant as a realistic reference point, not a deadline.",
+      },
+      {
+        kind: 'table',
+        headers: ['Typical Grade / Age', 'Typical Stage', 'What Changes'],
+        rows: [
+          ['Grades 4-7 (age 9-12)', 'MOEMS, Math Kangaroo, early AMC 8 attempts', 'Building comfort with non-routine problems, mostly untimed or lightly timed.'],
+          ['Grades 7-9 (age 12-15)', 'AMC 8 seriously, first AMC 10 attempts', 'Real timed pressure and multiple-choice format enter the picture; content moves into algebra, geometry, early number theory.'],
+          ['Grades 9-11 (age 14-17)', 'AMC 10/12, first AIME qualification for strong scorers', 'The jump from multiple-choice to AIME\'s three-digit integer answers removes the safety net of guessing — every answer has to be actually derived.'],
+          ['Grades 10-12 (age 15-18)', 'Repeated AIME attempts, USAMO qualification for top performers', 'Proof-based mathematics replaces answer-only scoring; the skill being tested shifts from "get the right number" to "construct and write a rigorous argument."'],
+        ],
+      },
+      { kind: 'h2', text: 'Stage One: Building the Instinct, Not the Score' },
+      {
+        kind: 'p',
+        text: "The earliest stage of this pathway — MOEMS, Math Kangaroo, a first AMC 8 attempt — isn't really about the scores it produces. It's about whether a student develops genuine comfort sitting with an unfamiliar problem long enough to try more than one approach. Students who skip this and move straight into drilling AMC-style content often hit a ceiling later precisely because that underlying comfort with genuine problem-solving was never built, only pattern-matching to familiar question types.",
+      },
+      { kind: 'h2', text: 'Stage Two: AMC 8/10 and the First Real Filter' },
+      {
+        kind: 'p',
+        text: "AMC 8 and then AMC 10 are where competition maths starts filtering meaningfully. AMC 8 introduces real time pressure in a multiple-choice format; AMC 10 raises the content ceiling into algebra, geometry, elementary number theory, and basic combinatorics, and is where AIME qualification first becomes possible for genuinely strong scorers. This is usually the stage where a family gets its first honest signal of how far a student might realistically go — not as a verdict, but as useful information for how to pace the years ahead.",
+      },
+      { kind: 'h2', text: 'Stage Three: AIME and the Shift in What "Hard" Means' },
+      {
+        kind: 'p',
+        text: "AIME qualification is a genuine milestone, and it also marks a real shift in what the exam demands. AMC is multiple-choice, which means an educated guess can sometimes rescue a point. AIME answers are three-digit integers with no answer choices to lean on — every solution has to be fully derived, and there's no partial credit for a plausible-looking guess. Students who found AMC manageable through a mix of strong technique and reasonable guessing sometimes find AIME a genuine adjustment, not just a harder version of the same skill.",
+      },
+      { kind: 'h2', text: 'Stage Four: USAMO and What It Actually Demands' },
+      {
+        kind: 'p',
+        text: "USAMO qualification, based on a combined AIME-and-AMC index, opens the door to a fundamentally different kind of mathematics: proof-based problems graded on the rigor and completeness of a written argument, not a final numeric answer. This is a genuinely different skill from everything that came before it in the pathway — getting the right number was never the hard part at this stage; constructing and clearly writing a watertight argument is. Very few students reach this stage, and reaching it is itself a significant achievement regardless of how the actual USAMO performance goes.",
+      },
+      { kind: 'h2', text: 'What "Ambitious" Should Actually Mean, Timeline-Wise' },
+      {
+        kind: 'p',
+        text: "For a family with a genuinely ambitious young mathlete, the most useful mindset shift is treating this as a multi-year pathway with distinct skills at each stage, rather than a single ladder to climb as fast as possible. Rushing a student into AMC 10 before AMC 8-level comfort is solid, or pushing AIME attempts before algebra and number theory fundamentals are genuinely strong, tends to produce frustration rather than acceleration. The patient version of ambition — building each stage's actual skill before chasing the next one's score — is usually the faster path to USAMO-level mathematics in the end, not the slower one.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Treating an early AMC 8 or AMC 10 score as a final verdict** on a student's ceiling, rather than one data point early in a multi-year pathway.",
+          "**Pushing a student toward AIME-level practice before AMC-level content is genuinely solid**, which tends to produce frustration rather than faster progress.",
+          "**Underestimating how different AIME and USAMO actually are from AMC**, in format and in the skill being tested, and assuming success at one stage guarantees comfort at the next without a genuine adjustment period.",
+          "**Ignoring the years-long shape of this pathway** and treating each exam season as an isolated, high-stakes event rather than one stage of sustained development.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) has guided students across every stage of this pathway, from a first Math Kangaroo attempt through to USAMO-level proof work:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Each stage's actual skill is built before the next stage's score is chased** — proof-writing habits, for instance, are introduced gradually well before a student is anywhere near a USAMO invitation, rather than crammed in once AIME qualification happens.",
+          "**Progress is tracked as a multi-year arc**, not a single exam season, so a quieter year at one stage doesn't get mistaken for a ceiling.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, with an online option, let mentors calibrate pacing individually across this long pathway rather than pushing every student through the same fixed timeline.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "For the specific mechanics of qualifying for AIME and USAMO after AMC 10, see [What Happens After AMC 10](/blog/after-amc-10-understanding-aime-and-usamo); for the earliest stage of this same pathway starting from MOEMS, see [MOEMS to AMC to AIME](/blog/moems-to-amc-to-aime-complete-pathway).",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many years does it typically take to go from AMC 8 to USAMO?',
+        answer: "There's no fixed timeline, but a common arc runs from an early AMC 8 attempt around grade 6-7 through AMC 10/12 and repeated AIME attempts in grades 9-11, with USAMO qualification, for the small number who reach it, typically in grades 10-12. Students move at genuinely different paces.",
+      },
+      {
+        question: 'Is AIME much harder than AMC, or just a longer version of the same thing?',
+        answer: "It's a genuine shift, not just more of the same. AMC is multiple-choice, so an educated guess can sometimes salvage a point; AIME answers are three-digit integers with nothing to guess from, so every answer has to be fully derived.",
+      },
+      {
+        question: 'What does USAMO actually test, compared to AMC and AIME?',
+        answer: "USAMO is proof-based — students write full mathematical arguments that are graded on rigor and completeness, not a single final number. This is a different skill from AMC and AIME's answer-only format.",
+      },
+      {
+        question: 'Should a student skip AMC 8 and start directly with AMC 10 if they seem advanced?',
+        answer: "Generally no — the comfort with non-routine problem-solving built at the AMC 8 stage (or earlier, through MOEMS or Math Kangaroo) tends to matter more for later stages than saving a year by skipping ahead.",
+      },
+      {
+        question: "How is the USAMO qualification cutoff calculated?",
+        answer: "USAMO invitations use a combined index built from a student's AMC score and their AIME score, not either exam in isolation — so strong performance on both, not just one, matters for reaching this stage.",
+      },
+    ],
+  },
+  {
+    slug: 'amc-10a-12a-nov-5-vs-10b-12b-nov-13-attempt-both',
+    title: 'AMC 10A/12A (Nov 5) vs AMC 10B/12B (Nov 13): Should Students Attempt Both?',
+    description:
+      "This cycle's AMC 10A/12A falls on November 5, 2026, and AMC 10B/12B just eight days later on November 13. Here's the practical logistics and strategy of deciding whether to sit both.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 7,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8/10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-10a-vs-amc-10b-which-to-take', label: 'AMC 10A vs AMC 10B: Which Should You Take?' },
+      { href: '/blog/amc-10-preparation-guide-aime-qualification', label: 'AMC 10 Preparation Guide: From AMC 10 to AIME Qualification' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For most students already preparing seriously for AIME qualification, attempting both AMC 10A/12A (November 5, 2026) and AMC 10B/12B (November 13, 2026) is worth it, since only the better of the two scores counts and the eight-day gap this cycle is enough for a short, targeted review. It's not automatically the right call for every student, though — a student who isn't genuinely exam-ready for the first sitting usually gains more from one well-prepared attempt than two rushed ones.",
+      },
+      { kind: 'h2', text: "This Cycle's Exact Gap: Eight Days, Not Two Weeks" },
+      {
+        kind: 'p',
+        text: "The gap between the A and B papers isn't fixed year to year — it depends on where the MAA schedules each sitting. This cycle, it's tighter than usual: AMC 10A/12A on November 5, 2026, and AMC 10B/12B on November 13, eight days later, a Friday-to-Friday turnaround. That's meaningfully less time than a two-week gap would give, which changes how the days in between should be spent. For a general breakdown of what actually differs between an A and a B paper in content and difficulty, [AMC 10A vs AMC 10B](/blog/amc-10a-vs-amc-10b-which-to-take) covers that; this piece is about the specific decision of sitting both this cycle.",
+      },
+      { kind: 'h2', text: 'The Registration Logistics of Sitting Both' },
+      {
+        kind: 'p',
+        text: "Each sitting is a separate registration through a test center, and centers can have different availability for the A and B dates — it's worth confirming both slots are actually open at the same center before assuming a second attempt is simply a formality. Booking both now, rather than deciding after seeing how November 5 goes, avoids the scramble of trying to secure a B-paper seat with only a week's notice, when a center's capacity for that date may already be committed.",
+      },
+      { kind: 'h2', text: 'How to Use the Eight Days Between November 5 and 13' },
+      {
+        kind: 'p',
+        text: "Eight days is enough for a focused review, not a second full preparation cycle. The most productive use of that window is a same-day or next-day error review of the November 5 paper — going through every missed or guessed question and sorting mistakes into genuine content gaps versus careless errors versus time-pressure decisions. Content gaps get two or three days of targeted work; careless-error patterns get addressed through slower, more deliberate practice on a handful of problems rather than volume; and time-pressure issues get addressed with one more timed set in the final two or three days, not several.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Days 1-2 after November 5:** thorough review of the paper just sat — every wrong or guessed answer categorized by cause, not just marked right or wrong.",
+          "**Days 3-5:** targeted work on the two or three specific gaps that review surfaced — not a broad re-review of the entire syllabus, which the timeframe doesn't really allow.",
+          "**Days 6-7:** one timed practice set, at real exam pace, to rebuild pacing instincts without adding fresh fatigue right before the second sitting.",
+          "**Day 8 (exam day):** treat it like exam day, not a rematch to prove something — the score that counts is whichever of the two is higher, so there's no benefit to over-pressuring the second attempt.",
+        ],
+      },
+      { kind: 'h2', text: 'When Attempting Both Is Not the Right Call' },
+      {
+        kind: 'p',
+        text: "Sitting both makes the most sense for a student who is already reasonably exam-ready for November 5 and simply wants a second, lower-stakes shot at a better score. It makes less sense for a student who isn't there yet — cramming toward a rushed November 5 attempt just to 'get a look at the format,' then trying to fix everything in eight days before November 13, usually produces two underprepared scores instead of one solid one. In that situation, it's often better to register for only the B paper, use the extra eight days for real preparation, and sit one genuinely ready attempt rather than two anxious ones. School commitments, travel, or a test center only offering one of the two dates are equally valid reasons to attempt just one.",
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming the second attempt is a free do-over with no real preparation needed.** The eight days between sittings are short but genuinely useful if spent on targeted review — wasting them assumes the second score will simply be better by default.",
+          "**Registering for the B paper only after seeing how the A paper goes.** By then, seats at a preferred center may no longer be available.",
+          "**Treating the review week as a repeat of full-syllabus revision.** Eight days isn't enough time for that; a narrow focus on the specific gaps the first paper revealed is what actually helps.",
+          "**Piling on stress for the second sitting** by treating it as a must-beat rematch, when in fact only the better of the two scores counts and there's genuinely nothing to lose by attempting it calmly.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) plans the eight-day window between this cycle's two sittings as a deliberate part of the prep calendar, not an afterthought:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**A same-day error review is scheduled right after the November 5 paper**, so the eight days are used for targeted correction rather than lost to a post-exam lull.",
+          "**Students who aren't genuinely exam-ready for November 5 are advised honestly** on whether a single, better-prepared B-paper attempt makes more sense than two rushed sittings.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, with an online option, allow this kind of individualized eight-day review plan for each student rather than one generic revision sheet for the whole batch.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to register separately for AMC 10A/12A and AMC 10B/12B?",
+        answer: 'Yes — each sitting is its own registration through a test center, and it is worth confirming your preferred center has seats for both dates before relying on attempting both.',
+      },
+      {
+        question: 'Is eight days enough time to meaningfully improve between the two papers?',
+        answer: "It's enough for a targeted review — going through the first paper's mistakes and working specifically on the two or three gaps it revealed — but not enough for broad, full-syllabus revision. Focus matters more than volume in this window.",
+      },
+      {
+        question: 'Which score counts if a student sits both papers?',
+        answer: "The better of the two scores is what counts toward AIME qualification, so there's no downside to the second attempt beyond the extra preparation time and registration cost.",
+      },
+      {
+        question: "What if my child isn't fully ready by November 5 — should they still attempt both?",
+        answer: "Not necessarily. If a student isn't genuinely exam-ready for the first sitting, it can be more effective to register only for the November 13 paper and use the extra time for real preparation, rather than sitting two underprepared attempts.",
+      },
+      {
+        question: 'Does attempting both AMC 10 and AMC 12 versions apply the same A/B logic?',
+        answer: 'Yes — AMC 12A/12B follows the same November 5 / November 13 schedule and the same better-of-two-scores logic for AIME qualification as AMC 10A/10B.',
+      },
+    ],
+  },
+  {
+    slug: 'how-indian-students-prepare-for-amc-bridging-school-maths-olympiad-thinking',
+    title: 'How Indian Students Can Prepare for the AMC: Bridging the Gap Between School Maths and Olympiad Thinking',
+    description:
+      "CBSE, ICSE, and State Board maths and AMC-style problem-solving reward genuinely different instincts. Here's what actually changes, and a practical way to bridge the gap.",
+    category: 'olympiad',
+    datePublished: '2026-09-18',
+    readingMinutes: 8,
+    relatedProgramHref: '/ioqm-amc-coaching-pune',
+    relatedProgramLabel: 'IOQM / AMC Coaching',
+    relatedGuides: [
+      { href: '/blog/how-indian-students-register-take-amc', label: 'How Indian Students Can Register for and Take the AMC' },
+      { href: '/blog/from-board-maths-to-olympiad-maths', label: 'From Board Maths to Olympiad Maths: How the Jump Actually Works' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Indian school maths, across CBSE, ICSE, and State Boards, is built mainly around applying known procedures to familiar problem types under generous time limits, while the AMC rewards recognizing which of several possible approaches actually fits an unfamiliar problem, under real time pressure, with no partial credit for a half-right method. Bridging that gap isn't about learning new formulas — most of the content overlaps — it's about deliberately practicing the recognition and decision-making step that school maths rarely asks for.",
+      },
+      { kind: 'h2', text: 'What CBSE/ICSE/State-Board Maths Actually Trains' },
+      {
+        kind: 'p',
+        text: "Indian school maths curricula are thorough on content and structured around a predictable rhythm: a concept is taught, worked examples demonstrate the standard method, and practice problems are largely variations on that same method. This is genuinely effective for building procedural fluency and covering a wide syllabus reliably, and it's not a weak system — it produces students who are comfortable with algebraic manipulation, geometric theorems, and standard problem types. What it trains less deliberately is the moment before the method is chosen: figuring out, from an unfamiliar problem statement, which of several approaches is even worth attempting.",
+      },
+      { kind: 'h2', text: 'What AMC-Style Problems Demand Instead' },
+      {
+        kind: 'p',
+        text: "An AMC problem is rarely solvable by recognizing 'this is a Pythagorean theorem question' the way a textbook exercise often signals its own method through its chapter heading. The syllabus content is largely the same — algebra, geometry, number theory, basic combinatorics — but the problem is written to obscure which approach applies, and often rewards a shortcut or a clever reframing over the direct, textbook-standard method. Under 75 minutes for 25 questions, a student also has to make real-time decisions about which problems to attempt, which to skip, and when a promising-looking approach isn't converging and should be abandoned — decisions school exams, with their fixed question order and generous per-mark time budget, rarely force.",
+      },
+      { kind: 'h2', text: 'Where the Gap Shows Up Most for Indian Students' },
+      {
+        kind: 'ul',
+        items: [
+          "**Recognizing the right approach, not just executing it.** A student can be excellent at completing the square once told to, and still freeze when a problem gives no signal that completing the square is even relevant.",
+          "**Working under negative-marking-style caution without over-guessing or over-skipping.** School exams rarely train the specific judgment of when a partial approach is worth attempting on a multiple-choice paper.",
+          "**Sitting with a problem that doesn't resolve in the first two minutes.** School practice is heavily weighted toward problems that yield to the method just taught; AMC problems are deliberately chosen to not signal their method upfront.",
+          "**Moving on from a stuck approach quickly**, rather than sinking disproportionate time into one problem the way untimed school homework habits encourage.",
+        ],
+      },
+      { kind: 'h2', text: 'A Practical Bridge: How to Retrain the Instinct' },
+      {
+        kind: 'p',
+        text: "The most effective bridging work isn't more content coverage — most Indian students preparing for AMC 10, for instance, already have strong algebra and geometry from school. It's deliberately timed, source-varied problem-solving where the method isn't announced in advance, paired with honest review of not just whether an answer was right, but whether the approach chosen was actually the efficient one for that problem.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Practice from mixed problem sets, not chapter-organized ones.** A chapter titled 'Quadratic Equations' removes the exact recognition step AMC actually tests; past AMC papers, worked in full rather than by topic, restore it.",
+          "**Time every practice set from the start**, even early on, rather than treating timing as something to add later once content feels 'ready.' The two skills — content and time-pressure decision-making — develop better together than sequentially.",
+          "**Review for approach efficiency, not just correctness.** A right answer reached through a slow, brute-force method still flags a gap worth addressing before exam day.",
+          "**Build comfort with being stuck.** A problem that doesn't yield in the first attempt isn't a sign of insufficient content knowledge — it's the normal experience of an AMC-style question, and reacting to it calmly is itself a trainable skill.",
+        ],
+      },
+      { kind: 'h2', text: 'Common Mistakes to Avoid' },
+      {
+        kind: 'ul',
+        items: [
+          "**Assuming strong board-exam marks mean AMC-readiness.** The content overlap is real, but the recognition-under-pressure skill AMC tests is genuinely different and needs its own deliberate practice.",
+          "**Practicing exclusively from topic-sorted material** right up until exam week, which never forces the approach-recognition step AMC actually demands.",
+          "**Treating a stuck problem as a content failure** and reflexively returning to more theory, when the real gap is often decision-making speed, not missing knowledge.",
+          "**Starting timed practice too late**, after content feels 'complete' — timing habits take their own weeks to build and shouldn't be crammed into the final stretch alone.",
+        ],
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) works with many students making exactly this transition from strong CBSE/ICSE/State Board results into AMC-style problem-solving:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Mixed, unsorted problem sets are used deliberately** from early in a student's preparation, rather than saving that format for the final weeks, so the recognition skill has real time to develop.",
+          "**Every review session covers approach efficiency, not just right-or-wrong answers**, so a slow correct method gets flagged and refined just as much as an outright wrong one.",
+          "**Small batches (max 12 students)** at the Amanora, Hadapsar centre, with an online option, let mentors watch each student's specific decision-making patterns under time pressure and correct them individually.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "For the practical logistics of actually registering and sitting the AMC from India, the existing guide on [How Indian Students Can Register for and Take the AMC](/blog/how-indian-students-register-take-amc) covers that ground in detail — this piece is focused specifically on the pedagogical gap, not the registration process.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do Indian students need to learn extra content beyond the school syllabus for AMC?",
+        answer: "Generally not much — the core content (algebra, geometry, elementary number theory, basic combinatorics) overlaps substantially with CBSE/ICSE/State Board syllabi. The gap is mainly in applying that content to unfamiliar, non-routine problems under time pressure, not in missing topics.",
+      },
+      {
+        question: 'Why does a student with strong board-exam marks sometimes struggle with AMC problems?',
+        answer: "Board exams largely test executing a taught method correctly; AMC tests recognizing which method applies to an unfamiliar problem in the first place. These are related but genuinely different skills, and strong marks in one don't automatically transfer to the other.",
+      },
+      {
+        question: 'How long does it typically take to bridge this gap?',
+        answer: "It varies by student, but a few months of consistent, timed, mixed-topic practice — rather than a single intensive week — tends to build this instinct more reliably, since it's a habit being retrained, not a fact being memorized.",
+      },
+      {
+        question: 'Is timed practice necessary from the very start, or should content come first?',
+        answer: "Both together tend to work better than sequencing them. Adding time pressure only after content feels 'complete' means the decision-making skill AMC tests gets far less practice time than the content itself.",
+      },
+      {
+        question: 'Does this gap affect IOQM preparation in a similar way?',
+        answer: "Yes, in a similar spirit — IOQM also rewards non-routine problem-solving over procedural execution, though its format (short-answer, no negative marking in the same way) differs from AMC's multiple-choice structure, so the specific practice habits aren't identical.",
+      },
+    ],
+  },
+
+  {
+    slug: 'introducing-buzzybrains-mht-cet-crash-course-session-1-sprint',
+    title: 'Introducing the BuzzyBrains MHT CET Crash Course: A Focused Final Sprint Before the Dec 15 Window',
+    description:
+      "MHT CET 2027 Session 1 runs December 15, 2026 to January 15, 2027 — the first time the exam has ever landed before boards. BuzzyBrains Academy's new 8-week Crash Course, led personally by Dilip Sir, is built specifically for that shift. Here's what it is and why it exists now.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 8,
+    relatedProgramHref: '/mht-cet-crash-course-pune',
+    relatedProgramLabel: 'MHT CET Crash Course',
+    relatedGuides: [
+      { href: '/blog/mht-cet-2027-moving-to-december-what-it-means', label: "MHT-CET Is Moving to December: What the New 2-Attempt Cycle Means for Class 11 Students" },
+      { href: '/blog/who-should-and-shouldnt-join-a-cet-crash-course', label: "Who Should (and Shouldn't) Join a CET Crash Course This Year" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "BuzzyBrains Academy has launched a dedicated MHT CET Crash Course — an 8-week sprint batch, capped at 12 students and led personally by Dilip Sir, built specifically around MHT CET 2027 Session 1 (December 15, 2026 – January 15, 2027). It exists because this is the first year Session 1 has ever landed before board exams instead of after, which means the usual post-board, April-timed CET push no longer matches the calendar — students now need a concentrated, weightage-first sprint that finishes before mid-December, not a generic revision class squeezed in wherever there's time.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "The Crash Course is an 8-week batch, sequenced to complete before the MHT CET 2027 Session 1 window opens on December 15, 2026.",
+          "It is led personally by Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) — not delegated to junior faculty.",
+          "Batches are capped at 12 students so every weekly mock gets reviewed chapter-by-chapter, not just scored and forgotten.",
+          "The curriculum is weightage-first: it starts from CET's actual high-scoring chapters, not a page-by-page reread of the textbook.",
+          "It's explicitly built as a top-up for students who've mostly finished their PCM/PCB syllabus, not a substitute for a full-year foundation.",
+        ],
+      },
+      { kind: 'h2', text: 'Why a Crash Course Now, Specifically' },
+      {
+        kind: 'p',
+        text: "For over a decade, MHT CET sat in April-May, comfortably after boards were done. Students revised for boards first, then pivoted to CET-specific practice in the weeks that followed, with no real time pressure between the two. That sequencing is gone this cycle. Maharashtra's CET Cell has set Session 1 for December 15, 2026 to January 15, 2027, deliberately ahead of both boards (typically February-March) and JEE Main Session 1, which itself now runs January 22-24 and 28-30, 2027. CET Cell Commissioner Dileep Sardesai has cited alignment with JEE Main's earlier timing as one explicit reason for the shift, along with giving students two genuine attempts and keeping CET clear of the board-exam period.",
+      },
+      {
+        kind: 'p',
+        text: "That compresses the runway students have always assumed they'd get. A student who planned to start serious CET-pattern practice in February, after wrapping board prep, now finds that window has already closed by the time boards even begin. The Crash Course exists to solve exactly that timing problem — a concentrated stretch of CET-specific practice that finishes before the exam window opens, so it doesn't compete with board revision once that period starts.",
+      },
+      { kind: 'h2', text: 'What the Course Actually Does' },
+      {
+        kind: 'ul',
+        items: [
+          "**Starts with a full-syllabus diagnostic mock** to identify exactly which chapters are weak, rather than assuming every topic needs equal time.",
+          "**Builds the schedule around CET's actual weightage** — the specific chapters that carry the most marks get the most sessions, not an even split across the syllabus.",
+          "**Runs one full-length, CET-pattern mock every week**, under real time pressure, so exam-day speed is trained, not just concept recall.",
+          "**Reviews every mock with the batch, chapter by chapter**, so a wrong answer becomes a named, fixable gap rather than just a lower score.",
+          "**Closes with an attempt-strategy session** on how to read a Session 1 score and decide what to change before the April 2027 second attempt.",
+        ],
+      },
+      { kind: 'h2', text: 'Who This Is Actually Built For' },
+      {
+        kind: 'p',
+        text: "This is not a first introduction to Physics, Chemistry, Maths or Biology — it assumes a student has already covered most of their Class 11-12 syllabus in school and needs concentrated, CET-specific pattern practice, not new concept teaching. If a topic genuinely hasn't been taught yet, the right move during the enrollment call is to say so; a crash course squeezed onto an incomplete foundation tends to waste both the student's time and the batch's pace. Where that's the case, we'll either suggest the next batch or recommend our full-year [12th Board PCM program](/12th-board-pcm) instead, which builds board and CET/JEE preparation together from earlier in Class 11-12.",
+      },
+      { kind: 'h2', text: 'What It Deliberately Doesn\'t Try to Be' },
+      {
+        kind: 'p',
+        text: "We've written elsewhere on this site about why the real gap between a strong score and an average one is usually built years earlier, not closed in a final sprint — and that stays true here. This course doesn't promise to fix a shaky foundation in eight weeks, and we won't tell a family it can. What it does well is take a mostly-complete syllabus and turn it into exam-ready speed and accuracy under the specific MHT CET pattern, in the specific window this year's calendar actually gives us.",
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) built the Crash Course curriculum directly around this year's compressed timeline:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Every batch opens with a diagnostic mock, not a syllabus lecture** — Dilip Sir reviews it personally with each student before the weightage-first schedule is finalized for that batch.",
+          "**Small batches (max 12 students)** mean the weekly mock review is a genuine discussion, not a scoreboard — every student knows exactly what to fix before the next one.",
+          "**Students who aren't syllabus-ready are told directly during enrollment**, rather than being placed in a batch that won't serve them well.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you're weighing whether this fits your child's situation right now, [talk to Dilip Sir directly](/contact) — the enrollment call itself is where we figure out whether the sprint format is the right tool, or whether a different program serves better.",
+      },
+    ],
+    faq: [
+      {
+        question: 'When does the BuzzyBrains MHT CET Crash Course run?',
+        answer: "It's an 8-week sprint batch sequenced to finish before MHT CET 2027 Session 1 opens on December 15, 2026. Exact batch start dates are confirmed during enrollment — check current availability at /mht-cet-crash-course-pune or contact us directly.",
+      },
+      {
+        question: 'Is this course online or in person?',
+        answer: "Both — sessions run from our Amanora, Hadapsar, Pune centre, with a live online option for students who prefer not to commute. Content, faculty and the mock-test schedule are identical either way.",
+      },
+      {
+        question: 'Does the Crash Course cover both PCM and PCB groups?',
+        answer: "Yes. Physics and Chemistry content is shared across both groups; Mathematics is covered for PCM students and Biology for PCB students, with the same weightage-first, mock-test-driven structure either way.",
+      },
+      {
+        question: 'Who teaches the course — is it Dilip Sir personally?',
+        answer: "Yes. Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) leads the course directly and personally reviews every weekly mock with the batch.",
+      },
+      {
+        question: "What if my child hasn't finished the full syllabus yet?",
+        answer: "Tell us during the enrollment call. We'll either recommend waiting for a later batch, adding a few one-on-one sessions on the specific weak chapters, or pointing you to our full-year 12th Board PCM program instead — whichever actually fits where your child's preparation currently stands.",
+      },
+      {
+        question: 'Does this also prepare students for the April 2027 Session 2 attempt?',
+        answer: "This particular batch is built for Session 1. Students who want to sharpen their score further for the April 2027 attempt can join a separate, shorter top-up batch closer to that date — ask about it when you enroll.",
+      },
+    ],
+  },
+  {
+    slug: 'who-should-and-shouldnt-join-a-cet-crash-course',
+    title: "Who Should (and Shouldn't) Join a CET Crash Course This Year",
+    description:
+      "Crash courses work brilliantly for some students and waste money for others — the difference usually comes down to how much syllabus is actually done. A genuinely honest look at who the BuzzyBrains MHT CET Crash Course is built for, and who it isn't.",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 8,
+    relatedProgramHref: '/mht-cet-crash-course-pune',
+    relatedProgramLabel: 'MHT CET Crash Course',
+    relatedGuides: [
+      { href: '/blog/introducing-buzzybrains-mht-cet-crash-course-session-1-sprint', label: 'Introducing the BuzzyBrains MHT CET Crash Course: A Focused Final Sprint Before the Dec 15 Window' },
+      { href: '/blog/mht-cet-two-attempt-strategy-what-to-change-between-attempts', label: 'MHT-CET Two-Attempt Strategy: What to Actually Change Between Attempts' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A CET crash course is the right fit for a student who has already covered most of their PCM/PCB syllabus in school and needs concentrated, exam-pattern practice and speed training before MHT CET 2027 Session 1 (December 15, 2026 – January 15, 2027) — not for a student who still has substantial concept gaps, since eight weeks of weightage-first drilling can't substitute for the depth a full syllabus actually requires. The honest test is simple: if a topic hasn't been taught in school yet, a crash course isn't going to teach it properly either.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "A crash course is a top-up for a mostly-complete syllabus, not a replacement for one — it sharpens speed and pattern-familiarity, it doesn't build conceptual foundations from zero.",
+          "The clearest signal a student is ready is being able to attempt a full-syllabus diagnostic mock and get a meaningful (even if weak) score, not a blank paper.",
+          "Students with more than two or three genuinely untouched chapters are usually better served waiting for the next batch or pairing a crash course with targeted one-on-one sessions first.",
+          "This year's compressed December-January timeline makes the honest fit question more important than ever, since there's no post-CET runway left to catch up before boards.",
+          "The same logic applies in reverse: a strong, mostly-complete student gains far more from eight weeks of weightage-first mocks than from eight more weeks of general revision.",
+        ],
+      },
+      { kind: 'h2', text: 'The Honest Version of Who This Helps' },
+      {
+        kind: 'p',
+        text: "The students who get the most out of a crash course share one trait: they've already sat through the teaching. They've seen mechanics, organic reactions, calculus, or genetics in class, done the homework, maybe even attempted a board-pattern test or two. What they're missing isn't understanding — it's speed under a specific MCQ format, familiarity with how CET actually phrases and traps students on familiar concepts, and a clear-eyed view of which chapters are actually costing them marks. Eight weeks of weightage-first drilling and weekly mocks closes exactly that gap, fast.",
+      },
+      { kind: 'h2', text: "Who Should Wait, or Choose a Different Program" },
+      {
+        kind: 'ul',
+        items: [
+          "**A student with three or more chapters genuinely untaught in school** — a crash course session moves at a pace built for review, not first-time teaching, and both the student and the batch lose out.",
+          "**A student who scores near-zero on a diagnostic full-syllabus mock**, not because of speed or pattern-unfamiliarity but because the underlying concepts simply aren't there yet.",
+          "**A student who hasn't started Class 12 board revision at all** — a crash course adds a second, parallel commitment on top of an already-overdue board workload, which usually hurts both.",
+          "**A family looking for a full board-plus-entrance program from Class 11 onward** — that's a different shape of program entirely; see our [12th Board PCM program](/12th-board-pcm) instead.",
+        ],
+      },
+      { kind: 'h2', text: 'A Simple Way to Check Before Enrolling' },
+      {
+        kind: 'p',
+        text: "Before committing, sit a single timed, full-syllabus MHT CET-pattern mock (any recent year's paper works) without special preparation for it. A student scoring even modestly — say, comfortably attempting most questions even if accuracy is inconsistent — has the raw syllabus coverage a crash course is built to sharpen. A student who leaves large sections blank because the material is unfamiliar, not just rusty, needs syllabus coverage first, and a crash course won't be the efficient path to get there.",
+      },
+      { kind: 'h2', text: "Why We're Upfront About This" },
+      {
+        kind: 'p',
+        text: "It would be easy to market the Crash Course as a fix for any CET-prep problem — that's the standard pitch in this industry, especially with the timeline pressure this year's December window creates. We don't do that here. The single biggest driver of a strong CET score is still built over Class 11 and the first half of Class 12, not in a final sprint, and pretending otherwise would waste a family's time and money on the wrong tool. When a crash course is the right fit, it's genuinely excellent for what it's built to do. When it isn't, we'll say so during the enrollment call rather than after the batch has started.",
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) personally screens every enrollment for fit before a student joins the Crash Course:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**Every enrollment call includes an honest conversation about syllabus completion**, not just a sign-up form — Dilip Sir would rather redirect a student to the right program than fill a seat that won't serve them.",
+          "**The diagnostic mock in week one is treated as a genuine checkpoint**, not a formality — a student clearly not ready is repositioned into one-on-one support or the full-year program before the batch pace leaves them behind.",
+          "**Small batches (max 12 students)** exist specifically so this individual calibration is possible — a crash course run at scale can't afford to have this conversation with every student.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Not sure where your child stands right now? [Talk to Dilip Sir directly](/contact) before enrolling — a five-minute conversation usually settles it.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How do I know if my child is ready for a crash course rather than a full-year program?',
+        answer: "The simplest check is a single timed, full-syllabus MHT CET-pattern mock. A student who can meaningfully attempt most of it, even with inconsistent accuracy, has the syllabus coverage a crash course is built to sharpen. Large blank sections usually mean the material itself needs teaching first.",
+      },
+      {
+        question: 'Will BuzzyBrains tell us if the Crash Course is the wrong fit?',
+        answer: "Yes — every enrollment call includes an honest assessment of syllabus completion, and we'll recommend a different program (or waiting for a later batch) if that's genuinely the better fit, rather than enrolling a student who won't benefit from the pace.",
+      },
+      {
+        question: 'Can a weaker student catch up during the crash course itself?',
+        answer: "Not reliably for major gaps — the format is built for weightage-first drilling and pattern practice on material already taught, not first-time concept teaching. Genuine gaps are better closed with a few targeted one-on-one sessions before or alongside the course.",
+      },
+      {
+        question: "Is it too late to start a crash course this close to the December window?",
+        answer: "It depends on how much syllabus is already covered, not on the calendar alone — a student with a mostly-complete foundation can still get real value from a shorter, more intensive version. Talk to us directly about current batch timing.",
+      },
+      {
+        question: 'What happens if a student joins and turns out not to be ready?',
+        answer: "We'd rather catch this in the week-one diagnostic mock than let a student struggle silently through the batch — at that point we adjust with targeted one-on-one support or recommend switching to a program better suited to where they currently stand.",
+      },
+    ],
+  },
+  {
+    slug: 'inside-buzzybrains-mht-cet-crash-course-weekly-schedule',
+    title: 'Inside the BuzzyBrains MHT CET Crash Course: What a Typical Week Looks Like Under Dilip Sir',
+    description:
+      "A concrete, week-by-week look inside the BuzzyBrains MHT CET Crash Course — from the opening diagnostic mock to the final attempt-strategy session before MHT CET 2027 Session 1 (Dec 15 - Jan 15).",
+    category: 'iit-jee',
+    datePublished: '2026-09-18',
+    readingMinutes: 9,
+    relatedProgramHref: '/mht-cet-crash-course-pune',
+    relatedProgramLabel: 'MHT CET Crash Course',
+    relatedGuides: [
+      { href: '/blog/who-should-and-shouldnt-join-a-cet-crash-course', label: "Who Should (and Shouldn't) Join a CET Crash Course This Year" },
+      { href: '/blog/mht-cet-session-1-study-calendar-dec-15-jan-15', label: 'How to Plan Your Study Calendar for MHT CET Session 1 (Dec 15 – Jan 15)' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A typical week inside the BuzzyBrains MHT CET Crash Course runs on a fixed rhythm: focused, weightage-first teaching sessions on the week's target chapters, a set of timed practice problems worked and reviewed together, and — once the batch moves past the diagnostic phase — one full-length CET-pattern mock followed by a chapter-by-chapter review session with Dilip Sir. Nothing about the structure is generic; every week's chapter list is set by that specific batch's diagnostic results, not a fixed syllabus march.",
+      },
+      { kind: 'h2', text: 'Key Takeaways' },
+      {
+        kind: 'ul',
+        items: [
+          "Week 1 starts with a full-syllabus diagnostic mock, not a lecture — it sets the entire 8-week schedule.",
+          "Weeks 2-5 are weightage-first: the chapters carrying the most CET marks get the most session time, based on that specific batch's diagnostic results.",
+          "From week 3 onward, every week includes one full-length, timed CET-pattern mock plus a group review session.",
+          "The final two weeks shift from new content to full mocks and an explicit attempt-strategy session for the Session 1 window.",
+          "Every mock is reviewed chapter-by-chapter with the batch — a wrong answer becomes a named, trackable gap, not just a lower score.",
+        ],
+      },
+      { kind: 'h2', text: 'Week 1: The Diagnostic, Not a Lecture' },
+      {
+        kind: 'p',
+        text: "The course deliberately doesn't open with teaching. It opens with a full-syllabus, timed MHT CET-pattern mock, sat cold, before any crash-course-specific prep has happened. Dilip Sir reviews each student's paper personally, chapter by chapter, to build an actual picture of where that specific batch is strong and where it isn't — rather than assuming every student needs equal time on every topic. This diagnostic is what sets the real, weightage-first schedule for the seven weeks that follow, so no two batches run identically.",
+      },
+      { kind: 'h2', text: 'Weeks 2-5: Weightage-First Drilling' },
+      {
+        kind: 'table',
+        headers: ['Week', 'Focus'],
+        rows: [
+          ['Week 2', "The batch's single weakest high-weightage chapter (identified from the diagnostic), taught and drilled with timed problem sets"],
+          ['Week 3', 'Second weakest high-weightage chapter, plus the first weekly full-length CET-pattern mock and group review'],
+          ['Week 4', 'Continued high-weightage chapters, with problem sets calibrated to CET\'s actual MCQ style rather than board-exam-style long answers'],
+          ['Week 5', 'Remaining priority chapters, plus a second full-length mock focused on speed under real time pressure'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "This is deliberately not a page-by-page reread of the textbook. With eight weeks and a specific exam window fixed on the calendar, time goes first to the chapters that carry the most marks in the actual MHT CET pattern — the same chapters a diagnostic mock tends to expose as weak across most students in a given batch, adjusted individually where one student's gaps differ from the group's.",
+      },
+      { kind: 'h2', text: 'Weeks 6-8: Full Mocks and Attempt Strategy' },
+      {
+        kind: 'ul',
+        items: [
+          "**Week 6** runs a full-length mock every few days rather than weekly, building genuine exam-day stamina and pacing.",
+          "**Week 7** shifts review sessions toward error patterns across multiple mocks — not just what was wrong on the last paper, but which mistakes keep repeating.",
+          "**Week 8** closes with a final mock and a dedicated attempt-strategy session: how to read a Session 1 score honestly, and what specifically to change before the April 2027 second attempt, given MHT CET's tentative best-of-two scoring plan.",
+        ],
+      },
+      { kind: 'h2', text: 'What a Single Mock-Review Session Actually Looks Like' },
+      {
+        kind: 'p',
+        text: "This is the part most crash courses skip, and it's where most of the value actually sits. After a mock, Dilip Sir doesn't just hand back a score — the batch goes through the paper chapter by chapter, and each recurring mistake gets named out loud: a specific organic reaction pattern, a specific calculus substitution, a specific type of qualitative-analysis trap CET likes to set. A student leaves the session with a short, specific list of exactly what to fix before the next mock, not a general sense of \"do better.\"",
+      },
+      { kind: 'h2', text: 'How This Fits Around Board Exam Prep' },
+      {
+        kind: 'p',
+        text: "Because the whole 8-week arc is sequenced to finish before December 15, 2026, board-exam revision (typically ramping up through January-March) doesn't have to compete with the Crash Course for time. Students exit the sprint with Session 1 behind them and can pivot fully to boards, with a real CET score already banked and a clear plan for what, if anything, needs improving before Session 2 in April 2027.",
+      },
+      { kind: 'h2', text: 'Expert Tips from BuzzyBrains Academy Faculty' },
+      {
+        kind: 'p',
+        text: "Founder **Dilip Sah** (IIT Kanpur alumnus, JEE AIR 400, **25+ years of mentoring experience**) built this week-by-week structure directly around what he's seen slow students down in past CET cycles:",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "**The diagnostic mock in week one is non-negotiable**, even for strong students — it's the only reliable way to build a schedule around actual gaps rather than assumed ones.",
+          "**Mock reviews happen as a group discussion, not a private scoresheet**, so students see that their specific mistakes are shared patterns, not personal failures — this keeps the sprint's pace from becoming discouraging.",
+          "**Small batches (max 12 students)** make this level of individual, chapter-by-chapter review possible every single week, which simply isn't feasible in a larger class.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Curious whether this weekly rhythm fits your child's current syllabus stage? [Talk to Dilip Sir directly](/contact) — batch dates and remaining seats are confirmed on that call.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many hours a week does the Crash Course actually take?',
+        answer: "Sessions run on a daily/alternate-day basis with weekly mocks layered in from week three onward — the exact weekly time commitment is confirmed during enrollment based on the current batch's schedule.",
+      },
+      {
+        question: 'Is the weekly schedule the same for every batch?',
+        answer: "The overall 8-week arc (diagnostic, weightage-first drilling, full mocks, attempt strategy) is consistent, but the specific chapters emphasized in weeks 2-5 are set by that batch's own diagnostic mock results, so two batches can differ in exactly which chapters get the most time.",
+      },
+      {
+        question: 'Are mock tests corrected individually or reviewed as a group?',
+        answer: "Both — each student gets individual, chapter-by-chapter feedback on their own paper, and the batch also reviews common mistake patterns together, since the same traps tend to catch multiple students in similar ways.",
+      },
+      {
+        question: 'What happens in the final week, right before the exam window?',
+        answer: "Week 8 runs a final full-length mock and a dedicated session on reading that result honestly and deciding what, if anything, to adjust before the April 2027 second attempt — not new content, which would be counterproductive that close to Session 1.",
+      },
+      {
+        question: 'Can a student join partway through the 8 weeks?',
+        answer: "Because the schedule builds on the week-one diagnostic and compounds week to week, joining partway through isn't ideal — talk to us about the next batch's start date if the current one has already begun.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
