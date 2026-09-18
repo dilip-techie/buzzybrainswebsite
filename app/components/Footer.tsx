@@ -44,6 +44,7 @@ export default function Footer() {
               <li><Link prefetch={false} href="/foundation">Foundation (6–10)</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcb">NEET</Link></li>
+              <li><Link prefetch={false} href="/mht-cet-crash-course-pune">MHT CET Crash Course</Link></li>
               <li><Link prefetch={false} href="/12th-board">Not Sure? Compare PCM vs PCB</Link></li>
               <li><Link prefetch={false} href="/test-series">Board Test Series</Link></li>
               <li><Link prefetch={false} href="/olympiad-math">Maths Excellence</Link></li>

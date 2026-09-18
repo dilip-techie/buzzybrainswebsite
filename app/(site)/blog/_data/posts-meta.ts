@@ -2756,5 +2756,149 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "ivy-colleges",
     datePublished: "2026-09-07",
     readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-2027-notification-dec-jan-attempt-window-explained",
+    title: "MHT CET 2027 Notification Alert: What Changed With the New Dec–Jan Attempt Window",
+    description: "MHT CET 2027 Session 1 has been confirmed for December 15, 2026 to January 15, 2027, moving the exam ahead of JEE Main for the first time. Here's what's confirmed, what's still pending official notification, and what it means for your prep schedule.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide",
+    title: "MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know",
+    description: "A side-by-side comparison of MHT CET 2026 and the proposed MHT CET 2027 cycle — timing, number of attempts, syllabus weightage, and scoring — written for parents trying to understand exactly what's different this year.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-session-1-study-calendar-dec-15-jan-15",
+    title: "How to Plan Your Study Calendar for MHT CET Session 1 (Dec 15 – Jan 15)",
+    description: "A practical, month-by-month study calendar for MHT CET 2027 Session 1, counting back from mid-September 2026 to the December 15 exam window — what to prioritize in each phase and why the sequence matters.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 10
+  },
+  {
+    slug: "mht-cet-or-jee-main-first-sequencing-prep-2027",
+    title: "MHT CET or JEE Main First? Sequencing Your Prep Now That MHT CET Moves Earlier",
+    description: "With MHT CET Session 1 (Dec 15-Jan 15) now landing about a week before JEE Main Session 1 (Jan 22-30), the two exams can no longer be prepared for sequentially. Here's how to sequence combined prep for students attempting both.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "mht-cet-2027-application-form-mistakes-maharashtra-students",
+    title: "5 Common Mistakes Maharashtra Students Make While Filling the MHT CET 2027 Application",
+    description: "MHT CET 2027 registration isn't formally open yet, but the mistakes students repeat every single cycle while filling the application are entirely predictable. Here are the five worth preparing for in advance.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "jee-main-2027-official-dates-month-by-month-prep-roadmap",
+    title: "JEE Main 2027 Official Dates Are Out — Here's Your Month-by-Month Prep Roadmap",
+    description: "NTA's September 16, 2026 examination calendar has confirmed JEE Main 2027 Session 1 exam dates for the first time. Here's exactly what's now official, what's still pending, and a month-by-month plan from today through exam day.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "jee-main-2027-session-1-vs-session-2-should-you-attempt-both",
+    title: "Session 1 vs Session 2: Should You Attempt Both JEE Main 2027 Sessions?",
+    description: "With JEE Main 2027 Session 1 dates now confirmed for January and Session 2 expected around April, most candidates default to attempting both — but the decision is worth making deliberately. Here's the actual strategic case, and how to use Session 1 as real data.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "jee-main-january-session-last-100-days-strategy-pcm",
+    title: "JEE Main January Session: Last 100 Days Strategy for Physics, Chemistry & Maths",
+    description: "With JEE Main 2027 Session 1 confirmed for January 22–30, the last-100-days mark falls around mid-October 2026 — right now. Here's a phased, subject-wise plan across Physics, Chemistry, and Maths for exactly this stretch.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 10
+  },
+  {
+    slug: "jee-main-2027-application-timeline-registration-correction-window",
+    title: "Understanding JEE Main 2027 Application Timeline: Registration, Correction Window & Deadlines Explained",
+    description: "JEE Main 2027 Session 1 exam dates are officially confirmed, but the application timeline — registration, fee, correction window, admit card — is still based on historical patterns, not official announcements. Here's exactly what's confirmed and what's expected.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "jee-main-to-jee-advanced-seamless-prep-bridge-2027",
+    title: "From JEE Main to JEE Advanced: Building a Seamless Prep Bridge for 2027 Aspirants",
+    description: "Clearing JEE Main's cutoff and being genuinely ready for JEE Advanced are two different achievements. With Session 1 2027 dates now confirmed, here's how to structure the transition so Advanced preparation doesn't start from scratch after Main is done.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-2026-27-dates-announced-prep-timeline-amc-10-12-amc-8",
+    title: "AMC 2026-27 Dates Announced: A Complete Prep Timeline for AMC 10/12 (Nov) and AMC 8 (Jan)",
+    description: "The MAA has confirmed AMC 10/12 dates for November 2026 and the AMC 8 window for January 2027. Here's a realistic, date-anchored prep timeline for both, built by counting backward from exam day.",
+    category: "olympiad",
+    datePublished: "2026-09-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "amc-8-vs-10-vs-12-which-level-for-your-child-this-cycle",
+    title: "AMC 8 vs AMC 10 vs AMC 12: Which Level Is Right for Your Child This Cycle?",
+    description: "A quick, parent-facing decision checklist for choosing the right AMC level this cycle — based on grade, prior competition experience, and how much runway is left before this year's dates.",
+    category: "olympiad",
+    datePublished: "2026-09-18",
+    readingMinutes: 7
+  },
+  {
+    slug: "road-from-amc-to-aime-to-usamo-for-ambitious-mathletes",
+    title: "The Road from AMC to AIME to USAMO: What Ambitious Young Mathletes Should Know",
+    description: "AMC, AIME, and USAMO form a multi-year competition-maths pathway, not three unrelated exams. Here's the long-horizon roadmap — typical grade and age at each stage, and what genuinely changes along the way.",
+    category: "olympiad",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-10a-12a-nov-5-vs-10b-12b-nov-13-attempt-both",
+    title: "AMC 10A/12A (Nov 5) vs AMC 10B/12B (Nov 13): Should Students Attempt Both?",
+    description: "This cycle's AMC 10A/12A falls on November 5, 2026, and AMC 10B/12B just eight days later on November 13. Here's the practical logistics and strategy of deciding whether to sit both.",
+    category: "olympiad",
+    datePublished: "2026-09-18",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-indian-students-prepare-for-amc-bridging-school-maths-olympiad-thinking",
+    title: "How Indian Students Can Prepare for the AMC: Bridging the Gap Between School Maths and Olympiad Thinking",
+    description: "CBSE, ICSE, and State Board maths and AMC-style problem-solving reward genuinely different instincts. Here's what actually changes, and a practical way to bridge the gap.",
+    category: "olympiad",
+    datePublished: "2026-09-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "introducing-buzzybrains-mht-cet-crash-course-session-1-sprint",
+    title: "Introducing the BuzzyBrains MHT CET Crash Course: A Focused Final Sprint Before the Dec 15 Window",
+    description: "MHT CET 2027 Session 1 runs December 15, 2026 to January 15, 2027 — the first time the exam has ever landed before boards. BuzzyBrains Academy's new 8-week Crash Course, led personally by Dilip Sir, is built specifically for that shift. Here's what it is and why it exists now.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "who-should-and-shouldnt-join-a-cet-crash-course",
+    title: "Who Should (and Shouldn't) Join a CET Crash Course This Year",
+    description: "Crash courses work brilliantly for some students and waste money for others — the difference usually comes down to how much syllabus is actually done. A genuinely honest look at who the BuzzyBrains MHT CET Crash Course is built for, and who it isn't.",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 8
+  },
+  {
+    slug: "inside-buzzybrains-mht-cet-crash-course-weekly-schedule",
+    title: "Inside the BuzzyBrains MHT CET Crash Course: What a Typical Week Looks Like Under Dilip Sir",
+    description: "A concrete, week-by-week look inside the BuzzyBrains MHT CET Crash Course — from the opening diagnostic mock to the final attempt-strategy session before MHT CET 2027 Session 1 (Dec 15 - Jan 15).",
+    category: "iit-jee",
+    datePublished: "2026-09-18",
+    readingMinutes: 9
   }
 ];
