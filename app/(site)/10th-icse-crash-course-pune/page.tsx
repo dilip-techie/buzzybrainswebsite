@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     question: 'Who teaches each subject?',
-    answer: "Mathematics is led by Arun Sir (M.Sc. Mathematics, 12+ years across every board), Physics by Agarwal Sir (PhD, IIT Bombay), Chemistry by Dr. Urmila (PhD, IISER Pune), and Biology by Priya Madam (B.E., Pune University) — a named specialist per subject, not one generalist covering all four.",
+    answer: "Mathematics, Physics and Chemistry are led by founder Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years of mentoring), and Biology is led by Dr. Todkar, a practicing General Physician.",
   },
   {
     question: 'When does the batch run, given ICSE exam timing?',
@@ -52,8 +52,8 @@ export default function TenthIcseCrashCoursePage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: 'A Named Specialist Per Subject',
-      description: 'Maths (Arun Sir), Physics (Agarwal Sir, PhD IIT Bombay), Chemistry (Dr. Urmila, PhD IISER Pune) and Biology (Priya Madam) — four subjects, four genuine specialists.',
+      title: 'Led by Dilip Sir, Biology by Dr. Todkar',
+      description: 'Maths, Physics and Chemistry led personally by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400), with Biology led by Dr. Todkar, a practicing General Physician.',
     },
     {
       icon: Clock,
@@ -84,19 +84,19 @@ export default function TenthIcseCrashCoursePage() {
 
   const curriculum = [
     {
-      subject: 'Mathematics — Arun Sir',
+      subject: 'Mathematics — Dilip Sir',
       focus: 'High-weightage chapters (Algebra, Geometry, Mensuration, Trigonometry, Statistics) drilled for speed and ICSE-specific step-marking.',
     },
     {
-      subject: 'Physics — Agarwal Sir',
-      focus: 'Numerical-heavy chapters and the specific diagram-and-derivation style ICSE Physics papers reward, taught with research-level depth applied to exam technique.',
+      subject: 'Physics — Dilip Sir',
+      focus: 'Numerical-heavy chapters and the specific diagram-and-derivation style ICSE Physics papers reward, taught by an IIT Kanpur alumnus with a focus on exam technique.',
     },
     {
-      subject: 'Chemistry — Dr. Urmila',
+      subject: 'Chemistry — Dilip Sir',
       focus: 'Equations, reactions and the precise, structured recall ICSE Chemistry evaluation specifically looks for.',
     },
     {
-      subject: 'Biology — Priya Madam',
+      subject: 'Biology — Dr. Todkar',
       focus: 'High-yield diagrams, labeling and the detailed, application-style questions ICSE Biology papers are known for.',
     },
   ];
@@ -119,7 +119,7 @@ export default function TenthIcseCrashCoursePage() {
   const suitableFor = [
     'ICSE Class 10 students who have covered most of their syllabus in one or more of Maths, Physics, Chemistry or Biology',
     'Students who want board-pattern practice and speed, not a first pass through the syllabus',
-    'Families who want a named specialist per subject rather than one teacher stretched across all four',
+    'Families who want the founder leading Maths, Physics and Chemistry, with Biology taught by a practicing physician',
     'Students who want each subject drilled separately, matching how ICSE actually papers them',
   ];
 
@@ -145,7 +145,7 @@ export default function TenthIcseCrashCoursePage() {
             </h1>
             <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Maths · Physics · Chemistry · Biology — Class 10 ICSE</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Four subjects, four named specialists — led by <span className="font-bold text-blue-600">Arun Sir, Agarwal Sir, Dr. Urmila &amp; Priya Madam</span>
+              Led by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> · Biology by <span className="font-bold text-blue-600">Dr. Todkar</span>
             </p>
             <p className="text-lg text-gray-700 mb-8">
               High-weightage chapter triage and weekly board-pattern mocks, finishing well ahead of the Feb-March 2027 exam window.
@@ -184,7 +184,7 @@ export default function TenthIcseCrashCoursePage() {
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
               <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch, Per Subject</p>
-              <p className="text-gray-500 mt-2">Every mock reviewed personally by named faculty</p>
+              <p className="text-gray-500 mt-2">Every mock reviewed personally by Dilip Sir &amp; Dr. Todkar</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">4 Subjects</div>

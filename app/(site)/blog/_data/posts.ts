@@ -33250,7 +33250,7 @@ export const BLOG_POSTS: BlogPost[] = [
         kind: 'ul',
         items: [
           "The Crash Course is an 8-week sprint into MHT CET 2027 Session 1 (opening December 15, 2026), with support carried through the Session 2 attempt in April 2027 and results in May — one enrollment covers both attempts.",
-          "It is led personally by Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) — not delegated to junior faculty.",
+          "It is led personally by Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) — not delegated to junior faculty — with the Biology sessions led by Dr. Todkar, a practicing General Physician.",
           "Batches are capped at 12 students so every weekly mock gets reviewed chapter-by-chapter, not just scored and forgotten.",
           "The curriculum is weightage-first: it starts from CET's actual high-scoring chapters, not a page-by-page reread of the textbook.",
           "It's explicitly built as a top-up for students who've mostly finished their PCM/PCB syllabus, not a substitute for a full-year foundation.",
@@ -33315,11 +33315,11 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: 'Does the Crash Course cover both PCM and PCB groups?',
-        answer: "Yes. Physics and Chemistry content is shared across both groups; Mathematics is covered for PCM students and Biology for PCB students, with the same weightage-first, mock-test-driven structure either way.",
+        answer: "Yes. Physics and Chemistry content is shared across both groups; Mathematics is covered for PCM students and Biology (led by Dr. Todkar) for PCB students, with the same weightage-first, mock-test-driven structure either way.",
       },
       {
         question: 'Who teaches the course — is it Dilip Sir personally?',
-        answer: "Yes. Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) leads the course directly and personally reviews every weekly mock with the batch.",
+        answer: "Yes. Dilip Sir (IIT Kanpur alumnus, JEE AIR 400, 25+ years of mentoring experience) leads the course directly and personally reviews every weekly mock with the batch. The one exception is Biology for PCB students, which is led by Dr. Todkar, a practicing General Physician.",
       },
       {
         question: "What if my child hasn't finished the full syllabus yet?",

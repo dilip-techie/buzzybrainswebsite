@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     question: 'Who teaches each subject?',
-    answer: "Mathematics and Physics are led by founder Dilip Sir (IIT Kanpur, JEE AIR 400), Physics and Chemistry by Agarwal Sir (PhD, IIT Bombay), Chemistry additionally by Dr. Mrinmayee (PhD, IIT Kharagpur), and Biology by Dr. Todkar, a practicing General Physician — named specialists, not one generalist covering everything.",
+    answer: "Physics, Chemistry and Mathematics are led by founder Dilip Sir (IIT Kanpur, JEE AIR 400, 25+ years of mentoring), and Biology is led by Dr. Todkar, a practicing General Physician.",
   },
   {
     question: 'Does this also help with JEE Main or NEET preparation?',
@@ -52,8 +52,8 @@ export default function TwelfthCbseCrashCoursePage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: 'Led by Founder Dilip Sir',
-      description: 'Mathematics & Physics led personally by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring) — not handed off to a junior batch of tutors.',
+      title: 'Led by Dilip Sir, Biology by Dr. Todkar',
+      description: 'Physics, Chemistry and Maths led personally by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring), with Biology led by Dr. Todkar, a practicing General Physician.',
     },
     {
       icon: Clock,
@@ -88,11 +88,7 @@ export default function TwelfthCbseCrashCoursePage() {
       focus: 'High-weightage numericals and derivations, with the step-marking discipline CBSE evaluation specifically rewards.',
     },
     {
-      subject: 'Physics & Chemistry — Agarwal Sir',
-      focus: 'Research-level depth applied to exam technique — the derivation underneath a formula or reaction, not just the memorized shortcut.',
-    },
-    {
-      subject: 'Chemistry — Dr. Mrinmayee',
+      subject: 'Chemistry — Dilip Sir',
       focus: 'Organic mechanisms and inorganic exceptions broken into clear, exam-ready concepts that hold up under exam pressure.',
     },
     {
@@ -119,7 +115,7 @@ export default function TwelfthCbseCrashCoursePage() {
   const suitableFor = [
     'CBSE Class 12 PCM or PCB students who have covered most of their syllabus already',
     'Students who want board-pattern practice and speed, not a first pass through the syllabus',
-    'Families who want named subject specialists rather than one teacher stretched across every subject',
+    'Families who want the founder leading Physics, Chemistry and Maths, with Biology taught by a practicing physician',
     'Students focused on the board exam itself, not combined JEE/NEET preparation',
   ];
 
@@ -145,7 +141,7 @@ export default function TwelfthCbseCrashCoursePage() {
             </h1>
             <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Physics · Chemistry · Maths · Biology — Class 12 CBSE</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Led by <span className="font-bold text-blue-600">Dilip Sir</span>, with <span className="font-bold text-blue-600">Agarwal Sir, Dr. Mrinmayee &amp; Dr. Todkar</span>
+              Led by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> · Biology by <span className="font-bold text-blue-600">Dr. Todkar</span>
             </p>
             <p className="text-lg text-gray-700 mb-8">
               High-weightage chapter triage and weekly board-pattern mocks for both PCM and PCB, finishing well ahead of the Feb-March 2027 exam window.
@@ -184,7 +180,7 @@ export default function TwelfthCbseCrashCoursePage() {
             <div className="bg-white rounded-xl p-8 shadow-lg text-center border-2 border-blue-600">
               <div className="text-5xl md:text-6xl font-black text-blue-600 mb-3">Max 12 Students</div>
               <p className="text-gray-600 text-lg">Per Batch</p>
-              <p className="text-gray-500 mt-2">Every mock reviewed personally by named faculty</p>
+              <p className="text-gray-500 mt-2">Every mock reviewed personally by Dilip Sir &amp; Dr. Todkar</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <div className="text-5xl md:text-6xl font-black text-purple-600 mb-3">PCM &amp; PCB</div>
@@ -228,7 +224,7 @@ export default function TwelfthCbseCrashCoursePage() {
             <p className="text-xl text-gray-600">A weightage-first sprint per subject, not a page-by-page reread</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {curriculum.map((item, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
