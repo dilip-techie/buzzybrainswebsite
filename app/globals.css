@@ -1746,6 +1746,8 @@ button{font-family:inherit;cursor:pointer}
 }
 .wa-float:hover{transform:scale(1.1) rotate(6deg)}
 .wa-float svg{width:28px;height:28px}
+/* Crash-course pages pin their own action bar (with a WhatsApp button) to the bottom on phones */
+@media(max-width:767px){body:has(.cc-sticky-bar[data-hide-float="true"]) .wa-float{display:none}}
 
 /* ============ SCROLL REVEAL ============ */
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease)}

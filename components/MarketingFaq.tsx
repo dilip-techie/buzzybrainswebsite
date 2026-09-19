@@ -22,14 +22,14 @@ export default function MarketingFaq({
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className={`py-20 px-4 bg-white ${className}`}>
+    <section className={`py-12 sm:py-20 px-4 bg-white ${className}`}>
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6 sm:mb-10">
           <span className="inline-flex items-center gap-1.5 text-xs font-bold tracking-widest uppercase text-slate-500">
             <HelpCircle className="w-3.5 h-3.5" />
             {eyebrow}
           </span>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-gray-900">{title}</h2>
+          <h2 className="mt-3 text-2xl sm:text-4xl font-bold text-gray-900">{title}</h2>
         </div>
 
         <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
@@ -40,9 +40,9 @@ export default function MarketingFaq({
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-6 py-5 text-left"
+                  className="flex w-full items-center justify-between gap-4 sm:gap-6 py-4 sm:py-5 text-left"
                 >
-                  <span className="font-semibold text-gray-900">{item.question}</span>
+                  <span className="font-semibold text-gray-900 text-[15px] sm:text-base leading-snug">{item.question}</span>
                   <ChevronDown
                     className={`w-5 h-5 shrink-0 text-slate-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
                   />
@@ -53,7 +53,7 @@ export default function MarketingFaq({
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <p className="pb-5 pr-8 text-[15px] leading-relaxed text-gray-600">{item.answer}</p>
+                    <p className="pb-4 sm:pb-5 pr-2 sm:pr-8 text-[15px] leading-relaxed text-gray-600">{item.answer}</p>
                   </div>
                 </div>
               </div>
