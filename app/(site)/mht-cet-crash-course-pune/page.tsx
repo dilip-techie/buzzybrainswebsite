@@ -56,8 +56,8 @@ export default function MhtCetCrashCoursePage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: 'Led by Dilip Sir',
-      description: 'Designed and personally taught by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring Pune students) — not handed off to a junior batch of tutors.',
+      title: 'Led by Dilip Sir, Biology by Dr. Todkar',
+      description: 'Designed and personally taught by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring Pune students) across Physics, Chemistry and Maths. Biology is led by Dr. Todkar, a practicing General Physician.',
     },
     {
       icon: Clock,
@@ -93,7 +93,7 @@ export default function MhtCetCrashCoursePage() {
     },
     {
       subject: 'Mathematics / Biology',
-      focus: 'PCM batches drill calculus, algebra and coordinate geometry speed; PCB batches drill high-yield Botany/Zoology recall and NCERT-line accuracy.',
+      focus: 'PCM batches drill calculus, algebra and coordinate geometry speed; PCB batches drill high-yield Botany/Zoology recall and NCERT-line accuracy, with Biology led by Dr. Todkar.',
     },
     {
       subject: 'Every Week',
@@ -150,7 +150,7 @@ export default function MhtCetCrashCoursePage() {
             </h1>
             <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Dec 15, 2026 – Jan 15, 2027 Window · Grade 12 PCM &amp; PCB</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Led personally by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span>
+              Led personally by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> · Biology by <span className="font-bold text-blue-600">Dr. Todkar</span>
             </p>
             <p className="text-lg text-gray-700 mb-8">
               High-weightage chapter triage, weekly CET-pattern mocks and support through <span className="font-semibold text-gray-900">both attempts, all the way to results in May 2027</span> — built for the year MHT CET moved before boards.

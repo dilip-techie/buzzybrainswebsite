@@ -16,7 +16,7 @@ const FAQS = [
   },
   {
     question: 'Does this cover both Maths and Science, or do I pick one?',
-    answer: "Both — Maths and Science run as parallel tracks within the same batch structure, taught by Arun Sir (Maths) and Dr. Urmila (Science), so a student can join for one subject or both depending on where the gaps actually are.",
+    answer: "Both — Maths and Science run as parallel tracks within the same batch structure. Dilip Sir leads Maths and the Physics and Chemistry sections of Science, and Dr. Todkar leads the Biology section, so a student can join for one subject or both depending on where the gaps actually are.",
   },
   {
     question: "What does CBSE's new two-exam system for Class 10 mean for this course?",
@@ -52,8 +52,8 @@ export default function TenthCbseCrashCoursePage() {
   const whyChooseFeatures = [
     {
       icon: Brain,
-      title: 'Led by Named Subject Specialists',
-      description: 'Mathematics led by Arun Sir (M.Sc. Mathematics, 12+ years across every board), Science led by Dr. Urmila (PhD, IISER Pune) — not a generalist covering both.',
+      title: 'Led by Dilip Sir, Biology by Dr. Todkar',
+      description: 'Maths, Physics and Chemistry led personally by Dilip Sir (B.Tech, IIT Kanpur, JEE AIR 400, 25+ years mentoring), with the Biology section led by Dr. Todkar, a practicing General Physician.',
     },
     {
       icon: Clock,
@@ -84,11 +84,11 @@ export default function TenthCbseCrashCoursePage() {
 
   const curriculum = [
     {
-      subject: 'Mathematics — Arun Sir',
+      subject: 'Mathematics — Dilip Sir',
       focus: 'High-weightage chapters (Algebra, Geometry, Trigonometry, Mensuration, Statistics) drilled for speed and the specific step-marking patterns CBSE rewards.',
     },
     {
-      subject: 'Science — Dr. Urmila',
+      subject: 'Science — Dilip Sir · Biology: Dr. Todkar',
       focus: "Physics, Chemistry and Biology sections of the combined CBSE Science paper, with NCERT-line accuracy and diagram-labeling practice that CBSE's evaluation specifically rewards.",
     },
     {
@@ -145,7 +145,7 @@ export default function TenthCbseCrashCoursePage() {
             </h1>
             <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Feb-March 2027 Board Exams · Class 10 CBSE</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Mathematics led by <span className="font-bold text-blue-600">Arun Sir</span> · Science led by <span className="font-bold text-blue-600">Dr. Urmila (PhD, IISER Pune)</span>
+              Led by <span className="font-bold text-blue-600">Dilip Sir (B.Tech, IIT Kanpur)</span> · Biology by <span className="font-bold text-blue-600">Dr. Todkar</span>
             </p>
             <p className="text-lg text-gray-700 mb-8">
               High-weightage chapter triage, weekly board-pattern mocks, and support carried through to the optional May re-exam if you need it.
