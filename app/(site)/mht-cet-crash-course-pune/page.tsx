@@ -164,7 +164,7 @@ export default function MhtCetCrashCoursePage() {
             </button>
             <p className="text-sm text-gray-500 mt-4">
               Not sure a crash course is right for you yet? Read{' '}
-              <Link prefetch={false} href="/blog/who-should-and-shouldnt-join-a-cet-crash-course" className="text-blue-600 underline">
+              <Link prefetch={false} href="/blog/who-should-and-shouldnt-join-a-cet-crash-course" className="text-blue-600! underline!">
                 who this program is (and isn&apos;t) built for
               </Link>
               .
@@ -296,7 +296,7 @@ export default function MhtCetCrashCoursePage() {
               </div>
               <p className="text-blue-100 mt-6 text-sm">
                 Looking for a full board-plus-JEE year, not just a sprint? See our{' '}
-                <Link prefetch={false} href="/12th-board-pcm" className="underline text-white font-semibold">
+                <Link prefetch={false} href="/12th-board-pcm" className="underline! text-white! font-semibold">
                   12th Board PCM program
                 </Link>
                 .

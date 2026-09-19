@@ -42,6 +42,7 @@ export default function Footer() {
             <h4>Indian Boards &amp; Competitive Exams</h4>
             <ul className="foot-links">
               <li><Link prefetch={false} href="/foundation">Foundation (6–10)</Link></li>
+              <li><Link prefetch={false} href="/top-rankers-program">Top Rankers Program (JEE &amp; NEET)</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcm">IIT-JEE</Link></li>
               <li><Link prefetch={false} href="/12th-board-pcb">NEET</Link></li>
               <li><Link prefetch={false} href="/12th-board">Not Sure? Compare PCM vs PCB</Link></li>

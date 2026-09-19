@@ -35,6 +35,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/foundation', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/10th-board', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/12th-board', changeFrequency: 'monthly', priority: 0.6 },
+  { path: '/top-rankers-program', changeFrequency: 'weekly', priority: 0.9 },
   { path: '/12th-board-pcm', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/12th-board-pcb', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/mht-cet-crash-course-pune', changeFrequency: 'weekly', priority: 0.85 },
