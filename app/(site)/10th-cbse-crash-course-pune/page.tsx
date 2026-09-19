@@ -159,11 +159,11 @@ export default function TenthCbseCrashCoursePage() {
             </button>
             <p className="text-sm text-gray-500 mt-4">
               Looking for MHT CET or ICSE instead? See our{' '}
-              <Link prefetch={false} href="/mht-cet-crash-course-pune" className="text-blue-600 underline">
+              <Link prefetch={false} href="/mht-cet-crash-course-pune" className="text-blue-600! underline!">
                 MHT CET Crash Course
               </Link>{' '}
               or{' '}
-              <Link prefetch={false} href="/10th-icse-crash-course-pune" className="text-blue-600 underline">
+              <Link prefetch={false} href="/10th-icse-crash-course-pune" className="text-blue-600! underline!">
                 10th ICSE Crash Course
               </Link>
               .
@@ -295,7 +295,7 @@ export default function TenthCbseCrashCoursePage() {
               </div>
               <p className="text-blue-100 mt-6 text-sm">
                 Looking for a full year-round Foundation program instead? See our{' '}
-                <Link prefetch={false} href="/foundation" className="underline text-white font-semibold">
+                <Link prefetch={false} href="/foundation" className="underline! text-white! font-semibold">
                   Foundation program
                 </Link>
                 .

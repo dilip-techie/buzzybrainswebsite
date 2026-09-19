@@ -159,11 +159,11 @@ export default function TwelfthCbseCrashCoursePage() {
             </button>
             <p className="text-sm text-gray-500 mt-4">
               Want combined board-plus-entrance prep instead? See our{' '}
-              <Link prefetch={false} href="/12th-board-pcm" className="text-blue-600 underline">
+              <Link prefetch={false} href="/12th-board-pcm" className="text-blue-600! underline!">
                 12th Board PCM
               </Link>{' '}
               or{' '}
-              <Link prefetch={false} href="/12th-board-pcb" className="text-blue-600 underline">
+              <Link prefetch={false} href="/12th-board-pcb" className="text-blue-600! underline!">
                 12th Board PCB
               </Link>{' '}
               programs.
@@ -295,11 +295,11 @@ export default function TwelfthCbseCrashCoursePage() {
               </div>
               <p className="text-blue-100 mt-6 text-sm">
                 Want board results and a JEE/NEET score together? See our full{' '}
-                <Link prefetch={false} href="/12th-board-pcm" className="underline text-white font-semibold">
+                <Link prefetch={false} href="/12th-board-pcm" className="underline! text-white! font-semibold">
                   12th Board PCM
                 </Link>{' '}
                 or{' '}
-                <Link prefetch={false} href="/12th-board-pcb" className="underline text-white font-semibold">
+                <Link prefetch={false} href="/12th-board-pcb" className="underline! text-white! font-semibold">
                   PCB
                 </Link>{' '}
                 program instead.
