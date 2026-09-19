@@ -14,11 +14,14 @@ export function ProgramJsonLd({
   name,
   description,
   path,
+  courseModes,
 }: {
   type: 'Course' | 'Service';
   name: string;
   description: string;
   path: string;
+  /** Delivery modes, emitted as schema.org CourseInstance entries (Course only). */
+  courseModes?: ('onsite' | 'online')[];
 }) {
   const url = `${SITE_URL}${path}`;
   return (
@@ -35,6 +38,28 @@ export function ProgramJsonLd({
             name: 'BuzzyBrains Academy',
             url: SITE_URL,
           },
+          ...(type === 'Course' && courseModes?.length
+            ? {
+                hasCourseInstance: courseModes.map((mode) => ({
+                  '@type': 'CourseInstance',
+                  courseMode: mode,
+                  ...(mode === 'onsite'
+                    ? {
+                        location: {
+                          '@type': 'Place',
+                          name: 'BuzzyBrains Academy, Amanora',
+                          address: {
+                            '@type': 'PostalAddress',
+                            addressLocality: 'Hadapsar, Pune',
+                            addressRegion: 'Maharashtra',
+                            addressCountry: 'IN',
+                          },
+                        },
+                      }
+                    : {}),
+                })),
+              }
+            : {}),
         }}
       />
       <JsonLd

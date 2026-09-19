@@ -96,6 +96,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     subtitle: 'CBSE · ICSE · State',
     column: 1,
     items: [
+      { href: '/top-rankers-program', label: 'Top Rankers Program — JEE & NEET' },
       { href: '/foundation', label: 'Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
@@ -156,6 +157,7 @@ const NAV_LINKS = [
 ];
 
 const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: string; external?: boolean }[] = [
+  { text: '🏆 Top Rankers Program for JEE & NEET — Offline + Online', href: '/top-rankers-program', isNew: true },
   { text: '🎯 MHT-CET Crash Course — Both Attempts, Till May', href: '/mht-cet-crash-course-pune', isNew: true },
   { text: '📝 Test Series Available for Board Exams — Complete Package Starts ₹19,999', href: '/test-series', isNew: true },
   { text: '🚀 IOQM 2027 Batch Open — Enroll Now', href: '/ioqm-coaching-pune' },
