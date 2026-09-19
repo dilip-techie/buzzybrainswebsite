@@ -51,7 +51,6 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/amc-8-10-coaching-pune', label: 'AMC 8 / AMC 10' },
       { href: '/maths-kangaroo-coaching-pune', label: 'Maths Kangaroo' },
     ],
-    footerLink: { href: '/olympiad-math', label: 'View Maths Olympiad Program →' },
   },
   {
     title: 'Science Olympiad',
@@ -93,19 +92,14 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
 
 const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   {
-    title: 'Indian Boards & Competitive Exams',
+    title: 'Foundation & Entrance Exams',
     subtitle: 'CBSE · ICSE · State',
     column: 1,
     items: [
       { href: '/foundation', label: 'Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
-      { href: '/olympiads', label: 'Olympiads (Grades 4–12)' },
-      { href: '/ioqm-amc-coaching-pune', label: 'IOQM / AMC Coaching (Grades 6–12)' },
-      { href: '/physics-olympiad-coaching-pune', label: 'Physics Olympiad (Grades 9–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
-      { href: '/coding-lab', label: 'Code Ninja (Grades 6–12)' },
-      { href: '/test-series', label: 'Board Test Series (Grades 10 & 12)' },
     ],
     footerLink: { href: '/#contact', label: 'Book a free demo →' },
   },
@@ -139,47 +133,26 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   },
 ];
 
-const CRASH_COURSE_MEGA_MENU: MegaMenuGroup[] = [
-  {
-    title: 'Engineering Entrance',
-    subtitle: 'MHT-CET · Both Attempts, Till May',
-    column: 1,
-    items: [
-      { href: '/mht-cet-crash-course-pune', label: 'MHT CET Crash Course (Grade 12)' },
-    ],
-    footerLink: { href: '/mht-cet-crash-course-pune', label: 'View MHT CET Crash Course →' },
-  },
-  {
-    title: 'Class 10 Boards',
-    subtitle: 'CBSE · ICSE',
-    column: 2,
-    items: [
-      { href: '/10th-cbse-crash-course-pune', label: '10th CBSE Maths & Science' },
-      { href: '/10th-icse-crash-course-pune', label: '10th ICSE Maths, Physics, Chemistry & Biology' },
-    ],
-    footerLink: { href: '/10th-cbse-crash-course-pune', label: 'View Class 10 Crash Courses →' },
-  },
-  {
-    title: 'Class 12 Board',
-    subtitle: 'CBSE PCMB',
-    column: 3,
-    items: [
-      { href: '/12th-cbse-crash-course-pune', label: '12th CBSE Physics, Chemistry, Maths & Biology' },
-    ],
-    footerLink: { href: '/12th-cbse-crash-course-pune', label: 'View 12th CBSE Crash Course →' },
-  },
+const CRASH_COURSE_MENU: MegaMenuItem[] = [
+  { href: '/mht-cet-crash-course-pune', label: 'MHT CET Crash Course (Grade 12)' },
+  { href: '/10th-cbse-crash-course-pune', label: '10th CBSE Maths & Science' },
+  { href: '/10th-icse-crash-course-pune', label: '10th ICSE Maths, Physics, Chemistry & Biology' },
+  { href: '/12th-cbse-crash-course-pune', label: '12th CBSE Physics, Chemistry, Maths & Biology' },
+];
+
+const RESOURCES_MENU: MegaMenuItem[] = [
+  { href: '/blog', label: 'Blog & Exam Guides' },
+  { href: '/resource-centre', label: 'Free Tools' },
+  { href: '/achievements', label: 'Results & Achievements' },
 ];
 
 const NAV_LINKS = [
   { href: '/#programs', label: 'Programs', groups: PROGRAMS_MEGA_MENU },
-  { href: '/test-series', label: 'Board Test Series', simpleItems: TEST_SERIES_MENU, isNew: true },
   { href: '/olympiad-math', label: 'Olympiad Prep', groups: OLYMPIAD_PREP_MEGA_MENU },
-  { href: '/mht-cet-crash-course-pune', label: '2026-27 Crash Course', groups: CRASH_COURSE_MEGA_MENU, isNew: true },
-  { href: '/achievements', label: 'Achievements' },
-  { href: '/blog', label: 'Blogs' },
-  { href: '/resource-centre', label: 'Free Tools' },
+  { href: '/test-series', label: 'Test Series', simpleItems: TEST_SERIES_MENU, isNew: true },
+  { href: '/mht-cet-crash-course-pune', label: 'Crash Course', simpleItems: CRASH_COURSE_MENU, isNew: true },
+  { href: '/blog', label: 'Resources', simpleItems: RESOURCES_MENU },
   { href: '/about', label: 'About Us', simpleItems: ABOUT_US_MENU },
-  { href: '/#contact', label: 'Contact Us' },
 ];
 
 const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: string; external?: boolean }[] = [
@@ -320,7 +293,7 @@ export default function Navbar() {
                       ))}
                     </div>
                   </li>
-                ) : link.simpleItems ? (
+                ) : (
                   <li key={link.href} className="nav-dropdown-wrap">
                     <Link prefetch={false} href={link.href} className="nav-dropdown-trigger">
                       {link.label}
@@ -336,10 +309,6 @@ export default function Navbar() {
                         ))}
                       </ul>
                     </div>
-                  </li>
-                ) : (
-                  <li key={link.href}>
-                    <Link prefetch={false} href={link.href}>{link.label}</Link>
                   </li>
                 )
               )}
@@ -405,7 +374,7 @@ export default function Navbar() {
                   ))}
                 </div>
               </div>
-            ) : link.simpleItems ? (
+            ) : (
               <div className="mobile-menu-programs" key={link.href}>
                 <button
                   type="button"
@@ -429,10 +398,6 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-            ) : (
-              <Link prefetch={false} key={link.href} href={link.href} onClick={() => setMenuOpen(false)}>
-                {link.label}
-              </Link>
             )
           )}
           <Link prefetch={false} href="/#contact" style={{ color: 'var(--blue)', fontWeight: 700 }} onClick={() => setMenuOpen(false)}>
