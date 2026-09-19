@@ -2900,5 +2900,125 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-09-18",
     readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-10-two-board-exams-2027-february-may-explained",
+    title: "CBSE Class 10 Two Board Exams 2027: How the February and May Attempts Work",
+    description: "CBSE Class 10 students now get a compulsory main exam in February-March and an optional improvement exam around May. Here is what has been reported about eligibility and the best-score rule, what is still unannounced for 2027, and how to plan around both.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-10-maths-2027-weightage-chapters-that-decide-score",
+    title: "CBSE Class 10 Maths 2027: The Chapters That Decide Your Score",
+    description: "Algebra, Geometry and Trigonometry together carry roughly three-fifths of the Class 10 Maths paper. Here is the approximate unit-wise weightage, how Standard and Basic Maths differ, how step-marking works, and what to drill first when you have about eight weeks left.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-10-science-2027-physics-chemistry-biology-revision-plan",
+    title: "CBSE Class 10 Science 2027: Physics, Chemistry and Biology Revision Plan for the Final Weeks",
+    description: "Chemistry and Biology carry about 25 marks each in the Class 10 Science paper, with Physics close behind. Here is the approximate unit-wise weightage, a week-by-week revision plan across all three sciences, and how to stay accurate on NCERT lines and diagrams.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
+  },
+  {
+    slug: "cbse-class-10-case-based-assertion-reason-questions-maths-science",
+    title: "Case-Based and Assertion-Reason Questions in CBSE Class 10: A Practical Guide for Maths and Science",
+    description: "A hands-on method for reading a case, breaking it into sub-questions, and eliminating options in assertion-reason items, with worked-style examples described in words for both Maths and Science.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-10-second-exam-should-you-attempt-decision-guide",
+    title: "Should You Sit the CBSE Class 10 Second Exam? A Decision Guide for Parents",
+    description: "A calm, practical framework for deciding whether your child should sit the optional second CBSE Class 10 exam around May, with a table of common situations and recommendations, and a plan for the weeks between results and the exam.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "icse-class-10-2027-eight-week-revision-plan-maths-science",
+    title: "ICSE Class 10 2027: An 8-Week Revision Plan for Maths, Physics, Chemistry and Biology",
+    description: "A week-by-week 8-week revision plan for ICSE Class 10 boards 2027 covering Maths, Physics, Chemistry and Biology, including where the 20-mark internal assessment fits and what to do before the sprint begins.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
+  },
+  {
+    slug: "icse-class-10-physics-2027-numericals-derivations-exam-strategy",
+    title: "ICSE Class 10 Physics 2027: Numericals, Derivations and the Chapters Examiners Keep Asking",
+    description: "How to practise ICSE Class 10 Physics numericals, derivations and diagrams for the 2027 board exam: a step-and-unit method, ray and circuit diagram habits, and a weekly routine that fixes careless marks.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "icse-class-10-chemistry-2027-equations-mole-concept-organic",
+    title: "ICSE Class 10 Chemistry 2027: Equations, Mole Concept and Organic — Where the Marks Are Won",
+    description: "A practical guide to ICSE Class 10 Chemistry for 2027: balanced equations with conditions, mole-concept numericals, organic naming and reactions, and a topic-mistake-fix table for the careless losses.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
+  },
+  {
+    slug: "icse-class-10-biology-2027-diagrams-labelling-long-answers",
+    title: "ICSE Class 10 Biology 2027: Diagrams, Labelling and Long Answers That Score Full Marks",
+    description: "How to score in ICSE Class 10 Biology 2027: diagram and labelling practice, keyword-based answers, structuring long answers and a time plan for the 2-hour paper, with a table of diagram families and slips.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "icse-class-10-maths-2027-section-a-b-strategy-step-marking",
+    title: "ICSE Class 10 Maths 2027: Section A vs Section B Strategy and the Step-Marking Losses to Avoid",
+    description: "A practical ICSE Class 10 Maths 2027 strategy: how to handle compulsory Section A and choice-based Section B, how step marking works, presentation habits that protect marks, and a time plan.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-12-boards-2027-eight-week-crash-plan-pcmb",
+    title: "CBSE Class 12 Boards 2027: An 8-Week Crash Plan for Physics, Chemistry, Maths and Biology",
+    description: "A week-by-week 8-week crash plan for CBSE Class 12 boards 2027: diagnostic and triage first, high-weightage drilling next, then full board-pattern mocks. Separate tracks for PCM and PCB students, with an honest note on how boards overlap with JEE and NEET.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
+  },
+  {
+    slug: "cbse-class-12-physics-2027-numericals-derivations-practical-marks",
+    title: "CBSE Class 12 Physics 2027: Numericals, Derivations and the 30 Practical Marks",
+    description: "How to prepare CBSE Class 12 Physics for the 2027 boards: which numericals to practise and how to write them, which derivations and diagrams to know cold, and how to prepare the 30 practical marks, file and viva.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-12-chemistry-2027-organic-physical-inorganic-strategy",
+    title: "CBSE Class 12 Chemistry 2027: Organic Name Reactions, Physical Numericals and Inorganic Exceptions",
+    description: "A revision strategy for CBSE Class 12 Chemistry 2027: how to learn organic name reactions and conversions, practise physical chemistry numericals, and handle the exceptions in d- and f-block and coordination compounds. Includes an area-by-area revision table.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
+  },
+  {
+    slug: "cbse-class-12-maths-2027-calculus-vectors-3d-high-return-chapters",
+    title: "CBSE Class 12 Maths 2027: Calculus, Vectors and 3D — The High-Return Chapters for Boards",
+    description: "Which chapters give CBSE Class 12 Maths students the most reliable returns in 2027, how step marking works, and how to spend the last weeks: calculus, vectors and 3D geometry first, with quick wins in matrices, determinants and probability.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 9
+  },
+  {
+    slug: "cbse-class-12-biology-2027-ncert-first-revision-diagrams-case-based",
+    title: "CBSE Class 12 Biology 2027: NCERT-First Revision, Diagrams and Case-Based Questions",
+    description: "How to revise CBSE Class 12 Biology for the 2027 boards: read NCERT line by line, master labelled diagrams, practise case-based questions, and prepare the 30 practical marks. Includes an honest comparison of what boards and NEET ask differently.",
+    category: "board-exams",
+    datePublished: "2026-09-19",
+    readingMinutes: 10
   }
 ];
