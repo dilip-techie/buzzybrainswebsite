@@ -310,7 +310,7 @@ button{font-family:inherit;cursor:pointer}
   letter-spacing:.22em;text-transform:uppercase;color:var(--blue);
 }
 @media(max-width:520px){.logo-word{font-size:18px}.logo-suffix{font-size:12px;letter-spacing:.16em}}
-.nav-links{display:flex;gap:32px;list-style:none;margin:0;padding:0}
+.nav-links{display:flex;gap:24px;list-style:none;margin:0;padding:0}
 .nav-links a{font-weight:600;font-size:15px;color:var(--text-2);transition:color .2s;position:relative}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--blue);border-radius:2px;transition:width .25s var(--ease)}
 .nav-links a:hover{color:var(--text)}
