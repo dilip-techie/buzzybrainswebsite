@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzyBrains Academy have PhD faculty?',
-    answer: "Yes — Agarwal Sir (PhD, IIT Bombay) teaches Chemistry & Physics, Dr. Mrinmayee (PhD, IIT Kharagpur) teaches Chemistry, and Dr. Urmila (PhD, IISER Pune) teaches Chemistry & Science.",
+    answer: "Yes — Agarwal Sir (PhD, IIT Bombay) teaches Chemistry & Physics, Dr. Mrinmayee (PhD, IIT Kharagpur) teaches Chemistry, Dr. Urmila (PhD, IISER Pune) teaches Chemistry & Science, and Dr. Jyoti (Ph.D., Chemistry) teaches JEE and NEET Chemistry.",
   },
   {
     question: 'Who teaches NEET Biology, and what makes them qualified?',

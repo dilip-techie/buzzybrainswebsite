@@ -105,6 +105,21 @@ export const FACULTY_PROFILES: FacultyProfile[] = [
     alumniOf: ['IISER Pune'],
   },
   {
+    name: 'Dr. Jyoti',
+    subject: 'Chemistry',
+    qualification: 'Ph.D., Chemistry • M.Sc., Chemistry',
+    initials: 'JY',
+    gradient: 'linear-gradient(135deg,#14B8A6,#0F766E)',
+    tagline: 'JEE & NEET Chemistry — 19+ years, worked out live on a digital whiteboard',
+    bio: "Dr. Jyoti has spent nearly two decades teaching chemistry to students with very different starting points. She spent 13 of those years as an Assistant Professor at Deogiri Institute of Engineering and Management Studies, teaching Basic Chemistry to first-year engineering students. Her Ph.D. research (2025) studied the thermodynamic and ultrasonic behaviour of a drug molecule in binary systems. Since 2023 she has taught Class XI and XII Chemistry for IIT JEE (Main + Advanced) and NEET in live, interactive online classes, using a digital whiteboard and pen tablet so students watch each concept worked out step by step in real time.",
+    highlights: [
+      'Ph.D. in Chemistry (2025) and M.Sc. in Chemistry (2003), Dr. Babasaheb Ambedkar Marathwada University.',
+      '19+ years of chemistry teaching, from undergraduate and polytechnic to engineering and Class XI–XII.',
+      '3+ years of live-online-interactive teaching for JEE (Main + Advanced) and NEET.',
+    ],
+    alumniOf: ['Dr. Babasaheb Ambedkar Marathwada University'],
+  },
+  {
     name: 'Dipak JK Sir',
     subject: 'Mathematics — Olympiad Specialist',
     qualification: 'M.Tech, IIT Bombay • GATE-Qualified • B.E. (Mechanical)',
