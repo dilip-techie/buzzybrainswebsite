@@ -27,7 +27,7 @@ const SELECTION_CRITERIA = [
 const FAQS = [
   {
     question: 'Who teaches Mathematics at BuzzyBrains Academy?',
-    answer: "Five mentors teach Mathematics across different tracks: Dilip Sir (Founder, B.Tech IIT Kanpur, JEE AIR 400) for Foundation and JEE, Dipak JK Sir (M.Tech IIT Bombay) for Olympiad tracks (IOQM, AMC), Pooja Madam (B.Tech IIT Delhi) for one-to-one online coaching, Arun Sir (M.Sc. Mathematics) across Grade 6-12 and Engineering Mathematics, and Mrs. Beena Jayant Chander (M.Sc. Mathematics) for JEE, CAT, CLAT, NTSE, Olympiad and CBSE 8th-12th.",
+    answer: "Five mentors teach Mathematics across different tracks: Dilip Sir (Founder, B.Tech IIT Kanpur, JEE AIR 400) for Foundation and JEE, Dipak JK Sir (M.Tech IIT Bombay) for Olympiad tracks (IOQM, AMC), Pooja Madam (B.Tech IIT Delhi) for one-to-one online coaching, Arun Sir (M.Sc. Mathematics) across Grade 6-12 and Engineering Mathematics, and Beena Madam (M.Sc. Mathematics) for JEE, CAT, CLAT, NTSE, Olympiad and CBSE 8th-12th.",
   },
   {
     question: 'Does BuzzyBrains Academy have PhD faculty?',
