@@ -2893,7 +2893,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-10-two-board-exams-2027-february-may-explained.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 10 Maths 2027: The Chapters That Decide Your Score",
@@ -2901,7 +2901,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-10-maths-2027-weightage-chapters-that-decide-score.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 10 Science 2027: Physics, Chemistry and Biology Revision Plan for the Final Weeks",
@@ -2909,7 +2909,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-10-science-2027-physics-chemistry-biology-revision-plan.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Case-Based and Assertion-Reason Questions in CBSE Class 10: A Practical Guide for Maths and Science",
@@ -2917,7 +2917,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-10-case-based-assertion-reason-questions-maths-science.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Should You Sit the CBSE Class 10 Second Exam? A Decision Guide for Parents",
@@ -2925,7 +2925,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-10-second-exam-should-you-attempt-decision-guide.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "ICSE Class 10 2027: An 8-Week Revision Plan for Maths, Physics, Chemistry and Biology",
@@ -2933,7 +2933,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/icse-class-10-2027-eight-week-revision-plan-maths-science.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "ICSE Class 10 Physics 2027: Numericals, Derivations and the Chapters Examiners Keep Asking",
@@ -2941,7 +2941,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/icse-class-10-physics-2027-numericals-derivations-exam-strategy.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "ICSE Class 10 Chemistry 2027: Equations, Mole Concept and Organic — Where the Marks Are Won",
@@ -2949,7 +2949,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/icse-class-10-chemistry-2027-equations-mole-concept-organic.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "ICSE Class 10 Biology 2027: Diagrams, Labelling and Long Answers That Score Full Marks",
@@ -2957,7 +2957,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/icse-class-10-biology-2027-diagrams-labelling-long-answers.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "ICSE Class 10 Maths 2027: Section A vs Section B Strategy and the Step-Marking Losses to Avoid",
@@ -2965,7 +2965,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/icse-class-10-maths-2027-section-a-b-strategy-step-marking.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 12 Boards 2027: An 8-Week Crash Plan for Physics, Chemistry, Maths and Biology",
@@ -2973,7 +2973,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-12-boards-2027-eight-week-crash-plan-pcmb.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 12 Physics 2027: Numericals, Derivations and the 30 Practical Marks",
@@ -2981,7 +2981,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-12-physics-2027-numericals-derivations-practical-marks.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 12 Chemistry 2027: Organic Name Reactions, Physical Numericals and Inorganic Exceptions",
@@ -2989,7 +2989,7 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-12-chemistry-2027-organic-physical-inorganic-strategy.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 12 Maths 2027: Calculus, Vectors and 3D — The High-Return Chapters for Boards",
@@ -2997,13 +2997,77 @@
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-12-maths-2027-calculus-vectors-3d-high-return-chapters.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "CBSE Class 12 Biology 2027: NCERT-First Revision, Diagrams and Case-Based Questions",
     "slug": "cbse-class-12-biology-2027-ncert-first-revision-diagrams-case-based",
     "category": "Board Exam Test Series",
     "path": "/images/og/cbse-class-12-biology-2027-ncert-first-revision-diagrams-case-based.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "The Mock Test Error Log: Sort Every Lost Mark Into One of Four Buckets",
+    "slug": "mock-test-error-log-four-types-of-lost-marks",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/mock-test-error-log-four-types-of-lost-marks.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Hand-Marked vs Auto-Graded Mock Tests: What a Score-Only Report Hides",
+    "slug": "hand-marked-vs-auto-graded-mock-tests-what-you-lose",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/hand-marked-vs-auto-graded-mock-tests-what-you-lose.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Simulate Board Exam Day at Home: A Step-by-Step Mock Test Protocol",
+    "slug": "how-to-simulate-board-exam-day-at-home-mock-test-protocol",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/how-to-simulate-board-exam-day-at-home-mock-test-protocol.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Three-Hour Board Paper: How to Budget Your Time, Minute by Minute",
+    "slug": "board-exam-three-hour-paper-time-budget-first-ten-minutes",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/board-exam-three-hour-paper-time-budget-first-ten-minutes.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Sample Papers, Previous Year Papers and a Test Series: What Each Is Actually For",
+    "slug": "sample-papers-vs-previous-year-papers-vs-test-series-what-each-is-for",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/sample-papers-vs-previous-year-papers-vs-test-series-what-each-is-for.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Read Your Child's Mock Test Scorecard: A Parent's Guide",
+    "slug": "how-to-read-a-mock-test-scorecard-parents-guide",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/how-to-read-a-mock-test-scorecard-parents-guide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The 72-Hour Post-Paper Routine: How to Turn a Marked Paper Into Marks",
+    "slug": "the-72-hour-post-paper-routine-turn-feedback-into-marks",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/the-72-hour-post-paper-routine-turn-feedback-into-marks.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Choose a Board Exam Test Series: Seven Questions to Ask Before You Pay",
+    "slug": "how-to-choose-a-board-exam-test-series-seven-questions-before-you-pay",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/how-to-choose-a-board-exam-test-series-seven-questions-before-you-pay.png",
     "dimensions": "1200x630",
     "status": "created"
   },
