@@ -36262,6 +36262,708 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'mock-test-error-log-four-types-of-lost-marks',
+    title: 'The Mock Test Error Log: Sort Every Lost Mark Into One of Four Buckets',
+    description:
+      "A score tells you how you did. An error log tells you why. Here is a simple four-bucket system for turning every marked mock paper into a specific, fixable revision plan.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/board-exam-mock-test-feedback-why-it-matters', label: 'Why Mock Test Feedback Matters More Than the Score' },
+      { href: '/blog/how-many-mock-tests-before-board-exams', label: 'How Many Mock Tests Should You Attempt Before Boards?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A mock test error log is a one-page record where every mark you lost is sorted into one of four causes: a concept gap, a silly slip, a time problem or a presentation loss. Each cause has a different fix, so sorting them is what turns a marked paper from a number into a revision plan.",
+      },
+      {
+        kind: 'p',
+        text: "Most students treat a returned mock paper the same way: look at the total, feel good or bad for a few minutes, glance at the red pen, and move on to the next chapter. The paper has just handed you the most accurate map of your exam weaknesses you will ever get, and it gets used for about ninety seconds.",
+      },
+      {
+        kind: 'p',
+        text: "The fix is not more hours. It is a better question. Instead of asking “what did I score?”, ask “why, specifically, did each lost mark go missing?” The answer is almost always one of four things.",
+      },
+      { kind: 'h2', text: 'The four buckets' },
+      {
+        kind: 'table',
+        headers: ['Bucket', 'What it looks like', 'The right fix'],
+        rows: [
+          ['Concept gap', "You did not know the idea, or applied the wrong one", 'Re-learn the chapter section, then solve 5–6 fresh questions on it'],
+          ['Silly slip', 'You knew it, but copied a sign wrong, misread the question or made an arithmetic error', 'A checking routine, not more study'],
+          ['Time problem', 'You knew it but ran out of time, or left the last question blank', 'Pacing drills and an attempt order, not more content'],
+          ['Presentation loss', 'Right idea, but steps, units, labels or diagrams were missing or unclear', 'Practise writing answers the way the marking scheme rewards them'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Notice that only the first bucket is fixed by studying more content. Students who put every lost mark down to “I need to revise more” spend weeks re-reading chapters they already understand, while the real leak, say skipped units on numericals, stays open.",
+      },
+      { kind: 'h2', text: 'How to build the log in 20 minutes' },
+      {
+        kind: 'ul',
+        items: [
+          'Draw four columns on one page, one per bucket. Keep one page per paper so you can compare across attempts.',
+          'Go through the marked paper question by question. For every question that lost marks, write the question number and the marks lost in the matching column.',
+          'If you are unsure which bucket, redo the question without a clock. If you get it right, it was a slip, a time problem or presentation. If you still cannot, it is a concept gap.',
+          'Add up marks lost per bucket. The bucket with the highest total is your priority for the next two weeks.',
+          'Write one concrete action beside each bucket, such as “write units on every numerical”, not a vague intention like “be careful”.',
+        ],
+      },
+      { kind: 'h2', text: 'Why the same bucket repeating matters more than the total' },
+      {
+        kind: 'p',
+        text: "A single paper can be noisy. A bad day, an unlucky chapter mix or one lengthy question can swing a score. What the log reveals over three or four papers is the pattern. If “presentation loss” tops the list in paper one, paper two and paper three, you have found a stable, fixable habit worth several marks per paper, and it has nothing to do with how much you studied.",
+      },
+      {
+        kind: 'p',
+        text: "This is also why hand-marked papers are more useful than auto-scored ones. A machine can tell you a question is wrong. It cannot tell you that your method was right and only the final unit was missing, and that distinction is exactly what separates the buckets. Our Board Exam Test Series returns scripts marked by subject faculty with step-marks and common errors annotated, which gives you most of the raw material the log needs.",
+      },
+      { kind: 'h2', text: 'A worked example' },
+      {
+        kind: 'p',
+        text: "Imagine a Class 12 Physics paper where a student loses 14 marks. Sorting them: 4 marks on an electrostatics derivation they never understood (concept gap), 3 marks across two numericals where the final unit was missing (presentation), 3 marks from a sign error in a circuit problem (silly slip), 2 marks for a half-finished last question (time), and 2 marks for an unlabelled ray diagram (presentation). Presentation is 5 of the 14 marks, more than the single concept gap. The plan for the next paper writes itself: a units-and-labels checklist, plus one targeted revision block on electrostatics.",
+      },
+      {
+        kind: 'p',
+        text: "Without the log, that student would have spent the week re-reading the whole electrostatics chapter and lost the same 5 presentation marks again in the next paper.",
+      },
+      { kind: 'h2', text: 'Keep it short and keep it honest' },
+      {
+        kind: 'p',
+        text: "The log only works if it is honest. It is tempting to label a concept gap as a “silly slip” because it feels less threatening. The redo-without-a-clock test above is the simplest guard against that. The log is for you, not for anyone else, so there is no reason to flatter yourself.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How long should it take to fill in an error log for one mock paper?',
+        answer: 'About 15–20 minutes for a full board-length paper. If it takes much longer, you are probably rewriting solutions instead of just classifying the lost marks.',
+      },
+      {
+        question: 'Should I redo every question I got wrong?',
+        answer: 'Redo the ones you are unsure how to classify, and all the concept-gap questions. Silly slips and presentation losses need a habit change rather than a full redo, though re-solving one or two can help the habit stick.',
+      },
+      {
+        question: 'Can I use an error log without joining a test series?',
+        answer: 'Yes, it works on any marked paper, including school tests. It is most useful when the paper is marked with step-wise comments, because that detail is what lets you tell the four buckets apart.',
+      },
+    ],
+  },
+  {
+    slug: 'hand-marked-vs-auto-graded-mock-tests-what-you-lose',
+    title: 'Hand-Marked vs Auto-Graded Mock Tests: What a Score-Only Report Hides',
+    description:
+      "Online quiz platforms can score a paper in seconds. But board exams reward working, steps and presentation. Here is what an auto-graded mock test cannot show you, and when it is still useful.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/cbse-icse-marking-scheme-examiner-evaluation', label: 'CBSE & ICSE Marking Schemes Explained' },
+      { href: '/blog/board-exam-mock-test-feedback-why-it-matters', label: 'Why Mock Test Feedback Matters More Than the Score' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Auto-graded mock tests are fast and fine for checking recall on objective questions. But board papers also award marks for steps, reasoning, diagrams and presentation, and only a human marker following the board marking scheme can show you where those marks were lost. For board prep, hand-marked papers reveal more; auto-graded ones are a useful supplement.",
+      },
+      {
+        kind: 'p',
+        text: "Open any popular practice app and you will find a slick experience: tap an option, get an instant green tick or red cross, see a running score. It is satisfying, and for certain kinds of practice it is genuinely useful. The trouble starts when a student assumes that this is what a board exam feels like, because it is not.",
+      },
+      { kind: 'h2', text: 'What a board paper actually rewards' },
+      {
+        kind: 'p',
+        text: "Boards mark answers against a scheme, and that scheme splits most long answers into steps. A Maths problem may carry a mark for the formula, a mark for substitution, a mark for the working and a mark for the answer with units. A Science answer may need the right keywords. A diagram may earn marks for labels alone. A student who is 80% right on a question can legitimately collect 80% of its marks, but only if the working is on the page and readable.",
+      },
+      {
+        kind: 'p',
+        text: "An auto-grader typically sees only the final answer. It gives a full mark or none. That is a different game from the one played in the exam hall, and it trains a different instinct: get to the answer by any route, including mental shortcuts you will not be able to show on paper.",
+      },
+      { kind: 'h2', text: 'Side by side' },
+      {
+        kind: 'table',
+        headers: ['', 'Auto-graded mock', 'Hand-marked mock'],
+        rows: [
+          ['Speed of result', 'Instant', 'A few days'],
+          ['Step marks', 'Not visible', 'Annotated on the script'],
+          ['Presentation and units', 'Ignored', 'Marked and commented on'],
+          ['Diagrams and labels', 'Usually not assessed', 'Assessed'],
+          ['Handwriting speed and stamina', 'Not tested', 'Tested by writing a full paper'],
+          ['Best for', 'Quick recall checks, MCQ drills', 'Full-paper board readiness'],
+        ],
+      },
+      { kind: 'h2', text: 'The three things only a person can tell you' },
+      {
+        kind: 'ul',
+        items: [
+          "“Your method was right, you lost the last mark to a unit.” A machine marks this question wrong. A teacher marks it 4 out of 5 and tells you exactly what to change.",
+          "“You are writing too much on the two-mark questions.” This only shows up when someone compares the length of your answers with the marks available, and it is a common reason students run out of time.",
+          "“You lose marks in the same way every paper.” A pattern across scripts is only visible when a person reads them in sequence.",
+        ],
+      },
+      { kind: 'h2', text: 'Where auto-graded tests still earn their place' },
+      {
+        kind: 'p',
+        text: "This is not an argument against apps. They are excellent for daily MCQ recall, for quick concept checks, and for subjects or sections that are fully objective. Use them between full papers, the way a runner uses short intervals between long runs. What they cannot replace is the long run itself: a full, handwritten, timed paper that someone then marks properly.",
+      },
+      { kind: 'h2', text: 'What we do at BuzzyBrains' },
+      {
+        kind: 'p',
+        text: "In the BuzzyBrains Board Exam Test Series every script is hand-marked by subject faculty against the official board marking scheme, with step-marks and common errors annotated, and students can write on printed answer sheets or submit a scanned version if they are outside Pune. The aim is that the marked paper reads like what a board examiner would have written, so the feedback you receive is feedback you can act on.",
+      },
+      {
+        kind: 'p',
+        text: "If you are choosing between options, the practical question to ask any provider is simple: “Will a person mark my working, or only my final answer?”",
+      },
+    ],
+    faq: [
+      {
+        question: 'Are online mock tests useless for board exams?',
+        answer: 'No. They are good for fast recall practice, especially on objective questions. They are just incomplete for boards, because they cannot assess step marks, presentation, diagrams or handwriting speed.',
+      },
+      {
+        question: 'Do I have to write by hand for a mock test?',
+        answer: 'For board preparation, yes, wherever possible. Board exams are handwritten, and writing speed and stamina across three hours are skills you need to practise.',
+      },
+      {
+        question: 'How quickly can hand-marked results come back?',
+        answer: 'At BuzzyBrains, evaluated scripts are returned within 72 hours of submission, which is fast enough for you to act on the feedback before the next paper.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-simulate-board-exam-day-at-home-mock-test-protocol',
+    title: 'How to Simulate Board Exam Day at Home: A Step-by-Step Mock Test Protocol',
+    description:
+      "A mock paper taken on the sofa with music on is not a mock paper. Here is a practical protocol for recreating real exam conditions at home, so the practice actually transfers to the exam hall.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/cbse-board-exam-anxiety-mock-tests-confidence', label: 'Board Exam Anxiety and Mock Tests' },
+      { href: '/blog/how-many-mock-tests-before-board-exams', label: 'How Many Mock Tests Should You Attempt Before Boards?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To simulate a board exam at home, attempt the paper at the real exam's time of day, in one uninterrupted sitting of the full duration, at a plain desk with no phone, using only permitted stationery, and on the same kind of answer sheet you will get in the exam. Then stop when time is up, even mid-sentence. The value comes from treating the rules as real.",
+      },
+      {
+        kind: 'p',
+        text: "Plenty of students attempt a “mock” with a phone within reach, a snack on the desk and a pause when someone knocks on the door. The paper gets completed and a score appears, but what it measures is how you perform at home when relaxed. Board exams are a different environment, and the gap between the two is where unexpected marks disappear.",
+      },
+      { kind: 'h2', text: 'Before the paper' },
+      {
+        kind: 'ul',
+        items: [
+          'Match the time of day. Most board papers start in the morning. If your mock is at 4 pm, your body clock is not rehearsing the real thing.',
+          'Clear a plain desk. No phone in the room, not face-down on the desk. No music, no earphones, no notes.',
+          'Use only what is allowed in the exam: pens, pencil, geometry instruments, and a calculator only where the paper permits one. Keep everything else off the table.',
+          'Print or use the same style of answer sheet as the real exam. Writing on loose rough paper lets you ignore margins and layout.',
+          'Tell the household. A single interruption mid-paper teaches you to accept interruptions, which the exam hall will not allow.',
+        ],
+      },
+      { kind: 'h2', text: 'During the paper' },
+      {
+        kind: 'ul',
+        items: [
+          'Start the clock only when you begin reading the paper and stop it only when time is up. No pausing for water, no pausing for a doubt.',
+          'Use the reading time at the start as you will in the exam: scan the whole paper, mark the questions you will attempt first, and plan roughly how long each section gets.',
+          'When a question stalls you, circle it, move on and come back. Practise the discipline of leaving a question, because it is a skill that needs rehearsing.',
+          'When time is called, put the pen down. Anything you finish afterwards does not count, and you should note it separately as “extra time work”.',
+        ],
+      },
+      { kind: 'h2', text: 'After the paper' },
+      {
+        kind: 'p',
+        text: "Before you look at any answer key or marked script, spend five minutes writing down how it felt. Did you panic at a particular question? Did your hand tire in the last 30 minutes? Did you rush the final section? These observations are fragile and fade quickly, and they are exactly what you will want when you build your error log from the marked paper later.",
+      },
+      { kind: 'h2', text: 'Common shortcuts that quietly ruin a mock' },
+      {
+        kind: 'table',
+        headers: ['Shortcut', 'What it hides'],
+        rows: [
+          ['Checking the phone “just once”', 'Your concentration stamina across the full paper'],
+          ['Splitting the paper over two sittings', 'Your pacing and fatigue in the final hour'],
+          ['Looking up one formula', 'A formula gap you would have faced in the exam hall'],
+          ['Typing instead of writing', 'Your real handwriting speed and legibility'],
+          ['Choosing an easy chapter mix', 'Your readiness for a full-syllabus paper'],
+        ],
+      },
+      { kind: 'h2', text: 'What this looks like in a structured series' },
+      {
+        kind: 'p',
+        text: "In the BuzzyBrains Board Exam Test Series the later papers are built for exactly this: the board-pattern mocks run in fixed windows with no pausing and the same answer-sheet format as the board, and the final pre-board simulation is a full paper taken cold about three weeks before boards, followed by a strategy call. The earlier diagnostic papers are more forgiving on purpose, because the goal there is to find gaps rather than test stamina.",
+      },
+      {
+        kind: 'p',
+        text: "You do not need a special room to do this. You need a desk, a clock and the willingness to treat a practice paper as if it counted. The first few attempts will feel uncomfortable, and that discomfort is the gap you are closing before the real day.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Can I take a mock test in the evening if my school exam is in the morning?',
+        answer: 'You can when you have no other option, but the morning slot is better for the later mocks. Your focus and energy differ by time of day, and you want your body to have rehearsed the real exam time.',
+      },
+      {
+        question: 'What should I do if I am interrupted during a home mock test?',
+        answer: 'Note the time lost and continue, and try to avoid a repeat by telling the household in advance. Do not pause the clock, because exam-hall interruptions, however rare, will not pause it either.',
+      },
+      {
+        question: 'Should every practice paper be taken under full exam conditions?',
+        answer: 'No. Early diagnostic papers can be more relaxed. Save strict conditions for the last few full-length papers, when you are training pacing and stamina for the real thing.',
+      },
+    ],
+  },
+  {
+    slug: 'board-exam-three-hour-paper-time-budget-first-ten-minutes',
+    title: 'The Three-Hour Board Paper: How to Budget Your Time, Minute by Minute',
+    description:
+      "Running out of time is the most common reason capable students lose marks in board exams. Here is a simple time-budgeting method, including how to use the first ten minutes, that you can practise in every mock.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 8,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/mock-test-error-log-four-types-of-lost-marks', label: 'The Mock Test Error Log' },
+      { href: '/blog/how-to-simulate-board-exam-day-at-home-mock-test-protocol', label: 'How to Simulate Board Exam Day at Home' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To budget a three-hour board paper, give each section time in proportion to its marks, reserve the last 10–15 minutes for checking, and spend the initial reading time choosing your attempt order. A common rule of thumb is about one minute per mark, adjusted for how long each question type takes you in practice.",
+      },
+      {
+        kind: 'p',
+        text: "Ask a group of students who lost marks in their last school paper why, and a large share will say some version of “I knew it, I just ran out of time.” Time management is rarely taught. It is assumed to develop by itself, and for many students it does not. The good news is that it is a trainable skill, and mock papers are the place to train it.",
+      },
+      { kind: 'h2', text: 'Start with the marks, not the clock' },
+      {
+        kind: 'p',
+        text: "A paper carrying 80 marks over 3 hours gives you 180 minutes. A simple first-pass rule is to spend about two minutes per mark at most, which would be 160 minutes, leaving a buffer. In practice your pace will differ by question type, and that is what the mocks reveal. Build your own table from the first few papers.",
+      },
+      {
+        kind: 'table',
+        headers: ['Question type', 'Typical share of time', 'What to watch'],
+        rows: [
+          ['1-mark and MCQ-style items', 'Quick: a minute or less each', 'Do not linger; wrong guesses cost less than lost time'],
+          ['2–3 mark short answers', 'Moderate: 3–5 minutes each', 'Answer length should match marks, not exceed them'],
+          ['5-mark long answers and derivations', 'Longer: 7–10 minutes each', 'Write steps; partial credit is real'],
+          ['Case-based or passage questions', 'Reading plus answering: often 6–8 minutes', 'Underline the data before answering'],
+          ['Final check', 'Reserve 10–15 minutes', 'Units, signs, missed sub-parts, labels'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Treat the figures above as a starting frame to calibrate against your own papers rather than as a rule. The point is to decide the budget before the paper starts, so you are comparing the clock against a plan rather than against a feeling.",
+      },
+      { kind: 'h2', text: 'Use the first ten minutes on purpose' },
+      {
+        kind: 'ul',
+        items: [
+          'Read the whole paper once without writing. Mark questions as “easy”, “doable” or “later” with a light tick in the margin of the question paper.',
+          'Choose your starting point. Many students do best beginning with a section where they are strongest, which builds confidence and banks marks early.',
+          'Note the choice questions. If there are internal choices, decide which option you will answer before you begin writing, so you do not waste time switching.',
+          'Write the time you should reach at the end of each section at the top of the paper. For example, “Section B done by 1h 15m.”',
+        ],
+      },
+      { kind: 'h2', text: 'The rule for stuck questions' },
+      {
+        kind: 'p',
+        text: "Set a personal ceiling per question, for instance twice the time its marks would suggest. When you hit it, write down whatever partial steps you have, circle the question and move on. Partial work earns partial marks, and the time saved can pick up marks elsewhere. Most students find it hard to leave a question they are “close” on, and that feeling is exactly what the ceiling is for.",
+      },
+      { kind: 'h2', text: 'Train it with data from your own papers' },
+      {
+        kind: 'p',
+        text: "After each mock, note the time you reached at the end of each section, and compare it with the plan you set at the top. Over three or four papers you will see where you consistently overrun. It might be the long derivations, or a slow start on case-based questions. That pattern tells you which section to rehearse, and it belongs in the “time problem” bucket of your error log.",
+      },
+      {
+        kind: 'p',
+        text: "The Board Exam Test Series is built around this: two early diagnostic papers to see your baseline pace, progressive full papers to practise section budgets, timed board-pattern mocks to lock the routine in, and a final pre-board simulation to rehearse it once more, cold. Each paper gives you another data point for your own time budget.",
+      },
+      { kind: 'h2', text: 'One last habit: protect the checking time' },
+      {
+        kind: 'p',
+        text: "Students under time pressure cut checking first, because it feels optional. It is not. Ten minutes of checking regularly recovers a few marks from sign errors, missing units and skipped sub-parts, which is often more than the same ten minutes would earn on the last unfinished question. Put checking in the plan as a fixed block, not a leftover.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many minutes per mark should I plan in a three-hour paper?',
+        answer: 'A starting rule is about one to two minutes per mark depending on question type, with 10–15 minutes kept aside for checking. Refine it with your own pace from timed mock papers.',
+      },
+      {
+        question: 'Should I attempt the paper in order or start with my strongest section?',
+        answer: 'Either can work, and it is a personal choice. Many students prefer starting with a strong section to build momentum, as long as they keep track of the time and do not skip a section entirely.',
+      },
+      {
+        question: 'What if I finish early?',
+        answer: 'Use the spare time to recheck calculations, units, sub-parts and labels. Finishing early is only useful if the extra minutes go into checking rather than into leaving the hall early.',
+      },
+    ],
+  },
+  {
+    slug: 'sample-papers-vs-previous-year-papers-vs-test-series-what-each-is-for',
+    title: 'Sample Papers, Previous Year Papers and a Test Series: What Each Is Actually For',
+    description:
+      "Students often treat all three as the same thing: practice papers. They are not. Each answers a different question about your preparation. Here is how to use them in the right order.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/why-students-need-test-series-not-just-notes', label: 'Why Students Need a Test Series, Not Just More Notes' },
+      { href: '/blog/when-should-you-start-cbse-test-series', label: 'When Should You Start a CBSE Test Series?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Sample papers show the current pattern and blueprint. Previous year papers show how questions have actually been framed and how marks are awarded over time. A test series gives you timed, marked attempts with feedback, so you can measure and fix your own performance. They work best in that order, not as substitutes for each other.",
+      },
+      {
+        kind: 'p',
+        text: "Ask ten students how they are preparing for boards and most will say “solving papers.” That single phrase hides three quite different activities. Mixing them up is one of the reasons students can work through a stack of papers and still not improve.",
+      },
+      { kind: 'h2', text: 'What each one answers' },
+      {
+        kind: 'table',
+        headers: ['Resource', 'The question it answers', 'What it cannot tell you'],
+        rows: [
+          ['Board sample paper', 'What does the current paper look like: sections, weightage, question types?', 'How you perform under pressure, or whether your answers earn marks'],
+          ['Previous year papers', 'How have questions been framed, and which ideas keep coming back?', 'Whether the pattern has changed since, and how you compare today'],
+          ['Test series', 'Where exactly am I losing marks, and is it improving?', 'The official pattern itself; you need the sample paper to set it'],
+        ],
+      },
+      { kind: 'h2', text: 'Sample papers: learn the shape of the exam' },
+      {
+        kind: 'p',
+        text: "The board's own sample paper is the authoritative guide to the current blueprint: how many marks go to each section, how many questions are competency-based, where internal choices appear. Read it early, even before you feel ready to attempt it, because it tells you what “ready” means. It is also a reasonable first timed attempt, but there is usually no detailed feedback attached, so the learning stays limited to your own reading of the answer key.",
+      },
+      { kind: 'h2', text: 'Previous year papers: learn the language of the exam' },
+      {
+        kind: 'p',
+        text: "Older papers show how examiners phrase questions, which command words they use, and which concepts recur in different disguises. Working through several years of one chapter is a fast way to see the “same idea, three costumes” effect. The caution is that syllabus and pattern change. A paper from several years back may include chapters that have been removed or question styles that are no longer used, so always check the pattern against the current sample paper before treating an old paper as representative.",
+      },
+      { kind: 'h2', text: 'A test series: learn your own weaknesses' },
+      {
+        kind: 'p',
+        text: "Neither of the first two resources marks your work in the way a board examiner would. A good test series is set to the current blueprint, timed, and hand-marked with annotations, then repeated over weeks so you can see whether your fixes worked. That cycle of attempt, feedback, correction and retest is the part that changes scores. A single paper shows you a snapshot; a series shows you a trend.",
+      },
+      { kind: 'h2', text: 'A sensible order' },
+      {
+        kind: 'ul',
+        items: [
+          'First, read the current sample paper and marking scheme so you know the shape of the exam.',
+          'Second, as each chapter is completed, work through previous-year questions on that chapter to absorb how it is asked.',
+          'Third, start the test series early enough to go through several attempt-feedback-fix cycles, rather than a last-minute burst.',
+          'Finally, in the last weeks, use leftover sample and previous year papers as extra full-length timed practice, treating them with the same discipline as a series paper.',
+        ],
+      },
+      { kind: 'h2', text: 'Why the order matters' },
+      {
+        kind: 'p',
+        text: "Students who go straight to a stack of old papers often do not know what the current blueprint is, and students who only take a test series without reading the real sample paper may not notice when a question style feels unfamiliar. Used together, the three give you the pattern, the language and the feedback.",
+      },
+      {
+        kind: 'p',
+        text: "At BuzzyBrains the Board Exam Test Series papers are set against the current board sample-paper blueprint for CBSE, CISCE or the Maharashtra State Board, so the series stays matched to the pattern you read in your sample paper.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Are previous year papers enough to prepare for boards?',
+        answer: 'They are valuable for learning question language, but on their own they do not give you marked feedback or a view of your progress. Patterns also change, so they need to be checked against the current sample paper.',
+      },
+      {
+        question: 'When should I attempt the board sample paper as a timed test?',
+        answer: 'Once you have covered most of the syllabus. Many students save one or two sample papers for the final weeks, as a last full-length check, and use others earlier for understanding the blueprint.',
+      },
+      {
+        question: 'Is a test series worth it if I already solve many papers?',
+        answer: 'It can be, if the main gap is feedback. Solving more papers without marked, specific feedback tends to repeat the same mistakes. A series is valuable when it tells you what to fix and then checks whether you did.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-read-a-mock-test-scorecard-parents-guide',
+    title: "How to Read Your Child's Mock Test Scorecard: A Parent's Guide",
+    description:
+      "A low mock score is not a verdict. It is information. Here is how parents can read a scorecard calmly, which numbers matter, and how to start a useful conversation with your child instead of an argument.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/board-exam-mock-test-feedback-why-it-matters', label: 'Why Mock Test Feedback Matters More Than the Score' },
+      { href: '/blog/cbse-board-exam-anxiety-mock-tests-confidence', label: 'Board Exam Anxiety and Mock Tests' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A mock test scorecard is best read in this order: first the trend across papers rather than a single score, then the chapter-wise breakdown, then the pattern of mark loss, such as concept, time or presentation. Start the conversation with your child from the breakdown, not the total, and focus on the next paper rather than the last one.",
+      },
+      {
+        kind: 'p',
+        text: "The scorecard arrives, and most parents do the same thing: look for the total, compare it with the target, and feel a knot of worry or relief. Then comes the conversation, which too often begins with “why did you only get this?” and ends with a closed door. The scorecard deserves a slower read, and the conversation deserves a better opening.",
+      },
+      { kind: 'h2', text: 'Read the trend before the total' },
+      {
+        kind: 'p',
+        text: "One mock paper is a noisy measurement. A tough chapter mix, an off day or an unlucky question can move the score by several marks either way. What matters more is the direction across three or four papers. A student moving from 52 to 58 to 63 is doing very well, even if the current number is below the family's hope. A student stuck at 70 for four papers is telling you something too: their current approach has hit a ceiling.",
+      },
+      { kind: 'h2', text: 'Then look for the chapter-wise map' },
+      {
+        kind: 'p',
+        text: "A good scorecard splits the result by chapter or sub-topic. This is the most actionable part of the report, because it converts “improve Physics” into “improve current electricity and optics”. Look for the two or three chapters where marks lost are highest, rather than trying to address everything. A focused revision plan on two chapters is far more likely to be followed than a list of ten.",
+      },
+      { kind: 'h2', text: 'Ask what kind of marks were lost' },
+      {
+        kind: 'table',
+        headers: ['If the marks were lost to…', 'It usually means…', 'A useful response'],
+        rows: [
+          ['Concepts not understood', 'A content gap in particular chapters', 'Targeted revision, teacher help on those chapters'],
+          ['Silly errors', 'Hurry or weak checking habits', 'A checking routine, slower first-pass reading'],
+          ['Unfinished questions', 'A pacing problem', 'Timed practice and an attempt order'],
+          ['Missing steps or units', 'A presentation habit', 'Practising full written answers against the marking scheme'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "This is the question that turns the conversation from blame to problem-solving. “It looks like most of the lost marks were units and steps, which is fixable” lands very differently from “you are careless.”",
+      },
+      { kind: 'h2', text: 'How to open the conversation' },
+      {
+        kind: 'ul',
+        items: [
+          'Start with what went well. Name one chapter or one improvement, specifically, before anything else.',
+          'Let your child explain the paper first. Ask “what felt hardest?” and “what would you change about how you attempted it?”',
+          'Pick one or two fixes, not five. Agree on them and write them down together.',
+          'Set a timeline tied to the next paper, not to the final exam. “Next paper, let us look at units” is concrete and close.',
+          'Avoid comparisons with siblings or classmates. A percentile against a batch is useful for the student to see their standing, but it should not become a family ranking.',
+        ],
+      },
+      { kind: 'h2', text: 'What a scorecard cannot tell you' },
+      {
+        kind: 'p',
+        text: "A scorecard cannot tell you how your child feels about the exam, how much they are sleeping or whether they are anxious. If the numbers look fine but your child seems exhausted, or if scores drop alongside a change in mood, the scorecard is a prompt for a wider conversation, not the whole picture.",
+      },
+      {
+        kind: 'p',
+        text: "In the BuzzyBrains Board Exam Test Series each scorecard carries a chapter-wise strength map, a percentile against the batch, and a short 1:1 review with the subject faculty. Parents are welcome to ask for the pattern of mark loss during that review, so the next conversation at home starts from specifics.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many mock papers should I look at before judging progress?',
+        answer: 'Look at the trend across at least three papers. A single score can swing because of chapter mix, difficulty or an off day, so it is a weak basis for conclusions.',
+      },
+      {
+        question: 'Is percentile against the batch useful for parents?',
+        answer: 'It helps the student see where they stand relative to similar peers, but it is best used for the student themselves rather than as a point of comparison in the family. The chapter-wise breakdown is usually more actionable.',
+      },
+      {
+        question: 'What should I do if my child does not want to discuss the scorecard?',
+        answer: 'Give it a day, then try a low-pressure opening, for instance asking which question they found most interesting or most annoying. Often the conversation starts more easily when it is not framed around the score.',
+      },
+    ],
+  },
+  {
+    slug: 'the-72-hour-post-paper-routine-turn-feedback-into-marks',
+    title: 'The 72-Hour Post-Paper Routine: How to Turn a Marked Paper Into Marks',
+    description:
+      "Most of a mock test's value is decided after the paper is handed back. Here is a three-day routine for converting feedback into fixed mistakes before the next attempt.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 7,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/mock-test-error-log-four-types-of-lost-marks', label: 'The Mock Test Error Log' },
+      { href: '/blog/how-many-mock-tests-before-board-exams', label: 'How Many Mock Tests Should You Attempt Before Boards?' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "After a marked mock paper returns, use a three-day routine: on day one, read the script and build an error log; on day two, fix the concept gaps with targeted study and fresh questions; on day three, rehearse presentation and time fixes, and set one goal for the next paper. The gains from mocks come from this follow-up more than from the paper itself.",
+      },
+      {
+        kind: 'p',
+        text: "Two students can attempt the same paper, receive the same marks and feedback, and improve by very different amounts. The difference is almost never the paper. It is what each does in the days after. A mock is a measurement, and a measurement only helps if it changes what you do next.",
+      },
+      { kind: 'h2', text: 'Day 1: read, sort and decide' },
+      {
+        kind: 'ul',
+        items: [
+          'Read the script within a day of getting it, while the paper is still fresh in memory. Read every annotation, including for questions you got right.',
+          'Build your error log, sorting each lost mark into concept gap, silly slip, time problem or presentation loss.',
+          'Note your top bucket and your two weakest chapters. That is your plan; everything else can wait.',
+          'If you attend a 1:1 review with your teacher, bring the log and two specific questions you did not understand. A focused question gets a far more useful answer than “please explain the paper”.',
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Keep day one short. The objective is a decision, not a long study session. Ninety minutes is usually plenty.",
+      },
+      { kind: 'h2', text: 'Day 2: repair the concept gaps' },
+      {
+        kind: 'p',
+        text: "Concept gaps are the only bucket that genuinely needs more studying, so this is the day for it. Go back to the specific sub-topics, not the whole chapter. Learn the idea again from your notes or textbook, solve the question you got wrong without help, then solve five or six new questions of the same type. A gap counts as closed only when you can solve a fresh question on your own, not when you have read the solution.",
+      },
+      { kind: 'h2', text: 'Day 3: rehearse the habits' },
+      {
+        kind: 'p',
+        text: "Silly slips, time problems and presentation losses are habits, and habits are trained by doing, not by reading. Pick the largest one from your log and build a short drill around it.",
+      },
+      {
+        kind: 'table',
+        headers: ['Top bucket', 'A drill for day 3'],
+        rows: [
+          ['Silly slips', 'Re-solve 6–8 questions with a deliberate 30-second checking routine at the end of each'],
+          ['Time problems', 'Do one section of a past paper against a strict clock, then compare with your time plan'],
+          ['Presentation loss', 'Write out three full answers exactly as the marking scheme would expect: steps, units, labels, diagram'],
+          ['Concept gaps (again)', 'Teach the concept aloud to an imaginary classmate, then solve two more questions'],
+        ],
+      },
+      { kind: 'h2', text: 'Close the loop before the next paper' },
+      {
+        kind: 'p',
+        text: "End day three by writing one sentence: the single thing you will do differently in the next paper. For example, “I will write units on every numerical and keep 10 minutes for checking.” Stick it on the front of your next paper's answer booklet. When the next script returns, the first thing to check is whether that one fix held.",
+      },
+      { kind: 'h2', text: 'Why 72 hours' },
+      {
+        kind: 'p',
+        text: "Feedback loses value quickly. A week after a paper, most students have forgotten why they wrote what they wrote, and the annotations are harder to interpret. A short, structured window keeps the memory fresh and leaves room for the next paper to arrive while the fixes are still active. It is also why the BuzzyBrains Board Exam Test Series returns marked scripts within 72 hours of submission, and pairs them with a short 1:1 review call, so the follow-up routine can start while the paper is still vivid.",
+      },
+      {
+        kind: 'p',
+        text: "A series only works if each paper is followed by a real attempt to fix something. Three focused days are enough.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How much time should I spend on each post-paper day?',
+        answer: 'Around 60–120 minutes per day is usually enough. The aim is to be specific, fixing a few well-chosen things, rather than trying to re-study everything.',
+      },
+      {
+        question: 'What if I do not get a 1:1 review after my mock test?',
+        answer: 'You can still run the routine yourself with the marked script. Bring your most specific unanswered question to your school teacher or tutor, because one clear question is far more useful than a general request.',
+      },
+      {
+        question: 'Should I redo the entire paper?',
+        answer: 'Usually not. Redo the questions where you lost marks to concept gaps and a sample of those lost to habits. Redoing the whole paper is rarely the best use of time between attempts.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-choose-a-board-exam-test-series-seven-questions-before-you-pay',
+    title: 'How to Choose a Board Exam Test Series: Seven Questions to Ask Before You Pay',
+    description:
+      "Not every test series is built the same. Here are seven practical questions that separate a series that raises marks from one that only produces scores, plus what good answers look like.",
+    category: 'board-exams',
+    datePublished: '2026-10-01',
+    readingMinutes: 8,
+    relatedProgramHref: '/test-series',
+    relatedProgramLabel: 'Board Exam Test Series',
+    relatedGuides: [
+      { href: '/blog/hand-marked-vs-auto-graded-mock-tests-what-you-lose', label: 'Hand-Marked vs Auto-Graded Mock Tests' },
+      { href: '/blog/sample-papers-vs-previous-year-papers-vs-test-series-what-each-is-for', label: 'Sample Papers, Previous Year Papers and a Test Series' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Before paying for a board exam test series, ask: is each paper set to the current board blueprint, who marks the scripts and how, how fast do results return, what feedback comes beyond the score, how many papers and over what schedule, is there a chance to discuss mistakes one-to-one, and what does it cover for your exact board and subjects. The answers show whether you are buying practice or improvement.",
+      },
+      {
+        kind: 'p',
+        text: "From the outside, test series look alike: a list of papers, a price, a promise of improvement. The difference shows up only after you have spent weeks inside one. These seven questions are worth asking beforehand, of any provider, including us.",
+      },
+      { kind: 'h2', text: '1. Is every paper set to the current board blueprint?' },
+      {
+        kind: 'p',
+        text: "Boards revise weightage, add competency-based questions and change internal choices. A series built on last decade's pattern trains you for an exam that no longer exists. Ask how papers are aligned to this year's sample paper and whether they are updated when the board issues a circular.",
+      },
+      { kind: 'h2', text: '2. Who marks the scripts, and against what?' },
+      {
+        kind: 'p',
+        text: "The best answer names subject teachers marking by hand against the official marking scheme, with step-marks included. A vague answer such as “our system evaluates” should prompt a follow-up: does anyone read your working, or only your final answer?",
+      },
+      { kind: 'h2', text: '3. How fast do results come back?' },
+      {
+        kind: 'p',
+        text: "Feedback is most useful while the paper is still fresh. If marked scripts arrive two or three weeks late, you will have moved on to the next chapter and the next paper may already have happened. A clearly stated turnaround, in days rather than weeks, is a good sign.",
+      },
+      { kind: 'h2', text: '4. What do you get beyond a total score?' },
+      {
+        kind: 'ul',
+        items: [
+          'A chapter-wise or topic-wise breakdown of where marks were lost.',
+          'Annotations on the script itself, not just a number on the front page.',
+          'Some benchmark, such as a percentile against other students on the same paper.',
+          'Guidance on what to do next, not only a report of what happened.',
+        ],
+      },
+      { kind: 'h2', text: '5. How many papers, and on what schedule?' },
+      {
+        kind: 'p',
+        text: "Count the papers per subject and look at the gaps between them. A handful of papers crammed into the last month leaves little room to learn from mistakes. A spread over a few months, with early diagnostic papers and later full-length mocks, allows repeated attempt-feedback-fix cycles. For context, our series runs eight papers per subject over twelve weeks, starting with two diagnostic papers and ending with a full pre-board simulation.",
+      },
+      { kind: 'h2', text: '6. Is there a human conversation about your mistakes?' },
+      {
+        kind: 'p',
+        text: "A short one-to-one review after a paper can be the most valuable hour of the cycle, because the teacher can see your specific pattern and answer your specific doubts. Ask whether it is included, who conducts it and how long it is.",
+      },
+      { kind: 'h2', text: '7. Does it fit your board and your subjects?' },
+      {
+        kind: 'p',
+        text: "CBSE, ICSE/ISC and the Maharashtra State Board differ in structure. ICSE, for instance, examines Physics, Chemistry and Biology as three separate papers, while CBSE uses a combined Science paper in Class 10. The pack should mirror your actual exam, including the subjects you carry and any add-ons such as Applied Mathematics or Computer Science.",
+      },
+      { kind: 'h2', text: 'A quick comparison table to use' },
+      {
+        kind: 'table',
+        headers: ['Question', 'A strong answer', 'A warning sign'],
+        rows: [
+          ['Blueprint', 'Matched to the current board sample paper', 'Generic question bank'],
+          ['Marking', 'Teacher-marked against the board scheme', 'Auto-scored or unspecified'],
+          ['Turnaround', 'Stated in days', 'Vague or weeks'],
+          ['Feedback', 'Chapter-wise map plus script annotations', 'Score only'],
+          ['Schedule', 'Spread over months with diagnostic and mock stages', 'Papers bunched near the exam'],
+          ['Review', 'Included one-to-one discussion', 'None'],
+          ['Fit', 'Board- and subject-specific packs', 'One pack for everyone'],
+        ],
+      },
+      { kind: 'h2', text: 'Ask us the same seven' },
+      {
+        kind: 'p',
+        text: "The BuzzyBrains Board Exam Test Series covers CBSE, ICSE/ISC, Maharashtra State Board, IGCSE Cambridge and IB, with packs set to each board's pattern. If you are comparing us with anyone else, use the seven questions above on both and choose the one whose answers you trust most. You can message us on WhatsApp from the test series page and we will answer them for your specific board and subjects.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Is a more expensive test series always better?',
+        answer: 'Not necessarily. Price is a poor proxy for quality. Compare what each includes: who marks the papers, turnaround time, depth of feedback, number of papers and whether there is a one-to-one review.',
+      },
+      {
+        question: 'Can I take a test series if I am not enrolled in the provider\'s classes?',
+        answer: 'It depends on the provider. At BuzzyBrains the board test series packs are open to any Class 10 or 12 student, whether or not they attend our regular classes.',
+      },
+      {
+        question: 'When is it too late to join a test series?',
+        answer: 'The earlier the better, because the benefit comes from repeated attempt-feedback-fix cycles. Even joining mid-way is worthwhile if you can still complete several cycles before the boards.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
