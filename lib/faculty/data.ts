@@ -179,4 +179,19 @@ export const FACULTY_PROFILES: FacultyProfile[] = [
     ],
     alumniOf: [],
   },
+  {
+    name: 'Beena Madam',
+    subject: 'Mathematics',
+    qualification: 'M.Sc., Mathematics • M.Sc., Chemistry',
+    initials: 'BC',
+    gradient: 'linear-gradient(135deg,#EC4899,#BE185D)',
+    tagline: '17+ years teaching Mathematics for JEE, CAT, CLAT, NTSE, Olympiad and CBSE 8th–12th',
+    bio: "Beena Madam has spent nearly two decades teaching mathematics to students with very different starting points. She has spent 17+ years as a Mathematics Faculty and Trainer for competitive examinations including JEE Mains, CAT, CLAT, BBA, NTSE, Olympiad, SSC and CBSE 8th-12th. This includes 7+ years as a Senior Faculty at leading institutes like Brilliant Tutorials, AICE, Career Launcher and Narayana IIT Academy in Delhi, and her recent role as Maths Faculty (e-Techno) at Narayana e-Techno School, Amanora, Pune. Since 2016, she has also worked as a Mathematics Trainer & Content Developer at Eduman Learnings, developing CBSE/NCERT-aligned content and guiding school dropouts and high-school learners with step-by-step problem solving, making complex concepts simple and exam-oriented.",
+    highlights: [
+      'M.Sc. in Mathematics (2011), Vinayaka Missions University; M.Sc. in Chemistry (2007), Agra University.',
+      '17+ years of mathematics teaching, from Class 8th to 12th, undergraduate and competitive exam aspirants.',
+      '3+ years of content development and live online & offline teaching using digital tools, interactive classes and structured practice modules, with 500+ students guided to top scores.',
+    ],
+    alumniOf: ['Vinayaka Missions University', 'Agra University'],
+  },
 ];

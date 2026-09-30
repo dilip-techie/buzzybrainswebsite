@@ -266,6 +266,7 @@ const FACULTY = [
   { name: 'Priya Madam', subject: 'Biology', qualification: 'B.E., Pune University', expertise: 'An engaging, detail-oriented Biology educator known for building deep conceptual clarity and genuine curiosity in every student.', initials: 'PM', gradient: 'var(--grad-red)' },
   { name: 'Shivangi Madam', subject: 'Science', qualification: 'B.E., Pune University', expertise: 'An enthusiastic, encouraging Science mentor who makes learning hands-on, curious and confidence-building for young minds.', initials: 'SM', gradient: 'linear-gradient(135deg,#6366F1,#4338CA)' },
   { name: 'Arun Sir', subject: 'Mathematics', qualification: 'M.Sc. Mathematics • 12+ Years Teaching Experience', expertise: 'A versatile Mathematics educator who has taught Grade 6 to 12 and Engineering Mathematics across all boards, bringing the same rigor to school curricula and Maths Olympiad coaching alike.', initials: 'AR', gradient: 'var(--grad-amber)' },
+  { name: 'Beena Madam', subject: 'Mathematics', qualification: 'M.Sc., Mathematics • M.Sc., Chemistry', expertise: 'A 17+ year Mathematics faculty and trainer for JEE Mains, CAT, CLAT, NTSE, Olympiad and CBSE 8th-12th, making complex concepts simple and exam-oriented through step-by-step problem solving.', initials: 'BC', gradient: 'linear-gradient(135deg,#EC4899,#BE185D)' },
 ];
 
 const STATS = [
