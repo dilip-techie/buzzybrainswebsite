@@ -1,9 +1,9 @@
 // Discount rotates by calendar day so the offer always feels live:
-// an even date-of-month gets the bigger 20% cut, an odd one gets 15%.
+// an even date-of-month gets the bigger 15% cut, an odd one gets 10%.
 // Always frame the deadline as "next 2 days" from whenever it's viewed,
 // rather than a fixed date, so the urgency never goes stale.
 export interface DiscountInfo {
-  percent: 15 | 20;
+  percent: 10 | 15;
   code: string;
   validUntilLabel: string;
 }
@@ -23,7 +23,7 @@ function formatOrdinalDate(date: Date): string {
 }
 
 export function getDiscountInfo(now: Date = new Date()): DiscountInfo {
-  const percent: 15 | 20 = now.getDate() % 2 === 0 ? 20 : 15;
+  const percent: 10 | 15 = now.getDate() % 2 === 0 ? 15 : 10;
   const code = `EARLY${percent}`;
 
   const validUntil = new Date(now);
