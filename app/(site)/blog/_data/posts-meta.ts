@@ -3020,5 +3020,69 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "board-exams",
     datePublished: "2026-09-19",
     readingMinutes: 10
+  },
+  {
+    slug: "mock-test-error-log-four-types-of-lost-marks",
+    title: "The Mock Test Error Log: Sort Every Lost Mark Into One of Four Buckets",
+    description: "A score tells you how you did. An error log tells you why. Here is a simple four-bucket system for turning every marked mock paper into a specific, fixable revision plan.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "hand-marked-vs-auto-graded-mock-tests-what-you-lose",
+    title: "Hand-Marked vs Auto-Graded Mock Tests: What a Score-Only Report Hides",
+    description: "Online quiz platforms can score a paper in seconds. But board exams reward working, steps and presentation. Here is what an auto-graded mock test cannot show you, and when it is still useful.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-simulate-board-exam-day-at-home-mock-test-protocol",
+    title: "How to Simulate Board Exam Day at Home: A Step-by-Step Mock Test Protocol",
+    description: "A mock paper taken on the sofa with music on is not a mock paper. Here is a practical protocol for recreating real exam conditions at home, so the practice actually transfers to the exam hall.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "board-exam-three-hour-paper-time-budget-first-ten-minutes",
+    title: "The Three-Hour Board Paper: How to Budget Your Time, Minute by Minute",
+    description: "Running out of time is the most common reason capable students lose marks in board exams. Here is a simple time-budgeting method, including how to use the first ten minutes, that you can practise in every mock.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 8
+  },
+  {
+    slug: "sample-papers-vs-previous-year-papers-vs-test-series-what-each-is-for",
+    title: "Sample Papers, Previous Year Papers and a Test Series: What Each Is Actually For",
+    description: "Students often treat all three as the same thing: practice papers. They are not. Each answers a different question about your preparation. Here is how to use them in the right order.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-read-a-mock-test-scorecard-parents-guide",
+    title: "How to Read Your Child's Mock Test Scorecard: A Parent's Guide",
+    description: "A low mock score is not a verdict. It is information. Here is how parents can read a scorecard calmly, which numbers matter, and how to start a useful conversation with your child instead of an argument.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "the-72-hour-post-paper-routine-turn-feedback-into-marks",
+    title: "The 72-Hour Post-Paper Routine: How to Turn a Marked Paper Into Marks",
+    description: "Most of a mock test's value is decided after the paper is handed back. Here is a three-day routine for converting feedback into fixed mistakes before the next attempt.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-choose-a-board-exam-test-series-seven-questions-before-you-pay",
+    title: "How to Choose a Board Exam Test Series: Seven Questions to Ask Before You Pay",
+    description: "Not every test series is built the same. Here are seven practical questions that separate a series that raises marks from one that only produces scores, plus what good answers look like.",
+    category: "board-exams",
+    datePublished: "2026-10-01",
+    readingMinutes: 8
   }
 ];
