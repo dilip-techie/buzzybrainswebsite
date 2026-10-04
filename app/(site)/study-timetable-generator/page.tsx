@@ -67,7 +67,7 @@ export default function StudyTimetableGeneratorPage() {
   }
 
   const waMessage = `Hi! I built a weekly study timetable using your Study Timetable Generator for ${config.label}. Can I get a mentor's feedback on it?`;
-  const waHref = `https://wa.me/919850570525?text=${encodeURIComponent(waMessage)}`;
+  const waHref = `https://wa.me/918983604478?text=${encodeURIComponent(waMessage)}`;
 
   return (
     <main className="bb-landing bb-page-shell">

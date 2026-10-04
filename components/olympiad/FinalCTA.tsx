@@ -29,7 +29,7 @@ export default function FinalCTA({
               <Phone size={16} /> Call Now
             </a>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="oly-btn-secondary !border-white/25 !bg-transparent !text-white hover:!border-white"

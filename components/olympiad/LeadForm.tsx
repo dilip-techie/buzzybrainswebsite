@@ -47,7 +47,7 @@ export default function LeadForm({
       `Email: ${data.email}`,
       `Program: ${data.program}`,
     ].join('\n');
-    window.open(`https://wa.me/919850570525?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/918983604478?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
     reset();
   };

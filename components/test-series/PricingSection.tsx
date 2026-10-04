@@ -215,7 +215,7 @@ export function PackCard({ pack }: { pack: Pack }) {
       </ul>
 
       <a
-        href="https://wa.me/919850570525"
+        href="https://wa.me/918983604478"
         target="_blank"
         rel="noopener noreferrer"
         className={`mt-7 rounded-sm px-5 py-3 text-center text-[13px] font-bold tracking-wide transition-transform hover:-translate-y-0.5 ${
@@ -283,7 +283,7 @@ export default function PricingSection({
               <p className="font-ledger text-[11px] text-[#FAF7EF]/50">{basePeriod}</p>
             </div>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-sm bg-[#C9A227] px-5 py-3 text-[13px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"
@@ -353,7 +353,7 @@ export default function PricingSection({
               <p className="font-ledger text-[11px] text-[#FAF7EF]/50">{customTier.period}</p>
             </div>
             <a
-              href="https://wa.me/919850570525"
+              href="https://wa.me/918983604478"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-sm bg-[#C9A227] px-6 py-3 text-[13.5px] font-bold tracking-wide text-[#0E2148] transition-transform hover:-translate-y-0.5"

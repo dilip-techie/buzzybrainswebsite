@@ -10,7 +10,7 @@ import CtaModal from '@/components/CtaModal';
 
 const PHONE_HREF = 'tel:+919850570525';
 const PHONE_DISPLAY = '98505 70525';
-const WHATSAPP_HREF = 'https://wa.me/919850570525';
+const WHATSAPP_HREF = 'https://wa.me/918983604478';
 const STICKY_LABEL = 'Check Dates & Seats';
 
 export interface CrashCourseConfig {

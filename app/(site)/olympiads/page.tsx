@@ -103,7 +103,7 @@ export default function OlympiadsPage() {
 
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
-    window.open('https://wa.me/919850570525', '_blank');
+    window.open('https://wa.me/918983604478', '_blank');
   };
 
   const handleCtaModalForm = () => {

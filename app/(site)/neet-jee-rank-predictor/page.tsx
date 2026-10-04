@@ -164,7 +164,7 @@ function RankPredictorInner() {
   const waMessage = matchedBand
     ? `Hi! My expected ${config.label} score/percentile is ${rawValue}, in the "${matchedBand.label}" band. Can I get personalized guidance on realistic college options?`
     : `Hi! I'd like personalized guidance on realistic ${config.label} college options.`;
-  const waHref = `https://wa.me/919850570525?text=${encodeURIComponent(waMessage)}`;
+  const waHref = `https://wa.me/918983604478?text=${encodeURIComponent(waMessage)}`;
 
   return (
     <main className="bb-landing bb-page-shell">

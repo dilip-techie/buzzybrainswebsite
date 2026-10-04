@@ -165,7 +165,7 @@ export default function ApExamPage() {
   const handleCtaModalWhatsApp = () => {
     setShowCtaModal(false);
     window.open(
-      `https://wa.me/919850570525?text=${encodeURIComponent("Hi, I'd like to book a free AP demo class at BuzzyBrains Academy.")}`,
+      `https://wa.me/918983604478?text=${encodeURIComponent("Hi, I'd like to book a free AP demo class at BuzzyBrains Academy.")}`,
       '_blank'
     );
   };
