@@ -23,7 +23,7 @@ export default function AmanoraLocationPage() {
       body={[
         {
           kind: 'p',
-          text: 'Amanora is where BuzzyBrains Academy started, and it remains our flagship center today — at 201, Pallazo, near Wisdom World School, in the heart of the Amanora township in Hadapsar. If you live in or around Amanora, this is the closest and most direct way to reach us for any program.',
+          text: 'Amanora is where BuzzyBrains Academy started, and it remains home to our Head Office today — at 212, Amanora Ascent Avenue, in the heart of the Amanora township in Hadapsar — alongside Branch 1 at 201, Pallazo, near Wisdom World School. If you live in or around Amanora, this is the closest and most direct way to reach us for any program.',
         },
         { kind: 'h2', text: 'Why families in Amanora choose BuzzyBrains Academy' },
         {
@@ -44,7 +44,7 @@ export default function AmanoraLocationPage() {
       faq={[
         {
           question: 'Where exactly is the Amanora center located?',
-          answer: 'At 201, Pallazo, near Wisdom World School, in the Amanora locality of Hadapsar, Pune.',
+          answer: 'Our Head Office is at 212, Amanora Ascent Avenue, and Branch 1 is at 201, Pallazo, near Wisdom World School, both in the Amanora locality of Hadapsar, Pune.',
         },
         {
           question: 'Which programs run out of the Amanora center?',

@@ -47,7 +47,7 @@ export function ProgramJsonLd({
                     ? {
                         location: {
                           '@type': 'Place',
-                          name: 'BuzzyBrains Academy, Amanora',
+                          name: 'BuzzyBrains Academy, Head Office, Amanora',
                           address: {
                             '@type': 'PostalAddress',
                             addressLocality: 'Hadapsar, Pune',

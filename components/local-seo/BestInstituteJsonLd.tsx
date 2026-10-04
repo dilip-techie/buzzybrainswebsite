@@ -33,7 +33,7 @@ export function BestInstituteJsonLd({
         name="BuzzyBrains Academy"
         description={description}
         path={path}
-        streetAddress="201, Pallazo, Nr. Wisdom World School, Amanora"
+        streetAddress="212, Amanora Ascent Avenue, Amanora"
         areaServed={AREA_SERVED}
         breadcrumbName={breadcrumbName}
         reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}
