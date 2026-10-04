@@ -41,7 +41,7 @@ export default function BestCoachingInstituteLayout({ children }: { children: Re
         name="BuzzyBrains Academy"
         description="Premium coaching institute in Hadapsar, Pune for Grades 4-12 — Foundation, Maths Excellence, Olympiads, IIT-JEE, NEET, Commerce, IGCSE, IB, AP, SAT and Code Ninja (Coding & AI). Founded by Dilip Sah, IIT Kanpur and IIM Ahmedabad alumnus. Maximum 12 students per batch."
         path="/best-coaching-institute-pune"
-        streetAddress="201, Pallazo, Nr. Wisdom World School, Amanora"
+        streetAddress="212, Amanora Ascent Avenue, Amanora"
         areaServed={['Hadapsar', 'Amanora', 'Magarpatta', 'Kharadi', 'Mundhwa', 'Wanowrie', 'Fatima Nagar', 'NIBM', 'Kondhwa', 'Manjri', 'Fursungi', 'Pune']}
         breadcrumbName="Best Coaching Institute in Pune"
         reviews={testimonials.map((t) => ({ author: t.name, text: t.text }))}

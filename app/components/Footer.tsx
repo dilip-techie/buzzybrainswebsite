@@ -110,6 +110,15 @@ export default function Footer() {
             </div>
             <ul className="foot-branches">
               <li>
+                <a className="foot-branch-card" href="https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+212+Amanora+Ascent+Avenue+Pune" target="_blank" rel="noopener noreferrer">
+                  <span className="branch-text">
+                    <span className="branch-label">Head Office</span>
+                    <span className="branch-address">212, Amanora Ascent Avenue</span>
+                  </span>
+                  <svg className="branch-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10" /></svg>
+                </a>
+              </li>
+              <li>
                 <a className="foot-branch-card" href="https://maps.app.goo.gl/gANY66SQFDgVajtf8" target="_blank" rel="noopener noreferrer">
                   <span className="branch-text">
                     <span className="branch-label">Branch 1</span>

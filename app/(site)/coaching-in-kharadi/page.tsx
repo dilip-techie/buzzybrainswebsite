@@ -22,7 +22,7 @@ export default function KharadiLocationPage() {
       body={[
         {
           kind: 'p',
-          text: 'Kharadi — home to the EON IT Park and World Trade Center corridor along Nagar Road — has a growing number of families juggling long IT-sector work hours with their children\'s coaching schedules. We already have students making the trip from Kharadi to our Amanora and Aspire Towers centers, and we\'ve built our scheduling around exactly that kind of family.',
+          text: 'Kharadi — home to the EON IT Park and World Trade Center corridor along Nagar Road — has a growing number of families juggling long IT-sector work hours with their children\'s coaching schedules. We already have students making the trip from Kharadi to our Head Office, Branch 1 and Branch 2, and we\'ve built our scheduling around exactly that kind of family.',
         },
         { kind: 'h2', text: 'How Kharadi families make the commute work' },
         {
@@ -47,7 +47,7 @@ export default function KharadiLocationPage() {
       faq={[
         {
           question: 'Do you have a center in Kharadi?',
-          answer: 'Our physical centers are in Amanora and at Aspire Towers, both a manageable drive from Kharadi. We also offer online classes for Kharadi students who prefer not to commute.',
+          answer: 'Our Head Office (212, Amanora Ascent Avenue) and Branch 1 are in Amanora, and Branch 2 is at Aspire Towers, both a manageable drive from Kharadi. We also offer online classes for Kharadi students who prefer not to commute.',
         },
         {
           question: 'How long is the commute from Kharadi?',

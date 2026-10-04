@@ -311,7 +311,7 @@ function CoverPage() {
             Prepared by Dilip Sah (IIT Kanpur alumnus, JEE AIR 400) and the BuzzyBrains Academy faculty team.
           </Text>
           <Text style={{ fontSize: 9, color: BRAND.inkMuted, marginTop: 4 }}>
-            201, Pallazo, Nr. Wisdom World School, Amanora, Hadapsar, Pune · buzzybrainsacademy.com
+            Head Office: 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune · buzzybrainsacademy.com
           </Text>
         </View>
       </View>
@@ -481,7 +481,7 @@ function ChecklistPage() {
           Book a free demo class: +91 89836 04478 · hello@buzzybrainsacademy.com
         </Text>
         <Text style={{ fontSize: 9, color: '#94A3B8', marginTop: 4 }}>
-          201, Pallazo, Nr. Wisdom World School, Amanora, Hadapsar, Pune
+          Head Office: 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune
         </Text>
       </View>
       <Footer />
