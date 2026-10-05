@@ -164,7 +164,7 @@ export function LocalBusinessJsonLd({
           name,
           description,
           url,
-          telephone: '+91-89836-04478',
+          telephone: '+91-98505-70525',
           email: 'hello@buzzybrainsacademy.com',
           priceRange: '₹₹',
           address: {

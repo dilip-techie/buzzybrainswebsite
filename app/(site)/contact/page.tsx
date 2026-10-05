@@ -56,10 +56,10 @@ export default function ContactPage() {
               Call us directly for immediate assistance with admissions and course inquiries.
             </p>
             <a
-              href="tel:+918983604478"
+              href="tel:+919850570525"
               className="inline-block text-blue-400 font-bold py-3 px-6 rounded-lg border border-blue-400 hover:bg-blue-400/10 transition"
             >
-              Call 89836 04478
+              Call 98505 70525
             </a>
           </div>
         </div>

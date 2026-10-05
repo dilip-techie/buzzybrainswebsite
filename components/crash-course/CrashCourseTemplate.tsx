@@ -8,8 +8,8 @@ import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq, { type MarketingFaqItem } from '@/components/MarketingFaq';
 import CtaModal from '@/components/CtaModal';
 
-const PHONE_HREF = 'tel:+918983604478';
-const PHONE_DISPLAY = '89836 04478';
+const PHONE_HREF = 'tel:+919850570525';
+const PHONE_DISPLAY = '98505 70525';
 const WHATSAPP_HREF = 'https://wa.me/918983604478';
 const STICKY_LABEL = 'Check Dates & Seats';
 

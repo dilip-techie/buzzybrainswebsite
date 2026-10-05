@@ -1002,7 +1002,7 @@ export default function HomePage() {
               <a href="#leadForm" className="btn btn-amber">Book Free Demo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
               </a>
-              <a href="tel:+918983604478" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
+              <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7a2 2 0 0 1 1.7 2z" /></svg>
                 Call Now
               </a>
@@ -1083,7 +1083,7 @@ export default function HomePage() {
                     {submitError} Or message us directly on{' '}
                     <a href="https://wa.me/918983604478" target="_blank" rel="noopener noreferrer" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>WhatsApp</a>{' '}
                     or call{' '}
-                    <a href="tel:+918983604478" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>89836 04478</a>.
+                    <a href="tel:+919850570525" style={{ color: '#DC2626', fontWeight: 700, textDecoration: 'underline' }}>98505 70525</a>.
                   </p>
                 )}
                 <button type="submit" className="btn btn-primary" disabled={submitting} style={{ width: '100%', marginTop: 8, opacity: submitting ? 0.7 : 1, cursor: submitting ? 'not-allowed' : 'pointer' }}>

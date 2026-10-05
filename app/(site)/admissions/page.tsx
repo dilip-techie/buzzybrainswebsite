@@ -306,8 +306,8 @@ export default function AdmissionsPage() {
           </button>
           <p className="mt-6 text-blue-100">
             Prefer to talk first?{' '}
-            <a href="tel:+918983604478" className="font-bold text-white underline underline-offset-2">
-              Call 89836 04478
+            <a href="tel:+919850570525" className="font-bold text-white underline underline-offset-2">
+              Call 98505 70525
             </a>
           </p>
         </div>

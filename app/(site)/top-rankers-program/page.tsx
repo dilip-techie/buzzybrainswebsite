@@ -63,7 +63,7 @@ const FAQS = [
   {
     question: 'How do I apply and what does it cost?',
     answer:
-      "Seats are limited because each cohort is capped at 12. Start with an enrollment call with our team: we review the student's class, current level and target, confirm offline or online, and share the current cohort dates and fees. Use the Apply button on this page, call 89836 04478, or use the contact page.",
+      "Seats are limited because each cohort is capped at 12. Start with an enrollment call with our team: we review the student's class, current level and target, confirm offline or online, and share the current cohort dates and fees. Use the Apply button on this page, call 98505 70525, or use the contact page.",
   },
 ];
 
@@ -522,9 +522,9 @@ export default function TopRankersProgramPage() {
             Because every student gets a personal mentor, each cohort is limited to <span className="font-bold text-blue-600">12 students</span>. Start with an enrollment call to confirm the track, the format and the current cohort dates.
           </p>
           <div className="space-y-4 mb-8">
-            <a href="tel:+918983604478" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-blue-600 transition">
+            <a href="tel:+919850570525" className="flex items-center justify-center space-x-3 text-lg text-gray-900 hover:text-blue-600 transition">
               <Phone className="w-6 h-6 text-blue-600" />
-              <span className="font-bold">89836 04478</span>
+              <span className="font-bold">98505 70525</span>
             </a>
             <div className="flex items-center justify-center space-x-3 text-lg text-gray-900">
               <MapPin className="w-6 h-6 text-blue-600" />
