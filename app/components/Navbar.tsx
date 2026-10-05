@@ -314,6 +314,11 @@ export default function Navbar() {
                   </li>
                 )
               )}
+              <li className="nav-contact-wrap">
+                <Link prefetch={false} href="/contact" className={`nav-contact-link${pathname === '/contact' ? ' is-active' : ''}`} aria-current={pathname === '/contact' ? 'page' : undefined}>
+                  Contact
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="nav-actions">
@@ -402,6 +407,9 @@ export default function Navbar() {
               </div>
             )
           )}
+          <Link prefetch={false} href="/contact" onClick={() => setMenuOpen(false)}>
+            Contact Us
+          </Link>
           <Link prefetch={false} href="/#contact" style={{ color: 'var(--blue)', fontWeight: 700 }} onClick={() => setMenuOpen(false)}>
             Book Free Demo →
           </Link>
