@@ -21,7 +21,7 @@ export const LOCATIONS: Location[] = [
     name: '212, Amanora Ascent Avenue',
     address: 'Amanora, Hadapsar, Pune',
     note: 'Admissions, counselling and program guidance.',
-    mapsHref: 'https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+212+Amanora+Ascent+Avenue+Pune',
+    mapsHref: 'https://share.google/MtZ8qWr8CCyfZHIj9',
     primary: true,
   },
   {
@@ -29,7 +29,7 @@ export const LOCATIONS: Location[] = [
     name: 'Aspire Towers',
     address: 'Hadapsar, Pune',
     note: 'Focused coaching and personalised mentor support.',
-    mapsHref: 'https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+Aspire+Towers+Pune',
+    mapsHref: 'https://maps.app.goo.gl/1yMpiyMFdjdgcXpN9',
   },
 ];
 
