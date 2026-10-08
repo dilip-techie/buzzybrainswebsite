@@ -110,7 +110,7 @@ export default function Footer() {
             </div>
             <ul className="foot-branches">
               <li>
-                <a className="foot-branch-card" href="https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+212+Amanora+Ascent+Avenue+Pune" target="_blank" rel="noopener noreferrer">
+                <a className="foot-branch-card" href="https://share.google/MtZ8qWr8CCyfZHIj9" target="_blank" rel="noopener noreferrer">
                   <span className="branch-text">
                     <span className="branch-label">Head Office</span>
                     <span className="branch-address">212, Amanora Ascent Avenue</span>
@@ -119,7 +119,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="foot-branch-card" href="https://maps.app.goo.gl/gANY66SQFDgVajtf8" target="_blank" rel="noopener noreferrer">
+                <a className="foot-branch-card" href="https://maps.app.goo.gl/1yMpiyMFdjdgcXpN9" target="_blank" rel="noopener noreferrer">
                   <span className="branch-text">
                     <span className="branch-label">Branch</span>
                     <span className="branch-address">Aspire Towers</span>
