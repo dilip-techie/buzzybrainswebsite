@@ -2,6 +2,7 @@ import Script from 'next/script';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsAppFloat from '../components/WhatsAppFloat';
+import ContactDock from '../components/ContactDock';
 import JsonLd from '../components/JsonLd';
 import RevealObserver from '../components/RevealObserver';
 
@@ -55,6 +56,7 @@ export default function SiteLayout({
       {children}
       <Footer />
       <WhatsAppFloat />
+      <ContactDock />
       <RevealObserver />
     </>
   );

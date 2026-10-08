@@ -40,7 +40,7 @@ export default function AmanoraLocationLayout({ children }: { children: React.Re
         items={[
           {
             question: 'Where exactly is the Amanora center located?',
-            answer: 'Our Head Office is at 212, Amanora Ascent Avenue, and Branch 1 is at 201, Pallazo, near Wisdom World School — both inside the Amanora locality of Hadapsar, Pune.',
+            answer: 'Our Head Office is at 212, Amanora Ascent Avenue, inside the Amanora locality of Hadapsar, Pune.',
           },
           {
             question: 'Which programs run out of the Amanora center?',

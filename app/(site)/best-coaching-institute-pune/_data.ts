@@ -12,7 +12,7 @@ export const FAQS: Faq[] = [
   {
     question: 'Where is BuzzyBrains Academy located?',
     answer:
-      "BuzzyBrains Academy's Head Office is at 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune. Branch 1 is at 201, Pallazo, near Wisdom World School, and Branch 2 is at Aspire Towers. All three centers are easily reachable from Amanora, Magarpatta, Kharadi, Mundhwa, Wanowrie, Fatima Nagar, NIBM, Kondhwa, Manjri and Fursungi, and the academy also offers online classes for families outside easy commuting distance.",
+      "BuzzyBrains Academy's Head Office is at 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune. The Branch is at Aspire Towers, Hadapsar. Both centers are easily reachable from Amanora, Magarpatta, Kharadi, Mundhwa, Wanowrie, Fatima Nagar, NIBM, Kondhwa, Manjri and Fursungi, and the academy also offers online classes for families outside easy commuting distance.",
   },
   {
     question: 'Who founded BuzzyBrains Academy?',
@@ -42,7 +42,7 @@ export const FAQS: Faq[] = [
   {
     question: 'Does BuzzyBrains Academy offer online classes, offline classes, or both?',
     answer:
-      'Both. BuzzyBrains Academy runs offline, in-person classes from its Head Office (212, Amanora Ascent Avenue), Branch 1 (201, Pallazo) and Branch 2 (Aspire Towers) in Hadapsar, Pune, and also offers online classes for students who cannot commute regularly — including many students from Kharadi, Wanowrie, NIBM and other parts of Pune. Most families use a mix of both depending on their weekly schedule.',
+      'Both. BuzzyBrains Academy runs offline, in-person classes from its Head Office (212, Amanora Ascent Avenue) and its Branch (Aspire Towers) in Hadapsar, Pune, and also offers online classes for students who cannot commute regularly — including many students from Kharadi, Wanowrie, NIBM and other parts of Pune. Most families use a mix of both depending on their weekly schedule.',
   },
   {
     question: 'What is the Foundation Programme at BuzzyBrains Academy?',
@@ -127,7 +127,7 @@ export const FAQS: Faq[] = [
   {
     question: 'How do I contact BuzzyBrains Academy or enrol my child?',
     answer:
-      "You can reach BuzzyBrains Academy by phone or WhatsApp at +91 98505 70525, by email at hello@buzzybrainsacademy.com, or by visiting the Head Office at 212, Amanora Ascent Avenue, Hadapsar, Pune (Branch 1 is at 201, Pallazo, near Wisdom World School, and Branch 2 is at Aspire Towers). The website's contact form and admissions page also outline the entrance test and enrollment process.",
+      "You can reach BuzzyBrains Academy by phone or WhatsApp at +91 98505 70525, by email at hello@buzzybrainsacademy.com, or by visiting the Head Office at 212, Amanora Ascent Avenue, Hadapsar, Pune (the Branch is at Aspire Towers). The website's contact form and admissions page also outline the entrance test and enrollment process.",
   },
 ];
 

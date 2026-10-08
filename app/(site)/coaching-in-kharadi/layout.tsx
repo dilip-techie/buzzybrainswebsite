@@ -28,7 +28,7 @@ export default function KharadiLocationLayout({ children }: { children: React.Re
     <>
       <LocalBusinessJsonLd
         name="BuzzyBrains Academy — serving Kharadi"
-        description="IIT-JEE, NEET, Foundation, Olympiad and Maths Tuition coaching for students from Kharadi, Pune, in small batches capped at 12 students, online and at our Head Office and Branch 1 / Branch 2 centers."
+        description="IIT-JEE, NEET, Foundation, Olympiad and Maths Tuition coaching for students from Kharadi, Pune, in small batches capped at 12 students, online and at our Head Office and Aspire Towers Branch."
         path="/coaching-in-kharadi"
         areaServed={['Kharadi', 'Viman Nagar', 'Mundhwa']}
         breadcrumbName="Coaching in Kharadi"
@@ -39,7 +39,7 @@ export default function KharadiLocationLayout({ children }: { children: React.Re
         items={[
           {
             question: 'Do you have a center in Kharadi?',
-            answer: 'Our Head Office (212, Amanora Ascent Avenue) and Branch 1 are in Amanora, and Branch 2 is at Aspire Towers, both a manageable drive from Kharadi. We also offer online classes for Kharadi students who prefer not to commute.',
+            answer: 'Our Head Office (212, Amanora Ascent Avenue) is in Amanora and our Branch is at Aspire Towers, both a manageable drive from Kharadi. We also offer online classes for Kharadi students who prefer not to commute.',
           },
           {
             question: 'How long is the commute from Kharadi?',

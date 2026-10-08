@@ -1738,6 +1738,34 @@ button{font-family:inherit;cursor:pointer}
 @media(max-width:640px){.foot-grid-bottom{grid-template-columns:1fr}}
 
 /* Floating WhatsApp */
+/* Floating contact dock — top-right, tucked just under the fixed header (34px strip + 74px nav) */
+.contact-dock{
+  position:fixed;top:128px;right:0;z-index:90;
+  display:inline-flex;align-items:center;gap:9px;
+  padding:12px 16px 12px 18px;border-radius:999px 0 0 999px;
+  background:linear-gradient(135deg,var(--blue),#7C3AED);color:#fff;
+  font-family:var(--font-display);font-weight:700;font-size:14.5px;letter-spacing:.01em;
+  box-shadow:0 10px 28px rgba(37,99,235,.38);
+  transform:translateX(0);transition:transform .25s var(--ease),box-shadow .25s;
+}
+.contact-dock:hover,.contact-dock:focus-visible{transform:translateX(-4px);box-shadow:0 14px 34px rgba(37,99,235,.5)}
+.contact-dock svg{width:18px;height:18px;flex-shrink:0}
+@media(max-width:900px){
+  .contact-dock{top:118px;padding:12px 14px;gap:0}
+  .contact-dock-label{display:none}
+}
+.nav-contact-link.is-active{color:var(--blue)}
+.nav-contact-link.is-active::after{width:100%}
+.nav-contact-wrap{display:flex;align-items:center}
+.nav-links{white-space:nowrap}
+/* Seven top-level links + CTA need breathing room, so the desktop nav runs a little
+   tighter than before; the Contact link drops out on narrower laptops (the
+   floating dock still covers it) before anything wraps. */
+.nav-links{gap:17px}
+.nav-links a{font-size:14px}
+.nav-left{margin-right:14px}
+.nav-cta{padding:10px 16px;font-size:14px;white-space:nowrap;flex-shrink:0}
+@media(max-width:1200px){.nav-contact-wrap{display:none}}
 .wa-float{
   position:fixed;right:22px;bottom:22px;z-index:90;
   width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
