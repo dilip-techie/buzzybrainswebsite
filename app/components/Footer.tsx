@@ -121,16 +121,7 @@ export default function Footer() {
               <li>
                 <a className="foot-branch-card" href="https://maps.app.goo.gl/gANY66SQFDgVajtf8" target="_blank" rel="noopener noreferrer">
                   <span className="branch-text">
-                    <span className="branch-label">Branch 1</span>
-                    <span className="branch-address">201, Pallazo, Nr. Wisdom World School</span>
-                  </span>
-                  <svg className="branch-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10" /></svg>
-                </a>
-              </li>
-              <li>
-                <a className="foot-branch-card" href="https://maps.app.goo.gl/gANY66SQFDgVajtf8" target="_blank" rel="noopener noreferrer">
-                  <span className="branch-text">
-                    <span className="branch-label">Branch 2</span>
+                    <span className="branch-label">Branch</span>
                     <span className="branch-address">Aspire Towers</span>
                   </span>
                   <svg className="branch-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10" /></svg>

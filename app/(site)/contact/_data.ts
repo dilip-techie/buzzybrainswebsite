@@ -25,14 +25,7 @@ export const LOCATIONS: Location[] = [
     primary: true,
   },
   {
-    tag: 'Branch 1',
-    name: '201, Pallazo, Nr. Wisdom World School',
-    address: 'Amanora, Hadapsar, Pune',
-    note: 'Classes, demo sessions and campus guidance.',
-    mapsHref: 'https://www.google.com/maps/search/?api=1&query=BuzzyBrains+Academy+Wisdom+World+Centre+Pune',
-  },
-  {
-    tag: 'Branch 2',
+    tag: 'Branch',
     name: 'Aspire Towers',
     address: 'Hadapsar, Pune',
     note: 'Focused coaching and personalised mentor support.',
@@ -78,6 +71,6 @@ export const CONTACT_FAQS = [
   {
     question: 'Where are your centers located?',
     answer:
-      'Our Head Office is at 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune. Branch 1 is at 201, Pallazo, near Wisdom World School, and Branch 2 is at Aspire Towers.',
+      'Our Head Office is at 212, Amanora Ascent Avenue, Amanora, Hadapsar, Pune. Our Branch is at Aspire Towers, Hadapsar.',
   },
 ];

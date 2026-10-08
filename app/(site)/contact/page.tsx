@@ -87,7 +87,7 @@ export default function ContactPage() {
       <section className="ct-visit" id="visit-us">
         <div className="container">
           <span className="eyebrow">Visit us</span>
-          <h2>Three centers in Amanora, Hadapsar</h2>
+          <h2>Two centers in Hadapsar, Pune</h2>
           <p className="ct-sec-lede">Walk in for a conversation, a campus tour or a demo class. {CONTACT.hours}.</p>
           <div className="ct-locs">
             {LOCATIONS.map((l) => (
