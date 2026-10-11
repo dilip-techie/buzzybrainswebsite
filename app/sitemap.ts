@@ -28,6 +28,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/admissions', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/achievements', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/contact', changeFrequency: 'monthly', priority: 0.6 },
+  { path: '/upcoming-ongoing-batches', changeFrequency: 'weekly', priority: 0.8 },
   { path: '/exams', changeFrequency: 'monthly', priority: 0.4 },
   { path: '/sitemap', changeFrequency: 'monthly', priority: 0.3 },
 
