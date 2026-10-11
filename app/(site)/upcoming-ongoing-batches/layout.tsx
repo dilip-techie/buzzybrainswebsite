@@ -18,13 +18,13 @@ const providerLd = { '@type': 'EducationalOrganization', name: 'BuzzyBrains Acad
 export const metadata: Metadata = {
   title: 'Upcoming & Ongoing Batches: A Level, SAT, Foundation | BuzzyBrains',
   description:
-    'Enrolling now: online AS Level, A Level and Further Maths, online SAT, and offline Foundation batches for Grades 7, 8 and 9 in Pune. Taught by Dilip Sah (B.Tech, IIT Kanpur, JEE Rank 400).',
+    'Enrolling now: online AS/A Level & Further Maths, SAT, Physics Olympiad F=ma, IOQM 2027, AMC 8 and AMC 10, plus offline Foundation for Grades 7-9 in Pune. Led by Dilip Sah (IIT Kanpur). Free demo class.',
   keywords:
-    'upcoming batches, ongoing batches, AS Level maths online, A Level maths online, Further Maths online, Further Mechanics, Further Probability and Statistics, SAT online coaching, Foundation batch Grade 7 8 9 Pune',
+    'upcoming batches, ongoing batches, AS Level maths online, A Level maths online, Further Maths online, Further Mechanics, Further Probability and Statistics, SAT online coaching, F=ma physics olympiad coaching, IOQM 2027 batch, AMC 8 coaching, AMC 10 coaching, Foundation batch Grade 7 8 9 Pune',
   alternates: { canonical: URL },
   openGraph: {
     title: 'Upcoming & Ongoing Batches | BuzzyBrains Academy',
-    description: 'Online A Level, Further Maths and SAT batches, plus offline Foundation batches for Grades 7–9 in Pune.',
+    description: 'Online A Level, Further Maths, SAT, F=ma, IOQM 2027, AMC 8 and AMC 10 batches, plus offline Foundation for Grades 7–9 in Pune.',
     url: URL,
     siteName: 'BuzzyBrains Academy',
     images: [{ url: 'https://buzzybrainsacademy.com/images/buzzybrains_social.jpg', width: 1200, height: 630 }],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Upcoming & Ongoing Batches | BuzzyBrains Academy',
-    description: 'Online A Level, Further Maths and SAT batches, plus offline Foundation batches for Grades 7–9 in Pune.',
+    description: 'Online A Level, Further Maths, SAT, F=ma, IOQM 2027, AMC 8 and AMC 10 batches, plus offline Foundation for Grades 7–9 in Pune.',
     images: ['https://buzzybrainsacademy.com/images/buzzybrains_social.jpg'],
   },
 };
@@ -47,7 +47,7 @@ export default function BatchesLayout({ children }: { children: React.ReactNode 
       <PersonJsonLd
         name={INSTRUCTOR.name}
         jobTitle={INSTRUCTOR.role}
-        description="Founder of BuzzyBrains Academy. B.Tech from IIT Kanpur, JEE Rank 400. Teaches Mathematics and Physics across Foundation, A Level, SAT and JEE programs."
+        description="Founder of BuzzyBrains Academy. B.Tech from IIT Kanpur, JEE Rank 400. Teaches Mathematics and Physics across Foundation, A Level, SAT, Olympiad and JEE programs."
         alumniOf={['IIT Kanpur']}
         path="/faculty"
       />
