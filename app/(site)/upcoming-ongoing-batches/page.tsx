@@ -1,6 +1,7 @@
 import { Check, Users, Video, Building2 } from 'lucide-react';
 import BatchExplorer from './BatchExplorer';
-import { BATCH_FAQS } from './_data';
+import Link from 'next/link';
+import { BATCH_FAQS, FACTS_TABLE, INSTRUCTOR, QUICK_ANSWER } from './_data';
 import './batches.css';
 
 const CONTACT_PHONE = '+91 98505 70525';
@@ -22,6 +23,7 @@ export default function BatchesPage() {
             <li><Video aria-hidden="true" /> Online: A Level, Further Maths, SAT</li>
             <li><Building2 aria-hidden="true" /> Offline: Foundation Grades 7–9</li>
           </ul>
+          <p className="bt-answer">{QUICK_ANSWER}</p>
         </div>
       </section>
 
@@ -32,6 +34,39 @@ export default function BatchesPage() {
             Start dates, timings and fees are shared when you enquire, because they vary by batch. Call{' '}
             <a href="tel:+919850570525">{CONTACT_PHONE}</a> or message us on WhatsApp.
           </p>
+        </div>
+      </section>
+
+      <section className="bt-instructor">
+        <div className="container bt-inst-grid">
+          <div className="bt-inst-badge" aria-hidden="true">DS</div>
+          <div>
+            <span className="eyebrow">Your instructor</span>
+            <h2>Taught by {INSTRUCTOR.name}</h2>
+            <p className="bt-inst-cred">{INSTRUCTOR.credentials}</p>
+            <p className="bt-inst-bio">
+              {INSTRUCTOR.name} is the founder and lead mentor of BuzzyBrains Academy. With a B.Tech from IIT Kanpur and a JEE Rank of 400, he teaches every batch on this page with a concept-first approach: a topic is not done until the student can explain why it works, not just how to solve it.
+            </p>
+            <Link prefetch={false} href={INSTRUCTOR.profileHref} className="bt-more">Meet the faculty →</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="bt-facts">
+        <div className="container">
+          <h2>Batches at a glance</h2>
+          <div className="bt-table-wrap">
+            <table className="bt-table">
+              <thead>
+                <tr>{FACTS_TABLE.headers.map((h) => <th key={h} scope="col">{h}</th>)}</tr>
+              </thead>
+              <tbody>
+                {FACTS_TABLE.rows.map((r) => (
+                  <tr key={r[0]}>{r.map((c, i) => (i === 0 ? <th key={i} scope="row">{c}</th> : <td key={i}>{c}</td>))}</tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 

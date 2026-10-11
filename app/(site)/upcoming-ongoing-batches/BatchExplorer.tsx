@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { BATCHES, type Batch } from './_data';
+import { BATCHES, INSTRUCTOR, type Batch } from './_data';
 
 type Filter = 'All' | 'Online' | 'Offline';
 
@@ -48,6 +48,7 @@ export default function BatchExplorer() {
             <h3>{b.name}</h3>
             <p className="bt-aud">{b.audience}</p>
             <p className="bt-sum">{b.summary}</p>
+            <p className="bt-inst">Instructor: <b>{INSTRUCTOR.name}</b> · {INSTRUCTOR.credentials}</p>
             <ul className="bt-topics">
               {b.topics.map((t) => (
                 <li key={t}>{t}</li>
