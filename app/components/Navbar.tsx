@@ -161,6 +161,7 @@ const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: str
   { text: '🎯 MHT-CET Crash Course — Both Attempts, Till May', href: '/mht-cet-crash-course-pune', isNew: true },
   { text: '📝 Test Series Available for Board Exams — Complete Package Starts ₹19,999', href: '/test-series', isNew: true },
   { text: '🚀 IOQM 2027 Batch Open — Enroll Now', href: '/ioqm-coaching-pune' },
+  { text: '📅 Upcoming & Ongoing Batches — A Level, Further Maths, SAT, Foundation', href: '/upcoming-ongoing-batches', isNew: true },
   { text: '🎓 An IIT/IIM Alumni Initiative', href: '/about' },
   { text: '✅ Top 1% Faculty Led by Dilip Sir', href: '/about' },
   { text: '✅ Maximum Batch Size: 12 Students', href: '/admissions' },

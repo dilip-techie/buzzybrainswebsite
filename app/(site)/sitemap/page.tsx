@@ -22,6 +22,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/about', label: 'About Us' },
       { href: '/admissions', label: 'Admissions & Scholarships' },
       { href: '/achievements', label: 'Achievements' },
+      { href: '/upcoming-ongoing-batches', label: 'Upcoming & Ongoing Batches' },
       { href: '/contact', label: 'Contact Us' },
       { href: '/exams', label: 'Exams Portal' },
       { href: '/blog', label: 'Blog' },
