@@ -3084,5 +3084,45 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "board-exams",
     datePublished: "2026-10-01",
     readingMinutes: 8
+  },
+  {
+    slug: "amc-8-12-week-countdown-plan-january-2027",
+    title: "The AMC 8 12-Week Countdown: A Week-by-Week Plan to January 2027",
+    description: "The AMC 8 window opens January 21, 2027. Here is a week-by-week, date-anchored 12-week plan — foundations, depth, timed mocks and a calm final taper — for students starting their last-90-days push today.",
+    category: "olympiad",
+    datePublished: "2026-10-16",
+    readingMinutes: 10
+  },
+  {
+    slug: "amc-8-topic-priority-last-90-days-what-to-study",
+    title: "AMC 8: What to Study (and What to Skip) in the Last 90 Days",
+    description: "With about 90 days left, you cannot study everything. Here is a topic-priority map for the AMC 8 — what to drill daily, what to revise weekly, and what can wait — with four worked example problems.",
+    category: "olympiad",
+    datePublished: "2026-10-16",
+    readingMinutes: 10
+  },
+  {
+    slug: "amc-8-mock-test-method-error-log-last-10-weeks",
+    title: "The AMC 8 Mock-Test Method: Turn Every Practice Paper Into Marks",
+    description: "Most students take mock tests and learn nothing from them. This is the review method — an error log, five mistake types and a Saturday mock schedule — that turns every AMC 8 practice paper into real marks.",
+    category: "olympiad",
+    datePublished: "2026-10-16",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-8-pacing-40-minutes-25-questions-three-pass",
+    title: "40 Minutes, 25 Questions: The AMC 8 Pacing Plan That Saves Marks",
+    description: "The AMC 8 gives you about 96 seconds per question — but not every question deserves 96 seconds. Learn the three-pass method, minute-by-minute checkpoints and when to guess, with practice drills.",
+    category: "olympiad",
+    datePublished: "2026-10-16",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-8-final-week-exam-day-playbook-students-parents",
+    title: "AMC 8 Final Week and Exam-Day Playbook for Students and Parents",
+    description: "The last seven days before the AMC 8 decide whether months of preparation show up on paper. A day-by-day countdown, an exam-morning checklist and a parent's guide to helping without adding pressure.",
+    category: "olympiad",
+    datePublished: "2026-10-16",
+    readingMinutes: 8
   }
 ];
