@@ -36964,6 +36964,552 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'amc-8-12-week-countdown-plan-january-2027',
+    title: 'The AMC 8 12-Week Countdown: A Week-by-Week Plan to January 2027',
+    description:
+      "The AMC 8 window opens January 21, 2027. Here is a week-by-week, date-anchored 12-week plan — foundations, depth, timed mocks and a calm final taper — for students starting their last-90-days push today.",
+    category: 'olympiad',
+    datePublished: '2026-10-16',
+    readingMinutes: 10,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' },
+      { href: '/blog/amc-2026-27-dates-announced-prep-timeline-amc-10-12-amc-8', label: 'AMC 2026-27 Dates Announced: Prep Timeline' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The AMC 8 2027 window runs January 21-27, 2027, which gives a student starting on Monday, October 26 exactly 12 training weeks plus an exam week. A reliable plan splits those weeks into four phases: foundations (weeks 1-4), depth and untimed papers (weeks 5-8), timed mocks (weeks 9-11) and a calm taper (week 12). Roughly 5-6 focused hours a week is enough for most students; consistency matters more than volume.",
+      },
+      { kind: 'h2', text: 'The clock is already running' },
+      {
+        kind: 'p',
+        text: "Count it out loud: from today, October 16, to the first day of the AMC 8 window on January 21 is about 14 weeks. Subtract the week you spend deciding how to start and the exam week itself, and you are left with 12 clean weeks. That is plenty for a middle-school student to move from 'I know this chapter' to 'I can solve this when it is dressed up as a puzzle' — but only if the weeks are used on purpose.",
+      },
+      {
+        kind: 'p',
+        text: "One honest caveat before the plan: the window (January 21-27, 2027) comes from the MAA schedule as reported by several prep providers, and the exact sitting date is set by each test centre. Confirm your own date with your centre or school, and treat the plan below as a calendar you can slide a day or two either way.",
+      },
+      { kind: 'h2', text: 'The plan at a glance' },
+      {
+        kind: 'table',
+        headers: ['Phase', 'Weeks (starting Monday)', 'Main job', 'Weekly hours'],
+        rows: [
+          ['1. Foundations', 'Wk 1-4 (Oct 26 - Nov 22)', 'Close gaps in the five core topics', '4-5'],
+          ['2. Depth', 'Wk 5-8 (Nov 23 - Dec 20)', 'Mixed problem sets, untimed past papers', '5-6'],
+          ['3. Timed mocks', 'Wk 9-11 (Dec 21 - Jan 10)', 'Full 40-minute papers, review, repair', '6'],
+          ['4. Taper', 'Wk 12 (Jan 11 - 17)', 'Light review, confidence, routine', '3-4'],
+          ['Exam week', 'Jan 18 - 24 (window Jan 21 - 27)', 'Rest, logistics, the paper itself', 'Minimal'],
+        ],
+      },
+      { kind: 'h2', text: 'Phase 1 (Weeks 1-4): Fix the foundations' },
+      {
+        kind: 'p',
+        text: "Do not touch a full paper yet. Spend each week on one theme, in this order: counting and probability (week 1), number theory — divisibility, primes, LCM and HCF, units digits (week 2), geometry — area, Pythagoras, angle chasing (week 3), and ratios, percentages and rates (week 4). Use a simple rhythm: two sessions of new problems, one session of redoing last session's mistakes, and one short 15-minute 'daily five' warm-up of mental arithmetic.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Aim for 12-15 well-chosen problems per topic per week, not 50 rushed ones.",
+          "Write every solution in full sentences or clear steps — if you cannot explain it, you have not learned it.",
+          "Start the error log this week (the next article in this series shows exactly how).",
+        ],
+      },
+      { kind: 'h2', text: 'Phase 2 (Weeks 5-8): Go deeper, still untimed' },
+      {
+        kind: 'p',
+        text: "Now the problems begin to combine topics, because that is what the real paper does. Switch to mixed sets and untimed past AMC 8 papers, one per week to start. The rule for untimed practice: no stopwatch, but no peeking at solutions until you have tried every question for at least five minutes and written down what you tried. Afterwards, find a second solution to at least three problems — the second route is where speed hides.",
+      },
+      {
+        kind: 'p',
+        text: "Week 8 is a good checkpoint. If any topic still feels shaky, spend half of that week on it alone rather than pushing on. A hole you leave now becomes a lost mark in January.",
+      },
+      { kind: 'h2', text: 'Phase 3 (Weeks 9-11): Timed mocks, taken seriously' },
+      {
+        kind: 'p',
+        text: "From the week of December 21, take one full 25-question, 40-minute paper every week under real conditions: quiet room, no phone, pencil and scratch paper only, bubble-sheet practice at the end. Spend the next day on review, which should take longer than the paper itself. The winter break makes this phase easier for most schools — protect those mornings.",
+      },
+      {
+        kind: 'p',
+        text: "Pair mocks with the pacing method in our guide on [managing 40 minutes and 25 questions](/blog/amc-8-pacing-40-minutes-25-questions-three-pass) and the review routine in [the AMC 8 mock-test method](/blog/amc-8-mock-test-method-error-log-last-10-weeks).",
+      },
+      { kind: 'h2', text: 'Phase 4 (Week 12): Taper like an athlete' },
+      {
+        kind: 'p',
+        text: "Runners do not sprint the day before a race, and neither should you. Week 12 is for re-reading your error log, redoing ten favourite problems and sleeping properly. No new topics, no new books, no comparing scores with friends. Then use our [final-week and exam-day playbook](/blog/amc-8-final-week-exam-day-playbook-students-parents) for the last seven days.",
+      },
+      { kind: 'h2', text: 'A sample week, so it feels doable' },
+      {
+        kind: 'table',
+        headers: ['Day', 'Session (Phase 2 example)', 'Time'],
+        rows: [
+          ['Mon', 'New topic problems + daily five', '45 min'],
+          ['Tue', 'Rest or 15-minute warm-up only', '15 min'],
+          ['Wed', 'New topic problems, second solution on one problem', '45 min'],
+          ['Thu', 'Redo last week\'s mistakes from the error log', '30 min'],
+          ['Fri', 'Rest', '-'],
+          ['Sat', 'Untimed past paper (first attempt)', '75 min'],
+          ['Sun', 'Review the paper, update error log', '60 min'],
+        ],
+      },
+      { kind: 'h2', text: 'How to know you are on track' },
+      {
+        kind: 'ul',
+        items: [
+          "By week 4: you can solve most Q1-Q10-level problems from past papers without hints.",
+          "By week 8: an untimed paper takes you under an hour and your errors are mostly careless, not conceptual.",
+          "By week 11: timed papers finish with a few minutes to spare for checking.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "If you are behind, do not panic and do not double the hours. Cut the plan down to its spine: the five core topics, one paper a week, an error log. A student who does that faithfully for 10 weeks will usually beat a student who does a frantic 60-problem weekend before the exam.",
+      },
+    ],
+    faq: [
+      {
+        question: 'When is the AMC 8 in 2027?',
+        answer: 'The MAA window is reported as January 21-27, 2027, with the exact date set by each test centre. Confirm your own date with your school or centre.',
+      },
+      {
+        question: 'How many hours a week should I study for the AMC 8 in the last 3 months?',
+        answer: 'About 4-6 focused hours a week is enough for most students, rising slightly during the timed-mock phase and dropping in the final taper week.',
+      },
+      {
+        question: 'Should I start with past papers or topic practice?',
+        answer: 'Start with topic practice for about four weeks to close gaps, move to untimed past papers next, and only then take full timed papers. Jumping straight into timed papers mostly measures stress, not understanding.',
+      },
+      {
+        question: 'What if I can only start in December?',
+        answer: 'Compress the plan: spend two weeks on the weakest two or three topics, then switch to one untimed and one timed paper a week. Keep the error log; it matters even more when time is short.',
+      },
+      {
+        question: 'Is it too late to start if the exam is three months away?',
+        answer: 'No. Twelve weeks is a good runway for a student who is comfortable with middle-school maths. The goal is steady improvement, not a perfect score.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-topic-priority-last-90-days-what-to-study',
+    title: 'AMC 8: What to Study (and What to Skip) in the Last 90 Days',
+    description:
+      "With about 90 days left, you cannot study everything. Here is a topic-priority map for the AMC 8 — what to drill daily, what to revise weekly, and what can wait — with four worked example problems.",
+    category: 'olympiad',
+    datePublished: '2026-10-16',
+    readingMinutes: 10,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-most-likely-question-types-2026', label: 'AMC 8: Most Likely Question Types' },
+      { href: '/blog/best-books-resources-amc-preparation', label: 'Best Books and Resources for AMC Preparation' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In the last 90 days before the AMC 8, prioritise counting and probability, number theory, and ratio/percent/rate problems first, then geometry (area, Pythagoras, angles), then algebra word problems and patterns. Drill the first group several times a week, revise the rest weekly, and skip anything beyond middle-school content such as trigonometry. Priorities are our judgement from reading recent papers, not an official MAA weighting.",
+      },
+      { kind: 'h2', text: 'The brutal truth about 90 days' },
+      {
+        kind: 'p',
+        text: "Imagine two students, both studying five hours a week. Student A tries to 'cover everything' and touches fourteen topics once. Student B picks five, goes deep, and revisits them every week. In January, Student B almost always looks calmer — because the same ideas keep showing up in different costumes, and Student B has met each costume before.",
+      },
+      {
+        kind: 'p',
+        text: "That is the principle behind this priority map: **depth on a short list beats breadth on a long one.** The AMC 8 draws on content most Indian middle-schoolers have seen. What changes is how it is asked.",
+      },
+      { kind: 'h2', text: 'The priority map' },
+      {
+        kind: 'table',
+        headers: ['Tier', 'Topics', 'How often', 'Why'],
+        rows: [
+          ['1 - Drill', 'Counting and probability; number theory (divisibility, primes, LCM/HCF, units digits); ratios, percentages, rates', '3-4 times a week', 'High reward for practice; very learnable patterns'],
+          ['2 - Revise', 'Geometry: area, perimeter, Pythagoras, angle chasing, similar triangles', '2 times a week', 'Diagram skill takes repetition, not new theory'],
+          ['3 - Maintain', 'Algebra word problems, equations, patterns and sequences, averages', 'Weekly', 'Usually familiar from school; keep it warm'],
+          ['4 - Park', 'Anything beyond Grade 8 syllabus (trigonometry, logarithms, heavy coordinate geometry)', 'Skip', 'Not needed; costs time you do not have'],
+        ],
+      },
+      { kind: 'h2', text: 'Tier 1 in action: three problems worth your time' },
+      { kind: 'h3', text: 'Counting: digit sums' },
+      {
+        kind: 'p',
+        text: "How many three-digit numbers have digits that add up to 4? Fix the hundreds digit and count the ways the other two digits can finish the sum. With hundreds digit 1, the other two digits sum to 3: (0,3), (1,2), (2,1), (3,0) is 4 ways. With 2, they sum to 2: 3 ways. With 3, they sum to 1: 2 ways. With 4, they sum to 0: 1 way. Total: 4 + 3 + 2 + 1 = **10**. The lesson is the habit — organise a count by fixing one variable — which solves a huge family of problems.",
+      },
+      { kind: 'h3', text: 'Number theory: the units-digit cycle' },
+      {
+        kind: 'p',
+        text: "What is the units digit of 7 to the power 2027? Powers of 7 end in 7, 9, 3, 1, then repeat every four steps. Divide 2027 by 4: the remainder is 3, so we land on the third entry of the cycle, which is **3**. Notice that nothing here needs a calculator — only a pattern and a remainder.",
+      },
+      { kind: 'h3', text: 'Ratio and percent: work in a convenient number' },
+      {
+        kind: 'p',
+        text: "A price rises by 20% and then falls by 20%. What is the net change? Many students answer 'no change'. Start with 100: after the rise it is 120, and 20% of 120 is 24, so it falls to 96. The net change is a **4% decrease**. Choosing 100 (or 10, or 60) as a starting number turns abstract percent traps into plain arithmetic.",
+      },
+      { kind: 'h2', text: 'Tier 2: one geometry trick that repays you' },
+      {
+        kind: 'p',
+        text: "A right triangle has legs 6 and 8, so its hypotenuse is 10. What is the altitude to the hypotenuse? Find the area two ways. Using the legs: (6 x 8) / 2 = 24. Using the hypotenuse as base with altitude h: (10 x h) / 2 = 24, so h = **4.8**. 'Compute the same area two ways' is one of the most useful ideas in middle-school geometry, and it appears again and again.",
+      },
+      { kind: 'h2', text: 'What to do with your weekly 5 hours' },
+      {
+        kind: 'ul',
+        items: [
+          "About 2.5 hours on Tier 1 problems from a mix of sources.",
+          "About 1 hour on Tier 2, with a fresh diagram drawn for every problem.",
+          "About 45 minutes on Tier 3 and the daily mental-arithmetic warm-up.",
+          "About 45 minutes reviewing the error log — the highest-return slot of the week.",
+        ],
+      },
+      { kind: 'h2', text: 'Three traps in the last 90 days' },
+      {
+        kind: 'ul',
+        items: [
+          "**Resource hopping.** Pick two good sources and finish them. See our [book and resource guide](/blog/best-books-resources-amc-preparation).",
+          "**Chasing hard problems.** The AMC 8 rewards getting the first 15 right and quick, not proving you can solve a puzzle meant for higher levels.",
+          "**Skipping the slow review.** Doing 40 problems and reviewing none teaches less than doing 15 and reviewing all.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "For a closer look at what the paper actually contains, read [AMC 8: Most Likely Question Types](/blog/amc-8-most-likely-question-types-2026), and avoid the [common AMC 8 mistakes](/blog/common-mistakes-amc-8-amc-10) as you go.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Which topics are most important for the AMC 8?',
+        answer: 'Counting and probability, number theory, and ratio/percent/rate problems give the best return, followed by geometry and algebra word problems. This is a practical priority, not an official MAA weighting.',
+      },
+      {
+        question: 'Do I need to learn anything beyond the school syllabus?',
+        answer: 'Mostly you need to apply school-level content flexibly. A few techniques — organised counting, remainders and cycles, area-two-ways — are worth learning explicitly, but advanced topics like trigonometry are unnecessary.',
+      },
+      {
+        question: 'How many problems should I solve each week?',
+        answer: 'Around 30-45 well-chosen problems plus reviewing your mistakes is a good target. Quality and review matter more than raw numbers.',
+      },
+      {
+        question: 'Is it okay to skip geometry if I find it difficult?',
+        answer: 'It is better not to skip it entirely. Geometry typically appears in a meaningful share of questions, and many of the easier ones depend on a few repeatable ideas like area and Pythagoras.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-mock-test-method-error-log-last-10-weeks',
+    title: 'The AMC 8 Mock-Test Method: Turn Every Practice Paper Into Marks',
+    description:
+      "Most students take mock tests and learn nothing from them. This is the review method — an error log, five mistake types and a Saturday mock schedule — that turns every AMC 8 practice paper into real marks.",
+    category: 'olympiad',
+    datePublished: '2026-10-16',
+    readingMinutes: 9,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-scoring-negative-marking-strategy-explained', label: 'AMC Scoring and Strategy Explained' },
+      { href: '/blog/how-to-read-amc-score-report-beginners-walkthrough', label: 'How to Read an AMC Score Report' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A mock test only improves your AMC 8 score if you review it properly. After each timed 25-question, 40-minute paper, label every lost mark as a concept gap, careless slip, misread, time loss or blind guess, record it in an error log, and redo the problem 3-4 days later. Taking a paper weekly for 6-7 weeks with this review loop beats taking 20 papers with no review.",
+      },
+      { kind: 'h2', text: 'The student who took 20 papers and did not improve' },
+      {
+        kind: 'p',
+        text: "Picture a hypothetical student, call him Rohan. He takes a past paper every Sunday, glances at the score, glances at the answer key, nods, and moves on. Twenty papers later, his score is flat. Rohan is not lazy — he is collecting scores rather than learning from them. A score is a thermometer; it tells you the temperature, not how to cure the fever.",
+      },
+      {
+        kind: 'p',
+        text: "The fix is a review loop that takes longer than the test itself. With the AMC 8 on January 21-27, 2027, there is room for roughly six to seven proper mocks. Make each one count.",
+      },
+      { kind: 'h2', text: 'Step 1: Take it for real' },
+      {
+        kind: 'ul',
+        items: [
+          "Exactly 40 minutes, a quiet room, no phone, no calculator, no music.",
+          "Pencil, eraser and scratch paper only — the same tools you will have on the day.",
+          "Mark answers on a practice bubble sheet and shade it in the last 2 minutes. Practise the boring part too.",
+          "Circle in the question booklet any problem where you guessed or felt unsure, so you can find it later.",
+        ],
+      },
+      { kind: 'h2', text: 'Step 2: Mark it, then sort every lost mark' },
+      {
+        kind: 'p',
+        text: "Do not just count the wrong answers. Include the ones you guessed right. Then assign each to one of five causes:",
+      },
+      {
+        kind: 'table',
+        headers: ['Code', 'Mistake type', 'Typical symptom', 'Fix'],
+        rows: [
+          ['C', 'Concept gap', "I did not know how to start", 'Study the topic, then do 5 similar problems'],
+          ['S', 'Careless slip', 'Arithmetic or sign error; knew the method', 'Slow down on the last step; write units'],
+          ['M', 'Misread', 'Answered a different question', 'Underline what is asked before solving'],
+          ['T', 'Time loss', 'Spent 6 minutes on one problem', 'Use the three-pass method'],
+          ['G', 'Blind guess', 'No real reasoning, got it wrong or lucky', 'Re-solve properly and note the missing idea'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "After two or three papers a pattern emerges. If most of your losses are S and M, you do not need more content — you need a calmer final-check habit. If most are C, go back to topic practice. Without the labels, you would guess wrong about what to fix.",
+      },
+      { kind: 'h2', text: 'Step 3: Keep an error log (a page, not a project)' },
+      {
+        kind: 'p',
+        text: "Use a simple notebook with four columns: the problem (paper and number), the code (C/S/M/T/G), what went wrong in one sentence, and the lesson in one sentence. Aim for 5-8 entries per paper. Resist the urge to copy whole solutions; the log is a map of your habits, not a textbook.",
+      },
+      { kind: 'h2', text: 'Step 4: Redo it later' },
+      {
+        kind: 'p',
+        text: "Three or four days after the paper, redo every problem in the log from scratch without looking at the solution. If you can solve it cleanly, tick it. If not, it goes back on the list for next week. This single step — spaced redoing — is what actually moves a problem from 'seen' to 'owned'.",
+      },
+      { kind: 'h2', text: 'The Saturday mock schedule' },
+      {
+        kind: 'table',
+        headers: ['Date', 'Mock', 'Focus of the review'],
+        rows: [
+          ['Sat, Dec 5', 'Mock 1 (diagnostic)', 'Find the main mistake type'],
+          ['Sat, Dec 12', 'Mock 2', 'Concept gaps'],
+          ['Sat, Dec 19', 'Mock 3', 'Concept gaps and misreads'],
+          ['Sat, Dec 26', 'Mock 4', 'Timing and pacing'],
+          ['Sat, Jan 2', 'Mock 5', 'Careless slips'],
+          ['Sat, Jan 9', 'Mock 6 (dress rehearsal)', 'Full exam routine, bubble sheet and all'],
+          ['Sat, Jan 16', 'Optional: no new paper', 'Re-read the error log, redo favourites'],
+        ],
+      },
+      { kind: 'h2', text: 'What a good trend looks like' },
+      {
+        kind: 'p',
+        text: "Do not obsess over a single score; one bad paper after a late night is noise. Look for the trend across three papers: fewer C entries, shorter time on Q1-10, more questions reached. Past papers are free in the MAA archive, and our guide to [reading an AMC score report](/blog/how-to-read-amc-score-report-beginners-walkthrough) explains how to interpret the numbers once results arrive. For how the paper is scored, see [AMC scoring and strategy](/blog/amc-scoring-negative-marking-strategy-explained).",
+      },
+    ],
+    faq: [
+      {
+        question: 'How many AMC 8 mock tests should I take before the exam?',
+        answer: 'Six to seven properly reviewed full papers over the last 6-8 weeks is a strong target. More papers without review adds little.',
+      },
+      {
+        question: 'Where can I find past AMC 8 papers?',
+        answer: 'Past papers are freely available through the MAA archive and community problem sites such as Art of Problem Solving. Save the most recent ones for your final timed mocks.',
+      },
+      {
+        question: 'Should I take mocks under strict 40-minute conditions every time?',
+        answer: 'Not at first. Use untimed papers in the depth phase, then switch to strict 40-minute conditions from about 6 weeks before the exam.',
+      },
+      {
+        question: 'What is an error log?',
+        answer: 'A short notebook where you record each lost mark with a problem reference, a mistake code, what went wrong and the lesson. Re-reading and redoing it is the core of effective review.',
+      },
+      {
+        question: 'My mock scores are not improving. What should I do?',
+        answer: 'Check the mistake codes. Flat scores usually come from one dominant mistake type — often misreads, time loss or careless slips — that more content study will not fix.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-pacing-40-minutes-25-questions-three-pass',
+    title: '40 Minutes, 25 Questions: The AMC 8 Pacing Plan That Saves Marks',
+    description:
+      "The AMC 8 gives you about 96 seconds per question — but not every question deserves 96 seconds. Learn the three-pass method, minute-by-minute checkpoints and when to guess, with practice drills.",
+    category: 'olympiad',
+    datePublished: '2026-10-16',
+    readingMinutes: 9,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-scoring-negative-marking-strategy-explained', label: 'AMC Scoring and Strategy Explained' },
+      { href: '/blog/common-mistakes-amc-8-amc-10', label: 'Common Mistakes in AMC 8 and AMC 10' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The AMC 8 has 25 multiple-choice questions in 40 minutes, about 96 seconds each, and no negative marking. Use a three-pass method: pass one answers every question you can solve quickly (target about 20 minutes for the first 15 questions), pass two returns to the medium ones, and pass three is for checking and guessing. Never leave a question blank, because wrong answers do not lose marks.",
+      },
+      { kind: 'h2', text: 'The 96-second myth' },
+      {
+        kind: 'p',
+        text: "Forty minutes divided by 25 questions is 96 seconds. That sounds fair — until you notice that the first question may take 30 seconds and the twenty-fourth may take six minutes. The average hides the real problem: **most students do not run out of ability, they run out of clock, because one stubborn problem quietly ate the minutes meant for three easier ones.**",
+      },
+      {
+        kind: 'p',
+        text: "On a typical paper, questions are roughly ordered from easier to harder, though the ordering is not strict. That is exactly why you need a plan that does not depend on solving in order.",
+      },
+      { kind: 'h2', text: 'The three-pass method' },
+      { kind: 'h3', text: 'Pass 1: Collect the sure marks (about 0-20 minutes)' },
+      {
+        kind: 'p',
+        text: "Start at question 1 and work forward. If you see a clear route within about 20 seconds, solve it. If you do not, put a small dot beside it and move on without guilt. The goal for this pass is to finish roughly the first 15 questions in about 20 minutes, banking the marks that are almost guaranteed.",
+      },
+      { kind: 'h3', text: 'Pass 2: Return to the medium ones (about 20-33 minutes)' },
+      {
+        kind: 'p',
+        text: "Now go back to the dotted questions and the harder problems from 16 onward. Give each a fixed budget of about two minutes. If a diagram or a small table has not started working by then, put a second mark and move on. You are hunting for problems where a bit more time converts into a bit more progress.",
+      },
+      { kind: 'h3', text: 'Pass 3: Check, then guess (about 33-40 minutes)' },
+      {
+        kind: 'p',
+        text: "Spend the last stretch re-checking answers you are least sure about — particularly wrong-direction signs, off-by-one counts and units — then fill every remaining bubble. The AMC 8 does not deduct for wrong answers, so a blank is always worth less than an educated guess.",
+      },
+      { kind: 'h2', text: 'Checkpoints to rehearse' },
+      {
+        kind: 'table',
+        headers: ['Time on clock', 'Where you should be', 'If you are behind'],
+        rows: [
+          ['10 min', 'About question 8-10 done', 'Speed up arithmetic; skip anything that needs more than a minute'],
+          ['20 min', 'About question 15 done', 'Start pass two now; do not linger'],
+          ['30 min', 'Most medium questions attempted', 'Make quick guesses on the hardest ones'],
+          ['36 min', 'Begin final check and fill-in', 'Shade every bubble before time ends'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These checkpoints are a training scaffold, not a law. Adjust them after a few mocks to match your own pace.",
+      },
+      { kind: 'h2', text: 'Smart elimination: use the answer choices' },
+      {
+        kind: 'p',
+        text: "Because the AMC 8 is multiple-choice, the options are information. Quick sense-checks eliminate bad choices fast: Is the answer an integer? Must it be even or a multiple of 5? Is it smaller than the largest number in the problem? Take the earlier percent example — a price rises 20% then falls 20%. You can know without calculating that it is not back to the original, so 'no change' is out. Two choices gone, and the rest take seconds to settle.",
+      },
+      { kind: 'h2', text: 'Three drills to build pace' },
+      {
+        kind: 'ul',
+        items: [
+          "**The 10-in-12 drill:** pick ten easy past-paper questions and do them in 12 minutes. Repeat weekly and shave a minute.",
+          "**The 90-second decision:** on any problem, decide within 90 seconds whether to continue or park it. Say 'park' out loud if it helps.",
+          "**The final-check drill:** after each practice paper, give yourself exactly 3 minutes to check five answers. Record how many errors you catch.",
+        ],
+      },
+      { kind: 'h2', text: 'Where marks quietly leak' },
+      {
+        kind: 'ul',
+        items: [
+          "Spending 5 minutes on question 19 and never seeing question 22, which was a 40-second problem.",
+          "Rewriting a neat solution on scratch paper — keep it quick, keep it legible, move on.",
+          "Forgetting to shade the final bubbles. See our [common AMC 8 mistakes guide](/blog/common-mistakes-amc-8-amc-10).",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Practise this method in your timed mocks from late December, as laid out in the [12-week countdown plan](/blog/amc-8-12-week-countdown-plan-january-2027). Pacing is a skill, and like any skill it improves with rehearsal rather than reading.",
+      },
+    ],
+    faq: [
+      {
+        question: 'How much time do I get per question on the AMC 8?',
+        answer: 'The paper is 40 minutes for 25 questions, so about 96 seconds on average. In practice you should aim to spend less on early questions and bank time for the harder ones.',
+      },
+      {
+        question: 'Should I answer the AMC 8 questions in order?',
+        answer: 'Start in order, but skip anything that stalls. Park it, finish the questions you can solve, then return with the remaining time.',
+      },
+      {
+        question: 'Is there negative marking in the AMC 8?',
+        answer: 'No. Each correct answer earns a point and wrong or blank answers earn nothing, so never leave a question unanswered.',
+      },
+      {
+        question: 'How can I speed up without making more mistakes?',
+        answer: 'Build speed through easy-question drills and mental arithmetic, not by rushing hard problems. Save the last few minutes for checking.',
+      },
+    ],
+  },
+  {
+    slug: 'amc-8-final-week-exam-day-playbook-students-parents',
+    title: 'AMC 8 Final Week and Exam-Day Playbook for Students and Parents',
+    description:
+      "The last seven days before the AMC 8 decide whether months of preparation show up on paper. A day-by-day countdown, an exam-morning checklist and a parent's guide to helping without adding pressure.",
+    category: 'olympiad',
+    datePublished: '2026-10-16',
+    readingMinutes: 8,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/how-indian-students-register-take-amc', label: 'How Indian Students Register for and Take the AMC' },
+      { href: '/blog/how-parents-can-support-olympiad-preparation', label: 'How Parents Can Support Olympiad Preparation' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In the last week before the AMC 8, stop learning new material. Re-read your error log, redo a handful of favourite problems, confirm the date, venue and permitted tools with your test centre, sleep at least 8-9 hours and eat normally. On exam day, arrive early, bring pencils and erasers, use the three-pass method, and fill every bubble because there is no negative marking. Parents help most by staying calm.",
+      },
+      { kind: 'h2', text: 'Why the last week matters more than it looks' },
+      {
+        kind: 'p',
+        text: "By now, the learning is done. Your knowledge on exam day will be what it is. What can still move is how much of that knowledge reaches the answer sheet — and that depends on sleep, calm, logistics and a few smart habits. The window for AMC 8 2027 is reported as January 21-27, with each centre fixing its own date, so the countdown below is written as T-7 to T-0, where T is your exam day.",
+      },
+      { kind: 'h2', text: 'The T-7 to T-0 countdown' },
+      {
+        kind: 'table',
+        headers: ['Day', 'What to do', 'What to avoid'],
+        rows: [
+          ['T-7', 'Confirm date, time and venue with your centre or school. Skim the error log.', 'Starting a new book or topic'],
+          ['T-6', 'One last full paper if you wish (the final mock), reviewed the next day.', 'Comparing scores with friends'],
+          ['T-5', 'Review that paper and update the error log. Redo 5 favourite problems.', 'Late-night marathons'],
+          ['T-4', 'Light mixed practice, 30 minutes. Mental arithmetic warm-up.', 'Any hard unfamiliar problems'],
+          ['T-3', 'Re-read the three-pass method and your personal checkpoints.', 'Changing your strategy now'],
+          ['T-2', 'Short warm-up (20 minutes). Pack your bag. Go for a walk.', 'Heavy study'],
+          ['T-1', 'Rest. Early dinner, early bed. Nothing new.', 'Panic revision and screens before bed'],
+          ['T-0', 'Light breakfast, arrive early, do the paper, celebrate after.', 'Discussing answers mid-test day'],
+        ],
+      },
+      { kind: 'h2', text: 'The exam-morning checklist' },
+      {
+        kind: 'ul',
+        items: [
+          "Two or three sharpened pencils and a good eraser — the answer sheet is read by machine.",
+          "A bottle of water and a light snack for after the paper.",
+          "Your admit or registration details as given by your centre.",
+          "A watch if your centre allows one, so you can follow your pacing checkpoints.",
+          "Confirm which tools are permitted. Calculators are not allowed on the AMC 8; check with your centre about rulers and other items rather than assuming.",
+        ],
+      },
+      { kind: 'h2', text: 'During the paper: five habits' },
+      {
+        kind: 'ul',
+        items: [
+          "Read the full question and underline what is being asked before touching the numbers.",
+          "Use the [three-pass method](/blog/amc-8-pacing-40-minutes-25-questions-three-pass): collect sure marks, return to medium ones, check and guess.",
+          "If you blank for 90 seconds, park the problem. Panic is cheaper to avoid than to cure.",
+          "Write your working neatly on scratch paper so you can check it.",
+          "In the last two minutes, shade every unanswered bubble. Wrong answers do not lose marks.",
+        ],
+      },
+      { kind: 'h2', text: 'A note for parents' },
+      {
+        kind: 'p',
+        text: "Your child has probably worked harder than they let on. The most useful things you can offer this week are small and boring: a quiet evening, a normal dinner, a lift to the centre and the sentence 'I'm proud of the work you've done, whatever the score.' Resist quizzing them at breakfast, and resist asking about marks afterwards in the car. For more ideas, see [how parents can support Olympiad preparation](/blog/how-parents-can-support-olympiad-preparation).",
+      },
+      {
+        kind: 'p',
+        text: "If your family is still working out registration logistics, our guide on [how Indian students register for and take the AMC](/blog/how-indian-students-register-take-amc) explains how centres and schools handle it, since individual families usually cannot register directly with the MAA.",
+      },
+      { kind: 'h2', text: 'After the paper' },
+      {
+        kind: 'p',
+        text: "Whatever happens, write down three things you did well and one thing you would change — it takes two minutes, and it becomes the start of next year's preparation. Scores arrive later, and our guide on [reading an AMC score report](/blog/how-to-read-amc-score-report-beginners-walkthrough) will help you interpret them. Many students who sit the AMC 8 move on to the AMC 10 or the Indian Olympiad track, and the habits built over these twelve weeks go with them.",
+      },
+    ],
+    faq: [
+      {
+        question: 'Should I study on the day before the AMC 8?',
+        answer: 'Keep it very light: a 20-minute warm-up at most, then rest. Sleep and calm will help more than extra practice.',
+      },
+      {
+        question: 'What should I bring to the AMC 8?',
+        answer: 'Bring pencils, an eraser, water and the details your test centre asked for. Calculators are not allowed; confirm any other permitted items with your centre.',
+      },
+      {
+        question: 'Should I guess on questions I cannot solve?',
+        answer: 'Yes. The AMC 8 has no negative marking, so fill every bubble before time ends, ideally after eliminating obviously wrong options.',
+      },
+      {
+        question: 'How can parents help their child before the AMC 8?',
+        answer: 'Keep routines normal, ensure good sleep and food, handle logistics, and avoid pressure about scores. Encouragement about effort works better than expectations about results.',
+      },
+      {
+        question: 'When will AMC 8 results be available?',
+        answer: 'Results are released by the MAA some time after the exam window closes, usually distributed through the school or centre. Check your centre for the exact timeline for your year.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
