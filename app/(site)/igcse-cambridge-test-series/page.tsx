@@ -41,12 +41,12 @@ export default function IgcseTestSeriesPage() {
       <TrustSection />
       <PricingSection
         baseName="Single Subject"
-        basePrice="₹12,999"
+        basePrice="₹14,999"
         basePeriod="per subject · full 8-sitting mock series"
         baseTagline="Confident everywhere except one paper? Cover just that Cambridge IGCSE subject."
         groups={pricingGroups}
         addons={addons}
-        addonPrice="₹12,999"
+        addonPrice="₹14,999"
       />
       <FaqSection eyebrow="QUESTIONS" title="Before you enroll" faqs={IGCSE_TEST_SERIES_FAQS} />
       <FinalCta
