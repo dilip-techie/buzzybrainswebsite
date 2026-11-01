@@ -39636,6 +39636,1625 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-books-number-theory-math-kangaroo",
+    title: "Best Books for Number Theory for Math Kangaroo",
+    description:
+      "Kangaroo number theory is mostly digits, parity, divisibility and remainders in disguise. Here are the books and papers that train it, by level, and what to leave for later.",
+    category: "olympiad",
+    datePublished: '2026-10-23',
+    readingMinutes: 4,
+    relatedProgramHref: "/maths-kangaroo-coaching-pune",
+    relatedProgramLabel: "Math Kangaroo Coaching",
+    relatedGuides: [
+      { href: "/blog/best-resources-practice-papers-math-kangaroo", label: "Best Resources and Practice Papers for Math Kangaroo" },
+      { href: "/blog/math-kangaroo-levels-explained", label: "Math Kangaroo Levels Explained: From Pre-Ecolier to Student" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Math Kangaroo's number theory is light and clever rather than formal: digits and place value, odd and even, factors and multiples, divisibility rules and simple remainders, usually hidden in a word puzzle. The best preparation is a puzzle-style book such as Mathematical Circles, a pre-algebra text like AoPS Prealgebra for the formal basics, and official past Kangaroo papers for the question style. Formal number-theory books can wait until Junior and Student level.",
+      },
+      { kind: 'h2', text: "What number theory looks like on Kangaroo" },
+      {
+        kind: 'ul',
+        items: [
+          "Parity: what happens when you add, subtract or multiply odd and even numbers.",
+          "Digits and place value, including puzzles about digit sums and number arrangements.",
+          "Factors, multiples, primes, divisibility rules for 2, 3, 5, 9 and 11.",
+          "Simple remainders and repeating patterns, such as the last digit of a power.",
+          "Counting how many numbers satisfy a simple condition.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These questions reward noticing a pattern, not applying a theorem, which is why the preparation resources differ from olympiad number-theory books.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Best for", "Use it for"],
+        rows: [
+          ["Mathematical Circles: Russian Experience", "Fomin, Genkin, Itenberg", "Grades 3–8", "Parity, divisibility, remainders and pigeonhole reasoning in a discussion style"],
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Grades 5–8", "Primes, factors, divisibility and exponents, taught cleanly with graded problems"],
+          ["Competition Math for Middle School", "Jason Batterson", "Grades 5–8", "Topic-wise practice in the style of middle-school contests"],
+          ["Official past Kangaroo papers", "Organising body", "All levels", "Question style, wording and pacing"],
+          ["Introduction to Number Theory (AoPS)", "Mathew Crawford", "Junior and Student, only if comfortable", "Going deeper once past papers feel easy"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "A simple reading order" },
+      {
+        kind: 'ul',
+        items: [
+          "Grades 3–4: past papers plus Mathematical Circles, read together with a parent or mentor and discussed rather than rushed.",
+          "Grades 5–8: AoPS Prealgebra for the formal basics, then Competition Math for Middle School for topic practice, with past papers every few weeks.",
+          "Grades 9–12: past papers first. Add Introduction to Number Theory only if you want to go on to IOQM or AMC as well.",
+        ],
+      },
+      { kind: 'h2', text: "What to leave for later" },
+      {
+        kind: 'p',
+        text: "Burton's Elementary Number Theory and olympiad problem collections go well beyond what Kangaroo asks. They are excellent for IOQM, but using them for Kangaroo spends time on congruences and Diophantine equations that rarely appear. Kangaroo is also multiple-choice, so practise estimating, eliminating and checking answers, not writing full proofs.",
+      },
+      {
+        kind: 'p',
+        text: "Whatever you read, keep working through past papers under time. They are the closest thing to the real question style.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is a number theory book necessary for Math Kangaroo?",
+        answer: "Not at the younger levels. Past papers and a puzzle-style book usually cover it. A formal number-theory text becomes useful at Junior and Student level, or if you plan to continue to IOQM or AMC.",
+      },
+      {
+        question: "Which book is best for a Grade 4 student?",
+        answer: "Mathematical Circles read together with an adult, plus the official past papers for that level, is a gentle and effective combination.",
+      },
+      {
+        question: "Are divisibility rules enough for Kangaroo?",
+        answer: "They cover many questions, but Kangaroo also tests reasoning about parity, remainders and patterns, so practise those through past papers as well.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-algebra-math-kangaroo",
+    title: "Best Books for Algebra for Math Kangaroo",
+    description:
+      "Kangaroo algebra is word problems, patterns, simple equations and logic, not heavy symbol manipulation. Here are the books that train it, level by level.",
+    category: "olympiad",
+    datePublished: '2026-10-23',
+    readingMinutes: 4,
+    relatedProgramHref: "/maths-kangaroo-coaching-pune",
+    relatedProgramLabel: "Math Kangaroo Coaching",
+    relatedGuides: [
+      { href: "/blog/best-resources-practice-papers-math-kangaroo", label: "Best Resources and Practice Papers for Math Kangaroo" },
+      { href: "/blog/why-math-kangaroo-great-first-step-ioqm-amc", label: "Why Math Kangaroo Is a Great First Step Before IOQM or AMC" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Math Kangaroo algebra is mostly about patterns, simple equations, ratios and word problems that can be solved by clear reasoning, rather than long algebraic manipulation. Mathematical Circles builds the reasoning, AoPS Prealgebra and Competition Math for Middle School give the equation and ratio skills, and official past Kangaroo papers show the question style. From Junior level, AoPS Introduction to Algebra becomes useful.",
+      },
+      { kind: 'h2', text: "Algebra on Kangaroo" },
+      {
+        kind: 'ul',
+        items: [
+          "Number patterns and sequences, including finding the next term or the 50th term.",
+          "Simple equations and 'think of a number' problems.",
+          "Ratios, proportions and percentages in word problems.",
+          "Averages and sums with a missing value.",
+          "At Junior and Student level: quadratic ideas, inequalities and functions in a light form.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Because Kangaroo is multiple-choice, plugging in the options and estimating are often faster than solving fully.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Best for", "Use it for"],
+        rows: [
+          ["Mathematical Circles: Russian Experience", "Fomin, Genkin, Itenberg", "Grades 3–8", "Logic and pattern reasoning, which underpins algebra"],
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Grades 5–8", "Equations, ratios, percents and word problems taught in order"],
+          ["Competition Math for Middle School", "Jason Batterson", "Grades 5–8", "Contest-style algebra problems grouped by topic"],
+          ["Introduction to Algebra (AoPS)", "Richard Rusczyk", "Junior and Student", "Linear equations, quadratics and inequalities in depth"],
+          ["Official past Kangaroo papers", "Organising body", "All levels", "The real style, wording and pacing"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "How to use them" },
+      {
+        kind: 'ul',
+        items: [
+          "Ecolier and Benjamin: past papers and Mathematical Circles. Keep sessions short and playful.",
+          "Cadet: AoPS Prealgebra for the topics, then Competition Math for Middle School for practice.",
+          "Junior and Student: past papers first, then Introduction to Algebra for the topics that keep slowing you down.",
+        ],
+      },
+      { kind: 'h2', text: "What not to do" },
+      {
+        kind: 'p',
+        text: "Avoid heavy olympiad algebra books such as functional-equation texts. They do not match Kangaroo's style and can discourage students. Instead, train quick thinking: try small numbers, test the answer options and look for a pattern before writing an equation.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is school algebra enough for Kangaroo?",
+        answer: "It covers the skills, but Kangaroo's puzzle-like wording is different from school exercises. Past papers help bridge that gap.",
+      },
+      {
+        question: "When should a student start AoPS Introduction to Algebra?",
+        answer: "Usually once they are comfortable with pre-algebra, often around Grades 7 to 9, and mainly if they plan to continue into AMC 10 or IOQM.",
+      },
+      {
+        question: "How do I practise estimating on multiple-choice questions?",
+        answer: "Use past papers: for each question, try to eliminate two options by reasoning before solving, then check whether your solution agrees.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-geometry-math-kangaroo",
+    title: "Best Books for Geometry for Math Kangaroo",
+    description:
+      "Kangaroo geometry is visual: areas, angles, folding, cutting and symmetry. Here are the books and practice habits that train it, from Ecolier to Student.",
+    category: "olympiad",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/maths-kangaroo-coaching-pune",
+    relatedProgramLabel: "Math Kangaroo Coaching",
+    relatedGuides: [
+      { href: "/blog/best-resources-practice-papers-math-kangaroo", label: "Best Resources and Practice Papers for Math Kangaroo" },
+      { href: "/blog/math-kangaroo-levels-explained", label: "Math Kangaroo Levels Explained: From Pre-Ecolier to Student" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Math Kangaroo geometry is visual and inventive: areas and perimeters, angles, symmetry, folding and cutting shapes, tilings and simple 3D reasoning. The best preparation is AoPS Prealgebra for its geometry chapters, Competition Math for Middle School for topic practice, Mathematical Circles for reasoning, and official past papers for the distinctive style. From Junior level, AoPS Introduction to Geometry adds depth.",
+      },
+      { kind: 'h2', text: "Geometry on Kangaroo" },
+      {
+        kind: 'ul',
+        items: [
+          "Area and perimeter of composite shapes, often by cutting and rearranging.",
+          "Angle chasing in triangles, quadrilaterals and around parallel lines.",
+          "Symmetry, reflections, rotations and nets of solids.",
+          "Counting shapes in a figure and paper-folding problems.",
+          "At Junior and Student: Pythagoras, similar triangles, circles and basic trigonometry.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Kangaroo figures are usually drawn clearly, so drawing, cutting and redrawing is often the fastest path to the answer.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Best for", "Use it for"],
+        rows: [
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Grades 5–8", "Perimeter, area, angles and the Pythagorean theorem with graded problems"],
+          ["Competition Math for Middle School", "Jason Batterson", "Grades 5–8", "Contest-style geometry grouped by topic"],
+          ["Mathematical Circles: Russian Experience", "Fomin, Genkin, Itenberg", "Grades 3–8", "Reasoning with figures and discussion-style problems"],
+          ["Introduction to Geometry (AoPS)", "Richard Rusczyk", "Junior and Student", "Triangles, circles and area with proofs and exercises"],
+          ["Official past Kangaroo papers", "Organising body", "All levels", "The real visual style and pace"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Hands-on habits" },
+      {
+        kind: 'ul',
+        items: [
+          "Use graph paper, scissors and tracing paper to test ideas. Many Kangaroo problems become obvious once you cut the shape.",
+          "Redraw each figure larger and mark every known length and angle.",
+          "After solving, ask whether a simpler cut or symmetry would have made it faster.",
+        ],
+      },
+      { kind: 'h2', text: "What to avoid" },
+      {
+        kind: 'p',
+        text: "Advanced synthetic geometry books are unnecessary for Kangaroo. Spend the time on a variety of visual puzzles and past papers instead.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need a ruler and protractor for Kangaroo?",
+        answer: "No instruments are needed in the paper, but practising with them builds a feel for angles and lengths that helps you judge figures quickly.",
+      },
+      {
+        question: "Which book suits a Grade 3 or 4 student?",
+        answer: "Mathematical Circles read with an adult, plus hands-on shape puzzles and the official past papers for that level.",
+      },
+      {
+        question: "Are Kangaroo diagrams drawn to scale?",
+        answer: "Often roughly, but you should not rely on that. Use given lengths and angles and check by reasoning.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-combinatorics-math-kangaroo",
+    title: "Best Books for Combinatorics and Logic for Math Kangaroo",
+    description:
+      "Counting, arrangements and logic puzzles appear at every Kangaroo level. Here are the books and habits that train systematic counting without formulas.",
+    category: "olympiad",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/maths-kangaroo-coaching-pune",
+    relatedProgramLabel: "Math Kangaroo Coaching",
+    relatedGuides: [
+      { href: "/blog/best-resources-practice-papers-math-kangaroo", label: "Best Resources and Practice Papers for Math Kangaroo" },
+      { href: "/blog/kangaroo-math-olympiad-what-it-is-and-how-to-prepare", label: "Kangaroo Math Olympiad: What It Is and How to Prepare" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Math Kangaroo combinatorics is mostly systematic counting, arrangements, logic puzzles and grid problems that can be solved by organised listing, not formulas. Mathematical Circles is the best single book for building this reasoning, AoPS Prealgebra covers the basic counting chapters, and official past papers show the question style. From Junior level, AoPS Introduction to Counting and Probability becomes a useful next step.",
+      },
+      { kind: 'h2', text: "What Kangaroo asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Counting arrangements, paths on grids and number of ways to choose.",
+          "Logic puzzles about truth-tellers, ordering and elimination.",
+          "Sums and patterns on boards, such as magic squares and chessboard problems.",
+          "Simple probability in the form of 'which is most likely'.",
+          "Pigeonhole-style arguments: showing that two things must coincide.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Best for", "Use it for"],
+        rows: [
+          ["Mathematical Circles: Russian Experience", "Fomin, Genkin, Itenberg", "Grades 3–8", "Logic, pigeonhole and counting through discussion problems"],
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Grades 5–8", "Counting and basic probability chapters with graded problems"],
+          ["Competition Math for Middle School", "Jason Batterson", "Grades 5–8", "Topic practice in contest style"],
+          ["Introduction to Counting and Probability (AoPS)", "David Patrick", "Junior and Student", "Permutations, combinations and probability"],
+          ["Official past Kangaroo papers", "Organising body", "All levels", "The real style and pace"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Habits that help" },
+      {
+        kind: 'ul',
+        items: [
+          "List possibilities in an organised way, such as in order, by case or in a table, before counting.",
+          "For arrangements, start with the most restricted item.",
+          "Try small versions of the problem to spot a pattern.",
+          "Check your count by solving the problem a second way.",
+        ],
+      },
+      { kind: 'h2', text: "What to avoid" },
+      {
+        kind: 'p',
+        text: "Combinatorics books written for university students or olympiad training are unnecessary for Kangaroo. Spend your time on organised counting and varied puzzles instead, and use past papers to learn the style.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need formulas for permutations and combinations?",
+        answer: "At younger levels, no. Systematic listing is enough. At Junior and Student levels, the formulas can save time but understanding when to use them matters more.",
+      },
+      {
+        question: "Are logic puzzles part of combinatorics?",
+        answer: "Kangaroo treats them as part of reasoning, and they share the habit of organised case analysis, so practising them helps both.",
+      },
+      {
+        question: "How can I practise without a book?",
+        answer: "Use past Kangaroo papers and make up counting problems from everyday situations, such as how many ways to arrange a set of items.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-number-theory-amc-8",
+    title: "Best Books for Number Theory for AMC 8",
+    description:
+      "AMC 8 number theory stays within factors, primes, divisibility and simple remainders. Here is a short, level-appropriate list of books and a way to use them without over-reaching.",
+    category: "olympiad",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-8-most-likely-question-types-2026", label: "AMC 8 Most Likely Question Types 2026: What the Last Several Years Actually Show" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 number theory covers factors and multiples, primes, divisibility rules, GCD and LCM, exponents, place value and simple remainders, all without formal congruences. The most useful books are AoPS Prealgebra for the topics taught cleanly, The Art of Problem Solving Volume 1 for contest-style problems, and Competition Math for Middle School for topic practice. Official past AMC 8 papers then show how these ideas are actually tested in 40 minutes.",
+      },
+      { kind: 'h2', text: "What AMC 8 expects" },
+      {
+        kind: 'ul',
+        items: [
+          "Prime factorisation, counting divisors and finding GCD and LCM.",
+          "Divisibility rules, including 3, 4, 8, 9 and 11, and digit-based puzzles.",
+          "Place value, number of digits and the last digit of a power.",
+          "Word problems that reduce to multiples, such as meeting times and cycles.",
+          "Reasoning with odd and even numbers and simple remainders.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The AMC 8 has 25 questions in 40 minutes and no calculator, so quick mental fluency with factors and divisibility pays off.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Best for", "Why it fits AMC 8"],
+        rows: [
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Starting point", "Primes, divisors and exponents taught in order, with problems that grow in difficulty"],
+          ["The Art of Problem Solving, Volume 1", "Lehoczky, Rusczyk", "Contest-style practice", "Number theory alongside algebra, geometry and counting at AMC 8 to early AMC 10 level"],
+          ["Competition Math for Middle School", "Jason Batterson", "Topic practice", "Middle-school contest problems grouped by topic"],
+          ["Mathematical Circles", "Fomin, Genkin, Itenberg", "Building reasoning", "Parity and divisibility explored through discussion problems"],
+          ["Official past AMC 8 papers", "MAA", "Final preparation", "The real style, wording and pace"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "How to use them" },
+      {
+        kind: 'ul',
+        items: [
+          "Work the number-theory chapter of Prealgebra with a pencil, then write down the five or six facts you keep forgetting.",
+          "Practise prime factorisation and divisibility until they are automatic, since that frees time for harder questions.",
+          "Solve past AMC 8 number-theory problems in a block, then mix them back into full timed papers.",
+          "Read the official solutions even for problems you got right. A shorter method is often there.",
+        ],
+      },
+      { kind: 'h2', text: "What to defer" },
+      {
+        kind: 'p',
+        text: "Modular arithmetic notation, Diophantine equations and number-theory theorems belong to AMC 10 and IOQM preparation. A strong AMC 8 student does not need them, and they can crowd out the basic fluency that actually earns the marks.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Introduction to Number Theory too advanced for AMC 8?",
+        answer: "Usually yes. It is written for students who have finished pre-algebra and want depth. Prealgebra and past papers are enough for AMC 8, and the number theory book fits better as a bridge to AMC 10.",
+      },
+      {
+        question: "How many number-theory problems should I do per week?",
+        answer: "A handful of well-chosen problems with careful review beats a large number done quickly. Aim for steady practice across several weeks.",
+      },
+      {
+        question: "Are calculators allowed on AMC 8?",
+        answer: "No. Practise without one so factors, multiples and divisibility checks become quick.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-algebra-amc-8",
+    title: "Best Books for Algebra for AMC 8",
+    description:
+      "AMC 8 algebra is ratios, percentages, linear equations, patterns and averages. Here is a short book list that matches it, and how to practise without a calculator.",
+    category: "olympiad",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-8-preparation-guide-for-beginners", label: "AMC 8 Preparation Guide for Beginners" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 algebra covers ratios and rates, percentages, linear equations, patterns, averages and simple word problems, all solvable with pre-algebra tools. AoPS Prealgebra and The Art of Problem Solving Volume 1 are the core books, with Competition Math for Middle School for topic practice and official past AMC 8 papers for the real style. A full algebra course is more than the paper needs.",
+      },
+      { kind: 'h2', text: "What AMC 8 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Ratios, rates, speed-distance-time and unit conversions.",
+          "Percentages, discounts and mixtures.",
+          "Linear equations and word problems that reduce to them.",
+          "Averages, including problems with a missing value.",
+          "Patterns and sequences, and basic exponent rules.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "With 25 questions in 40 minutes and no calculator, setting up a problem quickly matters as much as solving it.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Core text", "Ratios, percents, equations and exponents with graded problems"],
+          ["The Art of Problem Solving, Volume 1", "Lehoczky, Rusczyk", "Contest reference", "Algebra at AMC 8 to early AMC 10 level"],
+          ["Competition Math for Middle School", "Jason Batterson", "Topic practice", "Problems arranged by topic, pitched at middle school"],
+          ["Official past AMC 8 papers", "MAA", "Real practice", "Free through the MAA archive and AoPS wiki"],
+          ["Introduction to Algebra (AoPS)", "Richard Rusczyk", "Optional next step", "Better kept for AMC 10 preparation"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "A practical routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Work a chapter of Prealgebra, then do ten mixed problems from past papers on that topic.",
+          "Practise writing equations from word problems before solving them. Setting up is the skill.",
+          "Time yourself on blocks of five questions to build pace.",
+        ],
+      },
+      { kind: 'h2', text: "Where students lose marks" },
+      {
+        kind: 'p',
+        text: "Common slips are mixing up units, treating a percentage change as a simple difference and rushing the setup of ratio problems. Keep an error log of these, and review it before each paper. Past AMC 8 papers will repeat these themes in new clothing.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need an algebra book beyond Prealgebra for AMC 8?",
+        answer: "Usually not. Prealgebra covers the content, and past papers reveal any gaps. Move to Introduction to Algebra when preparing for AMC 10.",
+      },
+      {
+        question: "How many past papers should I solve?",
+        answer: "Several years' worth under timed conditions, with each mistake reviewed, is more valuable than rushing through as many as possible.",
+      },
+      {
+        question: "Is there a calculator on AMC 8?",
+        answer: "No. Practise mental arithmetic and estimation so you are fast without one.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-geometry-amc-8",
+    title: "Best Books for Geometry for AMC 8",
+    description:
+      "AMC 8 geometry is area, perimeter, angles, the Pythagorean theorem and basic solids. Here are the books that cover it and a way to build speed with diagrams.",
+    category: "olympiad",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-8-most-likely-question-types-2026", label: "AMC 8 Most Likely Question Types 2026: What the Last Several Years Actually Show" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 geometry covers area and perimeter, angles in triangles and polygons, the Pythagorean theorem, similar figures, circles and volume of simple solids. AoPS Prealgebra and The Art of Problem Solving Volume 1 teach these topics well, and Competition Math for Middle School adds topic practice. Official past AMC 8 papers then show how a diagram problem fits into 40 minutes.",
+      },
+      { kind: 'h2', text: "What AMC 8 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Area of triangles, rectangles, trapezoids and composite figures.",
+          "Angle chasing with parallel lines, triangles and polygons.",
+          "Pythagorean triples and right triangles.",
+          "Circles: circumference, area and simple sectors.",
+          "Volume and surface area of cubes and rectangular boxes.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Core text", "Perimeter, area, angles and Pythagoras with graded exercises"],
+          ["The Art of Problem Solving, Volume 1", "Lehoczky, Rusczyk", "Contest reference", "Geometry chapters at AMC 8 to early AMC 10 level"],
+          ["Competition Math for Middle School", "Jason Batterson", "Topic practice", "Geometry problems grouped by topic"],
+          ["Official past AMC 8 papers", "MAA", "Real practice", "Free through the MAA archive and AoPS wiki"],
+          ["Introduction to Geometry (AoPS)", "Richard Rusczyk", "Optional next step", "Better suited to AMC 10 preparation"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "A diagram routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Redraw every figure and label all known lengths and angles.",
+          "Look for right triangles, equal sides and symmetry before using any formula.",
+          "Try to split a complicated area into simpler pieces.",
+          "Check units and whether your answer is reasonable against the figure.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Geometry is one of the topics where practice builds speed fastest, since the same few ideas repeat across years.",
+      },
+      { kind: 'h2', text: "Common slips" },
+      {
+        kind: 'p',
+        text: "Students often confuse area and perimeter, forget to halve for triangles or misread which side is the height. A short formula sheet written in your own hand, reviewed before each paper, prevents most of these.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Introduction to Geometry too advanced for AMC 8?",
+        answer: "Usually it goes beyond what AMC 8 needs. Prealgebra and past papers cover the paper, and the geometry book fits better when preparing for AMC 10.",
+      },
+      {
+        question: "How should I practise the Pythagorean theorem?",
+        answer: "Memorise the common triples, such as 3-4-5 and 5-12-13, and practise spotting them in diagrams.",
+      },
+      {
+        question: "Do I need a protractor on the test?",
+        answer: "No. Instruments are not needed, so practise solving from given measures.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-combinatorics-counting-amc-8",
+    title: "Best Books for Counting and Probability for AMC 8",
+    description:
+      "AMC 8 counting is organised listing, simple arrangements and basic probability. Here are the books that cover it and how to avoid double-counting under time pressure.",
+    category: "olympiad",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-8-most-likely-question-types-2026", label: "AMC 8 Most Likely Question Types 2026: What the Last Several Years Actually Show" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 counting covers organised listing, the multiplication principle, simple permutations and combinations and basic probability with equally likely outcomes. AoPS Prealgebra and The Art of Problem Solving Volume 1 teach these topics clearly, Competition Math for Middle School adds practice, and AoPS Introduction to Counting and Probability is a stretch for strong students. Official past AMC 8 papers show how these ideas appear in 40 minutes.",
+      },
+      { kind: 'h2', text: "What AMC 8 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Counting outcomes with the multiplication principle, such as outfits and menus.",
+          "Arrangements of letters, digits and people, with simple restrictions.",
+          "Counting paths on a grid.",
+          "Simple probability as favourable over total outcomes.",
+          "Counting divisors, multiples and numbers meeting a condition.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["The Art of Problem Solving: Prealgebra", "Rusczyk, Patrick, Boppana", "Core text", "Counting and probability chapters with graded problems"],
+          ["The Art of Problem Solving, Volume 1", "Lehoczky, Rusczyk", "Contest reference", "Counting techniques at AMC 8 to early AMC 10 level"],
+          ["Competition Math for Middle School", "Jason Batterson", "Topic practice", "Counting problems grouped by topic"],
+          ["Introduction to Counting and Probability (AoPS)", "David Patrick", "Stretch", "More depth than AMC 8 needs, useful for AMC 10 preparation"],
+          ["Official past AMC 8 papers", "MAA", "Real practice", "Free through the MAA archive and AoPS wiki"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Avoiding double-counting" },
+      {
+        kind: 'ul',
+        items: [
+          "Decide whether order matters before you count.",
+          "Break the problem into cases that do not overlap.",
+          "When in doubt, list a smaller version completely and compare with your method.",
+          "Sanity check: is your count larger than the total possible outcomes?",
+        ],
+      },
+      { kind: 'h2', text: "A practice rhythm" },
+      {
+        kind: 'p',
+        text: "Counting rewards variety. After studying a chapter, solve mixed past-paper problems so you practise choosing the method, not only applying it. Keep an error log of the problems where you over- or under-counted, and look for patterns.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to know combination formulas for AMC 8?",
+        answer: "They help, but most AMC 8 problems can be solved by organised listing or the multiplication principle. Learn the formulas, but make sure you understand the logic behind them.",
+      },
+      {
+        question: "Is probability on AMC 8 hard?",
+        answer: "It stays at the level of equally likely outcomes. The challenge is counting both the favourable and total outcomes correctly.",
+      },
+      {
+        question: "How do I check my answer on a counting problem?",
+        answer: "Try a smaller case or solve the problem a second way and see whether the answers agree.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-number-theory-amc-10",
+    title: "Best Books for Number Theory for AMC 10",
+    description:
+      "AMC 10 brings modular thinking, divisor counting and digit problems into the paper. Here are the books that build it, and when to move from the basics to AIME-style depth.",
+    category: "olympiad",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-10-most-likely-question-types-2026", label: "AMC 10 Most Likely Question Types 2026: The Topics That Show Up Every Year" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 10 number theory goes beyond AMC 8 into divisor counting, remainders and simple modular arithmetic, base representations, Diophantine-style equations and digit problems. The core book is the AoPS Introduction to Number Theory by Mathew Crawford, supported by The Art of Problem Solving Volumes 1 and 2 and official past AMC 10 papers. For students aiming past AMC 10 towards AIME, intermediate-level material comes later, once the introductory book is comfortable.",
+      },
+      { kind: 'h2', text: "What AMC 10 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Counting divisors, sum of divisors and prime factorisation shortcuts.",
+          "Remainders, cycles and last-digit problems, often using modular thinking.",
+          "Number bases and digit puzzles.",
+          "Linear Diophantine equations and parity arguments.",
+          "Problems that combine number theory with algebra or counting.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The paper has 25 questions in 75 minutes with no calculator, and the AMC scoring of 6 for correct, 1.5 for blank and 0 for incorrect rewards accuracy over wild guessing.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["Introduction to Number Theory (AoPS)", "Mathew Crawford", "Core text", "Primes, divisors, congruences, bases and Diophantine equations with graded exercises"],
+          ["The Art of Problem Solving, Volumes 1 and 2", "Lehoczky, Rusczyk", "Broad contest reference", "Number-theory chapters alongside the rest of the AMC syllabus"],
+          ["Past AMC 10 papers (A and B versions)", "MAA", "Practice and diagnosis", "Freely available through the MAA archive and the AoPS wiki"],
+          ["Elementary Number Theory", "David M. Burton", "Optional depth", "Useful for rigour, but beyond what AMC 10 needs"],
+          ["104 Number Theory Problems", "Andreescu, Andrica, Feng", "Stretch problems", "Better kept for after AMC 10 basics are secure"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "A sensible order" },
+      {
+        kind: 'ul',
+        items: [
+          "Weeks 1–4: work through Introduction to Number Theory up to congruences, doing every starred exercise you can.",
+          "Weeks 5–8: switch to past AMC 10 number-theory problems, sorted by topic, and compare your methods with the official solutions.",
+          "Weeks 9–12: mix everything into full 75-minute papers and log the number-theory mistakes separately.",
+        ],
+      },
+      { kind: 'h2', text: "Common traps" },
+      {
+        kind: 'ul',
+        items: [
+          "Reading the whole book before attempting any past papers. Mix the two from the start.",
+          "Memorising theorems without practising when to apply them.",
+          "Skipping the review. Past-paper solutions often show a modular shortcut you missed.",
+        ],
+      },
+      { kind: 'h2', text: "After AMC 10" },
+      {
+        kind: 'p',
+        text: "If you want to go on to AIME, the Art of Problem Solving's intermediate-level material and olympiad problem collections become useful. Until then, do the introductory book properly and use the past papers to find your actual gaps.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need Burton's Elementary Number Theory for AMC 10?",
+        answer: "Not for AMC 10 itself. It is a rigorous university-level text that is useful for IOQM or later, but the AoPS book and past papers cover what the paper needs.",
+      },
+      {
+        question: "How early can a student start the AoPS number theory book?",
+        answer: "Students who are comfortable with pre-algebra and basic algebra can start, usually in Grades 7 to 9, at their own pace.",
+      },
+      {
+        question: "Should I do number theory before algebra for AMC 10?",
+        answer: "Do them in parallel. Many number-theory problems need algebra, and many algebra problems use number-theory ideas.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-algebra-amc-10",
+    title: "Best Books for Algebra for AMC 10",
+    description:
+      "AMC 10 algebra is where most of the paper lives: quadratics, systems, functions, sequences, inequalities and exponents. Here are the books that cover it, in order.",
+    category: "olympiad",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/amc-10-preparation-guide-aime-qualification", label: "AMC 10 Preparation Guide: From AMC 10 to AIME Qualification" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 10 algebra includes linear and quadratic equations, systems, functions, sequences and series, inequalities, exponents and radicals, and word problems. The core book is the AoPS Introduction to Algebra by Richard Rusczyk, extended by The Art of Problem Solving Volumes 1 and 2 and official past AMC 10 papers. For students aiming beyond AMC 10 towards AIME, the AoPS Intermediate Algebra by Rusczyk and Patrick adds polynomials and deeper functions.",
+      },
+      { kind: 'h2', text: "What AMC 10 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Quadratics: factoring, the quadratic formula, sums and products of roots.",
+          "Systems of equations and substitution tricks.",
+          "Functions, including composition and simple transformations.",
+          "Arithmetic and geometric sequences and series.",
+          "Inequalities, absolute value, exponents, radicals and logarithm basics.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Algebra also shows up inside counting and geometry problems, so it is worth strengthening early.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["Introduction to Algebra (AoPS)", "Richard Rusczyk", "Core text", "Linear equations to quadratics, inequalities and functions with graded exercises"],
+          ["The Art of Problem Solving, Volumes 1 and 2", "Lehoczky, Rusczyk", "Contest reference", "Algebra chapters pitched at AMC level"],
+          ["Past AMC 10 papers (A and B)", "MAA", "Practice and diagnosis", "Free through the MAA archive and AoPS wiki"],
+          ["Intermediate Algebra (AoPS)", "Rusczyk, Patrick", "For AIME aspirants", "Polynomials, complex numbers and deeper functions"],
+          ["Algebra", "Gelfand, Shen", "Rigour", "A thoughtful book for understanding why the methods work"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "An order that works" },
+      {
+        kind: 'ul',
+        items: [
+          "Months 1–2: Introduction to Algebra, doing the exercises, not just reading the text.",
+          "Months 3–4: past AMC 10 algebra problems by topic, then full timed papers.",
+          "After that: Intermediate Algebra only if you are targeting AIME.",
+        ],
+      },
+      { kind: 'h2', text: "Using past papers properly" },
+      {
+        kind: 'p',
+        text: "Past papers tell you which algebra you actually need. After each paper, sort the problems you missed by topic. If most are quadratics or sequences, return to that chapter instead of reading new ground.",
+      },
+      {
+        kind: 'p',
+        text: "Also practise algebraic shortcuts: Vieta's formulas, substitution and completing the square save time on a 75-minute paper.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Intermediate Algebra necessary for AMC 10?",
+        answer: "No. Introduction to Algebra and past papers are enough for most students. Intermediate Algebra is for those aiming at AIME or AMC 12.",
+      },
+      {
+        question: "Can I use my school algebra textbook instead?",
+        answer: "It covers the topics but not the contest-style problem solving. It works as a foundation, with AoPS or past papers supplying the harder practice.",
+      },
+      {
+        question: "How long does Introduction to Algebra take?",
+        answer: "It varies by student, but a few months of steady work with exercises is typical. Do not rush through the problems.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-geometry-amc-10",
+    title: "Best Books for Geometry for AMC 10",
+    description:
+      "AMC 10 geometry adds similar triangles, circles, coordinate geometry and some trigonometry. Here are the books that cover it and how to build diagram fluency.",
+    category: "olympiad",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/geometry-problem-solving-techniques-for-maths-olympiads", label: "Geometry Problem-Solving Techniques for Maths Olympiads" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 10 geometry includes triangle properties, similar triangles, circles, area techniques, coordinate geometry and basic trigonometry. The core book is the AoPS Introduction to Geometry by Richard Rusczyk, supported by The Art of Problem Solving Volumes 1 and 2 and past AMC 10 papers. For students aiming beyond AMC 10, Challenging Problems in Geometry by Posamentier and Salkind provides harder practice.",
+      },
+      { kind: 'h2', text: "What AMC 10 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Similar triangles and ratios of areas.",
+          "Circles: tangents, chords, inscribed angles and arcs.",
+          "Area methods, including coordinates and decomposition.",
+          "The Pythagorean theorem, special right triangles and basic trigonometry.",
+          "Three-dimensional figures, volume and surface area.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["Introduction to Geometry (AoPS)", "Richard Rusczyk", "Core text", "Triangles, circles, area and 3D with proofs and graded exercises"],
+          ["The Art of Problem Solving, Volumes 1 and 2", "Lehoczky, Rusczyk", "Contest reference", "Geometry chapters at AMC level"],
+          ["Past AMC 10 papers (A and B)", "MAA", "Practice and diagnosis", "Free through the MAA archive and AoPS wiki"],
+          ["Challenging Problems in Geometry", "Posamentier, Salkind", "Stretch", "Harder problems with solutions, useful after the basics"],
+          ["Geometry Revisited", "Coxeter, Greitzer", "Optional depth", "A classic, better for olympiad preparation"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "How to study geometry for AMC 10" },
+      {
+        kind: 'ul',
+        items: [
+          "Work through Introduction to Geometry, drawing a large, careful figure for every problem.",
+          "After each chapter, solve ten past AMC 10 geometry problems on the same theme.",
+          "Track which tools you reach for: similar triangles, area ratios, the Pythagorean theorem or coordinates.",
+          "Practise at least a few problems with two different methods.",
+        ],
+      },
+      { kind: 'h2', text: "A note on trigonometry" },
+      {
+        kind: 'p',
+        text: "AMC 10 occasionally uses basic trigonometry, such as sine and cosine in right triangles, but rarely anything advanced. Introduction to Geometry covers what you need.",
+      },
+      {
+        kind: 'p',
+        text: "Geometry rewards visualisation, so reviewing the official solutions for how each figure was cut or labelled teaches as much as solving the problem yourself.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Geometry Revisited useful for AMC 10?",
+        answer: "It is excellent for building geometric intuition, but it goes beyond AMC 10. It is more relevant for IOQM and olympiad preparation.",
+      },
+      {
+        question: "How many geometry problems should I solve each week?",
+        answer: "A steady handful with careful review is better than a large number done quickly. Include at least one timed set every week.",
+      },
+      {
+        question: "Do I need to memorise formulas?",
+        answer: "Yes for the basic area and volume formulas and the Pythagorean theorem. Understand where they come from, so you can rebuild them if you forget.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-combinatorics-counting-amc-10",
+    title: "Best Books for Counting and Probability for AMC 10",
+    description:
+      "AMC 10 counting includes combinations, complementary counting, probability and casework. Here are the books that build it, in order, and how to practise.",
+    category: "olympiad",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/amc-8-10-coaching-pune",
+    relatedProgramLabel: "AMC 8/10 Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-amc-preparation", label: "Best Books and Resources for AMC Preparation" },
+      { href: "/blog/combinatorics-for-beginners-counting-techniques-olympiad-maths", label: "Combinatorics for Beginners: Counting Techniques for Olympiad Maths" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 10 counting and probability includes permutations and combinations, complementary counting, casework, the binomial theorem and probability with and without replacement. The core book is the AoPS Introduction to Counting and Probability by David Patrick, supported by The Art of Problem Solving Volume 2 and official past AMC 10 papers. Students aiming at AIME can add the Intermediate Counting and Probability volume later.",
+      },
+      { kind: 'h2', text: "What AMC 10 asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Permutations, combinations and arrangements with restrictions.",
+          "Complementary counting, such as counting what does not happen.",
+          "Casework and careful organisation of cases.",
+          "Probability, expected value and geometric probability in light form.",
+          "Pascal's triangle and the binomial theorem.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book or resource", "Author", "Role", "Notes"],
+        rows: [
+          ["Introduction to Counting and Probability (AoPS)", "David Patrick", "Core text", "Permutations, combinations, probability and Pascal with graded exercises"],
+          ["The Art of Problem Solving, Volume 2", "Lehoczky, Rusczyk", "Contest reference", "Counting techniques at AMC 10 level"],
+          ["Past AMC 10 papers (A and B)", "MAA", "Practice and diagnosis", "Free through the MAA archive and AoPS wiki"],
+          ["Intermediate Counting and Probability (AoPS)", "David Patrick", "For AIME aspirants", "Deeper techniques such as generating functions"],
+          ["102 Combinatorial Problems", "Andreescu, Feng", "Stretch", "Harder problems with solutions, after the basics"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "A study order" },
+      {
+        kind: 'ul',
+        items: [
+          "Months 1–2: Introduction to Counting and Probability, working every exercise you can.",
+          "Months 3–4: past AMC 10 counting problems by topic, then timed papers.",
+          "Afterwards: move to the intermediate volume only if you are aiming at AIME.",
+        ],
+      },
+      { kind: 'h2', text: "Common mistakes" },
+      {
+        kind: 'p',
+        text: "The biggest mistake in counting is overcounting: treating different arrangements as the same, or counting the same outcome twice. Another is using a formula without checking whether order matters. For each problem you miss, write down which of these happened.",
+      },
+      {
+        kind: 'p',
+        text: "Counting is a skill of organisation as much as of technique, and the official AMC solutions often show a neater way to divide cases. Always read them, even for problems you solved.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Intermediate Counting and Probability needed for AMC 10?",
+        answer: "No. The introductory book and past papers are usually enough. The intermediate volume is for students aiming at AIME or AMC 12.",
+      },
+      {
+        question: "How do I know whether to use permutations or combinations?",
+        answer: "Ask whether order matters. If swapping two chosen items gives a different outcome, use permutations. If not, use combinations.",
+      },
+      {
+        question: "Should I memorise formulas?",
+        answer: "Learn them, but focus on understanding why they work. That way you can rebuild them under pressure.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-number-theory-ioqm",
+    title: "Best Books for Number Theory for IOQM",
+    description:
+      "IOQM number theory demands congruences, divisibility arguments and clean reasoning. Here is the book sequence that builds it, from foundations to olympiad-level problem sets.",
+    category: "olympiad",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/ioqm-coaching-pune",
+    relatedProgramLabel: "IOQM Coaching",
+    relatedGuides: [
+      { href: "/blog/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry", label: "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry" },
+      { href: "/blog/ioqm-book-reading-timeline-what-to-read-in-class-8-9-10-11", label: "The IOQM Book Reading Timeline: What to Read in Class 8, 9, 10 and 11" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For IOQM number theory, build the foundations with David Burton's Elementary Number Theory or the AoPS Introduction to Number Theory, then practise with 104 Number Theory Problems by Andreescu, Andrica and Feng, and use Challenge and Thrill of Pre-College Mathematics for the Indian olympiad style. Stronger students can add Number Theory: Structures, Examples and Problems for more depth. Past IOQM papers are the final test of whether the technique transfers.",
+      },
+      { kind: 'h2', text: "What IOQM typically asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Divisibility and remainders, including careful case work.",
+          "Congruences, modular inverses and simple applications of Fermat's little theorem and Euler's theorem.",
+          "Prime factorisation, counting divisors and special number forms.",
+          "Diophantine equations and bounding arguments.",
+          "Digit problems and base representations.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "IOQM is an answer-based qualifier with no negative marking, so the aim is to reach the correct answer efficiently and reliably.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Stage", "What it gives you"],
+        rows: [
+          ["Elementary Number Theory", "David M. Burton", "Foundation", "Rigorous, clearly explained divisibility, congruences and primes"],
+          ["Introduction to Number Theory (AoPS)", "Mathew Crawford", "Foundation or bridge", "A friendlier, problem-driven route to the same ideas"],
+          ["104 Number Theory Problems", "Andreescu, Andrica, Feng", "Practice", "Competition problems with full solutions, arranged by technique"],
+          ["Challenge and Thrill of Pre-College Mathematics", "Krishnamurthy, Pranesachar, Ranganathan, Venkatachala", "Indian olympiad style", "Number-theory chapter and problems pitched at RMO and IOQM level"],
+          ["Number Theory: Structures, Examples, and Problems", "Andreescu, Andrica", "Stretch", "Deeper theory and harder problems for strong students"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "How to read an olympiad number theory book" },
+      {
+        kind: 'ul',
+        items: [
+          "Read a section, close the book and reproduce the main theorem and its proof idea from memory.",
+          "Attempt each exercise for at least 20 minutes before looking at a solution.",
+          "Keep a notebook of techniques, such as 'factor and bound', 'work modulo a small prime' and 'parity argument', with an example of each.",
+          "After every block, solve past IOQM problems on the same theme to test transfer.",
+        ],
+      },
+      { kind: 'h2', text: "Avoid these mistakes" },
+      {
+        kind: 'p',
+        text: "Do not start with the hardest problem book. Without the foundations, it feels like a wall. Equally, do not stay in the foundation book forever. Once divisibility and congruences are solid, move to problem sets, because IOQM rewards problem-solving more than theory recital.",
+      },
+      {
+        kind: 'p',
+        text: "If you are unsure where to start, a short diagnostic of divisibility and congruence problems will show which stage fits.",
+      },
+    ],
+    faq: [
+      {
+        question: "Burton or the AoPS book first?",
+        answer: "Burton is more formal and thorough; the AoPS book is more problem-driven and gentler. Either works. Students who like proofs and structure often prefer Burton, while those who learn best by solving prefer AoPS.",
+      },
+      {
+        question: "Is 104 Number Theory Problems enough on its own?",
+        answer: "It is a strong practice book but assumes the foundations. Pair it with a foundation text and past IOQM papers.",
+      },
+      {
+        question: "When should a student start number theory for IOQM?",
+        answer: "Once school algebra is comfortable, usually in Grades 8 to 9. Earlier is fine for students who enjoy it, at a relaxed pace.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-algebra-ioqm",
+    title: "Best Books for Algebra for IOQM",
+    description:
+      "IOQM algebra is not harder school algebra. It is functional equations, inequalities, polynomials and clever manipulation. Here are the books that teach these techniques.",
+    category: "olympiad",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/ioqm-coaching-pune",
+    relatedProgramLabel: "IOQM Coaching",
+    relatedGuides: [
+      { href: "/blog/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry", label: "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry" },
+      { href: "/blog/how-to-study-from-an-ioqm-prep-book-a-real-method", label: "How to Actually Study From an IOQM Prep Book (Not Just Own One)" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "IOQM algebra needs techniques that school does not teach: functional equations, inequalities such as AM-GM and Cauchy-Schwarz, polynomial reasoning and clever substitution. The best books are Functional Equations: A Problem Solving Approach and Inequalities: An Approach Through Problems by B.J. Venkatachala, Challenge and Thrill of Pre-College Mathematics for the Indian olympiad style, and Barbeau's Polynomials. Gelfand and Shen's Algebra helps build the foundations first.",
+      },
+      { kind: 'h2', text: "What IOQM typically tests" },
+      {
+        kind: 'ul',
+        items: [
+          "Inequalities: AM-GM, Cauchy-Schwarz and rearrangement-style ideas.",
+          "Functional equations: substitution, injectivity and finding all functions.",
+          "Polynomials: roots, Vieta's formulas, factorisation and remainder-style arguments.",
+          "Sequences, series and recurrences.",
+          "Manipulation of expressions, absolute value and floor functions.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Stage", "What it gives you"],
+        rows: [
+          ["Algebra", "I.M. Gelfand, A. Shen", "Foundation", "A careful treatment of the basics with thoughtful problems"],
+          ["Challenge and Thrill of Pre-College Mathematics", "Krishnamurthy, Pranesachar, Ranganathan, Venkatachala", "General Indian olympiad text", "Algebra chapters pitched at RMO and IOQM level"],
+          ["Functional Equations: A Problem Solving Approach", "B.J. Venkatachala", "Specialist", "Graded functional-equation problems suited to self-study"],
+          ["Inequalities: An Approach Through Problems", "B.J. Venkatachala", "Specialist", "AM-GM, Cauchy-Schwarz and related techniques with problems"],
+          ["Polynomials", "Edward J. Barbeau", "Stretch", "A deep treatment of polynomial problems"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Why these books and not more school algebra" },
+      {
+        kind: 'p',
+        text: "Functional equations and inequalities are barely touched in the school curriculum, so most students meet them for the first time in olympiad preparation. A book written for the Indian olympiad style, such as Venkatachala's, matches the problems that actually appear.",
+      },
+      { kind: 'h2', text: "A study plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Spend two weeks on Gelfand and Shen if algebra fundamentals are shaky.",
+          "Read the algebra chapters of Challenge and Thrill, solving every example yourself before reading the solution.",
+          "Take functional equations or inequalities as a four-week focus, not both at once.",
+          "Finish by solving past IOQM algebra problems and writing down the technique each one used.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Choose one book at a time and finish it. Partial progress across four books retains far less than a single book worked through deliberately.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which should come first, functional equations or inequalities?",
+        answer: "Inequalities usually appear more often at IOQM level, so many students start there. Functional equations are the sub-topic school never touches, so they are worth a dedicated block as well.",
+      },
+      {
+        question: "Is Algebra by Gelfand and Shen necessary?",
+        answer: "Only if the basics are shaky. It is a good book for understanding why methods work, but it is optional for confident students.",
+      },
+      {
+        question: "Are there free resources too?",
+        answer: "Yes, past IOQM and RMO papers are useful, and many problem discussions exist online. Books give the structured progression that scattered problems do not.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-geometry-ioqm",
+    title: "Best Books for Geometry for IOQM",
+    description:
+      "IOQM geometry is synthetic: angle chasing, cyclic quadrilaterals, similar triangles and clever constructions. Here are the books that teach it, and in what order to read them.",
+    category: "olympiad",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/ioqm-coaching-pune",
+    relatedProgramLabel: "IOQM Coaching",
+    relatedGuides: [
+      { href: "/blog/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry", label: "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry" },
+      { href: "/blog/geometry-problem-solving-techniques-for-maths-olympiads", label: "Geometry Problem-Solving Techniques for Maths Olympiads" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For IOQM geometry, start with the AoPS Introduction to Geometry for foundations, then read Coxeter and Greitzer's Geometry Revisited for classical technique, and move to Evan Chen's Euclidean Geometry in Mathematical Olympiads for problems close to olympiad difficulty. Challenge and Thrill of Pre-College Mathematics gives the Indian olympiad style, while Challenging Problems in Geometry offers extra practice. Pick one main book and commit to it.",
+      },
+      { kind: 'h2', text: "What IOQM typically asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Angle chasing with cyclic quadrilaterals and tangents.",
+          "Similar and congruent triangles, and ratios of lengths and areas.",
+          "Power of a point, the radical axis and common lemmas.",
+          "Area computations and coordinate approaches.",
+          "Constructions and loci in an answer-based format.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Stage", "What it gives you"],
+        rows: [
+          ["Introduction to Geometry (AoPS)", "Richard Rusczyk", "Foundation", "A structured route through triangles, circles and area"],
+          ["Geometry Revisited", "H.S.M. Coxeter, S.L. Greitzer", "Classical technique", "Synthetic methods and famous theorems built from first principles"],
+          ["Euclidean Geometry in Mathematical Olympiads", "Evan Chen", "Olympiad level", "Problem sets and techniques close to current olympiad difficulty"],
+          ["Challenge and Thrill of Pre-College Mathematics", "Krishnamurthy, Pranesachar, Ranganathan, Venkatachala", "Indian style", "Geometry chapters pitched at RMO and IOQM level"],
+          ["Challenging Problems in Geometry", "Posamentier, Salkind", "Practice", "Harder problems with solutions"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Choosing between the two main books" },
+      {
+        kind: 'p',
+        text: "Geometry Revisited builds classical intuition and is gentler on new notation. Evan Chen's book is more explicitly calibrated to modern olympiads and moves faster. Strong students sometimes read the first for foundations and then switch to the second for practice. Pick one as your main book and avoid splitting time equally.",
+      },
+      { kind: 'h2', text: "Study habits that work" },
+      {
+        kind: 'ul',
+        items: [
+          "Draw a large, accurate figure for every problem.",
+          "Before looking at a solution, list the facts you can derive. Often the solution is just the next two steps.",
+          "Record each lemma you use, such as power of a point, and one problem where it worked.",
+          "Revisit solved problems after a week and try to solve them again from scratch.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Geometry is learned by drawing and by repetition, so fewer books worked deeply will serve you better than many skimmed.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need Lemmas in Olympiad Geometry for IOQM?",
+        answer: "Not at first. It is a specialised collection best added after the main book and once the common lemmas are familiar.",
+      },
+      {
+        question: "Is Geometry Revisited too old to be useful?",
+        answer: "No. Its techniques remain central to olympiad geometry, and it teaches the intuition that formula-based approaches miss.",
+      },
+      {
+        question: "When should I attempt past IOQM geometry problems?",
+        answer: "Early and often. Use them after each chapter to test whether the technique transfers to the real style.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-combinatorics-ioqm",
+    title: "Best Books for Combinatorics for IOQM",
+    description:
+      "Combinatorics is the IOQM topic students most often underrate. Here are the books that build systematic counting, pigeonhole and invariant reasoning, and how to use them.",
+    category: "olympiad",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/ioqm-coaching-pune",
+    relatedProgramLabel: "IOQM Coaching",
+    relatedGuides: [
+      { href: "/blog/ioqm-topic-wise-book-guide-number-theory-algebra-combinatorics-geometry", label: "The Topic-Wise IOQM Book Guide: Number Theory, Algebra, Combinatorics & Geometry" },
+      { href: "/blog/combinatorics-for-beginners-counting-techniques-olympiad-maths", label: "Combinatorics for Beginners: Counting Techniques for Olympiad Maths" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For IOQM combinatorics, start with A Path to Combinatorics for Undergraduates by Andreescu and Feng, which builds counting strategies systematically. Practise with 102 Combinatorial Problems by the same authors, use Challenge and Thrill of Pre-College Mathematics for the Indian olympiad style, and add Engel's Problem-Solving Strategies for pigeonhole, invariants and extremal arguments. The AoPS Introduction to Counting and Probability is a gentle bridge from school.",
+      },
+      { kind: 'h2', text: "What IOQM typically asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Permutations, combinations and careful casework.",
+          "Inclusion-exclusion and complementary counting.",
+          "Pigeonhole principle and parity arguments.",
+          "Recurrences, paths and arrangements with restrictions.",
+          "Probability and expected value in answer-based form.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Stage", "What it gives you"],
+        rows: [
+          ["Introduction to Counting and Probability (AoPS)", "David Patrick", "Bridge", "A friendly introduction to counting and probability"],
+          ["A Path to Combinatorics for Undergraduates", "Andreescu, Feng", "Core text", "Counting strategies built up systematically"],
+          ["102 Combinatorial Problems", "Andreescu, Feng", "Practice", "Competition problems with solutions, by technique"],
+          ["Challenge and Thrill of Pre-College Mathematics", "Krishnamurthy, Pranesachar, Ranganathan, Venkatachala", "Indian style", "Combinatorics chapters at RMO and IOQM level"],
+          ["Problem-Solving Strategies", "Arthur Engel", "Stretch", "Pigeonhole, invariants and extremal principle with many problems"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Why school counting is not enough" },
+      {
+        kind: 'p',
+        text: "School-level counting problems look similar to olympiad ones but ask for a different kind of careful, case-based reasoning. Without systematic practice, students rely on formulas and miss problems that need a structural argument.",
+      },
+      { kind: 'h2', text: "How to study" },
+      {
+        kind: 'ul',
+        items: [
+          "Work through one technique at a time, such as pigeonhole, and solve several problems using it.",
+          "Always check small cases first. They reveal the pattern and verify your final answer.",
+          "Write down which technique cracked each problem so you build a mental toolkit.",
+          "Practise past IOQM combinatorics problems regularly to test transfer.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Because answers are numeric, double-check counts by a second method whenever time allows.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is A Path to Combinatorics too hard to start with?",
+        answer: "It is written for strong high-school and undergraduate readers. If it feels heavy, begin with the AoPS counting book and move on afterwards.",
+      },
+      {
+        question: "Do I need probability for IOQM?",
+        answer: "Occasionally, in counting-based form. Learn the basics, but counting and casework are the main focus.",
+      },
+      {
+        question: "How many hours should I give combinatorics each week?",
+        answer: "A few focused hours across several sessions is more effective than one long session, since the topic benefits from repeated exposure.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-number-theory-nmtc",
+    title: "Best Books for Number Theory for NMTC, Level by Level",
+    description:
+      "NMTC runs from Primary to Senior, so the right number-theory book depends on the level. Here is a level-by-level shortlist and how to practise for Part B proofs.",
+    category: "olympiad",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/nmtc-coaching-pune",
+    relatedProgramLabel: "NMTC Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-nmtc-preparation", label: "Best Books and Resources for NMTC Preparation" },
+      { href: "/blog/nmtc-exam-pattern-part-a-part-b-explained", label: "NMTC Exam Pattern: Understanding Part A and Part B" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The right NMTC number-theory book depends on the level. Primary and Sub-Junior students (Classes 5–7) do well with Mathematical Circles and An Excursion in Mathematics. Junior students (Classes 8–9) can move to AoPS material and Burton's Elementary Number Theory with Challenge and Thrill of Pre-College Mathematics. Inter and Senior students (Classes 10–12) benefit from 104 Number Theory Problems and the number-theory sections of Engel's Problem-Solving Strategies, alongside past NMTC papers from AMTI.",
+      },
+      { kind: 'h2', text: "What changes by level" },
+      {
+        kind: 'table',
+        headers: ["NMTC level", "Typical number-theory focus", "Style"],
+        rows: [
+          ["Primary and Sub-Junior (Classes 5–7)", "Factors, multiples, divisibility rules, patterns", "Puzzle-like, short reasoning"],
+          ["Junior (Classes 8–9)", "Primes, remainders, digit and base problems", "Multi-step reasoning"],
+          ["Inter and Senior (Classes 10–12)", "Congruences, Diophantine equations, divisibility proofs", "Proof-based Part B answers"],
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Level", "Notes"],
+        rows: [
+          ["Mathematical Circles", "Fomin, Genkin, Itenberg", "Primary to Junior", "Parity, divisibility and remainders through discussion problems"],
+          ["An Excursion in Mathematics", "Bhaskaracharya Pratishthana", "Primary to Junior", "Well-sequenced Indian text that eases into contest thinking"],
+          ["Introduction to Number Theory (AoPS)", "Mathew Crawford", "Junior to Inter", "Problem-driven introduction with graded exercises"],
+          ["Elementary Number Theory", "David M. Burton", "Junior to Senior", "A rigorous foundation for divisibility, congruences and primes"],
+          ["104 Number Theory Problems", "Andreescu, Andrica, Feng", "Inter and Senior", "Competition problems with full proofs"],
+          ["Problem-Solving Strategies", "Arthur Engel", "Senior", "Number-theory techniques within a broad problem-solving text"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Practising for Part B" },
+      {
+        kind: 'p',
+        text: "NMTC Part B rewards the written argument, so practise writing solutions in full even when working from a book. After each number-theory problem, write the answer as you would for an examiner: state what you are proving, justify each step and finish with a clear conclusion.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Use past NMTC papers for your level, available through AMTI, and attempt them first without looking at solutions.",
+          "Compare your write-up with a model solution and note where yours skipped a justification.",
+          "Ask a mentor to review a few written proofs. Feedback on rigour is hard to get from a book alone.",
+        ],
+      },
+      { kind: 'h2', text: "Match the book to the level" },
+      {
+        kind: 'p',
+        text: "A Class 7 student handed Engel too early usually comes away discouraged. Start where you can solve about half the problems comfortably, then move up as that becomes easy.",
+      },
+    ],
+    faq: [
+      {
+        question: "Where can I get past NMTC papers?",
+        answer: "AMTI publishes past papers, and coaching institutes that prepare students for NMTC often keep organised archives by level.",
+      },
+      {
+        question: "Is Burton too heavy for Class 8 or 9?",
+        answer: "It can be, so use it selectively: read the divisibility and congruence chapters slowly alongside problems, rather than trying to finish the whole book.",
+      },
+      {
+        question: "Do NMTC and IOQM share number-theory preparation?",
+        answer: "Largely yes, especially at Junior and above. Books and techniques overlap heavily, though NMTC Part B places more weight on written proofs.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-algebra-nmtc",
+    title: "Best Books for Algebra for NMTC, Level by Level",
+    description:
+      "NMTC algebra goes from patterns and simple equations at Primary level to functional equations and inequalities at Senior. Here is a level-by-level book guide.",
+    category: "olympiad",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/nmtc-coaching-pune",
+    relatedProgramLabel: "NMTC Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-nmtc-preparation", label: "Best Books and Resources for NMTC Preparation" },
+      { href: "/blog/how-to-write-full-marks-nmtc-part-b-solutions", label: "How to Write Full-Marks NMTC Part B Solutions" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For NMTC algebra, Primary and Sub-Junior students (Classes 5–7) should use Mathematical Circles, An Excursion in Mathematics and AoPS Prealgebra. Junior students (Classes 8–9) can add AoPS Introduction to Algebra and Challenge and Thrill of Pre-College Mathematics. Inter and Senior students (Classes 10–12) should work with Venkatachala's Functional Equations and Inequalities books, Barbeau's Polynomials and Engel's Problem-Solving Strategies, writing full solutions for Part B.",
+      },
+      { kind: 'h2', text: "Algebra by level" },
+      {
+        kind: 'table',
+        headers: ["NMTC level", "Typical algebra focus", "Books to use"],
+        rows: [
+          ["Primary and Sub-Junior (Classes 5–7)", "Patterns, simple equations, ratios, word problems", "Mathematical Circles, An Excursion in Mathematics, AoPS Prealgebra"],
+          ["Junior (Classes 8–9)", "Linear and quadratic equations, identities, sequences", "AoPS Introduction to Algebra, Challenge and Thrill"],
+          ["Inter and Senior (Classes 10–12)", "Inequalities, functional equations, polynomials", "Venkatachala (two books), Barbeau, Engel"],
+        ],
+      },
+      { kind: 'h2', text: "Book notes" },
+      {
+        kind: 'ul',
+        items: [
+          "Mathematical Circles (Fomin, Genkin, Itenberg) builds reasoning that carries into algebra.",
+          "An Excursion in Mathematics (Bhaskaracharya Pratishthana) eases students into contest thinking.",
+          "Introduction to Algebra (Rusczyk) covers equations, quadratics and inequalities with graded exercises.",
+          "Functional Equations: A Problem Solving Approach and Inequalities: An Approach Through Problems (both B.J. Venkatachala) suit Inter and Senior preparation.",
+          "Polynomials (Edward J. Barbeau) is a deep stretch for strong Senior students.",
+          "Problem-Solving Strategies (Arthur Engel) is a broad problem-solving text for proof-writing practice.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Practising for Part B" },
+      {
+        kind: 'p',
+        text: "NMTC Part B rewards the argument, so practise writing algebra solutions in full. After solving, rewrite the solution so a reader could follow every step, and state clearly when you use a result such as AM-GM or Vieta's formulas.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Attempt past NMTC papers for your level, available through AMTI.",
+          "Compare your write-up with a model solution and note where yours skipped a justification.",
+          "Ask a mentor to check a few written solutions each month.",
+        ],
+      },
+      { kind: 'h2', text: "Choose the level, not the ambition" },
+      {
+        kind: 'p',
+        text: "A student who finds half the problems in a book comfortable is ready for it. If most problems feel impossible, step back one level and return later.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need separate books for NMTC and IOQM algebra?",
+        answer: "Mostly no. The books overlap heavily, especially for Junior and above. NMTC Part B puts more weight on the written solution.",
+      },
+      {
+        question: "Should Primary level students use algebra books at all?",
+        answer: "Use puzzle-style books that build reasoning rather than formal algebra, and keep sessions short and enjoyable.",
+      },
+      {
+        question: "How can I check whether my written solution is rigorous?",
+        answer: "Ask a teacher or mentor to mark it against the question, or compare it line by line with an official solution and look for any step you did not justify.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-geometry-nmtc",
+    title: "Best Books for Geometry for NMTC, Level by Level",
+    description:
+      "NMTC geometry grows from shapes and area at Primary level to proof-writing at Senior. Here is a level-by-level book list and a plan for Part B proofs.",
+    category: "olympiad",
+    datePublished: '2026-11-01',
+    readingMinutes: 4,
+    relatedProgramHref: "/nmtc-coaching-pune",
+    relatedProgramLabel: "NMTC Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-nmtc-preparation", label: "Best Books and Resources for NMTC Preparation" },
+      { href: "/blog/nmtc-exam-pattern-part-a-part-b-explained", label: "NMTC Exam Pattern: Understanding Part A and Part B" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For NMTC geometry, Primary and Sub-Junior students (Classes 5–7) should use Mathematical Circles, An Excursion in Mathematics and the geometry chapters of AoPS Prealgebra. Junior students (Classes 8–9) can add AoPS Introduction to Geometry and Challenge and Thrill of Pre-College Mathematics. Inter and Senior students (Classes 10–12) benefit from Geometry Revisited, Challenging Problems in Geometry and Evan Chen's book, writing full proofs for Part B.",
+      },
+      { kind: 'h2', text: "Geometry by level" },
+      {
+        kind: 'table',
+        headers: ["NMTC level", "Typical geometry focus", "Books to use"],
+        rows: [
+          ["Primary and Sub-Junior (Classes 5–7)", "Shapes, angles, area, perimeter, symmetry", "Mathematical Circles, An Excursion in Mathematics, AoPS Prealgebra"],
+          ["Junior (Classes 8–9)", "Triangles, circles, similarity, Pythagoras", "AoPS Introduction to Geometry, Challenge and Thrill"],
+          ["Inter and Senior (Classes 10–12)", "Proofs, cyclic quadrilaterals, constructions", "Geometry Revisited, Challenging Problems in Geometry, Evan Chen"],
+        ],
+      },
+      { kind: 'h2', text: "Book notes" },
+      {
+        kind: 'ul',
+        items: [
+          "Introduction to Geometry (Richard Rusczyk) is a structured route through triangles, circles and area.",
+          "Geometry Revisited (Coxeter and Greitzer) is a classic for synthetic proofs and genuine geometric argument.",
+          "Challenging Problems in Geometry (Posamentier and Salkind) offers harder problems with solutions.",
+          "Euclidean Geometry in Mathematical Olympiads (Evan Chen) suits strong Senior students aiming at INMO-level problems.",
+          "Past NMTC papers for your level, available through AMTI, show the real expectations.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Writing geometry proofs for Part B" },
+      {
+        kind: 'p',
+        text: "Part B rewards the argument, so geometry practice must include writing. Draw a clear figure, state what you are proving, justify every angle or length with a named theorem and finish with a conclusion.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Label every point in the figure and refer to it in the proof.",
+          "Name the theorem each time you use one, such as 'angles in the same segment'.",
+          "Avoid relying on the picture alone, because a diagram can mislead.",
+          "Ask a mentor to check a few written proofs. Feedback on rigour is hard to get from a book.",
+        ],
+      },
+      { kind: 'h2', text: "Choose the level, not the ambition" },
+      {
+        kind: 'p',
+        text: "If most problems in a book feel impossible, step back one level and return later. Steady progress through well-matched books beats struggling with advanced ones.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to draw figures to scale for Part B?",
+        answer: "Draw them clearly, but do not rely on scale. Your proof must hold from the given facts, not from how the picture looks.",
+      },
+      {
+        question: "Is Evan Chen's book too hard for Class 10?",
+        answer: "It can be. Use it for strong students who have worked through an introductory geometry book and are comfortable with angle chasing.",
+      },
+      {
+        question: "How much geometry practice is enough?",
+        answer: "Regular, steady practice across several months, with written proofs checked by a mentor, is more effective than occasional long sessions.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-combinatorics-nmtc",
+    title: "Best Books for Combinatorics for NMTC, Level by Level",
+    description:
+      "NMTC combinatorics goes from simple counting at Primary level to pigeonhole and invariants at Senior. Here is a level-by-level list and how to write clean Part B arguments.",
+    category: "olympiad",
+    datePublished: '2026-11-01',
+    readingMinutes: 4,
+    relatedProgramHref: "/nmtc-coaching-pune",
+    relatedProgramLabel: "NMTC Coaching",
+    relatedGuides: [
+      { href: "/blog/best-books-resources-nmtc-preparation", label: "Best Books and Resources for NMTC Preparation" },
+      { href: "/blog/how-to-write-full-marks-nmtc-part-b-solutions", label: "How to Write Full-Marks NMTC Part B Solutions" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For NMTC combinatorics, Primary and Sub-Junior students (Classes 5–7) should use Mathematical Circles and An Excursion in Mathematics. Junior students (Classes 8–9) can add the AoPS Introduction to Counting and Probability. Inter and Senior students (Classes 10–12) benefit from Engel's Problem-Solving Strategies, the Yaglom brothers' Challenging Mathematical Problems with Elementary Solutions, Volume 1, and 102 Combinatorial Problems, writing complete arguments for Part B.",
+      },
+      { kind: 'h2', text: "Combinatorics by level" },
+      {
+        kind: 'table',
+        headers: ["NMTC level", "Typical focus", "Books to use"],
+        rows: [
+          ["Primary and Sub-Junior (Classes 5–7)", "Organised listing, simple arrangements, logic", "Mathematical Circles, An Excursion in Mathematics"],
+          ["Junior (Classes 8–9)", "Permutations, combinations, simple probability", "AoPS Introduction to Counting and Probability, Challenge and Thrill"],
+          ["Inter and Senior (Classes 10–12)", "Pigeonhole, invariants, casework with proofs", "Engel, Yaglom Vol. 1, 102 Combinatorial Problems"],
+        ],
+      },
+      { kind: 'h2', text: "Book notes" },
+      {
+        kind: 'ul',
+        items: [
+          "Mathematical Circles (Fomin, Genkin, Itenberg) trains organised thinking and the pigeonhole principle.",
+          "Introduction to Counting and Probability (David Patrick) is a clear step into permutations and combinations.",
+          "Challenging Mathematical Problems with Elementary Solutions, Volume 1 (A.M. Yaglom and I.M. Yaglom) covers combinatorial analysis and probability with elegant solutions.",
+          "102 Combinatorial Problems (Andreescu, Feng) provides competition-style practice.",
+          "Problem-Solving Strategies (Arthur Engel) covers invariants, extremal arguments and pigeonhole in depth.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Editions, reprints and availability in India vary, so check the table of contents of the edition you are buying against the topics you need.",
+      },
+      { kind: 'h2', text: "Writing combinatorics for Part B" },
+      {
+        kind: 'p',
+        text: "In combinatorics, the common failure is a correct answer with no justification. Part B rewards the argument, so explain why each case is distinct and why none is missing.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "State your counting method before you start.",
+          "Split into cases that clearly do not overlap and cover every possibility.",
+          "For existence or impossibility, state the principle used, such as pigeonhole or parity.",
+          "Attempt past NMTC papers for your level and compare your write-up with a model solution.",
+        ],
+      },
+      { kind: 'h2', text: "Choose the level, not the ambition" },
+      {
+        kind: 'p',
+        text: "Combinatorics at the Senior level can be very abstract. Move up only when you can solve most problems at your current level without hints.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is combinatorics a big part of NMTC?",
+        answer: "It appears across levels, alongside number theory, algebra and geometry. The exact mix varies by paper, so practise all four areas.",
+      },
+      {
+        question: "Is the Yaglom book too advanced for Class 10?",
+        answer: "It can be challenging but is accessible to motivated students. Start with the earlier chapters and work at your own pace.",
+      },
+      {
+        question: "How do I show that no cases are missing?",
+        answer: "Define your cases by a clear criterion, such as the value of one variable, and note that every possibility falls into exactly one case.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
