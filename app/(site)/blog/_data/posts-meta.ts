@@ -3644,5 +3644,205 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-11-01",
     readingMinutes: 4
+  },
+  {
+    slug: "best-sat-math-books-official-first-bluebook-and-study-guide",
+    title: "Best Books for SAT Maths: Start With the Official Digital SAT Study Guide and Bluebook",
+    description: "Before buying any third-party prep book, build your SAT Maths plan on the official materials. Here is what to use first and why it beats most alternatives.",
+    category: "sat-exam",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-sat-reading-writing-books-official-materials-first",
+    title: "Best Books for SAT Reading and Writing: Start With Official Materials",
+    description: "The Digital SAT English section looks different from the old paper test. Here is why official materials come first and which resources to add for grammar and vocabulary.",
+    category: "sat-exam",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-in-the-us-registration-test-day-score-reports-guide",
+    title: "SAT in the US: How Registration, Test Day and Score Reports Work",
+    description: "A clear walkthrough of the Digital SAT process for students in the United States, from creating a College Board account to sending scores to colleges.",
+    category: "sat-exam",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-in-india-registration-test-centres-id-test-day-checklist",
+    title: "SAT in India: Registration, Test Centres, ID and a Test-Day Checklist",
+    description: "A practical guide for students in India: how to register for the Digital SAT, how to choose a test centre in Pune or another city, what ID to carry and what to do on test day.",
+    category: "sat-exam",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-in-singapore-registration-test-centres-test-day-checklist",
+    title: "SAT in Singapore: Registration, Test Centres and a Test-Day Checklist",
+    description: "A practical guide for students in Singapore: how to register for the Digital SAT, how to find a test centre, what to bring and how to plan around school exams.",
+    category: "sat-exam",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-third-party-sat-math-prep-books-how-to-choose-a-digital-edition",
+    title: "Best Third-Party SAT Maths Prep Books: How to Choose a Digital-Era Edition",
+    description: "Princeton Review, Barron's, Kaplan and others publish SAT books, but not every edition fits the digital test. Here is how to choose one and how to use it without wasting time.",
+    category: "sat-exam",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-sat-grammar-standard-english-conventions",
+    title: "Best Books for SAT Grammar and Standard English Conventions",
+    description: "Grammar is the most learnable part of SAT English. Here are the books that cover the rules the test checks, and how to turn them into points.",
+    category: "sat-exam",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "test-optional-test-flexible-test-required-how-us-colleges-treat-sat",
+    title: "Test-Optional, Test-Flexible or Test-Required: How US Colleges Treat the SAT Now",
+    description: "US college testing policies have shifted in recent years. Here is how to read them, what each term means, and how to decide whether to submit a score.",
+    category: "sat-exam",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "which-universities-accept-the-sat-options-for-indian-students",
+    title: "Which Universities Accept the SAT? Options for Indian Students in the US, India, Canada and Beyond",
+    description: "The SAT is not only for US colleges. Here is how to find which universities in the US, India and other countries accept or consider SAT scores, and how to check.",
+    category: "sat-exam",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-for-singapore-international-school-students-ib-igcse-a-level-ap",
+    title: "SAT for Singapore International-School Students: Where It Fits With IB, IGCSE, A-Level and AP",
+    description: "Students at international schools in Singapore follow different curricula. Here is how the SAT fits alongside each one, and how to schedule it.",
+    category: "sat-exam",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-resources-sat-algebra-advanced-math",
+    title: "Best Books and Resources for SAT Algebra and Advanced Math",
+    description: "Algebra and Advanced Math make up a large share of the Digital SAT Maths section. Here are the books and tools that build the skills, from foundations to hard questions.",
+    category: "sat-exam",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-reading-lists-sat-vocabulary-words-in-context",
+    title: "Best Books and Reading Lists for SAT Vocabulary and Words in Context",
+    description: "SAT vocabulary is about meaning in context, not memorising long word lists. Here are the books and reading habits that build it.",
+    category: "sat-exam",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-superscore-score-choice-and-merit-aid-how-us-colleges-use-multiple-scores",
+    title: "SAT Superscoring, Score Choice and Merit Aid: How US Colleges Use Multiple Scores",
+    description: "Taking the SAT more than once changes how colleges see your results. Here is what superscoring and Score Choice mean, and how scores can affect scholarships.",
+    category: "sat-exam",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "how-us-admissions-read-cbse-icse-ib-igcse-transcripts-with-your-sat",
+    title: "How US Admissions Read CBSE, ICSE, IB and IGCSE Transcripts Alongside Your SAT",
+    description: "Your SAT score is read together with your school record. Here is how Indian curricula appear in a US application, and how to present them clearly.",
+    category: "sat-exam",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "singapore-maths-vs-the-digital-sat-what-transfers-and-what-doesnt",
+    title: "Singapore Maths vs the Digital SAT: What Transfers and What Does Not",
+    description: "Students trained in Singapore maths often have strong algebra and problem-solving. Here is where that helps on the SAT, and the data and context-based questions that need extra practice.",
+    category: "sat-exam",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-resources-sat-problem-solving-data-analysis-geometry-trig",
+    title: "Best Resources for SAT Problem-Solving, Data Analysis, Geometry and Trigonometry",
+    description: "These two domains look different from school maths. Here are the resources that cover statistics, percentages, geometry and trigonometry in SAT style.",
+    category: "sat-exam",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-resources-sat-information-ideas-craft-structure-reading-practice",
+    title: "Best Resources for SAT Information and Ideas and Craft and Structure Questions",
+    description: "These two domains make up much of the Reading and Writing section. Here are the resources and reading habits that train inference, evidence and structure.",
+    category: "sat-exam",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-timeline-for-us-juniors-psat-fall-to-spring-retakes",
+    title: "SAT Timeline for US Juniors: From the PSAT in the Fall to Retakes by Spring",
+    description: "A month-by-month plan for US students in 11th grade, from the PSAT through the first SAT and a retake before application season.",
+    category: "sat-exam",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "online-or-classroom-sat-coaching-in-pune-how-to-choose",
+    title: "Online or Classroom SAT Coaching in Pune: How to Choose",
+    description: "Students in Pune can prepare for the SAT online, in a classroom or on their own. Here is what to compare before you choose, and what to ask any coaching centre.",
+    category: "sat-exam",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "do-singapore-universities-accept-the-sat-nus-ntu-smu-international-route",
+    title: "Do Singapore Universities Accept the SAT? NUS, NTU, SMU and the International-Applicant Route",
+    description: "Students in Singapore often ask whether the SAT counts locally. The answer depends on your qualification and the university, so here is how to check the right way.",
+    category: "sat-exam",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-sat-math-books-by-target-score-1200-1400-1500-plus",
+    title: "Best SAT Maths Books and Resources by Target Score: 1200, 1400 and 1500+",
+    description: "What to use depends on where you start. Here is a score-band guide to the books and resources that fit a student aiming for 600, 700 or 750+ in SAT Maths.",
+    category: "sat-exam",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-sat-english-books-resources-by-reading-writing-score-band",
+    title: "Best SAT English Books and Resources by Score Band: 600, 700 and 750+",
+    description: "What to use depends on where you start. Here is a score-band guide to the resources that fit a student aiming for 600, 700 or 750+ in Reading and Writing.",
+    category: "sat-exam",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-vs-act-for-us-students-a-practical-way-to-choose",
+    title: "SAT vs ACT for US Students: A Practical Way to Choose",
+    description: "Both tests are widely accepted by US colleges. Here is a simple, evidence-based method for deciding which one to focus on, using practice tests instead of reputation.",
+    category: "sat-exam",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "planning-the-cost-of-the-sat-from-india-registration-retakes-score-sends",
+    title: "Planning the Cost of the SAT From India: Registration, Retakes and Score Sends",
+    description: "The SAT has several cost components, and costs add up with retakes and score reports. Here is how to plan a realistic budget without relying on figures that go out of date.",
+    category: "sat-exam",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "sat-prep-timeline-for-singapore-students-around-school-and-exam-calendars",
+    title: "SAT Prep Timeline for Singapore Students: Planning Around School and Exam Calendars",
+    description: "Singapore's school year has busy exam periods. Here is a timeline that fits SAT preparation around them, with start points for different grades.",
+    category: "sat-exam",
+    datePublished: "2026-11-01",
+    readingMinutes: 4
   }
 ];
