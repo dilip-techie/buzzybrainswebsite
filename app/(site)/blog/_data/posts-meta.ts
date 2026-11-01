@@ -3124,5 +3124,205 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-10-16",
     readingMinutes: 8
+  },
+  {
+    slug: "cbse-step-marking-why-answer-writing-needs-marked-practice",
+    title: "CBSE Awards Marks by Steps: Why Answer Writing Needs Marked Practice, Not Just Solved Examples",
+    description: "CBSE marking schemes split one answer into small, separately awarded steps. Here is why reading solutions is not enough, and how marked test-series papers train the habit examiners reward.",
+    category: "board-exams",
+    datePublished: "2026-10-18",
+    readingMinutes: 4
+  },
+  {
+    slug: "icse-attempt-any-four-of-six-question-choice-is-a-skill",
+    title: "'Attempt Any 4 of 6': Why Choosing Questions Is an ICSE Skill You Can Only Train With Timed Papers",
+    description: "ICSE papers hand you a choice in Section B. Choosing well, quickly and without switching halfway is a skill of its own. Here is how timed mock papers build it.",
+    category: "board-exams",
+    datePublished: "2026-10-18",
+    readingMinutes: 4
+  },
+  {
+    slug: "ssc-algebra-geometry-two-papers-two-strategies-mock-practice",
+    title: "Two Maths Papers, Two Strategies: Why SSC Algebra and Geometry Need Separate Mock Practice",
+    description: "Maharashtra's SSC examines Mathematics as two separate 40-mark papers. Algebra and Geometry reward different habits, and a test series that mirrors the split helps you prepare for each.",
+    category: "board-exams",
+    datePublished: "2026-10-19",
+    readingMinutes: 4
+  },
+  {
+    slug: "igcse-science-paper-6-alternative-to-practical-needs-its-own-practice",
+    title: "IGCSE Science Paper 6: Why the Alternative-to-Practical Paper Needs Its Own Practice",
+    description: "Many Cambridge IGCSE science candidates sit a written paper that tests practical skills. It is not the same as the theory paper, and it rewards specific habits. Here is how mocks prepare you for it.",
+    category: "board-exams",
+    datePublished: "2026-10-19",
+    readingMinutes: 4
+  },
+  {
+    slug: "ib-core-points-tok-extended-essay-worth-three-subject-grades",
+    title: "The Three Core Points: Why TOK and the Extended Essay Are Worth Rehearsing Too",
+    description: "TOK and the Extended Essay can add up to three points to an IB Diploma total, as much as lifting three subjects by a grade. Here is why they deserve review, not just completion.",
+    category: "board-exams",
+    datePublished: "2026-10-20",
+    readingMinutes: 4
+  },
+  {
+    slug: "cbse-full-syllabus-mocks-vs-chapter-tests-what-you-will-remember",
+    title: "Chapter Tests Show What You Know This Week. Full-Syllabus CBSE Mocks Show What You Will Remember in March",
+    description: "Chapter-wise tests are useful, but the board paper mixes the entire syllabus without warning. Here is why full-syllabus mocks catch what chapter tests cannot.",
+    category: "board-exams",
+    datePublished: "2026-10-20",
+    readingMinutes: 4
+  },
+  {
+    slug: "icse-internal-assessment-20-marks-written-paper-80-where-test-series-fits",
+    title: "ICSE Internal Assessment Covers 20 Marks, the Written Paper 80: Where a Test Series Fits",
+    description: "For many ICSE subjects the written paper carries 80 marks and the school's internal assessment 20. The written paper is where students differ most, and where practice pays off.",
+    category: "board-exams",
+    datePublished: "2026-10-21",
+    readingMinutes: 4
+  },
+  {
+    slug: "ssc-science-1-and-science-2-two-papers-physics-chemistry-biology",
+    title: "Science I and Science II: How to Prepare for Two Separate SSC Science Papers",
+    description: "SSC Science is examined as two papers: Physics and Chemistry in one, Biology in the other. Preparing for each paper separately, under timed conditions, changes how marks are won.",
+    category: "board-exams",
+    datePublished: "2026-10-21",
+    readingMinutes: 4
+  },
+  {
+    slug: "igcse-command-words-state-describe-explain-suggest-why-mocks-teach-them",
+    title: "Command Words in IGCSE: 'State', 'Describe', 'Explain', 'Suggest' and Why Mock Papers Teach the Difference",
+    description: "Cambridge papers use specific command words, and each one asks for a different kind of answer. Students who mix them up lose marks despite knowing the content.",
+    category: "board-exams",
+    datePublished: "2026-10-22",
+    readingMinutes: 4
+  },
+  {
+    slug: "ib-command-terms-evaluate-discuss-to-what-extent-decide-your-mark",
+    title: "IB Command Terms: How 'Evaluate', 'Discuss' and 'To What Extent' Decide Your Mark",
+    description: "IB examiners mark against the command term in each question. Answering the right content at the wrong depth is a common reason for lost marks, and mocks show it clearly.",
+    category: "board-exams",
+    datePublished: "2026-10-22",
+    readingMinutes: 4
+  },
+  {
+    slug: "why-school-marks-and-cbse-board-marks-can-differ",
+    title: "Why School Marks and CBSE Board Marks Can Differ, and What an Outside Test Series Reveals",
+    description: "A strong school report card does not always translate into the same board result. Here are the structural reasons, and how an independent mock series gives a more honest read.",
+    category: "board-exams",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "icse-english-language-literature-why-writing-needs-a-marker",
+    title: "ICSE English: Why Essays, Letters and Literature Answers Need a Marker, Not Just a Model Answer",
+    description: "Maths can be checked against a key; English writing cannot. Here is why timed, marked practice matters for ICSE English Language and Literature, and what examiners reward.",
+    category: "board-exams",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "maharashtra-board-balbharati-textbook-exact-answers-mock-practice",
+    title: "Textbook-Exact Answers: Why the Balbharati Book Is the Maharashtra Board Syllabus, and How Mocks Train It",
+    description: "Maharashtra Board papers draw heavily on the state textbook. Knowing its definitions, exercises and diagrams well is half the work; writing them accurately under time is the other half.",
+    category: "board-exams",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "igcse-multiple-choice-papers-speed-accuracy-practice",
+    title: "The IGCSE Multiple-Choice Papers: Why Speed and Accuracy Need Their Own Practice",
+    description: "The multiple-choice papers look easy but reward a different kind of preparation: reading carefully, eliminating options and managing time over many short questions.",
+    category: "board-exams",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "ib-paper-1-paper-2-paper-3-different-skills-in-one-subject",
+    title: "Paper 1, Paper 2, Paper 3: Different Skills Hidden in the Same IB Subject",
+    description: "IB subjects are assessed through several papers that test different skills, from speed and accuracy to extended reasoning. Preparing for each separately matters.",
+    category: "board-exams",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "cbse-test-series-for-average-students-60-to-75-percent",
+    title: "A CBSE Test Series Is Not Only for Toppers: How It Helps the 60–75% Student",
+    description: "Many families assume mock papers are for high scorers. In fact, students in the middle band often have the most to gain. Here is how, and what a series can honestly promise.",
+    category: "board-exams",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "isc-class-12-science-papers-70-theory-30-practical-adapting-with-mocks",
+    title: "ISC Class 12 Science: Adapting to Longer, Deeper Papers With Mock Practice",
+    description: "ISC science papers ask for more depth than ICSE ones, and a large share of marks sits in practicals. Here is why a mock series helps students adjust to the jump.",
+    category: "board-exams",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "hsc-commerce-accountancy-precision-marked-practice",
+    title: "HSC Commerce: Why Accountancy Rewards Precision and Marked Practice",
+    description: "Accountancy marks depend on format, working and accuracy, and a single misplaced figure can ripple through a solution. Here is how marked practice changes the way HSC Commerce students approach it.",
+    category: "board-exams",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "igcse-grades-and-grade-11-options-why-they-open-or-close-doors",
+    title: "IGCSE Grades and Grade 11 Options: Why They Can Open or Close Doors",
+    description: "IGCSE results often influence which subjects and levels a student can take next. Here is why the final grade matters beyond the certificate, and how mocks help you reach it.",
+    category: "board-exams",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "ib-diploma-points-arithmetic-24-to-45-why-every-point-counts",
+    title: "The IB Diploma Points Arithmetic: Why Every Point Counts Between 24 and 45",
+    description: "The IB Diploma is a sum of small parts. Understanding how the total is built shows why a single grade, in one subject, can matter, and why mock results deserve attention.",
+    category: "board-exams",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "why-your-first-cbse-mock-should-feel-hard-baseline-diagnostic",
+    title: "Why Your First CBSE Mock Should Feel Hard: The Value of a Baseline Diagnostic",
+    description: "A low first score is not a failure. It is the most useful number in a series, because everything after it is measured against it. Here is how to take a baseline and use it.",
+    category: "board-exams",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "icse-history-civics-why-learn-it-subjects-need-timed-mock-practice",
+    title: "ICSE History & Civics: Why a “Learn-It” Subject Still Needs Timed Mock Practice",
+    description: "History & Civics is often treated as the easy subject: learn it and write it. Here is why timed, marked practice still changes the result.",
+    category: "board-exams",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "ssc-marks-and-junior-college-admission-why-every-mark-counts-maharashtra",
+    title: "SSC Marks and Junior College Admission: Why Every Mark Counts in Maharashtra",
+    description: "In many Maharashtra cities, Class 11 admission is merit-based on SSC marks. That makes the difference between a few marks and a few more a real difference in college choices.",
+    category: "board-exams",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "cambridge-igcse-vs-edexcel-international-gcse-why-mocks-must-match-your-board",
+    title: "Cambridge IGCSE vs Edexcel International GCSE: Why Mock Papers Must Match Your Exact Board",
+    description: "The two boards share a name but not a paper structure. Practising on the wrong format wastes time and gives misleading results. Here is how to make sure your mocks fit.",
+    category: "board-exams",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "six-subjects-one-term-scheduling-ib-mock-papers-without-burnout",
+    title: "Six Subjects, One Term: How to Schedule IB Mock Papers Without Burning Out",
+    description: "DP2 students juggle six subjects, internal assessments, the Extended Essay and CAS. Here is a realistic way to fit mock papers in without overload.",
+    category: "board-exams",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
   }
 ];

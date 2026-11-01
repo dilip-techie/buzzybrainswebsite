@@ -3077,7 +3077,7 @@
     "category": "Olympiad",
     "path": "/images/og/amc-8-12-week-countdown-plan-january-2027.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AMC 8: What to Study (and What to Skip) in the Last 90 Days",
@@ -3085,7 +3085,7 @@
     "category": "Olympiad",
     "path": "/images/og/amc-8-topic-priority-last-90-days-what-to-study.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "The AMC 8 Mock-Test Method: Turn Every Practice Paper Into Marks",
@@ -3093,7 +3093,7 @@
     "category": "Olympiad",
     "path": "/images/og/amc-8-mock-test-method-error-log-last-10-weeks.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "40 Minutes, 25 Questions: The AMC 8 Pacing Plan That Saves Marks",
@@ -3101,13 +3101,213 @@
     "category": "Olympiad",
     "path": "/images/og/amc-8-pacing-40-minutes-25-questions-three-pass.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AMC 8 Final Week and Exam-Day Playbook for Students and Parents",
     "slug": "amc-8-final-week-exam-day-playbook-students-parents",
     "category": "Olympiad",
     "path": "/images/og/amc-8-final-week-exam-day-playbook-students-parents.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "CBSE Awards Marks by Steps: Why Answer Writing Needs Marked Practice, Not Just Solved Examples",
+    "slug": "cbse-step-marking-why-answer-writing-needs-marked-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/cbse-step-marking-why-answer-writing-needs-marked-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "'Attempt Any 4 of 6': Why Choosing Questions Is an ICSE Skill You Can Only Train With Timed Papers",
+    "slug": "icse-attempt-any-four-of-six-question-choice-is-a-skill",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/icse-attempt-any-four-of-six-question-choice-is-a-skill.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Two Maths Papers, Two Strategies: Why SSC Algebra and Geometry Need Separate Mock Practice",
+    "slug": "ssc-algebra-geometry-two-papers-two-strategies-mock-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ssc-algebra-geometry-two-papers-two-strategies-mock-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IGCSE Science Paper 6: Why the Alternative-to-Practical Paper Needs Its Own Practice",
+    "slug": "igcse-science-paper-6-alternative-to-practical-needs-its-own-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/igcse-science-paper-6-alternative-to-practical-needs-its-own-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Three Core Points: Why TOK and the Extended Essay Are Worth Rehearsing Too",
+    "slug": "ib-core-points-tok-extended-essay-worth-three-subject-grades",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ib-core-points-tok-extended-essay-worth-three-subject-grades.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Chapter Tests Show What You Know This Week. Full-Syllabus CBSE Mocks Show What You Will Remember in March",
+    "slug": "cbse-full-syllabus-mocks-vs-chapter-tests-what-you-will-remember",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/cbse-full-syllabus-mocks-vs-chapter-tests-what-you-will-remember.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "ICSE Internal Assessment Covers 20 Marks, the Written Paper 80: Where a Test Series Fits",
+    "slug": "icse-internal-assessment-20-marks-written-paper-80-where-test-series-fits",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/icse-internal-assessment-20-marks-written-paper-80-where-test-series-fits.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Science I and Science II: How to Prepare for Two Separate SSC Science Papers",
+    "slug": "ssc-science-1-and-science-2-two-papers-physics-chemistry-biology",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ssc-science-1-and-science-2-two-papers-physics-chemistry-biology.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Command Words in IGCSE: 'State', 'Describe', 'Explain', 'Suggest' and Why Mock Papers Teach the Difference",
+    "slug": "igcse-command-words-state-describe-explain-suggest-why-mocks-teach-them",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/igcse-command-words-state-describe-explain-suggest-why-mocks-teach-them.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IB Command Terms: How 'Evaluate', 'Discuss' and 'To What Extent' Decide Your Mark",
+    "slug": "ib-command-terms-evaluate-discuss-to-what-extent-decide-your-mark",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ib-command-terms-evaluate-discuss-to-what-extent-decide-your-mark.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why School Marks and CBSE Board Marks Can Differ, and What an Outside Test Series Reveals",
+    "slug": "why-school-marks-and-cbse-board-marks-can-differ",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/why-school-marks-and-cbse-board-marks-can-differ.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "ICSE English: Why Essays, Letters and Literature Answers Need a Marker, Not Just a Model Answer",
+    "slug": "icse-english-language-literature-why-writing-needs-a-marker",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/icse-english-language-literature-why-writing-needs-a-marker.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Textbook-Exact Answers: Why the Balbharati Book Is the Maharashtra Board Syllabus, and How Mocks Train It",
+    "slug": "maharashtra-board-balbharati-textbook-exact-answers-mock-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/maharashtra-board-balbharati-textbook-exact-answers-mock-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The IGCSE Multiple-Choice Papers: Why Speed and Accuracy Need Their Own Practice",
+    "slug": "igcse-multiple-choice-papers-speed-accuracy-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/igcse-multiple-choice-papers-speed-accuracy-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Paper 1, Paper 2, Paper 3: Different Skills Hidden in the Same IB Subject",
+    "slug": "ib-paper-1-paper-2-paper-3-different-skills-in-one-subject",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ib-paper-1-paper-2-paper-3-different-skills-in-one-subject.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "A CBSE Test Series Is Not Only for Toppers: How It Helps the 60–75% Student",
+    "slug": "cbse-test-series-for-average-students-60-to-75-percent",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/cbse-test-series-for-average-students-60-to-75-percent.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "ISC Class 12 Science: Adapting to Longer, Deeper Papers With Mock Practice",
+    "slug": "isc-class-12-science-papers-70-theory-30-practical-adapting-with-mocks",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/isc-class-12-science-papers-70-theory-30-practical-adapting-with-mocks.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "HSC Commerce: Why Accountancy Rewards Precision and Marked Practice",
+    "slug": "hsc-commerce-accountancy-precision-marked-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/hsc-commerce-accountancy-precision-marked-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IGCSE Grades and Grade 11 Options: Why They Can Open or Close Doors",
+    "slug": "igcse-grades-and-grade-11-options-why-they-open-or-close-doors",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/igcse-grades-and-grade-11-options-why-they-open-or-close-doors.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The IB Diploma Points Arithmetic: Why Every Point Counts Between 24 and 45",
+    "slug": "ib-diploma-points-arithmetic-24-to-45-why-every-point-counts",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ib-diploma-points-arithmetic-24-to-45-why-every-point-counts.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Why Your First CBSE Mock Should Feel Hard: The Value of a Baseline Diagnostic",
+    "slug": "why-your-first-cbse-mock-should-feel-hard-baseline-diagnostic",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/why-your-first-cbse-mock-should-feel-hard-baseline-diagnostic.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "ICSE History & Civics: Why a “Learn-It” Subject Still Needs Timed Mock Practice",
+    "slug": "icse-history-civics-why-learn-it-subjects-need-timed-mock-practice",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/icse-history-civics-why-learn-it-subjects-need-timed-mock-practice.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SSC Marks and Junior College Admission: Why Every Mark Counts in Maharashtra",
+    "slug": "ssc-marks-and-junior-college-admission-why-every-mark-counts-maharashtra",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/ssc-marks-and-junior-college-admission-why-every-mark-counts-maharashtra.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Cambridge IGCSE vs Edexcel International GCSE: Why Mock Papers Must Match Your Exact Board",
+    "slug": "cambridge-igcse-vs-edexcel-international-gcse-why-mocks-must-match-your-board",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/cambridge-igcse-vs-edexcel-international-gcse-why-mocks-must-match-your-board.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Six Subjects, One Term: How to Schedule IB Mock Papers Without Burning Out",
+    "slug": "six-subjects-one-term-scheduling-ib-mock-papers-without-burnout",
+    "category": "Board Exam Test Series",
+    "path": "/images/og/six-subjects-one-term-scheduling-ib-mock-papers-without-burnout.png",
     "dimensions": "1200x630",
     "status": "created"
   },
