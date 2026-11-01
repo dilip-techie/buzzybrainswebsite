@@ -57,7 +57,7 @@ export const pricingGroups: PackGroup[] = [
       {
         board: "CAMBRIDGE IGCSE",
         name: "Maths + Combined Science",
-        price: "₹22,999",
+        price: "₹26,999",
         subjectsNote: "2 subjects · Maths & Combined Science",
         tagline: "The two subjects most Cambridge schools require across every stream — bundled together.",
         features: [
@@ -71,7 +71,7 @@ export const pricingGroups: PackGroup[] = [
       {
         board: "CAMBRIDGE IGCSE",
         name: "Science Trio",
-        price: "₹33,999",
+        price: "₹39,999",
         subjectsNote: "3 subjects · Physics, Chemistry & Biology",
         tagline: "Taking the sciences separately, not as Combined Science? We mock and mark all three individually.",
         features: [
@@ -85,7 +85,7 @@ export const pricingGroups: PackGroup[] = [
       {
         board: "CAMBRIDGE IGCSE",
         name: "Maths + Science Trio",
-        price: "₹42,999",
+        price: "₹50,999",
         subjectsNote: "4 subjects · Maths, Physics, Chemistry & Biology",
         tagline: "All four core Cambridge STEM subjects in one pack — complete IGCSE science coverage.",
         features: [
