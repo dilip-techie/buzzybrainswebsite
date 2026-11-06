@@ -41255,6 +41255,1585 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "jee-main-physics-high-weightage-chapters-class-11-12",
+    title: "JEE Main Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Not every Physics chapter pays the same. Here is where JEE Main Physics marks usually concentrate, chapter by chapter, split between Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-23',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/jee-main-exam-pattern-and-marking-scheme-explained", label: "JEE Main Exam Pattern and Marking Scheme Explained" },
+      { href: "/blog/physics-for-jee-vs-neet-same-chapter-different-approach", label: "Physics for JEE vs NEET: Where the Same Chapter Needs a Different Approach" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In JEE Main Physics, marks tend to concentrate in a handful of chapters. From Class 11, Mechanics (laws of motion, work-energy-power, rotation), Thermodynamics with kinetic theory, and Oscillations and Waves recur most. From Class 12, Current Electricity, Electrostatics, Magnetism with EMI and AC, Optics and Modern Physics carry the most questions. Class 12 usually contributes about as much as Class 11, so neither can be skipped.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage. The priorities below are editorial guidance drawn from recurring patterns in past JEE Main papers and the size of each chapter, so treat them as a starting map and check the latest official syllabus and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Laws of Motion and Friction", "Very high", "Free-body diagrams, constraint relations, pulleys and blocks"],
+          ["Work, Energy and Power", "High", "Work-energy theorem, conservation, potential energy curves"],
+          ["Rotational Motion", "High", "Moment of inertia, torque, rolling without slipping"],
+          ["Thermodynamics and Kinetic Theory", "High", "First law, processes on P-V diagrams, degrees of freedom"],
+          ["Oscillations and Waves", "High", "SHM equations, spring-mass systems, standing waves"],
+          ["Kinematics", "Medium to high", "Graphs, relative motion, projectile motion"],
+          ["Units, Measurements and Errors", "Reliable marks", "Dimensional analysis and error propagation, which are quick and scoring"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Current Electricity", "Very high", "Kirchhoff’s laws, circuits with meters, Wheatstone and potentiometer"],
+          ["Electrostatics and Capacitors", "Very high", "Field and potential, Gauss’s law, capacitor networks"],
+          ["Magnetism, EMI and AC", "High", "Force on charges and wires, Faraday’s law, LCR circuits"],
+          ["Optics (Ray and Wave)", "High", "Lens and mirror formulae, refraction, Young’s double slit"],
+          ["Modern Physics", "Very high", "Photoelectric effect, Bohr model, nuclei, radioactivity"],
+          ["Semiconductors and Electronic Devices", "Reliable marks", "Logic gates, diodes and transistors, which are short and scoring"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Start with Very high chapters from both classes, so your first revision cycle covers the biggest share of marks.",
+          "Pair each priority chapter with at least 40 to 50 previous-year questions before moving on.",
+          "Use the 'reliable marks' chapters as quick wins late in revision, when you need confidence.",
+          "Keep a one-page formula sheet per chapter and revise it weekly.",
+        ],
+      },
+      { kind: 'h2', text: "Common mistakes" },
+      {
+        kind: 'p',
+        text: "Students often overspend on Class 11 Mechanics because it feels foundational, and then run short of time for Class 12 Electrodynamics and Modern Physics, which are both heavily tested. Balance the two classes from the start, and revisit Class 11 topics in short, regular passes.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Class 11 or Class 12 Physics more important for JEE Main?",
+        answer: "Both matter. The paper draws on both syllabi, with Class 12 chapters such as Electrostatics, Current Electricity and Modern Physics carrying a large share, and Class 11 Mechanics and Thermodynamics carrying a similar one.",
+      },
+      {
+        question: "Should I skip low-priority chapters?",
+        answer: "Not entirely. Learn the basics of every chapter, because a single question can swing a percentile. Spend extra time where the marks concentrate.",
+      },
+      {
+        question: "Where can I check the official syllabus?",
+        answer: "On the NTA's official JEE Main information bulletin, which lists the current chapters for Physics.",
+      },
+    ],
+  },
+  {
+    slug: "neet-physics-high-weightage-chapters-class-11-12",
+    title: "NEET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "NEET Physics is 180 of the 720 marks, and a few chapters give a large share of them. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: '2026-10-23',
+    readingMinutes: 4,
+    relatedProgramHref: "/neet-coaching-pune",
+    relatedProgramLabel: "NEET Coaching",
+    relatedGuides: [
+      { href: "/blog/how-to-master-neet-physics-numericals", label: "How to Master NEET Physics Numericals Without Fear" },
+      { href: "/blog/neet-2027-exam-pattern-and-marking-scheme-explained", label: "NEET 2027 Exam Pattern and Marking Scheme Explained" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In NEET Physics, marks usually concentrate in Mechanics (laws of motion, work-energy-power, rotation) and Thermodynamics with kinetic theory from Class 11, and in Current Electricity, Electrostatics, Magnetism with EMI and AC, Optics and Modern Physics from Class 12. Both classes contribute a similar share, and NEET's questions tend to be direct and NCERT-aligned, so clear concepts and accurate formulae matter more than rare tricks.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage for NEET. The priorities below are editorial guidance drawn from recurring patterns in past papers and the size of each chapter, so use them as a starting map and check NTA's latest bulletin and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Laws of Motion and Friction", "Very high", "Free-body diagrams, connected bodies, friction on inclines"],
+          ["Work, Energy and Power", "High", "Work-energy theorem, collisions, power calculations"],
+          ["Rotational Motion", "High", "Moment of inertia, torque, angular momentum"],
+          ["Thermodynamics and Kinetic Theory", "High", "First law, processes, degrees of freedom"],
+          ["Oscillations and Waves", "High", "SHM, spring systems, beats and standing waves"],
+          ["Gravitation and Properties of Matter", "Medium to high", "Orbital motion, escape velocity, fluids and surface tension"],
+          ["Units and Measurements", "Reliable marks", "Dimensions and errors, quick and scoring"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Current Electricity", "Very high", "Circuit analysis, Kirchhoff’s laws, meter bridge and potentiometer"],
+          ["Electrostatics and Capacitors", "Very high", "Field, potential and capacitor combinations"],
+          ["Magnetism, EMI and AC", "High", "Force on moving charges, induction, LCR circuits"],
+          ["Optics (Ray and Wave)", "High", "Lens and mirror formulae, refraction, interference and diffraction"],
+          ["Modern Physics (Dual Nature, Atoms, Nuclei)", "Very high", "Photoelectric effect, Bohr model, radioactivity"],
+          ["Semiconductor Devices", "Reliable marks", "Diodes, transistors and logic gates"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Begin with Very high chapters from both classes and solve at least 40 to 50 questions each.",
+          "Practise numericals daily in short sessions, so formula use becomes automatic.",
+          "Keep a one-page summary of formulae, units and common traps for every chapter.",
+          "Use NCERT diagrams and examples, since NEET often follows them closely.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Because Biology carries half the marks, students sometimes under-invest in Physics. But Physics is where many rank differences arise, since marks there are harder to recover late. Give it consistent weekly time, with the two classes balanced.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is NEET Physics numerical-heavy?",
+        answer: "It mixes conceptual and numerical questions. Most numericals are direct applications of formulae, so accuracy and speed matter more than complex derivations.",
+      },
+      {
+        question: "How much of NEET Physics is from Class 11?",
+        answer: "Roughly half in typical papers, though the exact split varies by year. Treat both classes as equally important.",
+      },
+      {
+        question: "Where do I check the official syllabus?",
+        answer: "On NTA's NEET information bulletin for the current year.",
+      },
+    ],
+  },
+  {
+    slug: "mht-cet-physics-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "MHT-CET draws 80% of its questions from Class 12, so Class 12 Physics chapters deserve most of your time. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/mht-cet-crash-course-pune",
+    relatedProgramLabel: "MHT-CET Crash Course",
+    relatedGuides: [
+      { href: "/blog/mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide", label: "MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know" },
+      { href: "/blog/mht-cet-session-1-study-calendar-dec-15-jan-15", label: "How to Plan Your Study Calendar for MHT CET Session 1 (Dec 15 – Jan 15)" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "MHT-CET gives about 80% weightage to the Class 12 syllabus and 20% to Class 11, so most Physics preparation should focus on Class 12 chapters such as Electrostatics, Current Electricity, Magnetism and EMI, Wave Optics, Rotational Dynamics, Thermodynamics, Oscillations and the modern-physics chapters. From Class 11, the most useful chapters are Laws of Motion, Gravitation, Optics and Electrostatics basics. The exam is MCQ-based, so speed and accuracy on formula use matter most.",
+      },
+      {
+        kind: 'p',
+        text: "The CET Cell publishes the syllabus and the 20% Class 11 and 80% Class 12 weighting, but not an official chapter-wise weightage. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, with chapter names following the Maharashtra Board textbooks, so confirm them against the latest CET Cell syllabus and previous-year papers.",
+      },
+      { kind: 'h2', text: "Class 12 Physics (about 80% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Electrostatics and Current Electricity", "Very high", "Fields, potential, capacitors, circuits and meter-based questions"],
+          ["Magnetic Fields, Magnetism and EMI", "Very high", "Force on charges and wires, Faraday’s law, AC circuits"],
+          ["Rotational Dynamics", "High", "Moment of inertia, torque, angular momentum"],
+          ["Thermodynamics and Kinetic Theory", "High", "Laws, processes, degrees of freedom"],
+          ["Oscillations and Superposition of Waves", "High", "SHM, standing waves and beats"],
+          ["Wave Optics", "High", "Interference, diffraction and polarisation"],
+          ["Dual Nature, Atoms and Nuclei, Semiconductors", "High", "Photoelectric effect, Bohr model, radioactivity, logic gates"],
+        ],
+      },
+      { kind: 'h2', text: "Class 11 Physics (about 20% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Laws of Motion and Gravitation", "High", "Force analysis, orbital motion and g"],
+          ["Measurements and Scalars-Vectors", "Reliable marks", "Dimensions, errors and vector operations"],
+          ["Optics (Ray Optics)", "Medium to high", "Lens, mirror and refraction formulae"],
+          ["Mechanical and Thermal Properties of Matter", "Medium", "Elasticity, surface tension, expansion"],
+          ["Sound and Electrostatics basics", "Medium", "Basic formulae and concepts"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Divide your time roughly in line with the weightage, then add extra time for chapters where your mocks show weak scores.",
+          "Practise numericals with a timer, since MHT-CET is a speed-oriented MCQ paper.",
+          "Keep formula sheets for every Class 12 chapter and revise them often.",
+          "Revisit Class 11 in short passes, since the 20% still decides close ranks.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Some students spend most of their time on Class 11 because it feels foundational, and then rush Class 12. Because the weightage tilts heavily to Class 12, start there and bring Class 11 in as short, regular reviews.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many Physics questions are there in MHT-CET?",
+        answer: "The paper structure is set by the CET Cell and published in its brochure, so check the current year's pattern there. Physics is combined with Chemistry in one paper for the PCM group.",
+      },
+      {
+        question: "Is Class 11 Physics ignored in MHT-CET?",
+        answer: "No. About 20% of the weightage comes from Class 11, which can make a difference in close ranks.",
+      },
+      {
+        question: "Where do I find the official syllabus?",
+        answer: "On the CET Cell's official website for the current year.",
+      },
+    ],
+  },
+  {
+    slug: "bitsat-physics-high-weightage-chapters-class-11-12",
+    title: "BITSAT Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "BITSAT Physics rewards fast, accurate formula use across both classes. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/bitsat-2027-last-month-speed-strategy", label: "BITSAT 2027 Last-Month Speed Strategy: Formula Recall, Mental Math & the Bonus Question Rule" },
+      { href: "/blog/bitsat-2027-what-usually-changes-between-sessions", label: "BITSAT 2027 Is Coming — Here's What Usually Changes Between Sessions" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In BITSAT Physics, marks usually concentrate in Mechanics (laws of motion, work-energy-power, rotation, gravitation), Thermodynamics and Waves from Class 11, and in Electrostatics, Current Electricity, Magnetism with EMI and AC, Optics and Modern Physics from Class 12. Questions tend to be direct and formula-based, and the test is tightly timed and calculator-free, so speed and accuracy matter more than rare tricks.",
+      },
+      {
+        kind: 'p',
+        text: "In recent cycles BITSAT has been a computer-based test of about 130 questions across Physics, Chemistry, English Proficiency, Logical Reasoning and Mathematics, with +3 for a correct answer and -1 for a wrong one. Check the current bulletin for the exact structure.",
+      },
+      {
+        kind: 'p',
+        text: "BITS Pilani does not publish chapter-wise weightage, and BITSAT's pattern and eligibility details change between cycles. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, so confirm the pattern and syllabus on the official bitsadmission.com bulletin before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Laws of Motion, Work-Energy-Power", "Very high", "Force analysis, energy conservation, collisions"],
+          ["Rotational Motion and Gravitation", "High", "Torque, moment of inertia, orbital motion"],
+          ["Thermodynamics and Kinetic Theory", "High", "First law, processes, gas laws"],
+          ["Oscillations and Waves", "High", "SHM, wave equation, standing waves"],
+          ["Kinematics and Units", "Reliable marks", "Graphs, relative motion, dimensions and errors"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Physics: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Current Electricity and Electrostatics", "Very high", "Circuits, fields, potential, capacitors"],
+          ["Magnetism, EMI and AC", "High", "Force on charges, induction, LCR circuits"],
+          ["Optics", "High", "Lens and mirror formulae, interference"],
+          ["Modern Physics and Nuclei", "Very high", "Photoelectric effect, Bohr model, radioactivity"],
+          ["Semiconductor Devices", "Reliable marks", "Diodes, transistors and logic gates"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Memorise core formulae with their units and typical values, since there is no calculator.",
+          "Practise mental arithmetic and estimation daily.",
+          "Solve short, timed sets so that you build the speed the paper demands.",
+          "Use previous-year and mock BITSAT papers to see how direct the questions usually are.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students who prepare only for JEE Advanced-style difficulty can underestimate BITSAT's time pressure. The syllabus is familiar, but the pace is the challenge, so train for speed as well as understanding.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is BITSAT Physics easier than JEE Main Physics?",
+        answer: "Questions are often more direct, but the time per question is shorter, so the difficulty comes from speed.",
+      },
+      {
+        question: "Do I need to learn every Physics chapter?",
+        answer: "Yes, at least at a basic level. High-priority chapters just deserve more time.",
+      },
+      {
+        question: "Where can I confirm the current pattern?",
+        answer: "On BITS Pilani's official bitsadmission.com bulletin for the current cycle.",
+      },
+    ],
+  },
+  {
+    slug: "jee-main-chemistry-high-weightage-chapters-class-11-12",
+    title: "JEE Main Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "JEE Main Chemistry rewards a few chapters heavily. Here is where the marks usually sit across Physical, Organic and Inorganic Chemistry, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/jee-main-exam-pattern-and-marking-scheme-explained", label: "JEE Main Exam Pattern and Marking Scheme Explained" },
+      { href: "/blog/neet-inorganic-chemistry-high-yield-low-time-strategy", label: "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In JEE Main Chemistry, marks concentrate in Chemical Bonding, Equilibrium, Thermodynamics, Atomic Structure and Organic basics from Class 11, and in Coordination Compounds, Electrochemistry, Chemical Kinetics, the d- and p-blocks and the Class 12 organic chapters such as haloalkanes, carbonyl compounds and amines. Chemistry is often the quickest section to attempt, so these chapters give strong returns.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage. The priorities below are editorial guidance drawn from recurring patterns in past JEE Main papers and the size of each chapter, so treat them as a starting map and check the latest official syllabus and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Chemical Bonding and Molecular Structure", "Very high", "VSEPR, hybridisation, MO theory for diatomics"],
+          ["Chemical and Ionic Equilibrium", "Very high", "Kc and Kp, Le Chatelier, pH and buffer calculations"],
+          ["Thermodynamics", "High", "Enthalpy, entropy, Gibbs energy and spontaneity"],
+          ["Atomic Structure", "High", "Quantum numbers, Bohr model, electronic configuration"],
+          ["Mole Concept and Redox", "High", "Stoichiometry, equivalent concept, balancing redox"],
+          ["General Organic Chemistry and Hydrocarbons", "Very high", "Inductive and resonance effects, reaction mechanisms"],
+          ["Periodic Properties", "Reliable marks", "Trends and exceptions, direct recall"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Coordination Compounds", "Very high", "Nomenclature, isomerism, crystal field theory, magnetic moment"],
+          ["Electrochemistry", "High", "Nernst equation, Kohlrausch law, electrolysis"],
+          ["Chemical Kinetics and Solutions", "High", "Order and rate laws, colligative properties"],
+          ["d- and f-Block and p-Block Elements", "High", "Trends, oxidation states, common compounds, exceptions"],
+          ["Haloalkanes, Alcohols, Aldehydes, Ketones and Amines", "Very high", "Named reactions, conversions and mechanisms"],
+          ["Biomolecules", "Reliable marks", "Structures and direct recall"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Treat Organic as a connected map. Practise conversions between functional groups regularly.",
+          "For Physical Chemistry, keep a short list of formulae and practise numericals daily.",
+          "For Inorganic, make compact tables of trends and exceptions and revise them every week.",
+          "Use previous-year questions to see which named reactions and exceptions repeat.",
+        ],
+      },
+      { kind: 'h2', text: "A balance to keep" },
+      {
+        kind: 'p',
+        text: "A common pattern is that students favour Organic or Physical Chemistry and neglect Inorganic, which is largely recall and therefore the cheapest source of marks. Give Inorganic a fixed weekly slot from the start.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Chemistry really the fastest JEE Main section?",
+        answer: "For well-prepared students it often is, because much of Inorganic and Physical Chemistry rewards direct recall and formula use rather than long calculations.",
+      },
+      {
+        question: "Do I need to memorise all named reactions?",
+        answer: "Know the common ones and their conditions, and practise conversions. Previous-year papers show which repeat.",
+      },
+      {
+        question: "Which class should I revise first?",
+        answer: "Cover both in rotation. Class 11 foundations, such as Bonding and Equilibrium, are needed to understand much of Class 12.",
+      },
+    ],
+  },
+  {
+    slug: "neet-chemistry-high-weightage-chapters-class-11-12",
+    title: "NEET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "NEET Chemistry rewards NCERT-precise recall across Physical, Organic and Inorganic. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/neet-coaching-pune",
+    relatedProgramLabel: "NEET Coaching",
+    relatedGuides: [
+      { href: "/blog/neet-inorganic-chemistry-high-yield-low-time-strategy", label: "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy" },
+      { href: "/blog/neet-organic-chemistry-concept-first-study-plan", label: "NEET Organic Chemistry: A Concept-First Study Plan" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In NEET Chemistry, marks concentrate in Chemical Bonding, Equilibrium, Thermodynamics, Atomic Structure, Redox and organic basics from Class 11, and in Coordination Compounds, d- and p-block elements, Electrochemistry, Kinetics and the organic functional-group chapters from Class 12. Inorganic and many Physical Chemistry questions reward precise NCERT recall, making Chemistry a dependable scoring section.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage for NEET. The priorities below are editorial guidance drawn from recurring patterns in past papers and the size of each chapter, so use them as a starting map and check NTA's latest bulletin and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Chemical Bonding and Molecular Structure", "Very high", "VSEPR, hybridisation, molecular orbital basics"],
+          ["Equilibrium (Chemical and Ionic)", "Very high", "Le Chatelier, Kc and Kp, pH and buffers"],
+          ["Thermodynamics", "High", "Enthalpy, entropy and Gibbs energy"],
+          ["Atomic Structure and Periodic Properties", "High", "Quantum numbers, configurations, trends and exceptions"],
+          ["Mole Concept and Redox", "High", "Stoichiometry and balancing redox reactions"],
+          ["Organic Basics and Hydrocarbons", "Very high", "Electronic effects, isomerism and reaction mechanisms"],
+          ["s-Block and p-Block (Group 13, 14)", "Reliable marks", "Properties and anomalies from NCERT"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Coordination Compounds", "Very high", "Nomenclature, isomerism, bonding theories"],
+          ["d- and f-Block and p-Block (Group 15 to 18)", "High", "Trends, oxidation states, compounds and exceptions"],
+          ["Electrochemistry and Chemical Kinetics", "High", "Nernst equation, conductivity, rate laws"],
+          ["Solutions and Solid State", "Medium to high", "Colligative properties and unit cell calculations"],
+          ["Haloalkanes, Alcohols, Aldehydes, Ketones and Amines", "Very high", "Named reactions, mechanisms and conversions"],
+          ["Biomolecules and Polymers", "Reliable marks", "Direct recall of structures and classifications"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Treat Inorganic as an NCERT line-by-line subject and revise its tables every week.",
+          "Practise Physical Chemistry numericals in short, daily sessions.",
+          "Build Organic as a connected map, with conversions and mechanisms you can write from memory.",
+          "Use previous-year questions to spot repeating exceptions and facts.",
+        ],
+      },
+      { kind: 'h2', text: "A balance to keep" },
+      {
+        kind: 'p',
+        text: "Chemistry is often a high-return section, since accurate recall earns marks quickly. Students who split time evenly across subjects but never revisit Inorganic tend to lose easy marks that could have been secured with regular revision.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is NCERT enough for NEET Chemistry?",
+        answer: "NCERT is the primary source, especially for Inorganic. Add practice questions for Physical and Organic to build speed and application.",
+      },
+      {
+        question: "Which Chemistry section should I start with?",
+        answer: "Many students begin with Physical Chemistry for the numerical practice, while building Inorganic recall steadily alongside.",
+      },
+      {
+        question: "How should I handle exceptions in Inorganic?",
+        answer: "Keep a running list of exceptions with one-line reasons and revise it weekly.",
+      },
+    ],
+  },
+  {
+    slug: "mht-cet-chemistry-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Chemistry is often the highest-return paper in MHT-CET. Here is where the marks usually concentrate across Physical, Organic and Inorganic, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/mht-cet-crash-course-pune",
+    relatedProgramLabel: "MHT-CET Crash Course",
+    relatedGuides: [
+      { href: "/blog/mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide", label: "MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know" },
+      { href: "/blog/neet-inorganic-chemistry-high-yield-low-time-strategy", label: "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In MHT-CET Chemistry, about 80% of the weightage comes from Class 12, where the heavy chapters include Solutions, Ionic Equilibria, Chemical Thermodynamics, Electrochemistry, Chemical Kinetics, Coordination Compounds, the d- and f-block, the p-block groups and the organic chapters on halogen derivatives, alcohols, carbonyls and amines. From Class 11, Basic Concepts, Atomic Structure, Chemical Bonding and Organic basics support nearly everything else.",
+      },
+      {
+        kind: 'p',
+        text: "The CET Cell publishes the syllabus and the 20% Class 11 and 80% Class 12 weighting, but not an official chapter-wise weightage. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, with chapter names following the Maharashtra Board textbooks, so confirm them against the latest CET Cell syllabus and previous-year papers.",
+      },
+      { kind: 'h2', text: "Class 12 Chemistry (about 80% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Solutions, Ionic Equilibria and Chemical Thermodynamics", "Very high", "Colligative properties, pH and buffers, enthalpy and Gibbs energy"],
+          ["Electrochemistry and Chemical Kinetics", "Very high", "Nernst equation, conductivity, rate laws and half-life"],
+          ["Coordination Compounds, d- and f-Block", "High", "Nomenclature, isomerism, bonding theories, oxidation states"],
+          ["p-Block (Groups 16, 17, 18)", "High", "Properties, trends and common compounds"],
+          ["Halogen Derivatives, Alcohols, Phenols and Ethers", "Very high", "Named reactions and mechanisms"],
+          ["Aldehydes, Ketones, Carboxylic Acids and Amines", "Very high", "Reactions and conversions"],
+          ["Solid State, Biomolecules and Polymers", "Reliable marks", "Unit cells, classification and structures"],
+        ],
+      },
+      { kind: 'h2', text: "Class 11 Chemistry (about 20% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Basic Concepts and Redox", "High", "Mole concept, stoichiometry and balancing"],
+          ["Structure of Atom and Chemical Bonding", "High", "Quantum numbers, hybridisation, shapes"],
+          ["Basic Principles of Organic Chemistry and Hydrocarbons", "High", "Electronic effects, isomerism and reactions"],
+          ["s-Block Elements and States of Matter", "Medium", "Trends and gas laws"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Organise Physical Chemistry around formulae and daily numericals.",
+          "Build Organic as a connected map of conversions you can write from memory.",
+          "Treat Inorganic as NCERT-style recall and revise exceptions weekly.",
+          "Use previous-year MHT-CET questions to see which reactions and facts repeat.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students sometimes treat Chemistry as an afterthought to Physics and Maths. But it is a speed-friendly paper where well-organised recall pays off, so it deserves a regular daily slot.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the Maharashtra Board textbook enough for MHT-CET Chemistry?",
+        answer: "It is the base, since the syllabus follows it. Add previous-year questions and practice sets for speed.",
+      },
+      {
+        question: "Which topics should I revise last?",
+        answer: "Inorganic tables and organic reaction summaries are ideal for the last weeks, since they are quick to review.",
+      },
+      {
+        question: "Is Chemistry combined with Physics in the paper?",
+        answer: "Yes, for the PCM group the two share a paper. Check the CET Cell brochure for the current structure.",
+      },
+    ],
+  },
+  {
+    slug: "bitsat-chemistry-high-weightage-chapters-class-11-12",
+    title: "BITSAT Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "BITSAT Chemistry is a fast-scoring section built on NCERT-style recall and quick numericals. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/bitsat-2027-last-month-speed-strategy", label: "BITSAT 2027 Last-Month Speed Strategy: Formula Recall, Mental Math & the Bonus Question Rule" },
+      { href: "/blog/neet-inorganic-chemistry-high-yield-low-time-strategy", label: "NEET Inorganic Chemistry: A High-Yield, Low-Time Strategy" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In BITSAT Chemistry, marks usually concentrate in Chemical Bonding, Equilibrium, Thermodynamics, Atomic Structure, Mole Concept and organic basics from Class 11, and in Coordination Compounds, d- and p-block elements, Electrochemistry, Kinetics and the organic functional-group chapters from Class 12. Much of the section rewards NCERT-style recall and quick formula use, making it one of the fastest sections to score in.",
+      },
+      {
+        kind: 'p',
+        text: "In recent cycles BITSAT has been a computer-based test of about 130 questions across Physics, Chemistry, English Proficiency, Logical Reasoning and Mathematics, with +3 for a correct answer and -1 for a wrong one. Check the current bulletin for the exact structure.",
+      },
+      {
+        kind: 'p',
+        text: "BITS Pilani does not publish chapter-wise weightage, and BITSAT's pattern and eligibility details change between cycles. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, so confirm the pattern and syllabus on the official bitsadmission.com bulletin before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Chemical Bonding and Molecular Structure", "Very high", "VSEPR, hybridisation, bond properties"],
+          ["Equilibrium (Chemical and Ionic)", "Very high", "Le Chatelier, Kc and Kp, pH and buffers"],
+          ["Thermodynamics", "High", "Enthalpy, entropy and spontaneity"],
+          ["Atomic Structure and Periodic Properties", "High", "Quantum numbers, configurations, trends"],
+          ["Mole Concept and Redox", "High", "Stoichiometry and redox balancing"],
+          ["Organic Basics and Hydrocarbons", "High", "Electronic effects, isomerism, reactions"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Chemistry: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Coordination Compounds", "High", "Nomenclature, isomerism, bonding"],
+          ["d- and f-Block, p-Block Elements", "High", "Trends, oxidation states, key compounds"],
+          ["Electrochemistry and Chemical Kinetics", "High", "Nernst equation, conductivity, rate laws"],
+          ["Solutions and Solid State", "Medium to high", "Colligative properties and unit cells"],
+          ["Haloalkanes to Amines (Organic)", "Very high", "Named reactions and conversions"],
+          ["Biomolecules and Polymers", "Reliable marks", "Direct recall"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Use NCERT for Inorganic and keep exceptions in a running list.",
+          "Practise Physical Chemistry numericals without a calculator, using rounded values.",
+          "Learn Organic as connected conversions and practise writing them from memory.",
+          "Take short timed sets of 10 to 15 questions to build pace.",
+        ],
+      },
+      { kind: 'h2', text: "Why this section matters" },
+      {
+        kind: 'p',
+        text: "Because Chemistry can be attempted quickly, it often gives time back for the longer Maths and Physics questions. A strong, speedy Chemistry section is a real advantage in a tightly timed paper.",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I attempt Chemistry first in BITSAT?",
+        answer: "Many students do, since it can be faster, but choose the order that works best for you in mocks.",
+      },
+      {
+        question: "Do I need to memorise all Inorganic facts?",
+        answer: "Focus on NCERT-based facts, trends and exceptions, which are the most frequently tested.",
+      },
+      {
+        question: "How should I practise Physical Chemistry without a calculator?",
+        answer: "Round values sensibly and practise approximation and simple fractions in daily sessions.",
+      },
+    ],
+  },
+  {
+    slug: "jee-main-maths-high-weightage-chapters-class-11-12",
+    title: "JEE Main Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Calculus, coordinate geometry and algebra carry most of JEE Main Maths. Here is the chapter-by-chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/jee-main-exam-pattern-and-marking-scheme-explained", label: "JEE Main Exam Pattern and Marking Scheme Explained" },
+      { href: "/blog/jee-main-january-session-last-100-days-strategy-pcm", label: "JEE Main January Session: Last 100 Days Strategy for Physics, Chemistry & Maths" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "JEE Main Maths marks concentrate in calculus (limits, differentiation, applications of derivatives, integration and differential equations), coordinate geometry (straight lines, circles and conic sections), and algebra (complex numbers, quadratics, sequences, permutations and combinations). Vectors with 3D geometry, matrices and determinants, and probability add steady marks. Class 11 contributes much of the algebra and coordinate geometry, while Class 12 contributes calculus and vectors.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage. The priorities below are editorial guidance drawn from recurring patterns in past JEE Main papers and the size of each chapter, so treat them as a starting map and check the latest official syllabus and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Maths: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Coordinate Geometry: Straight Lines and Circles", "High", "Locus, tangents, common chords, family of circles"],
+          ["Conic Sections", "High", "Parabola, ellipse and hyperbola: standard forms, tangents and normals"],
+          ["Complex Numbers and Quadratic Equations", "High", "Modulus and argument, roots, nature of roots"],
+          ["Sequences and Series", "High", "AP, GP, HP and special sums"],
+          ["Permutations, Combinations and Binomial Theorem", "High", "Counting with restrictions, general term, coefficients"],
+          ["Limits and Trigonometry", "Medium to high", "Standard limits and identities that feed into calculus"],
+          ["Statistics and Sets", "Reliable marks", "Mean, variance and relations are short and scoring"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Maths: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Integration and Definite Integrals", "Very high", "Substitution, by parts, properties, area under curves"],
+          ["Differentiation and Applications of Derivatives", "Very high", "Continuity, differentiability, maxima and minima, tangents"],
+          ["Differential Equations", "High", "Variable separable and linear forms"],
+          ["Vectors and 3D Geometry", "High", "Dot and cross products, lines and planes, shortest distance"],
+          ["Matrices and Determinants", "High", "Properties, adjoint and inverse, system of equations"],
+          ["Probability", "High", "Conditional probability, Bayes theorem, distributions"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Calculus underpins several chapters, so start there and revisit it often.",
+          "Practise coordinate geometry with diagrams, since many problems become simple once drawn.",
+          "Build speed on algebra with timed sets, because these questions reward fluency.",
+          "Use numerical-value questions to practise careful calculation, since there is no option to guess from.",
+        ],
+      },
+      { kind: 'h2', text: "Common mistakes" },
+      {
+        kind: 'p',
+        text: "Students sometimes spend months on tricky Class 11 topics and arrive at Class 12 calculus with too little time. Plan the year so that both classes get regular practice, and check your progress with chapter-wise tests.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which Maths chapters give the quickest marks?",
+        answer: "Sets, statistics, basic matrices and probability often have shorter, more direct questions. They are good for building speed and confidence.",
+      },
+      {
+        question: "Is calculus really that important?",
+        answer: "It is one of the largest clusters in the paper and also supports Physics and Chemistry numericals, so it deserves steady practice.",
+      },
+      {
+        question: "Where do I find the official chapter list?",
+        answer: "In the NTA's JEE Main information bulletin for the current year.",
+      },
+    ],
+  },
+  {
+    slug: "neet-botany-high-weightage-chapters-class-11-12",
+    title: "NEET Botany: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Botany is a large part of NEET's Biology half. Here is where the marks usually concentrate, split by Class 11 and Class 12, with NCERT-first guidance.",
+    category: "neet",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/neet-coaching-pune",
+    relatedProgramLabel: "NEET Coaching",
+    relatedGuides: [
+      { href: "/blog/neet-biology-preparation-strategy-ncert-first-approach", label: "NEET Biology Preparation Strategy: NCERT-First Approach" },
+      { href: "/blog/botany-vs-zoology-different-study-techniques-neet", label: "Botany vs Zoology: Why NEET's Two Biology Halves Need Different Study Techniques" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In NEET Botany, marks usually concentrate in Plant Physiology (photosynthesis, respiration, growth), Cell Biology, Morphology and Anatomy from Class 11, and in Genetics (molecular basis of inheritance, principles of inheritance), Reproduction in Flowering Plants, Ecology and Biotechnology from Class 12. Biology carries half of NEET's 720 marks, and questions often follow exact NCERT lines, so a line-by-line NCERT reading is the core strategy.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage for NEET. The priorities below are editorial guidance drawn from recurring patterns in past papers and the size of each chapter, so use them as a starting map and check NTA's latest bulletin and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Botany: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Photosynthesis and Respiration in Plants", "Very high", "Light and dark reactions, C3 and C4 cycles, glycolysis and Krebs cycle"],
+          ["Cell: The Unit of Life and Cell Cycle", "Very high", "Organelle functions, mitosis and meiosis stages"],
+          ["Morphology and Anatomy of Flowering Plants", "High", "Root, stem, leaf and flower structures, tissue types"],
+          ["Plant Growth and Development, Transport, Mineral Nutrition", "High", "Hormones, transport mechanisms, deficiency symptoms"],
+          ["Plant Kingdom", "Medium to high", "Classification and life cycles of algae to angiosperms"],
+          ["Biomolecules", "Reliable marks", "Enzymes and structures with direct recall"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Botany: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Molecular Basis of Inheritance", "Very high", "DNA replication, transcription, translation, regulation"],
+          ["Principles of Inheritance and Variation", "Very high", "Mendelian ratios, linkage, chromosomal disorders"],
+          ["Sexual Reproduction in Flowering Plants", "High", "Pollination, fertilisation, embryo and seed development"],
+          ["Organisms, Populations, Ecosystem and Biodiversity", "High", "Interactions, energy flow, conservation terms"],
+          ["Biotechnology: Principles and Applications", "High", "Tools of recombinant DNA, PCR, applications"],
+          ["Microbes in Human Welfare", "Reliable marks", "Uses of microbes and key organisms"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Read NCERT line by line, highlighting terms, examples, exceptions and diagram labels.",
+          "Redraw diagrams from memory, since labelled diagrams are a common source of questions.",
+          "Solve chapter-wise questions right after reading to lock in recall.",
+          "Revise fast-forgotten lists such as plant families and hormone functions weekly.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students sometimes treat Botany as pure memorisation and skip understanding. Physiology and Genetics reward conceptual clarity, so make sure you can explain each process in your own words before memorising the details.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Botany harder than Zoology for NEET?",
+        answer: "It depends on the student. Botany has many facts and processes, while Zoology has more physiology. Both reward NCERT precision.",
+      },
+      {
+        question: "Which Botany chapters should I do first?",
+        answer: "Start with Very high chapters such as Photosynthesis, Cell Biology and Genetics, then widen to the rest.",
+      },
+      {
+        question: "How many times should I revise NCERT Biology?",
+        answer: "Many students aim for several full passes, with shorter, faster passes closer to the exam. Active recall beats rereading.",
+      },
+    ],
+  },
+  {
+    slug: "mht-cet-maths-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Maths carries the most marks per question in MHT-CET. Here is the chapter map, split by Class 11 and Class 12, and where speed matters most.",
+    category: "iit-jee",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/mht-cet-crash-course-pune",
+    relatedProgramLabel: "MHT-CET Crash Course",
+    relatedGuides: [
+      { href: "/blog/mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide", label: "MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know" },
+      { href: "/blog/cet-vs-jee-main-state-engineering-admissions-explained", label: "CET vs JEE Main: Understanding State Engineering Admissions Alongside National Exams" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In MHT-CET Maths, about 80% of the weightage comes from Class 12, where calculus (differentiation, applications of derivatives, integration, definite integrals and differential equations), matrices, vectors with 3D geometry, line and plane, probability distributions and mathematical logic carry most of the marks. From Class 11, trigonometry, straight lines, circles and conics, and permutations and combinations give important support. The exam is MCQ-based and time-tight, so speed matters.",
+      },
+      {
+        kind: 'p',
+        text: "The CET Cell publishes the syllabus and the 20% Class 11 and 80% Class 12 weighting, but not an official chapter-wise weightage. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, with chapter names following the Maharashtra Board textbooks, so confirm them against the latest CET Cell syllabus and previous-year papers.",
+      },
+      { kind: 'h2', text: "Class 12 Maths (about 80% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Differentiation and Applications of Derivatives", "Very high", "Rules, implicit and parametric forms, maxima and minima, tangents"],
+          ["Integration, Definite Integrals and their Applications", "Very high", "Standard forms, substitution, properties, area"],
+          ["Differential Equations", "High", "Order and degree, solving first-order equations"],
+          ["Vectors, Three-Dimensional Geometry, Line and Plane", "High", "Dot and cross products, direction ratios, distances"],
+          ["Matrices and Mathematical Logic", "High", "Operations, inverse, logical equivalences"],
+          ["Probability Distributions and Binomial Distribution", "High", "Mean, variance and standard cases"],
+          ["Linear Programming and Pair of Straight Lines", "Reliable marks", "Standard problem types and formulae"],
+        ],
+      },
+      { kind: 'h2', text: "Class 11 Maths (about 20% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Trigonometry", "High", "Identities and equations, which feed into calculus"],
+          ["Straight Lines, Circle and Conics", "High", "Standard forms, tangents and loci"],
+          ["Permutations and Combinations, Probability basics", "Medium to high", "Counting techniques and basic cases"],
+          ["Limits and Complex Numbers", "Medium", "Standard limits and basic operations"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Practise calculus daily. It is the largest cluster and supports other chapters.",
+          "Solve MCQs against a timer, and practise shortcuts such as testing options.",
+          "Build a one-page formula sheet for each Class 12 chapter.",
+          "Revise Class 11 trigonometry and coordinate geometry in short regular sessions.",
+        ],
+      },
+      { kind: 'h2', text: "Why speed matters" },
+      {
+        kind: 'p',
+        text: "MHT-CET Maths questions typically carry more marks each than Physics or Chemistry questions in the PCM paper, according to the CET Cell's scheme, so careless slips cost more. Timed practice, with a habit of checking units and signs, protects those marks.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Maths harder than Physics and Chemistry in MHT-CET?",
+        answer: "Many students find it the most time-pressured, because the questions are calculation-heavy. Timed practice is the best preparation.",
+      },
+      {
+        question: "Which Maths chapters are fastest to score?",
+        answer: "Linear programming, logic, matrices and standard probability questions are often direct and quick.",
+      },
+      {
+        question: "Does Maharashtra Board Maths cover all CET topics?",
+        answer: "The CET syllabus follows the Maharashtra Board textbooks, so studying them thoroughly is the foundation, with extra MCQ practice added.",
+      },
+    ],
+  },
+  {
+    slug: "bitsat-maths-high-weightage-chapters-class-11-12",
+    title: "BITSAT Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Maths is the largest section of BITSAT. Here is the chapter map, split by Class 11 and Class 12, and how to build the speed the test demands.",
+    category: "iit-jee",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/bitsat-2027-last-month-speed-strategy", label: "BITSAT 2027 Last-Month Speed Strategy: Formula Recall, Mental Math & the Bonus Question Rule" },
+      { href: "/blog/bitsat-vs-jee-main-vs-mht-cet-which-to-prioritize", label: "BITSAT vs JEE Main vs MHT-CET: Which Should a Confused Class 11 Student Prioritize This Year?" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In BITSAT Maths, which is the largest section, marks usually concentrate in calculus (limits, differentiation, integration, differential equations), coordinate geometry (lines, circles and conics), algebra (complex numbers, quadratics, sequences, permutations and combinations, binomial theorem), vectors with 3D geometry, matrices and determinants, and probability. Class 11 supplies much of the algebra and coordinate geometry, and Class 12 supplies calculus and vectors.",
+      },
+      {
+        kind: 'p',
+        text: "In recent cycles BITSAT has been a computer-based test of about 130 questions across Physics, Chemistry, English Proficiency, Logical Reasoning and Mathematics, with +3 for a correct answer and -1 for a wrong one. Check the current bulletin for the exact structure.",
+      },
+      {
+        kind: 'p',
+        text: "BITS Pilani does not publish chapter-wise weightage, and BITSAT's pattern and eligibility details change between cycles. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, so confirm the pattern and syllabus on the official bitsadmission.com bulletin before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Maths: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Straight Lines, Circles and Conic Sections", "High", "Standard forms, tangents and loci"],
+          ["Complex Numbers and Quadratic Equations", "High", "Modulus, argument and roots"],
+          ["Sequences and Series", "High", "AP, GP and special sums"],
+          ["Permutations, Combinations and Binomial Theorem", "High", "Counting and general terms"],
+          ["Trigonometry and Limits", "High", "Identities, equations and standard limits"],
+          ["Sets, Relations and Statistics", "Reliable marks", "Short, direct questions"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Maths: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Integration and Differentiation", "Very high", "Techniques, applications of derivatives and definite integrals"],
+          ["Differential Equations", "High", "First-order solution methods"],
+          ["Vectors and 3D Geometry", "High", "Products, lines and planes, distances"],
+          ["Matrices and Determinants", "High", "Properties, inverse and systems"],
+          ["Probability", "High", "Conditional probability and distributions"],
+          ["Inverse Trigonometry and Relations", "Reliable marks", "Standard identities and properties"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Build speed with timed sets of 10 to 15 questions across mixed chapters.",
+          "Learn quick methods, such as testing options and using symmetry.",
+          "Memorise standard integrals, limits and identities so they are instant.",
+          "Practise without a calculator so arithmetic becomes automatic.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Because Maths has the most questions, students sometimes dive into hard problems and lose time. In a speed test, it is often better to move on from a question that stalls and return if time allows.",
+      },
+    ],
+    faq: [
+      {
+        question: "How big is the Maths section in BITSAT?",
+        answer: "It has been the largest section in recent cycles. Confirm the current structure in the official bulletin.",
+      },
+      {
+        question: "Is BITSAT Maths harder than JEE Main Maths?",
+        answer: "Questions are often more direct, but the time is shorter, so speed is the main difference.",
+      },
+      {
+        question: "Do I need to learn shortcuts?",
+        answer: "Yes, selectively. Shortcuts you understand save time, but make sure you know when they apply.",
+      },
+    ],
+  },
+  {
+    slug: "jee-main-cross-subject-priority-list-chapters-to-master-first",
+    title: "The Cross-Subject Priority List: 12 JEE Main Chapters to Master First",
+    description:
+      "With a long syllabus and limited time, where should your first revision cycle go? Here is a short cross-subject list of chapters worth mastering first, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/jee-main-january-session-last-100-days-strategy-pcm", label: "JEE Main January Session: Last 100 Days Strategy for Physics, Chemistry & Maths" },
+      { href: "/blog/last-6-months-before-jee-main-week-by-week-revision-plan", label: "The Last 6 Months Before JEE Main: A Week-by-Week Revision Plan" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "If time is limited, build your first revision cycle around about twelve chapters that appear heavily in JEE Main and also feed other topics. From Class 11: Laws of Motion, Thermodynamics (Physics), Chemical Bonding, Equilibrium, Organic basics (Chemistry), and coordinate geometry with algebra (Maths). From Class 12: Current Electricity, Modern Physics, Coordination Compounds, Organic reactions, calculus and vectors with 3D geometry. Cover the rest after this core is solid.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage. The priorities below are editorial guidance drawn from recurring patterns in past JEE Main papers and the size of each chapter, so treat them as a starting map and check the latest official syllabus and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "The list, split by class" },
+      {
+        kind: 'table',
+        headers: ["Subject", "Class 11 chapters", "Class 12 chapters"],
+        rows: [
+          ["Physics", "Laws of Motion, Thermodynamics and Kinetic Theory", "Current Electricity, Modern Physics"],
+          ["Chemistry", "Chemical Bonding, Equilibrium, General Organic Chemistry", "Coordination Compounds, Organic reactions (haloalkanes to amines)"],
+          ["Maths", "Coordinate Geometry and Complex Numbers with Quadratics", "Calculus (integration and derivatives), Vectors and 3D Geometry"],
+        ],
+      },
+      { kind: 'h2', text: "Why these twelve" },
+      {
+        kind: 'ul',
+        items: [
+          "They appear in nearly every JEE Main paper in some form.",
+          "They are building blocks for other chapters, such as bonding for organic reactions or calculus for physics numericals.",
+          "Mastering them uses time efficiently, since each one covers multiple question types.",
+          "Many are Class 11 foundations, so doing them early prevents trouble in Class 12.",
+        ],
+      },
+      { kind: 'h2', text: "A four-step plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Week 1 to 2: read the theory of two chapters and make a one-page summary of each.",
+          "Week 3 to 4: solve about 40 to 50 previous-year questions per chapter and review every mistake.",
+          "Week 5: take a mixed test on these chapters and fix remaining gaps.",
+          "Then repeat for the next set of chapters, and return to this core every month.",
+        ],
+      },
+      { kind: 'h2', text: "What this list is not" },
+      {
+        kind: 'p',
+        text: "It is not a licence to skip the rest. The remaining chapters still carry marks, and a single skipped chapter can cost several questions. Think of this as the order in which to build confidence, not the full syllabus. Customise it with your own mock-test results, replacing chapters where you already score well.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I use this list as the whole plan?",
+        answer: "No. It is a way to prioritise the first revision cycle. Cover the remaining chapters afterwards and adjust the list based on your mock-test results.",
+      },
+      {
+        question: "How do I personalise the list?",
+        answer: "After each mock, note the chapters where you lose the most marks and add them to your priority set, replacing chapters you already handle well.",
+      },
+      {
+        question: "Does the list change by year?",
+        answer: "The core chapters are stable, but the exact mix varies. Review recent papers each cycle to adjust.",
+      },
+    ],
+  },
+  {
+    slug: "neet-zoology-high-weightage-chapters-class-11-12",
+    title: "NEET Zoology: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "Human physiology, reproduction, health and evolution make up much of NEET Zoology. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/neet-coaching-pune",
+    relatedProgramLabel: "NEET Coaching",
+    relatedGuides: [
+      { href: "/blog/neet-biology-preparation-strategy-ncert-first-approach", label: "NEET Biology Preparation Strategy: NCERT-First Approach" },
+      { href: "/blog/neet-assertion-reason-questions-strategy", label: "NEET Assertion-Reason Questions: A Specific Strategy for a Specific Question Type" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In NEET Zoology, marks usually concentrate in Human Physiology from Class 11 (digestion, breathing, circulation, excretion, neural and chemical coordination) and in Human Reproduction, Reproductive Health, Human Health and Disease, Evolution and Biotechnology applications from Class 12. Biology is half of NEET's 720 marks, and Zoology questions often test NCERT facts, definitions and diagrams precisely.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage for NEET. The priorities below are editorial guidance drawn from recurring patterns in past papers and the size of each chapter, so use them as a starting map and check NTA's latest bulletin and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "Class 11 Zoology: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Digestion and Absorption", "High", "Enzymes, digestive glands, absorption sites"],
+          ["Breathing and Exchange of Gases", "High", "Lung volumes, transport of gases, regulation"],
+          ["Body Fluids and Circulation", "Very high", "Blood groups, cardiac cycle, ECG, circulation pathways"],
+          ["Excretory Products and Elimination", "High", "Nephron structure, urine formation, regulation"],
+          ["Neural Control and Chemical Coordination", "Very high", "Neuron and reflex arc, hormones and their disorders"],
+          ["Locomotion and Movement", "Medium to high", "Muscle contraction and skeletal system"],
+          ["Animal Kingdom and Structural Organisation", "Medium to high", "Classification features and examples"],
+        ],
+      },
+      { kind: 'h2', text: "Class 12 Zoology: where the marks usually sit" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Human Reproduction and Reproductive Health", "Very high", "Gametogenesis, menstrual cycle, contraception, ART"],
+          ["Human Health and Disease", "High", "Pathogens, immunity, cancer, drugs and addiction"],
+          ["Evolution", "High", "Evidence, theories, Hardy-Weinberg principle"],
+          ["Biotechnology Applications and Strategies for Food Production", "Medium to high", "Biopharming, transgenic animals, animal husbandry"],
+          ["Genetics (shared with Botany)", "Very high", "Inheritance patterns and molecular basis, which appear across sections"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Make small tables for hormones, enzymes, diseases and classification and revise them often.",
+          "Practise diagram labelling for the heart, nephron, neuron and reproductive systems.",
+          "Solve assertion and reason questions on physiology to test conceptual understanding.",
+          "Connect topics, for example how hormones link to reproduction and metabolism.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Some students rely on notes and miss small NCERT details, such as the exact names of structures or specific percentages. Zoology rewards careful NCERT reading, so use your notes only as a revision aid, not a replacement.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which Zoology chapters should I master first?",
+        answer: "Start with Human Physiology (Class 11) and Human Reproduction (Class 12), since they carry the most questions and link to many others.",
+      },
+      {
+        question: "Is Zoology mostly memorisation?",
+        answer: "There is a lot to remember, but physiology and genetics also test understanding. Aim for both.",
+      },
+      {
+        question: "Are diagrams important?",
+        answer: "Yes. Labelled diagrams and their functions are a common source of questions, so practise drawing them.",
+      },
+    ],
+  },
+  {
+    slug: "mht-cet-biology-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Biology (PCB): High-Weightage Chapters, Split by Class 11 and Class 12",
+    description:
+      "For the PCB group, Biology carries a large share of the marks. Here is the chapter map for Botany and Zoology, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/mht-cet-crash-course-pune",
+    relatedProgramLabel: "MHT-CET Crash Course",
+    relatedGuides: [
+      { href: "/blog/mht-cet-2027-vs-2026-dates-syllabus-pattern-changes-parents-guide", label: "MHT CET 2027 vs MHT CET 2026: Key Dates, Syllabus & Pattern Changes Parents Should Know" },
+      { href: "/blog/neet-biology-preparation-strategy-ncert-first-approach", label: "NEET Biology Preparation Strategy: NCERT-First Approach" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In MHT-CET Biology for the PCB group, about 80% of the weightage comes from Class 12, where Genetics and Evolution, Reproduction in plants and humans, Biotechnology, Ecology and Human Health and Disease are the main clusters. From Class 11, Cell Biology, Plant and Human Physiology and Diversity of Organisms contribute the rest. Because the exam is MCQ-based and follows the Maharashtra Board textbooks, careful textbook reading plus MCQ practice is the best approach.",
+      },
+      {
+        kind: 'p',
+        text: "The CET Cell publishes the syllabus and the 20% Class 11 and 80% Class 12 weighting, but not an official chapter-wise weightage. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, with chapter names following the Maharashtra Board textbooks, so confirm them against the latest CET Cell syllabus and previous-year papers.",
+      },
+      { kind: 'h2', text: "Class 12 Biology (about 80% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Genetics and Evolution", "Very high", "Mendelian genetics, molecular basis of inheritance, evolution evidence"],
+          ["Reproduction in Plants and Human Reproduction", "Very high", "Pollination, fertilisation, gametogenesis, reproductive health"],
+          ["Biotechnology and its Applications", "High", "Recombinant DNA tools, PCR and applications"],
+          ["Ecology and Environment", "High", "Ecosystems, populations, biodiversity and conservation"],
+          ["Human Health, Diseases and Microbes in Human Welfare", "High", "Pathogens, immunity, microbial uses"],
+          ["Biological Processes in Plants and Animals", "Medium to high", "Photosynthesis, respiration and animal physiology links"],
+        ],
+      },
+      { kind: 'h2', text: "Class 11 Biology (about 20% of the weightage)" },
+      {
+        kind: 'table',
+        headers: ["Chapter", "Priority", "What to focus on"],
+        rows: [
+          ["Cell Structure, Biomolecules and Cell Division", "High", "Organelles, enzymes, mitosis and meiosis"],
+          ["Plant Physiology", "High", "Photosynthesis, respiration, growth and transport"],
+          ["Human Physiology", "High", "Digestion, circulation, excretion, neural and chemical coordination"],
+          ["Diversity of Organisms and Structural Organisation", "Medium", "Classification and structures"],
+        ],
+      },
+      { kind: 'h2', text: "How to use this map" },
+      {
+        kind: 'ul',
+        items: [
+          "Read the Maharashtra Board textbooks line by line, noting terms, examples and diagrams.",
+          "Make tables for hormones, diseases, enzymes and classification.",
+          "Solve chapter-wise MCQs soon after reading to lock in recall.",
+          "Take full-length mixed tests to practise speed across both classes.",
+        ],
+      },
+      { kind: 'h2', text: "A note on the group" },
+      {
+        kind: 'p',
+        text: "Students taking the PCB group sit Physics and Chemistry together and Biology as a separate paper. Plan your preparation so that Biology gets sustained, regular attention, not a last-month rush, because its volume of facts rewards repetition.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is NCERT enough for MHT-CET Biology?",
+        answer: "The exam follows the Maharashtra Board syllabus, so the state textbooks are the base. NCERT can supplement concepts, with MCQ practice on top.",
+      },
+      {
+        question: "Which Biology chapters should I start with?",
+        answer: "Begin with Genetics, Reproduction and Human Physiology, since they link to many other topics.",
+      },
+      {
+        question: "Is Biology a separate paper in MHT-CET PCB?",
+        answer: "Yes, Biology is a separate section from Physics and Chemistry. Check the CET Cell brochure for the current structure.",
+      },
+    ],
+  },
+  {
+    slug: "bitsat-class-11-vs-class-12-chapter-planner-pcm",
+    title: "BITSAT Class 11 vs Class 12: A Chapter Planner for Physics, Chemistry and Maths",
+    description:
+      "BITSAT draws on both classes with no fixed split. Here is a one-page planner that shows which chapters to prioritise from each class, and how to schedule them.",
+    category: "iit-jee",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/bitsat-vs-jee-main-vs-mht-cet-which-to-prioritize", label: "BITSAT vs JEE Main vs MHT-CET: Which Should a Confused Class 11 Student Prioritize This Year?" },
+      { href: "/blog/bitsat-vs-jee-main-dual-preparation-strategy", label: "BITSAT vs JEE Main Preparation: Should Droppers Prep for Both Simultaneously?" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "BITSAT draws on both the Class 11 and Class 12 syllabi, and its official materials do not fix a Class 11 to Class 12 split. A practical plan prioritises, from Class 11, Mechanics, Thermodynamics, Bonding, Equilibrium, algebra and coordinate geometry, and from Class 12, Electricity and Magnetism, Modern Physics, Coordination and Organic chemistry, calculus and vectors. Cover both classes in rotation, and tune the mix with mock-test results.",
+      },
+      {
+        kind: 'p',
+        text: "In recent cycles BITSAT has been a computer-based test of about 130 questions across Physics, Chemistry, English Proficiency, Logical Reasoning and Mathematics, with +3 for a correct answer and -1 for a wrong one. Check the current bulletin for the exact structure.",
+      },
+      {
+        kind: 'p',
+        text: "BITS Pilani does not publish chapter-wise weightage, and BITSAT's pattern and eligibility details change between cycles. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, so confirm the pattern and syllabus on the official bitsadmission.com bulletin before finalising your plan.",
+      },
+      { kind: 'h2', text: "The planner" },
+      {
+        kind: 'table',
+        headers: ["Subject", "Class 11 priorities", "Class 12 priorities"],
+        rows: [
+          ["Physics", "Laws of Motion, Work-Energy-Power, Rotation, Thermodynamics, Waves", "Electrostatics, Current Electricity, Magnetism and EMI, Optics, Modern Physics"],
+          ["Chemistry", "Chemical Bonding, Equilibrium, Thermodynamics, Atomic Structure, Organic basics", "Coordination Compounds, d- and p-block, Electrochemistry, Organic functional groups"],
+          ["Maths", "Coordinate Geometry, Complex Numbers, Sequences, Permutations and Binomial", "Calculus, Vectors and 3D, Matrices, Probability"],
+        ],
+      },
+      { kind: 'h2', text: "How to schedule it" },
+      {
+        kind: 'ul',
+        items: [
+          "Months 1 to 3: first pass through priority chapters of both classes, with chapter-wise questions.",
+          "Months 4 to 5: second pass with timed, mixed sets and formula revision.",
+          "Final weeks: full-length computer-based mocks, with speed drills on weak chapters.",
+          "Each week: alternate Class 11 and Class 12 chapters so neither fades.",
+        ],
+      },
+      { kind: 'h2', text: "Class 12 repeaters and boards" },
+      {
+        kind: 'p',
+        text: "BITSAT eligibility rules have changed between cycles, including rules about Class 12 candidates, so read the current bulletin carefully. Also plan around your board-exam dates, since a heavy board schedule affects the weeks available for mocks.",
+      },
+      { kind: 'h2', text: "Why rotation beats finishing one class first" },
+      {
+        kind: 'p',
+        text: "Studying all of Class 11 and then all of Class 12 leaves the first class fading by the time you finish. Rotation keeps both fresh and exposes gaps early, when they are easiest to fix.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is there an official Class 11 to Class 12 weightage for BITSAT?",
+        answer: "BITS Pilani does not publish one. Use the syllabus, past patterns and your own mock results to decide.",
+      },
+      {
+        question: "How should I plan alongside JEE Main?",
+        answer: "Much of the content overlaps. See the site's guide on preparing for BITSAT and JEE Main together.",
+      },
+      {
+        question: "Should I start with Class 11 or Class 12?",
+        answer: "Rotate between them. Foundations from Class 11 support Class 12, and both appear in the test.",
+      },
+    ],
+  },
+  {
+    slug: "class-11-jee-chapters-that-carry-into-class-12",
+    title: "Class 11 Chapters That Quietly Carry Into Class 12 (and Reappear in JEE)",
+    description:
+      "Several Class 11 chapters are building blocks for Class 12 topics. Here are the ones worth keeping alive, and how to revise them alongside the new syllabus.",
+    category: "iit-jee",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/neet-class-11-vs-class-12-syllabus-where-to-focus-first", label: "NEET Class 11 vs Class 12 Syllabus: Where to Focus First" },
+      { href: "/blog/class-12-boards-jee-neet-balance", label: "Class 12 Boards + JEE/NEET: Keeping Both on Track Without Sacrificing Either" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Many Class 11 chapters are prerequisites for Class 12 topics and keep reappearing in JEE Main. In Physics, Kinematics and Laws of Motion support Magnetism and Optics numericals; in Chemistry, Thermodynamics and Equilibrium underpin Electrochemistry and Kinetics, and bonding supports Coordination Compounds; in Maths, trigonometry, limits and algebra feed calculus and vectors. Revise these bridges while learning Class 12, instead of leaving Class 11 behind.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage. The priorities below are editorial guidance drawn from recurring patterns in past JEE Main papers and the size of each chapter, so treat them as a starting map and check the latest official syllabus and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "The bridges, subject by subject" },
+      {
+        kind: 'table',
+        headers: ["Class 11 chapter", "Carries into (Class 12)", "Why it matters"],
+        rows: [
+          ["Kinematics and Laws of Motion", "Magnetism, Rotational ideas in Modern Physics numericals", "Vector thinking and force analysis"],
+          ["Thermodynamics (Physics)", "Kinetic theory and heat-related numericals", "First law and processes"],
+          ["Chemical Thermodynamics and Equilibrium", "Electrochemistry and Chemical Kinetics", "Gibbs energy, equilibrium constants and rate ideas"],
+          ["Chemical Bonding", "Coordination Compounds, p-Block", "Geometry, hybridisation and orbital ideas"],
+          ["General Organic Chemistry", "Haloalkanes to Amines", "Mechanisms and electronic effects"],
+          ["Trigonometry and Limits", "Calculus and Vectors", "Identities and standard limits feed derivatives and integrals"],
+          ["Algebra (Quadratics, Complex Numbers)", "Matrices and Differential Equations", "Manipulation fluency"],
+        ],
+      },
+      { kind: 'h2', text: "Why this matters in practice" },
+      {
+        kind: 'p',
+        text: "Students who treat Class 11 as finished often find Class 12 harder than expected, because small gaps resurface. The fix is not to restudy everything but to schedule short 'bridge reviews' when a Class 12 chapter begins.",
+      },
+      { kind: 'h2', text: "A simple routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Before starting a Class 12 chapter, list the Class 11 ideas it depends on.",
+          "Spend one or two sessions on those ideas, doing five to ten problems each.",
+          "While studying the new chapter, note every place the old idea reappears.",
+          "Add a mixed test every month that includes both classes.",
+        ],
+      },
+      { kind: 'h2', text: "What this prevents" },
+      {
+        kind: 'p',
+        text: "It prevents the common situation where a student understands a new chapter's theory but cannot do its numericals because of an older gap, for example struggling with Electrochemistry because Equilibrium was never solid.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to restudy all of Class 11 in Class 12?",
+        answer: "No. Use short targeted reviews linked to the new chapters, plus regular mixed tests.",
+      },
+      {
+        question: "How do I find which Class 11 gaps matter?",
+        answer: "Take a mixed test that includes both classes and look at the errors, noting which ones trace back to Class 11 ideas.",
+      },
+      {
+        question: "Is this different for droppers?",
+        answer: "Droppers can follow the same approach, with more time to revise both classes systematically.",
+      },
+    ],
+  },
+  {
+    slug: "neet-cross-subject-priority-chapters-to-master-first",
+    title: "NEET Priority List: The Chapters to Master First Across Physics, Chemistry and Biology",
+    description:
+      "With three subjects and a long syllabus, where should your first revision cycle go? Here is a cross-subject priority list, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/neet-coaching-pune",
+    relatedProgramLabel: "NEET Coaching",
+    relatedGuides: [
+      { href: "/blog/neet-class-11-vs-class-12-syllabus-where-to-focus-first", label: "NEET Class 11 vs Class 12 Syllabus: Where to Focus First" },
+      { href: "/blog/neet-time-management-splitting-hours-across-physics-chemistry-biology", label: "NEET Time Management: How to Split Study Hours Across Physics, Chemistry and Biology" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For a first NEET revision cycle, prioritise Biology, which is half of the 720 marks, then the highest-return chapters in Physics and Chemistry. From Class 11: Cell Biology, Plant Physiology, Human Physiology, Laws of Motion, Thermodynamics, Chemical Bonding and Equilibrium. From Class 12: Genetics, Reproduction, Ecology, Current Electricity, Modern Physics, Coordination Compounds and the organic functional-group chapters. Cover the remaining chapters once this core is secure.",
+      },
+      {
+        kind: 'p',
+        text: "NTA does not publish official chapter-wise weightage for NEET. The priorities below are editorial guidance drawn from recurring patterns in past papers and the size of each chapter, so use them as a starting map and check NTA's latest bulletin and previous-year papers before finalising your plan.",
+      },
+      { kind: 'h2', text: "The priority list, split by class" },
+      {
+        kind: 'table',
+        headers: ["Subject", "Class 11 chapters", "Class 12 chapters"],
+        rows: [
+          ["Biology (Botany and Zoology)", "Cell, Plant Physiology, Body Fluids and Circulation, Neural and Chemical Coordination", "Genetics (both chapters), Human Reproduction, Ecology, Biotechnology"],
+          ["Chemistry", "Chemical Bonding, Equilibrium, Organic basics, Thermodynamics", "Coordination Compounds, Organic functional-group chapters, Electrochemistry"],
+          ["Physics", "Laws of Motion, Work-Energy-Power, Thermodynamics", "Current Electricity, Electrostatics, Modern Physics, Optics"],
+        ],
+      },
+      { kind: 'h2', text: "Why Biology leads the list" },
+      {
+        kind: 'p',
+        text: "Biology carries 360 of the 720 marks, which is as much as Physics and Chemistry combined. A fixed share of your weekly time should therefore go to NCERT Biology, with line-by-line reading and frequent recall tests.",
+      },
+      { kind: 'h2', text: "A four-step plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Weeks 1 to 2: read two or three priority chapters, making one-page summaries.",
+          "Weeks 3 to 4: solve previous-year and chapter-wise questions, and note every wrong answer.",
+          "Week 5: take a mixed test on these chapters and fix what it shows.",
+          "Repeat with the next set of chapters, and loop back to the core every month.",
+        ],
+      },
+      { kind: 'h2', text: "Adjust it to your own data" },
+      {
+        kind: 'p',
+        text: "This list is a starting point. After each mock test, add the chapters where you lose the most marks, and move chapters you already handle well down the list. A personalised list based on your results beats any generic one.",
+      },
+      {
+        kind: 'p',
+        text: "Do not ignore the rest of the syllabus. A single unseen chapter can cost several questions, so aim to touch every chapter at least once in your first cycle.",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I focus only on high-priority chapters?",
+        answer: "No. Use them to structure your first cycle, then cover everything. Questions can come from any chapter.",
+      },
+      {
+        question: "How much time should Biology get compared with Physics and Chemistry?",
+        answer: "Because Biology carries half the marks, many students give it the largest weekly share while keeping Physics and Chemistry regular.",
+      },
+      {
+        question: "How do I update my priority list?",
+        answer: "After every mock, tally the marks lost by chapter and move the highest-loss chapters up.",
+      },
+    ],
+  },
+  {
+    slug: "mht-cet-20-80-split-how-to-divide-study-time-class-11-12",
+    title: "MHT-CET’s 20:80 Split: How to Divide Your Study Time Between Class 11 and Class 12",
+    description:
+      "With about 20% of the weightage from Class 11 and 80% from Class 12, how should you split your time? Here is a practical, flexible plan.",
+    category: "iit-jee",
+    datePublished: '2026-11-01',
+    readingMinutes: 4,
+    relatedProgramHref: "/mht-cet-crash-course-pune",
+    relatedProgramLabel: "MHT-CET Crash Course",
+    relatedGuides: [
+      { href: "/blog/class-12-boards-mht-cet-week-by-week-balance-plan", label: "Class 12 Boards + MHT-CET: A Week-by-Week Balance Plan for the Final Term" },
+      { href: "/blog/mht-cet-2027-moving-to-december-what-it-means", label: "MHT-CET Is Moving to December: What the New 2-Attempt Cycle Means for Class 11 Students" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "MHT-CET draws about 20% of its weightage from Class 11 and 80% from Class 12. A sensible plan puts roughly 70 to 75% of study time on Class 12 and 25 to 30% on Class 11, because Class 11 topics are shorter in weightage but foundational and cheap to revise. Adjust the split using your mock-test results, giving extra time to whichever class costs you more marks.",
+      },
+      {
+        kind: 'p',
+        text: "The 20:80 weighting is stated by the CET Cell and is reflected in the site's guide to the 2027 cycle. The time split below is editorial guidance, not an official figure.",
+      },
+      { kind: 'h2', text: "A starting split" },
+      {
+        kind: 'table',
+        headers: ["Phase", "Class 12 share", "Class 11 share", "Notes"],
+        rows: [
+          ["First learning pass", "About 70%", "About 30%", "Cover both syllabi in full, starting with Class 12"],
+          ["Practice phase", "About 75%", "About 25%", "Chapter-wise MCQs, with Class 11 in short regular sets"],
+          ["Mock phase", "About 75%", "About 25%", "Full-length papers, then fix the chapters that cost marks"],
+          ["Final weeks", "About 70%", "About 30%", "Formula sheets and fast revision, including Class 11 basics"],
+        ],
+      },
+      { kind: 'h2', text: "Why not follow the weightage exactly" },
+      {
+        kind: 'ul',
+        items: [
+          "Class 11 chapters are foundations for Class 12 topics, so weak basics cost marks in both.",
+          "Class 11 content is quicker to revise, so a small time share goes far.",
+          "In close ranks, the 20% can decide the difference.",
+          "Your own mock data matters more than any generic split.",
+        ],
+      },
+      { kind: 'h2', text: "How to adjust" },
+      {
+        kind: 'p',
+        text: "After each mock, tally the marks lost by class and subject. If most losses come from Class 11, raise its share for the next two weeks. If they come from specific Class 12 chapters, give those chapters dedicated sessions.",
+      },
+      { kind: 'h2', text: "A weekly template" },
+      {
+        kind: 'ul',
+        items: [
+          "Four to five sessions on Class 12 chapters with practice questions.",
+          "Two short sessions on Class 11 revision and MCQs.",
+          "One timed test, reviewed the next day, covering both classes.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Keep the plan flexible, and let your results guide the split. The weightage tells you where the marks are, and your mocks tell you where you are losing them.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I skip Class 11 and focus only on Class 12?",
+        answer: "It is not advisable. About a fifth of the weightage comes from Class 11, and many Class 12 topics depend on it.",
+      },
+      {
+        question: "How should I handle board exams alongside this?",
+        answer: "The site's week-by-week balance plan for Class 12 boards and MHT-CET covers this in detail.",
+      },
+      {
+        question: "Is the 20:80 split fixed every year?",
+        answer: "It has been stated by the CET Cell for the recent cycles. Check the current year's brochure to confirm.",
+      },
+    ],
+  },
+  {
+    slug: "bitsat-english-proficiency-logical-reasoning-30-questions-students-ignore",
+    title: "BITSAT English Proficiency and Logical Reasoning: The 30 Questions Many Students Ignore",
+    description:
+      "English and Logical Reasoning make up a meaningful share of BITSAT, yet they get the least preparation. Here is how to prepare for them alongside PCM.",
+    category: "iit-jee",
+    datePublished: '2026-11-01',
+    readingMinutes: 4,
+    relatedProgramHref: "/iit-jee-coaching-pune",
+    relatedProgramLabel: "IIT-JEE Coaching",
+    relatedGuides: [
+      { href: "/blog/bitsat-2027-last-month-speed-strategy", label: "BITSAT 2027 Last-Month Speed Strategy: Formula Recall, Mental Math & the Bonus Question Rule" },
+      { href: "/blog/bitsat-2027-what-usually-changes-between-sessions", label: "BITSAT 2027 Is Coming — Here's What Usually Changes Between Sessions" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In recent BITSAT cycles, English Proficiency and Logical Reasoning together made up about 30 of roughly 130 questions, yet many students prepare only Physics, Chemistry and Maths. These sections are not tied to Class 11 or Class 12; they test skills such as grammar, vocabulary, comprehension, series, analogies and pattern reasoning. They can be prepared steadily alongside PCM, and each question earns the same marks as one in the science sections.",
+      },
+      {
+        kind: 'p',
+        text: "In recent cycles BITSAT has been a computer-based test of about 130 questions across Physics, Chemistry, English Proficiency, Logical Reasoning and Mathematics, with +3 for a correct answer and -1 for a wrong one. Check the current bulletin for the exact structure.",
+      },
+      {
+        kind: 'p',
+        text: "BITS Pilani does not publish chapter-wise weightage, and BITSAT's pattern and eligibility details change between cycles. The priorities below are editorial guidance based on recurring patterns in past papers and chapter size, so confirm the pattern and syllabus on the official bitsadmission.com bulletin before finalising your plan.",
+      },
+      { kind: 'h2', text: "What the two sections cover" },
+      {
+        kind: 'table',
+        headers: ["Section", "Typical content", "How to prepare"],
+        rows: [
+          ["English Proficiency", "Grammar, vocabulary, reading comprehension, sentence completion and composition", "Daily reading, grammar drills and short timed comprehension sets"],
+          ["Logical Reasoning", "Verbal and non-verbal reasoning, series, analogies, coding-decoding and pattern puzzles", "Practise puzzle types until each takes under a minute, then mix them"],
+        ],
+      },
+      { kind: 'h2', text: "Why they are worth the time" },
+      {
+        kind: 'ul',
+        items: [
+          "They are skill-based, so steady practice improves them quickly.",
+          "They use no calculator or formula memory.",
+          "They can be done in short slots between PCM sessions.",
+          "Each question counts the same as a Physics or Chemistry question.",
+        ],
+      },
+      { kind: 'h2', text: "A weekly routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Daily: 15 to 20 minutes of reading plus five vocabulary or grammar items.",
+          "Three times a week: a 15-question reasoning set under a timer.",
+          "Weekly: one timed comprehension passage and a mixed English set.",
+          "In mocks: attempt these sections early if they are quick for you, to bank time.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students treat these sections as 'easy' and leave them to the last week. But speed is the challenge, and puzzle patterns take practice to recognise. Starting early turns them into dependable marks.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is BITSAT English difficult?",
+        answer: "It is usually moderate, but the time per question is short. Regular practice builds the speed.",
+      },
+      {
+        question: "Can I skip Logical Reasoning?",
+        answer: "It is not wise. These questions are worth the same marks and are among the more improvable sections with practice.",
+      },
+      {
+        question: "Where can I find practice material?",
+        answer: "Use the official BITSAT sample material, past papers and general reasoning and English practice books, checking that the question types match the current bulletin.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

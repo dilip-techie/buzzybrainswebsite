@@ -3484,5 +3484,165 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-11-01",
     readingMinutes: 4
+  },
+  {
+    slug: "jee-main-physics-high-weightage-chapters-class-11-12",
+    title: "JEE Main Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Not every Physics chapter pays the same. Here is where JEE Main Physics marks usually concentrate, chapter by chapter, split between Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "neet-physics-high-weightage-chapters-class-11-12",
+    title: "NEET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "NEET Physics is 180 of the 720 marks, and a few chapters give a large share of them. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "mht-cet-physics-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "MHT-CET draws 80% of its questions from Class 12, so Class 12 Physics chapters deserve most of your time. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "bitsat-physics-high-weightage-chapters-class-11-12",
+    title: "BITSAT Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "BITSAT Physics rewards fast, accurate formula use across both classes. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "jee-main-chemistry-high-weightage-chapters-class-11-12",
+    title: "JEE Main Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "JEE Main Chemistry rewards a few chapters heavily. Here is where the marks usually sit across Physical, Organic and Inorganic Chemistry, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "neet-chemistry-high-weightage-chapters-class-11-12",
+    title: "NEET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "NEET Chemistry rewards NCERT-precise recall across Physical, Organic and Inorganic. Here is where the marks usually concentrate, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "mht-cet-chemistry-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Chemistry is often the highest-return paper in MHT-CET. Here is where the marks usually concentrate across Physical, Organic and Inorganic, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "bitsat-chemistry-high-weightage-chapters-class-11-12",
+    title: "BITSAT Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "BITSAT Chemistry is a fast-scoring section built on NCERT-style recall and quick numericals. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "jee-main-maths-high-weightage-chapters-class-11-12",
+    title: "JEE Main Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Calculus, coordinate geometry and algebra carry most of JEE Main Maths. Here is the chapter-by-chapter map, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "neet-botany-high-weightage-chapters-class-11-12",
+    title: "NEET Botany: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Botany is a large part of NEET's Biology half. Here is where the marks usually concentrate, split by Class 11 and Class 12, with NCERT-first guidance.",
+    category: "neet",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "mht-cet-maths-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Maths carries the most marks per question in MHT-CET. Here is the chapter map, split by Class 11 and Class 12, and where speed matters most.",
+    category: "iit-jee",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "bitsat-maths-high-weightage-chapters-class-11-12",
+    title: "BITSAT Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Maths is the largest section of BITSAT. Here is the chapter map, split by Class 11 and Class 12, and how to build the speed the test demands.",
+    category: "iit-jee",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "jee-main-cross-subject-priority-list-chapters-to-master-first",
+    title: "The Cross-Subject Priority List: 12 JEE Main Chapters to Master First",
+    description: "With a long syllabus and limited time, where should your first revision cycle go? Here is a short cross-subject list of chapters worth mastering first, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "neet-zoology-high-weightage-chapters-class-11-12",
+    title: "NEET Zoology: High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "Human physiology, reproduction, health and evolution make up much of NEET Zoology. Here is the chapter map, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "mht-cet-biology-high-weightage-chapters-class-11-12",
+    title: "MHT-CET Biology (PCB): High-Weightage Chapters, Split by Class 11 and Class 12",
+    description: "For the PCB group, Biology carries a large share of the marks. Here is the chapter map for Botany and Zoology, split by Class 11 and Class 12.",
+    category: "iit-jee",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "bitsat-class-11-vs-class-12-chapter-planner-pcm",
+    title: "BITSAT Class 11 vs Class 12: A Chapter Planner for Physics, Chemistry and Maths",
+    description: "BITSAT draws on both classes with no fixed split. Here is a one-page planner that shows which chapters to prioritise from each class, and how to schedule them.",
+    category: "iit-jee",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "class-11-jee-chapters-that-carry-into-class-12",
+    title: "Class 11 Chapters That Quietly Carry Into Class 12 (and Reappear in JEE)",
+    description: "Several Class 11 chapters are building blocks for Class 12 topics. Here are the ones worth keeping alive, and how to revise them alongside the new syllabus.",
+    category: "iit-jee",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "neet-cross-subject-priority-chapters-to-master-first",
+    title: "NEET Priority List: The Chapters to Master First Across Physics, Chemistry and Biology",
+    description: "With three subjects and a long syllabus, where should your first revision cycle go? Here is a cross-subject priority list, split by Class 11 and Class 12.",
+    category: "neet",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "mht-cet-20-80-split-how-to-divide-study-time-class-11-12",
+    title: "MHT-CET’s 20:80 Split: How to Divide Your Study Time Between Class 11 and Class 12",
+    description: "With about 20% of the weightage from Class 11 and 80% from Class 12, how should you split your time? Here is a practical, flexible plan.",
+    category: "iit-jee",
+    datePublished: "2026-11-01",
+    readingMinutes: 4
+  },
+  {
+    slug: "bitsat-english-proficiency-logical-reasoning-30-questions-students-ignore",
+    title: "BITSAT English Proficiency and Logical Reasoning: The 30 Questions Many Students Ignore",
+    description: "English and Logical Reasoning make up a meaningful share of BITSAT, yet they get the least preparation. Here is how to prepare for them alongside PCM.",
+    category: "iit-jee",
+    datePublished: "2026-11-01",
+    readingMinutes: 4
   }
 ];

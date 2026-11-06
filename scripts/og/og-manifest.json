@@ -3317,7 +3317,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-number-theory-math-kangaroo.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Algebra for Math Kangaroo",
@@ -3325,7 +3325,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-algebra-math-kangaroo.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Geometry for Math Kangaroo",
@@ -3333,7 +3333,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-geometry-math-kangaroo.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Combinatorics and Logic for Math Kangaroo",
@@ -3341,7 +3341,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-combinatorics-math-kangaroo.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Number Theory for AMC 8",
@@ -3349,7 +3349,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-number-theory-amc-8.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Algebra for AMC 8",
@@ -3357,7 +3357,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-algebra-amc-8.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Geometry for AMC 8",
@@ -3365,7 +3365,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-geometry-amc-8.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Counting and Probability for AMC 8",
@@ -3373,7 +3373,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-combinatorics-counting-amc-8.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Number Theory for AMC 10",
@@ -3381,7 +3381,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-number-theory-amc-10.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Algebra for AMC 10",
@@ -3389,7 +3389,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-algebra-amc-10.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Geometry for AMC 10",
@@ -3397,7 +3397,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-geometry-amc-10.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Counting and Probability for AMC 10",
@@ -3405,7 +3405,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-combinatorics-counting-amc-10.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Number Theory for IOQM",
@@ -3413,7 +3413,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-number-theory-ioqm.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Algebra for IOQM",
@@ -3421,7 +3421,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-algebra-ioqm.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Geometry for IOQM",
@@ -3429,7 +3429,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-geometry-ioqm.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Combinatorics for IOQM",
@@ -3437,7 +3437,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-combinatorics-ioqm.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Number Theory for NMTC, Level by Level",
@@ -3445,7 +3445,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-number-theory-nmtc.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Algebra for NMTC, Level by Level",
@@ -3453,7 +3453,7 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-algebra-nmtc.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Geometry for NMTC, Level by Level",
@@ -3461,13 +3461,173 @@
     "category": "Olympiad",
     "path": "/images/og/best-books-geometry-nmtc.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Best Books for Combinatorics for NMTC, Level by Level",
     "slug": "best-books-combinatorics-nmtc",
     "category": "Olympiad",
     "path": "/images/og/best-books-combinatorics-nmtc.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "JEE Main Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "jee-main-physics-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-physics-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "neet-physics-high-weightage-chapters-class-11-12",
+    "category": "NEET",
+    "path": "/images/og/neet-physics-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "mht-cet-physics-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-physics-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "BITSAT Physics: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "bitsat-physics-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/bitsat-physics-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Main Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "jee-main-chemistry-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-chemistry-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "neet-chemistry-high-weightage-chapters-class-11-12",
+    "category": "NEET",
+    "path": "/images/og/neet-chemistry-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "mht-cet-chemistry-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-chemistry-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "BITSAT Chemistry: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "bitsat-chemistry-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/bitsat-chemistry-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "JEE Main Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "jee-main-maths-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-maths-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Botany: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "neet-botany-high-weightage-chapters-class-11-12",
+    "category": "NEET",
+    "path": "/images/og/neet-botany-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "mht-cet-maths-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-maths-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "BITSAT Maths: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "bitsat-maths-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/bitsat-maths-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "The Cross-Subject Priority List: 12 JEE Main Chapters to Master First",
+    "slug": "jee-main-cross-subject-priority-list-chapters-to-master-first",
+    "category": "IIT-JEE",
+    "path": "/images/og/jee-main-cross-subject-priority-list-chapters-to-master-first.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Zoology: High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "neet-zoology-high-weightage-chapters-class-11-12",
+    "category": "NEET",
+    "path": "/images/og/neet-zoology-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET Biology (PCB): High-Weightage Chapters, Split by Class 11 and Class 12",
+    "slug": "mht-cet-biology-high-weightage-chapters-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-biology-high-weightage-chapters-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "BITSAT Class 11 vs Class 12: A Chapter Planner for Physics, Chemistry and Maths",
+    "slug": "bitsat-class-11-vs-class-12-chapter-planner-pcm",
+    "category": "IIT-JEE",
+    "path": "/images/og/bitsat-class-11-vs-class-12-chapter-planner-pcm.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Class 11 Chapters That Quietly Carry Into Class 12 (and Reappear in JEE)",
+    "slug": "class-11-jee-chapters-that-carry-into-class-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/class-11-jee-chapters-that-carry-into-class-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "NEET Priority List: The Chapters to Master First Across Physics, Chemistry and Biology",
+    "slug": "neet-cross-subject-priority-chapters-to-master-first",
+    "category": "NEET",
+    "path": "/images/og/neet-cross-subject-priority-chapters-to-master-first.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "MHT-CET’s 20:80 Split: How to Divide Your Study Time Between Class 11 and Class 12",
+    "slug": "mht-cet-20-80-split-how-to-divide-study-time-class-11-12",
+    "category": "IIT-JEE",
+    "path": "/images/og/mht-cet-20-80-split-how-to-divide-study-time-class-11-12.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "BITSAT English Proficiency and Logical Reasoning: The 30 Questions Many Students Ignore",
+    "slug": "bitsat-english-proficiency-logical-reasoning-30-questions-students-ignore",
+    "category": "IIT-JEE",
+    "path": "/images/og/bitsat-english-proficiency-logical-reasoning-30-questions-students-ignore.png",
     "dimensions": "1200x630",
     "status": "created"
   },
