@@ -42834,6 +42834,1942 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-sat-math-books-official-first-bluebook-and-study-guide",
+    title: "Best Books for SAT Maths: Start With the Official Digital SAT Study Guide and Bluebook",
+    description:
+      "Before buying any third-party prep book, build your SAT Maths plan on the official materials. Here is what to use first and why it beats most alternatives.",
+    category: "sat-exam",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/how-to-use-official-bluebook-practice-tests-effectively", label: "How to Use Official Bluebook Practice Tests Effectively" },
+      { href: "/blog/digital-sat-math-built-in-calculator-changes-everything", label: "Digital SAT Math: Why the Built-In Calculator Changes Everything" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The best starting point for SAT Maths is official material: The Official Digital SAT Study Guide from College Board, the free adaptive practice tests in the Bluebook app, and the free Official Digital SAT Prep on Khan Academy. They are written for the current digital test, so the question style, difficulty and tools match what you will see. Add a third-party book only for gaps that the official sources do not fix.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Math section is adaptive, with two modules, and a calculator is allowed throughout, including the built-in Desmos graphing calculator in the Bluebook app. College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "Why official first" },
+      {
+        kind: 'ul',
+        items: [
+          "The questions come from the same source as the real test, so wording and difficulty match.",
+          "Bluebook practice tests use the real adaptive format and the built-in Desmos calculator.",
+          "Khan Academy's official practice is free and organised by the same four content domains.",
+          "Older paper-SAT books can mislead your pacing, since the test is now shorter and adaptive.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Publisher", "Best for", "How to use it"],
+        rows: [
+          ["The Official Digital SAT Study Guide", "College Board", "Core practice and explanations", "Work by domain, then take the full tests under timed conditions"],
+          ["Bluebook practice tests", "College Board (free app)", "Realistic adaptive full tests", "Take one every one to two weeks and review every error"],
+          ["Official Digital SAT Prep on Khan Academy", "Khan Academy with College Board (free)", "Targeted skill practice", "Use the diagnostic, then drill the weakest domains"],
+          ["Desmos graphing calculator", "Desmos (free)", "Speed on graphing and equations", "Practise using it on real questions, not only learning the buttons"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "A simple plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Week 1: take a full Bluebook test untimed-then-timed to find your baseline and weakest domain.",
+          "Weeks 2 to 6: drill one domain at a time on Khan Academy and the study guide.",
+          "Every second week: a full timed Bluebook test, with errors logged by domain and cause.",
+          "Final weeks: repeat the weakest question types until they stop appearing in your error log.",
+        ],
+      },
+      { kind: 'h2', text: "When to add something else" },
+      {
+        kind: 'p',
+        text: "Bring in a third-party book or a textbook only when the official sources show a gap that you cannot fix by practising, for example weak algebra foundations. Even then, keep official tests as your measure of progress.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the Official Digital SAT Study Guide enough on its own?",
+        answer: "For many students it is a strong core, especially with Bluebook tests. Add other resources only for specific gaps.",
+      },
+      {
+        question: "Are Bluebook practice tests free?",
+        answer: "Yes, they are available inside the free Bluebook app, which is also the app you use on test day. Check College Board for the current number of tests.",
+      },
+      {
+        question: "Do I need to buy a calculator?",
+        answer: "The Digital SAT includes a built-in Desmos calculator in Bluebook, and you can also bring an approved calculator. Practise with whichever you will use.",
+      },
+    ],
+  },
+  {
+    slug: "best-sat-reading-writing-books-official-materials-first",
+    title: "Best Books for SAT Reading and Writing: Start With Official Materials",
+    description:
+      "The Digital SAT English section looks different from the old paper test. Here is why official materials come first and which resources to add for grammar and vocabulary.",
+    category: "sat-exam",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/digital-sat-reading-writing-short-passages-fast", label: "Digital SAT Reading & Writing: How to Handle Short Passages Fast" },
+      { href: "/blog/how-to-use-official-bluebook-practice-tests-effectively", label: "How to Use Official Bluebook Practice Tests Effectively" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The best starting point for SAT Reading and Writing is official material: The Official Digital SAT Study Guide, the free adaptive tests in the Bluebook app and the free Official Digital SAT Prep on Khan Academy. They match the short-passage, one-question format of the digital test. After that, add targeted resources for your weakest domain, such as a grammar book for Standard English Conventions or a reading routine for vocabulary.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Reading and Writing section is adaptive, with two modules, and each question is attached to a short passage, often a paragraph or less. College Board groups the questions into four content domains: Information and Ideas, Craft and Structure, Expression of Ideas, and Standard English Conventions.",
+      },
+      { kind: 'h2', text: "Why official first" },
+      {
+        kind: 'ul',
+        items: [
+          "The short, single-question passages are unlike the long passages of the old paper test.",
+          "Official questions show the exact style of the correct answers and the traps.",
+          "Bluebook tests follow the real adaptive structure and timing.",
+          "Many older books spend time on long-passage strategies that no longer apply.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Publisher", "Best for", "How to use it"],
+        rows: [
+          ["The Official Digital SAT Study Guide", "College Board", "Core practice and explanations", "Practise by domain, then take full tests"],
+          ["Bluebook practice tests", "College Board (free app)", "Realistic adaptive tests", "Take one every one to two weeks and review every miss"],
+          ["Official Digital SAT Prep on Khan Academy", "Khan Academy with College Board (free)", "Targeted drills by domain", "Use the diagnostic, then drill the weakest domain"],
+          ["A grammar reference (see the grammar guide)", "Various", "Standard English Conventions", "Fill rule gaps, then practise with official questions"],
+          ["A vocabulary and reading routine (see the vocabulary guide)", "Various", "Craft and Structure", "Build word and reading fluency over weeks"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "A simple plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Week 1: a full Bluebook test to find your weakest domain.",
+          "Weeks 2 to 6: daily 30 to 45 minute drills on that domain.",
+          "Every second week: a full timed test and an error log by cause.",
+          "Final weeks: mixed sets that mimic module timing.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students often read about strategy for hours and do too little timed practice. The test rewards speed and accuracy on many short questions, so practice volume matters more than theory.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the Official Study Guide enough for Reading and Writing?",
+        answer: "For many students it is a strong core, especially with Bluebook tests. Add grammar or vocabulary resources for specific gaps.",
+      },
+      {
+        question: "Are old SAT reading books useful?",
+        answer: "They can build general reading skills, but the format and timing differ, so rely on official digital material for practice.",
+      },
+      {
+        question: "How many hours a week should I study?",
+        answer: "It depends on your target and timeline. Short, regular daily sessions usually work better than occasional long ones.",
+      },
+    ],
+  },
+  {
+    slug: "sat-in-the-us-registration-test-day-score-reports-guide",
+    title: "SAT in the US: How Registration, Test Day and Score Reports Work",
+    description:
+      "A clear walkthrough of the Digital SAT process for students in the United States, from creating a College Board account to sending scores to colleges.",
+    category: "sat-exam",
+    datePublished: '2026-10-24',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/understanding-digital-sat-adaptive-modules", label: "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)" },
+      { href: "/blog/how-to-use-official-bluebook-practice-tests-effectively", label: "How to Use Official Bluebook Practice Tests Effectively" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To take the SAT in the US, create a free College Board account, register for a test date and test centre, install the Bluebook app on the device you will use, and attend on test day with your admission ticket and photo ID. The test is digital and adaptive, with two sections (Reading and Writing, and Math) and about 2 hours 14 minutes of testing time. Scores come back digitally, and you choose which colleges receive them.",
+      },
+      { kind: 'h2', text: "Step by step" },
+      {
+        kind: 'ul',
+        items: [
+          "Create a College Board account and check the current test dates and registration deadlines.",
+          "Register, choose a test centre, and upload an accepted photo for your admission ticket.",
+          "Download Bluebook and complete the device check and a practice test before test day.",
+          "On test day, bring your device, charger, admission ticket and photo ID as College Board instructs.",
+          "After the test, review your score report and select score recipients.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The US usually has several test dates across the year, in autumn, winter, spring and early summer. Some states and districts also offer the SAT during the school day, so ask your school counsellor.",
+      },
+      { kind: 'h2', text: "Things worth doing early" },
+      {
+        kind: 'table',
+        headers: ["Task", "Why it matters"],
+        rows: [
+          ["Check fee waiver eligibility", "Eligible students can take the SAT at reduced or no cost through College Board programs"],
+          ["Request accommodations if needed", "Approvals through College Board can take time, so apply well before your target date"],
+          ["Test your device in Bluebook", "Avoids technical surprises on test day"],
+          ["Plan your score sends", "Know each college’s deadlines and test policies"],
+        ],
+      },
+      { kind: 'h2', text: "On test day" },
+      {
+        kind: 'p',
+        text: "The digital format has two sections, each split into two modules, with a short break between sections. A calculator is allowed throughout Math, including the built-in Desmos tool in Bluebook. Arrive early and follow the testing centre's instructions.",
+      },
+      { kind: 'h2', text: "After the test" },
+      {
+        kind: 'p',
+        text: "Scores are reported digitally, typically within days of the test. You can review the breakdown by content domain, which helps plan a retake if you want one.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees and policies change, so always confirm the current details on College Board's official website and on each college's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need my own laptop for the SAT?",
+        answer: "Many students use their own approved device, and College Board describes options if you do not have one. Check the current process when you register.",
+      },
+      {
+        question: "How soon do scores arrive?",
+        answer: "Digital SAT scores typically arrive within days, but check College Board for the current timeline.",
+      },
+      {
+        question: "Can I take the SAT at school?",
+        answer: "Some states and districts offer SAT School Day testing. Ask your counsellor whether yours does.",
+      },
+    ],
+  },
+  {
+    slug: "sat-in-india-registration-test-centres-id-test-day-checklist",
+    title: "SAT in India: Registration, Test Centres, ID and a Test-Day Checklist",
+    description:
+      "A practical guide for students in India: how to register for the Digital SAT, how to choose a test centre in Pune or another city, what ID to carry and what to do on test day.",
+    category: "sat-exam",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/understanding-digital-sat-adaptive-modules", label: "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)" },
+      { href: "/blog/how-to-use-official-bluebook-practice-tests-effectively", label: "How to Use Official Bluebook Practice Tests Effectively" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To take the SAT in India, create a College Board account, register for an international test date, choose a test centre in your city, and prepare your device with the Bluebook app. On test day, carry your admission ticket and the photo ID College Board accepts for your country, which for many students in India is a passport. The test is digital and adaptive, with about 2 hours 14 minutes of testing time. Confirm all details on College Board's website.",
+      },
+      { kind: 'h2', text: "Step by step for students in India" },
+      {
+        kind: 'ul',
+        items: [
+          "Create a free College Board account and check the international test dates and deadlines.",
+          "Register and choose a test centre. College Board lists centres in many Indian cities, including Pune, and availability varies by date, so register early.",
+          "Make sure the name on your registration matches your photo ID exactly.",
+          "Install Bluebook, run the device check and complete a full practice test.",
+          "Download or print your admission ticket as instructed.",
+        ],
+      },
+      { kind: 'h2', text: "ID and device" },
+      {
+        kind: 'table',
+        headers: ["Item", "What to check"],
+        rows: [
+          ["Photo ID", "Confirm the ID College Board accepts for India. Many students use a passport, so check well before the registration deadline"],
+          ["Device", "Use an approved laptop or tablet with Bluebook installed and fully charged, or follow College Board’s process if you need to request a device"],
+          ["Admission ticket", "Keep it ready as College Board instructs"],
+          ["Calculator", "Desmos is built into Bluebook, and you can bring an approved calculator too"],
+        ],
+      },
+      { kind: 'h2', text: "Test-day checklist" },
+      {
+        kind: 'ul',
+        items: [
+          "Reach the centre early, allowing for city traffic.",
+          "Bring your device, charger, ID, admission ticket, water and a snack for the break.",
+          "Follow the centre staff's instructions and the Bluebook prompts carefully.",
+          "Keep your phone switched off and stored as required.",
+        ],
+      },
+      { kind: 'h2', text: "Choosing a test date" },
+      {
+        kind: 'p',
+        text: "In India, many students plan around school exams: CBSE and ICSE board dates, IB and IGCSE sessions, and school pre-boards. Pick a date that does not fall in a heavy exam fortnight, and leave time for a retake.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and ID rules change and can differ by country, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT held in Pune?",
+        answer: "College Board lists test centres in many Indian cities and the list changes by date. Check the centre list when you register.",
+      },
+      {
+        question: "Do I need a passport to take the SAT in India?",
+        answer: "Many students use a passport as ID, but you should check College Board's current ID rules for your situation well before you register.",
+      },
+      {
+        question: "Do I need to bring my own computer?",
+        answer: "Many students use their own approved device. College Board also describes an option to request a device, so check the process during registration.",
+      },
+    ],
+  },
+  {
+    slug: "sat-in-singapore-registration-test-centres-test-day-checklist",
+    title: "SAT in Singapore: Registration, Test Centres and a Test-Day Checklist",
+    description:
+      "A practical guide for students in Singapore: how to register for the Digital SAT, how to find a test centre, what to bring and how to plan around school exams.",
+    category: "sat-exam",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/understanding-digital-sat-adaptive-modules", label: "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)" },
+      { href: "/blog/how-to-use-official-bluebook-practice-tests-effectively", label: "How to Use Official Bluebook Practice Tests Effectively" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To take the SAT in Singapore, create a College Board account, register for an international test date, choose a test centre in Singapore, and prepare your device with the Bluebook app. On test day, carry your admission ticket and the photo ID that College Board accepts, which for many students outside the US is a passport. The test is digital and adaptive, with about 2 hours 14 minutes of testing time. Confirm all details on College Board's website.",
+      },
+      { kind: 'h2', text: "Step by step for students in Singapore" },
+      {
+        kind: 'ul',
+        items: [
+          "Create a free College Board account and check the international test dates and deadlines.",
+          "Register and choose a test centre. Centres in Singapore are often at schools and their availability can vary by date, so register early.",
+          "Make sure the name on your registration matches your photo ID exactly.",
+          "Install Bluebook, run the device check and take at least one full practice test.",
+          "Download or print your admission ticket as instructed.",
+        ],
+      },
+      { kind: 'h2', text: "What to prepare" },
+      {
+        kind: 'table',
+        headers: ["Item", "What to check"],
+        rows: [
+          ["Photo ID", "Confirm the ID College Board accepts for testing in Singapore well before the registration deadline"],
+          ["Device", "Bring an approved, fully charged laptop or tablet with Bluebook installed, or follow College Board’s process to request one"],
+          ["Admission ticket", "Keep it ready as College Board instructs"],
+          ["Calculator", "Desmos is built into Bluebook, and an approved calculator is allowed too"],
+        ],
+      },
+      { kind: 'h2', text: "Choosing a date around school exams" },
+      {
+        kind: 'p',
+        text: "Students in Singapore often have school exams, IGCSE, IB or A-level sessions, and national exams during the year. Choose a test date that does not fall in a heavy exam period, and leave time for a retake before application deadlines.",
+      },
+      { kind: 'h2', text: "Test-day checklist" },
+      {
+        kind: 'ul',
+        items: [
+          "Arrive early and allow for travel time.",
+          "Bring your device, charger, ID, admission ticket, water and a snack.",
+          "Follow the staff's instructions and the Bluebook prompts carefully.",
+          "Keep your phone switched off and stored as required.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and admissions policies change and can differ by country and by university, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Where can I take the SAT in Singapore?",
+        answer: "College Board lists test centres in Singapore, and the available centres can vary by date. Check the centre list when you register.",
+      },
+      {
+        question: "What ID do I need?",
+        answer: "Check College Board's current ID requirements for international test takers, and note that a passport is commonly accepted.",
+      },
+      {
+        question: "Can I use my school laptop?",
+        answer: "That depends on the device and College Board's rules. Check the Bluebook requirements and test the device beforehand.",
+      },
+    ],
+  },
+  {
+    slug: "best-third-party-sat-math-prep-books-how-to-choose-a-digital-edition",
+    title: "Best Third-Party SAT Maths Prep Books: How to Choose a Digital-Era Edition",
+    description:
+      "Princeton Review, Barron's, Kaplan and others publish SAT books, but not every edition fits the digital test. Here is how to choose one and how to use it without wasting time.",
+    category: "sat-exam",
+    datePublished: '2026-10-25',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/common-digital-sat-mistakes-that-cost-points", label: "Common Digital SAT Mistakes That Cost Students Points" },
+      { href: "/blog/digital-sat-two-years-later-what-changed", label: "Digital SAT Format Two Years In: What's Different From the Old Paper Test" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Princeton Review, Barron's and Kaplan each publish Digital SAT prep books, but quality varies by edition. Choose one whose cover and table of contents clearly describe the digital test, with adaptive-style practice sets and calculator-aware strategies. Use it for explanations and extra practice by domain, while keeping official Bluebook tests as your measure. Avoid editions written for the old paper SAT, which can teach the wrong pacing.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Math section is adaptive, with two modules, and a calculator is allowed throughout, including the built-in Desmos graphing calculator in the Bluebook app. College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "A checklist for choosing an edition" },
+      {
+        kind: 'ul',
+        items: [
+          "The edition says 'Digital SAT' and a recent year on the cover, not only 'New SAT'.",
+          "It explains the adaptive module format and the built-in calculator.",
+          "Practice sets are organised by the four content domains.",
+          "Answer explanations show more than one method, including a Desmos approach.",
+          "Browse the table of contents and a sample chapter before buying.",
+        ],
+      },
+      { kind: 'h2', text: "How the main publishers compare" },
+      {
+        kind: 'table',
+        headers: ["Publisher", "Typical strength", "Watch out for"],
+        rows: [
+          ["Princeton Review", "Clear content review and practice by topic", "Check that the edition reflects the digital format"],
+          ["Barron’s", "Detailed explanations and many practice problems", "Some titles are long; use selectively"],
+          ["Kaplan", "Structured lessons and strategy tips", "Confirm the digital-format coverage and edition year"],
+          ["Other publishers and workbooks", "Extra drills on specific domains", "Check how closely questions match College Board style"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These are general descriptions, so check recent reviews and the edition's own contents, since quality can differ between years.",
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "How to use a third-party book" },
+      {
+        kind: 'ul',
+        items: [
+          "Take an official test first, then use the book to explain the concepts you missed.",
+          "Prefer chapters on your weakest domain over reading cover to cover.",
+          "Redo a few problems with Desmos and without it to learn which is faster.",
+          "Check progress on official tests, not on the book's own practice tests.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students sometimes buy several books and finish none. One well-chosen book used deliberately, together with the official tests, beats a shelf of unread ones.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which publisher is the best?",
+        answer: "There is no single best. Choose by the digital-era edition, the clarity of explanations and how well the practice matches the official style.",
+      },
+      {
+        question: "Can I use an old paper-SAT book?",
+        answer: "It can help with concepts, but the pacing, adaptive format and calculator rules differ, so rely on official digital material for practice.",
+      },
+      {
+        question: "Do I need more than one book?",
+        answer: "Usually not. One good book plus the official tests is enough for most students.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-sat-grammar-standard-english-conventions",
+    title: "Best Books for SAT Grammar and Standard English Conventions",
+    description:
+      "Grammar is the most learnable part of SAT English. Here are the books that cover the rules the test checks, and how to turn them into points.",
+    category: "sat-exam",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-grammar-rules-standard-english-conventions-guide", label: "SAT Grammar Rules: The Complete Standard English Conventions Guide" },
+      { href: "/blog/common-digital-sat-mistakes-that-cost-points", label: "Common Digital SAT Mistakes That Cost Students Points" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Standard English Conventions questions test a small set of rules: sentence boundaries, subject-verb agreement, verb tense, pronouns, punctuation and modifiers. Good books for these rules include Erica Meltzer's The Ultimate Guide to SAT Grammar, Raymond Murphy's English Grammar in Use for foundations, Michael Swan's Practical English Usage as a reference, and Strunk and White's The Elements of Style for concision. Always practise the rules on official Digital SAT questions.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Reading and Writing section is adaptive, with two modules, and each question is attached to a short passage, often a paragraph or less. College Board groups the questions into four content domains: Information and Ideas, Craft and Structure, Expression of Ideas, and Standard English Conventions.",
+      },
+      { kind: 'h2', text: "What the grammar questions check" },
+      {
+        kind: 'ul',
+        items: [
+          "Boundaries: commas, semicolons, colons, dashes and run-on sentences.",
+          "Subject-verb agreement and verb tense.",
+          "Pronoun agreement and clarity.",
+          "Modifier placement and parallel structure.",
+          "Possessives, plurals and punctuation within sentences.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Book", "Author", "Best for", "Notes"],
+        rows: [
+          ["The Ultimate Guide to SAT Grammar", "Erica Meltzer", "SAT-specific rules and drills", "Check that your edition reflects the digital test"],
+          ["English Grammar in Use", "Raymond Murphy", "Foundations, especially for ESL learners", "Clear explanations with short exercises"],
+          ["Practical English Usage", "Michael Swan", "Reference for tricky points", "Look things up as needed rather than reading straight through"],
+          ["The Elements of Style", "William Strunk Jr. and E.B. White", "Concision and clarity", "Short and useful, but not a full grammar course"],
+          ["Official Digital SAT questions", "College Board and Khan Academy", "Applying the rules", "Always finish with official practice"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "How to turn rules into points" },
+      {
+        kind: 'ul',
+        items: [
+          "Learn one rule at a time and do 10 official questions on it immediately.",
+          "Write down the rule behind every miss, not just the right answer.",
+          "Make a one-page sheet of the rules you forget and review it daily.",
+          "Do timed sets of 10 to 15 questions to build the pace the test needs.",
+        ],
+      },
+      { kind: 'h2', text: "For students who learn English as an additional language" },
+      {
+        kind: 'p',
+        text: "Students in India and Singapore often know grammar rules well in theory but rely on how a sentence sounds. The SAT rewards applying the rule, so a foundation book plus daily official practice is a strong combination.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to learn every grammar rule?",
+        answer: "Focus on the rules the test checks most. The official questions show which ones repeat.",
+      },
+      {
+        question: "Is Erica Meltzer's book still relevant for the digital test?",
+        answer: "The grammar rules it covers still matter, but check that your edition reflects the digital format and use official questions for pacing.",
+      },
+      {
+        question: "Can I improve grammar quickly?",
+        answer: "Grammar is one of the faster areas to improve, because the rules are limited and learnable with regular practice.",
+      },
+    ],
+  },
+  {
+    slug: "test-optional-test-flexible-test-required-how-us-colleges-treat-sat",
+    title: "Test-Optional, Test-Flexible or Test-Required: How US Colleges Treat the SAT Now",
+    description:
+      "US college testing policies have shifted in recent years. Here is how to read them, what each term means, and how to decide whether to submit a score.",
+    category: "sat-exam",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/what-sat-score-do-you-need-for-top-us-universities", label: "What SAT Score Do You Actually Need for Top US Universities?" },
+      { href: "/blog/sat-superscore-strategy-how-colleges-combine-scores", label: "SAT Superscore Strategy: How Colleges Actually Combine Your Section Scores" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "US colleges use several testing policies: test-required, test-optional, test-flexible and test-blind. Many selective colleges that went test-optional during and after the pandemic have since reinstated testing requirements, while others remain optional, and policies keep changing. The safe approach is to check each college's current policy and, where optional, submit a score only if it helps your application.",
+      },
+      { kind: 'h2', text: "What the terms mean" },
+      {
+        kind: 'table',
+        headers: ["Policy", "What it usually means"],
+        rows: [
+          ["Test-required", "You must submit an SAT or ACT score, or another accepted test"],
+          ["Test-optional", "You may choose whether to submit a score"],
+          ["Test-flexible", "You may submit other tests, such as AP or IB scores, instead of the SAT or ACT"],
+          ["Test-blind", "The college does not consider scores even if you send them"],
+        ],
+      },
+      { kind: 'h2', text: "How to decide whether to submit" },
+      {
+        kind: 'ul',
+        items: [
+          "Compare your score with the college's published middle range for admitted students.",
+          "If your score is at or above that range, submitting usually helps.",
+          "If it is well below, consider whether other parts of your application are stronger.",
+          "Remember that some scholarships and programmes may require a score even at test-optional colleges.",
+        ],
+      },
+      { kind: 'h2', text: "Why you cannot rely on old information" },
+      {
+        kind: 'p',
+        text: "Policies have changed year by year, and several colleges have changed them more than once. A policy listed on a blog from a few years ago may be out of date, so check the college's own admissions page for your application year.",
+      },
+      { kind: 'h2', text: "A practical approach" },
+      {
+        kind: 'ul',
+        items: [
+          "Make a list of colleges and note each policy and deadline.",
+          "Take at least one SAT before applying, so you have the option to submit.",
+          "Decide on submission after you have results, not before.",
+          "Ask college admissions offices if anything is unclear.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Preparing for the SAT keeps your options open even when a college is optional, since a strong score can strengthen an application.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees and policies change, so always confirm the current details on College Board's official website and on each college's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "If a college is test-optional, should I still take the SAT?",
+        answer: "Often yes, because a strong score can help, and it keeps the option open. You can decide whether to submit after you see it.",
+      },
+      {
+        question: "Do international applicants face different policies?",
+        answer: "Policies can be the same or specific to international applicants. Check each college's page.",
+      },
+      {
+        question: "Where do I find a college's current policy?",
+        answer: "On its official admissions website, which is the authoritative source.",
+      },
+    ],
+  },
+  {
+    slug: "which-universities-accept-the-sat-options-for-indian-students",
+    title: "Which Universities Accept the SAT? Options for Indian Students in the US, India, Canada and Beyond",
+    description:
+      "The SAT is not only for US colleges. Here is how to find which universities in the US, India and other countries accept or consider SAT scores, and how to check.",
+    category: "sat-exam",
+    datePublished: '2026-10-26',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/what-sat-score-do-you-need-for-top-us-universities", label: "What SAT Score Do You Actually Need for Top US Universities?" },
+      { href: "/blog/sat-vs-act-which-should-indian-students-take", label: "SAT vs ACT: Which Should Indian Students Take?" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The SAT is most widely used for US college admissions, but some universities in India, Canada, Australia and other countries also accept or consider SAT scores, usually alongside board marks and other requirements. Policies differ by university and by course, and change over time, so the reliable approach is to check each university's international admissions page. Students planning for several countries can often use one SAT score across several applications.",
+      },
+      { kind: 'h2', text: "Where SAT scores are commonly used" },
+      {
+        kind: 'table',
+        headers: ["Destination", "How the SAT is typically used", "What to check"],
+        rows: [
+          ["United States", "Many colleges consider SAT or ACT scores, with policies ranging from required to optional", "Each college’s current testing policy"],
+          ["India", "Some private universities and liberal arts programmes accept SAT scores as part of admissions, alongside other criteria", "Each university’s admission page for the current year"],
+          ["Canada and Australia", "Some universities consider SAT scores for international applicants, often together with school results", "Whether your course or school curriculum requires or accepts it"],
+          ["United Kingdom and Europe", "Most rely on school qualifications such as A-levels, IB or board results, and some programmes may consider SAT scores", "Course-specific entry requirements"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "This table is a general guide, not a list of specific universities. Rules differ by institution.",
+      },
+      { kind: 'h2', text: "How to check" },
+      {
+        kind: 'ul',
+        items: [
+          "Make a list of target universities and find their international admissions pages.",
+          "Look for the accepted tests, minimum or typical scores and any course-specific requirements.",
+          "Check whether the university requires the SAT, accepts it as an alternative or considers it optional.",
+          "Note application deadlines and when scores must be received.",
+        ],
+      },
+      { kind: 'h2', text: "Why one score can serve several applications" },
+      {
+        kind: 'p',
+        text: "If you apply to universities in more than one country, a single strong SAT score may be used in several applications. Planning your test dates around the earliest deadline keeps your options open.",
+      },
+      { kind: 'h2', text: "A caution" },
+      {
+        kind: 'p',
+        text: "Do not assume that a university accepts the SAT because a friend or a website says so. Admissions policies are updated regularly, and the official page for your application year is the only source to rely on.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and ID rules change and can differ by country, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT accepted in India?",
+        answer: "Some Indian universities accept or consider SAT scores for certain programmes. Check each university's admissions page for the current policy.",
+      },
+      {
+        question: "Can one SAT score be used for several countries?",
+        answer: "Often yes, if each university accepts it. Confirm each one's requirements.",
+      },
+      {
+        question: "Is the SAT needed for the UK?",
+        answer: "Most UK universities rely on school qualifications, but some programmes may consider other evidence. Check course entry requirements.",
+      },
+    ],
+  },
+  {
+    slug: "sat-for-singapore-international-school-students-ib-igcse-a-level-ap",
+    title: "SAT for Singapore International-School Students: Where It Fits With IB, IGCSE, A-Level and AP",
+    description:
+      "Students at international schools in Singapore follow different curricula. Here is how the SAT fits alongside each one, and how to schedule it.",
+    category: "sat-exam",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both", label: "SAT Prep for Students Also Doing IGCSE, IB or CBSE: Balancing Both" },
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Students at international schools in Singapore usually follow IB, IGCSE with A-levels, or an American-style curriculum with AP courses. The SAT is mainly relevant if you are applying to US colleges or to other universities that consider it. Plan it around your curriculum's exam calendar: start diagnostics in the year before you apply, take your first SAT when school workload allows, and keep time for a retake.",
+      },
+      { kind: 'h2', text: "How it fits with each curriculum" },
+      {
+        kind: 'table',
+        headers: ["Curriculum", "Typical pressure points", "Planning idea"],
+        rows: [
+          ["IB Diploma", "Internal assessments, the Extended Essay and May or November exams in DP2", "Take the SAT in DP1 or early DP2, before the heaviest workload"],
+          ["IGCSE then A-levels", "IGCSE exams in Grade 10, then A-level preparation", "Prepare in the summer after IGCSE and test early in the first A-level year"],
+          ["American-style curriculum with AP", "AP exams in May and a heavy Grade 11 schedule", "Use the fall or winter of Grade 11 for the first SAT and spring for a retake"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These are general suggestions. Your school counsellor can advise on your school's calendar.",
+      },
+      { kind: 'h2', text: "How the SAT complements your record" },
+      {
+        kind: 'ul',
+        items: [
+          "It provides a standardised measure that colleges can compare across different curricula.",
+          "It can show readiness for college-level reading and maths.",
+          "Where a college is test-optional, a strong score is a choice you can make after you see it.",
+        ],
+      },
+      { kind: 'h2', text: "Scheduling tips" },
+      {
+        kind: 'ul',
+        items: [
+          "Take a diagnostic early so you know your starting point.",
+          "Use school holidays for longer practice blocks and full-length tests.",
+          "Avoid test dates close to major internal exams.",
+          "Aim to finish testing before the term when applications are due.",
+        ],
+      },
+      { kind: 'h2', text: "A common issue" },
+      {
+        kind: 'p',
+        text: "Students sometimes treat the SAT as an extra on top of a heavy curriculum. Starting early and practising in short, regular sessions makes it manageable, and the reading and maths skills overlap with school work.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and admissions policies change and can differ by country and by university, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT useful if I am studying the IB?",
+        answer: "It can be, particularly for US applications, where colleges may consider it alongside IB predicted grades. Check each college's policy.",
+      },
+      {
+        question: "When should IB students take the SAT?",
+        answer: "Many aim for DP1 or early DP2, before internal assessments and the Extended Essay reach their peak.",
+      },
+      {
+        question: "Can AP students rely on AP scores alone?",
+        answer: "Some colleges are test-flexible, but many still consider SAT or ACT scores. Check each college's policy.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-resources-sat-algebra-advanced-math",
+    title: "Best Books and Resources for SAT Algebra and Advanced Math",
+    description:
+      "Algebra and Advanced Math make up a large share of the Digital SAT Maths section. Here are the books and tools that build the skills, from foundations to hard questions.",
+    category: "sat-exam",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/digital-sat-math-built-in-calculator-changes-everything", label: "Digital SAT Math: Why the Built-In Calculator Changes Everything" },
+      { href: "/blog/sat-math-topics-indian-students-underestimate", label: "SAT Math Section Breakdown: Topics Indian Students Often Underestimate" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For SAT Algebra and Advanced Math, use the official Khan Academy practice and the Official Digital SAT Study Guide for the exact question style, the Desmos calculator for graphing-based solutions, and the AoPS Introduction to Algebra by Richard Rusczyk for strong students who want deeper foundations. School textbooks such as NCERT Class 9 and 10 can fill foundation gaps for students in India. Advanced Math covers quadratics, polynomials, exponentials and function work.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Math section is adaptive, with two modules, and a calculator is allowed throughout, including the built-in Desmos graphing calculator in the Bluebook app. College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "What these domains cover" },
+      {
+        kind: 'ul',
+        items: [
+          "Algebra: linear equations, inequalities, systems and linear functions.",
+          "Advanced Math: quadratics, polynomials, exponential and rational expressions, and function notation.",
+          "Questions are often word problems that must be translated into equations.",
+          "Many questions can be solved faster by graphing in Desmos or by testing answer choices.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Role", "Best for"],
+        rows: [
+          ["Official Digital SAT Prep on Khan Academy", "Targeted practice", "Drilling each skill with official-style questions"],
+          ["The Official Digital SAT Study Guide", "Practice and explanations", "Seeing the real question style and answer reasoning"],
+          ["Desmos graphing calculator", "Tool", "Solving systems and equations by graphing, and checking answers"],
+          ["Introduction to Algebra (AoPS), Richard Rusczyk", "Deeper foundations", "Strong students aiming for 750+ in Maths"],
+          ["NCERT Mathematics, Classes 9 and 10", "School foundation", "Filling algebra gaps for students in Indian curricula"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "How to use them" },
+      {
+        kind: 'ul',
+        items: [
+          "Start with a diagnostic and identify whether your gaps are in Algebra or Advanced Math.",
+          "Drill one skill at a time, such as systems or quadratics, until it feels automatic.",
+          "For every problem, try solving it with and without Desmos and note which is faster.",
+          "Keep an error log with the cause: concept gap, translation error or careless slip.",
+        ],
+      },
+      { kind: 'h2', text: "When to go beyond official material" },
+      {
+        kind: 'p',
+        text: "If you score well on easy questions but miss the hardest ones in module 2, a deeper book such as the AoPS algebra text can help with problem-solving. Otherwise, volume of official practice is the better investment.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is AoPS Introduction to Algebra necessary for the SAT?",
+        answer: "No. It is useful for students aiming for very high Maths scores who want deeper problem-solving, but official practice is enough for most.",
+      },
+      {
+        question: "Should I learn to solve everything by hand?",
+        answer: "Learn the methods, but also practise Desmos shortcuts, since they save time on many questions.",
+      },
+      {
+        question: "How long does it take to improve Algebra skills?",
+        answer: "It varies, but a few weeks of focused, daily drills usually produce visible improvement.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-reading-lists-sat-vocabulary-words-in-context",
+    title: "Best Books and Reading Lists for SAT Vocabulary and Words in Context",
+    description:
+      "SAT vocabulary is about meaning in context, not memorising long word lists. Here are the books and reading habits that build it.",
+    category: "sat-exam",
+    datePublished: '2026-10-27',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-vocabulary-strategy-word-in-context-questions", label: "SAT Vocabulary Strategy: Mastering Word-in-Context Questions" },
+      { href: "/blog/digital-sat-reading-writing-short-passages-fast", label: "Digital SAT Reading & Writing: How to Handle Short Passages Fast" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "SAT vocabulary questions test words in context, so the best preparation combines a vocabulary book, such as Norman Lewis's Word Power Made Easy or the Merriam-Webster Vocabulary Builder, with regular reading of good non-fiction, fiction and science writing. Learn words in sentences, test meaning from context, and review them in short, spaced sessions. Check your progress on official Craft and Structure questions.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Reading and Writing section is adaptive, with two modules, and each question is attached to a short passage, often a paragraph or less. College Board groups the questions into four content domains: Information and Ideas, Craft and Structure, Expression of Ideas, and Standard English Conventions.",
+      },
+      { kind: 'h2', text: "What the questions look like" },
+      {
+        kind: 'ul',
+        items: [
+          "A short passage with a blank, asking which word best completes the meaning.",
+          "Questions about how a word is used in the passage, often a familiar word with a less common meaning.",
+          "Answer choices that are all real words, so you must match tone and logic.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Author or source", "Best for", "How to use it"],
+        rows: [
+          ["Word Power Made Easy", "Norman Lewis", "Building word roots and general vocabulary", "A few pages a day, with the exercises"],
+          ["Merriam-Webster Vocabulary Builder", "Merriam-Webster", "Word study with examples in context", "Learn words in their example sentences"],
+          ["Quality non-fiction and fiction", "Newspapers, magazines, novels", "Seeing words used naturally", "Read 20 to 30 minutes daily and note unfamiliar words"],
+          ["A good learner or college dictionary", "Various", "Checking meaning and usage", "Read the example sentences and secondary meanings"],
+          ["Official Digital SAT Craft and Structure questions", "College Board and Khan Academy", "Testing your skill", "Do timed sets and review every miss"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "A routine that works" },
+      {
+        kind: 'ul',
+        items: [
+          "Daily: 20 to 30 minutes of reading, with five new words recorded with their sentence.",
+          "Three times a week: 10 official words-in-context questions.",
+          "Weekly: review the word log with flashcards, covering the meaning first.",
+          "Always guess the meaning from context before checking the dictionary.",
+        ],
+      },
+      { kind: 'h2', text: "What to avoid" },
+      {
+        kind: 'p',
+        text: "Avoid memorising huge lists of rare words with one-line definitions. On the Digital SAT, the tested words are usually moderate in difficulty, and the skill is choosing the meaning that fits the sentence.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many words should I learn?",
+        answer: "Quality matters more than quantity. A few hundred well-learned words, plus the habit of reading in context, is more useful than thousands of memorised ones.",
+      },
+      {
+        question: "Are flashcards useful?",
+        answer: "Yes, if the cards include a sentence and you review them regularly in short sessions.",
+      },
+      {
+        question: "What should I read for the SAT?",
+        answer: "A mix of quality non-fiction, science and history writing, and some literature, since the test draws on a range of subjects.",
+      },
+    ],
+  },
+  {
+    slug: "sat-superscore-score-choice-and-merit-aid-how-us-colleges-use-multiple-scores",
+    title: "SAT Superscoring, Score Choice and Merit Aid: How US Colleges Use Multiple Scores",
+    description:
+      "Taking the SAT more than once changes how colleges see your results. Here is what superscoring and Score Choice mean, and how scores can affect scholarships.",
+    category: "sat-exam",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-retake-strategy-when-and-how-many-times", label: "SAT Retake Strategy: When (and How Many Times) to Retake the Digital SAT" },
+      { href: "/blog/sat-superscore-strategy-how-colleges-combine-scores", label: "SAT Superscore Strategy: How Colleges Actually Combine Your Section Scores" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Superscoring means a college combines your highest Reading and Writing score and your highest Math score across different test dates. Score Choice is a College Board option that lets you choose which test dates to send, although some colleges ask for all scores. Some colleges and scholarship programmes also use SAT scores for merit aid. Policies differ by college, so check each one before deciding how many times to test.",
+      },
+      { kind: 'h2', text: "Two ideas to keep separate" },
+      {
+        kind: 'table',
+        headers: ["Term", "What it means", "What to check"],
+        rows: [
+          ["Superscoring", "The college takes your best section scores across test dates", "Whether each college on your list superscores"],
+          ["Score Choice", "You choose which test dates to send to colleges", "Whether a college requires all scores or allows Score Choice"],
+        ],
+      },
+      { kind: 'h2', text: "Why this matters for retakes" },
+      {
+        kind: 'ul',
+        items: [
+          "If most of your colleges superscore, a retake can only help your combined score.",
+          "If a college requires all scores, your lower scores will also be seen.",
+          "Preparing between attempts matters more than the number of attempts.",
+          "Plan retakes early enough that results arrive before application deadlines.",
+        ],
+      },
+      { kind: 'h2', text: "Merit aid and scholarships" },
+      {
+        kind: 'p',
+        text: "Some colleges publish score ranges for merit scholarships, and some state programmes use SAT or ACT scores in their criteria. If scholarships matter to your family, look at each college's financial aid pages and ask the admissions office what applies to international or domestic applicants.",
+      },
+      { kind: 'h2', text: "A planning checklist" },
+      {
+        kind: 'ul',
+        items: [
+          "List your colleges and note whether each superscores and how it handles multiple scores.",
+          "Check scholarship requirements and score thresholds, and their deadlines.",
+          "Decide how many attempts you can prepare for properly.",
+          "Send scores in time for each college's deadline.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "A realistic plan is usually two or three well-prepared attempts, not many rushed ones.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees and policies change, so always confirm the current details on College Board's official website and on each college's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Does every college superscore?",
+        answer: "No. Many do, but policies vary, so check each college's page.",
+      },
+      {
+        question: "Should I use Score Choice?",
+        answer: "It depends on each college's requirements and your own situation. Make sure you understand each college's rule first.",
+      },
+      {
+        question: "How many times should I take the SAT?",
+        answer: "Many students take it two or three times with real preparation in between. The site's retake guide goes into more detail.",
+      },
+    ],
+  },
+  {
+    slug: "how-us-admissions-read-cbse-icse-ib-igcse-transcripts-with-your-sat",
+    title: "How US Admissions Read CBSE, ICSE, IB and IGCSE Transcripts Alongside Your SAT",
+    description:
+      "Your SAT score is read together with your school record. Here is how Indian curricula appear in a US application, and how to present them clearly.",
+    category: "sat-exam",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both", label: "SAT Prep for Students Also Doing IGCSE, IB or CBSE: Balancing Both" },
+      { href: "/blog/how-sat-scores-factor-into-ivy-league-admissions", label: "How SAT Scores Actually Factor into Ivy League Admissions (Test-Optional Reality Check)" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "US admissions offices read your SAT score together with your school transcript, course rigour, essays, activities and recommendations. Students from CBSE, ICSE, IB and IGCSE schools are common applicants, and admissions staff are used to these curricula. To present your record clearly, submit accurate transcripts, a school profile and counsellor materials, explain your school's grading, and use the SAT to add an externally standardised data point.",
+      },
+      { kind: 'h2', text: "What admissions officers look at" },
+      {
+        kind: 'ul',
+        items: [
+          "Your transcript: subjects, grades and the level of courses you took.",
+          "Context: your school's profile, grading scale and curriculum.",
+          "Standardised scores: an SAT or ACT score where the college considers one.",
+          "Essays, activities and recommendations.",
+        ],
+      },
+      { kind: 'h2', text: "Curriculum by curriculum" },
+      {
+        kind: 'table',
+        headers: ["Curriculum", "What to make clear", "How the SAT helps"],
+        rows: [
+          ["CBSE and ICSE", "Your grading scale, board results and subject combinations", "A standardised measure alongside board marks"],
+          ["IB Diploma", "Subjects at HL and SL, predicted grades and the core", "An additional data point where the college considers scores"],
+          ["IGCSE and A-levels", "Subjects, tiers and grades, and your school’s context", "A common reference point across applicants"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These are general descriptions. Each college explains how it evaluates international transcripts, so read its international applicant page.",
+      },
+      { kind: 'h2', text: "How to present your record well" },
+      {
+        kind: 'ul',
+        items: [
+          "Ask your school counsellor to send a clear school profile with grading information.",
+          "Make sure subject names, marks and grades on your transcript are accurate.",
+          "Choose test dates that give you time to prepare, since your SAT is read together with these documents.",
+          "Do not try to explain every difference in the essay. Let the counsellor and school documents provide context.",
+        ],
+      },
+      { kind: 'h2', text: "A balanced view" },
+      {
+        kind: 'p',
+        text: "The SAT is one part of a holistic review. A strong score helps, but it does not replace a strong school record or a thoughtful application, so plan your time across all of them.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and ID rules change and can differ by country, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do US colleges understand CBSE and ICSE marks?",
+        answer: "Admissions offices that regularly read applications from India are familiar with them, and your school profile adds context. Check each college's international guidance.",
+      },
+      {
+        question: "Does my curriculum affect which SAT date I should choose?",
+        answer: "Mainly through exam timing. Choose a date that does not clash with board or IB exams.",
+      },
+      {
+        question: "Should I send predicted grades?",
+        answer: "If the college asks for them, as with IB. Follow each college's instructions.",
+      },
+    ],
+  },
+  {
+    slug: "singapore-maths-vs-the-digital-sat-what-transfers-and-what-doesnt",
+    title: "Singapore Maths vs the Digital SAT: What Transfers and What Does Not",
+    description:
+      "Students trained in Singapore maths often have strong algebra and problem-solving. Here is where that helps on the SAT, and the data and context-based questions that need extra practice.",
+    category: "sat-exam",
+    datePublished: '2026-10-28',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/digital-sat-math-built-in-calculator-changes-everything", label: "Digital SAT Math: Why the Built-In Calculator Changes Everything" },
+      { href: "/blog/sat-problem-solving-data-analysis-guide", label: "How to Master SAT Problem Solving & Data Analysis: The Ultimate Guide to Scoring 750+ in SAT Math" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Students who have studied Singapore maths often bring strong arithmetic, algebra and problem-solving to the Digital SAT Math section, which helps with Algebra and Advanced Math questions. The areas that usually need extra practice are the SAT's real-world data analysis and statistics questions, working with the Desmos calculator, and the speed required for many short questions. Official Bluebook and Khan Academy practice shows exactly where the gaps are.",
+      },
+      { kind: 'h2', text: "What tends to transfer well" },
+      {
+        kind: 'ul',
+        items: [
+          "Fluency with algebra, equations and word problems.",
+          "Comfort with multi-step reasoning and ratios.",
+          "Careful working and checking habits.",
+          "Geometry and basic trigonometry, depending on your school's syllabus.",
+        ],
+      },
+      { kind: 'h2', text: "What may need extra attention" },
+      {
+        kind: 'table',
+        headers: ["Area", "Why it can be new", "How to practise"],
+        rows: [
+          ["Data analysis and statistics", "Questions use real-world contexts, tables and scatterplots, and terms like margin of error", "Official Khan Academy and Bluebook data-analysis questions"],
+          ["Desmos calculator", "Many questions are faster with graphing than with algebra", "Practise solving systems and equations by graphing"],
+          ["Speed on short questions", "The test has many questions in limited time", "Timed sets of 10 to 15 questions"],
+          ["Reading-heavy word problems", "Wording can be dense, especially for non-native English speakers", "Annotate the question and underline what is asked"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "A practical plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Take a full Bluebook test early and note which domains lose marks.",
+          "If data analysis is weak, drill it with official questions for a few weeks.",
+          "Learn Desmos shortcuts on real questions, not in the abstract.",
+          "Review every error and record whether it was a concept, a misread or a time issue.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Strong maths training is a real advantage. The goal is to adapt it to the SAT's style and tools.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT Math section easier than school maths in Singapore?",
+        answer: "Many students find the content familiar, but the format, time pressure and question style differ, so practice is still needed.",
+      },
+      {
+        question: "Should I learn to use Desmos?",
+        answer: "Yes. It is built into Bluebook and can save time on many questions.",
+      },
+      {
+        question: "Which part usually needs the most work?",
+        answer: "Often the data analysis questions and speed. A diagnostic test shows your own pattern.",
+      },
+    ],
+  },
+  {
+    slug: "best-resources-sat-problem-solving-data-analysis-geometry-trig",
+    title: "Best Resources for SAT Problem-Solving, Data Analysis, Geometry and Trigonometry",
+    description:
+      "These two domains look different from school maths. Here are the resources that cover statistics, percentages, geometry and trigonometry in SAT style.",
+    category: "sat-exam",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-problem-solving-data-analysis-guide", label: "How to Master SAT Problem Solving & Data Analysis: The Ultimate Guide to Scoring 750+ in SAT Math" },
+      { href: "/blog/sat-math-data-analysis-statistics-questions-guide", label: "Digital SAT Math: Mastering Problem-Solving & Data Analysis Questions" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For SAT Problem-Solving and Data Analysis, practise with official Khan Academy and Bluebook questions on ratios, percentages, statistics, probability and data interpretation, since these use unfamiliar contexts and tables. For Geometry and Trigonometry, review circles, triangles, area, volume and basic trigonometry with the official guide, and use the AoPS Introduction to Geometry if you want deeper foundations. School textbooks fill basic gaps.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Math section is adaptive, with two modules, and a calculator is allowed throughout, including the built-in Desmos graphing calculator in the Bluebook app. College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "What these domains cover" },
+      {
+        kind: 'ul',
+        items: [
+          "Problem-Solving and Data Analysis: ratios and rates, percentages, unit conversion, scatterplots, two-way tables, statistics, probability and margin-of-error ideas.",
+          "Geometry and Trigonometry: area and volume, lines and angles, triangles, circles, right-triangle trigonometry and radians.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Indian and Singapore students often find the statistics and data-interpretation questions less familiar than the algebra, because they are phrased in real-world contexts.",
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Role", "Best for"],
+        rows: [
+          ["Official Digital SAT Prep on Khan Academy", "Skill practice", "Data analysis and geometry drills in SAT style"],
+          ["The Official Digital SAT Study Guide", "Question style", "Reading real data questions and explanations"],
+          ["Bluebook practice tests", "Realistic practice", "Seeing how these questions appear within modules"],
+          ["Introduction to Geometry (AoPS), Richard Rusczyk", "Deeper foundations", "Strong students wanting more rigour"],
+          ["School textbooks (for example NCERT statistics and geometry chapters)", "Foundation", "Filling gaps in basic statistics and geometry"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "How to prepare" },
+      {
+        kind: 'ul',
+        items: [
+          "Practise reading tables and graphs carefully, since a misread label causes most errors.",
+          "Memorise the geometry facts that the test does not always supply, such as angle rules and special right triangles.",
+          "Learn the SAT's statistics vocabulary, such as mean, median, standard deviation and margin of error.",
+          "Use Desmos to plot data, find lines of best fit and check geometry with coordinates.",
+        ],
+      },
+      { kind: 'h2', text: "A common mistake" },
+      {
+        kind: 'p',
+        text: "Students sometimes under-practise these domains because they seem easier than algebra. But the wording and context can be unfamiliar, so a few weeks of targeted practice usually pays off quickly.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the statistics on the SAT hard?",
+        answer: "The concepts are usually basic, but the contexts and wording can be unfamiliar. Practice with official questions removes most of the surprise.",
+      },
+      {
+        question: "Do I need to memorise trigonometry formulas?",
+        answer: "Learn the basic right-triangle ratios and radian conversions. Check which formulas the test provides, and practise the rest.",
+      },
+      {
+        question: "How should I practise reading data questions?",
+        answer: "Slow down on the first pass, underline what the question asks, and check units and labels before calculating.",
+      },
+    ],
+  },
+  {
+    slug: "best-resources-sat-information-ideas-craft-structure-reading-practice",
+    title: "Best Resources for SAT Information and Ideas and Craft and Structure Questions",
+    description:
+      "These two domains make up much of the Reading and Writing section. Here are the resources and reading habits that train inference, evidence and structure.",
+    category: "sat-exam",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/digital-sat-reading-writing-short-passages-fast", label: "Digital SAT Reading & Writing: How to Handle Short Passages Fast" },
+      { href: "/blog/understanding-digital-sat-adaptive-modules", label: "Understanding the Digital SAT's Adaptive Modules (and How to Unlock the Harder Module 2)" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Information and Ideas and Craft and Structure questions test whether you can find the main point, support a claim with evidence, make inferences, read data in a table or graph, and understand why a text is written the way it is. The best resources are official Bluebook and Khan Academy questions, the Official Digital SAT Study Guide, and a regular reading routine across science, history, literature and social science. Slow, careful reading of each short passage beats speed-skimming.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Reading and Writing section is adaptive, with two modules, and each question is attached to a short passage, often a paragraph or less. College Board groups the questions into four content domains: Information and Ideas, Craft and Structure, Expression of Ideas, and Standard English Conventions.",
+      },
+      { kind: 'h2', text: "What each domain asks" },
+      {
+        kind: 'ul',
+        items: [
+          "Information and Ideas: central ideas, details, inferences and using textual or quantitative evidence.",
+          "Craft and Structure: words in context, the purpose or structure of a text, and connections between two texts.",
+          "Questions often hinge on one word or phrase, so exact reading matters.",
+        ],
+      },
+      { kind: 'h2', text: "The shortlist" },
+      {
+        kind: 'table',
+        headers: ["Resource", "Best for", "How to use it"],
+        rows: [
+          ["Official Digital SAT Prep on Khan Academy", "Skill-by-skill practice", "Drill each question type, then mix them"],
+          ["The Official Digital SAT Study Guide", "Real questions and explanations", "Study why the wrong answers are wrong"],
+          ["Bluebook practice tests", "Timed practice in module format", "Review every miss by question type"],
+          ["Regular reading: science, history, literature and social science articles", "Building comprehension and stamina", "Summarise each passage in one sentence"],
+          ["A reading-and-annotation habit", "Accuracy under time", "Underline the claim or contrast in each passage"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "How to train these skills" },
+      {
+        kind: 'ul',
+        items: [
+          "Read the question first, then the passage, so you know what to look for.",
+          "Predict the answer before looking at the choices.",
+          "Eliminate answers that are too extreme, off-topic or only partly supported.",
+          "For data questions, read the title, labels and units before comparing numbers.",
+        ],
+      },
+      { kind: 'h2', text: "Common traps" },
+      {
+        kind: 'p',
+        text: "The wrong choices are often tempting because they are true but not supported by the passage, or they repeat words from the passage without matching its meaning. Practice shows you which trap types you fall for, so log them.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the Digital SAT reading different from school comprehension?",
+        answer: "The passages are short and each question has a single best answer that must be supported by the text. Precision matters more than general understanding.",
+      },
+      {
+        question: "Does reading widely really help?",
+        answer: "Yes. It builds vocabulary, stamina and the ability to follow ideas quickly, which are the skills the test measures.",
+      },
+      {
+        question: "How should I handle time?",
+        answer: "The questions are short, so aim for steady pacing, and mark and return to ones that take too long. Timed sets show your real pace.",
+      },
+    ],
+  },
+  {
+    slug: "sat-timeline-for-us-juniors-psat-fall-to-spring-retakes",
+    title: "SAT Timeline for US Juniors: From the PSAT in the Fall to Retakes by Spring",
+    description:
+      "A month-by-month plan for US students in 11th grade, from the PSAT through the first SAT and a retake before application season.",
+    category: "sat-exam",
+    datePublished: '2026-10-29',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+      { href: "/blog/psat-national-merit-what-indian-students-should-know", label: "PSAT and National Merit: Why Most Indian Students Don't Need to Worry About It (and Who Actually Should)" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A workable SAT timeline for a US junior starts with a diagnostic in summer, the PSAT/NMSQT in October, a first SAT in the winter or early spring, and a retake in spring or early summer, with preparation in between. This leaves senior year free for applications. The PSAT can also qualify eligible students for the National Merit programme, which is limited to US citizens and lawful permanent residents.",
+      },
+      { kind: 'h2', text: "A sample timeline" },
+      {
+        kind: 'table',
+        headers: ["When", "What to do"],
+        rows: [
+          ["Summer before 11th grade", "Take a full Bluebook diagnostic and set a target score"],
+          ["September to October", "Study by domain and take the PSAT/NMSQT as scheduled by your school"],
+          ["November to December", "Review PSAT results, then plan your first SAT date"],
+          ["Winter or early spring", "Take the first SAT and review the score by domain"],
+          ["Spring", "Targeted prep on your weakest domain"],
+          ["Late spring or early summer", "Take a retake if needed"],
+          ["Summer before 12th grade", "Finalise scores and send them to colleges"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Exact dates vary by year and by school, so check the College Board calendar and your counsellor's advice.",
+      },
+      { kind: 'h2', text: "How to use the PSAT" },
+      {
+        kind: 'ul',
+        items: [
+          "It is a shorter version of the digital test, useful as a practice run.",
+          "The score report shows your strengths and weaknesses by domain.",
+          "For US citizens and permanent residents, scores in the PSAT/NMSQT can qualify for National Merit recognition. Confirm eligibility rules with the programme.",
+        ],
+      },
+      { kind: 'h2', text: "Balancing with school" },
+      {
+        kind: 'p',
+        text: "Junior year is already busy with AP courses and activities. Plan short, regular study sessions across the year instead of intense cramming, and avoid scheduling a test close to major school exams.",
+      },
+      { kind: 'h2', text: "If you start later" },
+      {
+        kind: 'p',
+        text: "Starting in the winter of junior year is still feasible, but it leaves less room for a retake. If you are in this position, prioritise a diagnostic and a focused plan on the weakest domain.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees and policies change, so always confirm the current details on College Board's official website and on each college's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the PSAT required before the SAT?",
+        answer: "No, but it is useful practice, and it is the qualifying test for National Merit for eligible students.",
+      },
+      {
+        question: "When should I take my first SAT?",
+        answer: "Many juniors take it in winter or early spring, which leaves time for a retake before senior year.",
+      },
+      {
+        question: "Can seniors still take the SAT?",
+        answer: "Yes, in the early fall of senior year for many applications. Check each college's deadlines for score reports.",
+      },
+    ],
+  },
+  {
+    slug: "online-or-classroom-sat-coaching-in-pune-how-to-choose",
+    title: "Online or Classroom SAT Coaching in Pune: How to Choose",
+    description:
+      "Students in Pune can prepare for the SAT online, in a classroom or on their own. Here is what to compare before you choose, and what to ask any coaching centre.",
+    category: "sat-exam",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+      { href: "/blog/how-to-crack-the-digital-sat-complete-strategy", label: "How to Crack the Digital SAT: A Complete Strategy" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "When choosing SAT coaching in Pune, compare how closely the course mirrors the Digital SAT, how many full-length adaptive mocks it includes, how large the batches are, how individual feedback is given and how the schedule fits your school. Online and classroom formats can both work, so choose the one you will attend consistently. At BuzzyBrains Academy the SAT programme is built around Bluebook-style adaptive mocks, with batches capped at 12 students.",
+      },
+      { kind: 'h2', text: "Questions to ask any SAT coaching centre" },
+      {
+        kind: 'ul',
+        items: [
+          "Is the material built for the Digital SAT, not the old paper test?",
+          "How many full-length adaptive mocks are included, and are they analysed by question type?",
+          "What is the batch size, and does each student get individual score analysis?",
+          "Who teaches the classes, and what is their experience?",
+          "How does the schedule fit around school, board exams and other commitments?",
+        ],
+      },
+      { kind: 'h2', text: "A comparison of formats" },
+      {
+        kind: 'table',
+        headers: ["Format", "Strengths", "Watch out for"],
+        rows: [
+          ["Classroom", "Face-to-face interaction, structure and peer motivation", "Travel time and fixed schedules"],
+          ["Online", "Flexible timing and no commute", "Needs self-discipline and a stable setup"],
+          ["Self-study with official material", "Low cost and flexible", "No feedback, and it is easy to lose momentum"],
+        ],
+      },
+      { kind: 'h2', text: "What to look for in the programme" },
+      {
+        kind: 'p',
+        text: "According to its programme page, BuzzyBrains Academy's SAT course covers Reading and Writing and Maths, with 10 or more full-length Bluebook-style adaptive mocks, section-wise error analysis, a maximum of 12 students per batch and mentoring by IIT and IIM alumni faculty. Compare any programme on the same criteria.",
+      },
+      { kind: 'h2', text: "How to decide" },
+      {
+        kind: 'ul',
+        items: [
+          "Take a free diagnostic or demo class if offered, and see how the teaching feels.",
+          "Ask for a sample score analysis to see how detailed the feedback is.",
+          "Check your own schedule and choose a format you can attend consistently.",
+          "Plan the start date backwards from your target test date, with time for a retake.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The right choice is the one that gives you regular, high-quality practice and feedback in a form you will stick with.",
+      },
+    ],
+    faq: [
+      {
+        question: "How long before the test should I start coaching?",
+        answer: "Many students begin around 6 to 9 months before their target date. See the site's prep timeline guide for details.",
+      },
+      {
+        question: "Is a coaching class necessary?",
+        answer: "No. Many students succeed with official material and discipline. Coaching helps when you want structure, feedback and accountability.",
+      },
+      {
+        question: "What batch size is best?",
+        answer: "Smaller batches generally allow more individual feedback. Ask how feedback is given in practice.",
+      },
+    ],
+  },
+  {
+    slug: "do-singapore-universities-accept-the-sat-nus-ntu-smu-international-route",
+    title: "Do Singapore Universities Accept the SAT? NUS, NTU, SMU and the International-Applicant Route",
+    description:
+      "Students in Singapore often ask whether the SAT counts locally. The answer depends on your qualification and the university, so here is how to check the right way.",
+    category: "sat-exam",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/what-sat-score-do-you-need-for-top-us-universities", label: "What SAT Score Do You Actually Need for Top US Universities?" },
+      { href: "/blog/sat-vs-act-which-should-indian-students-take", label: "SAT vs ACT: Which Should Indian Students Take?" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Some Singapore universities, including NUS, NTU and SMU, consider SAT scores for applicants with certain international qualifications, but requirements depend on your qualification, programme and application year. Most applicants apply through the route for their own qualification, such as A-levels, IB or a local pathway, and the SAT may be required, optional or not relevant. Check each university's admissions page for your exact situation.",
+      },
+      { kind: 'h2', text: "Why there is no single answer" },
+      {
+        kind: 'ul',
+        items: [
+          "Admission routes differ by qualification: local, A-level, IB or other international diplomas.",
+          "Programmes within a university can have their own requirements.",
+          "Policies for international and local applicants differ.",
+          "Rules are updated from time to time.",
+        ],
+      },
+      { kind: 'h2', text: "How to check for your situation" },
+      {
+        kind: 'table',
+        headers: ["Step", "What to do"],
+        rows: [
+          ["1", "Find the university’s page for your qualification, such as international qualifications or applicants from American-style schools"],
+          ["2", "Look for whether the SAT is required, accepted as an alternative or optional"],
+          ["3", "Note any minimum or typical scores, and score-reporting deadlines"],
+          ["4", "Check programme-specific requirements, such as subject prerequisites"],
+          ["5", "Ask the admissions office if anything is unclear"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The page is the authoritative source, and its wording is what applies to your application.",
+      },
+      { kind: 'h2', text: "If you are also applying to the US or elsewhere" },
+      {
+        kind: 'p',
+        text: "A single SAT score may serve applications in several countries. If you plan to apply abroad as well as to a university in Singapore, plan your test dates around the earliest deadline so every application has a score available.",
+      },
+      { kind: 'h2', text: "A caution" },
+      {
+        kind: 'p',
+        text: "Do not rely on what a friend or an unofficial website says about which universities accept the SAT. Check the university's own admissions page for the current year.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and admissions policies change and can differ by country and by university, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT compulsory for NUS or NTU?",
+        answer: "That depends on your qualification and programme. Check each university's page for your situation.",
+      },
+      {
+        question: "Can I use my SAT score for both Singapore and US applications?",
+        answer: "Often yes, if each university accepts it. Check each one's requirements.",
+      },
+      {
+        question: "Where can I find the official requirements?",
+        answer: "On each university's admissions website, which is the authoritative source.",
+      },
+    ],
+  },
+  {
+    slug: "best-sat-math-books-by-target-score-1200-1400-1500-plus",
+    title: "Best SAT Maths Books and Resources by Target Score: 1200, 1400 and 1500+",
+    description:
+      "What to use depends on where you start. Here is a score-band guide to the books and resources that fit a student aiming for 600, 700 or 750+ in SAT Maths.",
+    category: "sat-exam",
+    datePublished: '2026-10-30',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-1400-to-1550-study-roadmap", label: "From 1400 to 1550: A Study Roadmap for the Digital SAT" },
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For SAT Maths, a student aiming for around 600 should start with Khan Academy, the Official Digital SAT Study Guide and school-level algebra review. A student aiming for 700 should add Bluebook tests every other week and one third-party book for weak domains. A student aiming for 750 or more should concentrate on hard module 2 questions, Desmos speed, and optionally AoPS Introduction to Algebra and Geometry. Official tests measure progress at every level.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Math section is adaptive, with two modules, and a calculator is allowed throughout, including the built-in Desmos graphing calculator in the Bluebook app. College Board groups the questions into four content domains: Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry and Trigonometry.",
+      },
+      { kind: 'h2', text: "A score-band guide" },
+      {
+        kind: 'table',
+        headers: ["Target Maths score", "Where you probably are", "Core resources", "Extra, if needed"],
+        rows: [
+          ["About 600", "Gaps in algebra basics", "Khan Academy diagnostic and drills, Official Study Guide", "School textbook review (for example NCERT Classes 9 and 10)"],
+          ["About 700", "Solid basics, errors in some domains", "Bluebook tests every second week, Khan Academy for weak domains", "One third-party book for explanations"],
+          ["750 and above", "Strong; losing marks on hard questions", "Repeated timed Bluebook tests, error log by cause", "AoPS Introduction to Algebra and Geometry; Desmos speed practice"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These bands are rough guides, since starting points and needs vary. Take a diagnostic to see which row fits.",
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "What changes at each level" },
+      {
+        kind: 'ul',
+        items: [
+          "Around 600: the goal is accuracy on easy and medium questions, which are most of the test.",
+          "Around 700: the goal is fewer careless errors and handling moderately hard questions.",
+          "750 and above: the goal is consistent success on the hardest module 2 questions and speed with Desmos.",
+        ],
+      },
+      { kind: 'h2', text: "Because the test is adaptive" },
+      {
+        kind: 'p',
+        text: "Module 1 performance affects the difficulty of module 2, so a higher target means getting module 1 right consistently, then handling harder questions in module 2. The official Bluebook tests are the only practice that mirrors this behaviour.",
+      },
+      { kind: 'h2', text: "Keep an error log" },
+      {
+        kind: 'p',
+        text: "At every level, record why you missed each question: concept gap, misread, careless slip or time. Over a few tests, the log tells you which resource to use next.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need different books for different scores?",
+        answer: "Not necessarily different books, but a different emphasis. Higher targets need more timed practice on the hardest questions.",
+      },
+      {
+        question: "How long does it take to move from 600 to 700 in Maths?",
+        answer: "It depends on the starting point and the time you can commit. See the site's prep timeline guide for realistic ranges.",
+      },
+      {
+        question: "Is 750 or higher realistic for everyone?",
+        answer: "It requires strong foundations and consistent practice. A diagnostic helps you set a realistic target.",
+      },
+    ],
+  },
+  {
+    slug: "best-sat-english-books-resources-by-reading-writing-score-band",
+    title: "Best SAT English Books and Resources by Score Band: 600, 700 and 750+",
+    description:
+      "What to use depends on where you start. Here is a score-band guide to the resources that fit a student aiming for 600, 700 or 750+ in Reading and Writing.",
+    category: "sat-exam",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-1400-to-1550-study-roadmap", label: "From 1400 to 1550: A Study Roadmap for the Digital SAT" },
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For SAT Reading and Writing, a student aiming for about 600 should start with official practice and a grammar foundation. A student aiming for 700 should add vocabulary and reading routines and regular Bluebook tests. A student aiming for 750 or more should focus on consistent accuracy on the hardest module 2 questions through timed official tests and careful error analysis. At every level, official material measures progress.",
+      },
+      {
+        kind: 'p',
+        text: "The Digital SAT Reading and Writing section is adaptive, with two modules, and each question is attached to a short passage, often a paragraph or less. College Board groups the questions into four content domains: Information and Ideas, Craft and Structure, Expression of Ideas, and Standard English Conventions.",
+      },
+      { kind: 'h2', text: "A score-band guide" },
+      {
+        kind: 'table',
+        headers: ["Target RW score", "Where you probably are", "Core resources", "Extra, if needed"],
+        rows: [
+          ["About 600", "Gaps in grammar rules and reading accuracy", "Khan Academy diagnostic and drills, Official Study Guide", "A grammar foundation book such as English Grammar in Use"],
+          ["About 700", "Solid basics, errors in some domains", "Bluebook tests every second week, domain drills", "The Ultimate Guide to SAT Grammar and a vocabulary routine"],
+          ["750 and above", "Strong; losing marks on hard questions", "Repeated timed Bluebook tests, error log by cause", "Wider reading, and review of subtle-trap question types"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These bands are rough guides. A diagnostic test shows which row fits.",
+      },
+      {
+        kind: 'p',
+        text: "Prices, editions and availability change, so check the current edition year and confirm that it covers the digital test before you buy.",
+      },
+      { kind: 'h2', text: "What changes at each level" },
+      {
+        kind: 'ul',
+        items: [
+          "Around 600: the goal is reliable accuracy on easy and medium grammar and comprehension questions.",
+          "Around 700: the goal is fewer misreads and handling moderately hard questions.",
+          "750 and above: the goal is near-perfect accuracy on module 1, then success on the hardest module 2 questions.",
+        ],
+      },
+      { kind: 'h2', text: "Because the test is adaptive" },
+      {
+        kind: 'p',
+        text: "A strong module 1 raises the difficulty of module 2, so the margin for careless errors is smaller at higher targets. Timed, official practice is the only preparation that mirrors this.",
+      },
+      { kind: 'h2', text: "Keep an error log" },
+      {
+        kind: 'p',
+        text: "At every level, record whether each miss was a rule gap, a misread, a vocabulary issue or a time problem. The pattern tells you which resource to use next.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need different books for different scores?",
+        answer: "Mostly a different emphasis. Higher targets need more timed practice on the hardest questions and tighter error analysis.",
+      },
+      {
+        question: "Is English or Maths easier to improve?",
+        answer: "It varies by student. Grammar rules and careful reading can improve quickly with practice, while vocabulary and comprehension build more gradually.",
+      },
+      {
+        question: "How long before the test should I start?",
+        answer: "See the site's prep timeline guide for realistic ranges.",
+      },
+    ],
+  },
+  {
+    slug: "sat-vs-act-for-us-students-a-practical-way-to-choose",
+    title: "SAT vs ACT for US Students: A Practical Way to Choose",
+    description:
+      "Both tests are widely accepted by US colleges. Here is a simple, evidence-based method for deciding which one to focus on, using practice tests instead of reputation.",
+    category: "sat-exam",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-vs-act-which-should-indian-students-take", label: "SAT vs ACT: Which Should Indian Students Take?" },
+      { href: "/blog/digital-sat-two-years-later-what-changed", label: "Digital SAT Format Two Years In: What's Different From the Old Paper Test" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "US colleges that consider test scores generally accept both the SAT and the ACT. To choose, take an official full-length practice test of each under timed conditions, compare your results and how comfortable you felt, and then commit to the one that fits better. The Digital SAT is shorter and adaptive, with a calculator throughout Math, while the ACT uses a fixed-difficulty format with English, Math and Reading, plus a Science section. The ACT has changed its format recently, including shortening the test and making Science optional, so check its current structure.",
+      },
+      { kind: 'h2', text: "Key differences" },
+      {
+        kind: 'table',
+        headers: ["Feature", "Digital SAT", "ACT"],
+        rows: [
+          ["Format", "Adaptive, two sections in two modules each, taken in Bluebook", "Fixed difficulty: English, Math and Reading, with Science as a further section"],
+          ["Length", "About 2 hours 14 minutes", "Changed recently, so check the current format"],
+          ["Reading style", "Short passages with one question each", "Longer passages with several questions"],
+          ["Science", "No separate Science section", "A Science section exists; recent changes made it optional"],
+          ["Calculator", "Allowed throughout Math, built-in Desmos available", "Allowed in Math, check the current rules"],
+        ],
+      },
+      { kind: 'h2', text: "A practical way to choose" },
+      {
+        kind: 'ul',
+        items: [
+          "Take one official practice test of each, under timed conditions, a week apart.",
+          "Compare scores using College Board and ACT concordance information, and also your stamina and pacing.",
+          "Check whether any of your target colleges or scholarships prefer one test.",
+          "Choose one and prepare for it, rather than splitting effort between both.",
+        ],
+      },
+      { kind: 'h2', text: "Other things to consider" },
+      {
+        kind: 'ul',
+        items: [
+          "Some states require or offer one test during the school day.",
+          "Your school may provide free practice for one of them.",
+          "Your strengths matter: fast readers and strong science readers may like the ACT, while students who prefer shorter passages and an adaptive test may prefer the SAT.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "There is no universally better test. The best choice is the one on which you can reach your highest score with the preparation you can realistically do.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees and policies change, so always confirm the current details on College Board's official website and on each college's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do colleges prefer one test?",
+        answer: "Most US colleges that consider scores accept both equally. Check each college's page to confirm.",
+      },
+      {
+        question: "Should I take both?",
+        answer: "Usually not. Most students do best focusing on one after comparing practice tests.",
+      },
+      {
+        question: "Which is easier?",
+        answer: "It depends on the student. Practice tests show which suits you better.",
+      },
+    ],
+  },
+  {
+    slug: "planning-the-cost-of-the-sat-from-india-registration-retakes-score-sends",
+    title: "Planning the Cost of the SAT From India: Registration, Retakes and Score Sends",
+    description:
+      "The SAT has several cost components, and costs add up with retakes and score reports. Here is how to plan a realistic budget without relying on figures that go out of date.",
+    category: "sat-exam",
+    datePublished: '2026-10-31',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-retake-strategy-when-and-how-many-times", label: "SAT Retake Strategy: When (and How Many Times) to Retake the Digital SAT" },
+      { href: "/blog/sat-superscore-strategy-how-colleges-combine-scores", label: "SAT Superscore Strategy: How Colleges Actually Combine Your Section Scores" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The SAT cost for a student in India is made up of the registration fee for each attempt, any additional international fees, possible late-registration or change fees, optional extras, and the cost of sending scores to colleges. Fees are set in US dollars by College Board and change, so check the current fee table before you plan. Budgeting for two or three attempts and a number of score sends gives a realistic picture.",
+      },
+      { kind: 'h2', text: "The main cost components" },
+      {
+        kind: 'table',
+        headers: ["Component", "What to know"],
+        rows: [
+          ["Registration fee", "Charged each time you register for a test date"],
+          ["International or regional fees", "Students testing outside the US may pay additional fees, so check the fee table for your country"],
+          ["Late registration and change fees", "Avoidable by registering and confirming dates early"],
+          ["Score sends", "Colleges beyond any free score sends are charged per report"],
+          ["Preparation costs", "Books, practice tools and coaching, if you choose them"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Because fees are in US dollars, the amount you pay in rupees can vary with exchange rates.",
+      },
+      { kind: 'h2', text: "How to plan a budget" },
+      {
+        kind: 'ul',
+        items: [
+          "Decide how many attempts you are likely to take, usually two or three.",
+          "List the colleges you will send scores to and note whether free sends apply.",
+          "Check whether you qualify for fee waivers or reductions through College Board programmes.",
+          "Add preparation costs, comparing free official material with paid options.",
+        ],
+      },
+      { kind: 'h2', text: "Saving money without hurting your score" },
+      {
+        kind: 'ul',
+        items: [
+          "Use free official resources first: Bluebook practice tests and Khan Academy.",
+          "Register early to avoid late fees.",
+          "Prepare properly between attempts so that each attempt counts.",
+          "Send scores only to colleges where you will actually apply, and where a score is required or helpful.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and ID rules change and can differ by country, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is there a fee waiver for students in India?",
+        answer: "College Board offers fee waivers for eligible students in some situations. Check the eligibility rules on its website.",
+      },
+      {
+        question: "Do I pay each time I retake?",
+        answer: "Yes, each registration has its own fee. Plan the number of attempts with that in mind.",
+      },
+      {
+        question: "Are free score sends included?",
+        answer: "Some score sends may be included with registration. Check the current policy for the details.",
+      },
+    ],
+  },
+  {
+    slug: "sat-prep-timeline-for-singapore-students-around-school-and-exam-calendars",
+    title: "SAT Prep Timeline for Singapore Students: Planning Around School and Exam Calendars",
+    description:
+      "Singapore's school year has busy exam periods. Here is a timeline that fits SAT preparation around them, with start points for different grades.",
+    category: "sat-exam",
+    datePublished: '2026-11-01',
+    readingMinutes: 4,
+    relatedProgramHref: "/sat-exam",
+    relatedProgramLabel: "SAT Exam Prep",
+    relatedGuides: [
+      { href: "/blog/sat-prep-timeline-when-to-start-how-long-it-takes", label: "SAT Prep Timeline: When to Start and How Long It Really Takes" },
+      { href: "/blog/sat-retake-strategy-when-and-how-many-times", label: "SAT Retake Strategy: When (and How Many Times) to Retake the Digital SAT" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A realistic SAT timeline for a student in Singapore starts six to nine months before the first target test date, with a diagnostic first, steady weekly practice, full-length Bluebook tests every second week, and a retake window before application deadlines. Avoid scheduling tests in heavy exam periods, use school holidays for long practice blocks, and adjust the plan to your curriculum's calendar.",
+      },
+      { kind: 'h2', text: "A sample timeline" },
+      {
+        kind: 'table',
+        headers: ["Stage", "Timing", "What to do"],
+        rows: [
+          ["Diagnostic", "Eight to nine months before the first test", "Take a full Bluebook test and set a target score"],
+          ["Skill building", "Months 1 to 3", "Drill the weakest domains using official practice and one good book"],
+          ["Mixed practice", "Months 4 to 5", "Timed mixed sets and full tests every second week"],
+          ["First test", "Month 6 or 7", "Choose a date away from major school exams"],
+          ["Review and retake", "Months 7 to 9", "Fix the weakest domains and retake if needed"],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These timings are general. Your own start date, target score and schedule will shape the plan.",
+      },
+      { kind: 'h2', text: "Using the calendar well" },
+      {
+        kind: 'ul',
+        items: [
+          "Use mid-year and year-end school holidays for full-length practice tests.",
+          "Reduce SAT study in the weeks before major school or national exams, and resume afterwards.",
+          "Keep daily practice short, around 30 to 45 minutes, so it fits with school work.",
+          "Book your test date early, since centres in Singapore can fill up for popular dates.",
+        ],
+      },
+      { kind: 'h2', text: "By grade" },
+      {
+        kind: 'ul',
+        items: [
+          "Younger students: build reading habits and basic algebra before starting formal prep.",
+          "Students in their pre-final year: start the full timeline so you can test early.",
+          "Final-year students: prioritise a diagnostic and the highest-return domains, and plan around application deadlines.",
+        ],
+      },
+      { kind: 'h2', text: "Keep the plan flexible" },
+      {
+        kind: 'p',
+        text: "Review your plan monthly, using your error log and practice-test results. If a domain is not improving, change the resource or the method, not only the amount of time.",
+      },
+      {
+        kind: 'p',
+        text: "Dates, deadlines, fees, test centres and admissions policies change and can differ by country and by university, so always confirm the current details on College Board's official website and on each university's admissions page.",
+      },
+    ],
+    faq: [
+      {
+        question: "How early should I start for the SAT in Singapore?",
+        answer: "Many students start six to nine months before their first test date. Starting earlier allows lighter weekly practice.",
+      },
+      {
+        question: "Can I prepare during school terms?",
+        answer: "Yes, with short regular sessions, and heavier practice in holidays. Reduce load around major exams.",
+      },
+      {
+        question: "How many attempts should I plan for?",
+        answer: "Two or three attempts with real preparation between them is a common plan.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
