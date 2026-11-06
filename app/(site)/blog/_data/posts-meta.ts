@@ -3324,5 +3324,165 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "board-exams",
     datePublished: "2026-10-30",
     readingMinutes: 4
+  },
+  {
+    slug: "best-books-number-theory-math-kangaroo",
+    title: "Best Books for Number Theory for Math Kangaroo",
+    description: "Kangaroo number theory is mostly digits, parity, divisibility and remainders in disguise. Here are the books and papers that train it, by level, and what to leave for later.",
+    category: "olympiad",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-algebra-math-kangaroo",
+    title: "Best Books for Algebra for Math Kangaroo",
+    description: "Kangaroo algebra is word problems, patterns, simple equations and logic, not heavy symbol manipulation. Here are the books that train it, level by level.",
+    category: "olympiad",
+    datePublished: "2026-10-23",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-geometry-math-kangaroo",
+    title: "Best Books for Geometry for Math Kangaroo",
+    description: "Kangaroo geometry is visual: areas, angles, folding, cutting and symmetry. Here are the books and practice habits that train it, from Ecolier to Student.",
+    category: "olympiad",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-combinatorics-math-kangaroo",
+    title: "Best Books for Combinatorics and Logic for Math Kangaroo",
+    description: "Counting, arrangements and logic puzzles appear at every Kangaroo level. Here are the books and habits that train systematic counting without formulas.",
+    category: "olympiad",
+    datePublished: "2026-10-24",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-number-theory-amc-8",
+    title: "Best Books for Number Theory for AMC 8",
+    description: "AMC 8 number theory stays within factors, primes, divisibility and simple remainders. Here is a short, level-appropriate list of books and a way to use them without over-reaching.",
+    category: "olympiad",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-algebra-amc-8",
+    title: "Best Books for Algebra for AMC 8",
+    description: "AMC 8 algebra is ratios, percentages, linear equations, patterns and averages. Here is a short book list that matches it, and how to practise without a calculator.",
+    category: "olympiad",
+    datePublished: "2026-10-25",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-geometry-amc-8",
+    title: "Best Books for Geometry for AMC 8",
+    description: "AMC 8 geometry is area, perimeter, angles, the Pythagorean theorem and basic solids. Here are the books that cover it and a way to build speed with diagrams.",
+    category: "olympiad",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-combinatorics-counting-amc-8",
+    title: "Best Books for Counting and Probability for AMC 8",
+    description: "AMC 8 counting is organised listing, simple arrangements and basic probability. Here are the books that cover it and how to avoid double-counting under time pressure.",
+    category: "olympiad",
+    datePublished: "2026-10-26",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-number-theory-amc-10",
+    title: "Best Books for Number Theory for AMC 10",
+    description: "AMC 10 brings modular thinking, divisor counting and digit problems into the paper. Here are the books that build it, and when to move from the basics to AIME-style depth.",
+    category: "olympiad",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-algebra-amc-10",
+    title: "Best Books for Algebra for AMC 10",
+    description: "AMC 10 algebra is where most of the paper lives: quadratics, systems, functions, sequences, inequalities and exponents. Here are the books that cover it, in order.",
+    category: "olympiad",
+    datePublished: "2026-10-27",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-geometry-amc-10",
+    title: "Best Books for Geometry for AMC 10",
+    description: "AMC 10 geometry adds similar triangles, circles, coordinate geometry and some trigonometry. Here are the books that cover it and how to build diagram fluency.",
+    category: "olympiad",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-combinatorics-counting-amc-10",
+    title: "Best Books for Counting and Probability for AMC 10",
+    description: "AMC 10 counting includes combinations, complementary counting, probability and casework. Here are the books that build it, in order, and how to practise.",
+    category: "olympiad",
+    datePublished: "2026-10-28",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-number-theory-ioqm",
+    title: "Best Books for Number Theory for IOQM",
+    description: "IOQM number theory demands congruences, divisibility arguments and clean reasoning. Here is the book sequence that builds it, from foundations to olympiad-level problem sets.",
+    category: "olympiad",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-algebra-ioqm",
+    title: "Best Books for Algebra for IOQM",
+    description: "IOQM algebra is not harder school algebra. It is functional equations, inequalities, polynomials and clever manipulation. Here are the books that teach these techniques.",
+    category: "olympiad",
+    datePublished: "2026-10-29",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-geometry-ioqm",
+    title: "Best Books for Geometry for IOQM",
+    description: "IOQM geometry is synthetic: angle chasing, cyclic quadrilaterals, similar triangles and clever constructions. Here are the books that teach it, and in what order to read them.",
+    category: "olympiad",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-combinatorics-ioqm",
+    title: "Best Books for Combinatorics for IOQM",
+    description: "Combinatorics is the IOQM topic students most often underrate. Here are the books that build systematic counting, pigeonhole and invariant reasoning, and how to use them.",
+    category: "olympiad",
+    datePublished: "2026-10-30",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-number-theory-nmtc",
+    title: "Best Books for Number Theory for NMTC, Level by Level",
+    description: "NMTC runs from Primary to Senior, so the right number-theory book depends on the level. Here is a level-by-level shortlist and how to practise for Part B proofs.",
+    category: "olympiad",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-algebra-nmtc",
+    title: "Best Books for Algebra for NMTC, Level by Level",
+    description: "NMTC algebra goes from patterns and simple equations at Primary level to functional equations and inequalities at Senior. Here is a level-by-level book guide.",
+    category: "olympiad",
+    datePublished: "2026-10-31",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-geometry-nmtc",
+    title: "Best Books for Geometry for NMTC, Level by Level",
+    description: "NMTC geometry grows from shapes and area at Primary level to proof-writing at Senior. Here is a level-by-level book list and a plan for Part B proofs.",
+    category: "olympiad",
+    datePublished: "2026-11-01",
+    readingMinutes: 4
+  },
+  {
+    slug: "best-books-combinatorics-nmtc",
+    title: "Best Books for Combinatorics for NMTC, Level by Level",
+    description: "NMTC combinatorics goes from simple counting at Primary level to pigeonhole and invariants at Senior. Here is a level-by-level list and how to write clean Part B arguments.",
+    category: "olympiad",
+    datePublished: "2026-11-01",
+    readingMinutes: 4
   }
 ];
