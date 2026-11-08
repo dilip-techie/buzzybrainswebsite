@@ -173,6 +173,10 @@ const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: str
   { text: '📍 Available Near Amanora Mall, Pune', href: 'https://maps.app.goo.gl/gANY66SQFDgVajtf8', external: true },
 ];
 
+// Seconds of scroll per message. The track length grows with the number of messages, so tying the
+// duration to the count keeps the ticker at a steady, readable speed (about 57px/s) as messages change.
+const STRIP_SECONDS_PER_MESSAGE = 8;
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -219,7 +223,10 @@ export default function Navbar() {
         onFocus={() => setStripPaused(true)}
         onBlur={() => setStripPaused(false)}
       >
-        <div className={`top-strip-track${stripPaused ? ' is-paused' : ''}`}>
+        <div
+          className={`top-strip-track${stripPaused ? ' is-paused' : ''}`}
+          style={{ animationDuration: `${STRIP_MESSAGES.length * STRIP_SECONDS_PER_MESSAGE}s` }}
+        >
           {STRIP_MESSAGES.map((msg, i) =>
             msg.external ? (
               <a key={`a-${i}`} href={msg.href} target="_blank" rel="noopener noreferrer" className="top-strip-item">

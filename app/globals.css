@@ -247,7 +247,8 @@ button{font-family:inherit;cursor:pointer}
 }
 .top-strip-track{
   display:flex;align-items:center;height:100%;width:max-content;white-space:nowrap;
-  animation:topStripScroll 32s linear infinite;
+  /* Duration is set inline from Navbar (seconds per message x message count); this is only a fallback. */
+  animation:topStripScroll 112s linear infinite;
 }
 .top-strip-track.is-paused{
   animation-play-state:paused;
