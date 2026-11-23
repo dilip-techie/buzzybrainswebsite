@@ -754,6 +754,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ============ TECHNOLOGY VIDEO ============ */}
+      <section className="bb-section" id="technology" aria-labelledby="tech-title" style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div
+            className="reveal"
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 'clamp(28px,5vw,64px)',
+            }}
+          >
+            <div style={{ flex: '1 1 340px', maxWidth: 560 }}>
+              <span className="eyebrow">Learning Powered by Technology</span>
+              <h2 className="section-title" id="tech-title" style={{ textAlign: 'left', marginTop: 12 }}>
+                A classroom that knows exactly where a student is stuck
+              </h2>
+              <p className="section-sub" style={{ textAlign: 'left', margin: '0 0 22px' }}>
+                Watch how technology helps our mentors spot learning gaps early, so practice goes where it matters most.
+                Preparing for the SAT? Maximize your SAT score using technology, starting with a free SAT diagnostic test.
+              </p>
+              <Link prefetch={false} href="/sat-exam" className="btn btn-primary">
+                Take the Free SAT Diagnostic
+              </Link>
+            </div>
+            <div
+              style={{
+                flex: '0 0 auto',
+                width: 'min(100%, 320px)',
+                aspectRatio: '9 / 16',
+                borderRadius: 24,
+                overflow: 'hidden',
+                background: '#0F172A',
+                boxShadow: '0 18px 48px rgba(15,23,42,.28)',
+              }}
+            >
+              <iframe
+                src="https://www.youtube.com/embed/7DeFQbzv6Vk?rel=0&modestbranding=1"
+                title="Ever seen a classroom that knows exactly where a student is stuck? - BuzzyBrains Academy"
+                loading="lazy"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                style={{ width: '100%', height: '100%', border: 0, display: 'block' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ============ WHY CHOOSE ============ */}
       <section className="bb-section" id="why" aria-labelledby="why-title">
         <div className="container">
