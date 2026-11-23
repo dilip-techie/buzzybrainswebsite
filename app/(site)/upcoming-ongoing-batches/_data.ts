@@ -113,8 +113,8 @@ export const BATCHES: Batch[] = [
   {
     id: 'sat', name: 'SAT', category: 'sat', mode: 'Online',
     audience: 'Grades 10–12 · Digital SAT', grades: [10, 11, 12],
-    summary: 'Structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and timed full-length mocks.',
-    topics: ['Reading & Writing', 'Math', 'Full-length mocks'],
+    summary: 'Free SAT diagnostic test, then structured Digital SAT preparation with section-wise mastery, adaptive-format strategy and timed full-length mocks.',
+    topics: ['Free diagnostic test', 'Reading & Writing', 'Math', 'Full-length mocks'],
     href: '/sat-exam', linkLabel: 'About SAT prep',
   },
   {
