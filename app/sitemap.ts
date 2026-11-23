@@ -56,6 +56,9 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/amc-8-10-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
   { path: '/maths-kangaroo-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
   { path: '/nmtc-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/nsep-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/nsec-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
+  { path: '/nseb-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
   { path: '/one-on-one', changeFrequency: 'monthly', priority: 0.7 },
 
   // International pathways
