@@ -20,6 +20,8 @@ const TRACK_ICONS: Record<string, LucideIcon> = {
   nmtc: Award,
   amc: ListChecks,
   kangaroo: Rabbit,
+  wmi: Globe2,
+  sasmo: Compass,
   maths: Calculator,
   science: Microscope,
   biology: Leaf,
