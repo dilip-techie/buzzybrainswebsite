@@ -46789,6 +46789,797 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "what-is-the-f-ma-exam-guide-for-us-high-school-students",
+    title: "What Is the F=ma Exam? A Guide for US High School Students",
+    description:
+      "The F=ma exam is the first step on the path to the US Physics Team. Here is what it is, who runs it, who can take it, what it tests and whether it is worth your time as a US high school student.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-exam-2027-dates-registration-fees-and-proctoring-rules', label: 'F=ma 2027: Dates, Registration and Proctoring' },
+      { href: '/blog/ap-physics-c-mechanics-vs-em-choosing-and-preparing', label: 'AP Physics C: Mechanics vs E&M' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The F=ma exam is a multiple-choice mechanics contest run by the American Association of Physics Teachers (AAPT). It is the first round of the path to the US Physics Team: students who score above a yearly cutoff are invited to the USAPhO, and the strongest of those are invited to the US Physics Team training camp. It covers kinematics, forces, energy, momentum, oscillations, orbits and fluids, and does not require calculus.",
+      },
+      { kind: 'h2', text: "Who runs it and what it is for" },
+      {
+        kind: 'p',
+        text: "AAPT organises the F=ma exam as the qualifying round for the USAPhO (the USA Physics Olympiad). The USAPhO, in turn, is how students are selected for the US Physics Team, which represents the United States at the International Physics Olympiad (IPhO). For most students, F=ma is simply a chance to test their physics against a national standard, not a route to the team.",
+      },
+      { kind: 'h2', text: "What the exam looks like" },
+      {
+        kind: 'ul',
+        items: [
+          "Multiple choice, with five answer options per question.",
+          "In recent years, 25 questions in 75 minutes, which gives about three minutes a question.",
+          "Mechanics only, with an emphasis on clear reasoning, estimation and unfamiliar setups rather than formula recall.",
+          "Problems are designed to be solvable without calculus, though some have shorter solutions that use it.",
+        ],
+      },
+      { kind: 'h2', text: "What it covers" },
+      {
+        kind: 'table',
+        headers: ['Area', 'Typical content'],
+        rows: [
+          ['Kinematics', 'Motion graphs, relative motion, projectiles'],
+          ['Forces', 'Newton’s laws, friction, statics, pulleys and inclines'],
+          ['Energy and momentum', 'Work, conservation laws, collisions'],
+          ['Oscillations', 'Springs, pendulums, simple harmonic motion'],
+          ['Orbits and gravity', 'Circular orbits, Kepler’s laws'],
+          ['Fluids and data', 'Pressure, buoyancy, reading and interpreting data'],
+        ],
+      },
+      { kind: 'h2', text: "Is it hard?" },
+      {
+        kind: 'p',
+        text: "Yes, deliberately. It is written for strong physics students, and a good score is well below a perfect one. A student who gets half the questions right is typically doing well. The difficulty comes from the way ideas are combined, not from advanced content, so the best preparation is practising problems you have not seen before.",
+      },
+      { kind: 'h2', text: "Should you take it?" },
+      {
+        kind: 'p',
+        text: "If you enjoy mechanics and problem solving, it is a good way to stretch beyond the classroom, and the preparation also helps with AP Physics C: Mechanics and with college physics. If you are short on time, treat it as an optional challenge. Always check the current eligibility and registration rules on the [official AAPT page](https://aapt.org/physicsteam/2027/registration.cfm), because they change from year to year.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to take AP Physics before the F=ma exam?",
+        answer: "No. The exam is not tied to any course. A solid grasp of mechanics from physics class, plus practice with olympiad-style problems, is what matters.",
+      },
+      {
+        question: "Is calculus required for F=ma?",
+        answer: "No. The problems are designed to be solvable with algebra and trigonometry, although some have shorter solutions that use calculus.",
+      },
+      {
+        question: "Does the F=ma exam help with college applications?",
+        answer: "A strong result can be a positive signal of interest and ability in physics, but it is one part of an application. Depth and consistency matter more than any single contest.",
+      },
+    ],
+  },
+  {
+    slug: "f-ma-exam-2027-dates-registration-fees-and-proctoring-rules",
+    title: "F=ma Exam 2027: Dates, Registration, Fees and Proctoring Rules",
+    description:
+      "Everything US students and teachers need to register for the 2027 F=ma exam: the February 9 test date, the January 14 deadline, fees, who may take it and the proctoring rules AAPT enforces.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/what-is-the-f-ma-exam-guide-for-us-high-school-students', label: 'What Is the F=ma Exam?' },
+      { href: '/blog/how-to-prepare-for-f-ma-11-week-study-plan-before-february-9-2027', label: 'An 11-Week F=ma Study Plan' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For 2027, AAPT lists the F=ma exam for February 9, 2027, online, with a registration deadline of January 14, 2027. A teacher or other adult registers the students and arranges an in-person proctor. Students must be U.S. citizens, permanent residents or attending a U.S. school, and be located in the U.S. These details come from AAPT's 2027 pages and can change, so confirm them before you register.",
+      },
+      { kind: 'h2', text: "Key dates" },
+      {
+        kind: 'table',
+        headers: ['Event', 'Date (per AAPT 2027 pages)'],
+        rows: [
+          ['Registration deadline', 'January 14, 2027'],
+          ['F=ma exam', 'February 9, 2027 only, in a window from 1 pm to 4 pm Eastern (10 am to 1 pm Pacific)'],
+          ['USAPhO exam', 'March 14, 2027, in person at selected institutions'],
+          ['U.S. Physics Team training camp', 'To be announced, at the University of Maryland'],
+        ],
+      },
+      { kind: 'h2', text: "Who can take it" },
+      {
+        kind: 'ul',
+        items: [
+          "U.S. citizens, legal permanent residents (green card holders) or students currently attending a U.S. school.",
+          "Students must also be located within the U.S. when they take the exam. AAPT notes that most U.S. territories are not counted because of time zones, with exceptions such as Puerto Rico and the U.S. Virgin Islands.",
+          "The later USAPhO exam is limited to U.S. citizens and permanent residents located in the U.S.",
+        ],
+      },
+      { kind: 'h2', text: "How registration works" },
+      {
+        kind: 'p',
+        text: "Registration is done by a teacher or another approved adult, not by the student. AAPT states the fee as $80 per school ($40 for AAPT members) plus $16 per student, and you only need the number of students at registration, not their names. The exam is delivered online through Educational Vistas, which contacts your proctor with instructions for students to register on its site before exam day.",
+      },
+      { kind: 'h2', text: "Proctoring: the rule that catches families out" },
+      {
+        kind: 'ul',
+        items: [
+          "The exam must be proctored in person.",
+          "Parents, relatives and close friends of the student cannot proctor.",
+          "For-profit test prep centres and for-profit educational services cannot proctor the F=ma or USAPhO exams. This includes tutoring companies and coaching institutes.",
+          "Proctors should have at least a two-year degree, and AAPT asks for an official school or organisation email.",
+          "Homeschooled students should contact community colleges, universities or libraries. A parent can register a homeschooled student but must name another proctor.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "AAPT does not arrange test centres or proctors, so start asking your school early. Check the [official 2027 registration page](https://aapt.org/physicsteam/2027/registration.cfm) for the latest wording.",
+      },
+      { kind: 'h2', text: "A note on preparation help" },
+      {
+        kind: 'p',
+        text: "Because of these rules, BuzzyBrains Academy, as a for-profit coaching centre, cannot proctor the exam. What we can do is help with preparation, such as problem-solving practice and past-paper review, delivered online. Ask your school physics teacher about proctoring as early as you can.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I register myself?",
+        answer: "No. According to AAPT, registration is done by a teacher or another approved adult, and the exam must be proctored in person.",
+      },
+      {
+        question: "Can my tutor or coaching centre proctor the exam?",
+        answer: "No. AAPT states that for-profit test prep centres and educational services cannot proctor the F=ma or USAPhO exams.",
+      },
+      {
+        question: "What if my school does not take part?",
+        answer: "Ask a physics teacher whether they can register and proctor. Students can sometimes take the exam elsewhere, such as at a non-profit testing centre, but they still need an eligible proctor and a registered adult.",
+      },
+    ],
+  },
+  {
+    slug: "f-ma-exam-format-scoring-and-cutoffs-what-to-expect",
+    title: "F=ma Exam Format, Scoring and Cutoffs: What to Expect on Test Day",
+    description:
+      "How the F=ma exam is laid out, how it is scored, what the cutoff for the USAPhO means and how to plan your 75 minutes. Includes an honest note on what changes from year to year.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-problem-solving-strategies-for-75-minutes', label: 'F=ma Problem-Solving Strategies' },
+      { href: '/blog/how-to-use-past-f-ma-exams-effectively', label: 'How to Use Past F=ma Exams' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Recent F=ma exams have 25 multiple-choice questions, 75 minutes, mechanics only, and results reported out of 25. Students who score at or above a cutoff set each year are invited to the USAPhO. Cutoffs, the number of invitees and some rules change from year to year, so read the current AAPT instructions rather than relying on last year's numbers.",
+      },
+      { kind: 'h2', text: "The layout" },
+      {
+        kind: 'table',
+        headers: ['Feature', 'What recent exams have used'],
+        rows: [
+          ['Questions', '25, multiple choice'],
+          ['Time', '75 minutes'],
+          ['Content', 'Mechanics: kinematics, forces, energy, momentum, oscillations, orbits, fluids, data analysis'],
+          ['Calculus', 'Not required'],
+          ['Delivery in 2027', 'Online, with an in-person proctor'],
+        ],
+      },
+      { kind: 'h2', text: "Scoring" },
+      {
+        kind: 'p',
+        text: "AAPT publishes results as scores out of 25 in recent years. Rules about wrong or blank answers have varied over time and can differ between years, so check the instructions for your exam before deciding whether to guess. A sound habit is to answer every question you can narrow down, and to read the instruction page at the start of the test.",
+      },
+      { kind: 'h2', text: "What a cutoff is" },
+      {
+        kind: 'p',
+        text: "AAPT sets a cutoff score each year. Students at or above the cutoff are invited to take the USAPhO. AAPT has described the number of invitees as roughly 400 students, though that figure comes from earlier years. The cutoff has been in the mid-teens out of 25 in some years, such as 15 for 2022, but it changes with the difficulty of the paper, so do not treat any single number as a target.",
+      },
+      { kind: 'h2', text: "Timing: three minutes a question" },
+      {
+        kind: 'ul',
+        items: [
+          "Plan a first pass of about 40 minutes that collects questions you can solve in one or two minutes.",
+          "Use the next 25 minutes for the medium questions you marked and skipped.",
+          "Keep the last 10 minutes to make educated guesses and double-check any answer you were unsure of.",
+          "Do not spend more than five minutes on a single question on the first pass.",
+        ],
+      },
+      { kind: 'h2', text: "On the day" },
+      {
+        kind: 'ul',
+        items: [
+          "Log in to the online platform early, and test your device before exam day.",
+          "Check which tools are permitted. AAPT notes that calculators are allowed with restrictions, so read the current rules.",
+          "Bring scratch paper, pencils and a watch if allowed.",
+          "Remember the 2027 window runs from 1 pm to 4 pm Eastern, so plan your lunch and your commute accordingly.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What score do I need to qualify for the USAPhO?",
+        answer: "It depends on the cutoff AAPT sets each year, which has varied with the difficulty of the exam. A mid-teens score out of 25 has been enough in some years, but check the current year's announcement.",
+      },
+      {
+        question: "Is there a penalty for wrong answers?",
+        answer: "Scoring rules have differed across years. Read the instructions for your exam. If there is no penalty, answering every question is the best approach.",
+      },
+      {
+        question: "How many students take the F=ma exam each year?",
+        answer: "Participation runs to several thousand students, though the figure varies. AAPT publishes results and statistics for past years on its website.",
+      },
+    ],
+  },
+  {
+    slug: "f-ma-syllabus-mechanics-topics-checklist",
+    title: "The F=ma Syllabus: A Mechanics Topic Checklist With What to Practise",
+    description:
+      "A topic-by-topic checklist for the F=ma exam: kinematics, Newton's laws, statics, energy, momentum, oscillations, orbits and fluids, with the key ideas and a worked example for each.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 9,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/best-books-and-free-resources-for-f-ma', label: 'Best Books and Free Resources for F=ma' },
+      { href: '/blog/how-to-score-a-5-on-ap-physics-frq-strategy', label: 'How to Score a 5 on AP Physics FRQs' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The F=ma exam covers mechanics: kinematics, Newton's laws, statics, work and energy, momentum and collisions, circular motion, oscillations, orbits and gravity, fluids and elementary data analysis. No calculus is needed. Master free-body diagrams, conservation laws and dimensional reasoning, and practise using them on unfamiliar problems.",
+      },
+      { kind: 'h2', text: "Topic checklist" },
+      {
+        kind: 'table',
+        headers: ['Topic', 'Key ideas to master'],
+        rows: [
+          ['Kinematics', 'Constant acceleration equations, motion graphs, relative velocity, projectiles'],
+          ['Newton’s laws', 'Free-body diagrams, friction, pulleys, inclines, connected bodies'],
+          ['Statics', 'Torque balance, centre of mass, ladders and beams'],
+          ['Work and energy', 'Work-energy theorem, potential energy, conservation of energy'],
+          ['Momentum', 'Conservation, impulse, elastic and inelastic collisions, centre of mass motion'],
+          ['Circular motion', 'Centripetal force, banked curves, motion in a vertical circle'],
+          ['Oscillations', 'Mass on a spring, pendulum, period and energy'],
+          ['Gravity and orbits', 'Circular orbits, Kepler’s third law, escape speed'],
+          ['Fluids', 'Pressure, buoyancy, continuity, Bernoulli at a conceptual level'],
+          ['Data analysis', 'Graphs, uncertainty, estimating from tables'],
+        ],
+      },
+      { kind: 'h2', text: "Worked example: connected masses" },
+      {
+        kind: 'p',
+        text: "Two blocks of 2 kg and 3 kg hang over a light frictionless pulley. The acceleration is a = (m2 - m1)g / (m1 + m2) = g/5, about 2 m/s squared with g = 9.8 m/s squared. The tension is T = 2 m1 m2 g / (m1 + m2), about 23.5 N. A quick sanity check: if the masses were equal, the acceleration would be zero, which matches the formula.",
+      },
+      { kind: 'h2', text: "Worked example: a collision" },
+      {
+        kind: 'p',
+        text: "A 2 kg cart moving at 3 m/s sticks to a 1 kg cart at rest. Momentum is conserved, so the final speed is 6 / 3 = 2 m/s. Kinetic energy falls from 9 J to 6 J, so 3 J is lost. If a question asks about energy after an inelastic collision, conservation of momentum is the tool, not conservation of energy.",
+      },
+      { kind: 'h2', text: "Worked example: circular motion" },
+      {
+        kind: 'p',
+        text: "A car can take a flat curve of radius 50 m at a maximum speed set by friction: v = square root of (mu g r). With mu = 0.5 and g = 9.8 m/s squared, v is about 15.7 m/s. The mass cancels, which is a typical F=ma trick: if a quantity is not in the answer, it often cancels.",
+      },
+      { kind: 'h2', text: "How to use the checklist" },
+      {
+        kind: 'ul',
+        items: [
+          "Mark each topic red, amber or green after a diagnostic past exam.",
+          "Spend most of your time on red topics, but keep one weekly session on green topics so they stay sharp.",
+          "For each topic, solve at least ten problems that you have not seen before.",
+          "Write down the idea that solved each problem, not just the answer.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does F=ma include electricity and magnetism?",
+        answer: "No. The exam focuses on mechanics. Electricity, magnetism and other topics appear on the later USAPhO.",
+      },
+      {
+        question: "Do I need to know rotational dynamics?",
+        answer: "Basic rotation, such as torque and static equilibrium, is part of the mechanics syllabus. Check recent exams to see how deep the questions go.",
+      },
+      {
+        question: "Is Bernoulli's equation tested?",
+        answer: "Fluids appear in the topic list, usually at a conceptual level such as pressure and buoyancy. Check recent exams for the current depth.",
+      },
+    ],
+  },
+  {
+    slug: "f-ma-vs-ap-physics-1-vs-ap-physics-c-mechanics",
+    title: "F=ma vs AP Physics 1 vs AP Physics C: Mechanics: How They Compare",
+    description:
+      "How the F=ma exam differs from AP Physics 1 and AP Physics C: Mechanics, how much each helps the other and which one to prioritise in your school year.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/ap-physics-1-vs-physics-c-the-real-difference', label: 'AP Physics 1 vs Physics C: The Real Difference' },
+      { href: '/blog/ap-physics-c-mechanics-vs-em-choosing-and-preparing', label: 'AP Physics C: Mechanics vs E&M' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "F=ma is a one-off, 75-minute multiple-choice contest that rewards creative problem solving without calculus. AP Physics 1 is an algebra-based course exam, and AP Physics C: Mechanics is a calculus-based course exam. Strong AP Physics C: Mechanics preparation helps F=ma, and F=ma practice improves AP scores, but neither replaces the other.",
+      },
+      { kind: 'h2', text: "Side by side" },
+      {
+        kind: 'table',
+        headers: ['', 'F=ma', 'AP Physics 1', 'AP Physics C: Mechanics'],
+        rows: [
+          ['Type', 'Contest (AAPT)', 'Course exam (College Board)', 'Course exam (College Board)'],
+          ['Maths level', 'Algebra and trigonometry; calculus optional', 'Algebra-based', 'Calculus-based'],
+          ['Format', '25 multiple-choice questions', 'Multiple choice and free response', 'Multiple choice and free response'],
+          ['Topics', 'Mechanics only', 'Mechanics plus some waves, circuits and more, as the course defines', 'Mechanics only'],
+          ['Aim', 'Rank against other strong students', 'College credit and placement', 'College credit and placement'],
+          ['Style', 'Unfamiliar, multi-step problems', 'Concepts and experimental reasoning', 'Derivations and calculus'],
+        ],
+      },
+      { kind: 'h2', text: "What each helps with" },
+      {
+        kind: 'ul',
+        items: [
+          "AP Physics C: Mechanics gives you the formal framework, including calculus-based tools for variable forces and energy, and covers the same topics as F=ma.",
+          "AP Physics 1 gives a solid base in concepts, but F=ma goes well beyond its typical problem difficulty.",
+          "F=ma practice builds speed, estimation and the habit of checking limits, which help on the AP free-response questions too.",
+        ],
+      },
+      { kind: 'h2', text: "Which should you prioritise?" },
+      {
+        kind: 'p',
+        text: "If you are in an AP course, give the course and its May exam priority, because the grade counts for your transcript. Treat F=ma as a stretch challenge that sharpens the same skills. A student who finds AP Physics easy, and enjoys puzzles, is the natural audience for F=ma.",
+      },
+      { kind: 'h2', text: "The calendar" },
+      {
+        kind: 'p',
+        text: "The 2027 F=ma exam is on February 9, well before the AP exams in May, so F=ma preparation can double as an early review of mechanics. Learn more about the AP side in our guides on [AP Physics 1 vs Physics C](/blog/ap-physics-1-vs-physics-c-the-real-difference) and [Physics C: Mechanics](/blog/ap-physics-c-mechanics-vs-em-choosing-and-preparing).",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I take F=ma without taking AP Physics?",
+        answer: "Yes. F=ma is open to eligible students whether or not they take an AP course.",
+      },
+      {
+        question: "Will studying for F=ma raise my AP Physics score?",
+        answer: "It often helps, since the problem-solving habits transfer, but AP exams also test specific formats and content, so practise those directly too.",
+      },
+      {
+        question: "Is F=ma harder than AP Physics C: Mechanics?",
+        answer: "The two test different things. F=ma problems are usually less routine and more puzzle-like, while AP Physics C uses calculus more formally. Many students find F=ma harder to score well on.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-prepare-for-f-ma-11-week-study-plan-before-february-9-2027",
+    title: "How to Prepare for F=ma: An 11-Week Study Plan Before February 9, 2027",
+    description:
+      "A week-by-week plan to prepare for the 2027 F=ma exam, starting now: diagnostic, topic blocks, mixed practice, full past exams and a final-week routine for US students.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 9,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-syllabus-mechanics-topics-checklist', label: 'The F=ma Mechanics Topic Checklist' },
+      { href: '/blog/how-to-use-past-f-ma-exams-effectively', label: 'How to Use Past F=ma Exams' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "With the F=ma exam on February 9, 2027, you have about 11 weeks from late November. Spend week 1 on a diagnostic past exam, weeks 2-6 on topic blocks (kinematics and forces, then energy and momentum, then circular motion, oscillations, orbits and fluids), weeks 7-9 on mixed sets under time, and weeks 10-11 on full past exams and review. Plan 5-7 hours a week.",
+      },
+      { kind: 'h2', text: "Before you start" },
+      {
+        kind: 'ul',
+        items: [
+          "Check that your school can register you and provide a proctor. The registration deadline is January 14, 2027.",
+          "Download recent past exams from the AAPT website and keep the two most recent ones unopened for later.",
+          "Get a notebook for an error log.",
+        ],
+      },
+      { kind: 'h2', text: "The plan at a glance" },
+      {
+        kind: 'table',
+        headers: ['Weeks', 'Focus', 'Output'],
+        rows: [
+          ['1', 'Diagnostic: one older past exam, timed, then review', 'Red, amber and green topic list'],
+          ['2-3', 'Kinematics and Newton’s laws, free-body diagrams, friction, pulleys', '20+ problems, error log started'],
+          ['4-5', 'Energy, momentum and collisions, statics', '20+ problems, short timed quiz'],
+          ['6', 'Circular motion, oscillations', '15+ problems'],
+          ['7', 'Gravity, orbits, fluids and data analysis', '15+ problems, mid-point review'],
+          ['8-9', 'Mixed sets of 12 questions in 36 minutes', 'Pacing and guessing habits'],
+          ['10', 'Two full past exams under real time', 'Scores and review'],
+          ['11', 'Light review, rest, logistics check', 'Ready for February 9'],
+        ],
+      },
+      { kind: 'h2', text: "Each week: a simple routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Two 90-minute sessions on that week's topic, with problems you have not seen.",
+          "One 60-minute session on mixed review of earlier topics.",
+          "One 30-minute session on the error log, redoing last week's missed problems.",
+        ],
+      },
+      { kind: 'h2', text: "What good practice looks like" },
+      {
+        kind: 'p',
+        text: "Attempt each problem for several minutes before looking at a solution. Afterwards, write down the idea that cracked it, such as conservation of momentum, a free-body diagram or a limiting case, so you can spot it next time. We cover this approach in our guide to [F=ma problem-solving strategies](/blog/f-ma-problem-solving-strategies-for-75-minutes).",
+      },
+      { kind: 'h2', text: "If you have fewer than 11 weeks" },
+      {
+        kind: 'p',
+        text: "Compress the topic blocks, keep the diagnostic and the mixed sets, and do at least two full past exams. A shorter plan that is well reviewed beats a longer one that is not.",
+      },
+      { kind: 'h2', text: "The final week" },
+      {
+        kind: 'ul',
+        items: [
+          "Do not start new topics. Reread your error log and your list of key ideas.",
+          "Test the exam platform and your device in advance.",
+          "Check which tools you may use, and confirm the exam window of 1 pm to 4 pm Eastern with your proctor.",
+          "Sleep well, eat normally and treat the exam as a chance to try hard problems.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How many hours a week do I need?",
+        answer: "About five to seven hours is realistic for most students alongside school. Consistency and review matter more than total hours.",
+      },
+      {
+        question: "Can I prepare on my own?",
+        answer: "Yes. Many students prepare with past exams and good books. A mentor helps most when you keep missing the same type of problem or want to aim for a high score.",
+      },
+      {
+        question: "What if I only decide to take it in January?",
+        answer: "Registration closes on January 14, 2027, so decide and speak to your school before then. Even a few weeks of focused practice on past exams helps.",
+      },
+    ],
+  },
+  {
+    slug: "best-books-and-free-resources-for-f-ma",
+    title: "Best Books and Free Resources for F=ma Preparation",
+    description:
+      "A short, honest list of books, lecture series and free past papers that help with the F=ma exam, with advice on which to use first and which to skip.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/how-to-use-past-f-ma-exams-effectively', label: 'How to Use Past F=ma Exams' },
+      { href: '/blog/f-ma-syllabus-mechanics-topics-checklist', label: 'The F=ma Mechanics Topic Checklist' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Start with free past F=ma exams from AAPT, add a mechanics textbook such as Halliday, Resnick and Walker for review, then move to olympiad-level books such as Morin's Introduction to Classical Mechanics or Kleppner and Kolenkow. Free lectures from MIT OpenCourseWare and Khan Academy fill gaps. You do not need many books, only a few worked thoroughly.",
+      },
+      { kind: 'h2', text: "Free first: past exams" },
+      {
+        kind: 'p',
+        text: "AAPT publishes past F=ma exams and solutions on its U.S. Physics Team pages. They are the closest thing to the real test, so treat them as your main practice material. Keep a few recent ones for full-length practice near the end.",
+      },
+      { kind: 'h2', text: "Books worth owning" },
+      {
+        kind: 'table',
+        headers: ['Book', 'Best for', 'Level'],
+        rows: [
+          ['Fundamentals of Physics (Halliday, Resnick, Walker)', 'Reviewing mechanics and basic problem practice', 'Core'],
+          ['Introduction to Classical Mechanics (David Morin)', 'Excellent problems with detailed solutions and a clear explanation of ideas', 'Strong'],
+          ['An Introduction to Mechanics (Kleppner and Kolenkow)', 'Deeper mechanics for students comfortable with calculus', 'Advanced'],
+          ['Physics Olympiad: Basic to Advanced Exercises', 'A broad set of olympiad-style exercises, with solutions', 'Strong'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Check editions and availability before you buy, and borrow from a library if you can. A single book worked deeply is better than three skimmed.",
+      },
+      { kind: 'h2', text: "Free lectures and sites" },
+      {
+        kind: 'ul',
+        items: [
+          "MIT OpenCourseWare's introductory mechanics course for lectures and problem sets.",
+          "Khan Academy for quick refreshers on kinematics, forces and energy.",
+          "The AAPT website for exams, solutions and announcements.",
+        ],
+      },
+      { kind: 'h2', text: "How to use these together" },
+      {
+        kind: 'ul',
+        items: [
+          "Weeks 1-2: take one older past exam as a diagnostic, then fill gaps with Halliday-style review.",
+          "Weeks 3-8: topic blocks, using Morin for harder problems on each topic.",
+          "Weeks 9-11: past exams only, under time.",
+        ],
+      },
+      { kind: 'h2', text: "What to skip" },
+      {
+        kind: 'p',
+        text: "Very advanced collections, such as Irodov, are better left until you are consistently scoring well, since they can be discouraging and go beyond F=ma. Avoid answer-only PDFs of unknown origin, because incorrect solutions are common.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to buy any books at all?",
+        answer: "Not strictly. Past AAPT exams plus free lectures are enough for many students. A good book helps if you want more problems with full solutions.",
+      },
+      {
+        question: "Is Morin's book too hard?",
+        answer: "It is challenging, but its early chapters are accessible and the explanations are clear. Use it gradually, doing problems chapter by chapter.",
+      },
+      {
+        question: "Where do I find past F=ma exams?",
+        answer: "On the AAPT U.S. Physics Team website, which lists past exams and results by year.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-use-past-f-ma-exams-effectively",
+    title: "How to Use Past F=ma Exams Effectively: A Four-Pass Method",
+    description:
+      "Past F=ma exams are the best preparation there is, but only if used well. A four-pass method for working through each exam, building an error log and saving the latest papers for simulation.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-exam-format-scoring-and-cutoffs-what-to-expect', label: 'F=ma Format, Scoring and Cutoffs' },
+      { href: '/blog/f-ma-problem-solving-strategies-for-75-minutes', label: 'F=ma Problem-Solving Strategies' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Work each past F=ma exam in four passes: a timed attempt, an untimed attempt on the questions you missed, a careful read of the official solutions, and a redo a week later. Log every miss with its cause, and keep the most recent exams for full simulations in the last two weeks.",
+      },
+      { kind: 'h2', text: "Pass 1: the timed attempt" },
+      {
+        kind: 'p',
+        text: "Take the exam in a quiet room with a 75-minute timer and no outside help. Mark questions you guessed on, and ones you skipped. Do not stop to check solutions. The score is a measure of where you stand, not a verdict.",
+      },
+      { kind: 'h2', text: "Pass 2: untimed, on the misses" },
+      {
+        kind: 'p',
+        text: "Go back to the questions you skipped or got wrong and give each another honest, untimed try. Many will fall once the pressure is off, which tells you the issue was pacing, not knowledge.",
+      },
+      { kind: 'h2', text: "Pass 3: read the official solutions" },
+      {
+        kind: 'ul',
+        items: [
+          "Read the solution for every missed question, and for the ones you guessed right.",
+          "Look for the key idea and write it in one line.",
+          "Note any faster route than yours, such as using conservation laws or a limiting case.",
+        ],
+      },
+      { kind: 'h2', text: "Pass 4: redo after a week" },
+      {
+        kind: 'p',
+        text: "A week later, redo the missed questions without looking at your notes. If you succeed, move on. If not, return to the topic and practise similar problems. This spaced repetition is what makes the learning stick.",
+      },
+      { kind: 'h2', text: "The error log" },
+      {
+        kind: 'table',
+        headers: ['Cause', 'Fix'],
+        rows: [
+          ['Did not know the idea', 'Study the topic, then do similar problems'],
+          ['Careless algebra or units', 'Check units and limiting cases before choosing an answer'],
+          ['Misread the question', 'Underline what is asked before solving'],
+          ['Ran out of time', 'Set a per-question cap and use a first pass'],
+        ],
+      },
+      { kind: 'h2', text: "Which papers to use when" },
+      {
+        kind: 'table',
+        headers: ['Phase', 'Papers'],
+        rows: [
+          ['Early', 'Older exams for learning and diagnostics'],
+          ['Middle', 'Selected questions by topic from many years'],
+          ['Last two weeks', 'The two or three most recent exams, as full simulations'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Because formats and rules have changed over the years, check the instructions on each paper, and treat the scoring and number of questions in older exams as a guide rather than the rule for 2027.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many past exams should I do?",
+        answer: "Six to ten, carefully reviewed, is more valuable than twenty rushed. The review is where most of the learning happens.",
+      },
+      {
+        question: "Should I time myself every time?",
+        answer: "Not on the first read of a new topic. Use untimed practice for learning and timed practice for pacing, mainly in the last month.",
+      },
+      {
+        question: "What if the old exams look different from the current format?",
+        answer: "Formats have varied. The problems are still excellent practice, but check the current instructions for the number of questions, time and scoring.",
+      },
+    ],
+  },
+  {
+    slug: "f-ma-problem-solving-strategies-for-75-minutes",
+    title: "F=ma Problem-Solving Strategies: Six Techniques for 75 Minutes",
+    description:
+      "Six techniques that help you solve F=ma problems faster and more accurately: free-body diagrams, conservation laws, dimensional analysis, limiting cases, estimation and smart guessing, with worked examples.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 9,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-syllabus-mechanics-topics-checklist', label: 'The F=ma Mechanics Topic Checklist' },
+      { href: '/blog/f-ma-exam-format-scoring-and-cutoffs-what-to-expect', label: 'F=ma Format and Scoring' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The six techniques are: draw a free-body diagram, choose between force and conservation-law methods, check dimensions, test limiting cases, estimate magnitudes and eliminate answer choices. With about three minutes per question, they turn many problems into short checks rather than long calculations.",
+      },
+      { kind: 'h2', text: "1. Draw the free-body diagram" },
+      {
+        kind: 'p',
+        text: "Draw each object separately, with every force as an arrow. Choose axes along the motion. Most mistakes in connected-body and incline problems come from a missing or misdirected force.",
+      },
+      { kind: 'h2', text: "2. Force or conservation law?" },
+      {
+        kind: 'p',
+        text: "If a question asks about speeds before and after something, such as a fall, collision or spring release, a conservation law is usually quicker. Example: a ball dropped from 20 m has speed v = square root of (2gh), about 19.8 m/s with g = 9.8 m/s squared, with no need to solve the motion step by step. If it asks about acceleration or tension at an instant, use forces.",
+      },
+      { kind: 'h2', text: "3. Check dimensions" },
+      {
+        kind: 'p',
+        text: "Dimensional analysis quickly eliminates wrong choices. Example: for a mass m on a spring of constant k, the period must be built from m and k. Since k has units of kilograms per second squared, only the square root of (m / k) has units of seconds, so the period is proportional to that. A choice with k / m would be wrong at once.",
+      },
+      { kind: 'h2', text: "4. Test limiting cases" },
+      {
+        kind: 'p',
+        text: "Put extreme values into the answer choices. For a block on an incline with friction, a = g (sin theta - mu cos theta). If theta is 90 degrees, the block falls freely and a = g. If mu is zero, a = g sin theta. Any answer choice that fails these checks can be discarded.",
+      },
+      { kind: 'h2', text: "5. Estimate the magnitude" },
+      {
+        kind: 'p',
+        text: "Round the numbers and estimate. If the options are far apart, an approximate answer is enough. Use g close to 10 m/s squared when the choices allow, and keep units with every number.",
+      },
+      { kind: 'h2', text: "6. Eliminate and guess smartly" },
+      {
+        kind: 'ul',
+        items: [
+          "Cross out options that violate units, limits or signs.",
+          "Between two remaining options, compare them against a special case.",
+          "Check the exam instructions for how wrong answers are scored before you guess.",
+        ],
+      },
+      { kind: 'h2', text: "A time plan" },
+      {
+        kind: 'table',
+        headers: ['Pass', 'Minutes', 'What to do'],
+        rows: [
+          ['First', '40', 'Solve questions that take under two minutes, mark the rest'],
+          ['Second', '25', 'Return to medium questions, using the techniques above'],
+          ['Final', '10', 'Guess on the rest and check marked answers'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Practise these techniques one at a time on past exams, and add the one that cracked each problem to your error log.",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I always draw a diagram, even for easy problems?",
+        answer: "For quick questions a mental picture is fine, but draw whenever there is more than one object or force. A diagram takes ten seconds and prevents the most common errors.",
+      },
+      {
+        question: "Is it okay to use g = 10 m/s squared?",
+        answer: "If the answer choices are well separated, rounding is fine and saves time. If the choices are close, use 9.8 m/s squared. Read the question for any stated value of g.",
+      },
+      {
+        question: "How do I stop spending too long on one problem?",
+        answer: "Set a hard cap, such as four minutes, on the first pass. Mark the question and move on. You will often see the idea when you return.",
+      },
+    ],
+  },
+  {
+    slug: "from-f-ma-to-usapho-and-the-us-physics-team-what-comes-next",
+    title: "From F=ma to USAPhO and the US Physics Team: What Comes Next",
+    description:
+      "What happens after the F=ma exam: the USAPhO, the training camp, the International Physics Olympiad, and how to think about the path whether or not you qualify. Includes the rules on who may take part.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/physics-olympiad-coaching-pune',
+    relatedProgramLabel: 'Physics Olympiad Coaching',
+    relatedGuides: [
+      { href: '/blog/f-ma-exam-2027-dates-registration-fees-and-proctoring-rules', label: 'F=ma 2027: Dates and Registration' },
+      { href: '/blog/how-to-use-olympiad-achievements-international-university-applications', label: 'Using Olympiad Achievements in Applications' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "After F=ma, students at or above the cutoff are invited to the USAPhO, scheduled for March 14, 2027 in person at selected institutions. Top USAPhO performers are invited to the U.S. Physics Team training camp at the University of Maryland, and the team is chosen to compete at the International Physics Olympiad (IPhO). The USAPhO is limited to U.S. citizens and permanent residents located in the U.S.",
+      },
+      { kind: 'h2', text: "The path" },
+      {
+        kind: 'table',
+        headers: ['Stage', 'What it is'],
+        rows: [
+          ['F=ma exam', 'Online, proctored mechanics exam, February 9, 2027'],
+          ['USAPhO', 'In-person exam for students who meet the cutoff, March 14, 2027'],
+          ['Training and development camp', 'For top performers, at the University of Maryland (dates to be announced)'],
+          ['IPhO', 'International Physics Olympiad, where the U.S. team competes'],
+        ],
+      },
+      { kind: 'h2', text: "What the USAPhO is like" },
+      {
+        kind: 'p',
+        text: "The USAPhO is a different kind of exam from F=ma. It is written, with long problems that need derivations and cover topics beyond mechanics, such as electricity and magnetism, thermodynamics, waves and optics. Preparation shifts from speed on multiple choice to depth and clear written reasoning. AAPT's current pages describe the exam in two parts, but confirm the structure for your year.",
+      },
+      { kind: 'h2', text: "Who can take part" },
+      {
+        kind: 'ul',
+        items: [
+          "F=ma: U.S. citizens, permanent residents or students at a U.S. school, located in the U.S.",
+          "USAPhO: U.S. citizens or permanent residents, located in the U.S.",
+          "Proctors must be eligible. For-profit test prep centres cannot proctor either exam.",
+        ],
+      },
+      { kind: 'h2', text: "If you qualify" },
+      {
+        kind: 'ul',
+        items: [
+          "Move beyond mechanics: electricity and magnetism, thermodynamics, waves, optics and some modern physics.",
+          "Practise written solutions. Past USAPhO papers and solutions are available from AAPT.",
+          "Use calculus freely, and learn the derivations behind the main results.",
+        ],
+      },
+      { kind: 'h2', text: "If you do not qualify" },
+      {
+        kind: 'p',
+        text: "Most students who take F=ma do not qualify for the USAPhO, and that is normal. The preparation still builds problem-solving skills that help in AP Physics, college physics and engineering courses. Many students try again the next year with a stronger foundation.",
+      },
+      { kind: 'h2', text: "How colleges see it" },
+      {
+        kind: 'p',
+        text: "A strong olympiad result can show genuine interest and ability in physics. It is one piece of an application, alongside coursework, grades and other activities. Read our guide on [using olympiad achievements in applications](/blog/how-to-use-olympiad-achievements-international-university-applications).",
+      },
+      { kind: 'h2', text: "Getting help with preparation" },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy offers online physics olympiad coaching, including mechanics-first problem solving. As a for-profit coaching centre we cannot proctor the exam, so arrange proctoring through your school or an eligible non-profit venue.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can international students take the USAPhO?",
+        answer: "According to AAPT's 2027 pages, the USAPhO is limited to U.S. citizens and permanent residents located in the U.S. Check the latest rules.",
+      },
+      {
+        question: "Do I need a perfect F=ma score to qualify?",
+        answer: "No. The cutoff is well below 25 and varies by year. AAPT announces it after the exam.",
+      },
+      {
+        question: "When should I start preparing for the USAPhO?",
+        answer: "Many students begin broadening beyond mechanics once the F=ma exam is over. The exam is in March, so the time between February and March is short, and earlier exposure to electricity and magnetism helps.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
