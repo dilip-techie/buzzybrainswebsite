@@ -145,6 +145,29 @@ export default function SatExamPage() {
           <br />
           <span className="eyebrow">🎯 SAT Exam Prep · Digital SAT · Grades 10–12</span>
           <h1>Master the <span className="grad">Digital SAT.</span></h1>
+          <p
+            style={{
+              margin: '0 auto 14px',
+              maxWidth: 720,
+              fontSize: 'clamp(19px,2.6vw,26px)',
+              fontWeight: 800,
+              lineHeight: 1.3,
+              color: 'var(--text, #0F172A)',
+            }}
+          >
+            Maximize your SAT score using{' '}
+            <span
+              style={{
+                background: 'linear-gradient(135deg,#2563EB,#7C3AED)',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                color: '#2563EB',
+              }}
+            >
+              Technology.
+            </span>
+          </p>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             Structured, data-driven preparation for the <strong style={{ color: 'var(--blue)' }}>adaptive Digital SAT</strong> —
             built around the real Bluebook format, not outdated paper tests.
