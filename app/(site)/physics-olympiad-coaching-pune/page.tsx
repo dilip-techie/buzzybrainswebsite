@@ -3,6 +3,8 @@ import { Atom, GraduationCap, Users, Layers, Globe2, BrainCircuit, ClipboardChec
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import PhysicsHeroVisual from '@/components/olympiad/PhysicsHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
+import { PHYSICS_SHORT } from '@/components/olympiad/videos';
 import WhyPhysicsOlympiads from '@/components/olympiad/WhyPhysicsOlympiads';
 import IndianPathwayTimeline from '@/components/olympiad/IndianPathwayTimeline';
 import TrackGrid from '@/components/olympiad/TrackGrid';
@@ -76,6 +78,7 @@ export default function PhysicsOlympiadCoachingPunePage() {
         visual={<PhysicsHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection video={PHYSICS_SHORT} />
       <WhyPhysicsOlympiads />
       <IndianPathwayTimeline />
       <TrackGrid

@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
+import type { ShortVideo } from '@/components/olympiad/videos';
 
 export type ContentBlock =
   | { kind: 'p'; text: string }
@@ -19,6 +21,7 @@ export function PillarPage({
   primaryProgram,
   secondaryPrograms = [],
   relatedPosts = [],
+  video,
 }: {
   eyebrow: string;
   h1: React.ReactNode;
@@ -28,6 +31,8 @@ export function PillarPage({
   primaryProgram: PillarLink;
   secondaryPrograms?: PillarLink[];
   relatedPosts?: PillarLink[];
+  /** Optional YouTube Short shown under the hero. */
+  video?: ShortVideo;
 }) {
   return (
     <main className="bb-landing bb-page-shell">
@@ -43,6 +48,8 @@ export function PillarPage({
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
         </div>
       </section>
+
+      {video && <ShortVideoSection video={video} />}
 
       <section className="bb-section" style={{ paddingTop: 0 }}>
         <div className="container article-shell">

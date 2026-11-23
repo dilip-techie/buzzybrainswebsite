@@ -4,6 +4,7 @@ import { Medal, GraduationCap, Users, Layers, ListChecks, BrainCircuit, Clipboar
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import SofHeroVisual from '@/components/olympiad/SofHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -46,6 +47,7 @@ export default function SofImoCoachingPunePage() {
         visual={<SofHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
       <TrackGrid
         id="oly-exams"
         icon={Medal}

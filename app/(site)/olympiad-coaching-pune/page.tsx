@@ -1,8 +1,10 @@
 import { PillarPage } from '../../components/PillarPage';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export default function OlympiadPillarPage() {
   return (
     <PillarPage
+      video={OLYMPIAD_SHORT}
       eyebrow="Olympiad Coaching Pune"
       h1={<>Olympiad Coaching in Pune: One Program, Every Subject</>}
       lede="Maths, Physics, Chemistry, Biology and Coding olympiads each have their own ladder of named exams. Here's how they connect, and how to choose where to start."

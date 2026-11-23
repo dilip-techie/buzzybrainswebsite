@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: OLYMPIAD_SHORT,
   h1: 'Best Maths Olympiad Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "One Mathematics faculty team covering the full olympiad ladder — SOF IMO, IOQM, NMTC, AMC and Math Kangaroo — in Amanora, Hadapsar, so a family doesn't need a different institute for every track a child attempts. Batches capped at 12.",

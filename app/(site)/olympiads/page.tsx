@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 
 const SUBJECTS = [
   {
@@ -145,6 +146,8 @@ export default function OlympiadsPage() {
           </div>
         </div>
       </section>
+
+      <ShortVideoSection />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>

@@ -2,6 +2,8 @@ import '@/app/tailwind.css';
 import { Trophy } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
 import TrustBar from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
+import { MATHS_SHORT } from '@/components/olympiad/videos';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Methodology from '@/components/olympiad/Methodology';
@@ -26,6 +28,7 @@ export default function OlympiadMathPage() {
         exploreLabel="Explore Olympiad Tracks"
       />
       <TrustBar />
+      <ShortVideoSection video={MATHS_SHORT} />
       <TrackGrid
         id="oly-tracks"
         icon={Trophy}
