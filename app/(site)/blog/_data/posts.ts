@@ -44804,7 +44804,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { kind: 'h2', text: "WMI in one paragraph" },
       {
         kind: 'p',
-        text: "WMI is one of several international maths contests that Indian families now see advertised alongside Math Kangaroo, SOF IMO and AMC. It is organised for students across many countries, grouped by grade, and results are reported by grade level and by country. The competition's own website is the only place to confirm current registration dates, fees and rules, because these change from year to year.",
+        text: "WMI is one of several international maths contests that Indian families now see advertised alongside Math Kangaroo, SOF IMO and AMC. It is organised for students across many countries, grouped by grade, and results are reported by grade level and by country. According to its official site, WMI was founded in Taiwan in 2013 and nearly 30,000 students take part in the Preliminary Round each year. The competition's own website is the only place to confirm current registration dates, fees and rules, because these change from year to year.",
       },
       { kind: 'h2', text: "Who can take it" },
       {
@@ -44820,8 +44820,8 @@ export const BLOG_POSTS: BlogPost[] = [
         kind: 'table',
         headers: ['Stage', 'What happens', 'Who takes part'],
         rows: [
-          ['Preliminary Round', "A timed paper taken in the student's own country, online or at a test centre", 'All registered students'],
-          ['Final Round', 'A larger invitational round held on a set date and venue, usually abroad', 'Students who earn a qualifying medal in the Preliminary Round'],
+          ['Preliminary Round', 'A timed paper held by each member country or region, between January and March', 'All registered students'],
+          ['Final Round', 'A larger event held in July in a different host city each year', 'Students who earn a qualifying medal in the Preliminary Round'],
         ],
       },
       { kind: 'h2', text: "What the questions are like" },
@@ -44876,25 +44876,25 @@ export const BLOG_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "In recent years the WMI Preliminary Round has had two timed sections of about 40 minutes each: Section A on logical reasoning and Section B on applications, with 100 points each and 200 points in total. Medals are awarded within each grade, with Gold, Silver and Bronze going to roughly the top 10% bands by country rank. Confirm the exact current format on the official WMI site, as it can change.",
+        text: "The WMI Preliminary Round has two sections of 40 minutes each, both multiple choice. Section A (logical reasoning) has 10 questions worth 6 points and 5 worth 8 points, and Section B (applications) has 10 questions worth 10 points, giving 100 points per section and 200 in total. Gold, Silver and Bronze medallists are invited to the Final Round. This follows the scoring table on the official WMI site; confirm the current year's rules on wminv.org.",
       },
       { kind: 'h2', text: "The two sections" },
       {
         kind: 'table',
         headers: ['Section', 'Focus', 'Typical time', 'Typical points'],
         rows: [
-          ['Section A', 'Logical reasoning: patterns, deduction, counting, puzzles', 'About 40 minutes', 'About 100'],
-          ['Section B', 'Applications: arithmetic, geometry and algebra in multi-step settings', 'About 40 minutes', 'About 100'],
+          ['Section A', 'Logical reasoning (multiple choice): 10 questions at 6 points and 5 at 8 points', '40 minutes', '100'],
+          ['Section B', 'Applications (multiple choice): 10 questions at 10 points', '40 minutes', '100'],
         ],
       },
       {
         kind: 'p',
-        text: "Published descriptions of the paper differ slightly in how marks are split between questions, for example whether the later questions in Section A carry higher marks than the early ones. That is a good reminder to read the current-year guidelines rather than relying on last year's memory.",
+        text: "Each member country or region holds its own Preliminary Round between January and March, and the problems are written in English, Traditional Chinese and Simplified Chinese, with translations available on request. Because the later questions in Section A carry 8 points instead of 6, they are worth a little extra time.",
       },
       { kind: 'h2', text: "How medals are decided" },
       {
         kind: 'p',
-        text: "Medals are reported per grade level. As published, the Preliminary Round awards Gold to the top band of students in a country, Silver to the next band and Bronze to the band after that, each of roughly ten per cent. That means your child is compared with others in the same grade and country, not with a fixed pass mark.",
+        text: "Medals are reported per grade level, and Gold, Silver and Bronze medallists are invited to represent their country at the Final Round. WMI's official pages do not publish a fixed percentage for each medal, so treat any figure quoted elsewhere as unconfirmed. What matters is that your child is compared with others in the same grade and country, not with a fixed pass mark.",
       },
       {
         kind: 'ul',
@@ -45111,7 +45111,7 @@ export const BLOG_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "To reach the WMI Final Round, a student must earn a qualifying medal, Gold, Silver or Bronze, in the Preliminary Round. The Final Round is held on set dates at a venue that has been abroad in recent years, for example in Japan in 2026. It is a larger invitational event with a harder paper, and attending is optional and involves travel costs.",
+        text: "To reach the WMI Final Round, a student must earn a qualifying medal, Gold, Silver or Bronze, in the Preliminary Round. The Final Round is held in July in a different city each year; in 2026 it was in Chiba and Tokyo, Japan, with the competition on July 11. It keeps the two-section structure, but Section B uses single-answer questions instead of multiple choice, and attending is optional and involves travel costs.",
       },
       { kind: 'h2', text: "Step 1: earn a qualifying medal" },
       {
@@ -45137,15 +45137,15 @@ export const BLOG_POSTS: BlogPost[] = [
         kind: 'table',
         headers: ['', 'Preliminary Round', 'Final Round'],
         rows: [
-          ['Where', "Student's own country", 'Abroad, on fixed dates'],
+          ['Where', "Student's own country", 'One host city each year, in July'],
           ['Who', 'All registered students', 'Qualified students only'],
-          ['Paper', 'Reasoning plus applications, mostly multiple choice', 'Harder paper, with a different Section B format in some descriptions'],
-          ['Awards', 'Gold, Silver, Bronze bands', 'A wider set of medal tiers'],
+          ['Paper', 'Reasoning plus applications, both sections multiple choice', 'Same two 40-minute sections, but Section B is single-answer instead of multiple choice'],
+          ['Awards', 'Gold, Silver and Bronze medals that qualify students for the Final Round', 'A certificate for every participant, medals, top-three awards in each grade and a Star of the World award for the top scorer from each country or region'],
         ],
       },
       {
         kind: 'p',
-        text: "Published sources describe the Final Round paper slightly differently, for example whether Section B uses short-answer rather than multiple-choice questions, so rely on the current official format.",
+        text: "WMI's official scoring table for the Final Round lists Section A as multiple choice (10 questions at 6 points and 5 at 8 points) and Section B as 10 single-answer questions at 10 points each. Check the current year's rules on wminv.org.",
       },
       { kind: 'h2', text: "Is it worth it?" },
       {
@@ -45169,7 +45169,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: "Is the Final Round always held abroad?",
-        answer: "In recent years it has been hosted in a different country each year, for example Japan in 2026. Check the official site for the current venue.",
+        answer: "WMI says the Final Round is held in a different city each year, for example Chiba and Tokyo, Japan, in 2026. Check the official site for the current venue and dates.",
       },
       {
         question: "Will a WMI Final Round medal help in university applications?",
@@ -46818,7 +46818,7 @@ export const BLOG_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "The F=ma exam is a multiple-choice mechanics contest run by the American Association of Physics Teachers (AAPT). It is the first round of the path to the US Physics Team: students who score above a yearly cutoff are invited to the USAPhO, and the strongest of those are invited to the US Physics Team training camp. It covers kinematics, forces, energy, momentum, oscillations, orbits and fluids, and does not require calculus.",
+        text: "The F=ma exam is a multiple-choice mechanics contest run by the American Association of Physics Teachers (AAPT). It is the first round of the path to the US Physics Team: students who meet or exceed a yearly cutoff are invited to the USAPhO (about 400 students), and the strongest of those are invited to the US Physics Team training camp. It covers kinematics, forces, energy, momentum, oscillations, orbits and fluids, and does not require calculus.",
       },
       { kind: 'h2', text: "Who runs it and what it is for" },
       {
@@ -46982,6 +46982,7 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Time', '75 minutes'],
           ['Content', 'Mechanics: kinematics, forces, energy, momentum, oscillations, orbits, fluids, data analysis'],
           ['Calculus', 'Not required'],
+          ['Calculator', 'A handheld calculator that is not graphical, has a display of no more than three lines and has its memory cleared before the exam'],
           ['Delivery in 2027', 'Online, with an in-person proctor'],
         ],
       },
@@ -46993,7 +46994,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { kind: 'h2', text: "What a cutoff is" },
       {
         kind: 'p',
-        text: "AAPT sets a cutoff score each year. Students at or above the cutoff are invited to take the USAPhO. AAPT has described the number of invitees as roughly 400 students, though that figure comes from earlier years. The cutoff has been in the mid-teens out of 25 in some years, such as 15 for 2022, but it changes with the difficulty of the paper, so do not treat any single number as a target.",
+        text: "AAPT sets a cutoff score each year. Students at or above the cutoff are invited to take the USAPhO. AAPT states that approximately 400 students are invited to the USAPhO, based on their F=ma scores. The cutoff has been in the mid-teens out of 25 in some years, such as 15 for 2022, but it changes with the difficulty of the paper, so do not treat any single number as a target.",
       },
       { kind: 'h2', text: "Timing: three minutes a question" },
       {
@@ -47010,9 +47011,9 @@ export const BLOG_POSTS: BlogPost[] = [
         kind: 'ul',
         items: [
           "Log in to the online platform early, and test your device before exam day.",
-          "Check which tools are permitted. AAPT notes that calculators are allowed with restrictions, so read the current rules.",
-          "Bring scratch paper, pencils and a watch if allowed.",
-          "Remember the 2027 window runs from 1 pm to 4 pm Eastern, so plan your lunch and your commute accordingly.",
+          "Calculators: AAPT allows a handheld calculator only if it is not graphical, its display has no more than three lines and its memory is cleared before the exam.",
+          "Use only the scratch paper your proctor provides. AAPT does not allow other paper, and the proctor collects it after the exam.",
+          "Remember the 2027 window runs from 1 pm to 4 pm Eastern, so plan your lunch and your commute accordingly. All students at a school must take the exam at the same time.",
         ],
       },
     ],
@@ -47048,7 +47049,7 @@ export const BLOG_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "The F=ma exam covers mechanics: kinematics, Newton's laws, statics, work and energy, momentum and collisions, circular motion, oscillations, orbits and gravity, fluids and elementary data analysis. No calculus is needed. Master free-body diagrams, conservation laws and dimensional reasoning, and practise using them on unfamiliar problems.",
+        text: "The F=ma exam covers mechanics: kinematics, Newton's laws, statics, work and energy, momentum and collisions, circular motion, rotational dynamics, oscillations, orbits and gravity, fluids, dimensional analysis and elementary data analysis, as listed by AAPT. No calculus is needed, although some problems have shorter solutions that use it. Master free-body diagrams, conservation laws and dimensional reasoning, and practise using them on unfamiliar problems.",
       },
       { kind: 'h2', text: "Topic checklist" },
       {
@@ -47058,12 +47059,14 @@ export const BLOG_POSTS: BlogPost[] = [
           ['Kinematics', 'Constant acceleration equations, motion graphs, relative velocity, projectiles'],
           ['Newton’s laws', 'Free-body diagrams, friction, pulleys, inclines, connected bodies'],
           ['Statics', 'Torque balance, centre of mass, ladders and beams'],
+          ['Rotational dynamics', 'Torque and the motion of rotating bodies at an introductory level'],
           ['Work and energy', 'Work-energy theorem, potential energy, conservation of energy'],
           ['Momentum', 'Conservation, impulse, elastic and inelastic collisions, centre of mass motion'],
           ['Circular motion', 'Centripetal force, banked curves, motion in a vertical circle'],
           ['Oscillations', 'Mass on a spring, pendulum, period and energy'],
           ['Gravity and orbits', 'Circular orbits, Kepler’s third law, escape speed'],
           ['Fluids', 'Pressure, buoyancy, continuity, Bernoulli at a conceptual level'],
+          ['Dimensional analysis', 'Units, scaling and checking whether an answer can be right'],
           ['Data analysis', 'Graphs, uncertainty, estimating from tables'],
         ],
       },
@@ -47100,7 +47103,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: "Do I need to know rotational dynamics?",
-        answer: "Basic rotation, such as torque and static equilibrium, is part of the mechanics syllabus. Check recent exams to see how deep the questions go.",
+        answer: "Yes. AAPT lists rotational dynamics in the scope of the F=ma exam, so learn torque and rotation at an introductory level, and check recent exams to see how deep the questions go.",
       },
       {
         question: "Is Bernoulli's equation tested?",
@@ -47525,7 +47528,7 @@ export const BLOG_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "After F=ma, students at or above the cutoff are invited to the USAPhO, scheduled for March 14, 2027 in person at selected institutions. Top USAPhO performers are invited to the U.S. Physics Team training camp at the University of Maryland, and the team is chosen to compete at the International Physics Olympiad (IPhO). The USAPhO is limited to U.S. citizens and permanent residents located in the U.S.",
+        text: "After F=ma, students at or above the cutoff are invited to the USAPhO, scheduled for March 14, 2027 in person at selected institutions. AAPT says about 20 students are invited to the U.S. Physics Team and a ten-day training camp at the University of Maryland, after which five students are selected to represent the team at the International Physics Olympiad (IPhO). The USAPhO is limited to U.S. citizens and permanent residents located in the U.S.",
       },
       { kind: 'h2', text: "The path" },
       {
@@ -47534,14 +47537,14 @@ export const BLOG_POSTS: BlogPost[] = [
         rows: [
           ['F=ma exam', 'Online, proctored mechanics exam, February 9, 2027'],
           ['USAPhO', 'In-person exam for students who meet the cutoff, March 14, 2027'],
-          ['Training and development camp', 'For top performers, at the University of Maryland (dates to be announced)'],
-          ['IPhO', 'International Physics Olympiad, where the U.S. team competes'],
+          ['Training and development camp', 'About 20 students invited to the team attend a ten-day camp at the University of Maryland (dates to be announced)'],
+          ['IPhO', 'International Physics Olympiad, where five students from the camp represent the U.S.'],
         ],
       },
       { kind: 'h2', text: "What the USAPhO is like" },
       {
         kind: 'p',
-        text: "The USAPhO is a different kind of exam from F=ma. It is written, with long problems that need derivations and cover topics beyond mechanics, such as electricity and magnetism, thermodynamics, waves and optics. Preparation shifts from speed on multiple choice to depth and clear written reasoning. AAPT's current pages describe the exam in two parts, but confirm the structure for your year.",
+        text: "The USAPhO is a different kind of exam from F=ma. It is written, with long problems that need derivations and cover topics beyond mechanics, such as electricity and magnetism, thermodynamics, waves and optics. Preparation shifts from speed on multiple choice to depth and clear written reasoning. AAPT describes it as a 3-hour free-response exam in two parts of 90 minutes each, where students must justify their answers.",
       },
       { kind: 'h2', text: "Who can take part" },
       {
@@ -47549,6 +47552,7 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           "F=ma: U.S. citizens, permanent residents or students at a U.S. school, located in the U.S.",
           "USAPhO: U.S. citizens or permanent residents, located in the U.S.",
+          "Training camp: you must be eligible to compete at the IPhO (a U.S. citizen or green card holder), be no older than 20 on June 30 of the competition year and be able to attend all 10 days.",
           "Proctors must be eligible. For-profit test prep centres cannot proctor either exam.",
         ],
       },
