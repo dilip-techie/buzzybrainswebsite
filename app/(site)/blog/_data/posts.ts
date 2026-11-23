@@ -44770,6 +44770,1222 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "what-is-wmi-world-mathematics-invitational-guide-for-indian-students",
+    title: "What Is WMI? The World Mathematics Invitational Explained for Indian Students",
+    description:
+      "The World Mathematics Invitational (WMI) is an international maths competition for students from kindergarten to Grade 12. Here is what it is, who can take it, how it works and whether it is worth your child's time.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition', label: 'WMI vs Math Kangaroo vs IMO vs AMC' },
+      { href: '/blog/math-kangaroo-levels-explained', label: 'Math Kangaroo Levels Explained' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The World Mathematics Invitational (WMI) is an international mathematics competition open to students from kindergarten to Grade 12. It runs in two stages: a Preliminary Round, taken online or at a school or centre in the student's own country, and a Final Round for students who earn a qualifying medal. It rewards logical reasoning and applied problem solving rather than memorised school formulas.",
+      },
+      { kind: 'h2', text: "WMI in one paragraph" },
+      {
+        kind: 'p',
+        text: "WMI is one of several international maths contests that Indian families now see advertised alongside Math Kangaroo, SOF IMO and AMC. It is organised for students across many countries, grouped by grade, and results are reported by grade level and by country. The competition's own website is the only place to confirm current registration dates, fees and rules, because these change from year to year.",
+      },
+      { kind: 'h2', text: "Who can take it" },
+      {
+        kind: 'ul',
+        items: [
+          "Students from kindergarten up to Grade 12 can register, and each student is placed in a grade-based paper.",
+          "No prior olympiad experience is needed. The Preliminary Round is meant to be approachable for a strong school maths student.",
+          "Students register either through a school or partner centre, or individually where that option is offered for their country.",
+        ],
+      },
+      { kind: 'h2', text: "How the competition is structured" },
+      {
+        kind: 'table',
+        headers: ['Stage', 'What happens', 'Who takes part'],
+        rows: [
+          ['Preliminary Round', "A timed paper taken in the student's own country, online or at a test centre", 'All registered students'],
+          ['Final Round', 'A larger invitational round held on a set date and venue, usually abroad', 'Students who earn a qualifying medal in the Preliminary Round'],
+        ],
+      },
+      { kind: 'h2', text: "What the questions are like" },
+      {
+        kind: 'p',
+        text: "Recent Preliminary papers have been split into a logical reasoning section and an applications section. Logical reasoning questions are puzzle-like: patterns, deduction, counting and careful case analysis. Applications questions put familiar topics such as arithmetic, geometry and basic algebra into real-world or multi-step settings. This is closer in spirit to Math Kangaroo than to a proof-based olympiad such as IOQM.",
+      },
+      { kind: 'h2', text: "Is WMI worth it?" },
+      {
+        kind: 'p',
+        text: "For a student who enjoys maths, a contest like WMI is a useful, low-stakes way to practise timed problem solving and to see how they compare with students in other countries. It is not a replacement for the Indian olympiad pathway. Students aiming for the IOQM and INMO route, or for the AMC to AIME route, should treat WMI as an optional extra rather than the main goal.",
+      },
+      {
+        kind: 'p',
+        text: "Before registering, check three things on the official site: the current-year dates, the fee, and the exact format of your child's grade paper. Competition formats are updated, and anything you read in a blog, including this one, may be out of date by the time you register.",
+      },
+      { kind: 'h2', text: "A sensible next step" },
+      {
+        kind: 'p',
+        text: "If your child already does well in school maths and enjoys puzzles, try one released practice paper at home under timed conditions before paying a registration fee. How they feel about it is usually a better guide than any brochure.",
+      },
+    ],
+    faq: [
+      {
+        question: "What does WMI stand for?",
+        answer: "WMI stands for World Mathematics Invitational, an international maths competition for students from kindergarten to Grade 12.",
+      },
+      {
+        question: "Is WMI the same as the Maths Olympiad conducted by SOF?",
+        answer: "No. They are separate organisations with separate papers, dates and award systems. Many students attempt both, because the preparation overlaps in logical reasoning and applied problem solving.",
+      },
+      {
+        question: "Do I need to travel abroad to take WMI?",
+        answer: "No. The Preliminary Round is taken in the student's own country. Travel is only relevant for students who qualify for the Final Round and choose to attend it.",
+      },
+    ],
+  },
+  {
+    slug: "wmi-preliminary-round-format-scoring-medals-explained",
+    title: "WMI Preliminary Round: Format, Scoring and Medals Explained",
+    description:
+      "A clear walk-through of the WMI Preliminary Round: the two sections, how marks are awarded, how medals are decided and what that means for how a student should plan the paper.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/what-is-wmi-world-mathematics-invitational-guide-for-indian-students', label: 'What Is WMI? A Guide for Indian Students' },
+      { href: '/blog/how-math-kangaroo-is-scored', label: 'How Math Kangaroo Is Scored' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "In recent years the WMI Preliminary Round has had two timed sections of about 40 minutes each: Section A on logical reasoning and Section B on applications, with 100 points each and 200 points in total. Medals are awarded within each grade, with Gold, Silver and Bronze going to roughly the top 10% bands by country rank. Confirm the exact current format on the official WMI site, as it can change.",
+      },
+      { kind: 'h2', text: "The two sections" },
+      {
+        kind: 'table',
+        headers: ['Section', 'Focus', 'Typical time', 'Typical points'],
+        rows: [
+          ['Section A', 'Logical reasoning: patterns, deduction, counting, puzzles', 'About 40 minutes', 'About 100'],
+          ['Section B', 'Applications: arithmetic, geometry and algebra in multi-step settings', 'About 40 minutes', 'About 100'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Published descriptions of the paper differ slightly in how marks are split between questions, for example whether the later questions in Section A carry higher marks than the early ones. That is a good reminder to read the current-year guidelines rather than relying on last year's memory.",
+      },
+      { kind: 'h2', text: "How medals are decided" },
+      {
+        kind: 'p',
+        text: "Medals are reported per grade level. As published, the Preliminary Round awards Gold to the top band of students in a country, Silver to the next band and Bronze to the band after that, each of roughly ten per cent. That means your child is compared with others in the same grade and country, not with a fixed pass mark.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "A medal depends on rank, so a paper that is hard for everyone can still produce Gold winners.",
+          "A good score in a strong year can still miss a medal, because the cut is relative.",
+          "Qualification for the Final Round is linked to earning a qualifying medal in this round.",
+        ],
+      },
+      { kind: 'h2', text: "What the format means for strategy" },
+      {
+        kind: 'ul',
+        items: [
+          "Forty minutes per section is short. Plan a time budget per question before starting and move on when a problem is eating time.",
+          "Secure the early, easier questions first. In a rank-based contest, dropping easy marks is the most expensive mistake.",
+          "Treat the two sections as different skills. Logical reasoning rewards patience with cases; applications rewards clean arithmetic and careful reading.",
+          "If wrong answers carry no penalty in your paper, answer every question. Verify that in the current rules.",
+        ],
+      },
+      { kind: 'h2', text: "Common misunderstandings" },
+      {
+        kind: 'p',
+        text: "Parents often ask what the pass mark is. There is none in the usual sense, because the awards are rank-based within a grade. Another common mistake is to prepare only with school textbooks. School exercises train direct application, while WMI-style papers reward flexible thinking with unfamiliar settings.",
+      },
+      {
+        kind: 'p',
+        text: "Always check the official WMI guidelines for the exact number of questions, mark values, allowed tools and any negative marking rules for your child's grade before the contest.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is there a fixed pass mark in the WMI Preliminary Round?",
+        answer: "No. Awards are rank-based within each grade, so what counts is how a student performs relative to others in the same grade and country.",
+      },
+      {
+        question: "Are calculators allowed?",
+        answer: "Rules on tools vary by grade and by year, so read the current guidelines. Practising without a calculator is the safer habit because it builds mental fluency regardless.",
+      },
+      {
+        question: "Does the format stay the same each year?",
+        answer: "The broad structure has been stable, but question counts and mark splits can be adjusted. Treat any published breakdown as a guide and confirm it with the official source.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-prepare-for-wmi-preliminary-round-study-plan",
+    title: "How to Prepare for the WMI Preliminary Round: A 10-Week Study Plan",
+    description:
+      "A practical 10-week plan for the WMI Preliminary Round, built around logical reasoning, applied problem solving, timed practice and an error log. Suitable for students in Grades 3 to 10.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/wmi-preliminary-round-format-scoring-medals-explained', label: 'WMI Preliminary Round Format and Scoring' },
+      { href: '/blog/amc-8-mock-test-method-error-log-last-10-weeks', label: 'The Mock Test and Error Log Method' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Prepare for the WMI Preliminary Round in ten weeks: spend weeks 1-3 on core topics and puzzle-style reasoning, weeks 4-7 on mixed problem sets with a strict time limit, and weeks 8-10 on full timed papers with an error log. Aim for four to five short sessions a week of 45-60 minutes, and always review mistakes before moving on.",
+      },
+      { kind: 'h2', text: "Before you start" },
+      {
+        kind: 'ul',
+        items: [
+          "Download the current-year guidelines and any released sample papers for your child's grade from the official site.",
+          "Take one paper cold, under time, and mark it honestly. This is your baseline, not a verdict.",
+          "Pick a notebook for the error log. Every wrong or skipped question goes in, with the reason.",
+        ],
+      },
+      { kind: 'h2', text: "Weeks 1-3: build the base" },
+      {
+        kind: 'p',
+        text: "Work on the topics that appear most: number sense and arithmetic, fractions and percentages, basic geometry (perimeter, area, angles), patterns and sequences, and counting. Add two or three logic puzzles per session, such as truth-teller puzzles, grid deductions and arrangement problems. Do not rush. The aim is to make the question types feel familiar.",
+      },
+      { kind: 'h2', text: "Weeks 4-7: mixed sets under a time limit" },
+      {
+        kind: 'p',
+        text: "Move from topic-wise practice to mixed sets of 10 questions, with a timer set at about three to four minutes per question. The mixing matters, because the real paper will not tell you which topic is coming. After each set, spend as long reviewing as solving.",
+      },
+      {
+        kind: 'table',
+        headers: ['Week', 'Focus', 'Session format'],
+        rows: [
+          ['4', 'Counting and arrangements', '10 mixed questions, timed'],
+          ['5', 'Geometry in applied settings', '10 mixed questions plus one puzzle'],
+          ['6', 'Word problems and ratio', '10 mixed questions, timed'],
+          ['7', 'Logic and case analysis', 'One 40-minute section, simulated'],
+        ],
+      },
+      { kind: 'h2', text: "Weeks 8-10: full-paper practice" },
+      {
+        kind: 'p',
+        text: "Simulate the two sections back to back with a short break, at the same time of day as the real contest if possible. Review every paper the next day. By week 10, your child should know their own pace: how many questions they can finish comfortably, which they should skip first and where they tend to slip.",
+      },
+      { kind: 'h2', text: "The error log" },
+      {
+        kind: 'ul',
+        items: [
+          "Misread the question? Underline the ask before solving.",
+          "Arithmetic slip? Practise two-line checks, such as estimating the size of the answer.",
+          "Did not know the idea? Note the idea and do two similar problems within three days.",
+          "Ran out of time? Mark where the time went and set a cut-off per question.",
+        ],
+      },
+      { kind: 'h2', text: "What to avoid" },
+      {
+        kind: 'p',
+        text: "Do not turn this into a daily marathon. Children who prepare in short, regular sessions retain more than those who cram on weekends. Do not buy a stack of books either. A handful of past or sample papers, plus one good puzzle collection, is more than enough for a Preliminary Round.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many hours a week should my child spend?",
+        answer: "About three to five hours is plenty for most students, split into short sessions. Quality of review matters more than the total hours.",
+      },
+      {
+        question: "Does my child need a tutor to prepare for WMI?",
+        answer: "Not necessarily. Many students prepare at home with sample papers. A mentor helps most when a student is stuck on the same type of question repeatedly or wants to aim for a medal.",
+      },
+      {
+        question: "Can the same preparation help with Math Kangaroo?",
+        answer: "Yes. Both reward logical reasoning and timed multi-step problem solving, so the skills transfer in both directions.",
+      },
+    ],
+  },
+  {
+    slug: "wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition",
+    title: "WMI vs Math Kangaroo vs IMO vs AMC: Which Competition Should Your Child Take?",
+    description:
+      "WMI, Math Kangaroo, SOF IMO and AMC all look like maths competitions, but they serve different goals. A side-by-side comparison to help parents pick the right one for each stage.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/math-kangaroo-vs-sof-imo-first-olympiad', label: 'Math Kangaroo vs SOF IMO' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Choose by goal, not by name. Math Kangaroo is the gentlest, puzzle-style starting point; SOF IMO is a school-level olympiad widely used in India; WMI is an international contest with a Preliminary and Final Round; AMC 8 and AMC 10 are the best fit for students heading toward serious competition maths and the AMC to AIME path.",
+      },
+      { kind: 'h2', text: "The four contests at a glance" },
+      {
+        kind: 'table',
+        headers: ['', 'WMI', 'Math Kangaroo', 'SOF IMO', 'AMC 8 / 10'],
+        rows: [
+          ['Grades', 'K-12', 'Grades 1-12', 'Grades 1-12', 'AMC 8: up to Grade 8; AMC 10: up to Grade 10'],
+          ['Style', 'Logic plus applications', 'Puzzle-like, multiple choice', 'Syllabus-linked, multiple choice', 'Multiple choice, non-routine'],
+          ['Rounds', 'Preliminary and Final', 'Single paper', 'Level 1 and Level 2', 'Single paper; AMC 10 can lead to AIME'],
+          ['Best for', 'Students who enjoy international ranking', 'First-time competitors', 'Building olympiad habit in school', 'Students aiming for serious contest maths'],
+        ],
+      },
+      { kind: 'h2', text: "How to choose by stage" },
+      {
+        kind: 'ul',
+        items: [
+          "Grades 1-4: Math Kangaroo is usually the friendliest way to meet competition maths. WMI or SOF IMO can be added if the child enjoys it.",
+          "Grades 5-7: Add SOF IMO for syllabus-linked practice, and consider WMI or AMC 8 for the first taste of real problem solving.",
+          "Grades 7-9: AMC 8 or AMC 10, along with the Indian IOQM pathway, becomes the main track.",
+          "Grades 9-12: AMC 10/12, IOQM and school-board priorities take over. Smaller contests become optional.",
+        ],
+      },
+      { kind: 'h2', text: "Do not collect contests" },
+      {
+        kind: 'p',
+        text: "It is tempting to enrol in everything, because each contest has a certificate and a ranking. The risk is that a child spends the year on test-taking rather than learning. A better rule is to pick one main contest and one easy secondary contest per year, and put the time you save into reviewing mistakes.",
+      },
+      { kind: 'h2', text: "Which ones transfer best to later tracks" },
+      {
+        kind: 'p',
+        text: "AMC 8 and AMC 10 feed most directly into later contest maths, and IOQM is the official gateway for the Indian olympiad pipeline. Math Kangaroo and WMI are excellent for reasoning and confidence, but they are not stepping stones in a formal sense. They build the habits that make the formal contests easier.",
+      },
+      { kind: 'h2', text: "A simple recommendation" },
+      {
+        kind: 'p',
+        text: "If you are unsure, start with Math Kangaroo or a WMI practice paper at home, note how your child reacts, and add AMC 8 in Grade 6 or 7 if they enjoy the harder problems. Always confirm dates, fees and eligibility on each organiser's official site before you register.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is WMI harder than Math Kangaroo?",
+        answer: "They are broadly comparable in difficulty at the Preliminary level, since both emphasise reasoning over advanced content. The structure differs, because WMI has a Final Round and ranks students by grade and country.",
+      },
+      {
+        question: "Can my child take all four in the same year?",
+        answer: "They can, but it is rarely the best use of time. One main contest and one lighter secondary contest usually gives more learning per hour.",
+      },
+      {
+        question: "Which contest is most valued for international university applications?",
+        answer: "AMC results and the AMC to AIME path are the most widely recognised in maths-focused applications, though no single contest decides admissions. Depth and consistency matter more than the number of certificates.",
+      },
+    ],
+  },
+  {
+    slug: "wmi-final-round-qualification-what-to-expect",
+    title: "WMI Final Round: How to Qualify and What to Expect",
+    description:
+      "How students qualify for the WMI Final Round, how it differs from the Preliminary Round, what the travel and cost questions look like for Indian families, and whether it is worth attending.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiads',
+    relatedProgramLabel: 'Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/wmi-preliminary-round-format-scoring-medals-explained', label: 'WMI Preliminary Round Format and Scoring' },
+      { href: '/blog/how-to-use-olympiad-achievements-international-university-applications', label: 'Using Olympiad Achievements in Applications' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To reach the WMI Final Round, a student must earn a qualifying medal, Gold, Silver or Bronze, in the Preliminary Round. The Final Round is held on set dates at a venue that has been abroad in recent years, for example in Japan in 2026. It is a larger invitational event with a harder paper, and attending is optional and involves travel costs.",
+      },
+      { kind: 'h2', text: "Step 1: earn a qualifying medal" },
+      {
+        kind: 'p',
+        text: "The Final Round is not open to everyone who registers for the Preliminary Round. Qualification depends on the Preliminary medal, which is itself rank-based within a grade. That is why consistent, timed practice matters more than any single topic.",
+      },
+      { kind: 'h2', text: "Step 2: decide whether to attend" },
+      {
+        kind: 'p',
+        text: "Qualifying and attending are two separate decisions. For most Indian families the Final Round means international travel, accommodation and a registration fee on top of the contest itself. Parents should add these up before saying yes.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Check the Final Round dates against the school calendar and board exam schedule.",
+          "Get the full fee list from the official WMI site, not from a third-party agent.",
+          "Be wary of any agency that bundles the contest with a tour and does not give clear, itemised costs.",
+          "Ask what the child will actually do there: contest hours, ceremony, and any cultural programme.",
+        ],
+      },
+      { kind: 'h2', text: "How the Final Round differs" },
+      {
+        kind: 'table',
+        headers: ['', 'Preliminary Round', 'Final Round'],
+        rows: [
+          ['Where', "Student's own country", 'Abroad, on fixed dates'],
+          ['Who', 'All registered students', 'Qualified students only'],
+          ['Paper', 'Reasoning plus applications, mostly multiple choice', 'Harder paper, with a different Section B format in some descriptions'],
+          ['Awards', 'Gold, Silver, Bronze bands', 'A wider set of medal tiers'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Published sources describe the Final Round paper slightly differently, for example whether Section B uses short-answer rather than multiple-choice questions, so rely on the current official format.",
+      },
+      { kind: 'h2', text: "Is it worth it?" },
+      {
+        kind: 'p',
+        text: "For a keen student, meeting peers from other countries can be genuinely motivating. As a credential for admissions, though, a Final Round medal is a supporting item, not a headline one. Admissions readers tend to look for depth, such as sustained progress in AMC, IOQM or independent projects. If the trip stretches the family budget, skipping it loses little.",
+      },
+      { kind: 'h2', text: "What to do if your child qualifies" },
+      {
+        kind: 'ul',
+        items: [
+          "Congratulate them first, and let them lead the decision.",
+          "Ask the organiser for a past Final Round paper and practise two or three sections together.",
+          "Keep regular school study going. The Final Round should not displace term exams.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does every Preliminary medal winner qualify for the Final Round?",
+        answer: "Qualification is linked to earning a Gold, Silver or Bronze medal in the Preliminary Round. Check the current year's rules for the exact criteria.",
+      },
+      {
+        question: "Is the Final Round always held abroad?",
+        answer: "In recent years it has been hosted in a different country each year, for example Japan in 2026. Check the official site for the current venue.",
+      },
+      {
+        question: "Will a WMI Final Round medal help in university applications?",
+        answer: "It can be a positive supporting item, but it carries less weight than sustained results in a well-known contest track such as AMC or IOQM.",
+      },
+    ],
+  },
+  {
+    slug: "math-kangaroo-india-registration-guide-how-to-register",
+    title: "Math Kangaroo in India: How to Register, What to Check and Common Pitfalls",
+    description:
+      "A parent-friendly guide to registering for Math Kangaroo from India: school versus individual registration, which level to choose, what to confirm and the mistakes that cost families time.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [
+      { href: '/blog/math-kangaroo-levels-explained', label: 'Math Kangaroo Levels Explained' },
+      { href: '/blog/how-math-kangaroo-is-scored', label: 'How Math Kangaroo Is Scored' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To register for Math Kangaroo in India, register through your school if it participates, or register individually through the official Math Kangaroo India channel. Choose the level that matches your child's current grade, pay the fee before the deadline and keep the confirmation. Dates, fees and test modes change every year, so confirm them on the official site rather than relying on older articles.",
+      },
+      { kind: 'h2', text: "School registration or individual registration?" },
+      {
+        kind: 'table',
+        headers: ['Route', 'How it works', 'Good for'],
+        rows: [
+          ['Through school', 'The school registers a group of students and arranges the test day', 'Students whose school already participates'],
+          ['Individual', 'The family registers directly and takes the test online or at a designated centre where available', 'Homeschoolers, or schools that do not participate'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Both routes lead to the same contest. Ask your child's school first. If they do not take part, individual registration is usually available, though the mode, whether online or offline, depends on the year and the city.",
+      },
+      { kind: 'h2', text: "Choose the right level" },
+      {
+        kind: 'p',
+        text: "Levels follow the student's current grade, from Pre-Ecolier and Ecolier for the youngest to Junior and Student for the oldest. Our guide to [Math Kangaroo levels](/blog/math-kangaroo-levels-explained) lists the grade bands. A student normally attempts the level that matches their grade in the year of the exam, so there is rarely a real choice to make.",
+      },
+      { kind: 'h2', text: "A registration checklist" },
+      {
+        kind: 'ul',
+        items: [
+          "Confirm the current-year registration window and the last date to pay.",
+          "Check the exam window and whether your city's test is online or in person.",
+          "Enter the student's name exactly as it should appear on the certificate. Corrections later can be slow.",
+          "Keep the payment receipt and the registration confirmation email.",
+          "Ask what happens if the child is ill on test day. Some windows allow a different slot, others do not.",
+        ],
+      },
+      { kind: 'h2', text: "Common pitfalls" },
+      {
+        kind: 'ul',
+        items: [
+          "Using dates from a US or older-year article. The India schedule is not the same as the US schedule.",
+          "Registering through a third-party website that adds its own fee. Always verify the payment goes to the official body or a named authorised partner.",
+          "Leaving it until the last week. Slots at popular centres fill up.",
+          "Not testing the online setup in advance for online papers. Check the device, browser and internet first.",
+        ],
+      },
+      { kind: 'h2', text: "What to do after registering" },
+      {
+        kind: 'p',
+        text: "Start light practice straight away. Two or three puzzle-style problems a day for a month will do more than a last-minute cram. Our [12-week Kangaroo plan](/blog/math-kangaroo-12-week-preparation-plan) shows how to pace it.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can my child register for Math Kangaroo without their school?",
+        answer: "Individual registration is generally available where the school does not participate. The official Math Kangaroo India site lists the current route and the fee.",
+      },
+      {
+        question: "Is the Math Kangaroo exam online or offline in India?",
+        answer: "It has been offered in both modes in different years and cities, so check the current year's options when you register.",
+      },
+      {
+        question: "Can my child take a higher level than their grade?",
+        answer: "Level assignment follows current grade, so this is generally not an option. Students who find their level easy are better served by a harder contest such as AMC 8 or IOQM.",
+      },
+    ],
+  },
+  {
+    slug: "math-kangaroo-12-week-preparation-plan",
+    title: "Math Kangaroo Preparation: A 12-Week Plan for Grades 3 to 8",
+    description:
+      "A calm, 12-week plan for Math Kangaroo that builds puzzle skills, logic and timing without turning a fun contest into a chore. Includes weekly themes, session length and a review routine.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [
+      { href: '/blog/best-resources-practice-papers-math-kangaroo', label: 'Best Resources and Practice Papers for Math Kangaroo' },
+      { href: '/blog/kangaroo-math-olympiad-what-it-is-and-how-to-prepare', label: 'Kangaroo Math Olympiad: What It Is and How to Prepare' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A good Math Kangaroo plan has three phases over 12 weeks: weeks 1-4 for number sense and basic logic puzzles, weeks 5-8 for geometry, counting and mixed sets, and weeks 9-12 for timed past papers and review. Keep sessions to 30-45 minutes, four days a week, and always end with a short review of mistakes.",
+      },
+      { kind: 'h2', text: "Principles that keep it enjoyable" },
+      {
+        kind: 'ul',
+        items: [
+          "Math Kangaroo is meant to be fun. Short, frequent sessions beat long, tense ones.",
+          "Practise variety, not volume. The contest rewards noticing patterns, not repeating one method.",
+          "Talk through solutions aloud. A child who can explain why an answer works understands it.",
+          "Use past papers from your child's own level and grade band.",
+        ],
+      },
+      { kind: 'h2', text: "Phase 1 (weeks 1-4): number sense and logic" },
+      {
+        kind: 'table',
+        headers: ['Week', 'Theme', 'Activity'],
+        rows: [
+          ['1', 'Arithmetic fluency', 'Mental sums, number patterns, place value puzzles'],
+          ['2', 'Logic and deduction', 'Who-owns-what puzzles, simple grids'],
+          ['3', 'Patterns and sequences', 'Find the rule, extend the pattern'],
+          ['4', 'Fractions and ratio basics', 'Sharing problems, simple ratio stories'],
+        ],
+      },
+      { kind: 'h2', text: "Phase 2 (weeks 5-8): geometry, counting and mixing" },
+      {
+        kind: 'table',
+        headers: ['Week', 'Theme', 'Activity'],
+        rows: [
+          ['5', 'Shapes and perimeter', 'Cutting and rearranging shapes, counting squares'],
+          ['6', 'Area and visual puzzles', 'Folding, nets, symmetry and reflection'],
+          ['7', 'Counting and arrangements', 'Lists, tables, systematic counting'],
+          ['8', 'Mixed sets', '10 mixed questions per session'],
+        ],
+      },
+      { kind: 'h2', text: "Phase 3 (weeks 9-12): timing and review" },
+      {
+        kind: 'p',
+        text: "Switch to full papers, one per week, at the actual time limit for your level. After each paper, spend a separate session reviewing. Sort mistakes into three groups: careless slips, ideas not known and questions skipped for time. Each group needs a different fix.",
+      },
+      {
+        kind: 'ul',
+        items: [
+          "Careless slips: slow down the reading step and underline what is asked.",
+          "Ideas not known: write the idea on a card and do two similar problems within three days.",
+          "Skipped for time: practise a first pass that collects easy marks before touching hard questions.",
+        ],
+      },
+      { kind: 'h2', text: "Test the scoring rules" },
+      {
+        kind: 'p',
+        text: "Before the final practice papers, read the current scoring rules so that your child's guessing habits match them. Our post on [how Math Kangaroo is scored](/blog/how-math-kangaroo-is-scored) explains why this matters.",
+      },
+      { kind: 'h2', text: "The week before the contest" },
+      {
+        kind: 'p',
+        text: "Stop new topics. Redo a few favourite problems, check the logistics of the test day, and make sure your child sleeps well. A relaxed child solves better than an over-prepared one.",
+      },
+    ],
+    faq: [
+      {
+        question: "How much time a day should my child spend?",
+        answer: "Thirty to forty-five minutes, four days a week, is enough for most students. More is rarely better and can reduce the fun.",
+      },
+      {
+        question: "Does my child need coaching for Math Kangaroo?",
+        answer: "Not strictly. Many students do well with past papers and puzzle books at home. Coaching helps when a child gets stuck on the same type repeatedly or wants to aim for the top bands.",
+      },
+      {
+        question: "Which past papers should we use?",
+        answer: "Use past papers from your child's own level where available. Our guide to resources and practice papers lists reliable places to find them.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-solve-math-kangaroo-logic-and-visual-puzzles",
+    title: "How to Solve Math Kangaroo Logic and Visual Puzzles: Six Techniques",
+    description:
+      "Six practical techniques for Math Kangaroo problems: reading carefully, drawing, working backwards, using the answer choices, trying small cases and checking reasonableness, with worked examples.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [
+      { href: '/blog/why-math-kangaroo-great-first-step-ioqm-amc', label: 'Why Math Kangaroo Is a Great First Step' },
+      { href: '/blog/amc-8-pacing-40-minutes-25-questions-three-pass', label: 'AMC 8 Pacing and the Three-Pass Method' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Most Math Kangaroo problems are solved by technique rather than by heavy content. Six techniques cover a large share of them: read slowly, draw the situation, work backwards, test the answer choices, try small cases and check whether the answer is reasonable. Practising these deliberately is more valuable than memorising formulas.",
+      },
+      { kind: 'h2', text: "1. Read the question twice, and underline the ask" },
+      {
+        kind: 'p',
+        text: "Many lost marks come from answering a nearby question, such as finding the total when the question asks for the difference. Underline the last sentence before doing any arithmetic.",
+      },
+      { kind: 'h2', text: "2. Draw the situation" },
+      {
+        kind: 'p',
+        text: "A quick sketch turns a wordy problem into a picture. Example: in how many ways can a 12 cm ribbon be cut, with no waste, into pieces that are each 3 cm or 4 cm long, ignoring order? Sketch it and list the options. Four 3 cm pieces work, and three 4 cm pieces work. One 4 cm piece leaves 8 cm, which 3 cm pieces cannot fill, and two 4 cm pieces leave 4 cm, which they cannot fill either. So there are exactly two ways. Drawing and listing keep you from guessing.",
+      },
+      { kind: 'h2', text: "3. Work backwards" },
+      {
+        kind: 'p',
+        text: "Example: Mia has some stickers. She gives away half, then buys 6 more and now has 20. How many did she start with? Work backwards: 20 - 6 = 14, and 14 is half of the starting number, so she started with 28.",
+      },
+      { kind: 'h2', text: "4. Use the answer choices" },
+      {
+        kind: 'p',
+        text: "Math Kangaroo is multiple choice, so the choices are information. Plug a middle option into the problem to see whether it is too big or too small, then move up or down. This often beats setting up an equation, and it is a good habit for AMC 8 as well.",
+      },
+      { kind: 'h2', text: "5. Try small cases" },
+      {
+        kind: 'p',
+        text: "When a problem has a large number, replace it with a small one and look for the pattern. Example: how many handshakes are there among 10 people if everyone shakes hands with everyone else once? Try 2 people (1), 3 people (3), 4 people (6), and see that the count is 1+2+3+...+9 = 45.",
+      },
+      { kind: 'h2', text: "6. Check reasonableness" },
+      {
+        kind: 'ul',
+        items: [
+          "Is the answer the right size? A shaded area cannot be larger than the whole shape.",
+          "Is it the right type? A count of people must be a whole number.",
+          "Does it fit every condition in the problem, not just the first?",
+        ],
+      },
+      { kind: 'h2', text: "How to practise these" },
+      {
+        kind: 'p',
+        text: "After solving a problem, ask which technique cracked it and write it beside the problem. Over a few weeks your child will notice that the same six keys open most doors. This also builds the habit of choosing a method before diving into numbers.",
+      },
+      {
+        kind: 'p',
+        text: "For timing and how to decide which problems to skip, see the three-pass method in our AMC 8 pacing guide. The same idea works for Kangaroo.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are Math Kangaroo problems based on the school syllabus?",
+        answer: "Mostly they use familiar content, such as arithmetic, simple geometry and logic, but in unfamiliar settings. That is why technique matters more than extra syllabus topics.",
+      },
+      {
+        question: "Is it okay to guess on a problem I cannot solve?",
+        answer: "That depends on the scoring rules for your paper. Check the current rules first, and use elimination to improve your chances before guessing.",
+      },
+      {
+        question: "My child freezes on visual problems. What helps?",
+        answer: "Let them cut paper shapes, fold and rotate them. Physical manipulation builds the mental images that later make such problems feel natural.",
+      },
+    ],
+  },
+  {
+    slug: "math-kangaroo-benjamin-cadet-grades-5-8-topics-and-practice",
+    title: "Math Kangaroo for Grades 5 to 8: Benjamin and Cadet Topics and Practice",
+    description:
+      "What the Benjamin (Grades 5-6) and Cadet (Grades 7-8) levels of Math Kangaroo test, the topics to prioritise and how to practise so that the jump from school maths feels manageable.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 7,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [
+      { href: '/blog/math-kangaroo-levels-explained', label: 'Math Kangaroo Levels Explained' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The Benjamin level covers roughly Grades 5-6 and the Cadet level Grades 7-8. Both lean on number sense, ratios and fractions, geometry, logic and counting, but pose them in non-routine ways. Prioritise arithmetic fluency, area and angle reasoning, divisibility, simple counting and word problems, then practise with timed past papers from the same level.",
+      },
+      { kind: 'h2', text: "Why this band matters" },
+      {
+        kind: 'p',
+        text: "Grades 5-8 are where students decide whether maths is a subject they merely complete or one they explore. A good Kangaroo experience at this stage gives them early confidence, and it prepares them for AMC 8 and, later, IOQM.",
+      },
+      { kind: 'h2', text: "Topics to prioritise" },
+      {
+        kind: 'table',
+        headers: ['Topic', 'What it looks like', 'Quick practice'],
+        rows: [
+          ['Number sense and arithmetic', 'Large sums made easy, estimation, digits puzzles', 'Daily 5-minute mental sums'],
+          ['Fractions, ratios, percentages', 'Sharing, mixtures, simple discount problems', 'Convert between forms until it is automatic'],
+          ['Geometry', 'Area by cutting, angles in triangles, perimeter of composite shapes', 'Draw, shade and relabel each figure'],
+          ['Divisibility and factors', 'Multiples, remainders, simple primes', 'Learn divisibility rules for 2, 3, 4, 5, 9, 10'],
+          ['Counting and logic', 'Arrangements, outfits, grids, true-or-false statements', 'List systematically before counting'],
+        ],
+      },
+      { kind: 'h2', text: "Benjamin vs Cadet: what changes" },
+      {
+        kind: 'ul',
+        items: [
+          "Benjamin leans on concrete, visual and arithmetic puzzles with small numbers.",
+          "Cadet uses more algebraic thinking, such as expressing an unknown, and longer chains of reasoning.",
+          "Cadet geometry brings in angle chasing and area ideas that echo AMC 8 problems.",
+        ],
+      },
+      { kind: 'h2', text: "A weekly routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Three short sessions of 30-40 minutes on mixed problems.",
+          "One longer session on a timed past paper, followed by a review the next day.",
+          "One conversation about a favourite problem, where the child teaches a parent.",
+        ],
+      },
+      { kind: 'h2', text: "Moving on from Kangaroo" },
+      {
+        kind: 'p',
+        text: "Students in Grades 6-8 who find their Kangaroo paper comfortable are usually ready to try AMC 8. Those aiming for the Indian pathway can start building IOQM habits from Grade 8. See our comparison of the contests for how the pieces fit together.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which grades does Benjamin cover?",
+        answer: "Benjamin is usually used for Grades 5-6 and Cadet for Grades 7-8, though the local organiser's table is the final authority.",
+      },
+      {
+        question: "Is algebra needed for Cadet?",
+        answer: "Basic algebraic thinking helps, such as using a letter for an unknown, but most problems can also be solved with logic and arithmetic.",
+      },
+      {
+        question: "Should a strong Grade 7 student skip Kangaroo and go straight to AMC 8?",
+        answer: "Not necessarily. Kangaroo is quick, enjoyable and a useful timing exercise. Many students do both in the same year.",
+      },
+    ],
+  },
+  {
+    slug: "math-kangaroo-mistakes-students-make-and-how-parents-can-help",
+    title: "Math Kangaroo: Eight Common Mistakes and How Parents Can Help",
+    description:
+      "Eight mistakes that cost students marks in Math Kangaroo, from misreading to over-practising, and a short guide for parents on supporting the contest without adding pressure.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 6,
+    relatedProgramHref: '/maths-kangaroo-coaching-pune',
+    relatedProgramLabel: 'Math Kangaroo Coaching',
+    relatedGuides: [
+      { href: '/blog/how-parents-can-support-olympiad-preparation', label: 'How Parents Can Support Olympiad Preparation' },
+      { href: '/blog/common-mistakes-amc-8-amc-10', label: 'Common Mistakes in AMC 8 and AMC 10' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The most common Math Kangaroo mistakes are misreading the question, rushing the easy ones, spending too long on one hard problem, ignoring the scoring rules, relying on one method, skipping the review, practising only favourite topics and over-practising to the point of stress. Parents help most by keeping practice short, calm and curious.",
+      },
+      { kind: 'h2', text: "Eight mistakes students make" },
+      {
+        kind: 'ul',
+        items: [
+          "Misreading the question. Answering what was not asked is the single most common slip.",
+          "Rushing the early, easy problems and dropping marks that were safe.",
+          "Spending five minutes on one hard question and leaving no time for the rest.",
+          "Ignoring the scoring rules, then guessing wildly or not guessing at all.",
+          "Using only one method. If the equation approach is stuck, drawing or testing options may be quicker.",
+          "Skipping the review. A paper that is solved but not reviewed teaches little.",
+          "Practising only favourite topics, usually arithmetic, and avoiding geometry or logic.",
+          "Over-practising. Daily marathons produce tired, anxious students and rarely higher scores.",
+        ],
+      },
+      { kind: 'h2', text: "A better routine" },
+      {
+        kind: 'table',
+        headers: ['Habit', 'How to do it'],
+        rows: [
+          ['Read-underline-solve', 'Underline the question before touching numbers'],
+          ['First pass', 'Collect the easy marks, mark hard ones with a star'],
+          ['Timebox', 'Give each question a time cap, and move on when it is reached'],
+          ['Review', 'Spend as long reviewing as solving, and log every mistake'],
+        ],
+      },
+      { kind: 'h2', text: "How parents can help" },
+      {
+        kind: 'ul',
+        items: [
+          "Ask, do not tell. Questions such as, What is the problem asking? are more useful than showing the answer.",
+          "Praise effort and curiosity rather than scores.",
+          "Keep sessions short and at a regular time, so practice becomes a habit rather than a negotiation.",
+          "Do not compare with other children. Kangaroo results are reported across a very large and varied group.",
+          "Let your child choose some of the puzzles, because enjoyment is what keeps them going.",
+        ],
+      },
+      { kind: 'h2', text: "When to ask for extra help" },
+      {
+        kind: 'p',
+        text: "If your child repeatedly makes the same type of error after several weeks of review, a mentor can often spot the underlying cause quickly. Small batches work best at this age, where a teacher can see how each student is thinking.",
+      },
+      {
+        kind: 'p',
+        text: "Remember that Math Kangaroo is a first step, not a verdict. The real value lies in the confidence and reasoning habits it builds.",
+      },
+    ],
+    faq: [
+      {
+        question: "My child gets nervous before contests. What can I do?",
+        answer: "Keep the stakes low, practise under timed conditions at home so the format feels familiar, and talk about the contest as a puzzle challenge rather than a test.",
+      },
+      {
+        question: "Should we do past papers every week?",
+        answer: "In the last four to six weeks, one full paper a week with a proper review is plenty. Earlier, shorter mixed sets are better.",
+      },
+      {
+        question: "Is it normal for scores to vary a lot between practice papers?",
+        answer: "Yes. Puzzle papers can swing depending on which question types appear. Look at the trend over several papers rather than a single score.",
+      },
+    ],
+  },
+  {
+    slug: "amc-8-geometry-problems-strategies-area-angles-diagrams",
+    title: "AMC 8 Geometry: Area, Angles and Diagram Strategies With Worked Examples",
+    description:
+      "Geometry is one of the most reliable scoring areas on the AMC 8. Here are the facts to know cold, five diagram strategies and worked examples on area, angles and right triangles.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 9,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-topic-priority-last-90-days-what-to-study', label: 'AMC 8 Topic Priority: What to Study' },
+      { href: '/blog/amc-8-most-likely-question-types-2026', label: 'AMC 8 Most Likely Question Types' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 geometry rewards a small toolkit used well: area formulas, the angle sum of a triangle, the Pythagorean theorem with common triples, similar shapes and area by subtraction. Redraw every diagram larger, label what is known, and ask whether the shape can be cut or completed into something simpler.",
+      },
+      { kind: 'h2', text: "Facts to know cold" },
+      {
+        kind: 'ul',
+        items: [
+          "Triangle area is half base times height. Rectangle area is length times width. Trapezoid area is half the sum of parallel sides times height.",
+          "Angles in a triangle add to 180 degrees. Angles in a quadrilateral add to 360 degrees. Angles on a straight line add to 180 degrees.",
+          "Pythagorean triples that appear often: 3-4-5, 5-12-13, 8-15-17 and 7-24-25, plus their multiples such as 6-8-10.",
+          "Interior angle sum of an n-sided polygon is (n - 2) times 180 degrees.",
+          "If lengths scale by k, areas scale by k squared.",
+        ],
+      },
+      { kind: 'h2', text: "Strategy 1: redraw and label" },
+      {
+        kind: 'p',
+        text: "Diagrams in the paper are small and sometimes not to scale. Redraw the figure larger, write every given length and angle on it and mark equal sides or angles. Half of geometry problems become obvious once the labels are visible.",
+      },
+      { kind: 'h2', text: "Strategy 2: area by subtraction" },
+      {
+        kind: 'p',
+        text: "Example: a circle of radius 4 is inscribed in a square. What is the shaded area between the square and the circle? The square has side 8, so its area is 64. The circle has area 16 pi. The shaded area is 64 minus 16 pi. Whenever a shaded region looks awkward, find the whole and subtract the parts you do not need.",
+      },
+      { kind: 'h2', text: "Strategy 3: spot the right triangle" },
+      {
+        kind: 'p',
+        text: "Example: a right triangle has legs 6 and 8. What is the radius of its inscribed circle? The hypotenuse is 10 (a 6-8-10 triangle). For a right triangle, the inscribed circle radius is (a + b - c) divided by 2, which is (6 + 8 - 10) / 2 = 2.",
+      },
+      { kind: 'h2', text: "Strategy 4: angle chase" },
+      {
+        kind: 'p',
+        text: "Example: in a triangle two angles are 50 and 70 degrees. The third is 180 - 120 = 60 degrees. If a line from the 60-degree vertex splits it into two equal angles, each is 30 degrees. Write each new angle on the diagram as you find it, and keep going until the unknown appears.",
+      },
+      { kind: 'h2', text: "Strategy 5: cut and move" },
+      {
+        kind: 'p',
+        text: "Irregular regions are often equal in area to simpler ones after moving a piece. Look for symmetry: if a shaded region is exactly half of a square, the area is half the square. This saves time and reduces arithmetic errors.",
+      },
+      { kind: 'h2', text: "Practice plan" },
+      {
+        kind: 'table',
+        headers: ['Week', 'Focus', 'Target'],
+        rows: [
+          ['1', 'Formulas and units', 'Recall all area formulas without looking'],
+          ['2', 'Angle chasing', '10 angle problems, no protractor'],
+          ['3', 'Right triangles and triples', 'Recognise 3-4-5 and 5-12-13 instantly'],
+          ['4', 'Shaded regions', '10 area-by-subtraction problems'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Pair this with timed mixed sets, and use the three-pass method from our pacing guide so that a slow diagram problem never eats the whole 40 minutes.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are AMC 8 diagrams drawn to scale?",
+        answer: "Not always. Do not measure from the picture. Use the given lengths and angles and the facts you can prove.",
+      },
+      {
+        question: "Do I need to know trigonometry for AMC 8?",
+        answer: "No. Problems are designed to be solved with middle-school geometry, such as area, angle sums, similar shapes and the Pythagorean theorem.",
+      },
+      {
+        question: "Can I use a protractor or ruler?",
+        answer: "Check the current rules with your test centre. Relying on measuring is a poor strategy in any case, because diagrams may not be to scale.",
+      },
+    ],
+  },
+  {
+    slug: "amc-8-counting-probability-problems-systematic-listing",
+    title: "AMC 8 Counting and Probability: Systematic Listing, Casework and Complements",
+    description:
+      "Counting and probability questions are where many AMC 8 students lose avoidable marks. Learn four reliable methods, with worked examples, and a practice routine that makes the topic feel easy.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 9,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-geometry-problems-strategies-area-angles-diagrams', label: 'AMC 8 Geometry Strategies' },
+      { href: '/blog/amc-8-vs-amc-10-how-most-likely-topics-differ', label: 'How AMC 8 and AMC 10 Topics Differ' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "AMC 8 counting and probability problems yield to four methods: list systematically, multiply independent choices, split into cases, and count the complement. Probability is favourable outcomes divided by total outcomes when outcomes are equally likely. Always check for double counting, and ask whether order matters.",
+      },
+      { kind: 'h2', text: "Method 1: list systematically" },
+      {
+        kind: 'p',
+        text: "For small counts, an organised list beats a formula. Example: how many ways can you pay 25 cents using only 5-cent and 10-cent coins? Count by the number of 10-cent coins: zero 10s means five 5s, one 10 means three 5s, two 10s means one 5. That is 3 ways. Order the list by one variable so that nothing is missed or repeated.",
+      },
+      { kind: 'h2', text: "Method 2: multiply independent choices" },
+      {
+        kind: 'p',
+        text: "Example: an outfit uses one of 3 shirts, one of 4 pairs of trousers and one of 2 pairs of shoes. The number of outfits is 3 times 4 times 2, which is 24. Use this whenever you make one choice after another and each choice does not depend on the others.",
+      },
+      { kind: 'h2', text: "Method 3: casework" },
+      {
+        kind: 'p',
+        text: "Example: how many two-digit numbers have digits adding to 9? The tens digit can be 1 to 9 and the units digit is then fixed, so 18, 27, 36, 45, 54, 63, 72, 81 and 90 work. That is 9 numbers. Split a problem into cases that do not overlap and add the case counts.",
+      },
+      { kind: 'h2', text: "Method 4: count the complement" },
+      {
+        kind: 'p',
+        text: "Example: when three fair coins are flipped, what is the probability of at least one head? Count the opposite: all tails, which has probability 1/8. So the answer is 1 minus 1/8, which is 7/8. Use the complement whenever the phrase at least one appears.",
+      },
+      { kind: 'h2', text: "Quick reference" },
+      {
+        kind: 'table',
+        headers: ['Situation', 'Tool', 'Example'],
+        rows: [
+          ['Handshakes among n people', 'n(n - 1)/2', '8 people: 28 handshakes'],
+          ['Two dice sum to 7', '6 favourable of 36', 'Probability 1/6'],
+          ['Arrange letters of BEE', 'Divide by repeats', '3 arrangements'],
+          ['Pick a committee of 2 from 5', 'Order does not matter', '10 ways'],
+        ],
+      },
+      { kind: 'h2', text: "Common traps" },
+      {
+        kind: 'ul',
+        items: [
+          "Counting order when order does not matter, or ignoring order when it does.",
+          "Double counting a case that fits in two groups.",
+          "Forgetting that probabilities must be between 0 and 1.",
+          "Skipping a systematic list and relying on intuition.",
+        ],
+      },
+      { kind: 'h2', text: "Practice routine" },
+      {
+        kind: 'p',
+        text: "Solve six counting problems a week, and for each one write which of the four methods you used. Redo missed problems a few days later. After a month, most students find that the topic has gone from the scariest to one of their most dependable.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need to memorise combination formulas for AMC 8?",
+        answer: "A basic idea of choosing a group of k from n is useful, but most AMC 8 problems can be solved by listing and multiplying without formal formulas.",
+      },
+      {
+        question: "How many counting questions appear on the AMC 8?",
+        answer: "Typically a handful of the 25 questions involve counting or probability, and the number varies by year. Check recent papers to get a feel.",
+      },
+      {
+        question: "What is the quickest way to improve?",
+        answer: "Write out organised lists for small cases, then look for the pattern. This builds the instinct that later lets you skip the listing.",
+      },
+    ],
+  },
+  {
+    slug: "amc-8-number-theory-arithmetic-divisibility-primes-remainders",
+    title: "AMC 8 Number Theory and Arithmetic: Divisibility, Primes, Factors and Remainders",
+    description:
+      "The number theory ideas that show up most on the AMC 8, with divisibility rules, prime factorisation, GCD and LCM tricks, remainder patterns and worked examples you can try before the paper.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-counting-probability-problems-systematic-listing', label: 'AMC 8 Counting and Probability' },
+      { href: '/blog/best-books-number-theory-math-kangaroo', label: 'Best Books for Number Theory' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For AMC 8 number theory, master six tools: divisibility rules, prime factorisation, counting factors, GCD and LCM, remainder cycles and place value. They solve most problems without heavy computation. A student who knows these tools well saves minutes per problem and avoids long arithmetic that invites mistakes.",
+      },
+      { kind: 'h2', text: "Divisibility rules" },
+      {
+        kind: 'table',
+        headers: ['Divisor', 'Rule'],
+        rows: [
+          ['2', 'Last digit is even'],
+          ['3', 'Digit sum is a multiple of 3'],
+          ['4', 'Last two digits form a multiple of 4'],
+          ['5', 'Last digit is 0 or 5'],
+          ['8', 'Last three digits form a multiple of 8'],
+          ['9', 'Digit sum is a multiple of 9'],
+          ['11', 'Alternating digit sum is a multiple of 11'],
+        ],
+      },
+      { kind: 'h2', text: "Prime factorisation and counting factors" },
+      {
+        kind: 'p',
+        text: "Write a number as a product of primes. Example: 36 = 2 squared times 3 squared. To count factors, add one to each exponent and multiply: (2 + 1)(2 + 1) = 9. The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18 and 36.",
+      },
+      {
+        kind: 'p',
+        text: "Know the primes up to 50 by heart: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 and 47. That is 15 primes. Remember that 1 is not prime and 2 is the only even prime.",
+      },
+      { kind: 'h2', text: "GCD and LCM" },
+      {
+        kind: 'p',
+        text: "Example: two buses leave a stop every 12 and 18 minutes. When do they next leave together? The LCM of 12 and 18 is 36 minutes. A helpful check: GCD times LCM equals the product of the two numbers, and 6 times 36 equals 216, which is 12 times 18.",
+      },
+      { kind: 'h2', text: "Remainder cycles" },
+      {
+        kind: 'p',
+        text: "Example: what is the last digit of 7 to the power of 2026? The last digits of powers of 7 repeat in a cycle of four: 7, 9, 3, 1. Since 2026 leaves remainder 2 when divided by 4, the last digit is the second in the cycle, which is 9. Look for the cycle first, then use remainders.",
+      },
+      { kind: 'h2', text: "Place value and digit puzzles" },
+      {
+        kind: 'ul',
+        items: [
+          "Write a two-digit number as 10a + b, and a three-digit number as 100a + 10b + c.",
+          "Use divisibility rules to cut down the possibilities for a missing digit.",
+          "Check small cases to see the pattern before hunting for a general rule.",
+        ],
+      },
+      { kind: 'h2', text: "How to practise" },
+      {
+        kind: 'p',
+        text: "Build a one-page cheat sheet of the rules above and test yourself from memory every few days. Then solve three or four problems per session from past papers, and note which tool cracked each. Within a few weeks, the tool selection becomes automatic.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is number theory a big part of the AMC 8?",
+        answer: "It usually accounts for several of the 25 questions, often combined with arithmetic or counting, and the exact mix changes year to year.",
+      },
+      {
+        question: "Do I need modular arithmetic for AMC 8?",
+        answer: "You do not need the formal notation. Thinking in remainders and cycles, as in the last-digit example, is enough.",
+      },
+      {
+        question: "What is the fastest way to find the LCM?",
+        answer: "Prime factorise both numbers and take the highest power of each prime. For small numbers, listing multiples of the larger number until the smaller divides one is also quick.",
+      },
+    ],
+  },
+  {
+    slug: "amc-8-honor-roll-distinguished-honor-roll-score-targets",
+    title: "AMC 8 Scoring and Awards: Honor Roll, Distinguished Honor Roll and Realistic Targets",
+    description:
+      "How the AMC 8 is scored, what the Honor Roll and Distinguished Honor Roll recognise, how cutoffs vary by year and how to set a realistic target score for your child's grade and experience.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 7,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/how-to-read-amc-score-report-beginners-walkthrough', label: 'How to Read Your AMC Score Report' },
+      { href: '/blog/how-to-read-amc-aime-cutoff-tables', label: 'How to Read AMC and AIME Cutoff Tables' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The AMC 8 has 25 questions, one point each, with no penalty for wrong answers, so the top score is 25. The MAA recognises high scorers through the Honor Roll and the Distinguished Honor Roll, which have historically covered roughly the top 5% and top 1% of participants. Cutoffs change every year, so check the published figures.",
+      },
+      { kind: 'h2', text: "How scoring works" },
+      {
+        kind: 'ul',
+        items: [
+          "25 multiple-choice questions in 40 minutes.",
+          "One point for each correct answer, and no points for blanks or wrong answers.",
+          "No negative marking, so every question should be answered.",
+          "Calculators are not allowed.",
+        ],
+      },
+      { kind: 'h2', text: "The main recognitions" },
+      {
+        kind: 'table',
+        headers: ['Recognition', 'What it generally means', 'Notes'],
+        rows: [
+          ['Distinguished Honor Roll', 'Roughly the top 1% of participants', 'Cutoff score varies by year'],
+          ['Honor Roll', 'Roughly the top 5% of participants', 'Cutoff score varies by year'],
+          ['Achievement Roll', 'A fixed score threshold for younger students, historically open to Grade 6 and below', 'Check the current MAA criteria'],
+          ['Certificates', 'Participation and school-level recognition', 'Offered through the school or centre'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These are percentage-based, so the score needed depends on how hard the paper was and how strong the field was that year. The MAA publishes the cutoffs after the contest, and we recommend reading them there rather than quoting figures from memory.",
+      },
+      { kind: 'h2', text: "Setting a realistic target" },
+      {
+        kind: 'table',
+        headers: ['Student profile', 'Reasonable first target', 'Stretch target'],
+        rows: [
+          ['First attempt, Grade 6 or below', 'A solid mid-range score, with the early questions secure', 'A score that qualifies for younger-student recognition'],
+          ['Second attempt, steady prep', 'Clearly above the first score, with fewer careless errors', 'Honor Roll range'],
+          ['Experienced, strong at olympiad maths', 'Honor Roll range', 'Distinguished Honor Roll range'],
+        ],
+      },
+      { kind: 'h2', text: "What actually moves the score" },
+      {
+        kind: 'ul',
+        items: [
+          "Never losing marks on the first 10 or so questions. Careless errors are the cheapest thing to fix.",
+          "Handling the middle questions in under 90 seconds each.",
+          "Using the [three-pass method](/blog/amc-8-pacing-40-minutes-25-questions-three-pass) so time is spent where it earns points.",
+          "Filling every bubble, since a blank can never earn a point.",
+        ],
+      },
+      { kind: 'h2', text: "Keep it in perspective" },
+      {
+        kind: 'p',
+        text: "A recognition is nice, but the real value of the AMC 8 is the experience and the data. A student who improves from one year to the next is on exactly the right path, whatever the roll they end up on.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is there negative marking on the AMC 8?",
+        answer: "No. Each correct answer earns one point and wrong answers lose nothing, so students should answer every question.",
+      },
+      {
+        question: "What score do I need for the Honor Roll?",
+        answer: "It changes every year because it is based on a percentage of participants. Check the MAA's published cutoffs for the year in question.",
+      },
+      {
+        question: "Does the AMC 8 lead to the AIME?",
+        answer: "No. The AMC 8 is a stand-alone contest. The AMC 10 and AMC 12 are the contests that can lead to AIME qualification.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-use-past-amc-8-papers-effectively",
+    title: "How to Use Past AMC 8 Papers Effectively: A Three-Round Method",
+    description:
+      "Past AMC 8 papers are the best free practice there is, but only if you use them well. A three-round method for working through papers by topic, under time and with a proper review.",
+    category: 'olympiad',
+    datePublished: '2026-11-21',
+    readingMinutes: 8,
+    relatedProgramHref: '/amc-8-10-coaching-pune',
+    relatedProgramLabel: 'AMC 8 & 10 Coaching',
+    relatedGuides: [
+      { href: '/blog/amc-8-mock-test-method-error-log-last-10-weeks', label: 'AMC 8 Mock Test Method and Error Log' },
+      { href: '/blog/best-books-resources-amc-preparation', label: 'Best Books and Resources for AMC Preparation' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Use each past AMC 8 paper in three rounds: first solve it untimed to learn the ideas, then redo the questions you missed by topic, and finally take a fresh timed paper with a full review. Keep an error log. Do not burn all the recent papers early, because you need some untouched papers to simulate the real contest.",
+      },
+      { kind: 'h2', text: "Where to find past papers" },
+      {
+        kind: 'p',
+        text: "Past AMC 8 papers with answer keys are archived by the MAA, and worked solutions for many years are collected on the Art of Problem Solving wiki. Use the official or well-known sources rather than random PDF sites, because mislabelled and incorrect solutions are surprisingly common.",
+      },
+      { kind: 'h2', text: "Round 1: learn from untimed papers" },
+      {
+        kind: 'p',
+        text: "Start with older papers and take your time. Solve in pencil, think about each problem for as long as you need and then read the official solution for every problem, even the ones you got right. You are collecting ideas, not scores.",
+      },
+      { kind: 'h2', text: "Round 2: topic review" },
+      {
+        kind: 'p',
+        text: "Sort the problems you missed by topic, such as geometry, counting, number theory and word problems. Redo each group a few days later, without looking at the solution. If you still miss it, write the idea on a card and revisit it the next week.",
+      },
+      { kind: 'h2', text: "Round 3: timed simulations" },
+      {
+        kind: 'ul',
+        items: [
+          "Take a paper you have never seen, with a 40-minute timer and no calculator.",
+          "Use the three-pass method and fill every bubble.",
+          "Score it honestly, then spend at least as long on review as you did on the paper.",
+          "Aim to simulate at the time of day when the real contest will be held.",
+        ],
+      },
+      { kind: 'h2', text: "A suggested schedule" },
+      {
+        kind: 'table',
+        headers: ['Phase', 'Papers', 'Mode'],
+        rows: [
+          ['Early (months 1-2)', 'Older papers, 4 to 6', 'Untimed, learn the ideas'],
+          ['Middle (months 3-4)', 'Mixed topic sets from many years', 'Short timed sets'],
+          ['Late (final 6 weeks)', 'The most recent 3 to 5 papers', 'Full timed simulations'],
+        ],
+      },
+      { kind: 'h2', text: "The error log" },
+      {
+        kind: 'p',
+        text: "For every missed question, record the paper, question number, why you missed it and the idea that would have solved it. Review the log weekly. Our guide to the mock test and error log method shows a simple template.",
+      },
+      { kind: 'h2', text: "Mistakes to avoid" },
+      {
+        kind: 'ul',
+        items: [
+          "Checking the answer key after every question. Finish the set first.",
+          "Doing papers back to back without review. The learning happens in the review.",
+          "Memorising answers instead of ideas.",
+          "Comparing your score with different years without noticing that papers vary in difficulty.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How many past papers should I do?",
+        answer: "Most students benefit from working through ten to fifteen papers with a proper review, rather than twenty-five without one.",
+      },
+      {
+        question: "Are older AMC 8 papers still relevant?",
+        answer: "Yes for ideas and topics, though recent papers best reflect the current style. Save the latest few for timed simulations.",
+      },
+      {
+        question: "Should my child also practise AMC 10 papers?",
+        answer: "A few of the easier AMC 10 problems can stretch a strong student, but the core of AMC 8 preparation should be AMC 8 papers.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
