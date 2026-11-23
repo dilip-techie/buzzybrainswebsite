@@ -3844,5 +3844,125 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "sat-exam",
     datePublished: "2026-11-01",
     readingMinutes: 4
+  },
+  {
+    slug: "what-is-wmi-world-mathematics-invitational-guide-for-indian-students",
+    title: "What Is WMI? The World Mathematics Invitational Explained for Indian Students",
+    description: "The World Mathematics Invitational (WMI) is an international maths competition for students from kindergarten to Grade 12. Here is what it is, who can take it, how it works and whether it is worth your child's time.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 7
+  },
+  {
+    slug: "wmi-preliminary-round-format-scoring-medals-explained",
+    title: "WMI Preliminary Round: Format, Scoring and Medals Explained",
+    description: "A clear walk-through of the WMI Preliminary Round: the two sections, how marks are awarded, how medals are decided and what that means for how a student should plan the paper.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-prepare-for-wmi-preliminary-round-study-plan",
+    title: "How to Prepare for the WMI Preliminary Round: A 10-Week Study Plan",
+    description: "A practical 10-week plan for the WMI Preliminary Round, built around logical reasoning, applied problem solving, timed practice and an error log. Suitable for students in Grades 3 to 10.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition",
+    title: "WMI vs Math Kangaroo vs IMO vs AMC: Which Competition Should Your Child Take?",
+    description: "WMI, Math Kangaroo, SOF IMO and AMC all look like maths competitions, but they serve different goals. A side-by-side comparison to help parents pick the right one for each stage.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "wmi-final-round-qualification-what-to-expect",
+    title: "WMI Final Round: How to Qualify and What to Expect",
+    description: "How students qualify for the WMI Final Round, how it differs from the Preliminary Round, what the travel and cost questions look like for Indian families, and whether it is worth attending.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 7
+  },
+  {
+    slug: "math-kangaroo-india-registration-guide-how-to-register",
+    title: "Math Kangaroo in India: How to Register, What to Check and Common Pitfalls",
+    description: "A parent-friendly guide to registering for Math Kangaroo from India: school versus individual registration, which level to choose, what to confirm and the mistakes that cost families time.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 6
+  },
+  {
+    slug: "math-kangaroo-12-week-preparation-plan",
+    title: "Math Kangaroo Preparation: A 12-Week Plan for Grades 3 to 8",
+    description: "A calm, 12-week plan for Math Kangaroo that builds puzzle skills, logic and timing without turning a fun contest into a chore. Includes weekly themes, session length and a review routine.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "how-to-solve-math-kangaroo-logic-and-visual-puzzles",
+    title: "How to Solve Math Kangaroo Logic and Visual Puzzles: Six Techniques",
+    description: "Six practical techniques for Math Kangaroo problems: reading carefully, drawing, working backwards, using the answer choices, trying small cases and checking reasonableness, with worked examples.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "math-kangaroo-benjamin-cadet-grades-5-8-topics-and-practice",
+    title: "Math Kangaroo for Grades 5 to 8: Benjamin and Cadet Topics and Practice",
+    description: "What the Benjamin (Grades 5-6) and Cadet (Grades 7-8) levels of Math Kangaroo test, the topics to prioritise and how to practise so that the jump from school maths feels manageable.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 7
+  },
+  {
+    slug: "math-kangaroo-mistakes-students-make-and-how-parents-can-help",
+    title: "Math Kangaroo: Eight Common Mistakes and How Parents Can Help",
+    description: "Eight mistakes that cost students marks in Math Kangaroo, from misreading to over-practising, and a short guide for parents on supporting the contest without adding pressure.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 6
+  },
+  {
+    slug: "amc-8-geometry-problems-strategies-area-angles-diagrams",
+    title: "AMC 8 Geometry: Area, Angles and Diagram Strategies With Worked Examples",
+    description: "Geometry is one of the most reliable scoring areas on the AMC 8. Here are the facts to know cold, five diagram strategies and worked examples on area, angles and right triangles.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-8-counting-probability-problems-systematic-listing",
+    title: "AMC 8 Counting and Probability: Systematic Listing, Casework and Complements",
+    description: "Counting and probability questions are where many AMC 8 students lose avoidable marks. Learn four reliable methods, with worked examples, and a practice routine that makes the topic feel easy.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 9
+  },
+  {
+    slug: "amc-8-number-theory-arithmetic-divisibility-primes-remainders",
+    title: "AMC 8 Number Theory and Arithmetic: Divisibility, Primes, Factors and Remainders",
+    description: "The number theory ideas that show up most on the AMC 8, with divisibility rules, prime factorisation, GCD and LCM tricks, remainder patterns and worked examples you can try before the paper.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
+  },
+  {
+    slug: "amc-8-honor-roll-distinguished-honor-roll-score-targets",
+    title: "AMC 8 Scoring and Awards: Honor Roll, Distinguished Honor Roll and Realistic Targets",
+    description: "How the AMC 8 is scored, what the Honor Roll and Distinguished Honor Roll recognise, how cutoffs vary by year and how to set a realistic target score for your child's grade and experience.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-use-past-amc-8-papers-effectively",
+    title: "How to Use Past AMC 8 Papers Effectively: A Three-Round Method",
+    description: "Past AMC 8 papers are the best free practice there is, but only if you use them well. A three-round method for working through papers by topic, under time and with a proper review.",
+    category: "olympiad",
+    datePublished: "2026-11-21",
+    readingMinutes: 8
   }
 ];
