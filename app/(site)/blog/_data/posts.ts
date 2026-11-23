@@ -15587,12 +15587,16 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'olympiad',
     datePublished: '2026-06-09',
     readingMinutes: 8,
-    relatedProgramHref: '/sof-olympiads',
-    relatedProgramLabel: 'Science Olympiad Program',
+    relatedProgramHref: '/nsep-coaching-pune',
+    relatedProgramLabel: 'NSEP Coaching',
     body: [
       {
         kind: 'p',
         text: 'NSEP (National Standard Examination in Physics), conducted by IAPT, is the first stage of India\'s physics olympiad pipeline — clear it, and a student proceeds to INPhO (Indian National Physics Olympiad), then an orientation-cum-selection camp, and eventually the International Physics Olympiad (IPhO) for those who make the final team.',
+      },
+      {
+        kind: 'p',
+        text: "A note on names: in recent cycles IAPT and HBCSE have also called this first stage IOQP, with the NSEP name still widely used. Names, dates and stages are updated by the organisers, so confirm the current notice on the official IAPT and HBCSE websites. BuzzyBrains Academy runs dedicated [NSEP coaching in Pune](/nsep-coaching-pune) for Class 11-12 students.",
       },
       { kind: 'h2', text: 'What NSEP Tests' },
       {
@@ -15642,12 +15646,16 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'olympiad',
     datePublished: '2026-06-10',
     readingMinutes: 8,
-    relatedProgramHref: '/sof-olympiads',
-    relatedProgramLabel: 'Science Olympiad Program',
+    relatedProgramHref: '/nsec-coaching-pune',
+    relatedProgramLabel: 'NSEC Coaching',
     body: [
       {
         kind: 'p',
         text: 'NSEC (National Standard Examination in Chemistry), conducted by IAPT, is the first stage of India\'s chemistry olympiad pipeline. Clearing it leads to INChO (Indian National Chemistry Olympiad), a selection camp, and ultimately the International Chemistry Olympiad (IChO) for students who make the final team.',
+      },
+      {
+        kind: 'p',
+        text: "A note on names: in recent cycles IAPT and HBCSE have also called this first stage IOQC, with the NSEC name still widely used. Names, dates and stages are updated by the organisers, so confirm the current notice on the official IAPT and HBCSE websites. BuzzyBrains Academy runs dedicated [NSEC coaching in Pune](/nsec-coaching-pune) for Class 11-12 students.",
       },
       { kind: 'h2', text: 'What NSEC Tests' },
       {
@@ -15697,12 +15705,16 @@ export const BLOG_POSTS: BlogPost[] = [
     category: 'olympiad',
     datePublished: '2026-06-11',
     readingMinutes: 8,
-    relatedProgramHref: '/sof-olympiads',
-    relatedProgramLabel: 'Science Olympiad Program',
+    relatedProgramHref: '/nseb-coaching-pune',
+    relatedProgramLabel: 'NSEB Coaching',
     body: [
       {
         kind: 'p',
         text: 'NSEB (National Standard Examination in Biology), conducted by IAPT, is the entry stage of India\'s biology olympiad pipeline. Clearing it leads to INBO (Indian National Biology Olympiad), a selection camp, and the International Biology Olympiad (IBO) for students who make the final team.',
+      },
+      {
+        kind: 'p',
+        text: "A note on names: in recent cycles IAPT and HBCSE have also called this first stage IOQB, with the NSEB name still widely used. Names, dates and stages are updated by the organisers, so confirm the current notice on the official IAPT and HBCSE websites. BuzzyBrains Academy runs dedicated [NSEB coaching in Pune](/nseb-coaching-pune) for Class 11-12 students.",
       },
       { kind: 'h2', text: 'What NSEB Tests' },
       {
