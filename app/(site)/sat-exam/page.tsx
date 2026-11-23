@@ -17,11 +17,23 @@ import {
   Layers,
   Repeat,
   Trophy,
+  CheckCircle2,
+  Gift,
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
 
+const DIAGNOSTIC_POINTS = [
+  'Full-length, Bluebook-style adaptive diagnostic',
+  'Maps your real starting score and section-wise gaps',
+  'Leads to a personalized score-improvement plan',
+];
+
 const FAQS = [
+  {
+    question: 'Is the SAT diagnostic test free?',
+    answer: 'Yes. The full-length SAT diagnostic test at BuzzyBrains Academy is completely free. It maps your starting score and section-wise gaps, and we use the results to set a target score and build your personalized prep plan.',
+  },
   {
     question: 'What score should my child target on the Digital SAT?',
     answer: '1450+ is a strong, competitive score for most selective US universities; 1550+ moves into elite/Ivy-ready territory. We set the specific target based on a full-length diagnostic and each student\'s target college list.',
@@ -78,7 +90,7 @@ const SCORE_BANDS = [
 ];
 
 const METHODOLOGY = [
-  { icon: Target, title: 'Diagnostic', desc: 'A full-length adaptive diagnostic maps your real starting score and section-wise gaps.' },
+  { icon: Target, title: 'Free Diagnostic', desc: 'A free, full-length adaptive diagnostic maps your real starting score and section-wise gaps.' },
   { icon: Layers, title: 'Foundation', desc: 'Rebuild the grammar, algebra and reading fundamentals the Digital SAT actually tests.' },
   { icon: Brain, title: 'Section Mastery', desc: 'Deep, timed practice by question type — from easy module-1 pacing to hard module-2 precision.' },
   { icon: Repeat, title: 'Full-Length Mocks', desc: 'Realistic Bluebook-style adaptive mock tests under true timed conditions, every week.' },
@@ -112,6 +124,25 @@ export default function SatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <span
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 8,
+              marginBottom: 14,
+              padding: '8px 16px',
+              borderRadius: 999,
+              background: 'linear-gradient(135deg,#F59E0B,#EA580C)',
+              color: '#fff',
+              fontSize: 14,
+              fontWeight: 800,
+              letterSpacing: '.02em',
+              boxShadow: '0 6px 18px rgba(234,88,12,.35)',
+            }}
+          >
+            <Gift size={16} aria-hidden="true" /> FREE SAT Diagnostic Test
+          </span>
+          <br />
           <span className="eyebrow">🎯 SAT Exam Prep · Digital SAT · Grades 10–12</span>
           <h1>Master the <span className="grad">Digital SAT.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
@@ -131,12 +162,67 @@ export default function SatExamPage() {
 
           <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
-              Book Free Demo
+              Book Your Free SAT Diagnostic
               <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost">
               <Phone size={17} /> Call Us
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <section className="bb-section" style={{ paddingTop: 0 }} aria-labelledby="free-diagnostic-title">
+        <div className="container">
+          <div
+            className="reveal"
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 24,
+              padding: 'clamp(24px,4vw,40px)',
+              borderRadius: 24,
+              background: 'linear-gradient(135deg,#1E3A8A,#2563EB 55%,#7C3AED)',
+              color: '#fff',
+              boxShadow: '0 18px 48px rgba(37,99,235,.28)',
+            }}
+          >
+            <div style={{ flex: '1 1 340px', minWidth: 0 }}>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '5px 12px',
+                  borderRadius: 999,
+                  background: '#FBBF24',
+                  color: '#1F2937',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  letterSpacing: '.08em',
+                }}
+              >
+                100% FREE
+              </span>
+              <h2 id="free-diagnostic-title" style={{ margin: '12px 0 10px', color: '#fff', fontSize: 'clamp(24px,3.4vw,34px)', lineHeight: 1.2 }}>
+                Take our free SAT diagnostic test
+              </h2>
+              <p style={{ margin: '0 0 16px', color: 'rgba(255,255,255,.9)', fontSize: 16, lineHeight: 1.55 }}>
+                Find out exactly where you stand before you commit to anything.
+              </p>
+              <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 8 }}>
+                {DIAGNOSTIC_POINTS.map((p) => (
+                  <li key={p} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, fontSize: 15, color: '#fff' }}>
+                    <CheckCircle2 size={18} color="#FBBF24" aria-hidden="true" style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <button className="btn btn-amber" onClick={() => setShowCtaModal(true)} style={{ flex: '0 0 auto' }}>
+              Book Your Free Diagnostic <ChevronRight size={19} />
+            </button>
           </div>
         </div>
       </section>
@@ -274,11 +360,11 @@ export default function SatExamPage() {
           <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
           <h2 style={{ marginBottom: 14 }}>Ready to target 1400+?</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
-            Book a free diagnostic session and get a personalized score-improvement plan.
+            Take the free SAT diagnostic test and get a personalized score-improvement plan.
           </p>
           <div className="cta-btns" style={{ justifyContent: 'center' }}>
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
-              Book Your Free Demo <ChevronRight size={19} />
+              Book Your Free Diagnostic <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
               <Phone size={17} /> 98505 70525
@@ -293,7 +379,7 @@ export default function SatExamPage() {
         onClose={() => setShowCtaModal(false)}
         onFormClick={handleCtaModalForm}
         onWhatsAppClick={handleCtaModalWhatsApp}
-        title="Ready to Enroll? 🎯"
+        title="Book Your Free SAT Diagnostic 🎯"
         subtitle="Choose how you'd like to connect with us"
       />
     </main>
