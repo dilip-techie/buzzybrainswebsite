@@ -45986,6 +45986,809 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "why-take-a-free-sat-diagnostic-test-before-you-start-prep",
+    title: "Why You Should Take a Free SAT Diagnostic Test Before You Start Prep",
+    description:
+      "Most students open a prep book on day one. The students who improve fastest start with a full-length diagnostic instead. Here is what a free SAT diagnostic tells you, and what it saves you.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/sat-prep-timeline-when-to-start-how-long-it-takes', label: 'SAT Prep Timeline: When to Start' },
+      { href: '/blog/how-to-use-official-bluebook-practice-tests-effectively', label: 'How to Use Official Bluebook Practice Tests' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Take a free, full-length SAT diagnostic test before you begin any preparation. It gives you a real starting score, shows which sections and question types are costing you points, and tells you how long your pacing really lasts. Without it, you are guessing what to study. With it, every hour of prep can be aimed at a specific gap.",
+      },
+      { kind: 'h2', text: "Most students start in the wrong place" },
+      {
+        kind: 'p',
+        text: "The usual way to start SAT prep is to buy a book, begin at chapter one and work forward. That feels organised, but it treats every topic as equally important. In reality, two students with the same 1100 can lose their points in completely different places: one in grammar and punctuation, the other in algebra and data questions. A generic plan serves neither of them well.",
+      },
+      { kind: 'h2', text: "What a diagnostic test actually tells you" },
+      {
+        kind: 'table',
+        headers: ['Question', 'What the diagnostic shows'],
+        rows: [
+          ['Where am I starting?', 'A real baseline score on the 400-1600 scale, not a guess'],
+          ['Which section is weaker?', 'Reading & Writing versus Math, and the gap between them'],
+          ['Which question types cost me points?', 'Grammar, vocabulary, algebra, data analysis, geometry and so on'],
+          ['Is time my problem?', 'Whether you rush, run out of time or spend too long on hard questions'],
+          ['How far is my target?', 'The distance between your baseline and the score you need'],
+        ],
+      },
+      { kind: 'h2', text: "What it saves you" },
+      {
+        kind: 'ul',
+        items: [
+          "Weeks of studying topics you already know.",
+          "The discouragement of not seeing progress, because you can only measure progress from a known starting point.",
+          "Money spent on the wrong books, courses or tutoring hours.",
+          "Test-day surprises, since you will already have sat a full paper under timed conditions.",
+        ],
+      },
+      { kind: 'h2', text: "Why it should be full-length" },
+      {
+        kind: 'p',
+        text: "The Digital SAT is adaptive, so the second module of each section depends on how you do in the first. A short quiz cannot show you how that works, and it cannot show how your focus holds up over a test of roughly two hours. A full-length, Bluebook-style diagnostic does both. We explain the adaptive format in our guide to [the Digital SAT's adaptive modules](/blog/understanding-digital-sat-adaptive-modules).",
+      },
+      { kind: 'h2', text: "It is a measurement, not a verdict" },
+      {
+        kind: 'p',
+        text: "A low first score does not mean you are bad at the SAT. It means you now know exactly what to work on. Many students who start below their target improve steadily once their preparation is aimed at their real gaps. Keep the first score in perspective: it is the number you are going to beat.",
+      },
+      { kind: 'h2', text: "Where to take a free diagnostic" },
+      {
+        kind: 'p',
+        text: "College Board's Bluebook app includes official full-length practice tests at no cost. BuzzyBrains Academy also offers a free, full-length adaptive SAT diagnostic that maps your starting score and section-wise gaps, and turns the results into a personalised plan. You can book it on our [SAT page](/sat-exam).",
+      },
+    ],
+    faq: [
+      {
+        question: "Is the SAT diagnostic test really free?",
+        answer: "Yes. BuzzyBrains Academy's full-length SAT diagnostic is free, and the official practice tests in College Board's Bluebook app are free as well.",
+      },
+      {
+        question: "Should I study before taking the diagnostic?",
+        answer: "No. Take it cold, so the score reflects where you honestly are. Studying first only hides the gaps you need to find.",
+      },
+      {
+        question: "How long does a full-length diagnostic take?",
+        answer: "The Digital SAT has 98 questions and about 2 hours 14 minutes of test time, plus a short break between the two sections. Set aside around three hours in total.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-take-a-sat-diagnostic-test-at-home-step-by-step",
+    title: "How to Take a SAT Diagnostic Test at Home: A Step-by-Step Guide",
+    description:
+      "A diagnostic is only useful if it is taken honestly. This step-by-step guide covers setup, timing, breaks and the rules that make your baseline score trustworthy.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/why-take-a-free-sat-diagnostic-test-before-you-start-prep', label: 'Why Take a Free SAT Diagnostic First' },
+      { href: '/blog/digital-sat-math-built-in-calculator-changes-everything', label: 'Digital SAT Math and the Built-In Calculator' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To take a SAT diagnostic at home, block out about three hours, use the real Bluebook format on a laptop or tablet, follow the official timing, take only the scheduled break and do not pause, look up answers or use outside help. Review nothing until you have finished both sections. The point is a score you can trust.",
+      },
+      { kind: 'h2', text: "Step 1: choose the right test" },
+      {
+        kind: 'p',
+        text: "Use a full-length, adaptive, Bluebook-style test, either an official practice test in the Bluebook app or a diagnostic from a provider that mirrors the real format. Avoid paper-era SAT papers for your baseline, because the format and pacing are different.",
+      },
+      { kind: 'h2', text: "Step 2: set up the room" },
+      {
+        kind: 'ul',
+        items: [
+          "A quiet room, a proper desk and a fully charged device with Bluebook installed and updated.",
+          "Phone out of reach and notifications off.",
+          "Scratch paper and pencils, as you would have in the exam room.",
+          "Water and a light snack for the break.",
+        ],
+      },
+      { kind: 'h2', text: "Step 3: pick the right day and time" },
+      {
+        kind: 'p',
+        text: "Choose a day when you are rested, ideally a weekend morning, since the real test is usually taken in the morning. Do not take it after a late night or right after school exams. A tired baseline understates your ability and makes the target look further away than it is.",
+      },
+      { kind: 'h2', text: "Step 4: respect the format and timing" },
+      {
+        kind: 'table',
+        headers: ['Part', 'Questions', 'Time', 'Notes'],
+        rows: [
+          ['Reading & Writing', '54 (two modules of 27)', '64 minutes', 'Module 2 adapts to your module 1 result'],
+          ['Break', '-', '10 minutes', 'Stand up, eat, do not look at answers'],
+          ['Math', '44 (two modules of 22)', '70 minutes', 'A built-in calculator is available'],
+        ],
+      },
+      { kind: 'h2', text: "Step 5: act as you will on test day" },
+      {
+        kind: 'ul',
+        items: [
+          "Do not pause the timer or stop for a message from a friend.",
+          "Flag questions and return to them if time allows, as you would in the real exam.",
+          "Guess on questions you cannot solve. There is no penalty for a wrong answer on the SAT.",
+          "Do not look up anything. If you are stuck, move on.",
+        ],
+      },
+      { kind: 'h2', text: "Step 6: write down how it felt" },
+      {
+        kind: 'p',
+        text: "Straight after the test, note where you felt rushed, where you were guessing and when your focus dipped. These notes are as valuable as the score, because they point to pacing and stamina problems that numbers alone can hide.",
+      },
+      { kind: 'h2', text: "Step 7: wait before reviewing" },
+      {
+        kind: 'p',
+        text: "Look at your score report, but take the detailed review the next day with a clear head. We cover how to read the results in our guide to [interpreting your SAT diagnostic report](/blog/how-to-read-your-sat-diagnostic-score-report).",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I take the diagnostic in two sittings?",
+        answer: "It is better to take it in one go, as on test day. If you must split it, do so at the official break between Reading & Writing and Math, and say so when you read your results.",
+      },
+      {
+        question: "Can I use my own calculator?",
+        answer: "The Digital SAT includes a built-in graphing calculator in Bluebook, and approved handheld calculators are also allowed. Practise with the one you will use on test day.",
+      },
+      {
+        question: "What if I run out of time?",
+        answer: "That is useful information. Note which section it happened in, and treat pacing as one of your first things to fix.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-read-your-sat-diagnostic-score-report",
+    title: "How to Read Your SAT Diagnostic Score Report: Sections, Domains and Gaps",
+    description:
+      "Your diagnostic score is more than one number. Learn to read section scores, content domains and question patterns so your first report becomes a clear to-do list.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 8,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/sat-math-topics-indian-students-underestimate', label: 'SAT Math Topics Indian Students Underestimate' },
+      { href: '/blog/sat-grammar-rules-standard-english-conventions-guide', label: 'SAT Grammar Rules Guide' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Read your SAT diagnostic report in three layers: the total score out of 1600, the two section scores (Reading & Writing and Math, each 200-800) and the content domains inside each section. The domains show where you lost points, and the gap between sections shows where to start.",
+      },
+      { kind: 'h2', text: "Layer 1: the total score" },
+      {
+        kind: 'p',
+        text: "The total is the sum of your two section scores, from 400 to 1600. Use it as your baseline and compare it with your target. On its own, it only tells you how far you have to go, not how to get there.",
+      },
+      { kind: 'h2', text: "Layer 2: the two section scores" },
+      {
+        kind: 'p',
+        text: "Compare the two. A gap of 100 points or more between Reading & Writing and Math suggests where the quickest gains are. Many students find their weaker section has more room for improvement per hour of study, but this varies, so let your own data decide.",
+      },
+      { kind: 'h2', text: "Layer 3: the content domains" },
+      {
+        kind: 'table',
+        headers: ['Section', 'Content domains'],
+        rows: [
+          ['Reading & Writing', 'Information and Ideas; Craft and Structure; Expression of Ideas; Standard English Conventions'],
+          ['Math', 'Algebra; Advanced Math; Problem-Solving and Data Analysis; Geometry and Trigonometry'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "For each domain, note how many questions you got right out of the total. A domain with a low percentage is a priority. A domain where you got most questions right can wait.",
+      },
+      { kind: 'h2', text: "Layer 4: the pattern behind the misses" },
+      {
+        kind: 'p',
+        text: "Go through every question you missed or guessed. Ask why you lost it: did you not know the idea, make a careless slip, run out of time or misread the question? The answer decides the fix. We show how to sort mistakes in our guide to [the SAT error log](/blog/sat-error-log-sort-diagnostic-mistakes-by-cause).",
+      },
+      { kind: 'h2', text: "Turn the report into a to-do list" },
+      {
+        kind: 'ul',
+        items: [
+          "Circle the two domains with the lowest accuracy in each section.",
+          "Write the exact question types inside them, for example punctuation, linear equations or percentages.",
+          "Rank them by how many questions they probably carry on the test.",
+          "Start your study plan with the top three items on that list.",
+        ],
+      },
+      { kind: 'h2', text: "Common mistakes when reading a report" },
+      {
+        kind: 'ul',
+        items: [
+          "Focusing only on the total score and ignoring the domains.",
+          "Treating one very hard question as a weakness. Look for patterns, not single misses.",
+          "Comparing yourself with a friend's score instead of your own target.",
+          "Starting to study before understanding why points were lost.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does a diagnostic score predict my real SAT score?",
+        answer: "It is a good estimate of where you stand today, but your real score will depend on how much you prepare, how you perform on the day and which questions you get.",
+      },
+      {
+        question: "What if my Math and Reading & Writing scores are almost equal?",
+        answer: "Then use the domain breakdown to decide. Choose the two or three lowest-accuracy domains across both sections and begin there.",
+      },
+      {
+        question: "Do I need a tutor to interpret my report?",
+        answer: "Not necessarily, but a mentor can help spot patterns faster. BuzzyBrains Academy reviews each student's diagnostic and builds a personalised plan.",
+      },
+    ],
+  },
+  {
+    slug: "set-your-target-sat-score-from-your-diagnostic-gap-analysis",
+    title: "Set Your Target SAT Score From Your Diagnostic: A Simple Gap Analysis",
+    description:
+      "Your target score should come from two numbers: where you want to apply and where your diagnostic says you are today. Here is a simple gap analysis to set a realistic target and timeline.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/what-sat-score-do-you-need-for-top-us-universities', label: 'What SAT Score Do You Need for Top US Universities?' },
+      { href: '/blog/sat-superscore-strategy-how-colleges-combine-scores', label: 'SAT Superscore Strategy' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "To set a target SAT score, find the typical score range of your target colleges, subtract your diagnostic score to get the gap, then decide how much time you can realistically spend. A gap of 100-150 points is usually a few months of focused work; larger gaps need more time. Always confirm each college's current requirements on its own admissions page.",
+      },
+      { kind: 'h2', text: "Step 1: build your college list" },
+      {
+        kind: 'p',
+        text: "Make a short list of 8-12 colleges across reach, target and likely categories. For each, check the middle 50% SAT range published by the college itself, and note whether the college is test-optional, test-flexible or test-required. Policies change, so check them each year.",
+      },
+      { kind: 'h2', text: "Step 2: choose a target band, not a single number" },
+      {
+        kind: 'p',
+        text: "A single number creates pressure. A band, for example 1450-1500, is more honest, because scores vary from test to test. Aim for the top half of the range of your target colleges if you want the SAT to help your application.",
+      },
+      { kind: 'h2', text: "Step 3: calculate the gap" },
+      {
+        kind: 'table',
+        headers: ['Example', 'Diagnostic', 'Target', 'Gap', 'Rough planning window'],
+        rows: [
+          ['A', '1150', '1300', '150', '3-4 months of steady work'],
+          ['B', '1250', '1450', '200', '4-6 months'],
+          ['C', '1350', '1500', '150', '3-5 months, with focus on hard modules'],
+          ['D', '1000', '1300', '300', '6-9 months, with foundations first'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These windows are planning estimates, not promises. Improvement depends on how many hours you can put in, your starting gaps and the quality of your practice. Use them to plan, then adjust after your first progress check.",
+      },
+      { kind: 'h2', text: "Step 4: split the gap between sections" },
+      {
+        kind: 'p',
+        text: "Look at your section scores. If Math is 150 points below Reading & Writing, for example, it makes sense to plan more of the gain there. Divide your total gap into a Reading & Writing goal and a Math goal so every study week has a target.",
+      },
+      { kind: 'h2', text: "Step 5: work backwards from the test date" },
+      {
+        kind: 'ul',
+        items: [
+          "Pick your first real test date and count the weeks until then.",
+          "Leave at least two weeks of buffer before your application deadlines for a retake.",
+          "Plan one full-length test every three to four weeks as a progress check.",
+          "Shift the date if the gap is large and the time is short.",
+        ],
+      },
+      { kind: 'h2', text: "When to revise your target" },
+      {
+        kind: 'p',
+        text: "Revisit your target after each full-length test. If you are improving faster than expected, raise it. If you are stuck, change your method before you lower your ambition. Our guide to the [SAT prep timeline](/blog/sat-prep-timeline-when-to-start-how-long-it-takes) can help you place your date.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is 1500 a realistic target for everyone?",
+        answer: "It depends on your starting point, your time and your needs. A well-chosen target for your college list is better than the highest possible number.",
+      },
+      {
+        question: "Should I aim above my colleges' middle 50% range?",
+        answer: "If you want your score to strengthen the application, aiming for the upper half of a college's published range is a sensible goal, but your overall profile matters more than any one number.",
+      },
+      {
+        question: "What if I do not know my colleges yet?",
+        answer: "Start with a broad target band, such as 1300-1450, and refine it as your list becomes clearer. The diagnostic score is useful either way.",
+      },
+    ],
+  },
+  {
+    slug: "12-week-sat-study-plan-built-from-your-diagnostic-results",
+    title: "A 12-Week SAT Study Plan Built From Your Diagnostic Results",
+    description:
+      "A week-by-week 12-week SAT study plan that starts with a diagnostic, targets your weakest domains first, adds full-length tests at checkpoints and ends with a final-sprint review.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 9,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/how-to-crack-the-digital-sat-complete-strategy', label: 'How to Crack the Digital SAT' },
+      { href: '/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both', label: 'Balancing SAT Prep With School' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A good 12-week SAT plan begins with a diagnostic in week 1, spends weeks 2-5 closing the biggest content gaps, weeks 6-9 on timed mixed practice with a mid-point test, and weeks 10-12 on full-length tests and error-log review. Plan 6-8 hours a week, and let your diagnostic decide which topics come first.",
+      },
+      { kind: 'h2', text: "Before week 1" },
+      {
+        kind: 'p',
+        text: "Take a free, full-length diagnostic and read the report by domain. Write down your two weakest domains in each section. Those are the topics that fill the early weeks. Everything below assumes you have done this.",
+      },
+      { kind: 'h2', text: "The plan at a glance" },
+      {
+        kind: 'table',
+        headers: ['Weeks', 'Focus', 'Weekly hours', 'Checkpoint'],
+        rows: [
+          ['1', 'Diagnostic, report review and plan', '4-6', 'Baseline score and error log started'],
+          ['2-5', 'Close the biggest content gaps', '6-8', 'Topic quizzes, short timed sets'],
+          ['6-7', 'Mixed practice under time', '6-8', 'Mid-point full-length test at end of week 7'],
+          ['8-9', 'Fix the next layer of gaps from the mid-point test', '6-8', 'Targeted drills'],
+          ['10-11', 'Full-length tests and review', '7-9', 'Second full-length test in week 11'],
+          ['12', 'Light review, rest and logistics', '3-5', 'Test-day readiness'],
+        ],
+      },
+      { kind: 'h2', text: "Weeks 2-5: close the biggest gaps first" },
+      {
+        kind: 'ul',
+        items: [
+          "Reading & Writing: spend two sessions a week on your lowest domain, for example punctuation and sentence structure, or vocabulary in context.",
+          "Math: spend two sessions a week on your lowest domain, such as algebra or data analysis.",
+          "Do 15-20 practice questions per session, then review every miss before moving on.",
+          "Keep one 30-minute session a week for mixed review so earlier topics do not fade.",
+        ],
+      },
+      { kind: 'h2', text: "Weeks 6-9: timed, mixed and adaptive" },
+      {
+        kind: 'p',
+        text: "Switch from topic blocks to mixed sets. Practise in modules of 27 questions for Reading & Writing and 22 for Math, with time limits that match the real test. This is also where you learn to handle the harder second module, which we cover in the guide to [adaptive modules](/blog/understanding-digital-sat-adaptive-modules).",
+      },
+      { kind: 'h2', text: "Weeks 10-12: tests and review" },
+      {
+        kind: 'ul',
+        items: [
+          "Take full-length tests in realistic conditions, with the same start time as your real exam.",
+          "Spend as long reviewing a test as taking it.",
+          "Cut back on new content in the last two weeks.",
+          "In week 12, check your registration, ID, device charging and travel to the test centre.",
+        ],
+      },
+      { kind: 'h2', text: "Adjust the plan, not the goal" },
+      {
+        kind: 'p',
+        text: "If a checkpoint test shows little improvement, do not simply add hours. Look at your error log, find the cause and change the method. Often the issue is review quality rather than practice volume.",
+      },
+    ],
+    faq: [
+      {
+        question: "What if I have less than 12 weeks?",
+        answer: "Compress the content-gap phase and keep the checkpoint tests. Even with six weeks, a diagnostic-led plan beats an unplanned one.",
+      },
+      {
+        question: "How many full-length tests should I take?",
+        answer: "A diagnostic at the start, one at the mid-point and one or two in the final weeks is a sensible minimum. More is useful only if you review each one properly.",
+      },
+      {
+        question: "Can I follow this plan while studying for school exams?",
+        answer: "Yes, but scale the weekly hours down during exam periods rather than stopping altogether. Short, regular sessions keep the momentum.",
+      },
+    ],
+  },
+  {
+    slug: "sat-error-log-sort-diagnostic-mistakes-by-cause",
+    title: "The SAT Error Log: How to Sort Your Diagnostic Mistakes by Cause",
+    description:
+      "Every wrong answer on your diagnostic has a cause, and the cause decides the fix. Learn a simple four-type error log that turns a messy score report into a clear plan.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/common-digital-sat-mistakes-that-cost-points', label: 'Common Digital SAT Mistakes That Cost Points' },
+      { href: '/blog/how-to-read-your-sat-diagnostic-score-report', label: 'How to Read Your SAT Diagnostic Report' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "An SAT error log records every question you missed or guessed, with the cause: a knowledge gap, a careless slip, a pacing problem or a strategy error. Each cause has a different fix, so sorting your diagnostic mistakes this way tells you whether to study more content, slow down, speed up or change your approach.",
+      },
+      { kind: 'h2', text: "Why 'review the mistakes' is not enough" },
+      {
+        kind: 'p',
+        text: "Most students look at the right answer, nod and move on. That does not change what happens next time, because it does not address why the mistake happened. A knowledge gap needs study. A careless slip needs a checking habit. Treating them the same wastes time.",
+      },
+      { kind: 'h2', text: "The four causes" },
+      {
+        kind: 'table',
+        headers: ['Cause', 'How to spot it', 'The fix'],
+        rows: [
+          ['Knowledge gap', 'You did not know the rule or the method', 'Study the topic, then do 10-15 similar questions'],
+          ['Careless slip', 'You knew it but misread, miscalculated or chose the wrong option', 'Underline the ask, show working and check the final step'],
+          ['Pacing', 'You rushed, guessed or ran out of time', 'Practise timed modules and set time limits per question'],
+          ['Strategy', 'You solved it the long way or ignored a faster method', 'Learn shortcuts, such as using the calculator or testing answer choices'],
+        ],
+      },
+      { kind: 'h2', text: "How to build the log" },
+      {
+        kind: 'ul',
+        items: [
+          "Create a spreadsheet or notebook with columns for question number, section, domain, cause and the fix.",
+          "Include every question you missed, and every question you guessed, even if you got it right.",
+          "Write one sentence on why you lost the point. Be honest.",
+          "Add a column for the date you re-attempted the question.",
+        ],
+      },
+      { kind: 'h2', text: "Read the totals" },
+      {
+        kind: 'p',
+        text: "After logging the test, count how many errors fall into each cause. If most are careless, content study will not help much, and a checking routine will. If most are knowledge gaps in two domains, those domains are your first study blocks. This is how a long list becomes a priority.",
+      },
+      { kind: 'h2', text: "Re-test the weak spots" },
+      {
+        kind: 'p',
+        text: "A few days after reviewing, redo the questions you missed without looking at the solution. If you get them right, move on. If not, return to the topic. Over time the log should shrink, and the share of careless errors usually falls as your habits improve.",
+      },
+      { kind: 'h2', text: "Keep it going" },
+      {
+        kind: 'p',
+        text: "Keep adding to the log after every practice set and every full-length test. Compare logs between tests to see which causes are falling. It is the clearest evidence of progress you will have. The same method helps with [Bluebook practice tests](/blog/how-to-use-official-bluebook-practice-tests-effectively).",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I log questions I guessed correctly?",
+        answer: "Yes. A lucky guess hides a gap, and the same question may go the other way next time.",
+      },
+      {
+        question: "How long should I spend on the log after a full test?",
+        answer: "Expect two to three hours for a full-length test. It feels long, but it is where most of the improvement comes from.",
+      },
+      {
+        question: "Is a spreadsheet better than a notebook?",
+        answer: "Either works. A spreadsheet is easier to sort and count by cause or domain, while a notebook is quicker for short notes. Use the one you will actually keep up.",
+      },
+    ],
+  },
+  {
+    slug: "scored-low-on-your-sat-diagnostic-what-to-do-first",
+    title: "Scored Low on Your SAT Diagnostic? Here Is What to Do First",
+    description:
+      "A disappointing first score is common, and it is useful. Here is a calm, practical plan for the first three weeks after a low SAT diagnostic: foundations first, then pace and practice.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/sat-prep-for-grade-9-10-students-early-roadmap', label: 'SAT Prep for Grades 9 and 10' },
+      { href: '/blog/sat-error-log-sort-diagnostic-mistakes-by-cause', label: 'The SAT Error Log' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "If your SAT diagnostic score is lower than you hoped, do not panic and do not buy more books. Spend the first week sorting your mistakes by cause, the next two weeks rebuilding the fundamentals your report shows are weak, and then start timed practice. A low baseline mainly means there is more room to improve.",
+      },
+      { kind: 'h2', text: "First, take a breath" },
+      {
+        kind: 'p',
+        text: "A diagnostic is taken before preparation, so a low score is common and expected. It says nothing about your ability or your future results. It is a starting line. The students who improve most are often those who accept the number quickly and start working on the reasons behind it.",
+      },
+      { kind: 'h2', text: "Week 1: understand the score" },
+      {
+        kind: 'ul',
+        items: [
+          "Read your report by section and domain, and note the lowest two domains in each section.",
+          "Build an error log and sort each miss by cause: knowledge, careless, pacing or strategy.",
+          "Check how many questions you left blank or rushed at the end. Pacing is sometimes the biggest single leak.",
+          "Write down what felt hard: vocabulary, long passages, algebra setup, word problems.",
+        ],
+      },
+      { kind: 'h2', text: "Weeks 2-3: rebuild the foundations" },
+      {
+        kind: 'p',
+        text: "A low baseline often points to gaps in fundamentals rather than advanced tricks. In Reading & Writing that usually means sentence structure, punctuation rules and reading for the main point. In Math it often means linear equations, percentages, ratios and reading word problems carefully. Work through these topics step by step before moving to harder questions.",
+      },
+      {
+        kind: 'table',
+        headers: ['Common weak spot', 'First fix'],
+        rows: [
+          ['Grammar and punctuation', 'Learn the core rules once, then practise them in short sets'],
+          ['Vocabulary in context', 'Read widely, and practise choosing the word that fits the sentence'],
+          ['Algebra setup', 'Translate word problems into equations slowly, line by line'],
+          ['Data and graphs', 'Practise reading tables and charts before doing the question'],
+        ],
+      },
+      { kind: 'h2', text: "Week 4 onwards: add timed practice" },
+      {
+        kind: 'p',
+        text: "Once the basics are steadier, move to short timed sets and then full modules. Do not rush this step, because timing without understanding only makes mistakes faster. Retake a full-length test after about four weeks to see the change.",
+      },
+      { kind: 'h2', text: "Consider help early" },
+      {
+        kind: 'p',
+        text: "If the same topics keep tripping you up after a few weeks, a mentor can find the cause quickly. Small batches work well here because teaching is matched to your specific gaps, not a generic syllabus. Start by booking a free diagnostic review.",
+      },
+      { kind: 'h2', text: "A realistic mindset" },
+      {
+        kind: 'p',
+        text: "Set a target band and a date, track your progress at checkpoints and celebrate small gains. A steady 30-50 point rise between tests is a sign that the plan is working.",
+      },
+    ],
+    faq: [
+      {
+        question: "What counts as a low diagnostic score?",
+        answer: "It depends on your goals. Any score well below your target is low for you, and the gap, not the number, is what the plan is built around.",
+      },
+      {
+        question: "Should I postpone the SAT if my diagnostic is low?",
+        answer: "Not automatically. Compare the gap with the weeks you have. If the gap is large and time is short, moving to a later test date can help, but check your application deadlines first.",
+      },
+      {
+        question: "Is it too late if I start in Grade 12?",
+        answer: "It is harder, but not impossible. A focused plan built from your diagnostic helps you use limited time well.",
+      },
+    ],
+  },
+  {
+    slug: "sat-diagnostic-score-1300-plus-how-to-plan-the-climb",
+    title: "Good Baseline, Higher Goal: Using Your SAT Diagnostic When You Already Score 1300+",
+    description:
+      "If your diagnostic is already strong, the last 150-200 points come from precision, not volume. Learn how to find your remaining leaks, handle the harder modules and plan a focused climb.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 8,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/sat-1400-to-1550-study-roadmap', label: 'From 1400 to 1550: A Study Roadmap' },
+      { href: '/blog/understanding-digital-sat-adaptive-modules', label: "Understanding the Digital SAT's Adaptive Modules" },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "When your SAT diagnostic is already 1300 or higher, your gains come from precision: remove careless errors, master the hardest question types in each domain and make sure you reliably reach the harder second modules. Use the diagnostic to find a handful of specific leaks, not to restart the whole syllabus.",
+      },
+      { kind: 'h2', text: "Why high scorers plateau" },
+      {
+        kind: 'p',
+        text: "Students at this level usually know most of the content. What costs them points is a small number of repeated errors: a misread condition, a sign slip, one grammar rule they never pinned down, or a few of the hardest question types. Doing more of everything feels productive but barely moves the score.",
+      },
+      { kind: 'h2', text: "Use the diagnostic to count your leaks" },
+      {
+        kind: 'ul',
+        items: [
+          "List every miss and guess. At this level there may only be 15-25 of them, so the log is short and the patterns are clear.",
+          "Mark how many were careless errors. If it is more than a third, a checking routine may deliver more than any new content.",
+          "Mark which belong to the hardest questions in each domain. Those are your content priorities.",
+          "Note whether any misses came in module 1, since module 1 errors can affect which module 2 you receive.",
+        ],
+      },
+      { kind: 'h2', text: "Protect module 1" },
+      {
+        kind: 'p',
+        text: "Because the Digital SAT is adaptive, a few avoidable errors in module 1 can limit the difficulty of module 2, and with it the highest score you can reach. Treat module 1 as the place for near-perfect accuracy, and slow down just enough to avoid slips. We explain how this works in our guide to [adaptive modules](/blog/understanding-digital-sat-adaptive-modules).",
+      },
+      { kind: 'h2', text: "Train on the hard end" },
+      {
+        kind: 'table',
+        headers: ['Section', 'Typical high-level leaks', 'How to train'],
+        rows: [
+          ['Reading & Writing', 'Subtle rhetorical synthesis, paired-text comparison, transitions', 'Practise the hardest module 2 questions and justify each answer in a sentence'],
+          ['Math', 'Multi-step algebra, nonlinear systems, circle and trigonometry problems', 'Work from hard question sets and use the built-in calculator wisely'],
+        ],
+      },
+      { kind: 'h2', text: "Plan a short, focused climb" },
+      {
+        kind: 'p',
+        text: "A strong baseline usually needs fewer weeks, but each one has to be well aimed. Plan four to eight weeks of targeted drills, a full-length test at the midpoint and one more close to test day. Check your college targets in our guide on [what scores top universities expect](/blog/what-sat-score-do-you-need-for-top-us-universities).",
+      },
+      { kind: 'h2', text: "Know when to stop" },
+      {
+        kind: 'p',
+        text: "Past a certain point, more SAT hours bring smaller gains than other parts of your application. If your score is already at or above your colleges' middle range, spend the time on other strengths.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many hours a week does a 1300+ student need?",
+        answer: "Often 4-6 hours a week of targeted practice, but it varies. The quality of review matters more than the amount.",
+      },
+      {
+        question: "Should a high scorer still take a free diagnostic?",
+        answer: "Yes. A diagnostic shows which few leaks are costing you points, so you do not waste time re-studying what you already know.",
+      },
+      {
+        question: "Is a perfect score necessary?",
+        answer: "No. For most colleges, a score within or slightly above their published middle range is what matters. Check each college's own data.",
+      },
+    ],
+  },
+  {
+    slug: "when-to-retake-a-full-length-sat-test-and-how-to-track-progress",
+    title: "How to Track SAT Progress: When to Retake a Full-Length Test and What to Measure",
+    description:
+      "After your diagnostic, progress checks keep your prep honest. Learn how often to take full-length tests, what to track besides the total score and how to react to each result.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/sat-retake-strategy-when-and-how-many-times', label: 'SAT Retake Strategy' },
+      { href: '/blog/how-to-use-official-bluebook-practice-tests-effectively', label: 'How to Use Official Bluebook Practice Tests' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Retake a full-length SAT practice test about every three to four weeks, using your free diagnostic as the baseline. Track more than the total score: record section scores, accuracy by domain, number of careless errors, time left and how you felt. Together these show whether your study plan is working, long before test day.",
+      },
+      { kind: 'h2', text: "Why checkpoints matter" },
+      {
+        kind: 'p',
+        text: "Daily practice sets can feel like progress while your real test performance stays flat. A full-length checkpoint is the only reliable way to see whether your gains transfer to a real, timed, adaptive test. It also builds stamina, which short sets cannot.",
+      },
+      { kind: 'h2', text: "How often to test" },
+      {
+        kind: 'table',
+        headers: ['Prep length', 'Suggested full-length tests'],
+        rows: [
+          ['6-8 weeks', 'Diagnostic, one at the midpoint, one near the end'],
+          ['12 weeks', 'Diagnostic, then roughly every 3-4 weeks'],
+          ['6 months', 'Diagnostic, then monthly, with extra tests in the last month'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Do not test every week. A full test takes three hours and a proper review takes nearly as long, so too many tests leave no time for fixing what they reveal.",
+      },
+      { kind: 'h2', text: "What to track" },
+      {
+        kind: 'ul',
+        items: [
+          "Total score and both section scores.",
+          "Accuracy in each content domain, compared with your baseline.",
+          "Number of careless errors out of your total misses.",
+          "Time left at the end of each module.",
+          "Energy and focus in the last quarter of the test.",
+        ],
+      },
+      { kind: 'h2', text: "How to react to the result" },
+      {
+        kind: 'ul',
+        items: [
+          "Score up: keep the plan and shift attention to the next weakest domain.",
+          "Score flat: check the error log. Is it a content gap, careless errors or pacing? Change the method, not just the hours.",
+          "Score down: look at conditions first. Fatigue, a bad night or a rushed setup can explain a lot. Then check for new patterns in your mistakes.",
+        ],
+      },
+      { kind: 'h2', text: "Expect noise" },
+      {
+        kind: 'p',
+        text: "Practice scores vary by 20-40 points from test to test even for the same student, depending on which questions appear and how you feel. Look at the trend across several tests rather than a single result.",
+      },
+      { kind: 'h2', text: "Connect it to the real test" },
+      {
+        kind: 'p',
+        text: "When your last two checkpoint scores are consistently near your target band, you are ready to book a real test date. If you want more detail on retaking the real exam, see our [SAT retake strategy](/blog/sat-retake-strategy-when-and-how-many-times).",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I use the same test provider each time?",
+        answer: "Official Bluebook tests are the best reference for scoring. Using one consistent source for your baseline and checkpoints makes comparisons fairer.",
+      },
+      {
+        question: "Can I retake the same practice test?",
+        answer: "Avoid it. You will remember the questions, and the score will not mean much. Use a fresh test each time.",
+      },
+      {
+        question: "What if I do not have time for a full-length test?",
+        answer: "Take a single section under real timing, but keep at least one full-length test as a checkpoint at the midpoint of your preparation.",
+      },
+    ],
+  },
+  {
+    slug: "parents-guide-to-the-sat-diagnostic-test-and-first-score",
+    title: "A Parent's Guide to the SAT Diagnostic Test and Your Child's First Score",
+    description:
+      "A free SAT diagnostic is the best first step for a family. This guide explains what it is, how to prepare your child, how to read the first score and how to support the plan without adding pressure.",
+    category: 'sat-exam',
+    datePublished: '2026-11-23',
+    readingMinutes: 7,
+    relatedProgramHref: '/sat-exam',
+    relatedProgramLabel: 'Free SAT Diagnostic Test',
+    relatedGuides: [
+      { href: '/blog/do-indian-students-actually-need-the-sat', label: 'Do Indian Students Actually Need the SAT?' },
+      { href: '/blog/sat-prep-timeline-when-to-start-how-long-it-takes', label: 'SAT Prep Timeline' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "A SAT diagnostic is a full-length practice test taken before preparation begins. Its job is to show your child's starting score and gaps, not to judge them. As a parent, help by choosing a calm time, keeping the stakes low, reading the report with your child and letting the results guide a realistic plan.",
+      },
+      { kind: 'h2', text: "What the diagnostic is, and what it is not" },
+      {
+        kind: 'p',
+        text: "It is a practice test in the same format as the Digital SAT, taken before any preparation, to see where your child stands today. It is not an admissions score, it is not sent to colleges and it is not a prediction of their future. At BuzzyBrains Academy, the full-length adaptive diagnostic is free.",
+      },
+      { kind: 'h2', text: "Before the test" },
+      {
+        kind: 'ul',
+        items: [
+          "Tell your child it is a starting line, not an exam. Studying beforehand is not necessary.",
+          "Pick a morning when they are rested, and keep the rest of the day free.",
+          "Make sure the device is charged and the room is quiet.",
+          "Set aside around three hours, including the break.",
+        ],
+      },
+      { kind: 'h2', text: "After the test: reading the first score" },
+      {
+        kind: 'p',
+        text: "Look at the report together, and start with what went well. Then look at the two section scores and the domains with the lowest accuracy. Avoid comparing with other children. The comparison that matters is between the first score and the target for your child's college list.",
+      },
+      { kind: 'h2', text: "Questions worth asking" },
+      {
+        kind: 'table',
+        headers: ['Question', 'Why it helps'],
+        rows: [
+          ['Which questions felt hardest?', 'Shows where your child feels the gaps, which matches the report'],
+          ['Did you run out of time?', 'Points to pacing, which is often fixable quickly'],
+          ['What is our target score and date?', 'Turns the report into a plan'],
+          ['How many hours can we realistically set aside each week?', 'Keeps the plan honest alongside school'],
+        ],
+      },
+      { kind: 'h2', text: "How to support the plan" },
+      {
+        kind: 'ul',
+        items: [
+          "Protect regular study slots, but let your child own the schedule.",
+          "Praise effort and improvement between tests rather than the score itself.",
+          "Keep an eye on sleep and school workload, especially near exams.",
+          "Check college policies together, since test requirements change from year to year.",
+        ],
+      },
+      { kind: 'h2', text: "When to get outside help" },
+      {
+        kind: 'p',
+        text: "If progress stalls after a few weeks, a mentor can often find the cause quickly. Small batches, such as the 12-student cap at BuzzyBrains Academy, mean the plan is based on your child's own report. You can book the free diagnostic on our [SAT page](/sat-exam).",
+      },
+    ],
+    faq: [
+      {
+        question: "Will the diagnostic score be shared with colleges?",
+        answer: "No. A practice or diagnostic score is private. Only scores from the official SAT are sent to colleges, and only when your child chooses to send them.",
+      },
+      {
+        question: "My child is anxious about the test. What should I do?",
+        answer: "Explain that the diagnostic is meant to find gaps and cannot count against them. Keep the setting calm and talk about the plan rather than the number afterwards.",
+      },
+      {
+        question: "What grade should my child take a diagnostic?",
+        answer: "Many students take one in Grade 10 or early Grade 11, about six to nine months before their target test date, but younger students can take one to see the starting point.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
