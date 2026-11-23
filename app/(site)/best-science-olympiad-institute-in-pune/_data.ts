@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: OLYMPIAD_SHORT,
   h1: 'Best Science Olympiad Coaching Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "Science Olympiad coaching in Amanora, Hadapsar, spanning SOF's NSO, NSEJS, and Homi Bhabha, taught by PhD and IISER-alumni faculty across Chemistry, Biology and Physics — not one generalist covering every science subject. Batches capped at 12.",

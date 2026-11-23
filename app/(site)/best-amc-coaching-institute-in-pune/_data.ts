@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: OLYMPIAD_SHORT,
   h1: 'Best AMC 8 & AMC 10 Coaching Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "Dedicated AMC 8, AMC 10 and AMC 12 coaching in Amanora, Hadapsar, from a mentor who has trained students for this exact American Mathematics Competition ladder since 2010 — including the AIME and USAMO pathway beyond it. Batches capped at 12.",

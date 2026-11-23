@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: OLYMPIAD_SHORT,
   h1: 'Best NMTC Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "NMTC coaching in Amanora, Hadapsar, covering all five AMTI levels — Primary, Sub-Junior, Junior, Inter and Senior — with the written, proof-based Stage 2 format trained as its own dedicated skill, not an afterthought. Batches capped at 12.",

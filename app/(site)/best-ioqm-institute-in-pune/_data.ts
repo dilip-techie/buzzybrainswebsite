@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: OLYMPIAD_SHORT,
   h1: 'Best IOQM Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "Dedicated IOQM coaching in Amanora, Hadapsar, led by a mentor who has coached the exact IOQM → RMO → INMO pipeline since 2010 — not a JEE faculty member teaching olympiad maths as an add-on. Batches capped at 12.",

@@ -3,6 +3,7 @@ import { Hash, GraduationCap, Users, Timer, Ban, Trophy, ClipboardCheck, BookOpe
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import IoqmHeroVisual from '@/components/olympiad/IoqmHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -51,6 +52,7 @@ export default function IoqmCoachingPunePage() {
         visual={<IoqmHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
 
       <section className="oly-section !pb-0">
         <div className="oly-container">

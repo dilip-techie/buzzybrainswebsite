@@ -3,6 +3,7 @@ import { ListChecks, GraduationCap, Users, Ban, Timer, BrainCircuit, ClipboardCh
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import AmcHeroVisual from '@/components/olympiad/AmcHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -43,6 +44,7 @@ export default function Amc810CoachingPunePage() {
         visual={<AmcHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
       <TrackGrid
         id="oly-tracks"
         icon={ListChecks}

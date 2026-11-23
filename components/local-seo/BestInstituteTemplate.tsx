@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
+import type { ShortVideo } from '@/components/olympiad/videos';
 
 export interface FacultyEntry {
   name: string;
@@ -23,6 +25,8 @@ export interface InternalLink {
 }
 
 export interface BestInstituteData {
+  /** Optional YouTube Short shown under the hero (olympiad pages). */
+  video?: ShortVideo;
   h1: string;
   heroEyebrow?: string;
   heroLede: string;
@@ -70,6 +74,8 @@ export function BestInstituteTemplate({ data }: { data: BestInstituteData }) {
           </div>
         </div>
       </section>
+
+      {data.video && <ShortVideoSection video={data.video} />}
 
       <section className="bb-section" style={{ paddingTop: 0 }}>
         <div className="container article-shell">
