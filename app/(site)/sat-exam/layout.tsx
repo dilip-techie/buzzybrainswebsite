@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'SAT Exam Prep — Score 1400+ | BuzzyBrains Academy',
+  title: 'SAT Exam Prep — Free Diagnostic Test | BuzzyBrains Academy',
   description:
-    'Structured Digital SAT preparation covering Reading & Writing and Math, with adaptive-format strategy and timed full-length mocks.',
+    'Take a free SAT diagnostic test. Structured Digital SAT preparation covering Reading & Writing and Math, with adaptive-format strategy and timed full-length mocks.',
   keywords:
     'SAT exam prep, digital SAT, SAT coaching Pune, SAT Reading Writing, SAT Math, SAT score 1400, SAT score 1500, SAT full length mock tests, SAT coaching for Indian students',
   alternates: { canonical: 'https://buzzybrainsacademy.com/sat-exam' },
