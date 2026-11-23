@@ -1,6 +1,8 @@
 import type { BestInstituteData } from '@/components/local-seo/BestInstituteTemplate';
+import { PHYSICS_SHORT } from '@/components/olympiad/videos';
 
 export const DATA: BestInstituteData = {
+  video: PHYSICS_SHORT,
   h1: 'Best Physics Olympiad Institute in Pune — BuzzyBrains Academy',
   heroLede:
     "Physics Olympiad coaching in Amanora, Hadapsar, covering India's official IOQP pipeline (NSEP → INPhO → OCSC → IPhO) and internationally benchmarked tracks like F=ma and BPhO, led by mentors who mentor JEE and olympiad Physics directly. Batches capped at 12.",

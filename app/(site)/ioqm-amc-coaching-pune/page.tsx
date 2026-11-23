@@ -2,6 +2,7 @@ import '@/app/tailwind.css';
 
 import Hero from '@/components/olympiad/Hero';
 import TrustBar from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import ExamTracks from '@/components/olympiad/ExamTracks';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Methodology from '@/components/olympiad/Methodology';
@@ -16,6 +17,7 @@ export default function IoqmAmcCoachingPunePage() {
     <main className="oly-page">
       <Hero />
       <TrustBar />
+      <ShortVideoSection />
       <ExamTracks />
       <Roadmap />
       <Methodology />

@@ -3,6 +3,7 @@ import { PenTool, GraduationCap, Users, Layers, FileText, BrainCircuit, Clipboar
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import NmtcHeroVisual from '@/components/olympiad/NmtcHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -43,6 +44,7 @@ export default function NmtcCoachingPunePage() {
         visual={<NmtcHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
       <TrackGrid
         id="oly-levels"
         icon={PenTool}

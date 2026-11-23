@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { BookOpen, GraduationCap, Users, Layers, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -34,6 +35,7 @@ export default function SofOlympiadsPage() {
         exploreLabel="Explore Subject Tracks"
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
       <TrackGrid
         id="oly-tracks"
         icon={BookOpen}

@@ -3,6 +3,7 @@ import { Rabbit, GraduationCap, Users, Layers, Smile, BrainCircuit, ClipboardChe
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import KangarooHeroVisual from '@/components/olympiad/KangarooHeroVisual';
 import TrustBar, { type StatItem } from '@/components/olympiad/TrustBar';
+import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import TrackGrid from '@/components/olympiad/TrackGrid';
 import Roadmap from '@/components/olympiad/Roadmap';
 import Faculty from '@/components/olympiad/Faculty';
@@ -42,6 +43,7 @@ export default function MathsKangarooCoachingPunePage() {
         visual={<KangarooHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <ShortVideoSection />
       <TrackGrid
         id="oly-levels"
         icon={Rabbit}
