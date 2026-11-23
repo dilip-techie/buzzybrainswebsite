@@ -34,6 +34,7 @@ const SUBJECTS = [
     gradient: 'linear-gradient(135deg,#065F46,#10B981)',
     description: 'Deep conceptual physics for India’s toughest science olympiad ladder.',
     competitions: ['IPhO', 'APhO', 'NSEP', 'INPhO'],
+    links: { NSEP: '/nsep-coaching-pune' },
   },
   {
     id: 'chemistry',
@@ -42,6 +43,7 @@ const SUBJECTS = [
     gradient: 'linear-gradient(135deg,#92400E,#F59E0B)',
     description: 'Organic, inorganic and physical chemistry mastery for national and global rounds.',
     competitions: ['IChO', 'NSEC', 'INChO'],
+    links: { NSEC: '/nsec-coaching-pune' },
   },
   {
     id: 'biology',
@@ -50,6 +52,7 @@ const SUBJECTS = [
     gradient: 'linear-gradient(135deg,#6D28D9,#A855F7)',
     description: 'Cell biology to genetics — rigorous prep for India’s biology olympiad pipeline.',
     competitions: ['IBO', 'NSEB', 'INBO'],
+    links: { NSEB: '/nseb-coaching-pune' },
   },
   {
     id: 'science',
@@ -185,23 +188,28 @@ export default function OlympiadsPage() {
                 <h3>{s.subject}</h3>
                 <p>{s.description}</p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 14 }}>
-                  {s.competitions.map((c) => (
-                    <span
-                      key={c}
-                      style={{
-                        fontSize: 12.5,
-                        fontWeight: 700,
-                        fontFamily: 'var(--font-display)',
-                        padding: '5px 12px',
-                        borderRadius: 999,
-                        background: 'var(--bg-alt)',
-                        border: '1px solid var(--line)',
-                        color: 'var(--text-2)',
-                      }}
-                    >
-                      {c}
-                    </span>
-                  ))}
+                  {s.competitions.map((c) => {
+                    const chipStyle = {
+                      fontSize: 12.5,
+                      fontWeight: 700,
+                      fontFamily: 'var(--font-display)',
+                      padding: '5px 12px',
+                      borderRadius: 999,
+                      background: 'var(--bg-alt)',
+                      border: '1px solid var(--line)',
+                      color: 'var(--text-2)',
+                    } as const;
+                    const href = (s as { links?: Record<string, string> }).links?.[c];
+                    return href ? (
+                      <Link key={c} prefetch={false} href={href} style={{ ...chipStyle, color: 'var(--blue)', borderColor: 'var(--blue)' }}>
+                        {c} →
+                      </Link>
+                    ) : (
+                      <span key={c} style={chipStyle}>
+                        {c}
+                      </span>
+                    );
+                  })}
                 </div>
               </div>
             ))}

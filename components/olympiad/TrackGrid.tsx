@@ -77,7 +77,9 @@ export default function TrackGrid({
         <div className="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
           {tracks.map((t, i) => {
             const c = colorMap[t.color];
-            const TrackIcon = TRACK_ICONS[t.id] ?? Sparkles;
+            const TrackIcon =
+              TRACK_ICONS[t.id] ??
+              (t.id.startsWith('nsep') ? Atom : t.id.startsWith('nsec') ? FlaskConical : t.id.startsWith('nseb') ? Leaf : Sparkles);
             return (
               <div
                 key={t.id}
