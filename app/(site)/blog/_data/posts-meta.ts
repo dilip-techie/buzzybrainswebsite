@@ -3964,5 +3964,85 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-11-21",
     readingMinutes: 8
+  },
+  {
+    slug: "why-take-a-free-sat-diagnostic-test-before-you-start-prep",
+    title: "Why You Should Take a Free SAT Diagnostic Test Before You Start Prep",
+    description: "Most students open a prep book on day one. The students who improve fastest start with a full-length diagnostic instead. Here is what a free SAT diagnostic tells you, and what it saves you.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-take-a-sat-diagnostic-test-at-home-step-by-step",
+    title: "How to Take a SAT Diagnostic Test at Home: A Step-by-Step Guide",
+    description: "A diagnostic is only useful if it is taken honestly. This step-by-step guide covers setup, timing, breaks and the rules that make your baseline score trustworthy.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-read-your-sat-diagnostic-score-report",
+    title: "How to Read Your SAT Diagnostic Score Report: Sections, Domains and Gaps",
+    description: "Your diagnostic score is more than one number. Learn to read section scores, content domains and question patterns so your first report becomes a clear to-do list.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 8
+  },
+  {
+    slug: "set-your-target-sat-score-from-your-diagnostic-gap-analysis",
+    title: "Set Your Target SAT Score From Your Diagnostic: A Simple Gap Analysis",
+    description: "Your target score should come from two numbers: where you want to apply and where your diagnostic says you are today. Here is a simple gap analysis to set a realistic target and timeline.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "12-week-sat-study-plan-built-from-your-diagnostic-results",
+    title: "A 12-Week SAT Study Plan Built From Your Diagnostic Results",
+    description: "A week-by-week 12-week SAT study plan that starts with a diagnostic, targets your weakest domains first, adds full-length tests at checkpoints and ends with a final-sprint review.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 9
+  },
+  {
+    slug: "sat-error-log-sort-diagnostic-mistakes-by-cause",
+    title: "The SAT Error Log: How to Sort Your Diagnostic Mistakes by Cause",
+    description: "Every wrong answer on your diagnostic has a cause, and the cause decides the fix. Learn a simple four-type error log that turns a messy score report into a clear plan.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "scored-low-on-your-sat-diagnostic-what-to-do-first",
+    title: "Scored Low on Your SAT Diagnostic? Here Is What to Do First",
+    description: "A disappointing first score is common, and it is useful. Here is a calm, practical plan for the first three weeks after a low SAT diagnostic: foundations first, then pace and practice.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "sat-diagnostic-score-1300-plus-how-to-plan-the-climb",
+    title: "Good Baseline, Higher Goal: Using Your SAT Diagnostic When You Already Score 1300+",
+    description: "If your diagnostic is already strong, the last 150-200 points come from precision, not volume. Learn how to find your remaining leaks, handle the harder modules and plan a focused climb.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 8
+  },
+  {
+    slug: "when-to-retake-a-full-length-sat-test-and-how-to-track-progress",
+    title: "How to Track SAT Progress: When to Retake a Full-Length Test and What to Measure",
+    description: "After your diagnostic, progress checks keep your prep honest. Learn how often to take full-length tests, what to track besides the total score and how to react to each result.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
+  },
+  {
+    slug: "parents-guide-to-the-sat-diagnostic-test-and-first-score",
+    title: "A Parent's Guide to the SAT Diagnostic Test and Your Child's First Score",
+    description: "A free SAT diagnostic is the best first step for a family. This guide explains what it is, how to prepare your child, how to read the first score and how to support the plan without adding pressure.",
+    category: "sat-exam",
+    datePublished: "2026-11-23",
+    readingMinutes: 7
   }
 ];
