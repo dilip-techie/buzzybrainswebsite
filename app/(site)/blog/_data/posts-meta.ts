@@ -4124,5 +4124,85 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-11-24",
     readingMinutes: 8
+  },
+  {
+    slug: "chartered-accountant-ca-career-after-12th-commerce-path-skills-scope",
+    title: "Chartered Accountant (CA) After 12th Commerce: Path, Skills and Scope",
+    description: "Career 1 of 10 for commerce students: how to become a Chartered Accountant, the three-stage ICAI path, the skills it needs, what CAs actually do and who it suits best.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "company-secretary-cs-career-after-12th-commerce-guide",
+    title: "Company Secretary (CS) After 12th Commerce: A Complete Career Guide",
+    description: "Career 2 of 10 for commerce students: what a Company Secretary does, how to qualify through ICSI, the skills required and the roles it opens in corporate governance and compliance.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 6
+  },
+  {
+    slug: "cost-and-management-accountant-cma-career-guide-for-commerce-students",
+    title: "Cost and Management Accountant (CMA): A Career Guide for Commerce Students",
+    description: "Career 3 of 10 for commerce students: what a Cost and Management Accountant does, the ICMAI qualification route, how CMA differs from CA and where CMAs work.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 6
+  },
+  {
+    slug: "investment-banking-and-finance-careers-for-commerce-students-cfa-path",
+    title: "Investment Banking and Finance Careers for Commerce Students: Roles, Skills and the CFA Path",
+    description: "Career 4 of 10 for commerce students: how to build a career in investment banking, equity research and financial analysis, which qualifications help and how to start while still in school.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "mba-management-careers-after-commerce-ipmat-bba-cat-routes",
+    title: "MBA and Management Careers After Commerce: IPMAT, BBA and CAT Routes",
+    description: "Career 5 of 10 for commerce students: the main routes into management careers, from the five-year IPM at IIMs to BBA plus CAT, how they compare and what roles they lead to.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "law-careers-for-commerce-students-clat-corporate-lawyer",
+    title: "Law Careers for Commerce Students: CLAT, Integrated LLB and Corporate Law",
+    description: "Career 6 of 10 for commerce students: how commerce students can build a legal career through CLAT and the five-year integrated LLB, why commerce is a strong base for corporate law and what to prepare.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "economics-careers-for-commerce-students-economist-analyst",
+    title: "Economics Careers for Commerce Students: Economist, Policy Analyst and Research Roles",
+    description: "Career 7 of 10 for commerce students: how to build a career in economics through a B.A. or B.Sc. in Economics, which entrance exams matter, what economists do and how Maths helps.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 6
+  },
+  {
+    slug: "actuarial-science-career-for-commerce-students-with-maths",
+    title: "Actuarial Science for Commerce Students With Maths: Career, Exams and Scope",
+    description: "Career 8 of 10 for commerce students: what actuaries do, how to enter the profession through the Institute of Actuaries of India, which Class 12 subjects help and who it suits best.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 6
+  },
+  {
+    slug: "banking-and-government-careers-for-commerce-students-ibps-sbi-rbi",
+    title: "Banking and Government Careers for Commerce Students: IBPS, SBI PO, RBI and More",
+    description: "Career 9 of 10 for commerce students: stable careers in public sector banks, RBI and government services, which exams to target after graduation, and how a commerce background helps.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "business-analytics-and-data-careers-for-commerce-students",
+    title: "Business Analytics and Data Careers for Commerce Students: Skills, Roles and Where to Start",
+    description: "Career 10 of 10 for commerce students: how commerce students can move into business analytics, data analysis and FP&A, which tools to learn, which degrees help and a simple plan to start in Class 11-12.",
+    category: "commerce",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
   }
 ];
