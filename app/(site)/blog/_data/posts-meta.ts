@@ -4204,5 +4204,69 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "commerce",
     datePublished: "2026-11-24",
     readingMinutes: 7
+  },
+  {
+    slug: "sasmo-2027-what-to-expect-dates-registration-and-fees-for-indian-students",
+    title: "SASMO 2027: What to Expect on Dates, Registration and Fees for Indian Students",
+    description: "SASMO's 2027 details were not yet published in late November 2026. Here is how the 2026 cycle worked for Indian students, what to watch for in 2027 and how to register without being caught out.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "sasmo-exam-format-scoring-and-negative-marking-explained",
+    title: "SASMO Exam Format, Scoring and Negative Marking Explained",
+    description: "How the SASMO paper is laid out, how Section A and Section B are scored, how negative marking works and what that means for guessing. Based on widely published descriptions, with a note on what to confirm.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-prepare-for-sasmo-a-12-week-study-plan",
+    title: "How to Prepare for SASMO: A 12-Week Study Plan",
+    description: "A week-by-week 12-week plan for SASMO: foundations, Singapore-style problem solving, timed Section A practice, non-routine Section B work and mock papers, for students in Grades 3 to 9.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
+  },
+  {
+    slug: "sasmo-problem-solving-strategies-for-non-routine-section-b-questions",
+    title: "SASMO Problem-Solving Strategies for Non-Routine Section B Questions",
+    description: "Section B decides many SASMO rankings. Learn five Singapore-style strategies, bar models, working backwards, systematic lists, the assumption method and pattern spotting, each with a worked example.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 9
+  },
+  {
+    slug: "sasmo-vs-math-kangaroo-vs-sof-imo-vs-wmi-which-to-take",
+    title: "SASMO vs Math Kangaroo vs SOF IMO vs WMI: Which Should Your Child Take?",
+    description: "SASMO, Math Kangaroo, SOF IMO and WMI look similar but differ on negative marking, question style and ranking. A side-by-side comparison for parents choosing one or two contests a year.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "cemc-contests-gauss-pascal-cayley-fermat-euclid-guide-for-indian-students",
+    title: "Canadian Maths Contests From Waterloo (CEMC): Gauss, Pascal, Cayley, Fermat and Euclid for Indian Students",
+    description: "A guide to the University of Waterloo's CEMC maths contests: which contest suits which grade, the 2027 dates for students outside the Americas, the deadline for schools in India and how registration works.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
+  },
+  {
+    slug: "how-to-prepare-for-pascal-cayley-fermat-contests-before-february-2027",
+    title: "How to Prepare for the Pascal, Cayley and Fermat Contests Before February 2027",
+    description: "A 13-week plan to prepare for the Pascal, Cayley and Fermat contests on February 24-25, 2027 for students outside the Americas, with topics, past papers, pacing and a note on the January 27 India deadline.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
+  },
+  {
+    slug: "canadian-open-mathematics-challenge-comc-and-the-path-to-the-cmo",
+    title: "The Canadian Open Mathematics Challenge (COMC) and the Path to the CMO: What Indian Students Should Know",
+    description: "What the Canadian Open Mathematics Challenge is, how it leads to the Canadian Mathematical Olympiad, who counts as an official participant, what changed in 2026 and what it means for students outside Canada.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
   }
 ];
