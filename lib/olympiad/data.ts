@@ -255,6 +255,30 @@ export const mathsOlympiadTracks: Track[] = [
     color: 'amber',
     href: '/maths-kangaroo-coaching-pune',
   },
+  {
+    id: 'wmi',
+    code: 'WMI',
+    name: 'World Mathematics Invitational',
+    grades: 'Grades K–12',
+    blurb: 'An international maths contest with a Preliminary Round taken in your own country and a Final Round for qualifying medallists — rewarding logical reasoning and applied problem solving over memorised formulas.',
+    meta: [['Format', 'Logic + applications'], ['Rounds', 'Preliminary + Final']],
+    topics: ['Logical Reasoning', 'Applications', 'Timed Problem Solving'],
+    outcome: 'International ranking and a path to the Final Round',
+    color: 'sky',
+    href: '/blog/what-is-wmi-world-mathematics-invitational-guide-for-indian-students',
+  },
+  {
+    id: 'sasmo',
+    code: 'SASMO',
+    name: 'Singapore and Asian Schools Math Olympiad',
+    grades: 'Multiple grade levels',
+    blurb: "An international maths competition run from Singapore and popular with Indian students — accessible, multiple-choice, and a useful Asian and international benchmark alongside SOF IMO and Math Kangaroo.",
+    meta: [['Format', 'Multiple choice'], ['Benchmark', 'Asian / international']],
+    topics: ['Applied Arithmetic', 'Logic', 'Geometry & Patterns'],
+    outcome: 'An international data point for your olympiad profile',
+    color: 'brand',
+    href: '/blog/sasmo-singapore-maths-olympiad-why-indian-students-take-it',
+  },
 ];
 
 export const mathsOlympiadFaqs = [

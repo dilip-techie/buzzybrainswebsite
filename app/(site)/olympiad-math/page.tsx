@@ -19,11 +19,11 @@ export default function OlympiadMathPage() {
   return (
     <main className="oly-page">
       <HeroGeneric
-        eyebrow="SOF IMO · IOQM · NMTC · AMC · Kangaroo"
+        eyebrow="SOF IMO · IOQM · NMTC · AMC · Kangaroo · WMI · SASMO"
         title="Every maths olympiad,"
         highlight="one concept-first method."
-        description="From a first SOF IMO attempt in Grade 3 to IOQM, NMTC, AMC 8/10 and Math Kangaroo — structured competition-maths coaching for Grades 1-12, mentored by IIT alumni, in batches capped at 12."
-        stats={[['5', 'Olympiad tracks'], ['12', 'Max batch size'], ['25+', 'Years teaching']]}
+        description="From a first SOF IMO attempt in Grade 3 to IOQM, NMTC, AMC 8/10, Math Kangaroo, WMI and SASMO — structured competition-maths coaching for Grades 1-12, mentored by IIT alumni, in batches capped at 12."
+        stats={[['7', 'Olympiad tracks'], ['12', 'Max batch size'], ['25+', 'Years teaching']]}
         exploreHref="#oly-tracks"
         exploreLabel="Explore Olympiad Tracks"
       />
@@ -33,7 +33,7 @@ export default function OlympiadMathPage() {
         id="oly-tracks"
         icon={Trophy}
         eyebrow="Olympiad Tracks"
-        title="Five olympiads. One rigorous method."
+        title="Seven olympiads. One rigorous method."
         subtitle="Each track runs on its own syllabus, timing and scoring rules — so your child trains in the exact format they'll sit on exam day."
         tracks={mathsOlympiadTracks}
       />
@@ -81,7 +81,7 @@ export default function OlympiadMathPage() {
       <LeadForm
         heading="Sit a real timed mock before you commit."
         demoSubject="Maths Olympiad"
-        programs={['SOF IMO', 'IOQM', 'NMTC', 'AMC 8/10', 'Kangaroo', 'Not sure yet — need guidance']}
+        programs={['SOF IMO', 'IOQM', 'NMTC', 'AMC 8/10', 'Kangaroo', 'WMI', 'SASMO', 'Not sure yet — need guidance']}
       />
       <FinalCTA />
     </main>
