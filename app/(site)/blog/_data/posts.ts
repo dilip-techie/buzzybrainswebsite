@@ -48395,6 +48395,669 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "sasmo-2027-what-to-expect-dates-registration-and-fees-for-indian-students",
+    title: "SASMO 2027: What to Expect on Dates, Registration and Fees for Indian Students",
+    description:
+      "SASMO's 2027 details were not yet published in late November 2026. Here is how the 2026 cycle worked for Indian students, what to watch for in 2027 and how to register without being caught out.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/sasmo-singapore-maths-olympiad-why-indian-students-take-it', label: 'SASMO: Why Indian Students Take It' },
+      { href: '/blog/sasmo-exam-format-scoring-and-negative-marking-explained', label: 'SASMO Format and Scoring Explained' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "As of late November 2026, no 2027 SASMO dates, fees or registration deadlines had been published that we could find. In the 2026 cycle, Indian students registered through a partner (Olympiad India), the registration deadline was in late March and the exam was in early April. If 2027 follows a similar pattern, expect registration to open in the new year, but wait for the official announcement before paying anyone.",
+      },
+      { kind: 'h2', text: "How the 2026 cycle worked" },
+      {
+        kind: 'table',
+        headers: ['Item', '2026 cycle (as reported)'],
+        rows: [
+          ['India registration deadline', 'About 25 March 2026'],
+          ['India exam date', 'About 5 April 2026'],
+          ['Singapore school window', 'About 9 March to 7 April 2026'],
+          ['India registration fee', 'Reported at Rs 1,800'],
+          ['Registration route in India', 'Through a partner organisation or the student’s school'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "These figures come from partner and coaching websites rather than an official SASMO source we could open, so treat them as a guide to the pattern, not as 2027 facts.",
+      },
+      { kind: 'h2', text: "What to do now" },
+      {
+        kind: 'ul',
+        items: [
+          "Do not pay for 2027 registration until dates and fees are announced by the organiser or an authorised partner.",
+          "Ask your child's school whether it registers students for SASMO. Schools sometimes get a simpler process.",
+          "Start light practice anyway. The format is stable, and early preparation does not depend on the exact date.",
+        ],
+      },
+      { kind: 'h2', text: "Who can take it" },
+      {
+        kind: 'p',
+        text: "Sources describe different grade ranges, from primary grades up to the junior college levels in Singapore terms. Indian students usually take the paper matching their school grade, so check the level table when registration opens.",
+      },
+      { kind: 'h2', text: "Avoiding registration problems" },
+      {
+        kind: 'ul',
+        items: [
+          "Register only through the organiser's website or a named, authorised partner.",
+          "Check the exam mode and centre, since in some years students sat the paper at a local centre.",
+          "Keep your confirmation email and student details exactly as they should appear on the certificate.",
+          "Confirm dates against other exams in the same week, such as school tests.",
+        ],
+      },
+      { kind: 'h2', text: "Preparing before the dates are out" },
+      {
+        kind: 'p',
+        text: "A 12-week plan works for most students, so you can start now and adjust once the dates appear. See our [SASMO preparation plan](/blog/how-to-prepare-for-sasmo-a-12-week-study-plan).",
+      },
+    ],
+    faq: [
+      {
+        question: "When is SASMO 2027?",
+        answer: "The organisers had not published 2027 dates when we last checked. In 2026 the Indian exam was in early April, so a similar window is likely, but wait for the official notice.",
+      },
+      {
+        question: "How much does SASMO cost for Indian students?",
+        answer: "The 2026 fee was reported at around Rs 1,800 through an Indian partner. Fees change, so confirm the current amount when registration opens.",
+      },
+      {
+        question: "Can my child register without the school?",
+        answer: "In the 2026 cycle, Indian students could register through a partner organisation as well as through schools. Check the 2027 route when it is announced.",
+      },
+    ],
+  },
+  {
+    slug: "sasmo-exam-format-scoring-and-negative-marking-explained",
+    title: "SASMO Exam Format, Scoring and Negative Marking Explained",
+    description:
+      "How the SASMO paper is laid out, how Section A and Section B are scored, how negative marking works and what that means for guessing. Based on widely published descriptions, with a note on what to confirm.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/sasmo-problem-solving-strategies-for-non-routine-section-b-questions', label: 'SASMO Section B Strategies' },
+      { href: '/blog/how-math-kangaroo-is-scored', label: 'How Math Kangaroo Is Scored' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Widely published descriptions say the SASMO paper lasts 90 minutes with 25 questions in two sections. Section A has 15 multiple-choice questions worth 2 points each with 1 point deducted for a wrong answer; Section B has 10 non-routine questions worth 4 points each with no penalty. Students start with 15 points so scores do not go below zero, giving a maximum of 85. Shorter formats exist for the youngest level. Confirm the current rules with your registration partner.",
+      },
+      { kind: 'h2', text: "The layout" },
+      {
+        kind: 'table',
+        headers: ['Part', 'Questions', 'Points each', 'Wrong answers'],
+        rows: [
+          ['Section A', '15 multiple choice', '2', '1 point deducted'],
+          ['Section B', '10 non-routine questions', '4', 'No penalty'],
+          ['Starting points', '-', '15 given to every student', '-'],
+          ['Maximum', '-', '85', '-'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "The arithmetic checks out: 15 × 2 plus 10 × 4 is 70, and adding the 15 starting points gives 85. These details come from partner and coaching sources, since we could not open an official SASMO page, so verify them on your registration page.",
+      },
+      { kind: 'h2', text: "Why Section B matters" },
+      {
+        kind: 'p',
+        text: "Section B carries 40 of the 70 earnable points with no penalty, so it can decide the medal bands. These questions are non-routine, meaning they need a plan rather than a known method. Strong students often win their ranking here.",
+      },
+      { kind: 'h2', text: "The guessing question" },
+      {
+        kind: 'p',
+        text: "If Section A has five answer choices, a blind guess has a 1-in-5 chance of earning 2 points and a 4-in-5 chance of losing 1. The expected result is 0.2 × 2 minus 0.8 × 1, which is minus 0.4 points. Guessing blind loses points on average.",
+      },
+      {
+        kind: 'table',
+        headers: ['Choices you can eliminate', 'Chance of guessing right', 'Expected points'],
+        rows: [
+          ['0 of 5', '1 in 5', '-0.4'],
+          ['2 of 5', '1 in 3', '0'],
+          ['3 of 5', '1 in 2', '+0.5'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "So guess only when you can eliminate at least two choices, and prefer to leave a question you cannot reason about. If the number of choices differs in your paper, recompute the same way.",
+      },
+      { kind: 'h2', text: "Time plan for 90 minutes" },
+      {
+        kind: 'ul',
+        items: [
+          "Section A: about 30 minutes, which is two minutes a question.",
+          "Section B: about 50 minutes, giving roughly five minutes a question.",
+          "The last 10 minutes: checking Section A answers, since wrong answers cost points.",
+        ],
+      },
+      { kind: 'h2', text: "What to confirm before the exam" },
+      {
+        kind: 'p',
+        text: "Check the level you are entering, the exact time and questions for that level, whether calculators are banned and how answers are entered. Compare this with other contests in our [WMI vs Kangaroo vs IMO vs AMC guide](/blog/wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition).",
+      },
+    ],
+    faq: [
+      {
+        question: "Is there negative marking in SASMO?",
+        answer: "Published descriptions say Section A deducts 1 point for each wrong answer, and Section B has no penalty. Confirm this in your year's rules.",
+      },
+      {
+        question: "What is the maximum SASMO score?",
+        answer: "Published descriptions give a maximum of 85, which includes 15 starting points for every student.",
+      },
+      {
+        question: "Should I answer every question in Section A?",
+        answer: "Not blindly. If you can eliminate at least two options, guessing is roughly break-even or better. If you cannot, leaving it blank is safer.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-prepare-for-sasmo-a-12-week-study-plan",
+    title: "How to Prepare for SASMO: A 12-Week Study Plan",
+    description:
+      "A week-by-week 12-week plan for SASMO: foundations, Singapore-style problem solving, timed Section A practice, non-routine Section B work and mock papers, for students in Grades 3 to 9.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/sasmo-exam-format-scoring-and-negative-marking-explained', label: 'SASMO Format and Scoring' },
+      { href: '/blog/best-resources-practice-papers-math-kangaroo', label: 'Practice Resources for Math Kangaroo' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Prepare for SASMO in 12 weeks: spend weeks 1-3 on number sense and Singapore-style methods such as bar models, weeks 4-7 on topics (fractions, ratio, geometry, patterns, logic), weeks 8-10 on timed mixed papers with a Section A guessing rule, and weeks 11-12 on full mocks and review. Plan 4-6 hours a week and keep an error log.",
+      },
+      { kind: 'h2', text: "Before week 1" },
+      {
+        kind: 'ul',
+        items: [
+          "Find sample or past papers for your child's level from the organiser or your partner.",
+          "Take one paper untimed to see which topics feel weak.",
+          "Set up an error notebook with columns for topic, cause and fix.",
+        ],
+      },
+      { kind: 'h2', text: "The plan at a glance" },
+      {
+        kind: 'table',
+        headers: ['Weeks', 'Focus', 'Output'],
+        rows: [
+          ['1-3', 'Number sense, whole numbers, bar models, simple algebra thinking', 'Confident model drawing'],
+          ['4-5', 'Fractions, ratio, percentages, speed and work', '15+ problems a week'],
+          ['6-7', 'Geometry, patterns, logic puzzles, number theory basics', 'Short timed sets'],
+          ['8-9', 'Mixed Section A sets under time with the guessing rule', 'Pacing of 2 minutes a question'],
+          ['10', 'Section B only: non-routine problems with full working', 'Strategy notes'],
+          ['11', 'Two full mock papers, 90 minutes each', 'Scores and review'],
+          ['12', 'Light review, rest and logistics', 'Ready for the day'],
+        ],
+      },
+      { kind: 'h2', text: "A weekly routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Three sessions of 45-60 minutes on that week's theme.",
+          "One mixed session of 30-45 minutes to keep older topics alive.",
+          "One review session on the error log.",
+        ],
+      },
+      { kind: 'h2', text: "Singapore-style methods to learn early" },
+      {
+        kind: 'ul',
+        items: [
+          "Bar models: drawing bars for quantities to see the relationship.",
+          "Working backwards: undoing steps from the final answer.",
+          "Systematic listing: a table instead of random guessing.",
+          "Assumption method: pretending all items are one kind, then adjusting.",
+        ],
+      },
+      {
+        kind: 'p',
+        text: "We practise these in our guide to [Section B strategies](/blog/sasmo-problem-solving-strategies-for-non-routine-section-b-questions).",
+      },
+      { kind: 'h2', text: "Make the guessing rule a habit" },
+      {
+        kind: 'p',
+        text: "Since Section A has a penalty, practise marking each answer as sure, narrowed or blind. Answer the first two groups, and skip blind guesses. By week 9 this should feel automatic.",
+      },
+      { kind: 'h2', text: "If the dates are close" },
+      {
+        kind: 'p',
+        text: "Compress the topic weeks, but keep the mixed timed papers and the two mocks. A shorter plan with review beats a long plan without it.",
+      },
+    ],
+    faq: [
+      {
+        question: "How many hours a week does my child need?",
+        answer: "Four to six hours is plenty for most students. Short, regular sessions work better than long weekend ones.",
+      },
+      {
+        question: "Do we need a tutor?",
+        answer: "Not necessarily. Past papers and a clear routine are enough for many students. A mentor helps when your child keeps missing the same kind of problem.",
+      },
+      {
+        question: "Which grade should start now?",
+        answer: "Any student planning to take the 2027 paper can begin now. Younger students can spend more of the plan on number sense and model drawing.",
+      },
+    ],
+  },
+  {
+    slug: "sasmo-problem-solving-strategies-for-non-routine-section-b-questions",
+    title: "SASMO Problem-Solving Strategies for Non-Routine Section B Questions",
+    description:
+      "Section B decides many SASMO rankings. Learn five Singapore-style strategies, bar models, working backwards, systematic lists, the assumption method and pattern spotting, each with a worked example.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 9,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/how-to-prepare-for-sasmo-a-12-week-study-plan', label: 'A 12-Week SASMO Study Plan' },
+      { href: '/blog/how-to-solve-math-kangaroo-logic-and-visual-puzzles', label: 'Math Kangaroo Logic and Visual Puzzles' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Non-routine problems need a plan, not a formula. Five strategies cover most of them: draw a bar model, work backwards, list systematically, use the assumption method and look for patterns. Practise choosing the strategy before starting the calculation, and always show your steps.",
+      },
+      { kind: 'h2', text: "1. Bar models" },
+      {
+        kind: 'p',
+        text: "Problem: Ali has 3 times as many marbles as Ben. After Ali gives 12 marbles to Ben, they have the same number. How many marbles do they have in total? Draw Ben as one bar and Ali as three bars. Giving 12 away from Ali and to Ben makes them equal, so the difference of two bars equals 24. One bar is 12, so Ben has 12, Ali has 36 and the total is 48.",
+      },
+      { kind: 'h2', text: "2. Working backwards" },
+      {
+        kind: 'p',
+        text: "Problem: a number is doubled, then 6 is added, then the result is halved, giving 9. What is the number? Undo each step in reverse: 9 doubled is 18, minus 6 is 12, halved is 6. The number is 6. Check by going forward: 6 doubled is 12, plus 6 is 18, halved is 9.",
+      },
+      { kind: 'h2', text: "3. Systematic listing" },
+      {
+        kind: 'p',
+        text: "Problem: a farmer has chickens and rabbits, 20 heads and 56 legs in total. How many rabbits? Make a table with the number of rabbits in one column, the number of chickens in the next and the total legs. With 8 rabbits and 12 chickens, the legs are 32 plus 24, which is 56. A table avoids random guessing and shows the pattern.",
+      },
+      { kind: 'h2', text: "4. The assumption method" },
+      {
+        kind: 'p',
+        text: "For the same problem, assume all 20 animals are chickens: that is 40 legs, which is 16 too few. Each rabbit adds 2 extra legs, so there are 16 divided by 2, which is 8 rabbits. This method is quicker for larger numbers.",
+      },
+      { kind: 'h2', text: "5. Spotting patterns" },
+      {
+        kind: 'p',
+        text: "Problem: what is the sum of the first 10 odd numbers? Try small cases: 1, then 1+3 is 4, then 1+3+5 is 9. The sums are perfect squares, 1, 4, 9, so the sum of the first 10 odd numbers is 10 squared, which is 100.",
+      },
+      { kind: 'h2', text: "How to choose" },
+      {
+        kind: 'table',
+        headers: ['If the problem...', 'Try'],
+        rows: [
+          ['Compares quantities with ratios or differences', 'A bar model'],
+          ['Describes a chain of operations ending in a result', 'Working backwards'],
+          ['Has a small number of possibilities', 'A systematic list'],
+          ['Mixes two kinds of items with totals', 'The assumption method'],
+          ['Asks about a large or general case', 'Small cases and patterns'],
+        ],
+      },
+      { kind: 'h2', text: "Show your working" },
+      {
+        kind: 'p',
+        text: "Even when only the final answer is marked, writing steps catches mistakes. In practice papers, always write the idea in a line before the arithmetic. This habit turns into speed.",
+      },
+    ],
+    faq: [
+      {
+        question: "What makes a question non-routine?",
+        answer: "It cannot be solved by applying a standard method directly. It needs you to choose a strategy, such as a model, a list or a pattern.",
+      },
+      {
+        question: "Are bar models only for young students?",
+        answer: "No. They are used from primary grades and still help older students see relationships in ratio and algebra problems.",
+      },
+      {
+        question: "How do I practise Section B?",
+        answer: "Do two or three non-routine problems a day, spend a few minutes on each before checking the solution and write down which strategy worked.",
+      },
+    ],
+  },
+  {
+    slug: "sasmo-vs-math-kangaroo-vs-sof-imo-vs-wmi-which-to-take",
+    title: "SASMO vs Math Kangaroo vs SOF IMO vs WMI: Which Should Your Child Take?",
+    description:
+      "SASMO, Math Kangaroo, SOF IMO and WMI look similar but differ on negative marking, question style and ranking. A side-by-side comparison for parents choosing one or two contests a year.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition', label: 'WMI vs Math Kangaroo vs IMO vs AMC' },
+      { href: '/blog/math-kangaroo-vs-sof-imo-first-olympiad', label: 'Math Kangaroo vs SOF IMO' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "SASMO suits students who like non-routine problems and can handle a penalty for wrong answers in Section A. Math Kangaroo is the gentlest puzzle contest, SOF IMO is the most widely taken school-linked olympiad in India, and WMI adds international ranking with a Final Round. Pick one main contest and one lighter one per year, and confirm each contest's current rules.",
+      },
+      { kind: 'h2', text: "Side by side" },
+      {
+        kind: 'table',
+        headers: ['', 'SASMO', 'Math Kangaroo', 'SOF IMO', 'WMI'],
+        rows: [
+          ['Origin', 'Singapore', 'International (France-founded)', 'India (SOF)', 'Taiwan-founded international'],
+          ['Style', 'Section A multiple choice, Section B non-routine', 'Puzzle-like multiple choice', 'Syllabus-linked multiple choice', 'Logic and applications'],
+          ['Wrong answers', 'Reported deduction in Section A', 'Check current rules', 'Check current rules', 'Check current rules'],
+          ['Stages', 'Single paper', 'Single paper', 'Level 1 and Level 2', 'Preliminary and Final'],
+          ['Best for', 'Non-routine problem solvers', 'First-time competitors', 'Building an olympiad habit', 'Students who like international ranking'],
+        ],
+      },
+      { kind: 'h2', text: "What stands out about SASMO" },
+      {
+        kind: 'ul',
+        items: [
+          "A second section of non-routine problems worth more points per question.",
+          "Reported negative marking in Section A, which rewards careful answering and punishes wild guessing.",
+          "A Singapore-style flavour, with bar models and systematic reasoning.",
+        ],
+      },
+      { kind: 'h2', text: "How to choose" },
+      {
+        kind: 'ul',
+        items: [
+          "New to contests: begin with Math Kangaroo or SOF IMO.",
+          "Enjoys puzzles and wants a bigger challenge: add SASMO or WMI.",
+          "Heading towards the Indian pathway: build towards IOQM and consider AMC 8.",
+          "Short on time: choose one contest and prepare it well.",
+        ],
+      },
+      { kind: 'h2', text: "Do not collect certificates" },
+      {
+        kind: 'p',
+        text: "More contests do not mean more learning. Each one costs a registration fee, preparation time and a review. Two contests a year, taken seriously, usually teach more than five taken casually.",
+      },
+      { kind: 'h2', text: "Where preparation overlaps" },
+      {
+        kind: 'p',
+        text: "All four reward careful reading, systematic thinking and time management, so practice for one helps the others. For more on the format of SASMO, see our [format and scoring guide](/blog/sasmo-exam-format-scoring-and-negative-marking-explained).",
+      },
+    ],
+    faq: [
+      {
+        question: "Is SASMO harder than Math Kangaroo?",
+        answer: "They are similar in accessibility, but SASMO's Section B is more non-routine and its Section A reportedly has negative marking, so it feels more demanding.",
+      },
+      {
+        question: "Can my child take all four in a year?",
+        answer: "They can, but it is rarely the best use of time. One main contest plus one lighter one is a sensible plan.",
+      },
+      {
+        question: "Which contest is best for the IOQM pathway?",
+        answer: "None replaces IOQM preparation. They build reasoning habits that help, and AMC 8 is the closest stepping stone for many students.",
+      },
+    ],
+  },
+  {
+    slug: "cemc-contests-gauss-pascal-cayley-fermat-euclid-guide-for-indian-students",
+    title: "Canadian Maths Contests From Waterloo (CEMC): Gauss, Pascal, Cayley, Fermat and Euclid for Indian Students",
+    description:
+      "A guide to the University of Waterloo's CEMC maths contests: which contest suits which grade, the 2027 dates for students outside the Americas, the deadline for schools in India and how registration works.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/how-to-prepare-for-pascal-cayley-fermat-contests-before-february-2027', label: 'How to Prepare for Pascal, Cayley and Fermat' },
+      { href: '/blog/wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition', label: 'WMI vs Math Kangaroo vs IMO vs AMC' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "CEMC, the Centre for Education in Mathematics and Computing at the University of Waterloo, runs the best-known Canadian maths contests: Gauss (Grades 7-8), Pascal, Cayley and Fermat (Grades 9, 10 and 11) and Euclid (Grade 12). For 2027, CEMC lists dates for students outside North and South America, and a deadline for schools in India to order the Pascal, Cayley and Fermat contests: January 27, 2027. Contests are ordered through schools, so start by asking yours.",
+      },
+      { kind: 'h2', text: "Which contest for which grade" },
+      {
+        kind: 'table',
+        headers: ['Contest', 'Grades', 'Style (per CEMC)'],
+        rows: [
+          ['Gauss', '7-8', 'Multiple choice, an introduction to maths competitions'],
+          ['Pascal / Cayley / Fermat', '9 / 10 / 11', 'Multiple choice'],
+          ['Euclid', '12', 'Mix of short-answer and full-solution questions, among CEMC’s hardest'],
+          ['Fryer / Galois / Hypatia', '9-11', 'Full-solution questions'],
+          ['Canadian Senior and Intermediate Maths Contests', '9-12', 'Short answer and full solution'],
+          ['Canadian Team Mathematics Contest', '9-12', 'Individual and team work'],
+        ],
+      },
+      { kind: 'h2', text: "2027 dates for students outside North and South America" },
+      {
+        kind: 'table',
+        headers: ['Contest', 'Date (per CEMC, 2026/27)'],
+        rows: [
+          ['Pascal, Cayley and Fermat', 'Wednesday, February 24 and Thursday, February 25, 2027'],
+          ['Euclid', 'Wednesday, April 7, 2027'],
+          ['Fryer, Galois and Hypatia', 'Thursday, April 8, 2027'],
+          ['Gauss', 'A window from May 10 to May 21, 2027'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "CEMC lists a separate ordering deadline for schools in India for Pascal, Cayley and Fermat: Wednesday, January 27, 2027. Deadlines for other contests, such as Euclid (March 11, 2027) and Gauss (April 22, 2027), are on the official contests page. Dates can be updated, so check the [CEMC contests page](https://cemc.uwaterloo.ca/contests).",
+      },
+      { kind: 'h2', text: "How registration works" },
+      {
+        kind: 'p',
+        text: "CEMC contests are ordered by schools, normally through a teacher or contest supervisor. If your school does not take part, ask the teacher in charge of maths or olympiads whether they would order the contest, and contact CEMC about options in your region. We could not confirm an individual registration route, so do not assume one exists.",
+      },
+      { kind: 'h2', text: "Are they worth taking from India?" },
+      {
+        kind: 'ul',
+        items: [
+          "They are well respected, with problems that reward clear reasoning and unusual approaches.",
+          "Pascal, Cayley and Fermat are multiple choice, so they are a good, accessible first step.",
+          "They are separate from the Indian pathway (IOQM, INMO) and from AMC, so treat them as a useful extra.",
+          "Euclid and the full-solution contests build proof-writing habits that help in IOQM-style work.",
+        ],
+      },
+      { kind: 'h2', text: "Choosing between them" },
+      {
+        kind: 'p',
+        text: "Choose by grade: Gauss for Grades 7-8, then Pascal, Cayley or Fermat for Grades 9-11. A strong student in Grade 10 may also try the full-solution contests. Compare options in our guide to [WMI, Kangaroo, IMO and AMC](/blog/wmi-vs-math-kangaroo-vs-imo-vs-amc-which-competition).",
+      },
+    ],
+    faq: [
+      {
+        question: "Can an Indian student take the Waterloo contests?",
+        answer: "Yes. CEMC lists dates for students outside North and South America and a deadline for schools in India. Registration goes through a school.",
+      },
+      {
+        question: "Which Waterloo contest should a Grade 9 student take?",
+        answer: "The Pascal Contest is for Grade 9. A Grade 10 student takes Cayley and a Grade 11 student takes Fermat.",
+      },
+      {
+        question: "Is Euclid only for Grade 12?",
+        answer: "CEMC designs Euclid for Grade 12 students. It is one of the hardest CEMC contests, with short-answer and full-solution questions.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-prepare-for-pascal-cayley-fermat-contests-before-february-2027",
+    title: "How to Prepare for the Pascal, Cayley and Fermat Contests Before February 2027",
+    description:
+      "A 13-week plan to prepare for the Pascal, Cayley and Fermat contests on February 24-25, 2027 for students outside the Americas, with topics, past papers, pacing and a note on the January 27 India deadline.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 8,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/cemc-contests-gauss-pascal-cayley-fermat-euclid-guide-for-indian-students', label: 'CEMC Contests: A Guide for Indian Students' },
+      { href: '/blog/how-to-use-past-amc-8-papers-effectively', label: 'How to Use Past Papers Effectively' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "For students outside North and South America, CEMC lists the Pascal, Cayley and Fermat contests for February 24 and 25, 2027, with a January 27, 2027 ordering deadline for schools in India. That leaves about 13 weeks from late November. Spend the first month on core topics, the second on past contests by topic, and the last month on timed full papers with an error log.",
+      },
+      { kind: 'h2', text: "First: sort out registration" },
+      {
+        kind: 'ul',
+        items: [
+          "Ask your school's maths teacher whether the school will order the contest, well before January 27, 2027.",
+          "Confirm which of the three contests matches your grade: Pascal for Grade 9, Cayley for Grade 10, Fermat for Grade 11.",
+          "Note your exact contest day, since CEMC lists two days for these contests outside the Americas.",
+        ],
+      },
+      { kind: 'h2', text: "The 13-week plan" },
+      {
+        kind: 'table',
+        headers: ['Weeks', 'Focus', 'Output'],
+        rows: [
+          ['1', 'Diagnostic: one past contest, untimed, then review', 'List of weak topics'],
+          ['2-5', 'Algebra, number theory and divisibility, ratios and percentages', '15-20 problems a week'],
+          ['6-8', 'Geometry (angles, triangles, areas, circles) and coordinate geometry', 'Diagrams for every problem'],
+          ['9-10', 'Counting, probability and logic', 'Systematic lists'],
+          ['11-12', 'Timed past contests, full length', 'Pacing and error log'],
+          ['13', 'Light review and rest', 'Ready for contest day'],
+        ],
+      },
+      { kind: 'h2', text: "Using past contests" },
+      {
+        kind: 'p',
+        text: "CEMC publishes past contests with solutions on its website. Use older ones to learn and recent ones to simulate. After each, log every miss with its cause: not known, careless or out of time. See our method in [how to use past papers effectively](/blog/how-to-use-past-amc-8-papers-effectively), which applies equally here.",
+      },
+      { kind: 'h2', text: "Multiple-choice habits" },
+      {
+        kind: 'ul',
+        items: [
+          "Read the full question and underline what is asked.",
+          "Test answer choices when an equation is awkward.",
+          "Eliminate impossible options by size, sign or divisibility.",
+          "Skip and return rather than losing time on a single problem.",
+          "Check the contest instructions for how unanswered and wrong questions are scored before guessing.",
+        ],
+      },
+      { kind: 'h2', text: "Weekly routine" },
+      {
+        kind: 'ul',
+        items: [
+          "Three 45-60 minute sessions on that week's topic.",
+          "One timed set of 10 mixed questions.",
+          "One review session on the error log.",
+        ],
+      },
+      { kind: 'h2', text: "Details to confirm" },
+      {
+        kind: 'p',
+        text: "Format details such as the number of questions, time allowed and calculator rules are set by CEMC each year. Read the current contest instructions and the [CEMC contests page](https://cemc.uwaterloo.ca/contests) before contest day.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do I need calculus for these contests?",
+        answer: "No. The contests are designed around secondary school maths such as algebra, geometry, number theory and counting.",
+      },
+      {
+        question: "How many hours a week should I study?",
+        answer: "Four to six hours is enough for most students, mixing topic work, timed sets and review.",
+      },
+      {
+        question: "Can I take a contest above my grade?",
+        answer: "CEMC designs each contest for a specific grade. Check its rules before registering for a different one.",
+      },
+    ],
+  },
+  {
+    slug: "canadian-open-mathematics-challenge-comc-and-the-path-to-the-cmo",
+    title: "The Canadian Open Mathematics Challenge (COMC) and the Path to the CMO: What Indian Students Should Know",
+    description:
+      "What the Canadian Open Mathematics Challenge is, how it leads to the Canadian Mathematical Olympiad, who counts as an official participant, what changed in 2026 and what it means for students outside Canada.",
+    category: 'olympiad',
+    datePublished: '2026-11-24',
+    readingMinutes: 7,
+    relatedProgramHref: '/olympiad-math',
+    relatedProgramLabel: 'Maths Olympiad Program',
+    relatedGuides: [
+      { href: '/blog/cemc-contests-gauss-pascal-cayley-fermat-euclid-guide-for-indian-students', label: 'CEMC Contests: A Guide for Indian Students' },
+      { href: '/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track', label: 'IOQM vs AMC 8 vs AMC 10' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The Canadian Open Mathematics Challenge (COMC) is run by the Canadian Mathematical Society. It is held each autumn, with the 2026 contest on October 29, and its top scorers are invited to the Canadian Mathematical Olympiad (CMO). The society says anyone can write it, but to count as an official participant a student must meet criteria such as being a Canadian citizen or permanent resident, or writing at a Canadian school. For Indian students, it is mainly a practice and enrichment opportunity.",
+      },
+      { kind: 'h2', text: "What it is" },
+      {
+        kind: 'p',
+        text: "COMC is a proof-based and problem-solving contest recommended for students in roughly Grades 8 to 12. It is the main qualifying step to the CMO, which is itself the national olympiad that leads to Canada's team for the International Mathematical Olympiad.",
+      },
+      { kind: 'h2', text: "Key facts" },
+      {
+        kind: 'table',
+        headers: ['Item', 'Detail (per the Canadian Mathematical Society)'],
+        rows: [
+          ['2026 date', 'Thursday, October 29, 2026'],
+          ['Registration', 'Opened September 1'],
+          ['Eligibility to write', 'Open to students at all grade levels'],
+          ['Official participant', 'Meets additional criteria, such as Canadian citizenship or permanent residence, or writing at a Canadian school'],
+          ['Qualifying for the CMO', 'Top scorers are invited, about the top 100 (approximate)'],
+          ['2026 change', 'The Repêchage (CMOQR) was discontinued and the administration of the contest changed, including a start window for competitive-division consideration'],
+        ],
+      },
+      {
+        kind: 'p',
+        text: "Read the society's COMC page for the current year's rules, since they have just changed and may change again.",
+      },
+      { kind: 'h2', text: "What it means for students in India" },
+      {
+        kind: 'ul',
+        items: [
+          "Students outside Canada who do not meet the official-participant criteria would not be eligible for CMO invitation, so do not plan around it.",
+          "The 2026 contest has already been held, and registration for 2027 would open around September, so there is time to prepare.",
+          "COMC-style problems are good practice for IOQM and other proof-based contests.",
+        ],
+      },
+      { kind: 'h2', text: "Better targets for most Indian students" },
+      {
+        kind: 'table',
+        headers: ['Goal', 'Better fit'],
+        rows: [
+          ['Competitive maths from India', 'IOQM, then INMO'],
+          ['International benchmark, multiple choice', 'AMC 8 and AMC 10'],
+          ['Canadian contests from a school in India', 'CEMC contests such as Pascal, Cayley and Fermat'],
+          ['Proof-writing practice', 'Euclid and COMC-style past problems'],
+        ],
+      },
+      { kind: 'h2', text: "How to use COMC as practice" },
+      {
+        kind: 'p',
+        text: "Past COMC papers and solutions are available from the society's website. Treat them as practice for proof-style reasoning. Our guide to [IOQM vs AMC 8 vs AMC 10](/blog/ioqm-vs-amc-8-vs-amc-10-choosing-the-right-track) helps you plan which formal contests to target.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can Indian students write the COMC?",
+        answer: "The society says anyone can write it, but official participation, including consideration for the Canadian Mathematical Olympiad, depends on meeting eligibility criteria such as Canadian citizenship, permanent residence or writing at a Canadian school.",
+      },
+      {
+        question: "Is COMC harder than the Pascal, Cayley and Fermat contests?",
+        answer: "COMC is more proof-oriented and is aimed at the top students. The Waterloo contests are multiple choice and more accessible as a first step.",
+      },
+      {
+        question: "What is the CMO?",
+        answer: "The Canadian Mathematical Olympiad is the national olympiad that leads to Canada's team for the International Mathematical Olympiad.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
