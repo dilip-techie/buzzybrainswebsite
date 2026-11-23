@@ -4044,5 +4044,85 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "sat-exam",
     datePublished: "2026-11-23",
     readingMinutes: 7
+  },
+  {
+    slug: "what-is-the-f-ma-exam-guide-for-us-high-school-students",
+    title: "What Is the F=ma Exam? A Guide for US High School Students",
+    description: "The F=ma exam is the first step on the path to the US Physics Team. Here is what it is, who runs it, who can take it, what it tests and whether it is worth your time as a US high school student.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "f-ma-exam-2027-dates-registration-fees-and-proctoring-rules",
+    title: "F=ma Exam 2027: Dates, Registration, Fees and Proctoring Rules",
+    description: "Everything US students and teachers need to register for the 2027 F=ma exam: the February 9 test date, the January 14 deadline, fees, who may take it and the proctoring rules AAPT enforces.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
+  },
+  {
+    slug: "f-ma-exam-format-scoring-and-cutoffs-what-to-expect",
+    title: "F=ma Exam Format, Scoring and Cutoffs: What to Expect on Test Day",
+    description: "How the F=ma exam is laid out, how it is scored, what the cutoff for the USAPhO means and how to plan your 75 minutes. Includes an honest note on what changes from year to year.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "f-ma-syllabus-mechanics-topics-checklist",
+    title: "The F=ma Syllabus: A Mechanics Topic Checklist With What to Practise",
+    description: "A topic-by-topic checklist for the F=ma exam: kinematics, Newton's laws, statics, energy, momentum, oscillations, orbits and fluids, with the key ideas and a worked example for each.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 9
+  },
+  {
+    slug: "f-ma-vs-ap-physics-1-vs-ap-physics-c-mechanics",
+    title: "F=ma vs AP Physics 1 vs AP Physics C: Mechanics: How They Compare",
+    description: "How the F=ma exam differs from AP Physics 1 and AP Physics C: Mechanics, how much each helps the other and which one to prioritise in your school year.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-prepare-for-f-ma-11-week-study-plan-before-february-9-2027",
+    title: "How to Prepare for F=ma: An 11-Week Study Plan Before February 9, 2027",
+    description: "A week-by-week plan to prepare for the 2027 F=ma exam, starting now: diagnostic, topic blocks, mixed practice, full past exams and a final-week routine for US students.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 9
+  },
+  {
+    slug: "best-books-and-free-resources-for-f-ma",
+    title: "Best Books and Free Resources for F=ma Preparation",
+    description: "A short, honest list of books, lecture series and free past papers that help with the F=ma exam, with advice on which to use first and which to skip.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-use-past-f-ma-exams-effectively",
+    title: "How to Use Past F=ma Exams Effectively: A Four-Pass Method",
+    description: "Past F=ma exams are the best preparation there is, but only if used well. A four-pass method for working through each exam, building an error log and saving the latest papers for simulation.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
+  },
+  {
+    slug: "f-ma-problem-solving-strategies-for-75-minutes",
+    title: "F=ma Problem-Solving Strategies: Six Techniques for 75 Minutes",
+    description: "Six techniques that help you solve F=ma problems faster and more accurately: free-body diagrams, conservation laws, dimensional analysis, limiting cases, estimation and smart guessing, with worked examples.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 9
+  },
+  {
+    slug: "from-f-ma-to-usapho-and-the-us-physics-team-what-comes-next",
+    title: "From F=ma to USAPhO and the US Physics Team: What Comes Next",
+    description: "What happens after the F=ma exam: the USAPhO, the training camp, the International Physics Olympiad, and how to think about the path whether or not you qualify. Includes the rules on who may take part.",
+    category: "olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 8
   }
 ];
