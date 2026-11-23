@@ -179,12 +179,12 @@ export default function FoundationPage() {
           <div className="hero-visual">
             <div className="short-embed-wrap" style={{ margin: '0 auto' }}>
               <span className="short-embed-badge">
-                <Play size={15} fill="currentColor" /> Watch: Inside a Foundation Class
+                <Play size={15} fill="currentColor" /> Watch: Which Olympiad Is Right for Your Child?
               </span>
               <div className="short-embed">
                 <iframe
-                  src="https://www.youtube.com/embed/oDdeTp54_7M"
-                  title="BuzzyBrains Academy — Foundation Program Shorts"
+                  src="https://www.youtube.com/embed/4pr80wzXN0Q"
+                  title="IMO? NSO? IOQM? AMC? Confused about which Olympiad is right for your child? — BuzzyBrains Academy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   loading="lazy"
                   allowFullScreen
