@@ -4268,5 +4268,45 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "olympiad",
     datePublished: "2026-11-24",
     readingMinutes: 7
+  },
+  {
+    slug: "best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose",
+    title: "Best Residential Coaching in Pune With IITian Faculty: How to Choose",
+    description: "Looking for residential coaching in Pune with IITian faculty? Here is a parent's framework for comparing options: the faculty, the batch size, the routine, the supervision and the results you can verify.",
+    category: "iit-jee",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
+  },
+  {
+    slug: "residential-vs-day-coaching-in-pune-which-is-right-for-your-child",
+    title: "Residential vs Day Coaching in Pune: Which Is Right for Your Child?",
+    description: "A balanced comparison of residential and day coaching in Pune for JEE, NEET and olympiad preparation: routine, independence, cost, supervision, family support and when each makes sense.",
+    category: "iit-jee",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-to-verify-iitian-faculty-claims-questions-to-ask-a-coaching-institute",
+    title: "How to Verify 'IITian Faculty' Claims: Ten Questions to Ask a Coaching Institute",
+    description: "Many coaching institutes advertise IITian faculty. Here are ten practical questions parents can ask to find out who will actually teach their child, what the credentials are and what to check before paying.",
+    category: "iit-jee",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "residential-coaching-in-pune-parent-checklist-safety-routine-and-communication",
+    title: "Residential Coaching in Pune: A Parent's Checklist for Safety, Routine and Communication",
+    description: "What to check before sending your child to residential coaching in Pune: safety, supervision, daily routine, food, health, study environment and how you will stay in touch. A practical checklist for your visit.",
+    category: "iit-jee",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
+  },
+  {
+    slug: "why-pune-for-jee-neet-and-olympiad-coaching-a-city-guide-for-outstation-students",
+    title: "Why Pune for JEE, NEET and Olympiad Coaching? A City Guide for Outstation Students",
+    description: "Moving to Pune for coaching? A practical city guide for students from other states: why families choose Pune, how to get here, what to expect from daily life and how to settle in so preparation comes first.",
+    category: "iit-jee",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
   }
 ];

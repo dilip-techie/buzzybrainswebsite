@@ -49062,6 +49062,419 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose",
+    title: "Best Residential Coaching in Pune With IITian Faculty: How to Choose",
+    description:
+      "Looking for residential coaching in Pune with IITian faculty? Here is a parent's framework for comparing options: the faculty, the batch size, the routine, the supervision and the results you can verify.",
+    category: 'iit-jee',
+    datePublished: '2026-11-25',
+    readingMinutes: 8,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/residential-vs-day-coaching-in-pune-which-is-right-for-your-child', label: 'Residential vs Day Coaching in Pune' },
+      { href: '/blog/how-to-verify-iitian-faculty-claims-questions-to-ask-a-coaching-institute', label: 'How to Verify IITian Faculty Claims' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "The best residential coaching in Pune is the one where your child gets faculty who actually teach, small enough batches for individual attention, a safe and supervised routine, and results you can verify. Compare institutes on those five points, not on advertising. BuzzyBrains Academy, in Amanora, Hadapsar, offers IIT-alumni-led coaching in batches capped at 12 students, and has a residential option for outstation students.",
+      },
+      { kind: 'h2', text: "Why families look at residential coaching" },
+      {
+        kind: 'ul',
+        items: [
+          "The student lives outside Pune, and the home city lacks strong JEE, NEET or olympiad coaching.",
+          "The family wants a structured routine with fewer distractions.",
+          "The student is a dropper or a Class 11-12 student who wants a fully focused year.",
+        ],
+      },
+      { kind: 'h2', text: "A five-point comparison framework" },
+      {
+        kind: 'table',
+        headers: ['Question', 'What a good answer looks like'],
+        rows: [
+          ['Who teaches?', 'Named faculty with verifiable credentials, who teach regular classes, not only guest lectures'],
+          ['How big is the batch?', 'Small enough for the teacher to know each student; ask for the actual number, not the average'],
+          ['What is the routine?', 'A clear daily timetable with study, revision and rest, and a plan for weekly tests'],
+          ['Who supervises?', 'Named staff, clear rules, a way for parents to reach them and regular updates'],
+          ['What are the results?', 'Specific, checkable results, with the batch size and the starting level explained'],
+        ],
+      },
+      { kind: 'h2', text: "Faculty: what 'IITian' should mean" },
+      {
+        kind: 'p',
+        text: "Anyone can write IITian on a brochure. Ask who will teach your child, which IIT they studied at, which subject they teach and whether they take the regular classes. At BuzzyBrains Academy, the founder, Dilip Sir, is an IIT Kanpur B.Tech and IIM Ahmedabad MBA who cleared JEE with an All India Rank of 400 and has over 25 years of teaching experience. Use the same questions with any institute you consider. See our guide on [verifying IITian faculty claims](/blog/how-to-verify-iitian-faculty-claims-questions-to-ask-a-coaching-institute).",
+      },
+      { kind: 'h2', text: "Batch size matters more than you think" },
+      {
+        kind: 'p',
+        text: "In a hall of 150 students, a teacher cannot see who is struggling. In a batch of 12, they can. Small batches also let mock-test results be discussed one to one. That is why BuzzyBrains Academy caps every batch at 12 students.",
+      },
+      { kind: 'h2', text: "Supervision and routine" },
+      {
+        kind: 'p',
+        text: "Residential coaching works only if the routine is real: fixed study hours, a quiet space, regular tests and adults who notice when a student is falling behind. Use our [parent checklist for residential coaching](/blog/residential-coaching-in-pune-parent-checklist-safety-routine-and-communication) when you visit.",
+      },
+      { kind: 'h2', text: "Ask for current residential details" },
+      {
+        kind: 'p',
+        text: "Residential arrangements, fees and availability change from batch to batch, so we do not list them here. Contact BuzzyBrains Academy for current details, and visit in person if you can.",
+      },
+    ],
+    faq: [
+      {
+        question: "Does BuzzyBrains Academy offer residential coaching in Pune?",
+        answer: "Yes, BuzzyBrains Academy has a residential option for outstation students. Contact us for current details on arrangements, fees and availability.",
+      },
+      {
+        question: "Who teaches at BuzzyBrains Academy?",
+        answer: "Faculty are IIT and IIM alumni and subject specialists, led by founder Dilip Sir (B.Tech IIT Kanpur, MBA IIM Ahmedabad, JEE AIR 400). Batches are capped at 12 students.",
+      },
+      {
+        question: "How early should we decide?",
+        answer: "Ideally several months before the batch starts, so you can visit, speak to faculty and plan the move without rushing.",
+      },
+    ],
+  },
+  {
+    slug: "residential-vs-day-coaching-in-pune-which-is-right-for-your-child",
+    title: "Residential vs Day Coaching in Pune: Which Is Right for Your Child?",
+    description:
+      "A balanced comparison of residential and day coaching in Pune for JEE, NEET and olympiad preparation: routine, independence, cost, supervision, family support and when each makes sense.",
+    category: 'iit-jee',
+    datePublished: '2026-11-25',
+    readingMinutes: 7,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose', label: 'Best Residential Coaching in Pune: How to Choose' },
+      { href: '/blog/jee-coaching-vs-self-study-how-to-choose', label: 'JEE Coaching vs Self-Study' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Residential coaching suits students from outside Pune who are mature enough to live away from home and want a fully structured routine. Day coaching suits students who already live in or near Pune and benefit from home support. Neither is better for everyone, so decide on your child's independence, your family's situation and the quality of supervision, not on the label.",
+      },
+      { kind: 'h2', text: "Side by side" },
+      {
+        kind: 'table',
+        headers: ['', 'Residential', 'Day coaching'],
+        rows: [
+          ['Who it suits', 'Students from other cities who can live away from home', 'Students in or near Pune'],
+          ['Routine', 'Fully structured by the institute', 'Shared between the institute and home'],
+          ['Distractions', 'Fewer, if the environment is well managed', 'Home and travel add some'],
+          ['Independence needed', 'High', 'Moderate'],
+          ['Family support', 'At a distance, so communication matters', 'Daily, at home'],
+          ['Cost', 'Includes living costs, so it is higher overall', 'Lower, with no accommodation cost'],
+        ],
+      },
+      { kind: 'h2', text: "Signs residential is a good fit" },
+      {
+        kind: 'ul',
+        items: [
+          "Your home city has no strong coaching, and daily travel is not possible.",
+          "Your child is motivated and has lived away from home before, or is ready to.",
+          "You have visited, met the staff and are comfortable with how supervision works.",
+        ],
+      },
+      { kind: 'h2', text: "Signs day coaching is better" },
+      {
+        kind: 'ul',
+        items: [
+          "Your child lives in Pune, and a home routine is stable.",
+          "They would struggle emotionally away from family.",
+          "You prefer to keep close watch on sleep, food and study habits.",
+        ],
+      },
+      { kind: 'h2', text: "The cost question" },
+      {
+        kind: 'p',
+        text: "Residential coaching costs more because you pay for living as well as teaching. Compare the total cost for the whole programme, including meals, accommodation and travel home, and not only the tuition fee. Ask for everything in writing.",
+      },
+      { kind: 'h2', text: "A middle path" },
+      {
+        kind: 'p',
+        text: "Some families start with a short visit or trial period before committing. Others choose online classes for the first months and move to Pune later. BuzzyBrains Academy offers classroom batches in Amanora, Hadapsar and online options, along with a residential option for outstation students. Contact us for current details.",
+      },
+      { kind: 'h2', text: "Do not skip the conversation" },
+      {
+        kind: 'p',
+        text: "Whatever you choose, talk to your child first. A student who has agreed to the plan does better than one who was sent. Our guide to [JEE coaching vs self-study](/blog/jee-coaching-vs-self-study-how-to-choose) can help you think about the larger decision.",
+      },
+    ],
+    faq: [
+      {
+        question: "At what age should a student move away for coaching?",
+        answer: "There is no single age. Readiness matters more, including emotional maturity, discipline and willingness. Many families wait until Class 11 or later.",
+      },
+      {
+        question: "Can a student switch from residential to day coaching?",
+        answer: "It depends on the institute's rules. Ask before enrolling what happens if the arrangement does not suit your child.",
+      },
+      {
+        question: "Is residential coaching better for results?",
+        answer: "Not automatically. Results depend on teaching quality, practice and consistency. A residential setting helps only if it supports a good routine.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-verify-iitian-faculty-claims-questions-to-ask-a-coaching-institute",
+    title: "How to Verify 'IITian Faculty' Claims: Ten Questions to Ask a Coaching Institute",
+    description:
+      "Many coaching institutes advertise IITian faculty. Here are ten practical questions parents can ask to find out who will actually teach their child, what the credentials are and what to check before paying.",
+    category: 'iit-jee',
+    datePublished: '2026-11-25',
+    readingMinutes: 7,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose', label: 'Best Residential Coaching in Pune: How to Choose' },
+      { href: '/blog/residential-coaching-in-pune-parent-checklist-safety-routine-and-communication', label: 'Residential Coaching Parent Checklist' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Ask who will teach your child by name, which IIT and degree they have, whether they teach regular classes, how long they have taught, how many students are in the batch, what happens if a teacher leaves, and whether you can attend a demo class. A good institute answers these directly. Be cautious if answers are vague or only about the founder.",
+      },
+      { kind: 'h2', text: "Why this matters" },
+      {
+        kind: 'p',
+        text: "The label IITian is a strong marketing word. It does not tell you whether the person teaches your child's class, whether they teach the subject they studied or whether they are good at explaining. Verification protects your money and your child's year.",
+      },
+      { kind: 'h2', text: "Ten questions to ask" },
+      {
+        kind: 'table',
+        headers: ['#', 'Question', 'Why ask it'],
+        rows: [
+          ['1', 'Who will teach my child, for each subject?', 'Names, not "our team"'],
+          ['2', 'Which IIT and which degree and year?', 'Checks the claim is specific'],
+          ['3', 'Do they take regular classes, or only occasional sessions?', 'Guest lectures are not the same as teaching'],
+          ['4', 'How long have they been teaching?', 'Teaching experience matters beyond the degree'],
+          ['5', 'What is the actual batch size?', 'Ask for the number in the batch your child will join'],
+          ['6', 'How are doubts handled, and by whom?', 'Support beyond the classroom'],
+          ['7', 'How often are tests held, and who reviews them?', 'Feedback is where improvement happens'],
+          ['8', 'What happens if a teacher leaves mid-year?', 'Continuity of teaching'],
+          ['9', 'Can we attend a demo class?', 'See the teaching for yourself'],
+          ['10', 'Can we speak to current parents?', 'Honest feedback, not brochures'],
+        ],
+      },
+      { kind: 'h2', text: "What a clear answer looks like" },
+      {
+        kind: 'p',
+        text: "At BuzzyBrains Academy, for example, the founder Dilip Sir holds a B.Tech from IIT Kanpur and an MBA from IIM Ahmedabad, ranked AIR 400 in JEE, and has over 25 years of teaching experience, with each subject taught by a subject-specific faculty member. You should expect that level of specificity from any institute, and you can see it on our [best JEE coaching in Pune page](/best-jee-coaching-institute-in-pune).",
+      },
+      { kind: 'h2', text: "Red flags" },
+      {
+        kind: 'ul',
+        items: [
+          "Faculty names and credentials are missing from the website.",
+          "Only one famous name is shown, and nobody else.",
+          "Batch sizes are 'limited' without a number.",
+          "Pressure to pay quickly, with no demo class.",
+          "Results quoted without context, such as the starting level or the batch size.",
+        ],
+      },
+      { kind: 'h2', text: "Check the results too" },
+      {
+        kind: 'p',
+        text: "Ask how results were counted. A rank by a student who joined for one short test series is not the same as a student who studied for two years. Specific, honest answers are a good sign.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is an IIT degree enough to be a good teacher?",
+        answer: "No. It shows subject mastery, but teaching is a separate skill. Look for experience, clarity and the way students are supported.",
+      },
+      {
+        question: "Can I verify a faculty member's degree?",
+        answer: "You can ask for the details and speak to the faculty member directly. A serious institute will not mind. Cross-check anything that sounds unusual.",
+      },
+      {
+        question: "Why does batch size matter for IITian faculty?",
+        answer: "In a very large batch, even excellent faculty cannot give individual attention. Small batches let them see where each student is stuck.",
+      },
+    ],
+  },
+  {
+    slug: "residential-coaching-in-pune-parent-checklist-safety-routine-and-communication",
+    title: "Residential Coaching in Pune: A Parent's Checklist for Safety, Routine and Communication",
+    description:
+      "What to check before sending your child to residential coaching in Pune: safety, supervision, daily routine, food, health, study environment and how you will stay in touch. A practical checklist for your visit.",
+    category: 'iit-jee',
+    datePublished: '2026-11-25',
+    readingMinutes: 8,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose', label: 'Best Residential Coaching in Pune: How to Choose' },
+      { href: '/blog/how-to-verify-iitian-faculty-claims-questions-to-ask-a-coaching-institute', label: 'How to Verify IITian Faculty Claims' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Before you commit to residential coaching, visit in person and check six things: safety and supervision, the daily routine, food and health arrangements, the study environment, how parents are kept informed, and what the exit and refund rules are. Ask for everything in writing, and talk to current parents.",
+      },
+      { kind: 'h2', text: "1. Safety and supervision" },
+      {
+        kind: 'ul',
+        items: [
+          "Who is responsible for students outside class hours, and how can you reach them?",
+          "Are there clear rules for entry, visitors and going out?",
+          "What happens if a student is unwell or has an emergency at night?",
+          "Is there a counselling or mentoring contact for homesickness and stress?",
+        ],
+      },
+      { kind: 'h2', text: "2. The daily routine" },
+      {
+        kind: 'p',
+        text: "Ask for the real timetable. A sensible routine balances classes, self-study, revision, meals, exercise and sleep. The sample below is only an illustration of the balance to look for, not any institute's schedule.",
+      },
+      {
+        kind: 'table',
+        headers: ['Block', 'Purpose'],
+        rows: [
+          ['Morning', 'Classes and concept work'],
+          ['Afternoon', 'Meals, rest and self-study'],
+          ['Evening', 'Practice, doubt sessions and tests'],
+          ['Night', 'Revision, wind-down and a fixed sleep time'],
+        ],
+      },
+      { kind: 'h2', text: "3. Food and health" },
+      {
+        kind: 'ul',
+        items: [
+          "Is the food prepared hygienically, and does it suit your child's needs?",
+          "How are health issues handled, and where is the nearest doctor or hospital?",
+          "Is there a plan for illness during exams?",
+        ],
+      },
+      { kind: 'h2', text: "4. The study environment" },
+      {
+        kind: 'ul',
+        items: [
+          "A quiet place to study, with fixed hours.",
+          "Reasonable rules about phones and screens.",
+          "A way to get doubts solved outside class hours.",
+        ],
+      },
+      { kind: 'h2', text: "5. Communication with parents" },
+      {
+        kind: 'p',
+        text: "Ask how often you will receive updates on attendance, test scores and well-being, and who calls you if something is wrong. Regular, honest communication is more valuable than a promise that everything is fine.",
+      },
+      { kind: 'h2', text: "6. Fees, exit and refunds" },
+      {
+        kind: 'ul',
+        items: [
+          "A written breakdown of tuition and living costs.",
+          "Clear terms if your child wants to leave or switch.",
+          "No hidden charges for materials, tests or events.",
+        ],
+      },
+      { kind: 'h2', text: "Visit and ask" },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy has a residential option for outstation students, in addition to its classroom batches in Amanora, Hadapsar. Contact us for current arrangements and to arrange a visit, and use this checklist with every institute you consider.",
+      },
+    ],
+    faq: [
+      {
+        question: "Should my child visit the place before joining?",
+        answer: "Yes, ideally with you. A visit tells you more than any brochure, and the staff's answers to your questions will be telling.",
+      },
+      {
+        question: "How often should we speak to our child?",
+        answer: "Agree a regular rhythm, such as a short call on set days, so your child has support without feeling watched. Adjust around tests.",
+      },
+      {
+        question: "What if my child is unhappy after joining?",
+        answer: "Speak to the mentor or counsellor early, give it a fair chance and know the exit rules from the start.",
+      },
+    ],
+  },
+  {
+    slug: "why-pune-for-jee-neet-and-olympiad-coaching-a-city-guide-for-outstation-students",
+    title: "Why Pune for JEE, NEET and Olympiad Coaching? A City Guide for Outstation Students",
+    description:
+      "Moving to Pune for coaching? A practical city guide for students from other states: why families choose Pune, how to get here, what to expect from daily life and how to settle in so preparation comes first.",
+    category: 'iit-jee',
+    datePublished: '2026-11-25',
+    readingMinutes: 7,
+    relatedProgramHref: '/12th-board-pcm',
+    relatedProgramLabel: 'IIT-JEE Program',
+    relatedGuides: [
+      { href: '/blog/best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose', label: 'Best Residential Coaching in Pune: How to Choose' },
+      { href: '/blog/residential-vs-day-coaching-in-pune-which-is-right-for-your-child', label: 'Residential vs Day Coaching in Pune' },
+    ],
+    body: [
+      {
+        kind: 'answer',
+        text: "Families choose Pune for coaching because it is a long-established education city with many schools, colleges and coaching options, good rail, road and air connections, a student-friendly culture and a more manageable pace than some larger metros. For outstation students, the keys to a good year are choosing the right institute, a supervised place to live and a steady routine.",
+      },
+      { kind: 'h2', text: "Why Pune" },
+      {
+        kind: 'ul',
+        items: [
+          "A deep education ecosystem, with many colleges, schools and coaching institutes.",
+          "Good connections by rail, road and air from many parts of the country.",
+          "A student-friendly city where young people from many states live and study.",
+          "A moderate climate for most of the year, which helps with long study hours.",
+        ],
+      },
+      { kind: 'h2', text: "Choose the institute first, the place second" },
+      {
+        kind: 'p',
+        text: "The institute decides your child's year, so choose it before choosing where to live. Compare faculty, batch size, tests and results. Our guide to [choosing residential coaching with IITian faculty](/blog/best-residential-coaching-in-pune-with-iitian-faculty-how-to-choose) lists the questions to ask.",
+      },
+      { kind: 'h2', text: "Location matters" },
+      {
+        kind: 'p',
+        text: "Living close to the institute saves travel time, which adds up over a year. BuzzyBrains Academy is in Amanora, Hadapsar. Ask any institute where students live, how long the commute is and how students travel.",
+      },
+      { kind: 'h2', text: "Settling in during the first month" },
+      {
+        kind: 'table',
+        headers: ['Week', 'Focus'],
+        rows: [
+          ['1', 'Move in, learn the route, meet mentors and fix the daily timetable'],
+          ['2', 'Start classes, take a diagnostic test and set study blocks'],
+          ['3', 'Build habits: sleep, meals, exercise and a weekly call home'],
+          ['4', 'Review the first test results and adjust the plan'],
+        ],
+      },
+      { kind: 'h2', text: "Language and food" },
+      {
+        kind: 'p',
+        text: "Pune is a cosmopolitan city, and students from many states manage well. Ask the institute which language classes are taught in and whether doubts can be cleared in a language your child is comfortable with. Ask about food options that match your child's preferences too, since good, regular meals help study stamina.",
+      },
+      { kind: 'h2', text: "Keep a home connection" },
+      {
+        kind: 'p',
+        text: "Plan regular calls and a visit schedule around tests and holidays. Students who feel connected to family tend to cope better with pressure.",
+      },
+      { kind: 'h2', text: "Next step" },
+      {
+        kind: 'p',
+        text: "If you are considering Pune, contact BuzzyBrains Academy to talk about batches, faculty and the residential option for outstation students, and to arrange a visit or a demo class.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Pune a good city for JEE and NEET preparation?",
+        answer: "Many families think so, because of its education ecosystem, connectivity and student-friendly environment. What matters most is the quality of the institute and the routine you build.",
+      },
+      {
+        question: "What should outstation students ask about language?",
+        answer: "Ask which language classes are taught in, and whether doubt sessions are available in a language your child is comfortable with. Do this before enrolling.",
+      },
+      {
+        question: "When should an outstation student arrive?",
+        answer: "A few weeks before classes begin is ideal, so your child can settle in, learn the routes and start with a clear mind.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
