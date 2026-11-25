@@ -3,15 +3,15 @@ import { ProgramJsonLd } from "../../components/JsonLd";
 import { buildLanguageAlternates } from "@/lib/seo/hreflang";
 
 export const metadata: Metadata = {
-  title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
-  description: "Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
+  title: "Elite Foundation Program (Grades 6-10), Min. 80% to Apply | BuzzyBrains Academy",
+  description: "An elite, merit-based program: minimum 80% marks required to apply, limited seats. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
   alternates: {
     canonical: "https://buzzybrainsacademy.com/foundation",
     languages: buildLanguageAlternates("https://buzzybrainsacademy.com/foundation"),
   },
   openGraph: {
-    title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
-    description: "IITian Mentorship. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
+    title: "Elite Foundation Program (Grades 6-10), Min. 80% to Apply | BuzzyBrains Academy",
+    description: "IITian Mentorship. Elite, merit-based program: minimum 80% marks to apply. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
     url: "https://buzzybrainsacademy.com/foundation",
     type: "website",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Foundation Program (Grades 6-10) | BuzzyBrains Academy",
-    description: "IITian Mentorship. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
+    title: "Elite Foundation Program (Grades 6-10), Min. 80% to Apply | BuzzyBrains Academy",
+    description: "IITian Mentorship. Elite, merit-based program: minimum 80% marks to apply. Build strong academic foundations with expert guidance from IITian mentors. Personalized learning paths, advanced concepts and proven results for Grades 6-10.",
     images: ["https://buzzybrainsacademy.com/images/foundation.jpg"],
   },
 };
@@ -41,7 +41,7 @@ export default function FoundationLayout({
       <ProgramJsonLd
         type="Course"
         name="Foundation Program (Grades 6-10)"
-        description="Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results."
+        description="An elite, merit-based program: minimum 80% marks required to apply, limited seats. Build strong academic foundations with expert guidance from IITian mentors. Premium Foundation coaching for Grades 6-10 with personalized learning paths, advanced concepts, and proven results."
         path="/foundation"
       />
       {children}

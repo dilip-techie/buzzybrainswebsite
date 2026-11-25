@@ -81,14 +81,14 @@ export default function EliteBatchBanner({
             <Star size={14} fill="#FBBF24" aria-hidden="true" /> ELITE BATCH
           </span>
           <h2 style={{ margin: '12px 0 10px', color: '#1F2937', fontSize: 'clamp(24px,3.4vw,34px)', lineHeight: 1.2, fontWeight: 800 }}>
-            {program} Elite Batches: <span style={{ color: '#B91C1C' }}>minimum 80% marks required</span>
+            Elite {program} Program: <span style={{ color: '#B91C1C' }}>minimum 80% marks required to apply</span>
           </h2>
           <p style={{ margin: '0 0 16px', color: '#374151', fontSize: 16, lineHeight: 1.55 }}>
-            Our {program} batches are Elite batches for high-achieving students. Admission needs a minimum of 80% marks
-            in school exams, and seats are limited, so apply early to secure your place.
+            Our {program} program is a truly elite, merit-based program for high-achieving students. A minimum of 80% marks
+            is required to apply, and seats are limited, so apply early to secure your place.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-            <span style={pill}><Award size={18} color="#B91C1C" aria-hidden="true" /> Min. 80% marks to join</span>
+            <span style={pill}><Award size={18} color="#B91C1C" aria-hidden="true" /> Min. 80% marks to apply</span>
             <span style={pill}><Users size={18} color="#B91C1C" aria-hidden="true" /> Max 12 students per batch</span>
             <span style={pill}><Star size={18} color="#B91C1C" aria-hidden="true" /> Limited seats</span>
           </div>

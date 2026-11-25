@@ -78,7 +78,7 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/sof-olympiads#commerce', label: 'Commerce Olympiad' },
       { href: '/sof-olympiads#financial-literacy', label: 'Financial Literacy Olympiad' },
       { href: '/sof-olympiads#economics', label: 'Economics Olympiad' },
-      { href: '/olympiads', label: 'All Olympiads Overview' },
+      { href: '/olympiads', label: 'Elite Olympiad Program — Overview' },
     ],
   },
   {
@@ -100,7 +100,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     column: 1,
     items: [
       { href: '/top-rankers-program', label: 'Top Rankers Program — JEE & NEET' },
-      { href: '/foundation', label: 'Foundation (Grades 6–10)' },
+      { href: '/foundation', label: 'Elite Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
@@ -171,7 +171,7 @@ const STRIP_MESSAGES: { text: string; live?: boolean; isNew?: boolean; href: str
   { text: '✅ Maximum Batch Size: 12 Students', href: '/admissions' },
   { text: '✅ Personal Attention Guaranteed', href: '/admissions' },
   { text: '⭐ Consistently Rated #1 by Parents and Students', href: 'https://www.google.com/search?q=BuzzyBrains+Academy+Google+Reviews', external: true },
-  { text: '🏆 Olympiad Batches Open', href: '/olympiads' },
+  { text: '🏆 Elite Olympiad Batches Open · Min. 80% to Apply', href: '/olympiads' },
   { text: 'Online & Offline Batches', live: true, href: '/admissions' },
   { text: '🧑‍🏫 1-on-1 Classes Available Now', href: '/one-on-one' },
   { text: '📍 Available Near Amanora Mall, Pune', href: 'https://maps.app.goo.gl/gANY66SQFDgVajtf8', external: true },
