@@ -47,7 +47,7 @@ export default function IoqmCoachingPunePage() {
           { label: 'Geometry', color: '#F59E0B' },
           { label: 'Combinatorics', color: '#10B981' },
         ]}
-        ctaLabel="Book Free Demo"
+        ctaLabel="Apply Now: Limited Seats"
         secondaryHref="#oly-topics"
         secondaryLabel="Explore the Syllabus"
         proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}
@@ -132,7 +132,7 @@ export default function IoqmCoachingPunePage() {
         title="IOQM 2027 batches are open — reserve your seat."
         subtitle="Batches are capped at 12 students and fill on a first-come basis. Book a free demo class today — no cost, no obligation."
       />
-      <StickyCTA label="IOQM 2027 Batch Open — Book Free Demo" />
+      <StickyCTA label="IOQM 2027 Elite Batch · Apply Early, Limited Seats" />
     </main>
   );
 }

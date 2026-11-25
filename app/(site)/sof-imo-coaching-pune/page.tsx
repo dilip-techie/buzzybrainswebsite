@@ -42,7 +42,7 @@ export default function SofImoCoachingPunePage() {
           { label: 'General Knowledge', color: '#7C3AED' },
           { label: 'Social Studies', color: '#DB2777' },
         ]}
-        ctaLabel="Book Free Demo"
+        ctaLabel="Apply Now: Limited Seats"
         secondaryHref="#oly-exams"
         secondaryLabel="Explore the SOF Exams"
         proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}

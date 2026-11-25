@@ -39,7 +39,7 @@ export default function Amc810CoachingPunePage() {
           { label: 'Number Theory', color: '#F59E0B' },
           { label: 'Counting & Probability', color: '#10B981' },
         ]}
-        ctaLabel="Book Free Demo"
+        ctaLabel="Apply Now: Limited Seats"
         secondaryHref="#oly-tracks"
         secondaryLabel="Explore AMC 8 & 10"
         proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}

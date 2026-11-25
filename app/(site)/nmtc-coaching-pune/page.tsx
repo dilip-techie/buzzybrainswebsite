@@ -39,7 +39,7 @@ export default function NmtcCoachingPunePage() {
           { label: 'Junior', color: '#F59E0B' },
           { label: 'Inter & Senior', color: '#7C3AED' },
         ]}
-        ctaLabel="Book Free Demo"
+        ctaLabel="Apply Now: Limited Seats"
         secondaryHref="#oly-levels"
         secondaryLabel="Explore the Levels"
         proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}

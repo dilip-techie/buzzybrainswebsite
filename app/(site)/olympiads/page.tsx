@@ -83,6 +83,10 @@ const HIGHLIGHTS = [
 
 const FAQS = [
   {
+    question: 'Who can apply for the Elite Olympiad Program?',
+    answer: 'The Olympiad Program is an elite, merit-based program. A minimum of 80% marks is required to apply. Batches are capped at 12 students and seats are limited, so we recommend applying early to secure a place.',
+  },
+  {
     question: 'Which olympiad should my child start with?',
     answer: 'For most students, IOQM (Maths) or NSO (general Science, junior level) are the natural entry points — both have a clear preparation path and feed into more advanced national and international olympiads.',
   },
@@ -131,8 +135,8 @@ export default function OlympiadsPage() {
         <div className="container center">
           <FreeDiagnosticBadge exam="Olympiad" />
           <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
-          <span className="eyebrow">🏆 Olympiad Program · Grades 4–12</span>
-          <h1>Olympiad Excellence, <span className="grad">Every Subject.</span></h1>
+          <span className="eyebrow">🏆 Elite Olympiad Program · Grades 4–12</span>
+          <h1>The Elite Olympiad Program, <span className="grad">Every Subject.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             One structured program across <strong style={{ color: 'var(--blue)' }}>Mathematics, Physics, Chemistry, Biology, Science and Coding</strong> —
             mentored by IIT/IIM alumni faculty for India&apos;s and the world&apos;s most prominent olympiads.
@@ -140,6 +144,9 @@ export default function OlympiadsPage() {
           <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             From IOQM and RMO to IMO, IPhO, IChO, IBO and IOI — we prepare students for the exams that matter.
           </p>
+            <p style={{ margin: '0 auto 22px', maxWidth: 680, padding: '12px 16px', borderRadius: 12, background: '#FEF3C7', border: '1px solid #F59E0B', color: '#78350F', fontSize: 15.5, fontWeight: 600 }}>
+              ⭐ <strong>Admission by merit:</strong> a minimum of <strong style={{ color: '#B91C1C' }}>80% marks is required to apply</strong>. Seats are limited, so apply early to secure your place.
+            </p>
 
           <div className="hero-chips" style={{ justifyContent: 'center' }}>
             {SUBJECTS.map((s) => (
@@ -151,7 +158,7 @@ export default function OlympiadsPage() {
 
           <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
-              Book Free Demo
+              Apply Now: Limited Seats
               <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost">
@@ -288,14 +295,14 @@ export default function OlympiadsPage() {
       {/* ============ FINAL CTA ============ */}
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
-          <h2 style={{ marginBottom: 14 }}>Ready to Start the Olympiad Journey?</h2>
+          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Elite Program · Min. 80% to Apply · Limited Seats</span>
+          <h2 style={{ marginBottom: 14 }}>Apply Early to Secure Your Seat</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
-            Book a free diagnostic session and we&apos;ll map the right competitions and timeline for your child.
+            The Elite Olympiad Program admits students with a minimum of 80% marks, in batches of just 12. Book a free diagnostic and apply early, as seats fill fast.
           </p>
           <div className="cta-btns" style={{ justifyContent: 'center', marginBottom: 28 }}>
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
-              Book Your Free Consultation <ChevronRight size={19} />
+              Apply Now <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
               <Phone size={17} /> 98505 70525
@@ -310,7 +317,7 @@ export default function OlympiadsPage() {
         onClose={() => setShowCtaModal(false)}
         onFormClick={handleCtaModalForm}
         onWhatsAppClick={handleCtaModalWhatsApp}
-        title="Ready to Enroll? 🏆"
+        title="Apply for the Elite Olympiad Program 🏆"
         subtitle="Choose how you'd like to connect with us"
       />
     </main>

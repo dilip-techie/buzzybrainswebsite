@@ -113,6 +113,10 @@ const SUITABLE_FOR = [
 
 const FAQS = [
   {
+    question: 'Who can apply for the Elite Foundation Program?',
+    answer: 'The Foundation Program is an elite, merit-based program. A minimum of 80% marks is required to apply. Each batch is capped at 12 students and seats are limited, so we recommend applying early to secure a place.',
+  },
+  {
     question: 'What grades and subjects does the Foundation Program cover?',
     answer: 'Grades 6–10, across Mathematics, Physics, Chemistry and Biology — taught concept-first rather than as rote memorization, so the fundamentals hold up under JEE, NEET, Olympiad or board-exam pressure later.',
   },
@@ -155,11 +159,14 @@ export default function FoundationPage() {
           <div className="hero-copy">
             <span className="eyebrow" style={{ background: 'linear-gradient(135deg,#F59E0B,#EA580C)', color: '#fff', marginRight: 8 }}>🎁 Free Scholarship Test · Up to 90% Off</span>
           <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
-          <span className="eyebrow">🌟 Foundation Program · Grades 6–10</span>
-            <h1>Build the <span className="grad">Right Foundation</span></h1>
+          <span className="eyebrow">🌟 Elite Foundation Program · Grades 6–10</span>
+            <h1>The Elite <span className="grad">Foundation Program</span></h1>
             <p className="lede">
               Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
               <strong style={{ color: 'var(--blue)' }}>Dilip Sir (B.Tech, IIT Kanpur)</strong>. Because strong fundamentals today decide tomorrow&apos;s success.
+            </p>
+            <p style={{ margin: '0 0 22px', padding: '12px 16px', borderRadius: 12, background: '#FEF3C7', border: '1px solid #F59E0B', color: '#78350F', fontSize: 15.5, fontWeight: 600 }}>
+              ⭐ <strong>Admission by merit:</strong> a minimum of <strong style={{ color: '#B91C1C' }}>80% marks is required to apply</strong>. Seats are limited, so apply early to secure your place.
             </p>
 
             <div className="hero-chips">
@@ -171,7 +178,7 @@ export default function FoundationPage() {
 
             <div className="hero-ctas">
               <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
-                Unlock Your Child&apos;s Potential
+                Apply Now: Limited Seats
                 <ChevronRight size={19} />
               </button>
               <a href="tel:+919850570525" className="btn btn-ghost">
@@ -343,14 +350,14 @@ export default function FoundationPage() {
       {/* ============ FINAL CTA ============ */}
       <section className="cta bb-section">
         <div className="container center" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
-          <h2 style={{ marginBottom: 14 }}>Ready to Start Your Child&apos;s Journey?</h2>
+          <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Elite Program · Min. 80% to Apply · Limited Seats</span>
+          <h2 style={{ marginBottom: 14 }}>Apply Early to Secure Your Child&apos;s Seat</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
-            Seats fill fast due to small batch sizes. Don&apos;t miss out on your child&apos;s transformation.
+            The Elite Foundation Program admits students with a minimum of 80% marks, and each batch takes only 12 students. Seats fill fast, so apply early.
           </p>
           <div className="cta-btns" style={{ justifyContent: 'center', marginBottom: 28 }}>
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
-              Book Your Free Consultation <ChevronRight size={19} />
+              Apply Now <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
               <Phone size={17} /> 98505 70525
@@ -368,7 +375,7 @@ export default function FoundationPage() {
         onClose={() => setShowCtaModal(false)}
         onFormClick={handleCtaModalForm}
         onWhatsAppClick={handleCtaModalWhatsApp}
-        title="Ready to Enroll? 🎓"
+        title="Apply for the Elite Foundation Program 🎓"
         subtitle="Choose how you'd like to connect with us"
       />
     </main>

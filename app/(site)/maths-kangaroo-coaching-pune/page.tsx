@@ -38,7 +38,7 @@ export default function MathsKangarooCoachingPunePage() {
           { label: 'Benjamin / Cadet', color: '#F59E0B' },
           { label: 'Junior / Student', color: '#7C3AED' },
         ]}
-        ctaLabel="Book Free Demo"
+        ctaLabel="Apply Now: Limited Seats"
         secondaryHref="#oly-levels"
         secondaryLabel="Explore the Levels"
         proofText={<>Trusted by <strong>150+ families</strong> across Pune</>}
