@@ -1,8 +1,20 @@
 import { PillarPage } from '../../components/PillarPage';
+import OfferBanner from '@/components/OfferBanner';
 
 export default function IitJeePillarPage() {
   return (
     <PillarPage
+      offer={
+        <OfferBanner
+        tag="FREE SCHOLARSHIP TEST"
+        title="Take the free JEE scholarship test and win up to 50% off"
+        lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
+        points={['80%+ on the test: 20% scholarship', '90%+ on the test: 40% scholarship', '95%+ on the test: 50% scholarship']}
+        ctaLabel="Book Your Free Scholarship Test"
+        href="/admissions"
+        footnote="Scholarship applies to tuition fees as per the tiers on our Admissions page."
+      />
+      }
       eyebrow="IIT JEE Coaching Pune"
       h1={<>IIT JEE Coaching in Pune: A Parent&apos;s Complete Guide</>}
       lede="What actually separates good JEE coaching from average coaching in Pune — batch size, faculty background, and how Main and Advanced prep differ — before you commit to a program."

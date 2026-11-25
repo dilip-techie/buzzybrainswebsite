@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 import { Atom, GraduationCap, Users, Layers, Globe2, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import PhysicsHeroVisual from '@/components/olympiad/PhysicsHeroVisual';
@@ -60,7 +61,7 @@ export default function PhysicsOlympiadCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⚛️ Physics Olympiad Coaching', '📍 Grades 9–12']}
+        badges={['🎁 FREE Physics Olympiad Diagnostic Test', '⚛️ Physics Olympiad Coaching', '📍 Grades 9–12']}
         titleLines={['Master Physics.', 'Compete With']}
         highlight="The World's Best."
         taglineSub="🌍 India's Official Pathway + 4 Olympiads Abroad"
@@ -78,6 +79,14 @@ export default function PhysicsOlympiadCoachingPunePage() {
         visual={<PhysicsHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <OfferBanner
+        tag="100% FREE"
+        title="Take our free Physics Olympiad diagnostic test"
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={['Timed, Physics Olympiad-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection video={PHYSICS_SHORT} />
       <WhyPhysicsOlympiads />
       <IndianPathwayTimeline />

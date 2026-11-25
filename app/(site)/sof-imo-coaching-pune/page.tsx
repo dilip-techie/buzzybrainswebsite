@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 import Link from 'next/link';
 import { Medal, GraduationCap, Users, Layers, ListChecks, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
@@ -27,7 +28,7 @@ export default function SofImoCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
+        badges={['🎁 FREE SOF IMO Diagnostic Test', '⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
         titleLines={['Every SOF Exam.', 'One Confident']}
         highlight="Start."
         taglineSub="🏅 IMO · NSO · IEO · NCO · IGKO · ISSO"
@@ -47,6 +48,14 @@ export default function SofImoCoachingPunePage() {
         visual={<SofHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <OfferBanner
+        tag="100% FREE"
+        title="Take our free SOF IMO diagnostic test"
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={['Timed, SOF IMO-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection />
       <TrackGrid
         id="oly-exams"

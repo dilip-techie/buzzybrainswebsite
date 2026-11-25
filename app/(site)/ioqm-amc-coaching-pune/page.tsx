@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 
 import Hero from '@/components/olympiad/Hero';
 import TrustBar from '@/components/olympiad/TrustBar';
@@ -17,6 +18,14 @@ export default function IoqmAmcCoachingPunePage() {
     <main className="oly-page">
       <Hero />
       <TrustBar />
+      <OfferBanner
+        tag="100% FREE"
+        title="Take our free IOQM / AMC diagnostic test"
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={['Timed, IOQM / AMC-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection />
       <ExamTracks />
       <Roadmap />

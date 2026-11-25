@@ -13,6 +13,7 @@ export interface PillarLink {
 }
 
 export function PillarPage({
+  offer,
   eyebrow,
   h1,
   lede,
@@ -33,6 +34,8 @@ export function PillarPage({
   relatedPosts?: PillarLink[];
   /** Optional YouTube Short shown under the hero. */
   video?: ShortVideo;
+  /** Optional promotional banner rendered right after the hero. */
+  offer?: React.ReactNode;
 }) {
   return (
     <main className="bb-landing bb-page-shell">
@@ -48,6 +51,8 @@ export function PillarPage({
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 640 }}>{lede}</p>
         </div>
       </section>
+
+      {offer}
 
       {video && <ShortVideoSection video={video} />}
 

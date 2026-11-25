@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 import Link from 'next/link';
 import { BookOpen, GraduationCap, Users, Layers, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
@@ -35,6 +36,14 @@ export default function SofOlympiadsPage() {
         exploreLabel="Explore Subject Tracks"
       />
       <TrustBar stats={stats} />
+      <OfferBanner
+        tag="100% FREE"
+        title="Take our free Olympiad diagnostic test"
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={['Timed, Olympiad-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection />
       <TrackGrid
         id="oly-tracks"

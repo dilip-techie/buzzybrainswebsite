@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 import Link from 'next/link';
 import { Atom, GraduationCap, Users, BookOpen, Landmark, Target, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
@@ -31,7 +32,7 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={[`${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
+        badges={[`🎁 FREE ${exam.code} Diagnostic Test`, `${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
         titleLines={exam.titleLines}
         highlight={exam.highlight}
         taglineSub={`🏅 ${exam.code} → ${exam.nextStage} → ${exam.international}`}
@@ -44,6 +45,14 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
         visual={<NseHeroVisual subject={exam.subject} pathway={exam.pathway} />}
       />
       <TrustBar stats={stats} />
+      <OfferBanner
+        tag="100% FREE"
+        title={`Take our free ${exam.code} diagnostic test`}
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={[`Timed, ${exam.code}-style diagnostic`, 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection video={video} />
       <TrackGrid
         id="oly-tracks"
