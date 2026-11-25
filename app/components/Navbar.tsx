@@ -117,6 +117,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/international-boards#ib', label: 'IB (Grades 4–12)' },
       { href: '/ap-exam', label: 'AP Exams (Grades 9–12)' },
       { href: '/sat-exam', label: 'PSAT/SAT Exams (Grades 10–12)' },
+      { href: '/act-exam', label: 'ACT Exam (Grades 10–12)' },
       { href: '/ivy-league-counselling', label: 'Ivy League Counselling (Grades 9–12)' },
       { href: '/online-coaching-for-nri-students', label: 'Online Coaching for NRI Students' },
     ],

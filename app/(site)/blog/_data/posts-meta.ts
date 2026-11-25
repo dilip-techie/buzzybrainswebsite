@@ -731,6 +731,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     description: "An honest comparison of the Digital SAT and the ACT for Indian students applying to US universities — format differences, and how to actually decide, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
     datePublished: "2026-03-28",
+    dateModified: "2026-11-25",
     readingMinutes: 11
   },
   {
@@ -4308,5 +4309,125 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-11-25",
     readingMinutes: 7
+  },
+  {
+    slug: "act-exam-guide-for-indian-students-format-sections-timing",
+    title: "ACT Exam Guide for Indian Students: Format, Sections and Timing",
+    description: "Thinking of taking the ACT for US admissions? A clear guide for Indian students to the Enhanced ACT: sections, number of questions, timing, the optional Science and Writing sections, and who the ACT suits.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-scoring-explained-composite-superscore-and-optional-science",
+    title: "ACT Scoring Explained: Composite, Superscore and the Optional Science Section",
+    description: "How ACT scores work: the 1-36 scale, how the Composite is calculated, what a superscore is, how the STEM score works, and how to decide whether to take the optional Science and Writing sections.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-math-strategy-topics-pacing-and-calculator-tips",
+    title: "ACT Math Strategy: Topics, Pacing and Calculator Tips",
+    description: "A practical strategy for the ACT Math section: what topics appear, how to pace 45 questions in 50 minutes, when to use a calculator, and the mistakes that cost the most points.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-english-and-reading-strategy-how-to-score-higher",
+    title: "ACT English and Reading Strategy: How to Score Higher",
+    description: "How to improve your ACT English and Reading scores: the grammar rules that repeat, how to handle passages under time pressure, and the habits that raise accuracy for Indian students.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-study-plan-12-week-preparation-schedule-for-indian-students",
+    title: "ACT Study Plan: A 12-Week Preparation Schedule for Indian Students",
+    description: "A realistic 12-week ACT study plan for students balancing school: diagnostic test, weekly structure, section focus, full-length practice tests and a final-week routine.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
+  },
+  {
+    slug: "how-to-get-into-the-ivy-league-from-india-complete-guide",
+    title: "How to Get Into the Ivy League from India: A Complete Guide",
+    description: "A complete, honest guide for Indian students and parents on getting into the Ivy League: what admissions officers look for, the parts of the application, timelines and the mistakes to avoid.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 9
+  },
+  {
+    slug: "common-app-personal-statement-guide-for-indian-students",
+    title: "The Common App Personal Statement: A Guide for Indian Students",
+    description: "How to write a Common App personal statement that sounds like you: choosing a topic, structure, tone, common pitfalls for Indian applicants and a revision checklist.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
+  },
+  {
+    slug: "ivy-league-supplemental-essays-why-us-and-why-major",
+    title: "Ivy League Supplemental Essays: Writing \"Why Us\" and \"Why This Major\"",
+    description: "How to approach Ivy League supplemental essays: researching each university, answering \"Why us\" and \"Why this major\" with specifics, managing short word limits and avoiding copy-paste mistakes.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "extracurriculars-for-ivy-league-depth-spike-or-well-rounded",
+    title: "Extracurriculars for the Ivy League: Depth, Spike or Well-Rounded?",
+    description: "What kind of activities impress Ivy League admissions: why depth beats a long list, how to build a spike, how to describe activities on the Common App and examples that fit Indian students.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
+  },
+  {
+    slug: "ivy-league-alumni-interviews-how-to-prepare",
+    title: "Ivy League Alumni Interviews: What to Expect and How to Prepare",
+    description: "How Ivy League alumni interviews work, what interviewers look for, common questions, how to prepare, and what to do if you do not get an interview.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 6
+  },
+  {
+    slug: "building-a-us-college-list-beyond-the-ivy-league-reach-target-safety",
+    title: "Building a US College List: Reach, Target and Safety Beyond the Ivy League",
+    description: "How to build a balanced US college list: understanding reach, target and likely schools, researching fit and cost, and why the Ivy League should be only part of your list.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "ivy-league-application-calendar-for-class-11-and-12-students",
+    title: "Ivy League Application Calendar for Class 11 and 12 Students",
+    description: "A month-by-month calendar for Class 11 and 12 students applying to the Ivy League: tests, essays, recommendations, deadlines and decisions, with a reminder to confirm every date on official sites.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "how-cbse-icse-and-state-board-students-are-evaluated-by-us-universities",
+    title: "How CBSE, ICSE and State Board Students Are Evaluated by US Universities",
+    description: "Do US universities treat CBSE, ICSE, State Board, IGCSE and IB students differently? A clear explanation of transcripts, school profiles, course rigour and how to present your board record.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "summer-programs-and-research-for-ivy-league-aspirants-what-actually-helps",
+    title: "Summer Programs and Research for Ivy League Aspirants: What Actually Helps",
+    description: "Do summer programs help Ivy League applications? How to judge paid programmes, find real research, projects and community work, and what admissions readers value.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "deferred-waitlisted-or-rejected-what-to-do-next-after-us-college-decisions",
+    title: "Deferred, Waitlisted or Rejected: What to Do Next After US College Decisions",
+    description: "What to do if you are deferred, waitlisted or rejected by an Ivy League or other US university: letters of continued interest, updates, deposit decisions and moving forward calmly.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-25",
+    readingMinutes: 6
   }
 ];

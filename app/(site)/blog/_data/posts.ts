@@ -9599,17 +9599,18 @@ export const BLOG_POSTS: BlogPost[] = [
     description: "An honest comparison of the Digital SAT and the ACT for Indian students applying to US universities — format differences, and how to actually decide, from BuzzyBrains Academy, Pune.",
     category: 'sat-exam',
     datePublished: '2026-03-28',
+    dateModified: '2026-11-25',
     readingMinutes: 11,
     relatedProgramHref: '/sat-exam',
     relatedProgramLabel: 'SAT Exam Prep',
     body: [
-      { kind: 'answer', text: "Both the Digital SAT and the ACT are accepted by US universities that consider standardized test scores, and neither is universally \"better\" — the Digital SAT is a shorter, fully adaptive, calculator-inclusive exam, while the ACT is a longer, fixed-difficulty exam that includes a dedicated Science section and tends to move at a faster question-by-question pace. The right choice depends on a student's specific strengths (adaptive-format comfort versus consistent fast-paced content recall) more than any general reputation either exam has." },
+      { kind: 'answer', text: "Both the Digital SAT and the ACT are accepted by US universities that consider standardized test scores, and neither is universally \"better\" — the Digital SAT is a shorter, fully adaptive, calculator-inclusive exam, while the ACT is a fixed-difficulty exam with English, Math and Reading at its core, an optional Science section, and tends to move at a faster question-by-question pace. The right choice depends on a student's specific strengths (adaptive-format comfort versus consistent fast-paced content recall) more than any general reputation either exam has." },
       { kind: 'h2', text: "Key Takeaways" },
       {
         kind: 'ul',
         items: [
         "Both exams are widely accepted by US universities that consider standardized test scores — neither is universally preferred.",
-        "The Digital SAT is adaptive and shorter; the ACT is fixed-difficulty, longer, and includes a dedicated Science section.",
+        "The Digital SAT is adaptive and shorter; the ACT is fixed-difficulty, with Science now an optional section.",
         "ACT's pace is generally faster question-by-question, rewarding quick, confident recall over deliberation.",
         "A student's comfort with adaptive-format strategy versus consistent, fast content-based pacing should drive the decision.",
         "Taking an official practice test for each is the most reliable way to compare personal fit, rather than general reputation.",
@@ -9620,9 +9621,9 @@ export const BLOG_POSTS: BlogPost[] = [
       { kind: 'h2', text: "Who Should Read This" },
       { kind: 'p', text: "This guide is for Indian students and families deciding between the Digital SAT and the ACT for US university applications." },
       { kind: 'h2', text: "How the Two Exams Are Structurally Different" },
-      { kind: 'p', text: "The Digital SAT is a shorter, fully adaptive exam (Reading & Writing and Math, each in two modules) taken via the Bluebook app, with a calculator allowed throughout Math. The ACT is a longer, fixed-difficulty exam covering English, Math, Reading, and Science, with an optional Writing section at some administrations — every question carries the same weight regardless of a student's performance on earlier questions, unlike the Digital SAT's adaptive structure." },
-      { kind: 'h2', text: "The ACT's Distinct Science Section" },
-      { kind: 'p', text: "A genuinely distinguishing feature of the ACT is its dedicated Science section, which tests data interpretation, experimental reasoning and scientific reading rather than deep subject-matter science knowledge — students comfortable quickly reading graphs, tables and experimental setups often find this section more approachable than its name suggests, while students who find rapid data interpretation stressful may prefer the Digital SAT's absence of a dedicated science section entirely." },
+      { kind: 'p', text: "The Digital SAT is a shorter, fully adaptive exam (Reading & Writing and Math, each in two modules) taken via the Bluebook app, with a calculator allowed throughout Math. The current (Enhanced) ACT is a fixed-difficulty exam with three core sections, English, Math and Reading, plus optional Science and Writing sections — every question carries the same weight regardless of a student's performance on earlier questions, unlike the Digital SAT's adaptive structure." },
+      { kind: 'h2', text: "The ACT's Optional Science Section" },
+      { kind: 'p', text: "A distinguishing feature of the ACT is its Science section, now optional, which tests data interpretation, experimental reasoning and scientific reading rather than deep subject-matter science knowledge — students comfortable quickly reading graphs, tables and experimental setups often find this section more approachable than its name suggests, while students who find rapid data interpretation stressful can skip it, since Science does not count toward the ACT Composite in the current format. Check whether your target programmes expect it." },
       { kind: 'h2', text: "Pacing: Adaptive Strategy vs Consistent Speed" },
       { kind: 'p', text: "The Digital SAT's adaptive module system rewards careful, accurate module 1 performance and strategic awareness of how that shapes module 2. The ACT's fixed-difficulty, faster overall pace rewards consistent, confident speed across the whole exam without the strategic module considerations — a genuinely different kind of pressure that suits different students." },
       { kind: 'h2', text: "A Practical Way to Decide" },
@@ -9631,7 +9632,7 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
         "Take one official, full-length practice test for each exam under real timed conditions — this is far more informative than researching general reputations.",
         "Compare not just the raw practice scores, but which exam's pacing and question style felt more natural and less stressful.",
-        "If genuinely strong in fast, confident data interpretation, weigh the ACT's Science section as a potential advantage rather than a deterrent.",
+        "If genuinely strong in fast, confident data interpretation, consider taking the ACT's optional Science section to show that strength.",
         "Confirm that target universities accept both exams equally (most that consider testing do), rather than assuming one is preferred.",
         ],
       },
@@ -9647,13 +9648,13 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       { kind: 'h2', text: "Expert Tips from BuzzyBrains Academy Faculty" },
-      { kind: 'p', text: "While BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT specifically, founder **Dilip Sah** (IIT Kanpur alumnus, **25+ years of mentoring experience**) encourages families to make this choice deliberately:" },
+      { kind: 'p', text: "BuzzyBrains Academy coaches both the [Digital SAT](/sat-exam) and the [ACT](/act-exam), and founder **Dilip Sah** (IIT Kanpur alumnus, **25+ years of mentoring experience**) encourages families to make this choice deliberately:" },
       {
         kind: 'ul',
         items: [
         "**Families are encouraged to take an official practice test for both exams** before committing significant preparation time to either.",
         "**The decision is framed around genuine personal fit** — adaptive strategy versus consistent fast pacing — rather than general reputation.",
-        "**Small batches (max 12 students)** allow BuzzyBrains Academy's SAT-focused coaching to give the kind of individual attention this decision, and the subsequent preparation, benefits from.",
+        "**Small batches (max 12 students)** allow BuzzyBrains Academy's SAT and ACT coaching to give the kind of individual attention this decision, and the subsequent preparation, benefits from.",
         ],
       },
       { kind: 'h2', text: "Recommended Resources" },
@@ -9672,13 +9673,13 @@ export const BLOG_POSTS: BlogPost[] = [
         rows: [
         ["Format", "Adaptive, module-based", "Fixed-difficulty, linear"],
         ["Length", "Shorter overall", "Longer overall"],
-        ["Science section", "None", "Dedicated Science section (data interpretation and reasoning)"],
+        ["Science section", "None", "Optional Science section (data interpretation and reasoning)"],
         ["Calculator on Math", "Allowed throughout", "Allowed throughout"],
         ["Pacing style", "Strategic, module-aware", "Consistent, fast, question-by-question"],
         ],
       },
       { kind: 'h2', text: "Conclusion" },
-      { kind: 'p', text: "The SAT-versus-ACT decision is genuinely a matter of personal fit, not one exam being broadly superior to the other — the Digital SAT's adaptive, calculator-inclusive format suits some students, while the ACT's consistent pace and distinct Science section suits others. Taking an official practice test for each, rather than defaulting to whichever exam is more commonly discussed, is the most reliable way for a family to make this decision well." },
+      { kind: 'p', text: "The SAT-versus-ACT decision is genuinely a matter of personal fit, not one exam being broadly superior to the other — the Digital SAT's adaptive, calculator-inclusive format suits some students, while the ACT's consistent pace and fixed format suits others. Taking an official practice test for each, rather than defaulting to whichever exam is more commonly discussed, is the most reliable way for a family to make this decision well." },
     ],
     faq: [
       {
@@ -49474,6 +49475,2165 @@ export const BLOG_POSTS: BlogPost[] = [
         answer: "A few weeks before classes begin is ideal, so your child can settle in, learn the routes and start with a clear mind.",
       },
     ],
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-exam-guide-for-indian-students-format-sections-timing",
+    "title": "ACT Exam Guide for Indian Students: Format, Sections and Timing",
+    "description": "Thinking of taking the ACT for US admissions? A clear guide for Indian students to the Enhanced ACT: sections, number of questions, timing, the optional Science and Writing sections, and who the ACT suits.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "The ACT is a standardized test accepted by US universities that consider test scores. The current (Enhanced) ACT has three core sections, English, Math and Reading, with Science and Writing now optional. Each section is scored from 1 to 36, and the Composite is the average of the three core sections. Because the exam has been updated recently, always check act.org for the latest format and dates."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "The ACT is accepted alongside the SAT by US universities that consider standardized tests.",
+          "The core test is English, Math and Reading; Science and Writing are optional.",
+          "Scores run from 1 to 36 per section, and the Composite averages the core sections.",
+          "It is a fixed-difficulty test, not adaptive like the Digital SAT.",
+          "Choose between the ACT and SAT after trying a practice test of each."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What changed in the Enhanced ACT"
+      },
+      {
+        "kind": "p",
+        "text": "ACT has shortened the test and made Science optional. The core test is now shorter than before, with fewer questions per section, and Math questions have four answer choices instead of five. Older prep books and videos may describe the previous version, so check that your materials match the current format."
+      },
+      {
+        "kind": "h2",
+        "text": "The sections at a glance"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Section",
+          "Questions",
+          "Time",
+          "What it tests"
+        ],
+        "rows": [
+          [
+            "English",
+            "50",
+            "35 min",
+            "Grammar, punctuation, sentence structure, style and organisation"
+          ],
+          [
+            "Math",
+            "45",
+            "50 min",
+            "Algebra, functions, geometry, number and quantity, statistics and probability"
+          ],
+          [
+            "Reading",
+            "36",
+            "40 min",
+            "Understanding, inference and evidence in passages across genres"
+          ],
+          [
+            "Science (optional)",
+            "40",
+            "40 min",
+            "Interpreting data, graphs and experiments"
+          ],
+          [
+            "Writing (optional)",
+            "1 essay",
+            "40 min",
+            "Building and supporting an argument"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "These figures reflect ACT's published format at the time of writing. ACT updates its test, so verify them on act.org before you plan."
+      },
+      {
+        "kind": "h2",
+        "text": "How the ACT differs from the Digital SAT"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Adaptive vs fixed:** the Digital SAT adapts its second module to your first; the ACT does not adapt.",
+          "**Sections:** the ACT separates English and Reading, while the SAT combines them as Reading and Writing.",
+          "**Pace:** the ACT generally gives less time per question, so speed and confidence matter.",
+          "**Optional sections:** Science and Writing can be skipped, but some programmes may expect them, so check each university's policy."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Our deeper comparison is in [SAT vs ACT: Which Should Indian Students Take?](/blog/sat-vs-act-which-should-indian-students-take)."
+      },
+      {
+        "kind": "h2",
+        "text": "Who tends to like the ACT"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Students who read quickly and decide quickly.",
+          "Students who are strong at grammar rules and want predictable question types.",
+          "Students who prefer a fixed test without module-to-module adaptation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to decide"
+      },
+      {
+        "kind": "p",
+        "text": "Take one official full-length practice test of each exam under timed conditions, then compare both your scores and how each felt. Do this before you spend months on either."
+      },
+      {
+        "kind": "h2",
+        "text": "Where BuzzyBrains Academy fits"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the ACT accepted by US universities?",
+        "answer": "Yes. US universities that consider standardized test scores generally accept the ACT and the SAT equally. Confirm each target university's policy on its admissions page."
+      },
+      {
+        "question": "Is the ACT Science section still required?",
+        "answer": "In the current Enhanced ACT, Science is optional. Some programmes may still look at it, so check the policy of each university you are applying to."
+      },
+      {
+        "question": "Is the ACT adaptive like the Digital SAT?",
+        "answer": "No. The ACT is a fixed-difficulty test, so every student sees the same style of questions regardless of earlier answers."
+      },
+      {
+        "question": "Does BuzzyBrains Academy coach for the ACT?",
+        "answer": "Yes. BuzzyBrains Academy offers ACT coaching as well as Digital SAT coaching, in batches capped at 12 students. Contact us for current batch details."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-scoring-explained-composite-superscore-and-optional-science",
+    "title": "ACT Scoring Explained: Composite, Superscore and the Optional Science Section",
+    "description": "How ACT scores work: the 1-36 scale, how the Composite is calculated, what a superscore is, how the STEM score works, and how to decide whether to take the optional Science and Writing sections.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Each ACT section is scored from 1 to 36. The Composite score is the average of the English, Math and Reading section scores, rounded to a whole number. If you take the optional Science section, it is reported separately, and a STEM score combines Math and Science. Many universities also superscore, which means they use your best section scores across test dates."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Scores run from 1 to 36 for each section and for the Composite.",
+          "The Composite averages English, Math and Reading.",
+          "Optional Science and Writing are reported separately.",
+          "Superscoring policies differ by university, so check each one.",
+          "A higher score helps most when it is compared to the middle range of admitted students at your target universities."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How the Composite is calculated"
+      },
+      {
+        "kind": "p",
+        "text": "Your raw score in each section (the number of correct answers) is converted to a scaled score from 1 to 36. The Composite is the average of the three core scaled scores, rounded to the nearest whole number. There is no penalty for wrong answers, so you should answer every question."
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Section scores (example)",
+          "Composite"
+        ],
+        "rows": [
+          [
+            "English 33, Math 35, Reading 31",
+            "33 (average 33)"
+          ],
+          [
+            "English 28, Math 30, Reading 27",
+            "28 (average 28.3)"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The STEM score and the optional Science section"
+      },
+      {
+        "kind": "p",
+        "text": "If you take Science, ACT reports a Science score and a STEM score that combines your Math and Science results. Science does not change your Composite in the current format. Whether to take it depends on your intended programme: students applying to engineering or science may want to show data-interpretation skills, while others may prefer to spend their energy on the core sections. Check each university's guidance."
+      },
+      {
+        "kind": "h2",
+        "text": "Superscoring"
+      },
+      {
+        "kind": "p",
+        "text": "A superscore combines your best section scores from different test dates. ACT now provides a superscore report, and many universities calculate one themselves, but policies differ and some use only your highest single sitting. Always read each university's testing policy."
+      },
+      {
+        "kind": "h2",
+        "text": "What counts as a good score"
+      },
+      {
+        "kind": "p",
+        "text": "There is no single good score. The useful comparison is with the middle range of admitted students at each university on your list, which most universities publish. Aim for the middle or upper part of that range. For our guidance on SAT targets, see [What SAT Score Do You Need for Top US Universities?](/blog/what-sat-score-do-you-need-for-top-us-universities); the logic of comparing to a university's published range is the same."
+      },
+      {
+        "kind": "h2",
+        "text": "Converting between ACT and SAT"
+      },
+      {
+        "kind": "p",
+        "text": "ACT and the College Board publish concordance tables that map scores between the exams approximately. Use them to compare practice results, but treat them as estimates rather than exact equivalents."
+      },
+      {
+        "kind": "h2",
+        "text": "Should you retake?"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Retake if your practice scores are clearly above your real score, or one section dragged the Composite down.",
+          "Check whether your target universities superscore before planning a retake around one section.",
+          "Avoid retaking many times without changing your preparation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is the ACT Composite score calculated?",
+        "answer": "It is the average of your English, Math and Reading scaled scores, rounded to the nearest whole number, on a 1 to 36 scale."
+      },
+      {
+        "question": "Does the optional Science score affect my Composite?",
+        "answer": "In the current format, no. Science is reported separately and contributes to a STEM score along with Math."
+      },
+      {
+        "question": "Is there a penalty for wrong answers on the ACT?",
+        "answer": "No. You are not penalised for wrong answers, so answer every question, including the ones you must guess."
+      },
+      {
+        "question": "Do universities superscore the ACT?",
+        "answer": "Many do, but not all. Check each university's testing policy on its admissions page before planning retakes."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-math-strategy-topics-pacing-and-calculator-tips",
+    "title": "ACT Math Strategy: Topics, Pacing and Calculator Tips",
+    "description": "A practical strategy for the ACT Math section: what topics appear, how to pace 45 questions in 50 minutes, when to use a calculator, and the mistakes that cost the most points.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "ACT Math has 45 questions in 50 minutes, so you have a little over a minute per question. The topics are algebra, functions, geometry, number and quantity, and statistics and probability. Success comes from fluency with core school maths, steady pacing and knowing when to skip and return."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "About 1 minute 6 seconds per question on average, so pacing is a skill to train.",
+          "Questions are roughly ordered from easier to harder, so protect time for the early ones.",
+          "There is no penalty for wrong answers, so never leave a blank.",
+          "A calculator is permitted, but good mental maths saves time.",
+          "Check current rules on act.org, including which calculators are allowed."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What the section covers"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Area",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "Algebra",
+            "Linear equations and inequalities, systems, quadratics, exponents"
+          ],
+          [
+            "Functions",
+            "Function notation, graphs, transformations, modelling"
+          ],
+          [
+            "Geometry",
+            "Triangles, circles, area and volume, coordinate geometry, basic trigonometry"
+          ],
+          [
+            "Number and quantity",
+            "Ratios, percentages, number properties, complex numbers at the harder end"
+          ],
+          [
+            "Statistics and probability",
+            "Mean, median, probability, data from tables and charts"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Most Indian students who have studied Class 9 to 11 maths will have seen all of this. The difficulty is speed and accuracy, not unfamiliar content."
+      },
+      {
+        "kind": "h2",
+        "text": "A pacing plan"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Work the first third quickly and accurately, aiming for well under a minute each.",
+          "Spend more time on the middle third, where multi-step problems appear.",
+          "In the last third, pick questions you can solve and skip the ones that need long setups.",
+          "Leave about two minutes to fill in any blanks with an educated guess."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Use the calculator wisely"
+      },
+      {
+        "kind": "p",
+        "text": "Use it for arithmetic-heavy steps and checking, not as a substitute for thinking. Many ACT questions are quicker to solve by reasoning, substituting the answer choices or simplifying algebraically. Practise with the same calculator you will use on test day."
+      },
+      {
+        "kind": "h2",
+        "text": "Techniques that save time"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Backsolve:** test the answer choices in the question when the algebra is messy.",
+          "**Pick numbers:** replace variables with simple values to compare answer choices.",
+          "**Draw it:** sketch geometry problems even when a figure is provided.",
+          "**Estimate:** eliminate choices that are clearly too large or small."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Mistakes that cost points"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Spending three minutes on a hard question early and rushing the end.",
+          "Misreading what is asked, such as solving for x when the question asks for 2x + 1.",
+          "Dropping units or forgetting to convert them.",
+          "Relying on the calculator for steps that are faster mentally."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to practise"
+      },
+      {
+        "kind": "p",
+        "text": "Use official ACT practice material first, do timed sets by topic, then full timed sections. Keep an error log: for each miss, note whether it was a concept gap, a careless slip or a time problem. Fix the most common type first."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many questions are on ACT Math?",
+        "answer": "The current ACT Math section has 45 questions to be completed in 50 minutes, according to ACT's published format. Check act.org for any updates."
+      },
+      {
+        "question": "Can I use a calculator on ACT Math?",
+        "answer": "Yes, an approved calculator is permitted. Check act.org for the current list of allowed models before test day."
+      },
+      {
+        "question": "Is guessing penalised on the ACT?",
+        "answer": "No. There is no penalty for wrong answers, so answer every question."
+      },
+      {
+        "question": "Is ACT Math harder than SAT Math?",
+        "answer": "Neither is universally harder. The ACT tends to feel faster per question, while the Digital SAT is adaptive, so the better fit depends on you. Try practice tests of both."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-english-and-reading-strategy-how-to-score-higher",
+    "title": "ACT English and Reading Strategy: How to Score Higher",
+    "description": "How to improve your ACT English and Reading scores: the grammar rules that repeat, how to handle passages under time pressure, and the habits that raise accuracy for Indian students.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "ACT English gives 50 questions in 35 minutes and mainly tests standard grammar, punctuation and clear writing. ACT Reading gives 36 questions in 40 minutes and rewards fast, evidence-based reading. Both improve quickly with focused practice on repeating question patterns."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "English rewards knowing a short list of rules that repeat in every test.",
+          "Reading rewards finding evidence in the passage rather than relying on opinion.",
+          "Time pressure is the main challenge, so practise with a timer.",
+          "Read widely in English in daily life, since vocabulary and fluency help both sections."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "ACT English: the rules that repeat"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Sentence boundaries:** run-ons, comma splices and fragments.",
+          "**Punctuation:** commas, semicolons, colons and dashes, and how they join clauses.",
+          "**Subject-verb and pronoun agreement.**",
+          "**Verb tense and consistency.**",
+          "**Modifiers:** keeping descriptive phrases next to what they describe.",
+          "**Concision:** the shortest clear option is often correct.",
+          "**Rhetorical skills:** purpose, transitions, adding or deleting a sentence, and organisation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "English tactics"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Read the whole sentence, not just the underlined part.",
+          "If \"NO CHANGE\" sounds right and follows the rules, trust it.",
+          "Eliminate answers that break a grammar rule first, then choose the clearest.",
+          "Spend about 40 seconds a question, and move on if stuck."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "ACT Reading: working with passages"
+      },
+      {
+        "kind": "p",
+        "text": "Reading passages span literary narrative, social science, humanities and natural science. You have a little over a minute per question including time to read, so you need a method and not a leisurely read."
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Skim for the main idea and the purpose of each paragraph first.",
+          "Read the question stems and then locate the relevant lines.",
+          "Choose answers supported by specific words in the passage.",
+          "Beware of answer choices that are true in general but not stated or implied by the passage."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common Reading traps"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Extreme wording such as \"always\" or \"never\".",
+          "Answers that use passage words but change the meaning.",
+          "Choosing from memory instead of rechecking the lines."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Building fluency"
+      },
+      {
+        "kind": "p",
+        "text": "Read long-form English for 20 to 30 minutes a day, such as essays, science writing and quality journalism, and summarise each piece in one sentence. This builds the speed and comprehension that timed sections demand. Our approach to vocabulary in context is covered in [SAT Vocabulary Strategy](/blog/sat-vocabulary-strategy-word-in-context-questions), and the grammar rules overlap heavily with [SAT Grammar Rules](/blog/sat-grammar-rules-standard-english-conventions-guide)."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long is ACT English?",
+        "answer": "According to ACT's published format, English has 50 questions in 35 minutes. Check act.org for the latest details."
+      },
+      {
+        "question": "How can I get faster at ACT Reading?",
+        "answer": "Practise with a timer, skim for structure first, then find evidence for each answer in the passage. Daily reading of long-form English also helps."
+      },
+      {
+        "question": "Are the SAT and ACT grammar rules the same?",
+        "answer": "They overlap heavily, since both test standard written English. The question styles and pacing differ, so practise with ACT-style questions."
+      },
+      {
+        "question": "Do I need a tutor for ACT English?",
+        "answer": "Not necessarily. Many students improve with official practice tests and an error log. A tutor can help if you keep missing the same question types."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-study-plan-12-week-preparation-schedule-for-indian-students",
+    "title": "ACT Study Plan: A 12-Week Preparation Schedule for Indian Students",
+    "description": "A realistic 12-week ACT study plan for students balancing school: diagnostic test, weekly structure, section focus, full-length practice tests and a final-week routine.",
+    "readingMinutes": 8,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A 12-week ACT plan works well for students who already have solid school maths and English: take a diagnostic in week 1, build skills by section in weeks 2 to 8, then take full timed tests and review errors in weeks 9 to 12. Plan 6 to 8 hours a week, and adjust if your school load is heavy."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Start with a full diagnostic so you know your baseline.",
+          "Use official ACT practice material, and make sure it matches the current format.",
+          "Keep an error log and review it every week.",
+          "Take at least three or four full timed tests before the exam.",
+          "Book your test date early and check the registration deadline on act.org."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Before you start"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Decide between the ACT and SAT using a practice test of each. See [SAT vs ACT](/blog/sat-vs-act-which-should-indian-students-take).",
+          "Check your target universities' testing policies and score ranges.",
+          "Choose a test date at least 12 weeks away and confirm it on act.org."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The 12-week plan"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Weeks",
+          "Focus",
+          "Output"
+        ],
+        "rows": [
+          [
+            "1",
+            "Full diagnostic test, review all errors",
+            "Baseline score and weakest areas"
+          ],
+          [
+            "2-3",
+            "English: grammar rules and punctuation",
+            "Timed English sets, error log"
+          ],
+          [
+            "4-5",
+            "Math: algebra, functions and geometry",
+            "Timed Math sets, formula sheet"
+          ],
+          [
+            "6",
+            "Reading: passage method and pacing",
+            "Timed Reading sets"
+          ],
+          [
+            "7",
+            "Optional Science: data interpretation (if you plan to take it)",
+            "Timed Science sets"
+          ],
+          [
+            "8",
+            "Mixed review and a full test",
+            "Test 2, updated plan"
+          ],
+          [
+            "9-10",
+            "Targeted weak areas and speed",
+            "Full test 3, error review"
+          ],
+          [
+            "11",
+            "Full test under exact timing",
+            "Test 4, final fixes"
+          ],
+          [
+            "12",
+            "Light review, rest and logistics",
+            "Confident test day"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A sample week"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "3 weekday sessions of 60 to 90 minutes, each on one section.",
+          "One weekend session for a timed section or a full test.",
+          "One short session to review the error log."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The error log"
+      },
+      {
+        "kind": "p",
+        "text": "For every missed question, record the topic, why you missed it (concept, careless or time) and the rule or method to apply next time. Review the log weekly. Most score gains come from fixing repeated errors."
+      },
+      {
+        "kind": "h2",
+        "text": "The final week"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Do light review only, with no new material.",
+          "Check your registration, ID, approved calculator and test centre route.",
+          "Sleep on a regular schedule.",
+          "On the day, pace yourself and answer every question."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are also preparing for school boards"
+      },
+      {
+        "kind": "p",
+        "text": "Balance matters. Our guide on [balancing SAT prep with IGCSE, IB or CBSE](/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both) applies to the ACT as well. Reduce weekly hours rather than skip weeks, and plan the test date away from major school exams. For timing in general, see [SAT Prep Timeline](/blog/sat-prep-timeline-when-to-start-how-long-it-takes)."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does ACT preparation take?",
+        "answer": "Many students prepare for around 8 to 12 weeks, depending on their baseline, target score and school workload."
+      },
+      {
+        "question": "How many full practice tests should I take?",
+        "answer": "Aim for at least three or four timed, full-length tests, with careful review after each one."
+      },
+      {
+        "question": "Should I take the optional Science section?",
+        "answer": "It depends on your target programmes and universities. Check their guidance, and consider it if you are applying for science or engineering."
+      },
+      {
+        "question": "Can I prepare for the ACT while in Class 11 or 12?",
+        "answer": "Yes, but plan carefully around school exams. Use fewer weekly hours and a longer timeline if needed."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "how-to-get-into-the-ivy-league-from-india-complete-guide",
+    "title": "How to Get Into the Ivy League from India: A Complete Guide",
+    "description": "A complete, honest guide for Indian students and parents on getting into the Ivy League: what admissions officers look for, the parts of the application, timelines and the mistakes to avoid.",
+    "readingMinutes": 9,
+    "relatedGuides": [
+      {
+        "href": "/blog/what-holistic-admissions-review-means-for-indian-students",
+        "label": "What Holistic Admissions Review Means"
+      },
+      {
+        "href": "/blog/building-a-competitive-academic-profile-grade-9-12-roadmap",
+        "label": "Grade 9-12 Academic Profile Roadmap"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Getting into the Ivy League from India requires a very strong academic record, a strong test score where tests are considered, a distinctive set of activities, thoughtful essays and good recommendations, all built over several years. Admission is holistic and highly competitive, with acceptance rates typically in the single digits, so no single score or activity guarantees an offer. A balanced college list and an early start give you the best chance."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "The eight Ivy League universities are Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton and Yale.",
+          "Admission is holistic: grades, tests, essays, activities, recommendations and context are read together.",
+          "Acceptance rates are very low, so build a balanced list that includes other strong universities.",
+          "Start planning in Grade 9 or 10 if you can, but a focused plan helps even in Grade 11.",
+          "There are no guarantees. Be wary of anyone who promises admission."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What the Ivy League looks for"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Component",
+          "What it shows"
+        ],
+        "rows": [
+          [
+            "Academic record",
+            "Course rigour and results in your school curriculum (CBSE, ICSE, IB, IGCSE, A Levels or State Board)"
+          ],
+          [
+            "Standardized tests",
+            "Readiness for demanding coursework, where a university considers scores (SAT or ACT)"
+          ],
+          [
+            "Essays",
+            "Who you are, how you think and why you want this university"
+          ],
+          [
+            "Activities",
+            "Depth, initiative and impact outside the classroom"
+          ],
+          [
+            "Recommendations",
+            "How teachers and counsellors see you in class"
+          ],
+          [
+            "Interview",
+            "A conversation with an alumnus, offered at some universities"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A realistic path, step by step"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Grades 9-10:** build strong fundamentals, explore interests and begin a few serious pursuits.",
+          "**Grade 11:** take your most rigorous courses, prepare for the SAT or ACT, deepen your main activities and build your college list.",
+          "**Summer before Grade 12:** draft essays, finalise tests and confirm deadlines.",
+          "**Grade 12:** submit applications, complete any interviews and compare offers and aid."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Our [Grade 9-12 roadmap](/blog/building-a-competitive-academic-profile-grade-9-12-roadmap) breaks this into yearly goals."
+      },
+      {
+        "kind": "h2",
+        "text": "Tests: SAT or ACT"
+      },
+      {
+        "kind": "p",
+        "text": "Many Ivy League universities have reinstated testing requirements, and policies change, so check each one. Both the SAT and ACT are accepted. Compare them in [SAT vs ACT](/blog/sat-vs-act-which-should-indian-students-take) and see [how SAT scores factor in](/blog/how-sat-scores-factor-into-ivy-league-admissions)."
+      },
+      {
+        "kind": "h2",
+        "text": "Money"
+      },
+      {
+        "kind": "p",
+        "text": "Ivy League universities award need-based aid and do not give athletic or merit scholarships. International applicants should read [need-blind admissions and financial aid](/blog/financial-aid-need-blind-admissions-international-families) early."
+      },
+      {
+        "kind": "h2",
+        "text": "Mistakes to avoid"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Applying only to the Ivy League.",
+          "Collecting many shallow activities instead of a few deep ones.",
+          "Leaving essays to the last month.",
+          "Relying on paid shortcuts or promises of admission."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See [common mistakes Indian students make](/blog/common-mistakes-indian-students-make-applying-ivy-league)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can an Indian student get into the Ivy League?",
+        "answer": "Yes. Each year Indian students are admitted, but the competition is intense, so a strong, well-planned application and a balanced college list matter."
+      },
+      {
+        "question": "What is the minimum SAT score for the Ivy League?",
+        "answer": "There is no official minimum. Check each university's published score range and testing policy rather than relying on a general number."
+      },
+      {
+        "question": "When should I start preparing?",
+        "answer": "Grade 9 or 10 is ideal, but a focused plan can still help if you start in Grade 11."
+      },
+      {
+        "question": "Does the Ivy League give scholarships to Indian students?",
+        "answer": "Ivy League universities offer need-based financial aid. They do not offer merit or athletic scholarships. Confirm the policy for international students on each university's site."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "common-app-personal-statement-guide-for-indian-students",
+    "title": "The Common App Personal Statement: A Guide for Indian Students",
+    "description": "How to write a Common App personal statement that sounds like you: choosing a topic, structure, tone, common pitfalls for Indian applicants and a revision checklist.",
+    "readingMinutes": 8,
+    "relatedGuides": [
+      {
+        "href": "/blog/common-app-vs-coalition-app-international-stem-applicants",
+        "label": "Common App vs Coalition App"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "The Common App personal statement is a single essay, between 250 and 650 words, sent to every university you apply to through the Common App. Admissions officers use it to hear your voice and understand how you think. The best essays are specific, honest and reflective, built around one small story rather than a list of achievements."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Length is 250 to 650 words. Check the current prompts on commonapp.org.",
+          "Your essay should add something your activities list does not.",
+          "Use one specific story and show what you learned.",
+          "Write in your own voice. Admissions readers notice over-polished writing."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Choosing a topic"
+      },
+      {
+        "kind": "p",
+        "text": "Good topics are often small: a habit, a place, a conversation or a problem you could not stop thinking about. You do not need a dramatic event. Ask yourself, what would a reader still remember about me after finishing this essay?"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Weaker approach",
+          "Stronger approach"
+        ],
+        "rows": [
+          [
+            "Listing awards and results",
+            "Telling one moment that shows how you think"
+          ],
+          [
+            "Describing a famous event or person",
+            "Describing your own experience of it"
+          ],
+          [
+            "A moral at the end that tells the reader what to feel",
+            "A reflection that shows growth through detail"
+          ],
+          [
+            "Trying to sound impressive",
+            "Sounding like yourself on a good day"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A simple structure"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Open** with a specific scene or detail, not a general statement.",
+          "**Develop** with what happened and what you did or thought.",
+          "**Reflect** on what changed and how it shapes you now.",
+          "**End** quietly, with a forward look rather than a summary."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Pitfalls for Indian applicants"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Writing about marks and ranks, which the transcript already shows.",
+          "Using very formal, textbook-style language instead of a natural voice.",
+          "Copying sample essays or relying on templates.",
+          "Letting a parent or consultant rewrite the voice."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Revision checklist"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Could only you have written this essay?",
+          "Is every paragraph doing a job?",
+          "Are there specific details rather than adjectives?",
+          "Have you read it aloud and cut anything that sounds unnatural?",
+          "Have you checked grammar and the word count?"
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Plan to write several drafts over weeks, and ask a teacher or trusted reader for feedback on clarity, not for a rewrite. Our timeline is in the [Ivy League application calendar](/blog/ivy-league-application-calendar-for-class-11-and-12-students)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long should the Common App essay be?",
+        "answer": "The essay limit is 650 words and the minimum is 250. Check commonapp.org for the current prompts and limits."
+      },
+      {
+        "question": "Should I write about a big achievement?",
+        "answer": "Not necessarily. A small, specific story that shows how you think often works better than a list of achievements."
+      },
+      {
+        "question": "Can I use AI or a consultant to write my essay?",
+        "answer": "Your essay should be your own work. Getting feedback is fine, but the voice and ideas must be yours, and universities expect honest applications."
+      },
+      {
+        "question": "Does BuzzyBrains edit essays?",
+        "answer": "Our counselling program focuses on academics, testing and planning. This guide offers general advice to help you write your own essay."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-supplemental-essays-why-us-and-why-major",
+    "title": "Ivy League Supplemental Essays: Writing \"Why Us\" and \"Why This Major\"",
+    "description": "How to approach Ivy League supplemental essays: researching each university, answering \"Why us\" and \"Why this major\" with specifics, managing short word limits and avoiding copy-paste mistakes.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/common-app-personal-statement-guide-for-indian-students",
+        "label": "Common App Personal Statement Guide"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Supplemental essays are the extra, university-specific questions beyond the Common App personal statement. The most common are \"Why us?\" and \"Why this major?\". A strong answer connects your genuine interests to specific courses, programmes, people or opportunities at that university, and could not be pasted into another university's application."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Every Ivy League university asks different questions and word limits, so check each one's official page.",
+          "Specificity wins: name real courses, labs, centres, clubs or traditions.",
+          "Link each detail to something you have done or want to do.",
+          "Never reuse an essay with the wrong university name."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Researching a university"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Read the departmental website for your intended major.",
+          "Look at course catalogues and find two or three courses that excite you.",
+          "Find research groups, centres or student projects that fit your interests.",
+          "Note how the curriculum works, such as open curricula or core requirements."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Answering \"Why us?\""
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Generic",
+          "Specific"
+        ],
+        "rows": [
+          [
+            "\"It has a great reputation.\"",
+            "\"The seminar on ... and the lab working on ... connect to the project I built last year.\""
+          ],
+          [
+            "\"The campus is beautiful.\"",
+            "\"The first-year programme that pairs students with ... fits how I learn.\""
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Aim for two or three concrete links, each tied to your own story, then close with what you would contribute."
+      },
+      {
+        "kind": "h2",
+        "text": "Answering \"Why this major?\""
+      },
+      {
+        "kind": "p",
+        "text": "Tell the story of how the interest started, what you did to explore it and what questions you want to answer next. If you are undecided, say so, and show curiosity across fields."
+      },
+      {
+        "kind": "h2",
+        "text": "Short answers"
+      },
+      {
+        "kind": "p",
+        "text": "Many prompts allow only 50 to 250 words. Choose one idea, use plain language and cut anything that does not add information. The activities that matter most to you should show up somewhere in your application, not only in the list."
+      },
+      {
+        "kind": "h2",
+        "text": "Checklist"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Is every detail correct and current?",
+          "Does the essay mention the right university and programme?",
+          "Could another applicant have written it?",
+          "Is it within the word limit?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do all Ivy League universities require supplemental essays?",
+        "answer": "Most ask for supplements, but the number and questions differ. Check each university's admissions page for the current requirements."
+      },
+      {
+        "question": "How specific should \"Why us\" be?",
+        "answer": "Mention a few specific courses, programmes or opportunities and explain why each fits you. Avoid generic praise."
+      },
+      {
+        "question": "Can I reuse an essay for different universities?",
+        "answer": "You may adapt a core idea, but every essay must be tailored to the university. Always check the name and details before submitting."
+      },
+      {
+        "question": "What if I am undecided about my major?",
+        "answer": "That is fine. Show curiosity and explain how the university's curriculum would help you explore."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "extracurriculars-for-ivy-league-depth-spike-or-well-rounded",
+    "title": "Extracurriculars for the Ivy League: Depth, Spike or Well-Rounded?",
+    "description": "What kind of activities impress Ivy League admissions: why depth beats a long list, how to build a spike, how to describe activities on the Common App and examples that fit Indian students.",
+    "readingMinutes": 8,
+    "relatedGuides": [
+      {
+        "href": "/blog/olympiads-vs-research-papers-which-matters-more",
+        "label": "Olympiads vs Research Papers: Which Matters More?"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Ivy League universities look for depth, initiative and impact in activities rather than a long list of memberships. A well-developed area of strength, often called a spike, usually reads better than scattered involvement, but real interest matters more than any label. The goal is a coherent picture of what you care about and what you have done about it."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "A few activities pursued seriously over years beat many shallow ones.",
+          "Impact and growth matter: what changed because of you?",
+          "Activities should reflect real interests, not a checklist.",
+          "The Common App allows up to 10 activities, each with a short description."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Well-rounded or spike?"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Approach",
+          "Strength",
+          "Risk"
+        ],
+        "rows": [
+          [
+            "Well-rounded",
+            "Shows variety and balance",
+            "Can look scattered"
+          ],
+          [
+            "Spike",
+            "Shows depth and distinction",
+            "Can feel narrow if invented"
+          ],
+          [
+            "Rounded class, spiky person",
+            "Many interests with one clear core",
+            "Needs honest time management"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Universities build a diverse class of specialists. Your job is to show who you are, not to guess the perfect profile."
+      },
+      {
+        "kind": "h2",
+        "text": "Building depth over time"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Pick one or two areas that genuinely interest you.",
+          "Move from participation to leadership or creation.",
+          "Start something yourself: a project, a club, a research question, a community initiative.",
+          "Track outcomes, such as people helped, things built or results achieved."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Examples that fit Indian students"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Maths or science competitions, followed by teaching or mentoring younger students.",
+          "Coding projects that solve a local problem, shared publicly.",
+          "Community work with measurable results.",
+          "Writing, music, sports or arts, pursued seriously."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See how competitions compare with research in [Olympiads vs research papers](/blog/olympiads-vs-research-papers-which-matters-more)."
+      },
+      {
+        "kind": "h2",
+        "text": "Writing the activities list"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Use short, concrete verbs.",
+          "Include numbers where honest and relevant.",
+          "Show your role and what you achieved.",
+          "Do not exaggerate. Recommenders and interviewers may ask about anything you list."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common mistakes"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Joining clubs only to fill the list.",
+          "Paying for programmes that give a title but no real work.",
+          "Neglecting grades for activities."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many activities should I list?",
+        "answer": "The Common App allows up to 10. Quality matters more than filling every slot."
+      },
+      {
+        "question": "Do I need a spike to get into the Ivy League?",
+        "answer": "Not necessarily. Depth and genuine interest matter, and a spike is one way to show it."
+      },
+      {
+        "question": "Do Olympiads help?",
+        "answer": "They can show strength and interest in a subject, especially when combined with other work. They are one of many ways to show depth."
+      },
+      {
+        "question": "Can I add activities I started recently?",
+        "answer": "You can, but long-term commitment and growth usually carry more weight than something started just before applying."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-alumni-interviews-how-to-prepare",
+    "title": "Ivy League Alumni Interviews: What to Expect and How to Prepare",
+    "description": "How Ivy League alumni interviews work, what interviewers look for, common questions, how to prepare, and what to do if you do not get an interview.",
+    "readingMinutes": 6,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Many Ivy League universities offer applicants a conversation with an alumnus, usually online or in a public place near you. It is typically informational and friendly, and the interviewer writes a short report. Not every applicant receives an interview, and not being interviewed is not a negative. Prepare to talk honestly about your interests and your reasons for choosing the university."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Interviews are usually conducted by volunteer alumni, and availability varies.",
+          "They are generally a conversation, not an exam.",
+          "The report is one part of a holistic review.",
+          "A missing interview does not count against you. Check each university's policy."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What interviewers look for"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Curiosity and genuine interest.",
+          "How you talk about your activities and what you learned.",
+          "Maturity and kindness.",
+          "Clear reasons for choosing the university."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common questions"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Tell me about yourself.",
+          "What do you enjoy learning about, and why?",
+          "Which activity matters most to you?",
+          "Why this university, and why this field?",
+          "What would you add to our campus?",
+          "Do you have any questions for me?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to prepare"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Review your application so you can discuss anything on it.",
+          "Research the university again: courses, programmes and student life.",
+          "Practise answering aloud, with a friend or mentor.",
+          "Prepare two or three thoughtful questions for the interviewer.",
+          "Test your internet connection and camera for online interviews."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "On the day"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Do",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Be on time and dress neatly",
+            "Memorised, scripted answers"
+          ],
+          [
+            "Give examples and short stories",
+            "Boasting or one-word answers"
+          ],
+          [
+            "Ask genuine questions",
+            "Asking about admission chances"
+          ],
+          [
+            "Send a short thank-you note",
+            "Contacting the interviewer repeatedly"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you do not get an interview"
+      },
+      {
+        "kind": "p",
+        "text": "Interviews depend on volunteer availability in your region, so many strong applicants are never interviewed. Focus on the rest of your application."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are Ivy League interviews mandatory?",
+        "answer": "No. They are generally optional or based on alumni availability, and policies differ by university."
+      },
+      {
+        "question": "Does a bad interview ruin my chances?",
+        "answer": "The interview is one small part of a holistic review. Be yourself, prepare and stay calm."
+      },
+      {
+        "question": "Who conducts the interview?",
+        "answer": "Usually volunteer alumni, though some universities offer other formats. Check each university's page."
+      },
+      {
+        "question": "Should I send a thank-you note?",
+        "answer": "A short, polite message is a good habit."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "building-a-us-college-list-beyond-the-ivy-league-reach-target-safety",
+    "title": "Building a US College List: Reach, Target and Safety Beyond the Ivy League",
+    "description": "How to build a balanced US college list: understanding reach, target and likely schools, researching fit and cost, and why the Ivy League should be only part of your list.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/financial-aid-need-blind-admissions-international-families",
+        "label": "Need-Blind Admissions and Financial Aid"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A balanced US college list includes a few reach universities, several target universities and at least a couple of likely options, all of which you would be happy to attend and can afford. Because Ivy League admission rates are very low even for excellent applicants, a list built only of Ivy League universities is risky. Fit, finances and your intended major matter as much as rankings."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Most lists have 8 to 12 universities across reach, target and likely categories.",
+          "Every university on your list should be one you would genuinely attend.",
+          "Check your financial position early, because international aid varies a lot.",
+          "Fit includes size, location, culture, academics and support."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The three categories"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Category",
+          "Meaning",
+          "Typical share"
+        ],
+        "rows": [
+          [
+            "Reach",
+            "Your profile is below or at the middle of admitted students, or the university is extremely selective",
+            "2 to 4"
+          ],
+          [
+            "Target",
+            "Your profile is around the middle of admitted students",
+            "3 to 5"
+          ],
+          [
+            "Likely",
+            "Your profile is clearly above the typical admitted student and the university is less selective",
+            "2 to 3"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Remember that every Ivy League university is a reach for nearly every applicant, however strong."
+      },
+      {
+        "kind": "h2",
+        "text": "Beyond the Ivy League"
+      },
+      {
+        "kind": "p",
+        "text": "Many excellent universities offer outstanding teaching, research and careers: research universities, liberal arts colleges and technical institutes. Look at the programme you want, not only the name. Compare faculty, research opportunities, class sizes and outcomes."
+      },
+      {
+        "kind": "h2",
+        "text": "Questions to research"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Does the university offer my intended major or a flexible curriculum?",
+          "What is the cost, and what aid is available to international students?",
+          "Which test policy and deadlines apply?",
+          "What is student life like, and what support exists for international students?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Money first"
+      },
+      {
+        "kind": "p",
+        "text": "Some universities are need-blind for international students, others are not, and many have limited aid. Discuss your budget as a family before finalising the list. See [financial aid for international families](/blog/financial-aid-need-blind-admissions-international-families)."
+      },
+      {
+        "kind": "h2",
+        "text": "Review your list"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Would I be happy at every university on this list?",
+          "Can my family afford each one?",
+          "Is there a realistic route to offers?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many universities should I apply to?",
+        "answer": "Many students apply to 8 to 12, though the right number depends on your profile and budget."
+      },
+      {
+        "question": "Are all Ivy League universities reaches?",
+        "answer": "For almost all applicants, yes, because acceptance rates are very low even for excellent profiles."
+      },
+      {
+        "question": "How do I find safety schools as an international student?",
+        "answer": "Look for universities where your profile is clearly above the typical admitted student, and check cost and aid carefully."
+      },
+      {
+        "question": "Does ranking matter?",
+        "answer": "Rankings can be a starting point, but programme quality, fit and cost matter more for your experience and outcomes."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-application-calendar-for-class-11-and-12-students",
+    "title": "Ivy League Application Calendar for Class 11 and 12 Students",
+    "description": "A month-by-month calendar for Class 11 and 12 students applying to the Ivy League: tests, essays, recommendations, deadlines and decisions, with a reminder to confirm every date on official sites.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/early-decision-vs-early-action-vs-regular-decision-explained",
+        "label": "Early Decision vs Early Action vs Regular Decision"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Most students applying to the Ivy League start serious preparation in Class 11 and submit applications in the autumn and winter of Class 12. Early deadlines are typically around the start of November and regular deadlines around the start of January, with decisions arriving between December and April. Dates change, so confirm each university's deadlines on its own admissions page."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Work backward from your target deadlines.",
+          "Finish most testing before Class 12 begins.",
+          "Start essays in the summer before Class 12.",
+          "Give recommenders several weeks of notice."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The calendar"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "When",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "Class 11, first term",
+            "Strengthen grades, choose rigorous courses, deepen key activities, start building a college list"
+          ],
+          [
+            "Class 11, winter",
+            "Take a diagnostic SAT or ACT and plan preparation"
+          ],
+          [
+            "Class 11, spring",
+            "Sit your first official test, research universities, plan summer"
+          ],
+          [
+            "Class 11 summer",
+            "Meaningful project or programme, test retakes if needed, begin personal statement"
+          ],
+          [
+            "Class 12, July-August",
+            "Finalise college list, draft Common App essay and supplements, ask recommenders"
+          ],
+          [
+            "Class 12, September-October",
+            "Complete applications, order transcripts, prepare for any early deadline"
+          ],
+          [
+            "Early November (typical)",
+            "Early Decision and Early Action deadlines"
+          ],
+          [
+            "December",
+            "Early results, interviews, complete regular applications"
+          ],
+          [
+            "Early January (typical)",
+            "Regular Decision deadlines"
+          ],
+          [
+            "February-March",
+            "Send mid-year reports and updates if required"
+          ],
+          [
+            "March-April",
+            "Regular Decision results and financial aid offers"
+          ],
+          [
+            "By early May (typical)",
+            "Compare offers and make your decision"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Read [Early Decision vs Early Action vs Regular Decision](/blog/early-decision-vs-early-action-vs-regular-decision-explained) before choosing a plan, as Early Decision is binding."
+      },
+      {
+        "kind": "h2",
+        "text": "Fit this around school"
+      },
+      {
+        "kind": "p",
+        "text": "Plan heavier test preparation in school holidays and avoid clashing with board exam preparation. Our guide to [balancing SAT prep with IGCSE, IB or CBSE](/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both) helps."
+      },
+      {
+        "kind": "h2",
+        "text": "Keep a tracker"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "A spreadsheet of deadlines, requirements and login details.",
+          "A checklist of documents: transcripts, school profile, test scores, recommendations.",
+          "Weekly check-ins with a parent or mentor."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "When are Ivy League deadlines?",
+        "answer": "Early deadlines are typically around the start of November and regular deadlines around the start of January, but dates vary. Check each university's official page."
+      },
+      {
+        "question": "When should I take the SAT or ACT?",
+        "answer": "Many students sit their first official test in Class 11 so that they have time for a retake before applications."
+      },
+      {
+        "question": "When should I start my essays?",
+        "answer": "The summer before Class 12 is a good time, which leaves time for several drafts."
+      },
+      {
+        "question": "When do results come out?",
+        "answer": "Early applicants typically hear in December, and regular applicants between March and April. Confirm dates with each university."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "how-cbse-icse-and-state-board-students-are-evaluated-by-us-universities",
+    "title": "How CBSE, ICSE and State Board Students Are Evaluated by US Universities",
+    "description": "Do US universities treat CBSE, ICSE, State Board, IGCSE and IB students differently? A clear explanation of transcripts, school profiles, course rigour and how to present your board record.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/ap-vs-ib-vs-igcse-which-builds-stronger-ivy-league-profile",
+        "label": "AP vs IB vs IGCSE for an Ivy League Profile"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "US universities read applications in the context of your school and curriculum. A student from CBSE, ICSE, a State Board, IGCSE or the IB is not expected to take AP courses, and no board is automatically preferred. Admissions readers look at how rigorous your courses are compared with what your school offers, and how well you performed."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "No board is favoured. Context and performance matter.",
+          "Your school submits a transcript and a school profile explaining the curriculum and grading.",
+          "Take the most demanding courses available to you and do well.",
+          "Standardized tests help show readiness for US-style coursework."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What gets sent"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Document",
+          "What it does"
+        ],
+        "rows": [
+          [
+            "Transcript",
+            "Lists courses and marks across years"
+          ],
+          [
+            "School profile",
+            "Explains your school, curriculum and grading scale"
+          ],
+          [
+            "Counsellor recommendation",
+            "Describes your standing and school context"
+          ],
+          [
+            "Board results or predicted grades",
+            "Shows performance in board exams where required"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Grades and marks"
+      },
+      {
+        "kind": "p",
+        "text": "Marks in Indian boards can look different from US grades, so universities rely on the school profile and counsellor to interpret them. Do not convert your marks yourself unless an application asks."
+      },
+      {
+        "kind": "h2",
+        "text": "Choosing rigour"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Take advanced or higher-level options your board offers.",
+          "If your school offers AP or IB courses, choose those that match your interests and strengths.",
+          "If it does not, show rigour through board subjects, self-study and competitions."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See [AP vs IB vs IGCSE](/blog/ap-vs-ib-vs-igcse-which-builds-stronger-ivy-league-profile) for how curricula compare, and the [academic profile roadmap](/blog/building-a-competitive-academic-profile-grade-9-12-roadmap)."
+      },
+      {
+        "kind": "h2",
+        "text": "Tests"
+      },
+      {
+        "kind": "p",
+        "text": "The SAT or ACT gives universities a common measure across systems. Whether tests are required depends on the university, so confirm each policy."
+      },
+      {
+        "kind": "h2",
+        "text": "Practical steps"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Talk to your school counsellor early about transcripts and the school profile.",
+          "Ask whether your school has sent applications to US universities before.",
+          "Keep a record of certificates, competition results and projects."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is CBSE or IB better for US admissions?",
+        "answer": "Neither is favoured. US universities evaluate you in the context of your school and curriculum."
+      },
+      {
+        "question": "Do I need AP courses if I study CBSE?",
+        "answer": "No. AP courses are optional and often unavailable. Show rigour through the most demanding options you have."
+      },
+      {
+        "question": "Will my percentage be converted to a GPA?",
+        "answer": "Applications usually ask for your marks as reported, and the school profile helps readers interpret them. Check each application's instructions."
+      },
+      {
+        "question": "Do I still need the SAT or ACT?",
+        "answer": "It depends on the university. Many require or consider scores, so confirm each policy."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "summer-programs-and-research-for-ivy-league-aspirants-what-actually-helps",
+    "title": "Summer Programs and Research for Ivy League Aspirants: What Actually Helps",
+    "description": "Do summer programs help Ivy League applications? How to judge paid programmes, find real research, projects and community work, and what admissions readers value.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/olympiads-vs-research-papers-which-matters-more",
+        "label": "Olympiads vs Research Papers: Which Matters More?"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A summer programme helps an Ivy League application only if you did real work and grew from it. Admissions readers care about what you learned and created, not the cost or brand of the programme. Free or low-cost options, independent projects, local research and community work can be just as valuable as expensive programmes."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Prestige and price do not impress by themselves.",
+          "Real work, initiative and a visible result matter most.",
+          "Choose something connected to your genuine interests.",
+          "Be cautious of programmes that promise admission advantages."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Options to consider"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Option",
+          "Benefit",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "Selective academic programmes",
+            "Rigour and peers",
+            "Cost and limited places"
+          ],
+          [
+            "University or school research with a mentor",
+            "Real research experience",
+            "Credit and honesty about your role"
+          ],
+          [
+            "Independent project",
+            "Shows initiative",
+            "Needs sustained effort"
+          ],
+          [
+            "Community or social impact work",
+            "Shows care and leadership",
+            "Needs measurable results"
+          ],
+          [
+            "Competitions and camps",
+            "Skill depth and recognition",
+            "One-off participation adds little"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to judge a programme"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Who teaches or mentors, and what will you actually produce?",
+          "Is selection competitive, or can anyone pay to join?",
+          "Does it match your direction?",
+          "Can you afford it without hardship?"
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Papers or certificates are worth listing only if you can discuss the work in depth. See [Olympiads vs research papers](/blog/olympiads-vs-research-papers-which-matters-more)."
+      },
+      {
+        "kind": "h2",
+        "text": "Start your own"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Build and publish a project, app, dataset or tutorial.",
+          "Organise a workshop or a local competition.",
+          "Teach younger students and track what they learned."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Be honest"
+      },
+      {
+        "kind": "p",
+        "text": "Describe your role accurately. Interviewers, recommenders and readers may ask follow-up questions, and exaggeration can hurt you."
+      },
+      {
+        "kind": "h2",
+        "text": "Plan your summers"
+      },
+      {
+        "kind": "p",
+        "text": "Use summer before Class 11 to explore, summer before Class 12 to deepen, and keep time for test preparation and essays."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do expensive summer programs improve my chances?",
+        "answer": "Not by themselves. What you did and learned matters more than the name or cost."
+      },
+      {
+        "question": "Is research necessary for the Ivy League?",
+        "answer": "No. It is one way to show depth. Projects, competitions, community work and arts can also demonstrate it."
+      },
+      {
+        "question": "Can I list a programme I only attended briefly?",
+        "answer": "You can, but short or passive participation usually adds little. Focus on sustained work."
+      },
+      {
+        "question": "How do I find a research mentor?",
+        "answer": "Contact local university faculty or researchers politely, share your background and propose a small project. Persistence helps."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "deferred-waitlisted-or-rejected-what-to-do-next-after-us-college-decisions",
+    "title": "Deferred, Waitlisted or Rejected: What to Do Next After US College Decisions",
+    "description": "What to do if you are deferred, waitlisted or rejected by an Ivy League or other US university: letters of continued interest, updates, deposit decisions and moving forward calmly.",
+    "readingMinutes": 6,
+    "relatedGuides": [
+      {
+        "href": "/blog/early-decision-vs-early-action-vs-regular-decision-explained",
+        "label": "Early Decision vs Early Action vs Regular Decision"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "If you are deferred, waitlisted or rejected, take a few days to process, then act on the options you have. A deferral moves an early application into the regular pool, a waitlist means a possible later offer and a rejection is final. In every case, commit to a university where you have an offer and keep your options open in an organised way."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Deferral and waitlist are not rejections, but offers are not guaranteed.",
+          "Follow each university's instructions exactly.",
+          "Always secure an option you are happy with.",
+          "A decision is not a verdict on your worth."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What each result means"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Result",
+          "Meaning",
+          "Next step"
+        ],
+        "rows": [
+          [
+            "Deferred",
+            "Your early application will be reviewed again in the regular round",
+            "Follow instructions, send a concise update if allowed, keep applying elsewhere"
+          ],
+          [
+            "Waitlisted",
+            "You may be offered a place if space becomes available",
+            "Accept your place on the list if you wish, send an update if allowed, and decide on another offer"
+          ],
+          [
+            "Rejected",
+            "The decision is final",
+            "Focus on your other applications and offers"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are deferred"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Check whether the university accepts updates and what to include.",
+          "Send new grades, awards or projects, briefly.",
+          "Write a short letter of continued interest if allowed, stating that you remain interested and why.",
+          "Complete your regular applications on time."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are waitlisted"
+      },
+      {
+        "kind": "p",
+        "text": "Waitlist movement varies a lot by year and university, and many students are not admitted. Do not wait for a waitlist offer. Accept an offer elsewhere by the deadline and put down the deposit there."
+      },
+      {
+        "kind": "h2",
+        "text": "If you are rejected"
+      },
+      {
+        "kind": "p",
+        "text": "This is hard, particularly after years of work. Admission to the Ivy League is extremely competitive, and many outstanding students are turned away. Speak to family, friends or a counsellor, and look forward to the universities that want you."
+      },
+      {
+        "kind": "h2",
+        "text": "Making your final choice"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Compare academics, cost, aid and fit.",
+          "Visit or attend admitted-student events, online if needed.",
+          "Meet the deposit deadline."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "This is why a balanced list matters. See [building a US college list](/blog/building-a-us-college-list-beyond-the-ivy-league-reach-target-safety)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does a deferral mean I will be admitted later?",
+        "answer": "No. It means your application will be reviewed again with the regular pool, and the result is not guaranteed."
+      },
+      {
+        "question": "Should I send updates after a deferral?",
+        "answer": "Only if the university allows it. Follow its instructions, and keep updates short and meaningful."
+      },
+      {
+        "question": "Should I accept a waitlist spot?",
+        "answer": "You can, but also accept an offer elsewhere. Waitlist offers are uncertain."
+      },
+      {
+        "question": "Can I appeal a rejection?",
+        "answer": "Most universities do not accept appeals, except in rare circumstances. Check their policy."
+      }
+    ]
   },
 ];
 
