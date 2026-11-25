@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { PenTool, GraduationCap, Users, Layers, FileText, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import NmtcHeroVisual from '@/components/olympiad/NmtcHeroVisual';
@@ -27,7 +28,7 @@ export default function NmtcCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['🎁 FREE NMTC Diagnostic Test', '⭐ NMTC Coaching', '📍 Class 5–12']}
+        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE NMTC Diagnostic Test', '⭐ NMTC Coaching', '📍 Class 5–12']}
         titleLines={['Master NMTC.', 'Write Proofs That']}
         highlight="Score Full Marks."
         taglineSub="✍️ Part A + Part B, Every Level"
@@ -45,6 +46,7 @@ export default function NmtcCoachingPunePage() {
         visual={<NmtcHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program="NMTC" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free NMTC diagnostic test"

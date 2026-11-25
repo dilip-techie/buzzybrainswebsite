@@ -1,9 +1,11 @@
 import { PillarPage } from '../../components/PillarPage';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { OLYMPIAD_SHORT } from '@/components/olympiad/videos';
 
 export default function OlympiadPillarPage() {
   return (
     <PillarPage
+      offer={<EliteBatchBanner program="Olympiad" href="/admissions" />}
       video={OLYMPIAD_SHORT}
       eyebrow="Olympiad Coaching Pune"
       h1={<>Olympiad Coaching in Pune: One Program, Every Subject</>}

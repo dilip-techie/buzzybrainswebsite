@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { Hash, GraduationCap, Users, Timer, Ban, Trophy, ClipboardCheck, BookOpen, PenLine, MessagesSquare, Route } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import IoqmHeroVisual from '@/components/olympiad/IoqmHeroVisual';
@@ -35,7 +36,7 @@ export default function IoqmCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['🎁 FREE IOQM Diagnostic Test', '🚀 IOQM 2027 Batch Open', '📍 Grades 8–12']}
+        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE IOQM Diagnostic Test', '🚀 IOQM 2027 Batch Open', '📍 Grades 8–12']}
         titleLines={['Master IOQM With Faculty', "Who've Walked the Full"]}
         highlight="Olympiad Path."
         taglineSub="🎯 IOQM · RMO · INMO · IMO"
@@ -53,6 +54,7 @@ export default function IoqmCoachingPunePage() {
         visual={<IoqmHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program="IOQM" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free IOQM diagnostic test"

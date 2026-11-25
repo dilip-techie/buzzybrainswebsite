@@ -197,7 +197,7 @@ export default function AdmissionsPage() {
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
                   <p className="text-gray-700 flex items-center space-x-2"><Zap className="w-5 h-5 text-yellow-500" /><strong>Who can apply</strong></p>
-                  <p className="text-gray-600 text-sm mt-1">Any student joining a JEE, NEET, Foundation, Olympiad or other group batch.</p>
+                  <p className="text-gray-600 text-sm mt-1">Any student joining a JEE, NEET, Foundation, Olympiad or other group batch. Foundation and Olympiad batches are Elite batches and need a minimum of 80% marks in school exams.</p>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
                   <p className="text-gray-700 flex items-center space-x-2"><Award className="w-5 h-5 text-purple-500" /><strong>How it is decided</strong></p>
