@@ -21,6 +21,7 @@ import {
   FileEdit,
 } from 'lucide-react';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 
 const HIGHLIGHTS = [
   { value: '5-Yr', label: 'Integrated BBA + MBA', icon: Building2, gradient: 'linear-gradient(135deg,#9F1239,#E11D48)' },
@@ -81,6 +82,12 @@ const WHY_CHOOSE = [
   { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'var(--grad-red)', icon: Brain },
 ];
 
+const DIAGNOSTIC_POINTS = [
+  'Full-length, IPMAT-style diagnostic',
+  'Maps your quantitative and verbal baseline',
+  'Leads to a personalized IPMAT preparation plan',
+];
+
 export default function IpmatExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
@@ -99,6 +106,7 @@ export default function IpmatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="IPMAT" />
           <span className="eyebrow">🏛️ IPMAT Coaching · 5-Year Integrated Programme in Management · Grade 12</span>
           <h1>Crack <span className="grad">IPMAT.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
@@ -127,6 +135,9 @@ export default function IpmatExamPage() {
           </div>
         </div>
       </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="IPMAT" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>

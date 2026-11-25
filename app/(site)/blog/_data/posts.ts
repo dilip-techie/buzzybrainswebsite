@@ -49614,7 +49614,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. [Book a free ACT diagnostic test](/act-exam) to find your starting score. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -49749,7 +49749,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. [Book a free ACT diagnostic test](/act-exam) to find your starting score. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -49907,7 +49907,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. [Book a free ACT diagnostic test](/act-exam) to find your starting score. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -50038,7 +50038,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. [Book a free ACT diagnostic test](/act-exam) to find your starting score. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -50216,7 +50216,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. [Book a free ACT diagnostic test](/act-exam) to find your starting score. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [

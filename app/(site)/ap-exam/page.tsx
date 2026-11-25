@@ -29,6 +29,7 @@ import {
   MapPin,
 } from 'lucide-react';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 
 const HIGHLIGHTS = [
   { value: '24', label: 'AP Subjects Coached', icon: Trophy, gradient: 'var(--grad-blue)' },
@@ -159,6 +160,12 @@ const FAQS = [
   { question: 'Can my child take more than one AP exam in the same year?', answer: 'Yes — our Multi-AP Bundles coordinate a shared weekly planner and mock-exam calendar across subjects, so workload stays balanced and no exam is under-prepared.' },
 ];
 
+const DIAGNOSTIC_POINTS = [
+  'No-pressure, subject-specific assessment',
+  'Maps your current level against the AP course framework',
+  'Leads to a week-by-week plan to your target score',
+];
+
 export default function ApExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
@@ -180,6 +187,7 @@ export default function ApExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="AP" />
           <span className="eyebrow">🎯 Advanced Placement · College Board · Grades 9–12</span>
           <h1>
             AP Prep
@@ -230,6 +238,9 @@ export default function ApExamPage() {
           </div>
         </div>
       </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="AP" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
