@@ -49478,8 +49478,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "category": "sat-exam",
     "datePublished": "2026-11-25",
-    "relatedProgramHref": "/sat-exam",
-    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
     "relatedGuides": [
       {
         "href": "/blog/sat-vs-act-which-should-indian-students-take",
@@ -49613,7 +49613,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -49631,15 +49631,15 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "question": "Does BuzzyBrains Academy coach for the ACT?",
-        "answer": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT. This guide is general information to help you choose between the two exams."
+        "answer": "Yes. BuzzyBrains Academy offers ACT coaching as well as Digital SAT coaching, in batches capped at 12 students. Contact us for current batch details."
       }
     ]
   },
   {
     "category": "sat-exam",
     "datePublished": "2026-11-25",
-    "relatedProgramHref": "/sat-exam",
-    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
     "relatedGuides": [
       {
         "href": "/blog/sat-vs-act-which-should-indian-students-take",
@@ -49748,7 +49748,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -49773,8 +49773,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "category": "sat-exam",
     "datePublished": "2026-11-25",
-    "relatedProgramHref": "/sat-exam",
-    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
     "relatedGuides": [
       {
         "href": "/blog/sat-vs-act-which-should-indian-students-take",
@@ -49906,7 +49906,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -49931,8 +49931,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "category": "sat-exam",
     "datePublished": "2026-11-25",
-    "relatedProgramHref": "/sat-exam",
-    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
     "relatedGuides": [
       {
         "href": "/blog/sat-vs-act-which-should-indian-students-take",
@@ -50037,7 +50037,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [
@@ -50062,8 +50062,8 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "category": "sat-exam",
     "datePublished": "2026-11-25",
-    "relatedProgramHref": "/sat-exam",
-    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedProgramHref": "/act-exam",
+    "relatedProgramLabel": "ACT Exam Prep",
     "relatedGuides": [
       {
         "href": "/blog/sat-vs-act-which-should-indian-students-take",
@@ -50215,7 +50215,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         "kind": "p",
-        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+        "text": "BuzzyBrains Academy offers [ACT coaching](/act-exam) as well as [Digital SAT coaching](/sat-exam), in small batches of up to 12 students. Contact us for current batch details. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
       }
     ],
     "faq": [

@@ -148,6 +148,7 @@ export const PROGRAM_TABLE: ProgramRow[] = [
   { program: 'Commerce Coaching', grades: 'Grades 11-12', boards: 'CBSE, ICSE, State Board, IGCSE, IB', focus: 'Accountancy, Economics, Business Studies; CUET, CA Foundation, IPMAT, NPAT, SET prep', href: '/commerce-tuitions' },
   { program: 'International Boards', grades: 'Grades 4-12', boards: 'IGCSE, IB, A Level/AS Level, AP', focus: 'Cambridge/Edexcel, IB MYP & DP, A Level, AP exams', href: '/international-boards' },
   { program: 'SAT Coaching', grades: 'Grades 11-12', boards: 'US college admissions', focus: 'Digital SAT — Reading & Writing, Math, full mocks', href: '/sat-exam' },
+  { program: 'ACT Coaching', grades: 'Grades 10-12', boards: 'US college admissions', focus: 'ACT — English, Math, Reading, optional Science, timed practice', href: '/act-exam' },
   { program: 'Code Ninja (Coding & AI)', grades: 'Grades 6-12', boards: 'All boards', focus: 'Python, Java, Web Dev, AI/ML basics, competitive programming', href: '/coding-lab' },
   { program: 'One-on-One Coaching', grades: 'Grades 4-12, Droppers', boards: 'All boards', focus: 'Fully personalized 1-on-1 mentoring, any subject/goal', href: '/one-on-one' },
 ];

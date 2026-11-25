@@ -65,6 +65,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/international-boards', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/ap-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/sat-exam', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/act-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/clat-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/ivy-league-counselling', changeFrequency: 'monthly', priority: 0.7 },
 

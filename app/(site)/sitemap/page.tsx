@@ -72,6 +72,7 @@ const SECTIONS: SiteSection[] = [
       { href: '/international-boards#a-level', label: 'A Level / AS Level' },
       { href: '/ap-exam', label: 'AP Exams' },
       { href: '/sat-exam', label: 'SAT Exam' },
+      { href: '/act-exam', label: 'ACT Exam' },
       { href: '/ivy-league-counselling', label: 'Ivy League Counselling' },
     ],
   },

@@ -9,6 +9,7 @@ export default function InternationalPillarPage() {
       primaryProgram={{ href: '/international-boards', label: 'International Boards Program' }}
       secondaryPrograms={[
         { href: '/sat-exam', label: 'SAT Exam Prep' },
+        { href: '/act-exam', label: 'ACT Exam Prep' },
         { href: '/coding-lab', label: 'Code Ninja (Coding & AI)' },
       ]}
       relatedPosts={[
