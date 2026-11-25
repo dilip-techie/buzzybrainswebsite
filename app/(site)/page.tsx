@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react';
 import { FaqJsonLd } from '../components/JsonLd';
+import ElitePromoBanner from '@/components/ElitePromoBanner';
 
 const HOME_FAQS = [
   {
@@ -462,6 +463,7 @@ export default function HomePage() {
 
   return (
     <main className="bb-landing" id="top">
+      <ElitePromoBanner />
       {/* ============ HERO ============ */}
       <section className="hero" ref={heroRef}>
         <div className="eq-field" aria-hidden="true">
