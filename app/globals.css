@@ -100,6 +100,19 @@ button{font-family:inherit;cursor:pointer}
 
 .hero-badges{display:flex;flex-wrap:wrap;gap:11px;margin:-26px 0 18px}
 .hero-badges .eyebrow{margin-bottom:0}
+/* Compact row of offer badges (scholarship, elite) above a hero eyebrow */
+.offer-badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.offer-badges.center{justify-content:center}
+.offer-badge{
+  display:inline-flex;align-items:center;gap:6px;white-space:nowrap;
+  font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  padding:7px 14px;border-radius:999px;line-height:1.2;
+}
+.offer-badge-scholarship{background:linear-gradient(135deg,#F59E0B,#EA580C);color:#fff}
+.offer-badge-elite{background:#1F2937;color:#FBBF24}
+@media(max-width:560px){
+  .offer-badge{font-size:11px;letter-spacing:.04em;padding:6px 11px}
+}
 .eyebrow-highlight,.eyebrow-location{
   font-size:14.5px;font-weight:800;padding:11px 22px;
   border:1.5px solid rgba(255,255,255,.3);
@@ -2064,3 +2077,86 @@ button{font-family:inherit;cursor:pointer}
 }
 .ts-page ::selection{background:#C9A227;color:#081327}
 
+
+/* ============ ELITE PROGRAM THEME (Foundation & Olympiad) ============
+   Dark navy hero with gold accents, applied with `hero elite-hero`. */
+.hero.elite-hero{
+  background:
+    radial-gradient(900px 480px at 85% -10%,rgba(251,191,36,.18),transparent 60%),
+    radial-gradient(700px 420px at -10% 110%,rgba(124,58,237,.22),transparent 60%),
+    linear-gradient(160deg,#0B1028 0%,#111A3E 55%,#0B1028 100%);
+  color:#E5E7EB;
+  border-bottom:1px solid rgba(251,191,36,.35);
+}
+.hero.elite-hero::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.35;
+  background-image:linear-gradient(rgba(251,191,36,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(251,191,36,.08) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:radial-gradient(ellipse 70% 60% at 50% 30%,#000,transparent);
+  -webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 30%,#000,transparent);
+}
+.hero.elite-hero > .container{position:relative;z-index:2}
+.hero.elite-hero h1{color:#fff}
+.hero.elite-hero h1 .grad{
+  background:linear-gradient(110deg,#FDE68A 0%,#F59E0B 45%,#FCD34D 70%,#FFF7D6 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero.elite-hero p.lede,.hero.elite-hero .lede,.hero.elite-hero .section-sub{color:#CBD5E1}
+.hero.elite-hero .lede strong{color:#FCD34D !important}
+.hero.elite-hero .eyebrow{background:rgba(251,191,36,.10);color:#FCD34D;border:1px solid rgba(251,191,36,.45)}
+.hero.elite-hero .eyebrow::before{background:#FBBF24}
+.hero.elite-hero .chip{background:rgba(255,255,255,.06);border-color:rgba(251,191,36,.35);color:#F1F5F9;box-shadow:none}
+.hero.elite-hero .btn-primary{
+  background:linear-gradient(135deg,#FDE68A,#F59E0B);color:#1F2937;
+  box-shadow:0 12px 30px rgba(245,158,11,.35);
+}
+.hero.elite-hero .btn-ghost{background:transparent;border-color:rgba(255,255,255,.35);color:#fff}
+.hero.elite-hero .btn-ghost:hover{border-color:#FBBF24;color:#FBBF24}
+.hero.elite-hero .short-embed-badge{background:#1F2937;color:#FCD34D}
+.elite-crest{
+  display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;
+  padding:8px 16px 8px 8px;border-radius:999px;
+  background:linear-gradient(135deg,rgba(251,191,36,.18),rgba(251,191,36,.04));
+  border:1px solid rgba(251,191,36,.55);color:#FDE68A;
+  font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+}
+.elite-crest-mark{
+  width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+  background:linear-gradient(135deg,#FDE68A,#D97706);color:#1F2937;font-size:15px;
+  box-shadow:0 0 0 3px rgba(251,191,36,.18);
+}
+.elite-merit{
+  margin:0 0 24px;padding:14px 18px;border-radius:14px;max-width:560px;
+  background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.5);
+  color:#F1F5F9;font-size:15.5px;line-height:1.55;
+}
+.elite-merit strong{color:#FCD34D}
+.elite-merit .elite-merit-req{color:#FDE68A;font-weight:800;border-bottom:2px solid #F59E0B}
+.center .elite-merit{margin-left:auto;margin-right:auto}
+@media(max-width:560px){
+  .elite-crest{font-size:11px;letter-spacing:.1em;padding:6px 12px 6px 6px}
+  .elite-crest-mark{width:24px;height:24px;font-size:13px}
+  .elite-merit{font-size:14.5px;padding:12px 14px}
+}
+/* Elite theme extras for the olympiad HeroBrand hero */
+.hero.elite-hero .eq-field{z-index:1}
+.hero.elite-hero .eq{color:#FBBF24;opacity:.12}
+.hero.elite-hero .hero-tagline-sub{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.45)}
+.hero.elite-hero .hero-tagline-sub-text{background:linear-gradient(110deg,#FDE68A,#F59E0B 55%,#FFF7D6);-webkit-background-clip:text;background-clip:text}
+.hero.elite-hero .hero-proof{color:#CBD5E1}
+.hero.elite-hero .avatars span{border-color:#111A3E}
+.hero.elite-hero .eyebrow-location{background:rgba(251,191,36,.10);color:#FCD34D;border-color:rgba(251,191,36,.45);animation:none}
+.hero.elite-hero .eyebrow-highlight{background:linear-gradient(135deg,#F59E0B,#EA580C);border-color:rgba(253,230,138,.5)}
+/* Elite theme for the Tailwind olympiad heroes (Hero, HeroGeneric) */
+.oly-elite-hero{
+  isolation:isolate;
+  background:
+    radial-gradient(900px 480px at 85% -10%,rgba(251,191,36,.18),transparent 60%),
+    radial-gradient(700px 420px at -10% 110%,rgba(124,58,237,.22),transparent 60%),
+    linear-gradient(160deg,#0B1028 0%,#111A3E 55%,#0B1028 100%);
+  border-bottom:1px solid rgba(251,191,36,.35);
+}
+.oly-elite-hero .elite-gold{
+  background:linear-gradient(110deg,#FDE68A 0%,#F59E0B 45%,#FCD34D 70%,#FFF7D6 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}

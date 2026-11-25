@@ -28,7 +28,7 @@ export default function Amc810CoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE AMC Diagnostic Test', '⭐ AMC 8 & AMC 10 Coaching', '📍 Grades 6–10']}
+        badges={['🎁 FREE AMC Diagnostic Test', '⭐ AMC 8 & AMC 10 Coaching', '📍 Grades 6–10']}
         titleLines={['Master AMC.', 'Earn Your Shot at']}
         highlight="AIME."
         taglineSub="🇺🇸 America's Flagship Maths Competition"

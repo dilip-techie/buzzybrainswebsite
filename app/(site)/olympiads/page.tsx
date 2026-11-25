@@ -131,11 +131,12 @@ export default function OlympiadsPage() {
   return (
     <main className="bb-landing bb-page-shell">
       {/* ============ HERO ============ */}
-      <section className="hero">
+      <section className="hero elite-hero">
         <div className="container center">
+          <span className="elite-crest"><span className="elite-crest-mark" aria-hidden="true">♛</span> BuzzyBrains Elite</span>
+          <br />
           <FreeDiagnosticBadge exam="Olympiad" />
-          <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
-          <span className="eyebrow">🏆 Elite Olympiad Program · Grades 4–12</span>
+          <span className="eyebrow">🏆 Olympiad · Grades 4–12</span>
           <h1>The Elite Olympiad Program, <span className="grad">Every Subject.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             One structured program across <strong style={{ color: 'var(--blue)' }}>Mathematics, Physics, Chemistry, Biology, Science and Coding</strong> —
@@ -144,8 +145,9 @@ export default function OlympiadsPage() {
           <p className="section-sub" style={{ margin: '0 auto 28px' }}>
             From IOQM and RMO to IMO, IPhO, IChO, IBO and IOI — we prepare students for the exams that matter.
           </p>
-            <p style={{ margin: '0 auto 22px', maxWidth: 680, padding: '12px 16px', borderRadius: 12, background: '#FEF3C7', border: '1px solid #F59E0B', color: '#78350F', fontSize: 15.5, fontWeight: 600 }}>
-              ⭐ <strong>Admission by merit:</strong> a minimum of <strong style={{ color: '#B91C1C' }}>80% marks is required to apply</strong>. Seats are limited, so apply early to secure your place.
+            <p className="elite-merit">
+              <strong>Selective admission by merit.</strong> A minimum of 
+              <span className="elite-merit-req">80% marks is required to apply</span>. Only 12 seats per batch, so apply early to secure your place.
             </p>
 
           <div className="hero-chips" style={{ justifyContent: 'center' }}>

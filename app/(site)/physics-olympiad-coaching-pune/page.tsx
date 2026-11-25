@@ -62,7 +62,7 @@ export default function PhysicsOlympiadCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE Physics Olympiad Diagnostic Test', '⚛️ Physics Olympiad Coaching', '📍 Grades 9–12']}
+        badges={['🎁 FREE Physics Olympiad Diagnostic Test', '⚛️ Physics Olympiad Coaching', '📍 Grades 9–12']}
         titleLines={['Master Physics.', 'Compete With']}
         highlight="The World's Best."
         taglineSub="🌍 India's Official Pathway + 4 Olympiads Abroad"

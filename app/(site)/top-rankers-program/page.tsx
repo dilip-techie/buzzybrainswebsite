@@ -235,7 +235,7 @@ export default function TopRankersProgramPage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
-              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold mr-2">🎁 Free Scholarship Test · Up to 90% Off</span><span className="whitespace-nowrap bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-bold">🏆 Premium Mentorship</span>
+              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-bold">🎁 Up to 90% Scholarship</span><span className="whitespace-nowrap bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-bold">🏆 Premium Mentorship</span>
               <span className="whitespace-nowrap bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">🏫 Offline · Pune</span>
               <span className="whitespace-nowrap bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Live Online</span>
             </div>

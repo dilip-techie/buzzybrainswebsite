@@ -15,14 +15,13 @@ const delays = ['0s', '0.6s', '1.2s', '1.8s', '2.4s'];
 
 export default function Hero() {
   return (
-    <section id="oly-top" className="relative overflow-hidden pb-20 pt-[148px] sm:pb-28 sm:pt-[168px]">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-oly-brand-50/60 via-white to-white" />
-      <div className="absolute inset-0 -z-10 bg-oly-dot-grid opacity-60 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
+    <section id="oly-top" className="oly-elite-hero relative overflow-hidden pb-20 pt-[148px] sm:pb-28 sm:pt-[168px]">
+      <div className="absolute inset-0 -z-10 bg-oly-dot-grid opacity-20 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
 
       {floaters.map((f, i) => (
         <span
           key={i}
-          className={`pointer-events-none absolute hidden select-none font-display font-bold text-oly-brand-500/20 animate-oly-float-slow sm:block ${f.size}`}
+          className={`pointer-events-none absolute hidden select-none font-display font-bold text-amber-300/20 animate-oly-float-slow sm:block ${f.size}`}
           style={{ top: f.top, left: f.left, animationDelay: f.delay }}
           aria-hidden
         >
@@ -32,38 +31,46 @@ export default function Hero() {
 
       <div className="oly-container grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
         <div>
-          <span className="oly-eyebrow">
+          <span className="elite-crest"><span className="elite-crest-mark" aria-hidden="true">♛</span> BuzzyBrains Elite</span>
+          <br />
+          <span className="oly-eyebrow !border-amber-400/50 !bg-amber-400/10 !text-amber-200">
             <span className="h-1.5 w-1.5 rounded-full bg-oly-amber" /> IOQM · AMC 8 · AMC 10
           </span>
 
-          <h1 className="mt-6 text-balance font-display text-[36px] font-extrabold leading-[1.08] text-oly-ink sm:text-[48px] lg:text-[54px]">
-            Every olympiad is won <span className="text-oly-brand-500">bubble by bubble.</span>
+          <h1 className="mt-6 text-balance font-display text-[36px] font-extrabold leading-[1.08] text-white sm:text-[48px] lg:text-[54px]">
+            Every olympiad is won <span className="elite-gold">bubble by bubble.</span>
           </h1>
 
-          <p className="mt-6 max-w-[520px] text-balance text-[17px] leading-relaxed text-oly-ink/65">
+          <p className="mt-6 max-w-[520px] text-balance text-[17px] leading-relaxed text-slate-300">
             Premium coaching for IOQM, AMC 8 and AMC 10 — built around real timed
             mock papers, pattern-based problem drilling, and mentors who&apos;ve sat
             on the other side of the answer key.
           </p>
+          <div className="mt-6 max-w-[520px]">
+          <p className="elite-merit">
+            <strong>Selective admission by merit.</strong> A minimum of{' '}
+            <span className="elite-merit-req">80% marks is required to apply</span>. Only 12 seats per batch, so apply early to secure your place.
+          </p>
+          </div>
 
           <div className="mt-9 flex flex-col gap-3.5 sm:flex-row">
-            <a href="#oly-lead-form" className="oly-btn-primary">
-              Book Free Demo <ArrowRight size={17} />
+            <a href="#oly-lead-form" className="oly-btn-primary !bg-amber-400 !text-gray-900 hover:!bg-amber-300">
+              Apply Now: Limited Seats <ArrowRight size={17} />
             </a>
-            <a href="#oly-tracks" className="oly-btn-secondary">
+            <a href="#oly-tracks" className="oly-btn-secondary !border-white/30 !bg-transparent !text-white hover:!border-amber-400">
               <PlayCircle size={17} /> Explore Exam Tracks
             </a>
           </div>
 
-          <div className="mt-11 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-oly-line pt-7">
+          <div className="mt-11 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-white/15 pt-7">
             {[
               ['25+', 'Years teaching'],
               ['12', 'Max batch size'],
               ['3', 'Exam tracks covered'],
             ].map(([n, l]) => (
               <div key={l}>
-                <div className="font-mono text-2xl font-bold text-oly-ink">{n}</div>
-                <div className="text-[12.5px] font-medium text-oly-ink/55">{l}</div>
+                <div className="font-mono text-2xl font-bold text-amber-300">{n}</div>
+                <div className="text-[12.5px] font-medium text-slate-400">{l}</div>
               </div>
             ))}
           </div>

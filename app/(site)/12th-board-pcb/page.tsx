@@ -150,8 +150,8 @@ export default function Class12BoardPCBPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-6 inline-block">
-              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold mr-2">🎁 Free Scholarship Test · Up to 90% Off</span><span className="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-bold">🩺 12th Board PCB Excellence</span>              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>            </div>
+            <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
+              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-bold">🎁 Up to 90% Scholarship</span><span className="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-bold">🩺 12th Board PCB Excellence</span>              <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Score <span className="bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent">90%+</span> + Crack NEET
             </h1>

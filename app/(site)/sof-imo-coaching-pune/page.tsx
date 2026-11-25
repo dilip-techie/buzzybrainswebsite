@@ -29,7 +29,7 @@ export default function SofImoCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE SOF IMO Diagnostic Test', '⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
+        badges={['🎁 FREE SOF IMO Diagnostic Test', '⭐ SOF Olympiad Coaching', '📍 Grades 1–12']}
         titleLines={['Every SOF Exam.', 'One Confident']}
         highlight="Start."
         taglineSub="🏅 IMO · NSO · IEO · NCO · IGKO · ISSO"

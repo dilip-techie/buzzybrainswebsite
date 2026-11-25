@@ -36,7 +36,7 @@ export default function IoqmCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE IOQM Diagnostic Test', '🚀 IOQM 2027 Batch Open', '📍 Grades 8–12']}
+        badges={['🎁 FREE IOQM Diagnostic Test', '🚀 IOQM 2027 Batch Open', '📍 Grades 8–12']}
         titleLines={['Master IOQM With Faculty', "Who've Walked the Full"]}
         highlight="Olympiad Path."
         taglineSub="🎯 IOQM · RMO · INMO · IMO"
