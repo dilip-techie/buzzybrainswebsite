@@ -50237,6 +50237,1403 @@ export const BLOG_POSTS: BlogPost[] = [
       }
     ]
   },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "how-to-get-into-the-ivy-league-from-india-complete-guide",
+    "title": "How to Get Into the Ivy League from India: A Complete Guide",
+    "description": "A complete, honest guide for Indian students and parents on getting into the Ivy League: what admissions officers look for, the parts of the application, timelines and the mistakes to avoid.",
+    "readingMinutes": 9,
+    "relatedGuides": [
+      {
+        "href": "/blog/what-holistic-admissions-review-means-for-indian-students",
+        "label": "What Holistic Admissions Review Means"
+      },
+      {
+        "href": "/blog/building-a-competitive-academic-profile-grade-9-12-roadmap",
+        "label": "Grade 9-12 Academic Profile Roadmap"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Getting into the Ivy League from India requires a very strong academic record, a strong test score where tests are considered, a distinctive set of activities, thoughtful essays and good recommendations, all built over several years. Admission is holistic and highly competitive, with acceptance rates typically in the single digits, so no single score or activity guarantees an offer. A balanced college list and an early start give you the best chance."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "The eight Ivy League universities are Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton and Yale.",
+          "Admission is holistic: grades, tests, essays, activities, recommendations and context are read together.",
+          "Acceptance rates are very low, so build a balanced list that includes other strong universities.",
+          "Start planning in Grade 9 or 10 if you can, but a focused plan helps even in Grade 11.",
+          "There are no guarantees. Be wary of anyone who promises admission."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What the Ivy League looks for"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Component",
+          "What it shows"
+        ],
+        "rows": [
+          [
+            "Academic record",
+            "Course rigour and results in your school curriculum (CBSE, ICSE, IB, IGCSE, A Levels or State Board)"
+          ],
+          [
+            "Standardized tests",
+            "Readiness for demanding coursework, where a university considers scores (SAT or ACT)"
+          ],
+          [
+            "Essays",
+            "Who you are, how you think and why you want this university"
+          ],
+          [
+            "Activities",
+            "Depth, initiative and impact outside the classroom"
+          ],
+          [
+            "Recommendations",
+            "How teachers and counsellors see you in class"
+          ],
+          [
+            "Interview",
+            "A conversation with an alumnus, offered at some universities"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A realistic path, step by step"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Grades 9-10:** build strong fundamentals, explore interests and begin a few serious pursuits.",
+          "**Grade 11:** take your most rigorous courses, prepare for the SAT or ACT, deepen your main activities and build your college list.",
+          "**Summer before Grade 12:** draft essays, finalise tests and confirm deadlines.",
+          "**Grade 12:** submit applications, complete any interviews and compare offers and aid."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Our [Grade 9-12 roadmap](/blog/building-a-competitive-academic-profile-grade-9-12-roadmap) breaks this into yearly goals."
+      },
+      {
+        "kind": "h2",
+        "text": "Tests: SAT or ACT"
+      },
+      {
+        "kind": "p",
+        "text": "Many Ivy League universities have reinstated testing requirements, and policies change, so check each one. Both the SAT and ACT are accepted. Compare them in [SAT vs ACT](/blog/sat-vs-act-which-should-indian-students-take) and see [how SAT scores factor in](/blog/how-sat-scores-factor-into-ivy-league-admissions)."
+      },
+      {
+        "kind": "h2",
+        "text": "Money"
+      },
+      {
+        "kind": "p",
+        "text": "Ivy League universities award need-based aid and do not give athletic or merit scholarships. International applicants should read [need-blind admissions and financial aid](/blog/financial-aid-need-blind-admissions-international-families) early."
+      },
+      {
+        "kind": "h2",
+        "text": "Mistakes to avoid"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Applying only to the Ivy League.",
+          "Collecting many shallow activities instead of a few deep ones.",
+          "Leaving essays to the last month.",
+          "Relying on paid shortcuts or promises of admission."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See [common mistakes Indian students make](/blog/common-mistakes-indian-students-make-applying-ivy-league)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can an Indian student get into the Ivy League?",
+        "answer": "Yes. Each year Indian students are admitted, but the competition is intense, so a strong, well-planned application and a balanced college list matter."
+      },
+      {
+        "question": "What is the minimum SAT score for the Ivy League?",
+        "answer": "There is no official minimum. Check each university's published score range and testing policy rather than relying on a general number."
+      },
+      {
+        "question": "When should I start preparing?",
+        "answer": "Grade 9 or 10 is ideal, but a focused plan can still help if you start in Grade 11."
+      },
+      {
+        "question": "Does the Ivy League give scholarships to Indian students?",
+        "answer": "Ivy League universities offer need-based financial aid. They do not offer merit or athletic scholarships. Confirm the policy for international students on each university's site."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "common-app-personal-statement-guide-for-indian-students",
+    "title": "The Common App Personal Statement: A Guide for Indian Students",
+    "description": "How to write a Common App personal statement that sounds like you: choosing a topic, structure, tone, common pitfalls for Indian applicants and a revision checklist.",
+    "readingMinutes": 8,
+    "relatedGuides": [
+      {
+        "href": "/blog/common-app-vs-coalition-app-international-stem-applicants",
+        "label": "Common App vs Coalition App"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "The Common App personal statement is a single essay, between 250 and 650 words, sent to every university you apply to through the Common App. Admissions officers use it to hear your voice and understand how you think. The best essays are specific, honest and reflective, built around one small story rather than a list of achievements."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Length is 250 to 650 words. Check the current prompts on commonapp.org.",
+          "Your essay should add something your activities list does not.",
+          "Use one specific story and show what you learned.",
+          "Write in your own voice. Admissions readers notice over-polished writing."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Choosing a topic"
+      },
+      {
+        "kind": "p",
+        "text": "Good topics are often small: a habit, a place, a conversation or a problem you could not stop thinking about. You do not need a dramatic event. Ask yourself, what would a reader still remember about me after finishing this essay?"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Weaker approach",
+          "Stronger approach"
+        ],
+        "rows": [
+          [
+            "Listing awards and results",
+            "Telling one moment that shows how you think"
+          ],
+          [
+            "Describing a famous event or person",
+            "Describing your own experience of it"
+          ],
+          [
+            "A moral at the end that tells the reader what to feel",
+            "A reflection that shows growth through detail"
+          ],
+          [
+            "Trying to sound impressive",
+            "Sounding like yourself on a good day"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A simple structure"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Open** with a specific scene or detail, not a general statement.",
+          "**Develop** with what happened and what you did or thought.",
+          "**Reflect** on what changed and how it shapes you now.",
+          "**End** quietly, with a forward look rather than a summary."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Pitfalls for Indian applicants"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Writing about marks and ranks, which the transcript already shows.",
+          "Using very formal, textbook-style language instead of a natural voice.",
+          "Copying sample essays or relying on templates.",
+          "Letting a parent or consultant rewrite the voice."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Revision checklist"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Could only you have written this essay?",
+          "Is every paragraph doing a job?",
+          "Are there specific details rather than adjectives?",
+          "Have you read it aloud and cut anything that sounds unnatural?",
+          "Have you checked grammar and the word count?"
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Plan to write several drafts over weeks, and ask a teacher or trusted reader for feedback on clarity, not for a rewrite. Our timeline is in the [Ivy League application calendar](/blog/ivy-league-application-calendar-for-class-11-and-12-students)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long should the Common App essay be?",
+        "answer": "The essay limit is 650 words and the minimum is 250. Check commonapp.org for the current prompts and limits."
+      },
+      {
+        "question": "Should I write about a big achievement?",
+        "answer": "Not necessarily. A small, specific story that shows how you think often works better than a list of achievements."
+      },
+      {
+        "question": "Can I use AI or a consultant to write my essay?",
+        "answer": "Your essay should be your own work. Getting feedback is fine, but the voice and ideas must be yours, and universities expect honest applications."
+      },
+      {
+        "question": "Does BuzzyBrains edit essays?",
+        "answer": "Our counselling program focuses on academics, testing and planning. This guide offers general advice to help you write your own essay."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-supplemental-essays-why-us-and-why-major",
+    "title": "Ivy League Supplemental Essays: Writing \"Why Us\" and \"Why This Major\"",
+    "description": "How to approach Ivy League supplemental essays: researching each university, answering \"Why us\" and \"Why this major\" with specifics, managing short word limits and avoiding copy-paste mistakes.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/common-app-personal-statement-guide-for-indian-students",
+        "label": "Common App Personal Statement Guide"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Supplemental essays are the extra, university-specific questions beyond the Common App personal statement. The most common are \"Why us?\" and \"Why this major?\". A strong answer connects your genuine interests to specific courses, programmes, people or opportunities at that university, and could not be pasted into another university's application."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Every Ivy League university asks different questions and word limits, so check each one's official page.",
+          "Specificity wins: name real courses, labs, centres, clubs or traditions.",
+          "Link each detail to something you have done or want to do.",
+          "Never reuse an essay with the wrong university name."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Researching a university"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Read the departmental website for your intended major.",
+          "Look at course catalogues and find two or three courses that excite you.",
+          "Find research groups, centres or student projects that fit your interests.",
+          "Note how the curriculum works, such as open curricula or core requirements."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Answering \"Why us?\""
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Generic",
+          "Specific"
+        ],
+        "rows": [
+          [
+            "\"It has a great reputation.\"",
+            "\"The seminar on ... and the lab working on ... connect to the project I built last year.\""
+          ],
+          [
+            "\"The campus is beautiful.\"",
+            "\"The first-year programme that pairs students with ... fits how I learn.\""
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Aim for two or three concrete links, each tied to your own story, then close with what you would contribute."
+      },
+      {
+        "kind": "h2",
+        "text": "Answering \"Why this major?\""
+      },
+      {
+        "kind": "p",
+        "text": "Tell the story of how the interest started, what you did to explore it and what questions you want to answer next. If you are undecided, say so, and show curiosity across fields."
+      },
+      {
+        "kind": "h2",
+        "text": "Short answers"
+      },
+      {
+        "kind": "p",
+        "text": "Many prompts allow only 50 to 250 words. Choose one idea, use plain language and cut anything that does not add information. The activities that matter most to you should show up somewhere in your application, not only in the list."
+      },
+      {
+        "kind": "h2",
+        "text": "Checklist"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Is every detail correct and current?",
+          "Does the essay mention the right university and programme?",
+          "Could another applicant have written it?",
+          "Is it within the word limit?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do all Ivy League universities require supplemental essays?",
+        "answer": "Most ask for supplements, but the number and questions differ. Check each university's admissions page for the current requirements."
+      },
+      {
+        "question": "How specific should \"Why us\" be?",
+        "answer": "Mention a few specific courses, programmes or opportunities and explain why each fits you. Avoid generic praise."
+      },
+      {
+        "question": "Can I reuse an essay for different universities?",
+        "answer": "You may adapt a core idea, but every essay must be tailored to the university. Always check the name and details before submitting."
+      },
+      {
+        "question": "What if I am undecided about my major?",
+        "answer": "That is fine. Show curiosity and explain how the university's curriculum would help you explore."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "extracurriculars-for-ivy-league-depth-spike-or-well-rounded",
+    "title": "Extracurriculars for the Ivy League: Depth, Spike or Well-Rounded?",
+    "description": "What kind of activities impress Ivy League admissions: why depth beats a long list, how to build a spike, how to describe activities on the Common App and examples that fit Indian students.",
+    "readingMinutes": 8,
+    "relatedGuides": [
+      {
+        "href": "/blog/olympiads-vs-research-papers-which-matters-more",
+        "label": "Olympiads vs Research Papers: Which Matters More?"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Ivy League universities look for depth, initiative and impact in activities rather than a long list of memberships. A well-developed area of strength, often called a spike, usually reads better than scattered involvement, but real interest matters more than any label. The goal is a coherent picture of what you care about and what you have done about it."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "A few activities pursued seriously over years beat many shallow ones.",
+          "Impact and growth matter: what changed because of you?",
+          "Activities should reflect real interests, not a checklist.",
+          "The Common App allows up to 10 activities, each with a short description."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Well-rounded or spike?"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Approach",
+          "Strength",
+          "Risk"
+        ],
+        "rows": [
+          [
+            "Well-rounded",
+            "Shows variety and balance",
+            "Can look scattered"
+          ],
+          [
+            "Spike",
+            "Shows depth and distinction",
+            "Can feel narrow if invented"
+          ],
+          [
+            "Rounded class, spiky person",
+            "Many interests with one clear core",
+            "Needs honest time management"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Universities build a diverse class of specialists. Your job is to show who you are, not to guess the perfect profile."
+      },
+      {
+        "kind": "h2",
+        "text": "Building depth over time"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Pick one or two areas that genuinely interest you.",
+          "Move from participation to leadership or creation.",
+          "Start something yourself: a project, a club, a research question, a community initiative.",
+          "Track outcomes, such as people helped, things built or results achieved."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Examples that fit Indian students"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Maths or science competitions, followed by teaching or mentoring younger students.",
+          "Coding projects that solve a local problem, shared publicly.",
+          "Community work with measurable results.",
+          "Writing, music, sports or arts, pursued seriously."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See how competitions compare with research in [Olympiads vs research papers](/blog/olympiads-vs-research-papers-which-matters-more)."
+      },
+      {
+        "kind": "h2",
+        "text": "Writing the activities list"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Use short, concrete verbs.",
+          "Include numbers where honest and relevant.",
+          "Show your role and what you achieved.",
+          "Do not exaggerate. Recommenders and interviewers may ask about anything you list."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common mistakes"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Joining clubs only to fill the list.",
+          "Paying for programmes that give a title but no real work.",
+          "Neglecting grades for activities."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many activities should I list?",
+        "answer": "The Common App allows up to 10. Quality matters more than filling every slot."
+      },
+      {
+        "question": "Do I need a spike to get into the Ivy League?",
+        "answer": "Not necessarily. Depth and genuine interest matter, and a spike is one way to show it."
+      },
+      {
+        "question": "Do Olympiads help?",
+        "answer": "They can show strength and interest in a subject, especially when combined with other work. They are one of many ways to show depth."
+      },
+      {
+        "question": "Can I add activities I started recently?",
+        "answer": "You can, but long-term commitment and growth usually carry more weight than something started just before applying."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-alumni-interviews-how-to-prepare",
+    "title": "Ivy League Alumni Interviews: What to Expect and How to Prepare",
+    "description": "How Ivy League alumni interviews work, what interviewers look for, common questions, how to prepare, and what to do if you do not get an interview.",
+    "readingMinutes": 6,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Many Ivy League universities offer applicants a conversation with an alumnus, usually online or in a public place near you. It is typically informational and friendly, and the interviewer writes a short report. Not every applicant receives an interview, and not being interviewed is not a negative. Prepare to talk honestly about your interests and your reasons for choosing the university."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Interviews are usually conducted by volunteer alumni, and availability varies.",
+          "They are generally a conversation, not an exam.",
+          "The report is one part of a holistic review.",
+          "A missing interview does not count against you. Check each university's policy."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What interviewers look for"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Curiosity and genuine interest.",
+          "How you talk about your activities and what you learned.",
+          "Maturity and kindness.",
+          "Clear reasons for choosing the university."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common questions"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Tell me about yourself.",
+          "What do you enjoy learning about, and why?",
+          "Which activity matters most to you?",
+          "Why this university, and why this field?",
+          "What would you add to our campus?",
+          "Do you have any questions for me?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to prepare"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Review your application so you can discuss anything on it.",
+          "Research the university again: courses, programmes and student life.",
+          "Practise answering aloud, with a friend or mentor.",
+          "Prepare two or three thoughtful questions for the interviewer.",
+          "Test your internet connection and camera for online interviews."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "On the day"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Do",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Be on time and dress neatly",
+            "Memorised, scripted answers"
+          ],
+          [
+            "Give examples and short stories",
+            "Boasting or one-word answers"
+          ],
+          [
+            "Ask genuine questions",
+            "Asking about admission chances"
+          ],
+          [
+            "Send a short thank-you note",
+            "Contacting the interviewer repeatedly"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you do not get an interview"
+      },
+      {
+        "kind": "p",
+        "text": "Interviews depend on volunteer availability in your region, so many strong applicants are never interviewed. Focus on the rest of your application."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are Ivy League interviews mandatory?",
+        "answer": "No. They are generally optional or based on alumni availability, and policies differ by university."
+      },
+      {
+        "question": "Does a bad interview ruin my chances?",
+        "answer": "The interview is one small part of a holistic review. Be yourself, prepare and stay calm."
+      },
+      {
+        "question": "Who conducts the interview?",
+        "answer": "Usually volunteer alumni, though some universities offer other formats. Check each university's page."
+      },
+      {
+        "question": "Should I send a thank-you note?",
+        "answer": "A short, polite message is a good habit."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "building-a-us-college-list-beyond-the-ivy-league-reach-target-safety",
+    "title": "Building a US College List: Reach, Target and Safety Beyond the Ivy League",
+    "description": "How to build a balanced US college list: understanding reach, target and likely schools, researching fit and cost, and why the Ivy League should be only part of your list.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/financial-aid-need-blind-admissions-international-families",
+        "label": "Need-Blind Admissions and Financial Aid"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A balanced US college list includes a few reach universities, several target universities and at least a couple of likely options, all of which you would be happy to attend and can afford. Because Ivy League admission rates are very low even for excellent applicants, a list built only of Ivy League universities is risky. Fit, finances and your intended major matter as much as rankings."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Most lists have 8 to 12 universities across reach, target and likely categories.",
+          "Every university on your list should be one you would genuinely attend.",
+          "Check your financial position early, because international aid varies a lot.",
+          "Fit includes size, location, culture, academics and support."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The three categories"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Category",
+          "Meaning",
+          "Typical share"
+        ],
+        "rows": [
+          [
+            "Reach",
+            "Your profile is below or at the middle of admitted students, or the university is extremely selective",
+            "2 to 4"
+          ],
+          [
+            "Target",
+            "Your profile is around the middle of admitted students",
+            "3 to 5"
+          ],
+          [
+            "Likely",
+            "Your profile is clearly above the typical admitted student and the university is less selective",
+            "2 to 3"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Remember that every Ivy League university is a reach for nearly every applicant, however strong."
+      },
+      {
+        "kind": "h2",
+        "text": "Beyond the Ivy League"
+      },
+      {
+        "kind": "p",
+        "text": "Many excellent universities offer outstanding teaching, research and careers: research universities, liberal arts colleges and technical institutes. Look at the programme you want, not only the name. Compare faculty, research opportunities, class sizes and outcomes."
+      },
+      {
+        "kind": "h2",
+        "text": "Questions to research"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Does the university offer my intended major or a flexible curriculum?",
+          "What is the cost, and what aid is available to international students?",
+          "Which test policy and deadlines apply?",
+          "What is student life like, and what support exists for international students?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Money first"
+      },
+      {
+        "kind": "p",
+        "text": "Some universities are need-blind for international students, others are not, and many have limited aid. Discuss your budget as a family before finalising the list. See [financial aid for international families](/blog/financial-aid-need-blind-admissions-international-families)."
+      },
+      {
+        "kind": "h2",
+        "text": "Review your list"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Would I be happy at every university on this list?",
+          "Can my family afford each one?",
+          "Is there a realistic route to offers?"
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many universities should I apply to?",
+        "answer": "Many students apply to 8 to 12, though the right number depends on your profile and budget."
+      },
+      {
+        "question": "Are all Ivy League universities reaches?",
+        "answer": "For almost all applicants, yes, because acceptance rates are very low even for excellent profiles."
+      },
+      {
+        "question": "How do I find safety schools as an international student?",
+        "answer": "Look for universities where your profile is clearly above the typical admitted student, and check cost and aid carefully."
+      },
+      {
+        "question": "Does ranking matter?",
+        "answer": "Rankings can be a starting point, but programme quality, fit and cost matter more for your experience and outcomes."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "ivy-league-application-calendar-for-class-11-and-12-students",
+    "title": "Ivy League Application Calendar for Class 11 and 12 Students",
+    "description": "A month-by-month calendar for Class 11 and 12 students applying to the Ivy League: tests, essays, recommendations, deadlines and decisions, with a reminder to confirm every date on official sites.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/early-decision-vs-early-action-vs-regular-decision-explained",
+        "label": "Early Decision vs Early Action vs Regular Decision"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Most students applying to the Ivy League start serious preparation in Class 11 and submit applications in the autumn and winter of Class 12. Early deadlines are typically around the start of November and regular deadlines around the start of January, with decisions arriving between December and April. Dates change, so confirm each university's deadlines on its own admissions page."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Work backward from your target deadlines.",
+          "Finish most testing before Class 12 begins.",
+          "Start essays in the summer before Class 12.",
+          "Give recommenders several weeks of notice."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The calendar"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "When",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "Class 11, first term",
+            "Strengthen grades, choose rigorous courses, deepen key activities, start building a college list"
+          ],
+          [
+            "Class 11, winter",
+            "Take a diagnostic SAT or ACT and plan preparation"
+          ],
+          [
+            "Class 11, spring",
+            "Sit your first official test, research universities, plan summer"
+          ],
+          [
+            "Class 11 summer",
+            "Meaningful project or programme, test retakes if needed, begin personal statement"
+          ],
+          [
+            "Class 12, July-August",
+            "Finalise college list, draft Common App essay and supplements, ask recommenders"
+          ],
+          [
+            "Class 12, September-October",
+            "Complete applications, order transcripts, prepare for any early deadline"
+          ],
+          [
+            "Early November (typical)",
+            "Early Decision and Early Action deadlines"
+          ],
+          [
+            "December",
+            "Early results, interviews, complete regular applications"
+          ],
+          [
+            "Early January (typical)",
+            "Regular Decision deadlines"
+          ],
+          [
+            "February-March",
+            "Send mid-year reports and updates if required"
+          ],
+          [
+            "March-April",
+            "Regular Decision results and financial aid offers"
+          ],
+          [
+            "By early May (typical)",
+            "Compare offers and make your decision"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Read [Early Decision vs Early Action vs Regular Decision](/blog/early-decision-vs-early-action-vs-regular-decision-explained) before choosing a plan, as Early Decision is binding."
+      },
+      {
+        "kind": "h2",
+        "text": "Fit this around school"
+      },
+      {
+        "kind": "p",
+        "text": "Plan heavier test preparation in school holidays and avoid clashing with board exam preparation. Our guide to [balancing SAT prep with IGCSE, IB or CBSE](/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both) helps."
+      },
+      {
+        "kind": "h2",
+        "text": "Keep a tracker"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "A spreadsheet of deadlines, requirements and login details.",
+          "A checklist of documents: transcripts, school profile, test scores, recommendations.",
+          "Weekly check-ins with a parent or mentor."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "When are Ivy League deadlines?",
+        "answer": "Early deadlines are typically around the start of November and regular deadlines around the start of January, but dates vary. Check each university's official page."
+      },
+      {
+        "question": "When should I take the SAT or ACT?",
+        "answer": "Many students sit their first official test in Class 11 so that they have time for a retake before applications."
+      },
+      {
+        "question": "When should I start my essays?",
+        "answer": "The summer before Class 12 is a good time, which leaves time for several drafts."
+      },
+      {
+        "question": "When do results come out?",
+        "answer": "Early applicants typically hear in December, and regular applicants between March and April. Confirm dates with each university."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "how-cbse-icse-and-state-board-students-are-evaluated-by-us-universities",
+    "title": "How CBSE, ICSE and State Board Students Are Evaluated by US Universities",
+    "description": "Do US universities treat CBSE, ICSE, State Board, IGCSE and IB students differently? A clear explanation of transcripts, school profiles, course rigour and how to present your board record.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/ap-vs-ib-vs-igcse-which-builds-stronger-ivy-league-profile",
+        "label": "AP vs IB vs IGCSE for an Ivy League Profile"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "US universities read applications in the context of your school and curriculum. A student from CBSE, ICSE, a State Board, IGCSE or the IB is not expected to take AP courses, and no board is automatically preferred. Admissions readers look at how rigorous your courses are compared with what your school offers, and how well you performed."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "No board is favoured. Context and performance matter.",
+          "Your school submits a transcript and a school profile explaining the curriculum and grading.",
+          "Take the most demanding courses available to you and do well.",
+          "Standardized tests help show readiness for US-style coursework."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What gets sent"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Document",
+          "What it does"
+        ],
+        "rows": [
+          [
+            "Transcript",
+            "Lists courses and marks across years"
+          ],
+          [
+            "School profile",
+            "Explains your school, curriculum and grading scale"
+          ],
+          [
+            "Counsellor recommendation",
+            "Describes your standing and school context"
+          ],
+          [
+            "Board results or predicted grades",
+            "Shows performance in board exams where required"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Grades and marks"
+      },
+      {
+        "kind": "p",
+        "text": "Marks in Indian boards can look different from US grades, so universities rely on the school profile and counsellor to interpret them. Do not convert your marks yourself unless an application asks."
+      },
+      {
+        "kind": "h2",
+        "text": "Choosing rigour"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Take advanced or higher-level options your board offers.",
+          "If your school offers AP or IB courses, choose those that match your interests and strengths.",
+          "If it does not, show rigour through board subjects, self-study and competitions."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "See [AP vs IB vs IGCSE](/blog/ap-vs-ib-vs-igcse-which-builds-stronger-ivy-league-profile) for how curricula compare, and the [academic profile roadmap](/blog/building-a-competitive-academic-profile-grade-9-12-roadmap)."
+      },
+      {
+        "kind": "h2",
+        "text": "Tests"
+      },
+      {
+        "kind": "p",
+        "text": "The SAT or ACT gives universities a common measure across systems. Whether tests are required depends on the university, so confirm each policy."
+      },
+      {
+        "kind": "h2",
+        "text": "Practical steps"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Talk to your school counsellor early about transcripts and the school profile.",
+          "Ask whether your school has sent applications to US universities before.",
+          "Keep a record of certificates, competition results and projects."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is CBSE or IB better for US admissions?",
+        "answer": "Neither is favoured. US universities evaluate you in the context of your school and curriculum."
+      },
+      {
+        "question": "Do I need AP courses if I study CBSE?",
+        "answer": "No. AP courses are optional and often unavailable. Show rigour through the most demanding options you have."
+      },
+      {
+        "question": "Will my percentage be converted to a GPA?",
+        "answer": "Applications usually ask for your marks as reported, and the school profile helps readers interpret them. Check each application's instructions."
+      },
+      {
+        "question": "Do I still need the SAT or ACT?",
+        "answer": "It depends on the university. Many require or consider scores, so confirm each policy."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "summer-programs-and-research-for-ivy-league-aspirants-what-actually-helps",
+    "title": "Summer Programs and Research for Ivy League Aspirants: What Actually Helps",
+    "description": "Do summer programs help Ivy League applications? How to judge paid programmes, find real research, projects and community work, and what admissions readers value.",
+    "readingMinutes": 7,
+    "relatedGuides": [
+      {
+        "href": "/blog/olympiads-vs-research-papers-which-matters-more",
+        "label": "Olympiads vs Research Papers: Which Matters More?"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A summer programme helps an Ivy League application only if you did real work and grew from it. Admissions readers care about what you learned and created, not the cost or brand of the programme. Free or low-cost options, independent projects, local research and community work can be just as valuable as expensive programmes."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Prestige and price do not impress by themselves.",
+          "Real work, initiative and a visible result matter most.",
+          "Choose something connected to your genuine interests.",
+          "Be cautious of programmes that promise admission advantages."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Options to consider"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Option",
+          "Benefit",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "Selective academic programmes",
+            "Rigour and peers",
+            "Cost and limited places"
+          ],
+          [
+            "University or school research with a mentor",
+            "Real research experience",
+            "Credit and honesty about your role"
+          ],
+          [
+            "Independent project",
+            "Shows initiative",
+            "Needs sustained effort"
+          ],
+          [
+            "Community or social impact work",
+            "Shows care and leadership",
+            "Needs measurable results"
+          ],
+          [
+            "Competitions and camps",
+            "Skill depth and recognition",
+            "One-off participation adds little"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to judge a programme"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Who teaches or mentors, and what will you actually produce?",
+          "Is selection competitive, or can anyone pay to join?",
+          "Does it match your direction?",
+          "Can you afford it without hardship?"
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Papers or certificates are worth listing only if you can discuss the work in depth. See [Olympiads vs research papers](/blog/olympiads-vs-research-papers-which-matters-more)."
+      },
+      {
+        "kind": "h2",
+        "text": "Start your own"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Build and publish a project, app, dataset or tutorial.",
+          "Organise a workshop or a local competition.",
+          "Teach younger students and track what they learned."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Be honest"
+      },
+      {
+        "kind": "p",
+        "text": "Describe your role accurately. Interviewers, recommenders and readers may ask follow-up questions, and exaggeration can hurt you."
+      },
+      {
+        "kind": "h2",
+        "text": "Plan your summers"
+      },
+      {
+        "kind": "p",
+        "text": "Use summer before Class 11 to explore, summer before Class 12 to deepen, and keep time for test preparation and essays."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do expensive summer programs improve my chances?",
+        "answer": "Not by themselves. What you did and learned matters more than the name or cost."
+      },
+      {
+        "question": "Is research necessary for the Ivy League?",
+        "answer": "No. It is one way to show depth. Projects, competitions, community work and arts can also demonstrate it."
+      },
+      {
+        "question": "Can I list a programme I only attended briefly?",
+        "answer": "You can, but short or passive participation usually adds little. Focus on sustained work."
+      },
+      {
+        "question": "How do I find a research mentor?",
+        "answer": "Contact local university faculty or researchers politely, share your background and propose a small project. Persistence helps."
+      }
+    ]
+  },
+  {
+    "category": "ivy-colleges",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/ivy-league-counselling",
+    "relatedProgramLabel": "Ivy League Counselling",
+    "slug": "deferred-waitlisted-or-rejected-what-to-do-next-after-us-college-decisions",
+    "title": "Deferred, Waitlisted or Rejected: What to Do Next After US College Decisions",
+    "description": "What to do if you are deferred, waitlisted or rejected by an Ivy League or other US university: letters of continued interest, updates, deposit decisions and moving forward calmly.",
+    "readingMinutes": 6,
+    "relatedGuides": [
+      {
+        "href": "/blog/early-decision-vs-early-action-vs-regular-decision-explained",
+        "label": "Early Decision vs Early Action vs Regular Decision"
+      }
+    ],
+    "body": [
+      {
+        "kind": "answer",
+        "text": "If you are deferred, waitlisted or rejected, take a few days to process, then act on the options you have. A deferral moves an early application into the regular pool, a waitlist means a possible later offer and a rejection is final. In every case, commit to a university where you have an offer and keep your options open in an organised way."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Deferral and waitlist are not rejections, but offers are not guaranteed.",
+          "Follow each university's instructions exactly.",
+          "Always secure an option you are happy with.",
+          "A decision is not a verdict on your worth."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What each result means"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Result",
+          "Meaning",
+          "Next step"
+        ],
+        "rows": [
+          [
+            "Deferred",
+            "Your early application will be reviewed again in the regular round",
+            "Follow instructions, send a concise update if allowed, keep applying elsewhere"
+          ],
+          [
+            "Waitlisted",
+            "You may be offered a place if space becomes available",
+            "Accept your place on the list if you wish, send an update if allowed, and decide on another offer"
+          ],
+          [
+            "Rejected",
+            "The decision is final",
+            "Focus on your other applications and offers"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are deferred"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Check whether the university accepts updates and what to include.",
+          "Send new grades, awards or projects, briefly.",
+          "Write a short letter of continued interest if allowed, stating that you remain interested and why.",
+          "Complete your regular applications on time."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are waitlisted"
+      },
+      {
+        "kind": "p",
+        "text": "Waitlist movement varies a lot by year and university, and many students are not admitted. Do not wait for a waitlist offer. Accept an offer elsewhere by the deadline and put down the deposit there."
+      },
+      {
+        "kind": "h2",
+        "text": "If you are rejected"
+      },
+      {
+        "kind": "p",
+        "text": "This is hard, particularly after years of work. Admission to the Ivy League is extremely competitive, and many outstanding students are turned away. Speak to family, friends or a counsellor, and look forward to the universities that want you."
+      },
+      {
+        "kind": "h2",
+        "text": "Making your final choice"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Compare academics, cost, aid and fit.",
+          "Visit or attend admitted-student events, online if needed.",
+          "Meet the deposit deadline."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "This is why a balanced list matters. See [building a US college list](/blog/building-a-us-college-list-beyond-the-ivy-league-reach-target-safety)."
+      },
+      {
+        "kind": "h2",
+        "text": "How BuzzyBrains Academy fits in"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's [Ivy League & Top US University Counselling](/ivy-league-counselling) program focuses on the academic side of the journey: course planning, Digital SAT and AP strategy and a grade-by-grade timeline, in batches of up to 12 students. No programme can guarantee admission to any university, and you should always confirm requirements on each university's official admissions page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does a deferral mean I will be admitted later?",
+        "answer": "No. It means your application will be reviewed again with the regular pool, and the result is not guaranteed."
+      },
+      {
+        "question": "Should I send updates after a deferral?",
+        "answer": "Only if the university allows it. Follow its instructions, and keep updates short and meaningful."
+      },
+      {
+        "question": "Should I accept a waitlist spot?",
+        "answer": "You can, but also accept an offer elsewhere. Waitlist offers are uncertain."
+      },
+      {
+        "question": "Can I appeal a rejection?",
+        "answer": "Most universities do not accept appeals, except in rare circumstances. Check their policy."
+      }
+    ]
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
