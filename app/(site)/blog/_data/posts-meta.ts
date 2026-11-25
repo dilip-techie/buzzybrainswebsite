@@ -4308,5 +4308,45 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "iit-jee",
     datePublished: "2026-11-25",
     readingMinutes: 7
+  },
+  {
+    slug: "act-exam-guide-for-indian-students-format-sections-timing",
+    title: "ACT Exam Guide for Indian Students: Format, Sections and Timing",
+    description: "Thinking of taking the ACT for US admissions? A clear guide for Indian students to the Enhanced ACT: sections, number of questions, timing, the optional Science and Writing sections, and who the ACT suits.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-scoring-explained-composite-superscore-and-optional-science",
+    title: "ACT Scoring Explained: Composite, Superscore and the Optional Science Section",
+    description: "How ACT scores work: the 1-36 scale, how the Composite is calculated, what a superscore is, how the STEM score works, and how to decide whether to take the optional Science and Writing sections.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-math-strategy-topics-pacing-and-calculator-tips",
+    title: "ACT Math Strategy: Topics, Pacing and Calculator Tips",
+    description: "A practical strategy for the ACT Math section: what topics appear, how to pace 45 questions in 50 minutes, when to use a calculator, and the mistakes that cost the most points.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-english-and-reading-strategy-how-to-score-higher",
+    title: "ACT English and Reading Strategy: How to Score Higher",
+    description: "How to improve your ACT English and Reading scores: the grammar rules that repeat, how to handle passages under time pressure, and the habits that raise accuracy for Indian students.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 7
+  },
+  {
+    slug: "act-study-plan-12-week-preparation-schedule-for-indian-students",
+    title: "ACT Study Plan: A 12-Week Preparation Schedule for Indian Students",
+    description: "A realistic 12-week ACT study plan for students balancing school: diagnostic test, weekly structure, section focus, full-length practice tests and a final-week routine.",
+    category: "sat-exam",
+    datePublished: "2026-11-25",
+    readingMinutes: 8
   }
 ];

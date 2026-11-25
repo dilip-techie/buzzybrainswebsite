@@ -49475,6 +49475,768 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/sat-exam",
+    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-exam-guide-for-indian-students-format-sections-timing",
+    "title": "ACT Exam Guide for Indian Students: Format, Sections and Timing",
+    "description": "Thinking of taking the ACT for US admissions? A clear guide for Indian students to the Enhanced ACT: sections, number of questions, timing, the optional Science and Writing sections, and who the ACT suits.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "The ACT is a standardized test accepted by US universities that consider test scores. The current (Enhanced) ACT has three core sections, English, Math and Reading, with Science and Writing now optional. Each section is scored from 1 to 36, and the Composite is the average of the three core sections. Because the exam has been updated recently, always check act.org for the latest format and dates."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "The ACT is accepted alongside the SAT by US universities that consider standardized tests.",
+          "The core test is English, Math and Reading; Science and Writing are optional.",
+          "Scores run from 1 to 36 per section, and the Composite averages the core sections.",
+          "It is a fixed-difficulty test, not adaptive like the Digital SAT.",
+          "Choose between the ACT and SAT after trying a practice test of each."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What changed in the Enhanced ACT"
+      },
+      {
+        "kind": "p",
+        "text": "ACT has shortened the test and made Science optional. The core test is now shorter than before, with fewer questions per section, and Math questions have four answer choices instead of five. Older prep books and videos may describe the previous version, so check that your materials match the current format."
+      },
+      {
+        "kind": "h2",
+        "text": "The sections at a glance"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Section",
+          "Questions",
+          "Time",
+          "What it tests"
+        ],
+        "rows": [
+          [
+            "English",
+            "50",
+            "35 min",
+            "Grammar, punctuation, sentence structure, style and organisation"
+          ],
+          [
+            "Math",
+            "45",
+            "50 min",
+            "Algebra, functions, geometry, number and quantity, statistics and probability"
+          ],
+          [
+            "Reading",
+            "36",
+            "40 min",
+            "Understanding, inference and evidence in passages across genres"
+          ],
+          [
+            "Science (optional)",
+            "40",
+            "40 min",
+            "Interpreting data, graphs and experiments"
+          ],
+          [
+            "Writing (optional)",
+            "1 essay",
+            "40 min",
+            "Building and supporting an argument"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "These figures reflect ACT's published format at the time of writing. ACT updates its test, so verify them on act.org before you plan."
+      },
+      {
+        "kind": "h2",
+        "text": "How the ACT differs from the Digital SAT"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Adaptive vs fixed:** the Digital SAT adapts its second module to your first; the ACT does not adapt.",
+          "**Sections:** the ACT separates English and Reading, while the SAT combines them as Reading and Writing.",
+          "**Pace:** the ACT generally gives less time per question, so speed and confidence matter.",
+          "**Optional sections:** Science and Writing can be skipped, but some programmes may expect them, so check each university's policy."
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Our deeper comparison is in [SAT vs ACT: Which Should Indian Students Take?](/blog/sat-vs-act-which-should-indian-students-take)."
+      },
+      {
+        "kind": "h2",
+        "text": "Who tends to like the ACT"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Students who read quickly and decide quickly.",
+          "Students who are strong at grammar rules and want predictable question types.",
+          "Students who prefer a fixed test without module-to-module adaptation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to decide"
+      },
+      {
+        "kind": "p",
+        "text": "Take one official full-length practice test of each exam under timed conditions, then compare both your scores and how each felt. Do this before you spend months on either."
+      },
+      {
+        "kind": "h2",
+        "text": "Where BuzzyBrains Academy fits"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the ACT accepted by US universities?",
+        "answer": "Yes. US universities that consider standardized test scores generally accept the ACT and the SAT equally. Confirm each target university's policy on its admissions page."
+      },
+      {
+        "question": "Is the ACT Science section still required?",
+        "answer": "In the current Enhanced ACT, Science is optional. Some programmes may still look at it, so check the policy of each university you are applying to."
+      },
+      {
+        "question": "Is the ACT adaptive like the Digital SAT?",
+        "answer": "No. The ACT is a fixed-difficulty test, so every student sees the same style of questions regardless of earlier answers."
+      },
+      {
+        "question": "Does BuzzyBrains Academy coach for the ACT?",
+        "answer": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT. This guide is general information to help you choose between the two exams."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/sat-exam",
+    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-scoring-explained-composite-superscore-and-optional-science",
+    "title": "ACT Scoring Explained: Composite, Superscore and the Optional Science Section",
+    "description": "How ACT scores work: the 1-36 scale, how the Composite is calculated, what a superscore is, how the STEM score works, and how to decide whether to take the optional Science and Writing sections.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "Each ACT section is scored from 1 to 36. The Composite score is the average of the English, Math and Reading section scores, rounded to a whole number. If you take the optional Science section, it is reported separately, and a STEM score combines Math and Science. Many universities also superscore, which means they use your best section scores across test dates."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Scores run from 1 to 36 for each section and for the Composite.",
+          "The Composite averages English, Math and Reading.",
+          "Optional Science and Writing are reported separately.",
+          "Superscoring policies differ by university, so check each one.",
+          "A higher score helps most when it is compared to the middle range of admitted students at your target universities."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How the Composite is calculated"
+      },
+      {
+        "kind": "p",
+        "text": "Your raw score in each section (the number of correct answers) is converted to a scaled score from 1 to 36. The Composite is the average of the three core scaled scores, rounded to the nearest whole number. There is no penalty for wrong answers, so you should answer every question."
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Section scores (example)",
+          "Composite"
+        ],
+        "rows": [
+          [
+            "English 33, Math 35, Reading 31",
+            "33 (average 33)"
+          ],
+          [
+            "English 28, Math 30, Reading 27",
+            "28 (average 28.3)"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The STEM score and the optional Science section"
+      },
+      {
+        "kind": "p",
+        "text": "If you take Science, ACT reports a Science score and a STEM score that combines your Math and Science results. Science does not change your Composite in the current format. Whether to take it depends on your intended programme: students applying to engineering or science may want to show data-interpretation skills, while others may prefer to spend their energy on the core sections. Check each university's guidance."
+      },
+      {
+        "kind": "h2",
+        "text": "Superscoring"
+      },
+      {
+        "kind": "p",
+        "text": "A superscore combines your best section scores from different test dates. ACT now provides a superscore report, and many universities calculate one themselves, but policies differ and some use only your highest single sitting. Always read each university's testing policy."
+      },
+      {
+        "kind": "h2",
+        "text": "What counts as a good score"
+      },
+      {
+        "kind": "p",
+        "text": "There is no single good score. The useful comparison is with the middle range of admitted students at each university on your list, which most universities publish. Aim for the middle or upper part of that range. For our guidance on SAT targets, see [What SAT Score Do You Need for Top US Universities?](/blog/what-sat-score-do-you-need-for-top-us-universities); the logic of comparing to a university's published range is the same."
+      },
+      {
+        "kind": "h2",
+        "text": "Converting between ACT and SAT"
+      },
+      {
+        "kind": "p",
+        "text": "ACT and the College Board publish concordance tables that map scores between the exams approximately. Use them to compare practice results, but treat them as estimates rather than exact equivalents."
+      },
+      {
+        "kind": "h2",
+        "text": "Should you retake?"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Retake if your practice scores are clearly above your real score, or one section dragged the Composite down.",
+          "Check whether your target universities superscore before planning a retake around one section.",
+          "Avoid retaking many times without changing your preparation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is the ACT Composite score calculated?",
+        "answer": "It is the average of your English, Math and Reading scaled scores, rounded to the nearest whole number, on a 1 to 36 scale."
+      },
+      {
+        "question": "Does the optional Science score affect my Composite?",
+        "answer": "In the current format, no. Science is reported separately and contributes to a STEM score along with Math."
+      },
+      {
+        "question": "Is there a penalty for wrong answers on the ACT?",
+        "answer": "No. You are not penalised for wrong answers, so answer every question, including the ones you must guess."
+      },
+      {
+        "question": "Do universities superscore the ACT?",
+        "answer": "Many do, but not all. Check each university's testing policy on its admissions page before planning retakes."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/sat-exam",
+    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-math-strategy-topics-pacing-and-calculator-tips",
+    "title": "ACT Math Strategy: Topics, Pacing and Calculator Tips",
+    "description": "A practical strategy for the ACT Math section: what topics appear, how to pace 45 questions in 50 minutes, when to use a calculator, and the mistakes that cost the most points.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "ACT Math has 45 questions in 50 minutes, so you have a little over a minute per question. The topics are algebra, functions, geometry, number and quantity, and statistics and probability. Success comes from fluency with core school maths, steady pacing and knowing when to skip and return."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "About 1 minute 6 seconds per question on average, so pacing is a skill to train.",
+          "Questions are roughly ordered from easier to harder, so protect time for the early ones.",
+          "There is no penalty for wrong answers, so never leave a blank.",
+          "A calculator is permitted, but good mental maths saves time.",
+          "Check current rules on act.org, including which calculators are allowed."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "What the section covers"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Area",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "Algebra",
+            "Linear equations and inequalities, systems, quadratics, exponents"
+          ],
+          [
+            "Functions",
+            "Function notation, graphs, transformations, modelling"
+          ],
+          [
+            "Geometry",
+            "Triangles, circles, area and volume, coordinate geometry, basic trigonometry"
+          ],
+          [
+            "Number and quantity",
+            "Ratios, percentages, number properties, complex numbers at the harder end"
+          ],
+          [
+            "Statistics and probability",
+            "Mean, median, probability, data from tables and charts"
+          ]
+        ]
+      },
+      {
+        "kind": "p",
+        "text": "Most Indian students who have studied Class 9 to 11 maths will have seen all of this. The difficulty is speed and accuracy, not unfamiliar content."
+      },
+      {
+        "kind": "h2",
+        "text": "A pacing plan"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Work the first third quickly and accurately, aiming for well under a minute each.",
+          "Spend more time on the middle third, where multi-step problems appear.",
+          "In the last third, pick questions you can solve and skip the ones that need long setups.",
+          "Leave about two minutes to fill in any blanks with an educated guess."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Use the calculator wisely"
+      },
+      {
+        "kind": "p",
+        "text": "Use it for arithmetic-heavy steps and checking, not as a substitute for thinking. Many ACT questions are quicker to solve by reasoning, substituting the answer choices or simplifying algebraically. Practise with the same calculator you will use on test day."
+      },
+      {
+        "kind": "h2",
+        "text": "Techniques that save time"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Backsolve:** test the answer choices in the question when the algebra is messy.",
+          "**Pick numbers:** replace variables with simple values to compare answer choices.",
+          "**Draw it:** sketch geometry problems even when a figure is provided.",
+          "**Estimate:** eliminate choices that are clearly too large or small."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Mistakes that cost points"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Spending three minutes on a hard question early and rushing the end.",
+          "Misreading what is asked, such as solving for x when the question asks for 2x + 1.",
+          "Dropping units or forgetting to convert them.",
+          "Relying on the calculator for steps that are faster mentally."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "How to practise"
+      },
+      {
+        "kind": "p",
+        "text": "Use official ACT practice material first, do timed sets by topic, then full timed sections. Keep an error log: for each miss, note whether it was a concept gap, a careless slip or a time problem. Fix the most common type first."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many questions are on ACT Math?",
+        "answer": "The current ACT Math section has 45 questions to be completed in 50 minutes, according to ACT's published format. Check act.org for any updates."
+      },
+      {
+        "question": "Can I use a calculator on ACT Math?",
+        "answer": "Yes, an approved calculator is permitted. Check act.org for the current list of allowed models before test day."
+      },
+      {
+        "question": "Is guessing penalised on the ACT?",
+        "answer": "No. There is no penalty for wrong answers, so answer every question."
+      },
+      {
+        "question": "Is ACT Math harder than SAT Math?",
+        "answer": "Neither is universally harder. The ACT tends to feel faster per question, while the Digital SAT is adaptive, so the better fit depends on you. Try practice tests of both."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/sat-exam",
+    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-english-and-reading-strategy-how-to-score-higher",
+    "title": "ACT English and Reading Strategy: How to Score Higher",
+    "description": "How to improve your ACT English and Reading scores: the grammar rules that repeat, how to handle passages under time pressure, and the habits that raise accuracy for Indian students.",
+    "readingMinutes": 7,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "ACT English gives 50 questions in 35 minutes and mainly tests standard grammar, punctuation and clear writing. ACT Reading gives 36 questions in 40 minutes and rewards fast, evidence-based reading. Both improve quickly with focused practice on repeating question patterns."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "English rewards knowing a short list of rules that repeat in every test.",
+          "Reading rewards finding evidence in the passage rather than relying on opinion.",
+          "Time pressure is the main challenge, so practise with a timer.",
+          "Read widely in English in daily life, since vocabulary and fluency help both sections."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "ACT English: the rules that repeat"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "**Sentence boundaries:** run-ons, comma splices and fragments.",
+          "**Punctuation:** commas, semicolons, colons and dashes, and how they join clauses.",
+          "**Subject-verb and pronoun agreement.**",
+          "**Verb tense and consistency.**",
+          "**Modifiers:** keeping descriptive phrases next to what they describe.",
+          "**Concision:** the shortest clear option is often correct.",
+          "**Rhetorical skills:** purpose, transitions, adding or deleting a sentence, and organisation."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "English tactics"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Read the whole sentence, not just the underlined part.",
+          "If \"NO CHANGE\" sounds right and follows the rules, trust it.",
+          "Eliminate answers that break a grammar rule first, then choose the clearest.",
+          "Spend about 40 seconds a question, and move on if stuck."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "ACT Reading: working with passages"
+      },
+      {
+        "kind": "p",
+        "text": "Reading passages span literary narrative, social science, humanities and natural science. You have a little over a minute per question including time to read, so you need a method and not a leisurely read."
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Skim for the main idea and the purpose of each paragraph first.",
+          "Read the question stems and then locate the relevant lines.",
+          "Choose answers supported by specific words in the passage.",
+          "Beware of answer choices that are true in general but not stated or implied by the passage."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Common Reading traps"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Extreme wording such as \"always\" or \"never\".",
+          "Answers that use passage words but change the meaning.",
+          "Choosing from memory instead of rechecking the lines."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Building fluency"
+      },
+      {
+        "kind": "p",
+        "text": "Read long-form English for 20 to 30 minutes a day, such as essays, science writing and quality journalism, and summarise each piece in one sentence. This builds the speed and comprehension that timed sections demand. Our approach to vocabulary in context is covered in [SAT Vocabulary Strategy](/blog/sat-vocabulary-strategy-word-in-context-questions), and the grammar rules overlap heavily with [SAT Grammar Rules](/blog/sat-grammar-rules-standard-english-conventions-guide)."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long is ACT English?",
+        "answer": "According to ACT's published format, English has 50 questions in 35 minutes. Check act.org for the latest details."
+      },
+      {
+        "question": "How can I get faster at ACT Reading?",
+        "answer": "Practise with a timer, skim for structure first, then find evidence for each answer in the passage. Daily reading of long-form English also helps."
+      },
+      {
+        "question": "Are the SAT and ACT grammar rules the same?",
+        "answer": "They overlap heavily, since both test standard written English. The question styles and pacing differ, so practise with ACT-style questions."
+      },
+      {
+        "question": "Do I need a tutor for ACT English?",
+        "answer": "Not necessarily. Many students improve with official practice tests and an error log. A tutor can help if you keep missing the same question types."
+      }
+    ]
+  },
+  {
+    "category": "sat-exam",
+    "datePublished": "2026-11-25",
+    "relatedProgramHref": "/sat-exam",
+    "relatedProgramLabel": "SAT Exam Prep",
+    "relatedGuides": [
+      {
+        "href": "/blog/sat-vs-act-which-should-indian-students-take",
+        "label": "SAT vs ACT: Which Should Indian Students Take?"
+      },
+      {
+        "href": "/blog/do-indian-students-actually-need-the-sat",
+        "label": "Do Indian Students Actually Need the SAT?"
+      }
+    ],
+    "slug": "act-study-plan-12-week-preparation-schedule-for-indian-students",
+    "title": "ACT Study Plan: A 12-Week Preparation Schedule for Indian Students",
+    "description": "A realistic 12-week ACT study plan for students balancing school: diagnostic test, weekly structure, section focus, full-length practice tests and a final-week routine.",
+    "readingMinutes": 8,
+    "body": [
+      {
+        "kind": "answer",
+        "text": "A 12-week ACT plan works well for students who already have solid school maths and English: take a diagnostic in week 1, build skills by section in weeks 2 to 8, then take full timed tests and review errors in weeks 9 to 12. Plan 6 to 8 hours a week, and adjust if your school load is heavy."
+      },
+      {
+        "kind": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Start with a full diagnostic so you know your baseline.",
+          "Use official ACT practice material, and make sure it matches the current format.",
+          "Keep an error log and review it every week.",
+          "Take at least three or four full timed tests before the exam.",
+          "Book your test date early and check the registration deadline on act.org."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "Before you start"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Decide between the ACT and SAT using a practice test of each. See [SAT vs ACT](/blog/sat-vs-act-which-should-indian-students-take).",
+          "Check your target universities' testing policies and score ranges.",
+          "Choose a test date at least 12 weeks away and confirm it on act.org."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The 12-week plan"
+      },
+      {
+        "kind": "table",
+        "headers": [
+          "Weeks",
+          "Focus",
+          "Output"
+        ],
+        "rows": [
+          [
+            "1",
+            "Full diagnostic test, review all errors",
+            "Baseline score and weakest areas"
+          ],
+          [
+            "2-3",
+            "English: grammar rules and punctuation",
+            "Timed English sets, error log"
+          ],
+          [
+            "4-5",
+            "Math: algebra, functions and geometry",
+            "Timed Math sets, formula sheet"
+          ],
+          [
+            "6",
+            "Reading: passage method and pacing",
+            "Timed Reading sets"
+          ],
+          [
+            "7",
+            "Optional Science: data interpretation (if you plan to take it)",
+            "Timed Science sets"
+          ],
+          [
+            "8",
+            "Mixed review and a full test",
+            "Test 2, updated plan"
+          ],
+          [
+            "9-10",
+            "Targeted weak areas and speed",
+            "Full test 3, error review"
+          ],
+          [
+            "11",
+            "Full test under exact timing",
+            "Test 4, final fixes"
+          ],
+          [
+            "12",
+            "Light review, rest and logistics",
+            "Confident test day"
+          ]
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "A sample week"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "3 weekday sessions of 60 to 90 minutes, each on one section.",
+          "One weekend session for a timed section or a full test.",
+          "One short session to review the error log."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "The error log"
+      },
+      {
+        "kind": "p",
+        "text": "For every missed question, record the topic, why you missed it (concept, careless or time) and the rule or method to apply next time. Review the log weekly. Most score gains come from fixing repeated errors."
+      },
+      {
+        "kind": "h2",
+        "text": "The final week"
+      },
+      {
+        "kind": "ul",
+        "items": [
+          "Do light review only, with no new material.",
+          "Check your registration, ID, approved calculator and test centre route.",
+          "Sleep on a regular schedule.",
+          "On the day, pace yourself and answer every question."
+        ]
+      },
+      {
+        "kind": "h2",
+        "text": "If you are also preparing for school boards"
+      },
+      {
+        "kind": "p",
+        "text": "Balance matters. Our guide on [balancing SAT prep with IGCSE, IB or CBSE](/blog/sat-prep-while-doing-igcse-ib-cbse-balancing-both) applies to the ACT as well. Reduce weekly hours rather than skip weeks, and plan the test date away from major school exams. For timing in general, see [SAT Prep Timeline](/blog/sat-prep-timeline-when-to-start-how-long-it-takes)."
+      },
+      {
+        "kind": "h2",
+        "text": "A note from BuzzyBrains Academy"
+      },
+      {
+        "kind": "p",
+        "text": "BuzzyBrains Academy's standardized-test coaching focuses on the Digital SAT, so this guide is general information to help you decide and plan, not a description of an ACT course we run. Always confirm current dates, fees, centres and format on [act.org](https://www.act.org/)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does ACT preparation take?",
+        "answer": "Many students prepare for around 8 to 12 weeks, depending on their baseline, target score and school workload."
+      },
+      {
+        "question": "How many full practice tests should I take?",
+        "answer": "Aim for at least three or four timed, full-length tests, with careful review after each one."
+      },
+      {
+        "question": "Should I take the optional Science section?",
+        "answer": "It depends on your target programmes and universities. Check their guidance, and consider it if you are applying for science or engineering."
+      },
+      {
+        "question": "Can I prepare for the ACT while in Class 11 or 12?",
+        "answer": "Yes, but plan carefully around school exams. Use fewer weekly hours and a longer timeline if needed."
+      }
+    ]
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
