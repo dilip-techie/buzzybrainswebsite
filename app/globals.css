@@ -2138,3 +2138,25 @@ button{font-family:inherit;cursor:pointer}
   .elite-crest-mark{width:24px;height:24px;font-size:13px}
   .elite-merit{font-size:14.5px;padding:12px 14px}
 }
+/* Elite theme extras for the olympiad HeroBrand hero */
+.hero.elite-hero .eq-field{z-index:1}
+.hero.elite-hero .eq{color:#FBBF24;opacity:.12}
+.hero.elite-hero .hero-tagline-sub{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.45)}
+.hero.elite-hero .hero-tagline-sub-text{background:linear-gradient(110deg,#FDE68A,#F59E0B 55%,#FFF7D6);-webkit-background-clip:text;background-clip:text}
+.hero.elite-hero .hero-proof{color:#CBD5E1}
+.hero.elite-hero .avatars span{border-color:#111A3E}
+.hero.elite-hero .eyebrow-location{background:rgba(251,191,36,.10);color:#FCD34D;border-color:rgba(251,191,36,.45);animation:none}
+.hero.elite-hero .eyebrow-highlight{background:linear-gradient(135deg,#F59E0B,#EA580C);border-color:rgba(253,230,138,.5)}
+/* Elite theme for the Tailwind olympiad heroes (Hero, HeroGeneric) */
+.oly-elite-hero{
+  isolation:isolate;
+  background:
+    radial-gradient(900px 480px at 85% -10%,rgba(251,191,36,.18),transparent 60%),
+    radial-gradient(700px 420px at -10% 110%,rgba(124,58,237,.22),transparent 60%),
+    linear-gradient(160deg,#0B1028 0%,#111A3E 55%,#0B1028 100%);
+  border-bottom:1px solid rgba(251,191,36,.35);
+}
+.oly-elite-hero .elite-gold{
+  background:linear-gradient(110deg,#FDE68A 0%,#F59E0B 45%,#FCD34D 70%,#FFF7D6 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}

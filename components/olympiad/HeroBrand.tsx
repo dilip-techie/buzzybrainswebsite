@@ -62,7 +62,7 @@ export default function HeroBrand({
   }, []);
 
   return (
-    <section className="hero" ref={heroRef}>
+    <section className="hero elite-hero" ref={heroRef}>
       <div className="eq-field" aria-hidden="true">
         <span className="eq" style={{ top: '14%', left: '5%', fontSize: 26, ['--rot' as string]: '-8deg' }}>∑</span>
         <span className="eq amber" style={{ top: '26%', left: '46%', fontSize: 20, ['--rot' as string]: '6deg', animationDelay: '2s' }}>π</span>
@@ -74,6 +74,7 @@ export default function HeroBrand({
 
       <div className="container hero-grid">
         <div className="hero-copy">
+          <span className="elite-crest"><span className="elite-crest-mark" aria-hidden="true">♛</span> BuzzyBrains Elite</span>
           <div className="hero-badges">
             {badges.map((b) => (
               <span key={b} className={`eyebrow ${badges.indexOf(b) === 0 ? 'eyebrow-highlight' : 'eyebrow-location'}`}>{b}</span>
@@ -94,6 +95,10 @@ export default function HeroBrand({
             )}
           </h1>
           <p className="lede">{lede}</p>
+          <p className="elite-merit">
+            <strong>Selective admission by merit.</strong> A minimum of{' '}
+            <span className="elite-merit-req">80% marks is required to apply</span>. Only 12 seats per batch, so apply early to secure your place.
+          </p>
           <div className="hero-chips">
             {chips.map((c) => (
               <span key={c.label} className="chip">

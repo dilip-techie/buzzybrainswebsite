@@ -21,7 +21,7 @@ export default function OlympiadMathPage() {
   return (
     <main className="oly-page">
       <HeroGeneric
-        eyebrow="⭐ Elite Batch · Min. 80% Marks · SOF IMO · IOQM · NMTC · AMC · Kangaroo · WMI · SASMO"
+        eyebrow="SOF IMO · IOQM · NMTC · AMC · Kangaroo · WMI · SASMO"
         title="Every maths olympiad,"
         highlight="one concept-first method."
         description="From a first SOF IMO attempt in Grade 3 to IOQM, NMTC, AMC 8/10, Math Kangaroo, WMI and SASMO — structured competition-maths coaching for Grades 1-12, mentored by IIT alumni, in batches capped at 12."

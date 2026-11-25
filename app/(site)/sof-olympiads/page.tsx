@@ -28,7 +28,7 @@ export default function SofOlympiadsPage() {
   return (
     <main className="oly-page">
       <HeroGeneric
-        eyebrow="⭐ Elite Batch · Min. 80% Marks · Grades 3–10 · 10 Subject Tracks"
+        eyebrow="Grades 3–10 · 10 Subject Tracks"
         title="One academy,"
         highlight="every olympiad your child needs."
         description="From SOF-style Maths, Science, English and General Knowledge to Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS — structured olympiad coaching across every core subject, in batches capped at 12."

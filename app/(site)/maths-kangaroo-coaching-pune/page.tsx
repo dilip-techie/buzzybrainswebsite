@@ -28,7 +28,7 @@ export default function MathsKangarooCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE Math Kangaroo Diagnostic Test', '⭐ Math Kangaroo Coaching', '📍 Grades 1–12']}
+        badges={['🎁 FREE Math Kangaroo Diagnostic Test', '⭐ Math Kangaroo Coaching', '📍 Grades 1–12']}
         titleLines={['Every Kangaroo Level.', 'One Playful']}
         highlight="Start."
         taglineSub="🦘 The World's Largest Maths Competition"

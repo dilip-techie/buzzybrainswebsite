@@ -38,7 +38,7 @@ export default function ElitePromoBanner({ durationMs = 4000 }: { durationMs?: n
         position: 'fixed',
         top: 112,
         left: '50%',
-        zIndex: 60,
+        zIndex: 1000,
         width: 'min(620px, calc(100vw - 32px))',
         transform: `translate(-50%, ${visible ? '0' : '-16px'})`,
         opacity: visible ? 1 : 0,

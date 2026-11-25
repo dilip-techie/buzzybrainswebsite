@@ -33,7 +33,7 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['⭐ Elite Batch · Min. 80% Marks', `🎁 FREE ${exam.code} Diagnostic Test`, `${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
+        badges={[`🎁 FREE ${exam.code} Diagnostic Test`, `${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
         titleLines={exam.titleLines}
         highlight={exam.highlight}
         taglineSub={`🏅 ${exam.code} → ${exam.nextStage} → ${exam.international}`}
