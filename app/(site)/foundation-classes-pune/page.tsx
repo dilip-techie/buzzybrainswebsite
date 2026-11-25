@@ -1,10 +1,13 @@
 import { PillarPage } from '../../components/PillarPage';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 
 export default function FoundationPillarPage() {
   return (
     <PillarPage
       offer={
+        <>
+        <EliteBatchBanner program="Foundation" href="/admissions" />
         <OfferBanner
           tag="FREE SCHOLARSHIP TEST"
           title="Take the free Foundation scholarship test and win up to 90% off"
@@ -14,6 +17,7 @@ export default function FoundationPillarPage() {
           href="/admissions"
           footnote="Your exact scholarship depends on your test score and is confirmed in your offer letter."
         />
+        </>
       }
       eyebrow="Foundation Classes Pune"
       h1={<>Foundation Classes in Pune: Why Grades 6-10 Matter More Than Parents Think</>}

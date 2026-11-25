@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 
@@ -129,6 +130,7 @@ export default function OlympiadsPage() {
       <section className="hero">
         <div className="container center">
           <FreeDiagnosticBadge exam="Olympiad" />
+          <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
           <span className="eyebrow">🏆 Olympiad Program · Grades 4–12</span>
           <h1>Olympiad Excellence, <span className="grad">Every Subject.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
@@ -160,6 +162,9 @@ export default function OlympiadsPage() {
       </section>
 
       <ShortVideoSection />
+
+      {/* ============ ELITE BATCH ============ */}
+      <EliteBatchBanner program="Olympiad" onClick={() => setShowCtaModal(true)} />
 
       {/* ============ FREE DIAGNOSTIC BANNER ============ */}
       <FreeDiagnosticBanner exam="Olympiad" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />

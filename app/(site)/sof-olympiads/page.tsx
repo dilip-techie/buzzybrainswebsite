@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import Link from 'next/link';
 import { BookOpen, GraduationCap, Users, Layers, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
@@ -27,7 +28,7 @@ export default function SofOlympiadsPage() {
   return (
     <main className="oly-page">
       <HeroGeneric
-        eyebrow="Grades 3–10 · 10 Subject Tracks"
+        eyebrow="⭐ Elite Batch · Min. 80% Marks · Grades 3–10 · 10 Subject Tracks"
         title="One academy,"
         highlight="every olympiad your child needs."
         description="From SOF-style Maths, Science, English and General Knowledge to Commerce, Financial Literacy, Economics, Physics, Chemistry and NSEJS — structured olympiad coaching across every core subject, in batches capped at 12."
@@ -36,6 +37,7 @@ export default function SofOlympiadsPage() {
         exploreLabel="Explore Subject Tracks"
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program="Olympiad" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free Olympiad diagnostic test"

@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import Link from 'next/link';
 import { Atom, GraduationCap, Users, BookOpen, Landmark, Target, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
@@ -32,7 +33,7 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={[`🎁 FREE ${exam.code} Diagnostic Test`, `${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
+        badges={['⭐ Elite Batch · Min. 80% Marks', `🎁 FREE ${exam.code} Diagnostic Test`, `${exam.emoji} ${exam.subject} Olympiad Coaching`, '📍 Class 11–12']}
         titleLines={exam.titleLines}
         highlight={exam.highlight}
         taglineSub={`🏅 ${exam.code} → ${exam.nextStage} → ${exam.international}`}
@@ -45,6 +46,7 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
         visual={<NseHeroVisual subject={exam.subject} pathway={exam.pathway} />}
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program={exam.code} href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title={`Take our free ${exam.code} diagnostic test`}

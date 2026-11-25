@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { Rabbit, GraduationCap, Users, Layers, Smile, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import KangarooHeroVisual from '@/components/olympiad/KangarooHeroVisual';
@@ -27,7 +28,7 @@ export default function MathsKangarooCoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['🎁 FREE Math Kangaroo Diagnostic Test', '⭐ Math Kangaroo Coaching', '📍 Grades 1–12']}
+        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE Math Kangaroo Diagnostic Test', '⭐ Math Kangaroo Coaching', '📍 Grades 1–12']}
         titleLines={['Every Kangaroo Level.', 'One Playful']}
         highlight="Start."
         taglineSub="🦘 The World's Largest Maths Competition"
@@ -44,6 +45,7 @@ export default function MathsKangarooCoachingPunePage() {
         visual={<KangarooHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program="Math Kangaroo" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free Math Kangaroo diagnostic test"

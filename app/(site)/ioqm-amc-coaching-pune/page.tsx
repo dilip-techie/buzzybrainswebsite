@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 
 import Hero from '@/components/olympiad/Hero';
 import TrustBar from '@/components/olympiad/TrustBar';
@@ -18,6 +19,7 @@ export default function IoqmAmcCoachingPunePage() {
     <main className="oly-page">
       <Hero />
       <TrustBar />
+      <EliteBatchBanner program="IOQM / AMC" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free IOQM / AMC diagnostic test"

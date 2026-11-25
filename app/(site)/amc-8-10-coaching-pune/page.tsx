@@ -1,5 +1,6 @@
 import '@/app/tailwind.css';
 import OfferBanner from '@/components/OfferBanner';
+import EliteBatchBanner from '@/components/EliteBatchBanner';
 import { ListChecks, GraduationCap, Users, Ban, Timer, BrainCircuit, ClipboardCheck } from 'lucide-react';
 import HeroBrand from '@/components/olympiad/HeroBrand';
 import AmcHeroVisual from '@/components/olympiad/AmcHeroVisual';
@@ -27,7 +28,7 @@ export default function Amc810CoachingPunePage() {
   return (
     <main className="oly-page">
       <HeroBrand
-        badges={['🎁 FREE AMC Diagnostic Test', '⭐ AMC 8 & AMC 10 Coaching', '📍 Grades 6–10']}
+        badges={['⭐ Elite Batch · Min. 80% Marks', '🎁 FREE AMC Diagnostic Test', '⭐ AMC 8 & AMC 10 Coaching', '📍 Grades 6–10']}
         titleLines={['Master AMC.', 'Earn Your Shot at']}
         highlight="AIME."
         taglineSub="🇺🇸 America's Flagship Maths Competition"
@@ -45,6 +46,7 @@ export default function Amc810CoachingPunePage() {
         visual={<AmcHeroVisual />}
       />
       <TrustBar stats={stats} />
+      <EliteBatchBanner program="AMC" href="#oly-lead-form" />
       <OfferBanner
         tag="100% FREE"
         title="Take our free AMC diagnostic test"
