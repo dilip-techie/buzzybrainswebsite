@@ -1,8 +1,20 @@
 import { PillarPage } from '../../components/PillarPage';
+import OfferBanner from '@/components/OfferBanner';
 
 export default function FoundationPillarPage() {
   return (
     <PillarPage
+      offer={
+        <OfferBanner
+          tag="FREE SCHOLARSHIP TEST"
+          title="Take the free Foundation scholarship test and win up to 90% off"
+          lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
+          points={['Free test, with no separate scholarship application', 'Your test score decides your scholarship', 'Scholarships of up to 90% on tuition fees for group batches']}
+          ctaLabel="Book Your Free Scholarship Test"
+          href="/admissions"
+          footnote="Your exact scholarship depends on your test score and is confirmed in your offer letter."
+        />
+      }
       eyebrow="Foundation Classes Pune"
       h1={<>Foundation Classes in Pune: Why Grades 6-10 Matter More Than Parents Think</>}
       lede="The habits and conceptual depth built between Grade 6 and Grade 10 quietly decide how much a student struggles — or doesn't — when JEE, NEET or board-exam pressure arrives."

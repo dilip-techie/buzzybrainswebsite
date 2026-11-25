@@ -27,6 +27,7 @@ const DIAGNOSTIC_POINTS = [
   'Full-length, Bluebook-style adaptive diagnostic',
   'Maps your real starting score and section-wise gaps',
   'Leads to a personalized score-improvement plan',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 const FAQS = [

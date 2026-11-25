@@ -86,6 +86,7 @@ const DIAGNOSTIC_POINTS = [
   'Full-length, IPMAT-style diagnostic',
   'Maps your quantitative and verbal baseline',
   'Leads to a personalized IPMAT preparation plan',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function IpmatExamPage() {

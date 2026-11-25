@@ -10,7 +10,7 @@ import CtaModal from '@/components/CtaModal';
 const FAQS = [
   {
     question: 'How do the merit scholarships work?',
-    answer: 'Scholarships are based on your entrance test score: 20% off for 80%+, 40% off for 90%+, and 50% off for 95%+. There\'s no separate application — your entrance test score is automatically evaluated against all three tiers.',
+    answer: 'Scholarships of up to 90% on tuition fees are available for JEE, NEET and all group batches, including Foundation and Olympiad programs. They are based on your free scholarship test score, with no separate application. Your exact scholarship is confirmed in your offer letter.',
   },
   {
     question: 'Is there a fee to take the entrance test?',
@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: 'What does the admissions process look like?',
-    answer: 'Four steps: take the entrance test, get your score evaluated against the scholarship criteria, receive a personalized offer letter with your scholarship tier, then complete enrollment.',
+    answer: 'Four steps: take the entrance test, get your score evaluated against the scholarship criteria, receive a personalized offer letter with your scholarship, then complete enrollment.',
   },
   {
     question: 'What if my child isn\'t satisfied after enrolling?',
@@ -51,49 +51,12 @@ export default function AdmissionsPage() {
     window.location.href = '/#contact';
   };
 
-  const scholarshipTiers = [
-    {
-      name: "Merit Scholarship",
-      percentage: "20%",
-      description: "For students scoring 80%+ in entrance test",
-      color: "from-yellow-600 to-yellow-500",
-      bgColor: "bg-yellow-50",
-      borderColor: "border-yellow-200",
-      perks: [
-        "20% tuition fee waiver",
-        "Premium study material",
-        "Doubt solving priority",
-        "Monthly performance review"
-      ]
-    },
-    {
-      name: "Excellence Scholarship",
-      percentage: "40%",
-      description: "For students scoring 90%+ in entrance test",
-      color: "from-blue-600 to-blue-500",
-      bgColor: "bg-blue-50",
-      borderColor: "border-blue-200",
-      perks: [
-        "40% tuition fee waiver",
-        "1:1 mentoring sessions",
-        "Advanced modules access",
-        "Free study material"
-      ]
-    },
-    {
-      name: "Premium Scholarship",
-      percentage: "50%",
-      description: "For students scoring 95%+ in entrance test",
-      color: "from-purple-600 to-purple-500",
-      bgColor: "bg-purple-50",
-      borderColor: "border-purple-200",
-      perks: [
-        "50% tuition fee waiver",
-        "Personal <strong>IITian</strong> mentor",
-        "Exclusive masterclasses",
-        "Career guidance program"
-      ]
-    }
+  const scholarshipPrograms = [
+    "IIT-JEE and NEET batches",
+    "Top Rankers Program (JEE & NEET)",
+    "Foundation batches (Grades 6-10)",
+    "Olympiad programs (IOQM, AMC, NMTC, NSE, Kangaroo, SOF and more)",
+    "All other group batches, including SAT, ACT, AP, IPMAT, CAT and CLAT",
   ];
 
   const eligibilitySteps = [
@@ -147,7 +110,7 @@ export default function AdmissionsPage() {
             </h1>
             <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-bold mb-4">Grades 6-12 <span className="ml-3 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold align-middle inline-block"><span className="blink-icon inline-block">●</span> Online Available</span></h2>
             <p className="text-xl text-gray-600 mb-4">
-              Get rewarded for your merit. BuzzyBrains Academy offers scholarships up to <span className="font-bold text-blue-600">50%</span> based on entrance test scores.
+              Get rewarded for your merit. BuzzyBrains Academy offers scholarships of up to <span className="font-bold text-blue-600">90%</span> for JEE, NEET and all group batches, based on a free scholarship test.
             </p>
             <p className="text-lg text-gray-700 mb-8">
               No hidden charges. Transparent evaluation. Direct admissions.
@@ -163,37 +126,32 @@ export default function AdmissionsPage() {
         </div>
       </section>
 
-      {/* Scholarship Tiers */}
+      {/* Scholarships */}
       <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Scholarship Tiers</h2>
-            <p className="text-xl text-gray-600">Reward based on merit. Choose your path.</p>
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Scholarships of up to 90%</h2>
+            <p className="text-xl text-gray-600">Take one free test. Your score decides your scholarship on tuition fees.</p>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {scholarshipTiers.map((tier, index) => (
-              <div key={index} className={`rounded-2xl p-8 border-2 ${tier.borderColor} ${tier.bgColor} transform hover:scale-105 transition-all duration-300`}>
-                <div className={`bg-gradient-to-r ${tier.color} w-16 h-16 rounded-full flex items-center justify-center mb-4`}>
-                  <Trophy className="w-8 h-8 text-white" />
-                </div>
-                
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{tier.name}</h3>
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                  {tier.percentage}
-                </div>
-                <p className="text-gray-600 mb-6">{tier.description}</p>
-                
-                <div className="space-y-3">
-                  {tier.perks.map((perk, i) => (
-                    <div key={i} className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700">{perk}</span>
-                    </div>
-                  ))}
-                </div>
+          <div className="rounded-2xl p-8 border-2 border-purple-200 bg-purple-50">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="bg-gradient-to-r from-purple-600 to-blue-600 w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0">
+                <Trophy className="w-8 h-8 text-white" />
               </div>
-            ))}
+              <div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Up to 90%</div>
+                <p className="text-gray-600">Available for these programs</p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-2 gap-3">
+              {scholarshipPrograms.map((program) => (
+                <div key={program} className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-700">{program}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-gray-600 text-sm mt-6">Your exact scholarship depends on your test score and is confirmed in your offer letter.</p>
           </div>
         </div>
       </section>
@@ -235,39 +193,19 @@ export default function AdmissionsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">Eligibility Criteria</h2>
-              
+
               <div className="space-y-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
-                    <Zap className="w-6 h-6 text-yellow-500" />
-                    <span>Merit Scholarship</span>
-                  </h3>
-                  <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-                    <p className="text-gray-700"><strong>Score: 80%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get 20% fee waiver</p>
-                  </div>
+                <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
+                  <p className="text-gray-700 flex items-center space-x-2"><Zap className="w-5 h-5 text-yellow-500" /><strong>Who can apply</strong></p>
+                  <p className="text-gray-600 text-sm mt-1">Any student joining a JEE, NEET, Foundation, Olympiad or other group batch.</p>
                 </div>
-
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
-                    <Award className="w-6 h-6 text-purple-500" />
-                    <span>Excellence Scholarship</span>
-                  </h3>
-                  <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
-                    <p className="text-gray-700"><strong>Score: 90%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get 40% fee waiver + perks</p>
-                  </div>
+                <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
+                  <p className="text-gray-700 flex items-center space-x-2"><Award className="w-5 h-5 text-purple-500" /><strong>How it is decided</strong></p>
+                  <p className="text-gray-600 text-sm mt-1">Your score on our free scholarship test. Higher scores earn bigger scholarships, up to 90% of tuition fees.</p>
                 </div>
-
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center space-x-3">
-                    <Trophy className="w-6 h-6 text-yellow-600" />
-                    <span>Premium Scholarship</span>
-                  </h3>
-                  <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-600">
-                    <p className="text-gray-700"><strong>Score: 95%+</strong> in entrance test</p>
-                    <p className="text-gray-600 text-sm mt-1">Get 50% fee waiver + premium benefits</p>
-                  </div>
+                <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-600">
+                  <p className="text-gray-700 flex items-center space-x-2"><Trophy className="w-5 h-5 text-yellow-600" /><strong>Your offer</strong></p>
+                  <p className="text-gray-600 text-sm mt-1">Your exact scholarship is confirmed in a personalized offer letter.</p>
                 </div>
               </div>
             </div>
