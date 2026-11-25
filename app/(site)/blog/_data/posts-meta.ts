@@ -731,6 +731,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     description: "An honest comparison of the Digital SAT and the ACT for Indian students applying to US universities — format differences, and how to actually decide, from BuzzyBrains Academy, Pune.",
     category: "sat-exam",
     datePublished: "2026-03-28",
+    dateModified: "2026-11-25",
     readingMinutes: 11
   },
   {
