@@ -100,6 +100,19 @@ button{font-family:inherit;cursor:pointer}
 
 .hero-badges{display:flex;flex-wrap:wrap;gap:11px;margin:-26px 0 18px}
 .hero-badges .eyebrow{margin-bottom:0}
+/* Compact row of offer badges (scholarship, elite) above a hero eyebrow */
+.offer-badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.offer-badges.center{justify-content:center}
+.offer-badge{
+  display:inline-flex;align-items:center;gap:6px;white-space:nowrap;
+  font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+  padding:7px 14px;border-radius:999px;line-height:1.2;
+}
+.offer-badge-scholarship{background:linear-gradient(135deg,#F59E0B,#EA580C);color:#fff}
+.offer-badge-elite{background:#1F2937;color:#FBBF24}
+@media(max-width:560px){
+  .offer-badge{font-size:11px;letter-spacing:.04em;padding:6px 11px}
+}
 .eyebrow-highlight,.eyebrow-location{
   font-size:14.5px;font-weight:800;padding:11px 22px;
   border:1.5px solid rgba(255,255,255,.3);

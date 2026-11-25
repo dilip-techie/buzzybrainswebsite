@@ -134,8 +134,10 @@ export default function OlympiadsPage() {
       <section className="hero">
         <div className="container center">
           <FreeDiagnosticBadge exam="Olympiad" />
-          <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
-          <span className="eyebrow">🏆 Elite Olympiad Program · Grades 4–12</span>
+          <div className="offer-badges center">
+            <span className="offer-badge offer-badge-elite">⭐ Elite · Min. 80% Marks</span>
+          </div>
+          <span className="eyebrow">🏆 Olympiad · Grades 4–12</span>
           <h1>The Elite Olympiad Program, <span className="grad">Every Subject.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
             One structured program across <strong style={{ color: 'var(--blue)' }}>Mathematics, Physics, Chemistry, Biology, Science and Coding</strong> —

@@ -157,9 +157,11 @@ export default function FoundationPage() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow" style={{ background: 'linear-gradient(135deg,#F59E0B,#EA580C)', color: '#fff', marginRight: 8 }}>🎁 Free Scholarship Test · Up to 90% Off</span>
-          <span className="eyebrow" style={{ background: '#1F2937', color: '#FBBF24', marginRight: 8 }}>⭐ Elite Batch · Min. 80% Marks</span>
-          <span className="eyebrow">🌟 Elite Foundation Program · Grades 6–10</span>
+            <div className="offer-badges">
+              <span className="offer-badge offer-badge-scholarship">🎁 Up to 90% Scholarship</span>
+              <span className="offer-badge offer-badge-elite">⭐ Elite · Min. 80% Marks</span>
+            </div>
+            <span className="eyebrow">🌟 Foundation · Grades 6–10</span>
             <h1>The Elite <span className="grad">Foundation Program</span></h1>
             <p className="lede">
               Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
