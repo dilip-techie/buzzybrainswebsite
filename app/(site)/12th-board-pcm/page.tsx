@@ -6,6 +6,7 @@ import { BookOpen, Target, Users, Zap, CheckCircle, Award, Phone, MapPin, Chevro
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import MarketingFaq from '@/components/MarketingFaq';
 import CtaModal from '@/components/CtaModal';
+import OfferBanner from '@/components/OfferBanner';
 
 const FAQS = [
   {
@@ -150,7 +151,7 @@ export default function Class12BoardPCMPage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-6 inline-block">
-              <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">🎓 12th Board PCM</span>
+              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold mr-2">🎁 Free Scholarship Test · Up to 50% Off</span><span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold">🎓 12th Board PCM</span>
               <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -174,6 +175,17 @@ export default function Class12BoardPCMPage() {
           </div>
         </div>
       </section>
+
+      <OfferBanner
+        tag="FREE SCHOLARSHIP TEST"
+        title="Take the free JEE scholarship test and win up to 50% off"
+        lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
+        points={['80%+ on the test: 20% scholarship', '90%+ on the test: 40% scholarship', '95%+ on the test: 50% scholarship']}
+        ctaLabel="Book Your Free Scholarship Test"
+        onClick={() => setShowCtaModal(true)}
+        secondary={{ href: '/admissions', label: 'See scholarship details' }}
+        footnote="Scholarship applies to tuition fees as per the tiers on our Admissions page."
+      />
 
       {/* Key Highlights */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">

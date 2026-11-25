@@ -1,4 +1,5 @@
 import '@/app/tailwind.css';
+import OfferBanner from '@/components/OfferBanner';
 import { Trophy } from 'lucide-react';
 import HeroGeneric from '@/components/olympiad/HeroGeneric';
 import TrustBar from '@/components/olympiad/TrustBar';
@@ -28,6 +29,14 @@ export default function OlympiadMathPage() {
         exploreLabel="Explore Olympiad Tracks"
       />
       <TrustBar />
+      <OfferBanner
+        tag="100% FREE"
+        title="Take our free Maths Olympiad diagnostic test"
+        lede="Find out exactly where your child stands before you commit to anything."
+        points={['Timed, Maths Olympiad-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        ctaLabel="Book Your Free Diagnostic"
+        href="#oly-lead-form"
+      />
       <ShortVideoSection video={MATHS_SHORT} />
       <TrackGrid
         id="oly-tracks"

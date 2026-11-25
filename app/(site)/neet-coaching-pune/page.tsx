@@ -1,8 +1,20 @@
 import { PillarPage } from '../../components/PillarPage';
+import OfferBanner from '@/components/OfferBanner';
 
 export default function NeetPillarPage() {
   return (
     <PillarPage
+      offer={
+        <OfferBanner
+        tag="FREE SCHOLARSHIP TEST"
+        title="Take the free NEET scholarship test and win up to 50% off"
+        lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
+        points={['80%+ on the test: 20% scholarship', '90%+ on the test: 40% scholarship', '95%+ on the test: 50% scholarship']}
+        ctaLabel="Book Your Free Scholarship Test"
+        href="/admissions"
+        footnote="Scholarship applies to tuition fees as per the tiers on our Admissions page."
+      />
+      }
       eyebrow="NEET Coaching Pune"
       h1={<>NEET Coaching in Pune: What Actually Determines the Score</>}
       lede="NCERT depth, structured revision, and exam-day time management decide more of the final NEET score than most families expect. Here's what to look for in a coaching program."
