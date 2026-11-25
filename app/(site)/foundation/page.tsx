@@ -154,12 +154,12 @@ export default function FoundationPage() {
   return (
     <main className="bb-landing bb-page-shell">
       {/* ============ HERO ============ */}
-      <section className="hero">
+      <section className="hero elite-hero">
         <div className="container hero-grid">
           <div className="hero-copy">
+            <span className="elite-crest"><span className="elite-crest-mark" aria-hidden="true">♛</span> BuzzyBrains Elite</span>
             <div className="offer-badges">
               <span className="offer-badge offer-badge-scholarship">🎁 Up to 90% Scholarship</span>
-              <span className="offer-badge offer-badge-elite">⭐ Elite · Min. 80% Marks</span>
             </div>
             <span className="eyebrow">🌟 Foundation · Grades 6–10</span>
             <h1>The Elite <span className="grad">Foundation Program</span></h1>
@@ -167,8 +167,9 @@ export default function FoundationPage() {
               Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
               <strong style={{ color: 'var(--blue)' }}>Dilip Sir (B.Tech, IIT Kanpur)</strong>. Because strong fundamentals today decide tomorrow&apos;s success.
             </p>
-            <p style={{ margin: '0 0 22px', padding: '12px 16px', borderRadius: 12, background: '#FEF3C7', border: '1px solid #F59E0B', color: '#78350F', fontSize: 15.5, fontWeight: 600 }}>
-              ⭐ <strong>Admission by merit:</strong> a minimum of <strong style={{ color: '#B91C1C' }}>80% marks is required to apply</strong>. Seats are limited, so apply early to secure your place.
+            <p className="elite-merit">
+              <strong>Selective admission by merit.</strong> A minimum of 
+              <span className="elite-merit-req">80% marks is required to apply</span>. Only 12 seats per batch, so apply early to secure your place.
             </p>
 
             <div className="hero-chips">
