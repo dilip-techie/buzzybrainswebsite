@@ -107,6 +107,7 @@ const DIAGNOSTIC_POINTS = [
   'Grade-appropriate Olympiad-style diagnostic',
   'Maps problem-solving strengths and gaps',
   'Leads to the right competitions and a preparation timeline',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function OlympiadsPage() {

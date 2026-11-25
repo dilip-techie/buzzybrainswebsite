@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
+import OfferBanner from '@/components/OfferBanner';
 
 const HIGHLIGHTS = [
   { value: '6–10', label: 'Grades Covered', icon: BookOpen, gradient: 'linear-gradient(135deg,#2563EB,#1D4ED8)' },
@@ -151,7 +152,8 @@ export default function FoundationPage() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">🌟 Foundation Program · Grades 6–10</span>
+            <span className="eyebrow" style={{ background: 'linear-gradient(135deg,#F59E0B,#EA580C)', color: '#fff', marginRight: 8 }}>🎁 Free Scholarship Test · Up to 90% Off</span>
+          <span className="eyebrow">🌟 Foundation Program · Grades 6–10</span>
             <h1>Build the <span className="grad">Right Foundation</span></h1>
             <p className="lede">
               Creating future <strong style={{ color: 'var(--blue)' }}>IITians &amp; doctors</strong> — start early, start right, with mentorship by{' '}
@@ -194,6 +196,17 @@ export default function FoundationPage() {
           </div>
         </div>
       </section>
+
+      <OfferBanner
+        tag="FREE SCHOLARSHIP TEST"
+        title="Take the free Foundation scholarship test and win up to 90% off"
+        lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
+        points={['Free test, with no separate scholarship application', 'Your test score decides your scholarship', 'Scholarships of up to 90% on tuition fees for group batches']}
+        ctaLabel="Book Your Free Scholarship Test"
+        onClick={() => setShowCtaModal(true)}
+        secondary={{ href: '/admissions', label: 'See scholarship details' }}
+        footnote="Your exact scholarship depends on your test score and is confirmed in your offer letter."
+      />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>

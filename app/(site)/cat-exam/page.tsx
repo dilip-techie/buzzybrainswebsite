@@ -99,6 +99,7 @@ const DIAGNOSTIC_POINTS = [
   'Full-length, sectional-timed CAT diagnostic',
   'Maps your VARC, DILR and QA baseline',
   'Leads to a personalized CAT preparation plan',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function CatExamPage() {

@@ -34,7 +34,7 @@ export const LOCATIONS: Location[] = [
 ];
 
 export const TOPICS = [
-  { title: 'Admissions & scholarships', body: 'Entrance test, batch availability and scholarships up to 50%.', href: '/admissions' },
+  { title: 'Admissions & scholarships', body: 'Entrance test, batch availability and scholarships of up to 90%.', href: '/admissions' },
   { title: 'Foundation, JEE & NEET', body: 'Programs for Grades 6–12 with IITian mentors.', href: '/top-rankers-program' },
   { title: 'Board Exam Test Series', body: 'Hand-marked mock papers for CBSE, ICSE, State, IGCSE and IB.', href: '/test-series' },
   { title: 'Crash courses', body: 'MHT-CET and Class 10 / 12 board crash courses.', href: '/mht-cet-crash-course-pune' },
@@ -51,7 +51,7 @@ export const CONTACT_FAQS = [
   {
     question: 'What are the available scholarship options?',
     answer:
-      'We offer merit-based scholarships up to 50% for high-performing students. Visit our Admissions page for detailed information about our scholarship tiers.',
+      'We offer scholarships of up to 90% for JEE, NEET and all group batches, based on a free scholarship test. Visit our Admissions page for details.',
   },
   {
     question: 'Do you offer online classes?',

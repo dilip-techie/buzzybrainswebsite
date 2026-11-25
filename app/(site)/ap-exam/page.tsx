@@ -164,6 +164,7 @@ const DIAGNOSTIC_POINTS = [
   'No-pressure, subject-specific assessment',
   'Maps your current level against the AP course framework',
   'Leads to a week-by-week plan to your target score',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function ApExamPage() {

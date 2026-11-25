@@ -33,7 +33,7 @@ export default function OlympiadMathPage() {
         tag="100% FREE"
         title="Take our free Maths Olympiad diagnostic test"
         lede="Find out exactly where your child stands before you commit to anything."
-        points={['Timed, Maths Olympiad-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        points={['Timed, Maths Olympiad-style diagnostic', 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch', 'Scholarships of up to 90% for group batches, based on your test score']}
         ctaLabel="Book Your Free Diagnostic"
         href="#oly-lead-form"
       />

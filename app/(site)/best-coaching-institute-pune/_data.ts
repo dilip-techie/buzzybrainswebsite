@@ -87,7 +87,7 @@ export const FAQS: Faq[] = [
   {
     question: 'Are scholarships available at BuzzyBrains Academy?',
     answer:
-      'Yes. BuzzyBrains Academy offers merit-based scholarships through an entrance test: 20% for students scoring 80%+ in the entrance test, 40% for 90%+, and 50% for 95%+. The admission process is transparent, with no hidden charges. Contact the academy directly for current scholarship terms and the entrance test schedule.',
+      'Yes. BuzzyBrains Academy offers scholarships of up to 90% on tuition fees for JEE, NEET and all group batches, including Foundation and Olympiad programs. They are based on a free scholarship test, with no separate application. Contact the academy directly for current scholarship terms and the test schedule.',
   },
   {
     question: 'How much does coaching at BuzzyBrains Academy cost?',

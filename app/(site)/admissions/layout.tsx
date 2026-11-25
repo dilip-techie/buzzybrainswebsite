@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { BreadcrumbJsonLd } from "../../components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Admissions & Merit Scholarships (Up to 50%) | BuzzyBrains Academy",
-  description: "Apply for premium coaching programs with merit-based scholarships up to 50% and a transparent admission process.",
+  title: "Admissions & Merit Scholarships (Up to 90%) | BuzzyBrains Academy",
+  description: "Apply for premium coaching programs with scholarships of up to 90% for JEE, NEET and all group batches and a transparent admission process.",
   alternates: { canonical: "https://buzzybrainsacademy.com/admissions" },
   openGraph: {
-    title: "Admission Enquiry & Merit Scholarships (Up to 50%)",
-    description: "IITian Mentorship. Apply for premium coaching programs with merit-based scholarships up to 50% and a transparent admission process.",
+    title: "Admission Enquiry & Merit Scholarships (Up to 90%)",
+    description: "IITian Mentorship. Apply for premium coaching programs with scholarships of up to 90% for JEE, NEET and all group batches and a transparent admission process.",
     url: "https://buzzybrainsacademy.com/admissions",
     siteName: "BuzzyBrains Academy",
     images: [
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Admission Enquiry & Merit Scholarships (Up to 50%)",
-    description: "IITian Mentorship. Apply for premium coaching programs with merit-based scholarships up to 50% and a transparent admission process.",
+    title: "Admission Enquiry & Merit Scholarships (Up to 90%)",
+    description: "IITian Mentorship. Apply for premium coaching programs with scholarships of up to 90% for JEE, NEET and all group batches and a transparent admission process.",
     images: ["https://buzzybrainsacademy.com/images/buzzybrains_social.jpg"],
   },
 };

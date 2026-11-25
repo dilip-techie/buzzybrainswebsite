@@ -117,6 +117,7 @@ const DIAGNOSTIC_POINTS = [
   'Timed, full-length ACT-style diagnostic',
   'Maps your starting score and section-wise gaps in English, Math and Reading',
   'Leads to a personalized score-improvement plan',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function ActExamPage() {

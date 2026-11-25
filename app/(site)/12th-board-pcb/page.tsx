@@ -151,7 +151,7 @@ export default function Class12BoardPCBPage() {
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-6 inline-block">
-              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold mr-2">🎁 Free Scholarship Test · Up to 50% Off</span><span className="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-bold">🩺 12th Board PCB Excellence</span>              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>            </div>
+              <span className="whitespace-nowrap bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-bold mr-2">🎁 Free Scholarship Test · Up to 90% Off</span><span className="bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-bold">🩺 12th Board PCB Excellence</span>              <span className="ml-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold">💻 Online Available</span>            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Score <span className="bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent">90%+</span> + Crack NEET
             </h1>
@@ -180,13 +180,13 @@ export default function Class12BoardPCBPage() {
 
       <OfferBanner
         tag="FREE SCHOLARSHIP TEST"
-        title="Take the free NEET scholarship test and win up to 50% off"
+        title="Take the free NEET scholarship test and win up to 90% off"
         lede="Sit our free entrance test. Your score sets your scholarship automatically, with no separate application."
-        points={['80%+ on the test: 20% scholarship', '90%+ on the test: 40% scholarship', '95%+ on the test: 50% scholarship']}
+        points={['Free test, with no separate scholarship application', 'Your test score decides your scholarship', 'Scholarships of up to 90% on tuition fees for group batches']}
         ctaLabel="Book Your Free Scholarship Test"
         onClick={() => setShowCtaModal(true)}
         secondary={{ href: '/admissions', label: 'See scholarship details' }}
-        footnote="Scholarship applies to tuition fees as per the tiers on our Admissions page."
+        footnote="Your exact scholarship depends on your test score and is confirmed in your offer letter."
       />
 
       {/* Key Highlights */}

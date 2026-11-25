@@ -49,7 +49,7 @@ export default function NseExamPage({ exam }: { exam: NseExam }) {
         tag="100% FREE"
         title={`Take our free ${exam.code} diagnostic test`}
         lede="Find out exactly where your child stands before you commit to anything."
-        points={[`Timed, ${exam.code}-style diagnostic`, 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch']}
+        points={[`Timed, ${exam.code}-style diagnostic`, 'Maps problem-solving strengths and gaps', 'Leads to a personalized preparation plan and the right batch', 'Scholarships of up to 90% for group batches, based on your test score']}
         ctaLabel="Book Your Free Diagnostic"
         href="#oly-lead-form"
       />

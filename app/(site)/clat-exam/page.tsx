@@ -101,6 +101,7 @@ const DIAGNOSTIC_POINTS = [
   'Full-length, CLAT-style diagnostic',
   'Maps reading speed, reasoning accuracy and current-affairs baseline',
   'Leads to a personalized rank-improvement plan',
+  'Scholarships of up to 90% for group batches, based on your test score',
 ];
 
 export default function ClatExamPage() {
