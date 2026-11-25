@@ -21,6 +21,7 @@ import {
   Calculator,
 } from 'lucide-react';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 
 const HIGHLIGHTS = [
   { value: '5', label: 'Exam Sections', icon: Scale, gradient: 'linear-gradient(135deg,#9A3412,#EA580C)' },
@@ -96,6 +97,12 @@ const WHY_CHOOSE = [
   { title: 'Application-Ready Timeline', desc: 'A prep calendar built backward from CLAT exam day and NLU counselling deadlines.', gradient: 'linear-gradient(135deg,#EF4444,#DC2626)', icon: Target },
 ];
 
+const DIAGNOSTIC_POINTS = [
+  'Full-length, CLAT-style diagnostic',
+  'Maps reading speed, reasoning accuracy and current-affairs baseline',
+  'Leads to a personalized rank-improvement plan',
+];
+
 export default function ClatExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
@@ -114,6 +121,7 @@ export default function ClatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="CLAT" />
           <span className="eyebrow">⚖️ CLAT Coaching · National Law Entrance Exam · Grades 11–12</span>
           <h1>Crack the <span className="grad">CLAT.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
@@ -142,6 +150,9 @@ export default function ClatExamPage() {
           </div>
         </div>
       </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="CLAT" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>

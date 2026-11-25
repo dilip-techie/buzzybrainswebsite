@@ -21,6 +21,7 @@ import {
   Users2,
 } from 'lucide-react';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 
 const HIGHLIGHTS = [
   { value: '3', label: 'Exam Sections', icon: Target, gradient: 'linear-gradient(135deg,#86198F,#C026D3)' },
@@ -94,6 +95,12 @@ const WHY_CHOOSE = [
   { title: 'Data-Driven Prep', desc: 'Every mock is broken down by section and question type so we always know exactly what to fix next.', gradient: 'var(--grad-red)', icon: Brain },
 ];
 
+const DIAGNOSTIC_POINTS = [
+  'Full-length, sectional-timed CAT diagnostic',
+  'Maps your VARC, DILR and QA baseline',
+  'Leads to a personalized CAT preparation plan',
+];
+
 export default function CatExamPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
@@ -112,6 +119,7 @@ export default function CatExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="CAT" />
           <span className="eyebrow">📊 CAT Coaching · India&apos;s Top MBA Entrance Exam</span>
           <h1>Crack the <span className="grad">CAT.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 700 }}>
@@ -140,6 +148,9 @@ export default function CatExamPage() {
           </div>
         </div>
       </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="CAT" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>

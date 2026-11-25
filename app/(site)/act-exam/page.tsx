@@ -21,8 +21,13 @@ import {
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 
 const FAQS = [
+  {
+    question: 'Is the ACT diagnostic test free?',
+    answer: 'Yes. The ACT diagnostic test at BuzzyBrains Academy is free. It maps your starting score and section-wise gaps, and we use the results to set a target score and build your personalized prep plan.',
+  },
   {
     question: 'What is the ACT, and is it accepted by US universities?',
     answer: 'The ACT is a standardized test used in US university admissions. Universities that consider test scores generally accept the ACT and the SAT equally. Confirm each target university\'s current testing policy on its admissions page.',
@@ -92,7 +97,7 @@ const SECTIONS = [
 ];
 
 const METHODOLOGY = [
-  { icon: Target, title: 'Baseline', desc: 'A timed practice test maps your starting score and section-wise gaps.' },
+  { icon: Target, title: 'Free Diagnostic', desc: 'A free, timed ACT-style diagnostic maps your starting score and section-wise gaps.' },
   { icon: Layers, title: 'Foundation', desc: 'Rebuild the grammar, algebra and reading fundamentals the ACT tests.' },
   { icon: Brain, title: 'Section Mastery', desc: 'Timed practice by question type, with an error log for every miss.' },
   { icon: Repeat, title: 'Full-Length Tests', desc: 'Full tests under real timing to build pace and stamina.' },
@@ -106,6 +111,12 @@ const WHY_CHOOSE = [
   { title: 'Data-Driven Prep', desc: 'Every practice test is broken down by question type so we know exactly what to fix next.', gradient: 'var(--grad-green)', icon: BarChart3 },
   { title: 'SAT or ACT, Honest Advice', desc: 'We also coach the Digital SAT, so we can help you choose the exam that fits you best.', gradient: 'var(--grad-sky)', icon: Brain },
   { title: 'College-Ready Timeline', desc: 'A prep calendar built backward from your test date and application deadlines.', gradient: 'var(--grad-red)', icon: Target },
+];
+
+const DIAGNOSTIC_POINTS = [
+  'Timed, full-length ACT-style diagnostic',
+  'Maps your starting score and section-wise gaps in English, Math and Reading',
+  'Leads to a personalized score-improvement plan',
 ];
 
 export default function ActExamPage() {
@@ -126,6 +137,7 @@ export default function ActExamPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="ACT" />
           <span className="eyebrow">🎯 ACT Exam Prep · US College Admissions · Grades 10–12</span>
           <h1>Crack the <span className="grad">ACT.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
@@ -144,7 +156,7 @@ export default function ActExamPage() {
 
           <div className="hero-ctas" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => setShowCtaModal(true)}>
-              Enquire About ACT Coaching
+              Book Your Free ACT Diagnostic
               <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost">
@@ -153,6 +165,9 @@ export default function ActExamPage() {
           </div>
         </div>
       </section>
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="ACT" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
@@ -205,7 +220,7 @@ export default function ActExamPage() {
           <div className="center">
             <span className="eyebrow reveal">Our Methodology</span>
             <h2 className="section-title reveal">Five steps to your target score</h2>
-            <p className="section-sub reveal">A systematic path from baseline test to test day.</p>
+            <p className="section-sub reveal">A systematic path from free diagnostic to test day.</p>
           </div>
           <div className="method-steps-5">
             {METHODOLOGY.map((step, i) => (
@@ -271,11 +286,11 @@ export default function ActExamPage() {
           <span className="eyebrow" style={{ background: 'rgba(245,158,11,.16)', color: '#FBBF24' }}>Limited Seats · Max 12 per Batch</span>
           <h2 style={{ marginBottom: 14 }}>Ready to start your ACT preparation?</h2>
           <p className="lede" style={{ margin: '0 auto 28px' }}>
-            Talk to our team about current batches and a plan built around your target score.
+            Take the free ACT diagnostic test and get a personalized score-improvement plan.
           </p>
           <div className="cta-btns" style={{ justifyContent: 'center' }}>
             <button className="btn btn-amber" onClick={() => setShowCtaModal(true)}>
-              Enquire About ACT Coaching <ChevronRight size={19} />
+              Book Your Free Diagnostic <ChevronRight size={19} />
             </button>
             <a href="tel:+919850570525" className="btn btn-ghost" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.25)', color: '#fff' }}>
               <Phone size={17} /> 98505 70525
@@ -290,7 +305,7 @@ export default function ActExamPage() {
         onClose={() => setShowCtaModal(false)}
         onFormClick={handleCtaModalForm}
         onWhatsAppClick={handleCtaModalWhatsApp}
-        title="Enquire About ACT Coaching 🎯"
+        title="Book Your Free ACT Diagnostic 🎯"
         subtitle="Choose how you'd like to connect with us"
       />
     </main>

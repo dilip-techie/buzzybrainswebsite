@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { ProgramJsonLd } from '../../components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'ACT Exam Prep & Coaching for US Admissions | BuzzyBrains Academy',
+  title: 'ACT Exam Prep — Free Diagnostic Test | BuzzyBrains Academy',
   description:
-    'Structured ACT preparation for students applying to US universities: English, Math, Reading and optional Science, with timed practice, error analysis and small batches mentored by IIT/IIM alumni faculty in Pune.',
+    'Take a free ACT diagnostic test, then prepare with structured ACT coaching for US university admissions: English, Math, Reading and optional Science, with timed practice, error analysis and small batches mentored by IIT/IIM alumni faculty in Pune.',
   keywords:
     'ACT coaching, ACT exam prep, ACT coaching Pune, ACT classes for Indian students, ACT Math, ACT English, ACT Reading, ACT vs SAT, US college admissions test prep',
   alternates: { canonical: 'https://buzzybrainsacademy.com/act-exam' },

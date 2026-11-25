@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { FaqJsonLd } from '@/app/components/JsonLd';
 import CtaModal from '@/components/CtaModal';
+import { FreeDiagnosticBadge, FreeDiagnosticBanner } from '@/components/FreeDiagnostic';
 import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 
 const SUBJECTS = [
@@ -102,6 +103,12 @@ const FAQS = [
   },
 ];
 
+const DIAGNOSTIC_POINTS = [
+  'Grade-appropriate Olympiad-style diagnostic',
+  'Maps problem-solving strengths and gaps',
+  'Leads to the right competitions and a preparation timeline',
+];
+
 export default function OlympiadsPage() {
   const [showCtaModal, setShowCtaModal] = useState(false);
 
@@ -120,6 +127,7 @@ export default function OlympiadsPage() {
       {/* ============ HERO ============ */}
       <section className="hero">
         <div className="container center">
+          <FreeDiagnosticBadge exam="Olympiad" />
           <span className="eyebrow">🏆 Olympiad Program · Grades 4–12</span>
           <h1>Olympiad Excellence, <span className="grad">Every Subject.</span></h1>
           <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
@@ -151,6 +159,9 @@ export default function OlympiadsPage() {
       </section>
 
       <ShortVideoSection />
+
+      {/* ============ FREE DIAGNOSTIC BANNER ============ */}
+      <FreeDiagnosticBanner exam="Olympiad" points={DIAGNOSTIC_POINTS} onBook={() => setShowCtaModal(true)} />
 
       {/* ============ KEY HIGHLIGHTS ============ */}
       <section className="bb-section" style={{ paddingTop: 0 }}>
