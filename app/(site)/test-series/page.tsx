@@ -3,6 +3,7 @@ import '@/app/tailwind.css';
 import { testSeriesFontVars } from '@/lib/test-series/fonts';
 import DiscountPopup from '@/components/test-series/DiscountPopup';
 import Hero from '@/components/test-series/Hero';
+import TopResultsBanner from '@/components/test-series/TopResultsBanner';
 import WhySection from '@/components/test-series/WhySection';
 import AlsoIncluded from '@/components/test-series/AlsoIncluded';
 import StructureSection from '@/components/test-series/StructureSection';
@@ -18,6 +19,7 @@ export default function TestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
+      <TopResultsBanner highlight={`Our students scored up to ${hubHeroStats[0].value} across CBSE, ICSE, ISC, Maharashtra, IGCSE & IB`} />
       <Hero stats={hubHeroStats} />
       <ResultsShowcase
         eyebrow="RESULTS 2026 · ALL BOARDS"

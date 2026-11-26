@@ -4,6 +4,7 @@ import { testSeriesFontVars } from '@/lib/test-series/fonts';
 import { IGCSE_TEST_SERIES_FAQS } from '@/lib/test-series/faqs';
 import DiscountPopup from '@/components/test-series/DiscountPopup';
 import Hero from '@/components/test-series/Hero';
+import TopResultsBanner from '@/components/test-series/TopResultsBanner';
 import WhySection from '@/components/test-series/WhySection';
 import AlsoIncluded from '@/components/test-series/AlsoIncluded';
 import StructureSection from '@/components/test-series/StructureSection';
@@ -20,6 +21,7 @@ export default function IgcseTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
+      <TopResultsBanner highlight={`Our students achieved up to ${heroStats[0].value} grades in Cambridge IGCSE`} />
       <Hero {...heroContent} stats={heroStats} />
       <ResultsShowcase
         title="Straight A*s, built paper by paper."

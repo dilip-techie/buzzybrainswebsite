@@ -4,6 +4,7 @@ import { testSeriesFontVars } from '@/lib/test-series/fonts';
 import { IB_TEST_SERIES_FAQS } from '@/lib/test-series/faqs';
 import DiscountPopup from '@/components/test-series/DiscountPopup';
 import Hero from '@/components/test-series/Hero';
+import TopResultsBanner from '@/components/test-series/TopResultsBanner';
 import WhySection from '@/components/test-series/WhySection';
 import AlsoIncluded from '@/components/test-series/AlsoIncluded';
 import StructureSection from '@/components/test-series/StructureSection';
@@ -20,6 +21,7 @@ export default function IbTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
+      <TopResultsBanner highlight={`Our students scored up to ${heroStats[0].value} points in the IB Diploma`} />
       <Hero {...heroContent} stats={heroStats} />
       <ResultsShowcase
         eyebrow="IB DIPLOMA RESULTS 2026"
