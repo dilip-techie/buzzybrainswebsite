@@ -29,10 +29,10 @@ function spotlight(g: ScorerGroup, s: TopScorer): TopScorer {
   };
 }
 
-/** Best student from every board group, plus the runner-up from the two CBSE
- * groups (9 cards, a clean 3x3 grid). */
+/** Best student from every board group, plus the runner-up from CBSE Class 12
+ * (9 cards, a clean 3x3 grid). */
 const bestOfEach = boardGroups.map((g) => spotlight(g, ranked(g)[0]));
-const runnersUp = cbse.map((g) => spotlight(g, ranked(g)[1]));
+const runnersUp = [spotlight(cbse[0], ranked(cbse[0])[1])];
 const spotlights = [...bestOfEach, ...runnersUp];
 
 // Percentage-based groups only (IGCSE and IB report grades / points).

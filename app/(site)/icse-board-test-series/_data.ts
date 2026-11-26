@@ -21,7 +21,7 @@ export const heroContent = {
 };
 
 export const class10Scorers: TopScorer[] = [
-  { initials: "RM", name: "Riya Malhotra", score: 98.4, year: "2026", stream: "Class 10", quote: "ICSE papers can be quite lengthy, so I wanted to improve my writing speed. The full-length mock tests helped me manage time better and get used to writing answers within the exam duration." },
+  { initials: "RM", photo: "/images/students/riya-malhotra.webp", name: "Riya Malhotra", score: 98.4, year: "2026", stream: "Class 10", quote: "ICSE papers can be quite lengthy, so I wanted to improve my writing speed. The full-length mock tests helped me manage time better and get used to writing answers within the exam duration." },
   { initials: "AM", name: "Arjun Mehta", score: 96.8, year: "2026", stream: "Class 10", quote: "I found the chapter-wise tests very useful, especially for Physics and Chemistry. The questions helped me check whether I actually understood the concepts instead of just memorising them." },
   { initials: "AK", name: "Aanya Kapoor", score: 99.0, year: "2026", stream: "Class 10", quote: "The best part was getting enough practice with different question formats. I especially liked the detailed solutions because they helped me understand how to frame answers properly." },
   { initials: "VS", name: "Vivaan Shah", score: 95.6, year: "2026", stream: "Class 10", quote: "I used to struggle with Mathematics, particularly application-based questions. Practising regularly through the test series helped me improve my problem-solving speed and accuracy." },
@@ -30,8 +30,9 @@ export const class10Scorers: TopScorer[] = [
 ];
 
 export const class12Scorers: TopScorer[] = [
+  { initials: "AK", name: "Ayesha Khan", score: 95.5, year: "2026", stream: "ISC", quote: "The depth of coverage in the ISC syllabus was daunting, but the platform's focused subject modules made complex topics crystal clear. A lifesaver for conceptual clarity." },
   { initials: "AM", name: "Aarushi Mehta", score: 98.6, year: "2026", stream: "Science", quote: "The mock tests helped me get comfortable with the ISC paper pattern. I especially liked practising full-length papers because ISC answers can be quite detailed. It really helped with my time management." },
-  { initials: "AK", name: "Aditya Khanna", score: 96.2, year: "2026", stream: "Science", quote: "Physics numericals were something I struggled with initially. The chapter-wise tests gave me enough practice and helped me understand where I was going wrong. The solutions were quite helpful." },
+  { initials: "AK", photo: "/images/students/aditya-khanna.webp", name: "Aditya Khanna", score: 96.2, year: "2026", stream: "Science", quote: "Physics numericals were something I struggled with initially. The chapter-wise tests gave me enough practice and helped me understand where I was going wrong. The solutions were quite helpful." },
   { initials: "IA", name: "Ishita Agarwal", score: 99.0, year: "2026", stream: "Commerce", quote: "I joined mainly for additional practice before boards. The quality of questions was good, and attempting tests regularly helped me stay disciplined. It was also useful for identifying small mistakes before the final exams." },
   { initials: "RM", name: "Rohan Malhotra", score: 95.8, year: "2026", stream: "Commerce", quote: "Accounts and Economics needed a lot of practice for me. The tests helped me improve my presentation and accuracy. I also got better at completing lengthy papers within the given time." },
   { initials: "SK", name: "Sanya Kapoor", score: 97.4, year: "2026", stream: "Humanities", quote: "What I liked most was the detailed practice for different subjects. English Literature especially requires proper understanding and answer writing. Regular tests helped me structure my answers better." },

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react';
 import { FaqJsonLd } from '../components/JsonLd';
 import ElitePromoBanner from '@/components/ElitePromoBanner';
+import { HOME_RESULTS } from './_home-results';
 
 const HOME_FAQS = [
   {
@@ -712,18 +713,34 @@ export default function HomePage() {
       {/* ============ STUDENT SUCCESS STORIES ============ */}
       <section className="bb-section" id="success-stories" aria-labelledby="success-title" style={{ paddingBottom: 0 }}>
         <div className="container">
-          <h2 id="success-title" style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0 0 0 0)', whiteSpace: 'nowrap' }}>
-            Our students, our success stories
-          </h2>
-          <div className="reveal" style={{ maxWidth: 1100, margin: '0 auto' }}>
-            <Image
-              src="/images/student-success-stories.webp"
-              alt="BuzzyBrains Academy student success stories: Rohan Verma, Class 10 CBSE, 96.4%; Riya Malhotra, Class 10 ICSE, 98.4%; Aditya Khanna, Class 12 ISC, 96.2%; Emma Wilson, Cambridge IGCSE, 9 A* grades; Rohan Kapoor, IB Diploma, 42 out of 45 points; Sakshi Patil, Maharashtra Board HSC, 98.2%. All 2026 results."
-              width={1536}
-              height={1024}
-              sizes="(max-width: 1100px) 100vw, 1100px"
-              style={{ width: '100%', height: 'auto', borderRadius: 'var(--r-lg, 20px)' }}
-            />
+          <div className="center">
+            <span className="eyebrow reveal">Results 2026</span>
+            <h2 className="section-title reveal" id="success-title">Our students. Our success stories.</h2>
+            <p className="section-sub reveal">Students across CBSE, ICSE, ISC, Maharashtra Board, IGCSE and IB who trained on the BuzzyBrains test series — in their own words.</p>
+          </div>
+          <div className="review-grid">
+            {HOME_RESULTS.map((r, i) => (
+              <article className="review-card reveal" data-delay={String((i % 3) + 1)} key={r.name}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
+                  <Image
+                    src={r.photo}
+                    alt={`${r.name}, ${r.board} student`}
+                    width={64}
+                    height={64}
+                    style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #C9A227', flexShrink: 0 }}
+                  />
+                  <div>
+                    <strong style={{ display: 'block' }}>{r.name}</strong>
+                    <small>{r.board}</small>
+                  </div>
+                </div>
+                <div style={{ display: 'inline-block', marginBottom: 10, padding: '4px 12px', borderRadius: 999, background: 'rgba(201,162,39,0.18)', fontWeight: 800, fontSize: 15 }}>
+                  {r.result}
+                </div>
+                <div className="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <p>&quot;{r.quote}&quot;</p>
+              </article>
+            ))}
           </div>
           <div className="center" style={{ marginTop: 24 }}>
             <Link prefetch={false} href="/test-series" className="review-link">
