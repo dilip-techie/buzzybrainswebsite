@@ -5,6 +5,9 @@
 export type { BlogCategory } from './categories';
 export { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE } from './categories';
 import type { BlogCategory } from './categories';
+import { ZCO_POSTS } from './posts-zco';
+import { ZIO_POSTS } from './posts-zio';
+import { COMPUTING_ADVANTAGE_POSTS } from './posts-computing-advantages';
 
 export type BlogBlock =
   | { kind: 'p'; text: string }
@@ -51635,6 +51638,9 @@ export const BLOG_POSTS: BlogPost[] = [
       }
     ]
   },
+  ...ZCO_POSTS,
+  ...ZIO_POSTS,
+  ...COMPUTING_ADVANTAGE_POSTS,
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
