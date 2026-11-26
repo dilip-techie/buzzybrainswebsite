@@ -28,7 +28,7 @@ export const heroMock = {
 };
 
 export const topScorers: TopScorer[] = [
-  { initials: "AS", name: "Aditi Sharma", score: 98.6, year: "2026", stream: "Science", quote: "The regular mock tests helped me a lot with time management. I used to leave a few questions incomplete earlier, but after practising full papers, that problem was mostly solved. The solutions were also really helpful." },
+  { initials: "AS", photo: "/images/students/aditi-sharma.webp", name: "Aditi Sharma", score: 98.6, year: "2026", stream: "Science", quote: "The regular mock tests helped me a lot with time management. I used to leave a few questions incomplete earlier, but after practising full papers, that problem was mostly solved. The solutions were also really helpful." },
   { initials: "RV", name: "Rahul Verma", score: 95.4, year: "2026", stream: "Science", quote: "I joined mainly because I needed more paper practice. The questions covered different types of concepts, especially competency-based questions. It helped me understand where I was making mistakes." },
   { initials: "IG", name: "Ishita Gupta", score: 99.0, year: "2026", stream: "Commerce", quote: "I found the test series very useful during my final revision. Attempting papers regularly helped me stay consistent and gave me a better idea of the actual board exam pattern." },
   { initials: "AP", name: "Aditya Patel", score: 96.2, year: "2026", stream: "Science", quote: "What I liked most was the detailed solutions. Whenever I got an answer wrong, I could understand the correct approach. It saved me time during revision." },
