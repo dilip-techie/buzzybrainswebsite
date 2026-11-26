@@ -22,13 +22,13 @@ export default function IbTestSeriesPage() {
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <TopResultsBanner highlight={`Our students scored up to ${heroStats[0].value} points in the IB Diploma`} />
+      <Hero {...heroContent} stats={heroStats} />
       <ResultsShowcase
         eyebrow="IB DIPLOMA RESULTS 2026"
         title="What our IBDP students say."
         subtitle="IB Diploma students who trained on the BuzzyBrains test series — in their own words."
         groups={scorerGroups}
       />
-      <Hero {...heroContent} stats={heroStats} />
       <WhySection features={whyFeatures} />
       <AlsoIncluded />
       <StructureSection stages={structureStages} />

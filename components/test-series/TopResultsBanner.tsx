@@ -1,13 +1,13 @@
 export interface TopResultsBannerProps {
   /** Short highlight, e.g. "up to 99.0% in CBSE Boards (Class 10 & 12)". */
   highlight: string;
-  /** Anchor the button jumps to; defaults to the page hero (the results now sit above it). */
+  /** Anchor of the results section; defaults to the shared results section id. */
   href?: string;
 }
 
-/** Slim strip at the very top of a test-series page: headline result, plus a
- * button down to the test-series details that follow the results section. */
-export default function TopResultsBanner({ highlight, href = '#ts-top' }: TopResultsBannerProps) {
+/** Slim strip at the very top of a test-series page that jumps straight to the
+ * results section, so results are one tap away on the first screen. */
+export default function TopResultsBanner({ highlight, href = '#ts-results' }: TopResultsBannerProps) {
   return (
     <aside
       aria-label="Top results"
@@ -22,7 +22,7 @@ export default function TopResultsBanner({ highlight, href = '#ts-top' }: TopRes
           href={href}
           className="inline-flex items-center gap-1.5 rounded-sm border-2 border-[#0E2148] px-4 py-1.5 text-[13px] font-bold tracking-wide transition-colors hover:bg-[#0E2148] hover:text-[#E4C158]"
         >
-          See the test series <span aria-hidden="true">↓</span>
+          See top results <span aria-hidden="true">↓</span>
         </a>
       </div>
     </aside>

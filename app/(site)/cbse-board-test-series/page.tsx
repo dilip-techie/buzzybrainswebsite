@@ -21,8 +21,8 @@ export default function CbseTestSeriesPage() {
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <TopResultsBanner highlight={`Our students scored up to ${heroStats[0].value} in CBSE Boards (Class 10 & 12)`} />
-      <ResultsShowcase groups={scorerGroups} />
       <Hero {...heroContent} stats={heroStats} {...heroMock} />
+      <ResultsShowcase groups={scorerGroups} />
       <WhySection features={whyFeatures} />
       <AlsoIncluded />
       <StructureSection stages={structureStages} />

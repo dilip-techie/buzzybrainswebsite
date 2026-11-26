@@ -22,12 +22,12 @@ export default function IgcseTestSeriesPage() {
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <TopResultsBanner highlight={`Our students achieved up to ${heroStats[0].value} grades in Cambridge IGCSE`} />
+      <Hero {...heroContent} stats={heroStats} />
       <ResultsShowcase
         title="Straight A*s, built paper by paper."
         subtitle="Cambridge IGCSE students who trained on the BuzzyBrains test series — in their own words."
         groups={scorerGroups}
       />
-      <Hero {...heroContent} stats={heroStats} />
       <WhySection features={whyFeatures} />
       <AlsoIncluded />
       <StructureSection stages={structureStages} />

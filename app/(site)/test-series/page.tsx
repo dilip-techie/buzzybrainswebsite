@@ -20,13 +20,13 @@ export default function TestSeriesPage() {
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <TopResultsBanner highlight={`Our students scored up to ${hubHeroStats[0].value} across CBSE, ICSE, ISC, Maharashtra, IGCSE & IB`} />
+      <Hero stats={hubHeroStats} />
       <ResultsShowcase
         eyebrow="RESULTS 2026 · ALL BOARDS"
         title="Proven across CBSE, ICSE, Maharashtra Board, IGCSE and IB."
         subtitle="The best results from students who trained on the BuzzyBrains test series — switch tabs to see every board."
         groups={hubGroups}
       />
-      <Hero stats={hubHeroStats} />
       <WhySection />
       <AlsoIncluded />
       <StructureSection />
