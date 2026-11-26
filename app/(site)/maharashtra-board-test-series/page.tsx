@@ -21,12 +21,12 @@ export default function MaharashtraTestSeriesPage() {
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <TopResultsBanner highlight={`Our students scored up to ${heroStats[0].value} in Maharashtra SSC & HSC Boards`} />
-      <Hero {...heroContent} stats={heroStats} />
       <ResultsShowcase
         title="What our Maharashtra Board students say."
         subtitle="Maharashtra HSC students who trained on the BuzzyBrains test series — in their own words."
         groups={scorerGroups}
       />
+      <Hero {...heroContent} stats={heroStats} />
       <WhySection features={whyFeatures} />
       <AlsoIncluded />
       <StructureSection stages={structureStages} />
