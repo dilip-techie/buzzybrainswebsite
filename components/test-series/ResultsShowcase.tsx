@@ -94,7 +94,7 @@ export default function ResultsShowcase({
         </p>
 
         {groups.length > 1 && (
-          <div role="tablist" aria-label="Results by class" className="reveal mt-10 inline-flex rounded-sm border border-[#C9A227]/40 p-1" data-delay="2">
+          <div role="tablist" aria-label="Results by class" className="reveal mt-10 inline-flex flex-wrap gap-1 rounded-sm border border-[#C9A227]/40 p-1" data-delay="2">
             {groups.map((g, i) => (
               <button
                 key={g.label}
