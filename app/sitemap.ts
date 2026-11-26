@@ -11,6 +11,10 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/faculty', changeFrequency: 'monthly', priority: 0.85 },
   { path: '/best-coaching-institute-pune', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/online-coaching-for-nri-students', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/online-coaching-usa', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/online-coaching-canada', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/online-coaching-singapore', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/online-coaching-australia', changeFrequency: 'monthly', priority: 0.85 },
 
   // "Best X Institute in Pune" local SEO pages
   { path: '/best-ioqm-institute-in-pune', changeFrequency: 'monthly', priority: 0.75 },

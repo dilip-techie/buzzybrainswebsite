@@ -34,14 +34,14 @@ export const DATA: BestInstituteData = {
       text: 'coaching priced in line with the Indian market is meaningfully lower than premium private tutoring rates in the US, UK, Singapore or UAE, without a drop in faculty quality — it is the same live batch, the same mentors.',
     },
     {
-      title: 'Nothing is missed to a time zone',
-      text: 'every live session is recorded. A class that falls at 5 AM local time is watched later, with doubts cleared separately rather than lost.',
+      title: 'Convenient local timings',
+      text: 'classes are scheduled at timings that suit your local time zone, and every session is also recorded, with doubts cleared separately.',
     },
   ],
   infoTableHeading: 'Typical Time Difference From India, By Region',
   infoTableIntro:
-    'Live sessions run on Indian Standard Time (IST). This is a rough reference for how that lines up with common NRI locations — use it to plan around a live slot, or rely on the recording when it doesn\'t fit a particular evening.',
-  infoTableHeaders: ['Region', 'Approx. difference from IST', 'A 7:00 PM IST class falls around'],
+    'Classes are scheduled at convenient local timings for your region. This is a rough reference for how each region lines up with Indian Standard Time (IST), and every session is also recorded.',
+  infoTableHeaders: ['Region', 'Approx. difference from IST', 'A 7:00 PM IST time falls around'],
   infoTableRows: [
     ['USA — East Coast (NJ, NY, Boston)', '9.5–10.5 hours behind', '~8:30–9:30 AM, same day'],
     ['USA — West Coast (California)', '12.5–13.5 hours behind', '~5:30–6:30 AM, same day'],
@@ -93,7 +93,7 @@ export const DATA: BestInstituteData = {
     },
     {
       title: 'Assuming time zones rule out live coaching.',
-      text: "With sessions recorded and doubt-support handled separately, most families find the live-plus-recording combination works even when the live slot lands at an inconvenient hour.",
+      text: "Classes are scheduled at convenient local timings, with sessions also recorded and doubt-support handled separately, so time zones do not get in the way.",
     },
     {
       title: 'Waiting until Class 11 or 12 to start.',
@@ -108,7 +108,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'Can my child join live classes if we are in a very different time zone?',
       answer:
-        "Yes. Live sessions run on IST, but every session is recorded, and doubts are cleared separately over WhatsApp/one-to-one follow-up — so a class landing at 5 AM local time is watched later, not missed.",
+        "Yes. Classes are scheduled at convenient local timings for your time zone, and every session is also recorded, with doubts cleared separately over WhatsApp/one-to-one follow-up.",
     },
     {
       question: 'Which programs are available online for NRI and international students?',
@@ -123,7 +123,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'How is payment handled from outside India?',
       answer:
-        "Reach out directly on WhatsApp or the contact form and the team will work out an international payment arrangement for your family — this is handled case by case rather than through a single fixed method.",
+        "Yes, international payment is supported. Reach out on WhatsApp or the contact form and the team will guide you through paying from abroad.",
     },
     {
       question: 'Does this still make sense if we might move back to India?',
@@ -147,5 +147,9 @@ export const DATA: BestInstituteData = {
     { href: '/international-boards', label: 'IGCSE / IB / A-Level / AP' },
     { href: '/one-on-one', label: 'One-on-One Coaching' },
     { href: '/foundation', label: 'Foundation (Grades 6–10)' },
+    { href: '/online-coaching-usa', label: 'Coaching for Students in the USA' },
+    { href: '/online-coaching-canada', label: 'Coaching for Students in Canada' },
+    { href: '/online-coaching-singapore', label: 'Coaching for Students in Singapore' },
+    { href: '/online-coaching-australia', label: 'Coaching for Students in Australia' },
   ],
 };
