@@ -24,10 +24,10 @@ export const hscScorers: TopScorer[] = [
 ];
 
 export const sscScorers: TopScorer[] = [
-  { initials: "RP", photo: "/images/students/rahul-patil-ssc10.webp", name: "Rahul Patil", score: 95.5, year: "2026", stream: "SSC", rating: 0, quote: "The SSC specific resources were a game-changer for me. The mock exams mirrored the real board papers perfectly, making me feel confident and prepared. Thank you!" },
-  { initials: "SK", photo: "/images/students/sneha-kulkarni-ssc10.webp", name: "Sneha Kulkarni", score: 97.8, year: "2026", stream: "SSC", rating: 0, quote: "I struggled with Mathematics, but the step-by-step solutions provided were incredibly helpful. They broke down complex problems into manageable steps. Highly recommend!" },
-  { initials: "VS", photo: "/images/students/vihaan-shah-ssc10.webp", name: "Vihaan Shah", score: 96.2, year: "2026", stream: "SSC", rating: 0, quote: "The chapter-wise notes were a lifesaver during the final revision. They were concise and covered all key concepts, saving me a lot of time. must-have tool for SSC students." },
-  { initials: "FK", photo: "/images/students/fatima-khan-ssc10.webp", name: "Fatima Khan", score: 98.9, year: "2026", stream: "SSC", rating: 0, quote: "The personalized study plan was exactly what I needed. It kept me on track and helped me focus on my weak areas without neglecting the rest. The best platform for SSC." },
+  { initials: "RP", photo: "/images/students/rahul-patil-ssc10.webp", name: "Rahul Patil", score: 95.5, year: "2026", stream: "SSC", quote: "The SSC specific resources were a game-changer for me. The mock exams mirrored the real board papers perfectly, making me feel confident and prepared. Thank you!" },
+  { initials: "SK", photo: "/images/students/sneha-kulkarni-ssc10.webp", name: "Sneha Kulkarni", score: 97.8, year: "2026", stream: "SSC", quote: "I struggled with Mathematics, but the step-by-step solutions provided were incredibly helpful. They broke down complex problems into manageable steps. Highly recommend!" },
+  { initials: "VS", photo: "/images/students/vihaan-shah-ssc10.webp", name: "Vihaan Shah", score: 96.2, year: "2026", stream: "SSC", quote: "The chapter-wise notes were a lifesaver during the final revision. They were concise and covered all key concepts, saving me a lot of time. must-have tool for SSC students." },
+  { initials: "FK", photo: "/images/students/fatima-khan-ssc10.webp", name: "Fatima Khan", score: 98.9, year: "2026", stream: "SSC", quote: "The personalized study plan was exactly what I needed. It kept me on track and helped me focus on my weak areas without neglecting the rest. The best platform for SSC." },
 ];
 
 export const scorerGroups: ScorerGroup[] = [
