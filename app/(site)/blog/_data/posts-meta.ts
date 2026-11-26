@@ -4429,5 +4429,125 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     category: "ivy-colleges",
     datePublished: "2026-11-25",
     readingMinutes: 6
+  },
+  {
+    slug: "zco-explained-eligibility-exam-pattern-and-path-to-inoi-ioi",
+    title: "ZCO Explained: Eligibility, Exam Pattern and the Path to INOI and IOI",
+    description: "The Zonal Computing Olympiad (ZCO) is the first real gate in India's computing olympiad pipeline. Here's what it is, who can take it, how the paper works, and where it can lead.",
+    category: "coding-olympiad",
+    datePublished: "2026-10-29",
+    readingMinutes: 7
+  },
+  {
+    slug: "zco-syllabus-topic-by-topic-what-to-learn-first",
+    title: "The ZCO Syllabus, Topic by Topic: What to Learn First and Why",
+    description: "ZCO has no published textbook syllabus, but the problems follow a recognisable set of topics. Here is a topic-by-topic order for learning them, with what each one is used for.",
+    category: "coding-olympiad",
+    datePublished: "2026-10-31",
+    readingMinutes: 8
+  },
+  {
+    slug: "best-programming-language-for-zco-cpp-vs-python-vs-java",
+    title: "Best Programming Language for ZCO: C++ vs Python vs Java",
+    description: "Choosing a language for ZCO is a real decision, because speed limits matter. Here is an honest comparison of C++, Python and Java for contest coding, and how to choose.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-02",
+    readingMinutes: 6
+  },
+  {
+    slug: "how-to-solve-zco-past-papers-step-by-step",
+    title: "How to Solve ZCO Past Papers: A Step-by-Step Method",
+    description: "Past papers are the single best ZCO resource, but only if you use them properly. Here is a step-by-step method for attempting, reviewing and learning from every problem.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-04",
+    readingMinutes: 7
+  },
+  {
+    slug: "90-day-zco-study-plan-weekly-targets-and-mock-tests",
+    title: "A 90-Day ZCO Study Plan: Weekly Targets, Mock Tests and Exam-Day Strategy",
+    description: "A realistic 12-week plan for ZCO preparation, with weekly targets, when to start mock tests, and how to manage the three hours on exam day.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-06",
+    readingMinutes: 8
+  },
+  {
+    slug: "zio-for-beginners-what-it-is-and-how-to-start",
+    title: "ZIO for Beginners: What It Is, Who Can Take It and How to Start",
+    description: "The Zonal Informatics Olympiad (ZIO) is the gentlest entry point into India's informatics pipeline. Here's what the exam is, who it suits, and how a beginner should start.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-08",
+    readingMinutes: 7
+  },
+  {
+    slug: "logical-thinking-and-problem-solving-for-zio",
+    title: "Logical Thinking and Problem Solving for ZIO: Skills Before Syntax",
+    description: "ZIO rewards how you think more than how much code you know. Here are practical ways to build logical reasoning, pattern spotting and step-by-step problem breakdown.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-10",
+    readingMinutes: 7
+  },
+  {
+    slug: "programming-basics-every-zio-aspirant-must-master",
+    title: "Programming Basics Every ZIO Aspirant Must Master",
+    description: "Before algorithms, there are basics: input, conditions, loops, arrays, strings and functions. Here's the checklist ZIO aspirants should be able to do without thinking.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-12",
+    readingMinutes: 7
+  },
+  {
+    slug: "common-zio-mistakes-and-how-to-avoid-them",
+    title: "Common ZIO Mistakes and How to Avoid Them",
+    description: "Most lost marks in ZIO come from avoidable errors: misread statements, missed edge cases, wrong output formats and poor time use. Here is how to prevent each of them.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-14",
+    readingMinutes: 6
+  },
+  {
+    slug: "from-zio-to-zco-year-by-year-path-for-school-students",
+    title: "From ZIO to ZCO: A Year-by-Year Path for School Students and How Parents Can Help",
+    description: "A practical year-by-year path from a first ZIO to ZCO and beyond, plus concrete ways parents can support a young competitive programmer without adding pressure.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-16",
+    readingMinutes: 8
+  },
+  {
+    slug: "why-every-school-student-should-try-a-computing-olympiad",
+    title: "Why Every School Student Should Try a Computing Olympiad",
+    description: "A computing olympiad is not only for future programmers. Here are the skills it builds, from logical thinking to resilience, and why trying one is worthwhile for almost any school student.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-18",
+    readingMinutes: 6
+  },
+  {
+    slug: "how-computing-olympiads-sharpen-problem-solving-and-logical-thinking",
+    title: "How Computing Olympiads Sharpen Problem-Solving and Logical Thinking",
+    description: "Computing olympiads train specific mental habits: decomposition, pattern recognition, abstraction and efficiency thinking. Here is how each one works and where it helps beyond coding.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-20",
+    readingMinutes: 7
+  },
+  {
+    slug: "computing-olympiads-and-college-admissions-what-they-add",
+    title: "Computing Olympiads and College Admissions: What They Actually Add",
+    description: "How does a computing olympiad achievement look on a college application? Here is an honest account of what it signals, what it does not guarantee, and how to present it.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-22",
+    readingMinutes: 7
+  },
+  {
+    slug: "career-advantages-of-competitive-programming-early-start",
+    title: "Career Advantages of Competitive Programming: Why an Early Start Pays Off",
+    description: "Competitive programming builds the data-structures-and-algorithms skills that tech interviews test. Here is how an early start helps with internships, placements and a career in technology.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-24",
+    readingMinutes: 7
+  },
+  {
+    slug: "beyond-winning-confidence-discipline-and-community-from-computing-olympiads",
+    title: "Beyond Winning: Confidence, Discipline and Community in Computing Olympiads",
+    description: "The deepest benefits of a computing olympiad are rarely on a certificate: confidence, discipline, handling failure and belonging to a community of curious peers.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
   }
 ];
