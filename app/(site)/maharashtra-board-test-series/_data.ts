@@ -3,14 +3,34 @@ import { DEFAULT_PAPERS } from "@/components/test-series/StructureSection";
 import { DEFAULT_GROUPS } from "@/components/test-series/PricingSection";
 import type { PackGroup, Addon } from "@/components/test-series/PricingSection";
 import type { SubjectGrade } from "@/components/test-series/SubjectsSection";
+import type { TopScorer, ScorerGroup } from "@/components/test-series/ResultsShowcase";
 
 export const heroContent = {
   breadcrumbLabel: "Maharashtra Board Test Series",
-  badge: "MAHARASHTRA STATE BOARD  |  SSC & HSC  |  BOARDS 2027",
+  badge: "MAHARASHTRA STATE BOARD  |  SSC & HSC  |  HSC RESULTS 2026  |  BOARDS 2027",
   description:
     "The BuzzyBrains Maharashtra Board Test Series puts SSC (Class 10) and HSC (Class 12) students through full-length papers set to the exact MSBSHSE blueprint — including separate Algebra, Geometry and Science papers — then hands back a marked, examiner-annotated scorecard within 72 hours.",
   mockSubject: "Algebra · SSC Class X",
 };
+
+export const hscScorers: TopScorer[] = [
+  { initials: "SP", name: "Sakshi Patil", score: 98.2, year: "2026", stream: "Science", quote: "I was looking for more practice before my HSC exams, especially in Physics and Chemistry. The chapter-wise tests helped me revise regularly, and the full-length papers gave me a better idea of the actual exam pattern." },
+  { initials: "OD", name: "Om Deshmukh", score: 95.6, year: "2026", stream: "Science", quote: "Maths needed a lot of practice for me. I liked the variety of questions in the test series. Going through the solutions after every test helped me understand my mistakes and improve my accuracy." },
+  { initials: "RK", name: "Rutuja Kulkarni", score: 99.0, year: "2026", stream: "Commerce", quote: "The regular tests helped me stay consistent with my preparation. I especially found the subject-wise practice useful because I could focus on chapters where I wasn't fully confident." },
+  { initials: "AJ", name: "Atharva Joshi", score: 94.8, year: "2026", stream: "Science", quote: "I used to struggle with completing lengthy papers on time. Attempting timed mock tests helped me improve my writing speed and manage the paper better. The practice was really useful before boards." },
+  { initials: "NS", name: "Neha Shah", score: 97.4, year: "2026", stream: "Commerce", quote: "I found the Accountancy and Economics tests very helpful. Regular practice made me more comfortable with solving questions independently. It also helped me identify small mistakes before the final exams." },
+  { initials: "PM", name: "Pranav More", score: 93.6, year: "2026", stream: "Science", quote: "I joined mainly because I needed a proper study routine. Having regular tests gave me a reason to revise every week. The detailed solutions were also helpful whenever I got stuck on a question." },
+];
+
+export const scorerGroups: ScorerGroup[] = [{ label: "Class 12", board: "Maharashtra HSC", scorers: hscScorers }];
+
+const avgAll = hscScorers.reduce((t, x) => t + x.score, 0) / hscScorers.length;
+
+export const heroStats = [
+  { value: `${Math.max(...hscScorers.map((x) => x.score)).toFixed(1)}%`, label: "Top HSC score, Boards 2026" },
+  { value: `${avgAll.toFixed(1)}%`, label: `Average of ${hscScorers.length} featured students` },
+  { value: "8", label: "Full-length papers per subject" },
+];
 
 export const whyFeatures = DEFAULT_FEATURES.map((f, i) =>
   i === 0

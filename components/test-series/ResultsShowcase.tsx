@@ -1,17 +1,40 @@
+'use client';
+
+import { useState } from 'react';
+
 export interface TopScorer {
   initials: string;
+  /** Optional student photo (path under /public); falls back to initials. */
+  photo?: string;
   name: string;
+  /** Numeric value used for ranking and the progress bar (a percentage). */
   score: number;
+  /** Big text on the card; defaults to `score` as a percentage. Use for
+   * grade-count results such as "9 A* Grades". */
+  headline?: string;
+  /** Text next to the headline; defaults to "in Boards {year}". */
+  caption?: string;
   year: string;
   stream: string;
   quote: string;
+}
+
+export interface ScorerGroup {
+  /** Tab label and card caption, e.g. "Class 12". */
+  label: string;
+  board: string;
+  scorers: TopScorer[];
+  /** Override the four headline stats (needed when results are not percentages). */
+  stats?: { value: string; label: string }[];
+  /** Badge on the leading card(s); defaults to "TOP SCORE". */
+  topLabel?: string;
 }
 
 export interface ResultsShowcaseProps {
   eyebrow?: string;
   title?: string;
   subtitle?: string;
-  scorers: TopScorer[];
+  groups: ScorerGroup[];
   footnote?: string;
 }
 
@@ -35,19 +58,22 @@ function Stars() {
 export default function ResultsShowcase({
   eyebrow = 'BOARDS 2026 RESULTS',
   title = 'Results that speak louder than promises.',
-  subtitle = 'Class 12 CBSE students who trained on the BuzzyBrains test series — in their own words.',
-  scorers,
-  footnote = 'Scores and testimonials are from the Class 12 CBSE students featured above, shared with their consent. Individual results vary with effort and starting level.',
+  subtitle = 'CBSE students who trained on the BuzzyBrains test series — in their own words.',
+  groups,
+  footnote = 'Scores and testimonials are from the students featured above, shared with their consent. Individual results vary with effort and starting level.',
 }: ResultsShowcaseProps) {
+  const [active, setActive] = useState(0);
+  const group = groups[active] ?? groups[0];
+  const scorers = group.scorers;
   const sorted = [...scorers].sort((a, b) => b.score - a.score);
   const top = sorted[0];
   const avg = scorers.reduce((s, x) => s + x.score, 0) / scorers.length;
   const above95 = scorers.filter((x) => x.score >= 95).length;
   const above90 = scorers.filter((x) => x.score >= 90).length;
 
-  const stats = [
+  const stats = group.stats ?? [
     { value: `${top.score.toFixed(1)}%`, label: `Top score · ${top.name}` },
-    { value: `${avg.toFixed(1)}%`, label: 'Average of featured students' },
+    { value: `${avg.toFixed(1)}%`, label: `Average of featured ${group.label} students` },
     { value: `${above95} of ${scorers.length}`, label: 'Scored 95% or above' },
     { value: `${above90} of ${scorers.length}`, label: 'Scored 90% or above' },
   ];
@@ -69,8 +95,27 @@ export default function ResultsShowcase({
           {subtitle}
         </p>
 
+        {groups.length > 1 && (
+          <div role="tablist" aria-label="Results by class" className="reveal mt-10 inline-flex flex-wrap gap-1 rounded-sm border border-[#C9A227]/40 p-1" data-delay="2">
+            {groups.map((g, i) => (
+              <button
+                key={g.label}
+                type="button"
+                role="tab"
+                aria-selected={i === active}
+                onClick={() => setActive(i)}
+                className={`rounded-sm px-6 py-2.5 font-ledger text-[13px] font-bold tracking-wide transition-colors ${
+                  i === active ? 'bg-[#C9A227] text-[#0E2148]' : 'text-[#FAF7EF]/75 hover:text-[#E4C158]'
+                }`}
+              >
+                {g.label} · {g.board}
+              </button>
+            ))}
+          </div>
+        )}
+
         {/* Headline stats */}
-        <dl className="reveal mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-[#C9A227]/30 bg-[#C9A227]/30 lg:grid-cols-4" data-delay="2">
+        <dl className="reveal mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-[#C9A227]/30 bg-[#C9A227]/30 lg:grid-cols-4" data-delay="2">
           {stats.map((s) => (
             <div key={s.label} className="bg-[#0E2148] px-6 py-8">
               <dt className="font-display text-[40px] font-bold leading-none text-[#E4C158] sm:text-[52px]">{s.value}</dt>
@@ -83,30 +128,42 @@ export default function ResultsShowcase({
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {sorted.map((s, i) => (
             <figure
-              key={s.name}
+              key={`${group.label}-${s.name}`}
               className="reveal flex flex-col rounded-sm bg-[#FAF7EF] p-7 text-[#0E2148] shadow-xl"
               data-delay={String(i % 3)}
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-center gap-3">
-                  <span className="grid h-12 w-12 place-items-center rounded-full bg-[#0E2148] font-ledger text-[13px] font-bold text-[#E4C158]">
-                    {s.initials}
-                  </span>
+                  {s.photo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={s.photo}
+                      alt={`${s.name}, ${group.label} ${group.board} student`}
+                      width={56}
+                      height={56}
+                      loading="lazy"
+                      className="h-14 w-14 shrink-0 rounded-full border-2 border-[#C9A227] object-cover"
+                    />
+                  ) : (
+                    <span className="grid h-12 w-12 place-items-center rounded-full bg-[#0E2148] font-ledger text-[13px] font-bold text-[#E4C158]">
+                      {s.initials}
+                    </span>
+                  )}
                   <div>
                     <figcaption className="font-display text-[16px] font-bold">{s.name}</figcaption>
-                    <p className="font-ledger text-[12px] text-[#5E7FB5]">Class 12 CBSE</p>
+                    <p className="font-ledger text-[12px] text-[#5E7FB5]">{group.label} {group.board}</p>
                   </div>
                 </div>
-                {i === 0 && (
+                {s.score === top.score && (
                   <span className="rotate-3 rounded-sm border-2 border-[#B23A2E] px-2 py-1 font-ledger text-[11px] font-bold tracking-wider text-[#B23A2E]">
-                    TOP SCORE
+                    {group.topLabel ?? 'TOP SCORE'}
                   </span>
                 )}
               </div>
 
-              <div className="mt-6 flex items-end gap-3">
-                <span className="font-display text-[56px] font-bold leading-none text-[#0E2148]">{s.score.toFixed(1)}%</span>
-                <span className="pb-2 font-ledger text-[12px] tracking-wide text-[#0E2148]/55">in Boards {s.year}</span>
+              <div className="mt-6 flex flex-wrap items-end gap-x-3 gap-y-1">
+                <span className={`font-display font-bold leading-none text-[#0E2148] ${(s.headline ?? '').length > 14 ? 'text-[30px]' : 'text-[44px] sm:text-[48px]'}`}>{s.headline ?? `${s.score.toFixed(1)}%`}</span>
+                <span className="pb-2 font-ledger text-[12px] tracking-wide text-[#0E2148]/55">{s.caption ?? `in Boards ${s.year}`}</span>
               </div>
               <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-[#0E2148]/10">
                 <div className="h-full rounded-full bg-[#C9A227]" style={{ width: `${s.score}%` }} />
