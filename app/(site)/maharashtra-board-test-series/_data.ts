@@ -14,7 +14,7 @@ export const heroContent = {
 };
 
 export const hscScorers: TopScorer[] = [
-  { initials: "SP", name: "Sakshi Patil", score: 98.2, year: "2026", stream: "Science", quote: "I was looking for more practice before my HSC exams, especially in Physics and Chemistry. The chapter-wise tests helped me revise regularly, and the full-length papers gave me a better idea of the actual exam pattern." },
+  { initials: "SP", photo: "/images/students/sakshi-patil.webp", name: "Sakshi Patil", score: 98.2, year: "2026", stream: "Science", quote: "I was looking for more practice before my HSC exams, especially in Physics and Chemistry. The chapter-wise tests helped me revise regularly, and the full-length papers gave me a better idea of the actual exam pattern." },
   { initials: "OD", name: "Om Deshmukh", score: 95.6, year: "2026", stream: "Science", quote: "Maths needed a lot of practice for me. I liked the variety of questions in the test series. Going through the solutions after every test helped me understand my mistakes and improve my accuracy." },
   { initials: "RK", name: "Rutuja Kulkarni", score: 99.0, year: "2026", stream: "Commerce", quote: "The regular tests helped me stay consistent with my preparation. I especially found the subject-wise practice useful because I could focus on chapters where I wasn't fully confident." },
   { initials: "AJ", name: "Atharva Joshi", score: 94.8, year: "2026", stream: "Science", quote: "I used to struggle with completing lengthy papers on time. Attempting timed mock tests helped me improve my writing speed and manage the paper better. The practice was really useful before boards." },
