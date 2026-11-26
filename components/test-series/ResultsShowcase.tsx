@@ -4,6 +4,8 @@ import { useState } from 'react';
 
 export interface TopScorer {
   initials: string;
+  /** Optional student photo (path under /public); falls back to initials. */
+  photo?: string;
   name: string;
   /** Numeric value used for ranking and the progress bar (a percentage). */
   score: number;
@@ -132,9 +134,21 @@ export default function ResultsShowcase({
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-center gap-3">
-                  <span className="grid h-12 w-12 place-items-center rounded-full bg-[#0E2148] font-ledger text-[13px] font-bold text-[#E4C158]">
-                    {s.initials}
-                  </span>
+                  {s.photo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={s.photo}
+                      alt={`${s.name}, ${group.label} ${group.board} student`}
+                      width={56}
+                      height={56}
+                      loading="lazy"
+                      className="h-14 w-14 shrink-0 rounded-full border-2 border-[#C9A227] object-cover"
+                    />
+                  ) : (
+                    <span className="grid h-12 w-12 place-items-center rounded-full bg-[#0E2148] font-ledger text-[13px] font-bold text-[#E4C158]">
+                      {s.initials}
+                    </span>
+                  )}
                   <div>
                     <figcaption className="font-display text-[16px] font-bold">{s.name}</figcaption>
                     <p className="font-ledger text-[12px] text-[#5E7FB5]">{group.label} {group.board}</p>
