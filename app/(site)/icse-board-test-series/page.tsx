@@ -8,17 +8,18 @@ import WhySection from '@/components/test-series/WhySection';
 import StructureSection from '@/components/test-series/StructureSection';
 import SubjectsSection from '@/components/test-series/SubjectsSection';
 import ScorecardSection from '@/components/test-series/ScorecardSection';
-import ResultsSection from '@/components/test-series/ResultsSection';
+import ResultsShowcase from '@/components/test-series/ResultsShowcase';
 import PricingSection from '@/components/test-series/PricingSection';
 import FaqSection from '@/components/test-series/FaqSection';
 import FinalCta from '@/components/test-series/FinalCta';
-import { heroContent, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
+import { heroContent, heroStats, scorerGroups, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
 
 export default function IcseTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
-      <Hero {...heroContent} />
+      <Hero {...heroContent} stats={heroStats} />
+      <ResultsShowcase groups={scorerGroups} />
       <WhySection features={whyFeatures} />
       <StructureSection stages={structureStages} />
       <SubjectsSection
@@ -26,7 +27,6 @@ export default function IcseTestSeriesPage() {
         grades={subjectGrades}
       />
       <ScorecardSection paperLabel="Paper 05 · Mathematics · ICSE X" />
-      <ResultsSection />
       <PricingSection
         groups={pricingGroups}
         addons={addons}
