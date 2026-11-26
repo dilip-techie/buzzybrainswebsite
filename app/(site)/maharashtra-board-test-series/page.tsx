@@ -5,6 +5,7 @@ import { MAHARASHTRA_TEST_SERIES_FAQS } from '@/lib/test-series/faqs';
 import DiscountPopup from '@/components/test-series/DiscountPopup';
 import Hero from '@/components/test-series/Hero';
 import WhySection from '@/components/test-series/WhySection';
+import AlsoIncluded from '@/components/test-series/AlsoIncluded';
 import StructureSection from '@/components/test-series/StructureSection';
 import SubjectsSection from '@/components/test-series/SubjectsSection';
 import ScorecardSection from '@/components/test-series/ScorecardSection';
@@ -25,6 +26,7 @@ export default function MaharashtraTestSeriesPage() {
         groups={scorerGroups}
       />
       <WhySection features={whyFeatures} />
+      <AlsoIncluded />
       <StructureSection stages={structureStages} />
       <SubjectsSection
         title="Maharashtra State Board. Every split paper, matched exactly."

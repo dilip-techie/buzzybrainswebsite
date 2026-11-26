@@ -4,6 +4,7 @@ import { testSeriesFontVars } from '@/lib/test-series/fonts';
 import DiscountPopup from '@/components/test-series/DiscountPopup';
 import Hero from '@/components/test-series/Hero';
 import WhySection from '@/components/test-series/WhySection';
+import AlsoIncluded from '@/components/test-series/AlsoIncluded';
 import StructureSection from '@/components/test-series/StructureSection';
 import SubjectsSection from '@/components/test-series/SubjectsSection';
 import ScorecardSection from '@/components/test-series/ScorecardSection';
@@ -25,6 +26,7 @@ export default function TestSeriesPage() {
         groups={hubGroups}
       />
       <WhySection />
+      <AlsoIncluded />
       <StructureSection />
       <SubjectsSection />
       <ScorecardSection />
