@@ -46,6 +46,27 @@ export default function SiteLayout({
             addressCountry: 'IN',
           },
           openingHours: 'Mo-Sa 09:00-20:00',
+          // Live online coaching is open to students in these markets as well
+          // as in-person in Pune.
+          areaServed: [
+            { '@type': 'Country', name: 'India' },
+            { '@type': 'Country', name: 'United States' },
+            { '@type': 'Country', name: 'Canada' },
+            { '@type': 'Country', name: 'Singapore' },
+            { '@type': 'Country', name: 'Australia' },
+          ],
+          availableLanguage: 'English',
+          knowsAbout: [
+            'SAT preparation',
+            'AP exams',
+            'AMC 8, AMC 10 and AMC 12',
+            'IB Diploma Programme',
+            'Cambridge IGCSE',
+            'UKMT Mathematical Challenges',
+            'Mathematics, Science, Computer Science and Economics',
+            'Mathematics, science and computing olympiads',
+            'IIT-JEE and NEET',
+          ],
           sameAs: [
             'https://www.facebook.com/profile.php?id=61590943110329',
             'https://www.youtube.com/@BuzzyBrainsAcademy',
