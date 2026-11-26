@@ -71,6 +71,7 @@ const SUBJECTS = [
     gradient: 'linear-gradient(135deg,#334155,#0F172A)',
     description: 'Algorithmic thinking and competitive programming from first principles.',
     competitions: ['IOI', 'ZIO', 'INOI', 'ICO', 'USACO'],
+    links: { IOI: '/coding-olympiads', ZIO: '/coding-olympiads', INOI: '/coding-olympiads', USACO: '/coding-olympiads' },
   },
 ];
 
