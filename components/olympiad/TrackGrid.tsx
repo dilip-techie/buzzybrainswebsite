@@ -22,6 +22,7 @@ const TRACK_ICONS: Record<string, LucideIcon> = {
   kangaroo: Rabbit,
   wmi: Globe2,
   sasmo: Compass,
+  ukmt: Landmark,
   maths: Calculator,
   science: Microscope,
   biology: Leaf,

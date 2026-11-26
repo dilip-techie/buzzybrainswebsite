@@ -7,6 +7,7 @@ export { CATEGORY_LABELS, CATEGORY_PILLAR_HREF, CATEGORY_STYLE } from './categor
 import type { BlogCategory } from './categories';
 import { ZCO_POSTS } from './posts-zco';
 import { ZIO_POSTS } from './posts-zio';
+import { UKMT_POSTS } from './posts-ukmt';
 import { COMPUTING_ADVANTAGE_POSTS } from './posts-computing-advantages';
 
 export type BlogBlock =
@@ -51640,6 +51641,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   ...ZCO_POSTS,
   ...ZIO_POSTS,
+  ...UKMT_POSTS,
   ...COMPUTING_ADVANTAGE_POSTS,
 ];
 
