@@ -147,5 +147,9 @@ export const DATA: BestInstituteData = {
     { href: '/international-boards', label: 'IGCSE / IB / A-Level / AP' },
     { href: '/one-on-one', label: 'One-on-One Coaching' },
     { href: '/foundation', label: 'Foundation (Grades 6–10)' },
+    { href: '/online-coaching-usa', label: 'Coaching for Students in the USA' },
+    { href: '/online-coaching-canada', label: 'Coaching for Students in Canada' },
+    { href: '/online-coaching-singapore', label: 'Coaching for Students in Singapore' },
+    { href: '/online-coaching-australia', label: 'Coaching for Students in Australia' },
   ],
 };

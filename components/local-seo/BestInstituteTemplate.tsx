@@ -58,7 +58,7 @@ function slugifyHeading(text: string): string {
     .replace(/\s+/g, '-');
 }
 
-export function BestInstituteTemplate({ data }: { data: BestInstituteData }) {
+export function BestInstituteTemplate({ data, offer }: { data: BestInstituteData; offer?: React.ReactNode }) {
   return (
     <main className="bb-landing bb-page-shell">
       <section className="hero">
@@ -74,6 +74,8 @@ export function BestInstituteTemplate({ data }: { data: BestInstituteData }) {
           </div>
         </div>
       </section>
+
+      {offer}
 
       {data.video && <ShortVideoSection video={data.video} />}
 
