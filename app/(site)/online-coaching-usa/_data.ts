@@ -5,10 +5,10 @@ export const DATA: BestInstituteData = {
   h1: 'Online SAT, AP, AMC & Olympiad Coaching for Students in the USA',
   heroEyebrow: '🇺🇸 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
   heroLede:
-    'SAT, AP, AMC 8/10/12, IB/IGCSE, UKMT and Maths, Science, Computer Science & Economics — taught live online by the same IIT/IIM-alumni faculty who teach at our Pune campus, with every session recorded.',
+    'SAT, AP, AMC 8/10/12, IB/IGCSE, UKMT and Maths, Science, Computer Science & Economics — taught live online by the same IIT/IIM-alumni faculty who teach at our Pune campus, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in the USA?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in the United States preparing for the SAT, AP exams, the AMC contest series (AMC 8, 10 and 12, leading to AIME), IB and IGCSE, UKMT challenges and other olympiads, plus Mathematics, Science, Computer Science and Economics. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in the United States preparing for the SAT, AP exams, the AMC contest series (AMC 8, 10 and 12, leading to AIME), IB and IGCSE, UKMT challenges and other olympiads, plus Mathematics, Science, Computer Science and Economics. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "US college admissions are holistic. Strong grades matter, but admissions readers also look for evidence of depth: a high SAT or AP result, and achievement in contests such as the AMC series that show a student can solve problems the school syllabus never asked of them. Test requirements differ from one university to another and change over time, so always check each university's current policy.",
     "The AMC pathway is the clearest example. AMC 8 is open to students in Grade 8 and below, AMC 10 and AMC 12 to students in Grade 10 and Grade 12 and below, and top scorers are invited on to AIME. These contests reward creative reasoning, not memorised methods, which is the same skill that lifts SAT Math and AP Calculus and Statistics results.",
@@ -34,8 +34,8 @@ export const DATA: BestInstituteData = {
       text: 'Founder Dilip Sah (IIT Kanpur, IIM Ahmedabad) leads a faculty that includes IIT Bombay and IIT Delhi alumni.',
     },
     {
-      title: 'Nothing is missed to a time zone.',
-      text: 'Every live session is recorded, and doubts are cleared separately, so a class that lands early in your morning is watched later, not lost.',
+      title: 'Convenient local timings.',
+      text: 'Classes are scheduled at timings that suit your US time zone, and every session is also recorded, with doubts cleared separately.',
     },
   ],
   infoTableHeading: 'US Exams and Contests We Prepare Students For',
@@ -81,7 +81,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'What time are classes for US time zones?',
       answer:
-        'Live sessions run on Indian Standard Time, which is about 9.5 to 10.5 hours ahead of the US East Coast and 12.5 to 13.5 hours ahead of the West Coast, depending on daylight saving. Every session is recorded, so a class that lands early in your morning can be watched later. Ask us about batch timings for your time zone when you enquire.',
+        'Classes are scheduled at convenient local timings for your US time zone. For reference, India is about 9.5 to 10.5 hours ahead of the East Coast and 12.5 to 13.5 hours ahead of the West Coast, depending on daylight saving. Every session is also recorded. Tell us your time zone when you enquire and we will confirm the batch timings.',
     },
     {
       question: 'Can my child take the AMC from the USA?',
@@ -96,7 +96,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'How is payment handled from the USA?',
       answer:
-        'Message us on WhatsApp or use the contact form and the team will arrange an international payment method for your family. It is handled case by case.',
+        'Yes, international payment is supported. Message us on WhatsApp or use the contact form and the team will guide you through paying from the USA.',
     },
     {
       question: 'Is there an inaugural discount?',
@@ -105,7 +105,7 @@ export const DATA: BestInstituteData = {
     },
   ],
   ctaText:
-    'Book a free diagnostic call. We will map a plan across the SAT, AP and contests that fits your child\'s grade, goals and time zone.',
+    'Book a free diagnostic call. We will map a plan across the SAT, AP and contests that fits your child\'s grade, goals and local timings.',
   internalLinks: [
     { href: '/sat-exam', label: 'SAT Preparation' },
     { href: '/ap-exam', label: 'AP Exam Preparation' },

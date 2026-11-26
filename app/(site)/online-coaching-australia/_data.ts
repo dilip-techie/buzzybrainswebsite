@@ -5,14 +5,14 @@ export const DATA: BestInstituteData = {
   h1: 'Online Maths Olympiad, IB, SAT & AP Coaching for Students in Australia',
   heroEyebrow: '🇦🇺 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
   heroLede:
-    'Australian Mathematics Competition, AMC (USA), UKMT, olympiads, IB, SAT and AP, plus Maths, Science, Computer Science & Economics for students in Sydney, Melbourne, Brisbane, Perth and across Australia, taught live online by IIT/IIM-alumni faculty.',
+    'Australian Mathematics Competition, AMC (USA), UKMT, olympiads, IB, SAT and AP, plus Maths, Science, Computer Science & Economics for students in Sydney, Melbourne, Brisbane, Perth and across Australia, taught live online by IIT/IIM-alumni faculty at convenient local timings.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Australia?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Australia. We support maths contests and olympiads (including the Australian Mathematics Competition, the American AMC series and UKMT), IB, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside state curricula such as the NSW HSC and the VCE. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Australia. We support maths contests and olympiads (including the Australian Mathematics Competition, the American AMC series and UKMT), IB, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside state curricula such as the NSW HSC and the VCE. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Australian students follow state-based senior certificates, including the NSW HSC, the VCE in Victoria, the QCE in Queensland and the WACE in Western Australia, with IB offered at many international schools. University entry for most students runs through an ATAR rank, so strong results in mathematics and the sciences matter.",
     "Contests add depth beyond the syllabus. The Australian Mathematics Competition (AMC), run by the Australian Maths Trust, is the best-known local contest, and the Maths Challenge for Young Australians and the Australian Mathematical Olympiad sit above it. Note that the American AMC series (AMC 8, 10 and 12) is a different contest run by the MAA in the USA, and students can take it as well. UKMT is another international option.",
-    "Australia is 4.5 to 5.5 hours ahead of India, depending on the state and daylight saving, so a 7:00 PM IST class falls late at night locally. Every session is recorded, and we ask about batch timings on the diagnostic call so the plan fits the student's school day.",
+    "Australia is 4.5 to 5.5 hours ahead of India, depending on the state and daylight saving, and classes are scheduled at convenient local timings that fit the student's school day. Every session is also recorded.",
   ],
   whyUsHeading: 'Why Australian Families Choose BuzzyBrains for Online Coaching',
   whyUsIntro: 'The reasons are practical: contest depth, one team across school and competitions, and recorded sessions.',
@@ -34,8 +34,8 @@ export const DATA: BestInstituteData = {
       text: 'Founder Dilip Sah (IIT Kanpur, IIM Ahmedabad) leads a faculty that includes IIT Bombay and IIT Delhi alumni.',
     },
     {
-      title: 'Nothing is missed to a time zone.',
-      text: 'Every live session is recorded, and doubts are cleared separately, so a late-evening class is watched at a better time, not lost.',
+      title: 'Convenient local timings.',
+      text: 'Classes are scheduled at timings that suit your Australian time zone, and every session is also recorded, with doubts cleared separately.',
     },
   ],
   infoTableHeading: 'Australian Exams and Contests, and How We Help',
@@ -81,7 +81,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'What time are classes for Australia?',
       answer:
-        'Live sessions run on Indian Standard Time. Australia is about 4.5 to 5.5 hours ahead, depending on the state and daylight saving, so a 7:00 PM IST class falls around 11:30 PM to 12:30 AM. Every session is recorded, and we ask about batch timings when you enquire.',
+        'Classes are scheduled at convenient local timings for your state. For reference, Australia is about 4.5 to 5.5 hours ahead of India, depending on the state and daylight saving. Every session is also recorded. Tell us your state when you enquire and we will confirm the batch timings.',
     },
     {
       question: 'Is the American AMC the same as the Australian Mathematics Competition?',
@@ -96,7 +96,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'How is payment handled from Australia?',
       answer:
-        'Message us on WhatsApp or use the contact form and the team will arrange an international payment method for your family. It is handled case by case.',
+        'Yes, international payment is supported. Message us on WhatsApp or use the contact form and the team will guide you through paying from Australia.',
     },
     {
       question: 'Is there an inaugural discount?',
@@ -105,7 +105,7 @@ export const DATA: BestInstituteData = {
     },
   ],
   ctaText:
-    'Book a free diagnostic call. We will map a plan across school, contests and exams that fits your child\'s state curriculum, goals and time zone.',
+    'Book a free diagnostic call. We will map a plan across school, contests and exams that fits your child\'s state curriculum, goals and local timings.',
   internalLinks: [
     { href: '/olympiad-math', label: 'Maths Olympiads (incl. UKMT)' },
     { href: '/amc-8-10-coaching-pune', label: 'AMC 8 / 10 / 12' },

@@ -5,10 +5,10 @@ export const DATA: BestInstituteData = {
   h1: 'Online Maths, Science, IB, AP & Olympiad Coaching for Students in Canada',
   heroEyebrow: '🇨🇦 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
   heroLede:
-    'IB, AP, SAT, AMC, UKMT and Maths, Science, Computer Science & Economics for students in Ontario, British Columbia, Alberta and across Canada, taught live online by IIT/IIM-alumni faculty, with every session recorded.',
+    'IB, AP, SAT, AMC, UKMT and Maths, Science, Computer Science & Economics for students in Ontario, British Columbia, Alberta and across Canada, taught live online by IIT/IIM-alumni faculty, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Canada?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Canada. We support IB Diploma and AP courses, SAT preparation for students applying to US universities, the AMC and UKMT contests, olympiads, and Mathematics, Science, Computer Science and Economics alongside provincial curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Canada. We support IB Diploma and AP courses, SAT preparation for students applying to US universities, the AMC and UKMT contests, olympiads, and Mathematics, Science, Computer Science and Economics alongside provincial curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Canadian schools follow provincial curricula, such as Ontario's OSSD, British Columbia's and Alberta's programs, and many offer IB or AP courses as well. Canadian universities such as the University of Toronto, the University of Waterloo, UBC and McGill generally admit on school grades in the required subjects, and some programs ask for extra material, so check each program's current requirements.",
     "Strong mathematics is the common thread. Canadian students often start with the University of Waterloo's CEMC contests (Gauss, Pascal, Cayley, Fermat and Euclid by grade) and can go on to the Canadian Open Mathematics Challenge and the Canadian Mathematical Olympiad. The problem-solving and proof skills these contests reward are the same ones we train for AMC, UKMT and olympiads, so preparation carries across.",
@@ -34,8 +34,8 @@ export const DATA: BestInstituteData = {
       text: 'Founder Dilip Sah (IIT Kanpur, IIM Ahmedabad) leads a faculty that includes IIT Bombay and IIT Delhi alumni.',
     },
     {
-      title: 'Nothing is missed to a time zone.',
-      text: 'Every live session is recorded, and doubts are cleared separately, so an early-morning class is watched later, not lost.',
+      title: 'Convenient local timings.',
+      text: 'Classes are scheduled at timings that suit your Canadian time zone, and every session is also recorded, with doubts cleared separately.',
     },
   ],
   infoTableHeading: 'Canadian Exams and Contests, and How We Help',
@@ -81,7 +81,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'What time are classes for Canadian time zones?',
       answer:
-        'Live sessions run on Indian Standard Time, which is about 9.5 to 10.5 hours ahead of Toronto and the East Coast, depending on daylight saving. Every session is recorded, so an early-morning class can be watched later. Ask about batch timings for your province when you enquire.',
+        'Classes are scheduled at convenient local timings for your time zone. For reference, India is about 9.5 to 10.5 hours ahead of Toronto and the East Coast, depending on daylight saving. Every session is also recorded. Tell us your province when you enquire and we will confirm the batch timings.',
     },
     {
       question: 'Can my child take UKMT or the AMC from Canada?',
@@ -96,7 +96,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'How is payment handled from Canada?',
       answer:
-        'Message us on WhatsApp or use the contact form and the team will arrange an international payment method for your family. It is handled case by case.',
+        'Yes, international payment is supported. Message us on WhatsApp or use the contact form and the team will guide you through paying from Canada.',
     },
     {
       question: 'Is there an inaugural discount?',
@@ -105,7 +105,7 @@ export const DATA: BestInstituteData = {
     },
   ],
   ctaText:
-    'Book a free diagnostic call. We will map a plan across school subjects, contests and exams that fits your child\'s province, grade and time zone.',
+    'Book a free diagnostic call. We will map a plan across school subjects, contests and exams that fits your child\'s province, grade and local timings.',
   internalLinks: [
     { href: '/international-boards', label: 'IB / IGCSE / A-Level / AP' },
     { href: '/ap-exam', label: 'AP Exam Preparation' },

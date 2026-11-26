@@ -5,17 +5,17 @@ export const DATA: BestInstituteData = {
   h1: 'Online Maths Olympiad, IB, IGCSE & SAT Coaching for Students in Singapore',
   heroEyebrow: '🇸🇬 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
   heroLede:
-    'SASMO, Singapore Mathematical Olympiad, AMC, UKMT, IB/IGCSE, SAT and AP, plus Maths, Science, Computer Science & Economics, taught live online by IIT/IIM-alumni faculty, with every session recorded.',
+    'SASMO, Singapore Mathematical Olympiad, AMC, UKMT, IB/IGCSE, SAT and AP, plus Maths, Science, Computer Science & Economics, taught live online by IIT/IIM-alumni faculty, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Singapore?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Singapore. We support maths olympiads and contests (SASMO, the Singapore Mathematical Olympiad, AMC, UKMT, Math Kangaroo and WMI), IB and IGCSE, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside MOE and international-school curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Singapore. We support maths olympiads and contests (SASMO, the Singapore Mathematical Olympiad, AMC, UKMT, Math Kangaroo and WMI), IB and IGCSE, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside MOE and international-school curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Singapore students learn through a mix of systems: the MOE route (PSLE, then O-Level or A-Level, or the Integrated Programme) and international schools offering IB or Cambridge IGCSE. Maths is strong across all of them, and maths competitions are well established, with SASMO and the Singapore Mathematical Olympiad among the best known.",
     "That is why international benchmarks help here. AMC, UKMT and Math Kangaroo give students a way to measure themselves against peers worldwide, and the problem-solving skills they build lift school results in IB, IGCSE and A-Level Mathematics. Students aiming at overseas universities often add the SAT or AP exams, and the same team can cover them.",
-    "Singapore is 2.5 hours ahead of India, which makes live classes comfortable: a 7:00 PM IST class falls around 9:30 PM in Singapore. Every session is also recorded. We start with a free diagnostic call so the plan fits the student's school system, grade and goals.",
+    "Singapore is 2.5 hours ahead of India, and classes are scheduled at convenient local timings. Every session is also recorded. We start with a free diagnostic call so the plan fits the student's school system, grade and goals.",
   ],
   whyUsHeading: 'Why Singapore Families Choose BuzzyBrains for Online Coaching',
-  whyUsIntro: 'The reasons are practical: contest depth, one team across school and competitions, and a friendly time zone.',
+  whyUsIntro: 'The reasons are practical: contest depth, one team across school and competitions, and convenient local timings.',
   whyUsBullets: [
     {
       title: 'Contest and olympiad depth.',
@@ -34,8 +34,8 @@ export const DATA: BestInstituteData = {
       text: 'Founder Dilip Sah (IIT Kanpur, IIM Ahmedabad) leads a faculty that includes IIT Bombay and IIT Delhi alumni.',
     },
     {
-      title: 'A comfortable time zone.',
-      text: 'Singapore is 2.5 hours ahead of India, so evening live classes fit naturally, and every session is recorded.',
+      title: 'Convenient local timings.',
+      text: 'Classes are scheduled at timings that suit Singapore time (2.5 hours ahead of India), and every session is also recorded.',
     },
   ],
   infoTableHeading: 'Singapore Exams and Contests, and How We Help',
@@ -81,7 +81,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'What time are classes for Singapore?',
       answer:
-        'Live sessions run on Indian Standard Time, and Singapore is 2.5 hours ahead, so a 7:00 PM IST class falls around 9:30 PM in Singapore. Every session is recorded. Ask about batch timings when you enquire.',
+        'Classes are scheduled at convenient local timings for Singapore. For reference, Singapore is 2.5 hours ahead of India. Every session is also recorded. Tell us what suits your child when you enquire and we will confirm the batch timings.',
     },
     {
       question: 'Can my child take UKMT or the AMC from Singapore?',
@@ -96,7 +96,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'How is payment handled from Singapore?',
       answer:
-        'Message us on WhatsApp or use the contact form and the team will arrange an international payment method for your family. It is handled case by case.',
+        'Yes, international payment is supported. Message us on WhatsApp or use the contact form and the team will guide you through paying from Singapore.',
     },
     {
       question: 'Is there an inaugural discount?',
