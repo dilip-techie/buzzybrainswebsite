@@ -4553,7 +4553,7 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
   {
     slug: "ukmt-kangaroo-and-olympiad-rounds-what-happens-after-the-challenge",
     title: "UKMT Kangaroo and Olympiad Rounds: What Happens After the Challenge",
-    description: "Top scorers in the Mathematical Challenges are invited to follow-on rounds such as the Kangaroo papers and the Olympiads. Here is how the UKMT ladder works.",
+    description: "Top scorers in the Mathematical Challenges are invited to follow-on Olympiad rounds (and, for UK schools, Kangaroo papers). Here is how the UKMT ladder works.",
     category: "olympiad",
     datePublished: "2026-11-26",
     readingMinutes: 7

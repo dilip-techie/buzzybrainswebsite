@@ -30,7 +30,7 @@ export const UKMT_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "UKMT is the UK Mathematics Trust, a charity that runs school maths competitions in the United Kingdom and beyond. Its flagship events are the Junior, Intermediate and Senior Mathematical Challenges: one-hour-style multiple-choice papers that reward creative reasoning over memorised methods, with follow-on Kangaroo and Olympiad rounds for the highest scorers.",
+        text: "UKMT is the UK Mathematics Trust, a charity that runs school maths competitions in the United Kingdom and beyond. Its flagship events are the Junior, Intermediate and Senior Mathematical Challenges: papers of about an hour (90 minutes for the Senior) that reward creative reasoning over memorised methods, with follow-on Olympiad rounds for the highest scorers (and Kangaroo papers for UK schools).",
       },
       { kind: 'h2', text: 'What UKMT is' },
       {
@@ -42,9 +42,9 @@ export const UKMT_POSTS: BlogPost[] = [
         kind: 'table',
         headers: ['Challenge', 'Aimed at (UK school years)', 'Format'],
         rows: [
-          ['Junior Mathematical Challenge (JMC)', 'Year 8 and below', 'Multiple choice, 25 questions'],
-          ['Intermediate Mathematical Challenge (IMC)', 'Year 11 and below', 'Multiple choice, 25 questions'],
-          ['Senior Mathematical Challenge (SMC)', 'Year 13 and below', 'Multiple choice, 25 questions'],
+          ['Junior Mathematical Challenge (JMC)', 'Year 8 and below', '60 minutes, 25 multiple-choice questions'],
+          ['Intermediate Mathematical Challenge (IMC)', 'Year 11 and below', '60 minutes, 25 multiple-choice questions'],
+          ['Senior Mathematical Challenge (SMC)', 'Year 13 and below', '90 minutes, 25 questions (in 2026 the last three have three-digit answers)'],
         ],
       },
       {
@@ -75,7 +75,7 @@ export const UKMT_POSTS: BlogPost[] = [
     faq: [
       {
         question: 'Can students outside the UK take the UKMT Challenges?',
-        answer: 'UKMT does admit overseas schools and centres, but the registration route differs from the UK. Confirm the current process with UKMT directly.',
+        answer: 'Yes, through a school. UKMT lists England, Wales and Overseas in the age groups for the Challenges, but entry is by registering a school, not an individual student. The Kangaroo follow-on papers are open to UK schools only.',
       },
       {
         question: 'Is UKMT only for very advanced students?',
@@ -133,7 +133,7 @@ export const UKMT_POSTS: BlogPost[] = [
       { kind: 'h2', text: 'Do not forget Kangaroo and Olympiad routes' },
       {
         kind: 'p',
-        text: `Each Challenge feeds a follow-on round for top scorers, so the level you choose also decides which later contests are open. ${VERIFY}`,
+        text: `Each Challenge feeds follow-on rounds for top scorers (the Kangaroo papers are UK schools only), so the level you choose also decides which later contests are open. ${VERIFY}`,
       },
     ],
     faq: [
@@ -186,7 +186,7 @@ export const UKMT_POSTS: BlogPost[] = [
       {
         kind: 'ul',
         items: [
-          "Top scorers are invited to Kangaroo and Olympiad rounds.",
+          "Top scorers are invited to follow-on Olympiad rounds (the Kangaroo papers are for UK schools only).",
           "The Senior route leads to the British Mathematical Olympiad.",
           "The same skills prepare students for IOQM, AMC and other olympiads.",
         ],
@@ -226,36 +226,38 @@ export const UKMT_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "Each UKMT Mathematical Challenge is a 25-question multiple-choice paper with five answer options, sat without a calculator. Early questions are worth fewer marks and later ones more, and later questions carry a penalty for wrong answers, so guessing blindly on the hardest questions is not free.",
+        text: "The Junior and Intermediate Mathematical Challenges are 60-minute, 25-question multiple-choice papers, and the Senior is a 90-minute paper. No calculators are allowed. Later questions are worth more marks. There is no penalty for a wrong answer in the Junior Challenge, but the Intermediate and Senior Challenges do deduct marks for wrong answers.",
       },
       { kind: 'h2', text: 'The structure of the paper' },
       {
         kind: 'ul',
         items: [
-          "25 multiple-choice questions, with five options labelled A to E.",
-          "Questions are roughly ordered from easiest to hardest.",
-          "No calculators; rulers and pencils are normally permitted.",
-          "The Junior and Intermediate papers run for about an hour and the Senior paper somewhat longer; confirm the exact timing for the year.",
+          "Junior (JMC) and Intermediate (IMC): 60 minutes, 25 multiple-choice questions with five options, A to E.",
+          "Senior (SMC): 90 minutes. For 2026 UKMT is trialling a format of 22 multiple-choice questions followed by three questions with three-digit (000 to 999) answers.",
+          "Questions are arranged in approximate order of difficulty, with the hardest at the end, and you are not expected to finish the whole paper.",
+          "Calculators, squared paper and measuring instruments are forbidden; blank paper for rough working is allowed.",
+          "Papers are on paper only, and a school registers and buys the entries.",
+          "For the 2026 to 2027 season UKMT scheduled the Senior on 7 October 2026, the Intermediate on 27 January 2027 and the Junior on 5 May 2027.",
         ],
       },
       { kind: 'h2', text: 'How marking works' },
       {
         kind: 'p',
-        text: "Marks per correct answer rise through the paper, so the final questions are worth the most. Unanswered questions score nothing, and wrong answers on the later questions lose marks. The exact figures differ slightly between the three Challenges and can be revised, so read the current marking scheme on the UKMT website.",
+        text: "Junior and Intermediate: 135 marks in total. Questions 1 to 15 earn 5 marks each and questions 16 to 25 earn 6 marks each. In the Junior there is no penalty for a wrong answer. In the Intermediate, each wrong answer to questions 16 to 20 loses 1 mark and each wrong answer to questions 21 to 25 loses 2 marks. Senior: 125 marks in total. Everyone starts with 25 points, each correct answer earns 4 marks and each wrong answer loses 1 mark. Blanks always score 0. UKMT can change the scheme, so read the current rules on its website.",
       },
-      { kind: 'h2', text: 'What the penalty means for strategy' },
+      { kind: 'h2', text: 'What the marking means for strategy' },
       {
         kind: 'ul',
         items: [
-          "Answer every early question you can; there is little risk there.",
-          "On the last few questions, guess only after eliminating options.",
-          "If you cannot narrow to two choices, leaving it blank is often wiser.",
+          "Junior: there is no penalty, so attempt every question, but UKMT stresses that careful solving beats lucky guessing.",
+          "Intermediate: early questions carry no penalty, while wrong answers on questions 16 to 25 cost 1 or 2 marks, so guess there only after eliminating options.",
+          "Senior: every wrong answer costs 1 mark against 4 for a correct one, so a guess is worthwhile only when you can narrow the options down.",
         ],
       },
       { kind: 'h2', text: 'Certificates and follow-on rounds' },
       {
         kind: 'p',
-        text: "Scores are used to award Gold, Silver and Bronze certificates by percentage band, and the highest scorers are invited to follow-on rounds. Cut-offs change each year, so treat any quoted figure as indicative only.",
+        text: "UKMT awards Bronze, Silver and Gold certificates to the top-scoring half of Junior and Intermediate participants (the top two-thirds in the Senior), in the ratio 3:2:1. Students who are Best in Year or Best in School also get a badge on their certificate, and everyone else receives a Certificate of Participation. The highest scorers are invited to follow-on rounds, and the score thresholds change every year.",
       },
       { kind: 'h2', text: 'Before you register' },
       { kind: 'p', text: VERIFY },
@@ -263,7 +265,7 @@ export const UKMT_POSTS: BlogPost[] = [
     faq: [
       {
         question: 'Is there negative marking in UKMT?',
-        answer: 'Yes on later questions of the paper. Early questions are not penalised. Check the current scheme for exact values.',
+        answer: 'It depends on the level. The Junior Challenge has no negative marking, the Intermediate deducts 1 or 2 marks for wrong answers to questions 16 to 25, and the Senior deducts 1 mark for every wrong answer.',
       },
       {
         question: 'Can I use a calculator?',
@@ -306,7 +308,7 @@ export const UKMT_POSTS: BlogPost[] = [
         kind: 'ul',
         items: [
           "Sit one full past paper a week in the real time limit.",
-          "Mark it honestly using the official scheme, penalties included.",
+          "Mark it honestly using the official scheme for your level, penalties included where they apply.",
           "Redo every question you missed, without notes, a few days later.",
         ],
       },
@@ -336,7 +338,7 @@ export const UKMT_POSTS: BlogPost[] = [
     slug: 'ukmt-kangaroo-and-olympiad-rounds-what-happens-after-the-challenge',
     title: 'UKMT Kangaroo and Olympiad Rounds: What Happens After the Challenge',
     description:
-      "Top scorers in the Mathematical Challenges are invited to follow-on rounds such as the Kangaroo papers and the Olympiads. Here is how the UKMT ladder works.",
+      "Top scorers in the Mathematical Challenges are invited to follow-on Olympiad rounds (and, for UK schools, Kangaroo papers). Here is how the UKMT ladder works.",
     category: 'olympiad',
     datePublished: '2026-11-26',
     readingMinutes: 7,
@@ -345,22 +347,22 @@ export const UKMT_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "After each Mathematical Challenge, the highest-scoring students are invited to a follow-on round: the Junior Kangaroo and Junior Olympiad after JMC, the Grey and Pink Kangaroos and the Cayley, Hamilton and Maclaurin Olympiads after IMC, and the Senior Kangaroo and the British Mathematical Olympiad Round 1 after SMC.",
+        text: "After each Mathematical Challenge, the highest-scoring students are invited to follow-on rounds. The Olympiads are the Junior Mathematical Olympiad after the Junior, the Cayley, Hamilton and Maclaurin Olympiads after the Intermediate, and British Mathematical Olympiad Round 1 after the Senior. UKMT's Kangaroo papers (Junior, Grey and Pink, and the Andrew Jobbings Senior Kangaroo) are open to UK schools only.",
       },
       { kind: 'h2', text: 'The ladder by level' },
       {
         kind: 'table',
         headers: ['Starting Challenge', 'Follow-on rounds for top scorers'],
         rows: [
-          ['Junior (JMC)', 'Junior Kangaroo; Junior Mathematical Olympiad'],
-          ['Intermediate (IMC)', 'Grey and Pink Kangaroos; Cayley, Hamilton and Maclaurin Olympiads'],
-          ['Senior (SMC)', 'Senior Kangaroo; British Mathematical Olympiad Round 1'],
+          ['Junior (JMC)', 'Junior Mathematical Olympiad (2 hours, 6 questions); Junior Kangaroo (UK schools only)'],
+          ['Intermediate (IMC)', 'Cayley, Hamilton and Maclaurin Olympiads (2 hours, 6 questions); Grey and Pink Kangaroos (UK schools only)'],
+          ['Senior (SMC)', 'British Mathematical Olympiad Round 1 (3.5 hours, 6 problems); Andrew Jobbings Senior Kangaroo (UK schools only)'],
         ],
       },
       { kind: 'h2', text: 'Kangaroo versus Olympiad' },
       {
         kind: 'p',
-        text: "The Kangaroo papers are shorter and multiple-choice, linked to the international Kangaroo movement. The Olympiads are written, full-solution contests: the student must explain and prove, not just choose an option. That is a very different skill, and it is where UKMT starts to resemble IOQM and NMTC.",
+        text: "The Kangaroo papers last about an hour and are linked to the international Kangaroo movement; the Junior and Grey/Pink papers are multiple-choice and the Senior Kangaroo has integer answers. The Olympiads are written, full-solution contests: the student must explain and prove, not just choose an option. That is a very different skill, and it is where UKMT starts to resemble IOQM and NMTC.",
       },
       { kind: 'h2', text: 'What the Olympiad rounds demand' },
       {
@@ -382,7 +384,7 @@ export const UKMT_POSTS: BlogPost[] = [
     faq: [
       {
         question: 'Can students outside the UK be invited to the Olympiad rounds?',
-        answer: 'Overseas participation depends on UKMT policy for the year. Check with UKMT whether your centre and region are eligible.',
+        answer: 'UKMT lists "England, Wales and Overseas" in the age groups for the Olympiad rounds, so students at registered overseas schools can qualify for them. The Kangaroo papers are open to UK schools only, so overseas students cannot take them.',
       },
       {
         question: 'Is the Kangaroo the same as Math Kangaroo in India?',
@@ -411,9 +413,9 @@ export const UKMT_POSTS: BlogPost[] = [
         headers: ['', 'UKMT', 'AMC 8 / 10', 'Math Kangaroo', 'IOQM'],
         rows: [
           ['Run by', 'UK Mathematics Trust', 'MAA (USA)', 'Kangaroo organisers', 'HBCSE / MTA India'],
-          ['Answer style', 'Multiple choice (A–E)', 'Multiple choice (A–E)', 'Multiple choice', 'Integer answer'],
+          ['Answer style', 'Mostly multiple choice (A–E)', 'Multiple choice (A–E)', 'Multiple choice', 'Integer answer'],
           ['Calculator', 'Not allowed', 'Not allowed', 'Not allowed', 'Not allowed'],
-          ['Follow-on', 'Kangaroo, Olympiads, BMO', 'AMC 12, AIME, USAMO', 'None in the same event', 'RMO, INMO'],
+          ['Follow-on', 'Olympiad rounds, BMO (Kangaroos UK only)', 'AMC 12, AIME, USAMO', 'None in the same event', 'RMO, INMO'],
           ['Best for', 'UK-curriculum and international profile', 'US-style competition maths', 'Wide, friendly entry', 'India-track olympiad aspirants'],
         ],
       },
@@ -516,10 +518,10 @@ export const UKMT_POSTS: BlogPost[] = [
         kind: 'answer',
         text: "The most common UKMT mistakes are guessing the hardest questions without eliminating options, spending too long on one problem, misreading the question, skipping past papers and relying on long calculations when a short insight exists. Each is fixable with practice.",
       },
-      { kind: 'h2', text: '1. Guessing blindly on the late questions' },
+      { kind: 'h2', text: '1. Guessing blindly where there is a penalty' },
       {
         kind: 'p',
-        text: "Later questions carry a penalty for a wrong answer. Guess only after you have ruled out at least some options, and otherwise leave the question.",
+        text: "The Intermediate and Senior Challenges deduct marks for wrong answers (the Junior does not). In those papers, guess only after you have ruled out some options, and otherwise leave the question blank.",
       },
       { kind: 'h2', text: '2. Getting stuck early' },
       {
@@ -575,15 +577,15 @@ export const UKMT_POSTS: BlogPost[] = [
     body: [
       {
         kind: 'answer',
-        text: "The UKMT pathway runs from the Senior Mathematical Challenge to the British Mathematical Olympiad Round 1, then Round 2, and finally to selection for the UK's International Mathematical Olympiad team. Even without reaching the end, each rung is a credible signal of mathematical ability for university applications.",
+        text: "The UKMT pathway runs from the Senior Mathematical Challenge to the British Mathematical Olympiad Round 1, then the BMO National Final (the successor to Round 2), and finally to selection for the UK's International Mathematical Olympiad team. Even without reaching the end, each rung is a credible signal of mathematical ability for university applications.",
       },
       { kind: 'h2', text: 'The route in outline' },
       {
         kind: 'ul',
         items: [
           "Senior Mathematical Challenge: the entry point.",
-          "British Mathematical Olympiad Round 1: written solutions for top scorers.",
-          "British Mathematical Olympiad Round 2: a smaller, harder written paper.",
+          "British Mathematical Olympiad Round 1: a 3.5-hour paper of six problems needing full written solutions, for roughly the top 1,000 Senior scorers.",
+          "BMO Round 2, which from 2027 becomes the BMO National Final: a 3.5-hour, four-problem paper sat in person in London by about 100 invited students.",
           "Further selection and training for the UK team for the International Mathematical Olympiad.",
         ],
       },
