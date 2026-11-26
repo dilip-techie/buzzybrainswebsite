@@ -21,6 +21,7 @@ export const ibScorers: TopScorer[] = [
   { initials: "ST", name: "Sarah Thomas", score: 100.0, headline: "45/45 Points", caption: "IB Diploma", year: "2026", stream: "IB DP", quote: "I liked how the tests helped me understand the expectations of IB-style assessments. The detailed solutions and feedback made revision more focused, especially for subjects where answer structure matters." },
   { initials: "AS", name: "Arjun Shah", score: 91.1, headline: "41/45 Points", caption: "IB Diploma", year: "2026", stream: "IB DP", quote: "I initially struggled with some of the longer application-based questions. Practising regularly helped me understand how to approach them and explain my reasoning more clearly." },
   { initials: "DM", name: "Diya Malhotra", score: 95.6, headline: "43/45 Points", caption: "IB Diploma", year: "2026", stream: "IB DP", quote: "The subject-wise practice was really helpful. I could focus on weaker topics instead of spending the same amount of time on everything. It made my final revision much more organised." },
+  { initials: "ZA", name: "Zara Ali", score: 97.8, headline: "44/45 Points", caption: "IB Diploma", year: "2026", stream: "IB DP", quote: "IB is unique. The platform adapted perfectly to the IB learner profile, offering exceptional resources for Theory of Knowledge and Extended Essay, beyond just subject content." },
   { initials: "KV", name: "Kabir Verma", score: 88.9, headline: "40/45 Points", caption: "IB Diploma", year: "2026", stream: "IB DP", quote: "What I found most useful was the practice with IB-style questions. It helped me get better at analysing information, applying concepts and writing answers with more clarity." },
 ];
 
@@ -31,17 +32,18 @@ export const scorerGroups: ScorerGroup[] = [
     topLabel: "TOP SCORE",
     scorers: ibScorers,
     stats: [
-      { value: "45/45", label: "Top score · Sarah Thomas" },
-      { value: "42.5", label: "Average points of the 6 featured students" },
-      { value: "6 of 6", label: "Scored 40 points or above" },
-      { value: "3 of 6", label: "Scored 43 points or above" },
+      { value: `${Math.max(...ibScorers.map((x) => Math.round((x.score / 100) * 45)))}/45`, label: "Top score · Sarah Thomas" },
+      { value: `${(ibScorers.reduce((t, x) => t + Math.round((x.score / 100) * 45), 0) / ibScorers.length).toFixed(1)}`, label: `Average points of the ${ibScorers.length} featured students` },
+      { value: `${ibScorers.filter((x) => Math.round((x.score / 100) * 45) >= 40).length} of ${ibScorers.length}`, label: "Scored 40 points or above" },
+      { value: `${ibScorers.filter((x) => Math.round((x.score / 100) * 45) >= 43).length} of ${ibScorers.length}`, label: "Scored 43 points or above" },
     ],
   },
 ];
 
+const ibPoints = ibScorers.map((x) => Math.round((x.score / 100) * 45));
 export const heroStats = [
-  { value: "45/45", label: "Top IB Diploma score, 2026" },
-  { value: "42.5", label: "Average points of 6 featured students" },
+  { value: `${Math.max(...ibPoints)}/45`, label: "Top IB Diploma score, 2026" },
+  { value: `${(ibPoints.reduce((t, x) => t + x, 0) / ibPoints.length).toFixed(1)}`, label: `Average points of ${ibScorers.length} featured students` },
   { value: "8", label: "Full-length papers per subject" },
 ];
 

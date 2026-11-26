@@ -30,6 +30,7 @@ export const class10Scorers: TopScorer[] = [
 ];
 
 export const class12Scorers: TopScorer[] = [
+  { initials: "AK", name: "Ayesha Khan", score: 95.5, year: "2026", stream: "ISC", quote: "The depth of coverage in the ISC syllabus was daunting, but the platform's focused subject modules made complex topics crystal clear. A lifesaver for conceptual clarity." },
   { initials: "AM", name: "Aarushi Mehta", score: 98.6, year: "2026", stream: "Science", quote: "The mock tests helped me get comfortable with the ISC paper pattern. I especially liked practising full-length papers because ISC answers can be quite detailed. It really helped with my time management." },
   { initials: "AK", photo: "/images/students/aditya-khanna.webp", name: "Aditya Khanna", score: 96.2, year: "2026", stream: "Science", quote: "Physics numericals were something I struggled with initially. The chapter-wise tests gave me enough practice and helped me understand where I was going wrong. The solutions were quite helpful." },
   { initials: "IA", name: "Ishita Agarwal", score: 99.0, year: "2026", stream: "Commerce", quote: "I joined mainly for additional practice before boards. The quality of questions was good, and attempting tests regularly helped me stay disciplined. It was also useful for identifying small mistakes before the final exams." },

@@ -4,6 +4,8 @@ import { useState } from 'react';
 
 export interface TopScorer {
   initials: string;
+  /** Star rating out of 5 (default 5). Use 0 to hide the stars. */
+  rating?: number;
   /** Optional student photo (path under /public); falls back to initials. */
   photo?: string;
   name: string;
@@ -44,10 +46,13 @@ const STREAM_TONE: Record<string, string> = {
   Humanities: 'bg-[#B23A2E]/10 text-[#8F2A20]',
 };
 
-function Stars() {
+function Stars({ rating = 5 }: { rating?: number }) {
+  if (rating <= 0) return <span />;
+  const full = Math.min(5, Math.round(rating));
   return (
-    <span className="tracking-[0.15em] text-[#C9A227]" aria-label="5 out of 5 stars">
-      ★★★★★
+    <span className="tracking-[0.15em] text-[#C9A227]" aria-label={`${full} out of 5 stars`}>
+      {'★'.repeat(full)}
+      <span className="text-[#0E2148]/20">{'★'.repeat(5 - full)}</span>
     </span>
   );
 }
@@ -170,7 +175,7 @@ export default function ResultsShowcase({
               </div>
 
               <div className="mt-4 flex items-center justify-between">
-                <Stars />
+                <Stars rating={s.rating} />
                 <span className={`rounded-full px-3 py-1 font-ledger text-[11px] font-bold ${STREAM_TONE[s.stream] ?? STREAM_TONE.Science}`}>
                   {s.stream}
                 </span>
