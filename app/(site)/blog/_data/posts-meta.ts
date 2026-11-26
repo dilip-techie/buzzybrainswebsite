@@ -4599,6 +4599,46 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     readingMinutes: 6
   },
   {
+    slug: "do-universities-require-ukmt-scores-what-admissions-teams-actually-look-for",
+    title: "Do Universities Require UKMT Scores? What Admissions Teams Actually Look For",
+    description: "No major university sets a UKMT score as an entry requirement, yet UKMT results still help. Here is how admissions teams treat Mathematical Challenge results.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "best-universities-that-value-ukmt-achievements-uk-and-beyond",
+    title: "Best Universities That Value UKMT Achievements: UK and Beyond",
+    description: "Which universities take notice of UKMT results? A guide to maths-focused UK universities and international options where Mathematical Challenge success strengthens an application.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 8
+  },
+  {
+    slug: "ukmt-for-us-university-applications-how-it-compares-with-amc-and-aime",
+    title: "UKMT for US University Applications: How It Compares with AMC and AIME",
+    description: "Applying to MIT, Stanford, Princeton or other US universities? Here is how UKMT results are read next to AMC, AIME and other international maths contests.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "ukmt-mat-tmua-step-how-the-challenge-prepares-you-for-uk-admissions-tests",
+    title: "UKMT, MAT, TMUA and STEP: How the Challenge Prepares You for UK Admissions Tests",
+    description: "UKMT is not an entry test, but the skills it builds feed directly into the MAT, TMUA and STEP. Here is how the contests connect and how to plan the sequence.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 8
+  },
+  {
+    slug: "trending-how-to-build-a-maths-profile-with-ukmt-for-top-global-universities",
+    title: "Trending: How to Build a Maths Profile with UKMT for Top Global Universities",
+    description: "A year-by-year plan for Indian students: combine UKMT with IOQM, AMC and strong grades to build a maths profile that stands out for universities in the UK, US and beyond.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 8
+  },
+  {
     slug: "why-every-school-student-should-try-a-computing-olympiad",
     title: "Why Every School Student Should Try a Computing Olympiad",
     description: "A computing olympiad is not only for future programmers. Here are the skills it builds, from logical thinking to resilience, and why trying one is worthwhile for almost any school student.",

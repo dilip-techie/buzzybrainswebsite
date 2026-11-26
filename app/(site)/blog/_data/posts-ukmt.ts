@@ -13,7 +13,10 @@ const PILLAR = {
 const VERIFY =
   "Dates, fees, eligibility and registration routes change from year to year, so always confirm them on the official UKMT website before you register.";
 
-/** UKMT (UK Mathematics Trust) series — 10 posts. */
+const UNI =
+  "Universities set their own admissions rules and change them often, so confirm requirements on each university's official admissions page. Nothing here guarantees an offer.";
+
+/** UKMT (UK Mathematics Trust) series — 15 posts. */
 export const UKMT_POSTS: BlogPost[] = [
   {
     slug: 'ukmt-mathematical-challenges-complete-guide-for-indian-students',
@@ -675,6 +678,298 @@ export const UKMT_POSTS: BlogPost[] = [
       {
         question: 'How many past papers should I complete?',
         answer: 'Aim for at least five to eight full papers at your level, plus topic practice from earlier years.',
+      },
+    ],
+  },
+
+  {
+    slug: 'do-universities-require-ukmt-scores-what-admissions-teams-actually-look-for',
+    title: 'Do Universities Require UKMT Scores? What Admissions Teams Actually Look For',
+    description:
+      "No major university sets a UKMT score as an entry requirement, yet UKMT results still help. Here is how admissions teams treat Mathematical Challenge results.",
+    category: 'olympiad',
+    datePublished: '2026-11-26',
+    readingMinutes: 7,
+    ...PROGRAM,
+    relatedGuides: [PILLAR],
+    body: [
+      {
+        kind: 'answer',
+        text: "To our knowledge, no leading university makes a UKMT score a formal entry requirement. Admissions are decided on grades, admissions tests and interviews. A strong UKMT result is supporting evidence of mathematical ability and independent problem-solving, and it is most useful for competitive maths, computer science, engineering and economics courses.",
+      },
+      { kind: 'h2', text: 'What decides admission' },
+      {
+        kind: 'ul',
+        items: [
+          "Predicted and final grades in school qualifications such as A-levels, IB or Indian boards.",
+          "University or subject admissions tests, such as MAT, TMUA, STEP, SAT or JEE.",
+          "The personal statement or essays, and interviews where used.",
+          "Evidence of interest beyond the syllabus, where UKMT fits.",
+        ],
+      },
+      { kind: 'h2', text: 'Where UKMT helps' },
+      {
+        kind: 'p',
+        text: "A Gold certificate, a Best in School award or an invitation to a Kangaroo or Olympiad round shows the student can solve unfamiliar problems under time pressure. That is exactly the quality maths-heavy courses are trying to identify.",
+      },
+      { kind: 'h2', text: 'Where UKMT does not help' },
+      {
+        kind: 'p',
+        text: "It cannot make up for weak grades or a poor admissions test. Treat it as one strand of a profile, not the centrepiece.",
+      },
+      { kind: 'h2', text: 'How to present it' },
+      {
+        kind: 'ul',
+        items: [
+          "List the level, the year and the certificate or award received.",
+          "Mention any follow-on round reached, since that is the stronger signal.",
+          "Add one sentence on what you learnt or a problem you enjoyed.",
+        ],
+      },
+      { kind: 'p', text: UNI },
+    ],
+    faq: [
+      {
+        question: 'Is there a minimum UKMT score for Oxford or Cambridge?',
+        answer: 'Neither publishes a UKMT score requirement. Both rely on grades, admissions tests and interviews.',
+      },
+      {
+        question: 'Should I still take UKMT if I am not applying to the UK?',
+        answer: 'Yes, if you want training in problem-solving and an international benchmark. It is useful for US and Indian applications as supporting evidence.',
+      },
+    ],
+  },
+  {
+    slug: 'best-universities-that-value-ukmt-achievements-uk-and-beyond',
+    title: 'Best Universities That Value UKMT Achievements: UK and Beyond',
+    description:
+      "Which universities take notice of UKMT results? A guide to maths-focused UK universities and international options where Mathematical Challenge success strengthens an application.",
+    category: 'olympiad',
+    datePublished: '2026-11-26',
+    readingMinutes: 8,
+    ...PROGRAM,
+    relatedGuides: [PILLAR],
+    body: [
+      {
+        kind: 'answer',
+        text: "UKMT results are most recognised by UK universities with strong mathematics departments, including Cambridge, Oxford, Imperial College London, Warwick, UCL, Bath, Durham, St Andrews and Edinburgh. None of them sets a UKMT cut-off, but admissions staff in the UK know the Challenges well and read them as evidence of real mathematical ability.",
+      },
+      { kind: 'h2', text: 'UK universities that know UKMT best' },
+      {
+        kind: 'table',
+        headers: ['University', 'Typical admissions test for maths', 'How UKMT helps'],
+        rows: [
+          ['University of Cambridge', 'STEP papers (as part of the offer)', 'Supports a maths profile; shows interest beyond the syllabus'],
+          ['University of Oxford', 'MAT', 'Shows problem-solving beyond school content'],
+          ['Imperial College London', 'MAT or TMUA depending on course', 'Supports the personal statement'],
+          ['University of Warwick', 'TMUA or STEP depending on the offer', 'Adds evidence of problem-solving'],
+          ['UCL, Bath, Durham, St Andrews, Edinburgh', 'Mostly grades; some use TMUA', 'Positive supporting evidence'],
+        ],
+      },
+      { kind: 'h2', text: 'International universities' },
+      {
+        kind: 'p',
+        text: "US universities evaluate maths competitions holistically, and while AMC and AIME are better known there, UKMT achievements are understood as credible contest results. Universities in Canada, Singapore, Hong Kong and Australia likewise treat them as a positive extracurricular signal.",
+      },
+      { kind: 'h2', text: 'How to use this list' },
+      {
+        kind: 'ul',
+        items: [
+          "Check each university's current admissions test for your course.",
+          "Treat UKMT as supporting evidence, not as a requirement to satisfy.",
+          "Pair it with a strong exam record and a clear interest in the subject.",
+        ],
+      },
+      { kind: 'p', text: UNI },
+    ],
+    faq: [
+      {
+        question: 'Which course benefits most from UKMT?',
+        answer: 'Mathematics, computer science, engineering, physics and economics, where problem-solving ability is central.',
+      },
+      {
+        question: 'Do these universities publish UKMT thresholds?',
+        answer: 'Not to our knowledge. Check their admissions pages for the latest guidance.',
+      },
+    ],
+  },
+  {
+    slug: 'ukmt-for-us-university-applications-how-it-compares-with-amc-and-aime',
+    title: 'UKMT for US University Applications: How It Compares with AMC and AIME',
+    description:
+      "Applying to MIT, Stanford, Princeton or other US universities? Here is how UKMT results are read next to AMC, AIME and other international maths contests.",
+    category: 'olympiad',
+    datePublished: '2026-11-26',
+    readingMinutes: 7,
+    ...PROGRAM,
+    relatedGuides: [PILLAR, { href: '/blog/amc-8-preparation-guide-for-beginners', label: 'AMC 8 Preparation Guide for Beginners' }],
+    body: [
+      {
+        kind: 'answer',
+        text: "US universities read applications holistically and do not require UKMT. AMC and AIME are the contests US admissions readers know best, but a Gold or follow-on round result from UKMT is a legitimate honour for the Common App activities and honours sections, particularly for a student who also shows depth elsewhere.",
+      },
+      { kind: 'h2', text: 'How US readers see maths contests' },
+      {
+        kind: 'p',
+        text: "Admissions readers look for sustained, self-directed excellence. Contests are one way to show that, but readers are not comparing raw scores across countries. They ask whether the achievement is meaningful, selective and part of a coherent story.",
+      },
+      { kind: 'h2', text: 'UKMT vs AMC and AIME' },
+      {
+        kind: 'table',
+        headers: ['', 'UKMT', 'AMC / AIME'],
+        rows: [
+          ['Familiarity to US readers', 'Moderate', 'High'],
+          ['Selectivity signal', 'Gold, Best in School, follow-on invitation', 'AIME qualification, USAMO'],
+          ['Best use', 'Supplement an international profile', 'Core US-style evidence'],
+        ],
+      },
+      { kind: 'h2', text: 'A sensible combination' },
+      {
+        kind: 'ul',
+        items: [
+          "Take AMC 10 or 12 to reach the AIME if you are aiming at highly selective US universities.",
+          "Add UKMT for an extra benchmark, especially if you study an IGCSE or IB programme.",
+          "List the highest-level result first and explain it briefly.",
+        ],
+      },
+      { kind: 'h2', text: 'Presenting it in the Common App' },
+      {
+        kind: 'p',
+        text: "Use the honours section for named awards and the activities section if you trained or mentored others. Briefly say what the contest is, since readers may not recognise the acronym.",
+      },
+      { kind: 'p', text: UNI },
+    ],
+    faq: [
+      {
+        question: 'Is UKMT as valuable as AMC for US applications?',
+        answer: 'AMC and AIME are more familiar to US readers, but UKMT is still credible and adds value when explained clearly.',
+      },
+      {
+        question: 'Should I skip UKMT to focus on AMC?',
+        answer: 'Not necessarily. The preparation overlaps heavily, so doing both costs relatively little extra time.',
+      },
+    ],
+  },
+  {
+    slug: 'ukmt-mat-tmua-step-how-the-challenge-prepares-you-for-uk-admissions-tests',
+    title: 'UKMT, MAT, TMUA and STEP: How the Challenge Prepares You for UK Admissions Tests',
+    description:
+      "UKMT is not an entry test, but the skills it builds feed directly into the MAT, TMUA and STEP. Here is how the contests connect and how to plan the sequence.",
+    category: 'olympiad',
+    datePublished: '2026-11-26',
+    readingMinutes: 8,
+    ...PROGRAM,
+    relatedGuides: [PILLAR],
+    body: [
+      {
+        kind: 'answer',
+        text: "UKMT is a competition, while MAT, TMUA and STEP are admissions tests used by specific UK universities. The Challenge trains the same habits those tests reward: reading carefully, spotting structure and working without a calculator, so a student who has done UKMT for several years is better placed for them.",
+      },
+      { kind: 'h2', text: 'The tests in brief' },
+      {
+        kind: 'table',
+        headers: ['Test', 'Used for', 'Skill emphasis'],
+        rows: [
+          ['MAT', 'Mathematics-related courses at Oxford and some others', 'Multi-step problem solving and proof-style reasoning'],
+          ['TMUA', 'Mathematics, economics and computer science courses at several universities', 'Mathematical thinking and reasoning'],
+          ['STEP', 'Cambridge and Warwick mathematics offers', 'Hard, extended problems at beyond-A-level depth'],
+        ],
+      },
+      { kind: 'h2', text: 'How UKMT feeds in' },
+      {
+        kind: 'ul',
+        items: [
+          "Intermediate and Senior Challenges build the fluency needed for TMUA and MAT.",
+          "The Olympiad rounds and BMO Round 1 develop the written-solution skill STEP needs.",
+          "Years of timed practice make exam pressure familiar.",
+        ],
+      },
+      { kind: 'h2', text: 'A planning sequence' },
+      {
+        kind: 'ul',
+        items: [
+          "Grades 8 to 10: Junior and Intermediate Challenges.",
+          "Grade 11: Intermediate or Senior, plus first attempts at past MAT and TMUA papers.",
+          "Grade 12: Senior Challenge, BMO Round 1 if eligible, and STEP or MAT preparation for your target universities.",
+        ],
+      },
+      { kind: 'h2', text: 'Check the dates and eligibility' },
+      {
+        kind: 'p',
+        text: "Registration deadlines and exam centre options for overseas candidates vary and can change. Check the test providers' official pages well in advance. " + UNI,
+      },
+    ],
+    faq: [
+      {
+        question: 'Can I skip UKMT and go straight to MAT preparation?',
+        answer: 'You can, but UKMT builds the underlying reasoning earlier and lower-pressure, which makes admissions-test preparation easier.',
+      },
+      {
+        question: 'Do Indian students need these tests?',
+        answer: 'Only if they apply to the universities that require them for the course they want.',
+      },
+    ],
+  },
+  {
+    slug: 'trending-how-to-build-a-maths-profile-with-ukmt-for-top-global-universities',
+    title: 'Trending: How to Build a Maths Profile with UKMT for Top Global Universities',
+    description:
+      "A year-by-year plan for Indian students: combine UKMT with IOQM, AMC and strong grades to build a maths profile that stands out for universities in the UK, US and beyond.",
+    category: 'olympiad',
+    datePublished: '2026-11-26',
+    readingMinutes: 8,
+    ...PROGRAM,
+    relatedGuides: [PILLAR],
+    body: [
+      {
+        kind: 'answer',
+        text: "A strong global maths profile combines excellent grades, at least one respected contest track, a deepening interest shown over several years, and clear communication of it. UKMT works well as one of those contests, particularly alongside IOQM or AMC, and is easy to begin in Grade 7 or 8.",
+      },
+      { kind: 'h2', text: 'The four building blocks' },
+      {
+        kind: 'ul',
+        items: [
+          "Academic strength: top results in your school qualification.",
+          "Contests: UKMT plus IOQM, AMC or similar, taken consistently.",
+          "Depth: a project, reading list or teaching experience that goes beyond contests.",
+          "Narrative: a clear, honest account of why you love the subject.",
+        ],
+      },
+      { kind: 'h2', text: 'A year-by-year plan' },
+      {
+        kind: 'table',
+        headers: ['Grade', 'Contests', 'Other focus'],
+        rows: [
+          ['7 to 8', 'Junior UKMT, Math Kangaroo', 'Strengthen fundamentals and mental maths'],
+          ['9', 'Intermediate UKMT, AMC 10 where eligible', 'Begin proof-writing'],
+          ['10', 'Intermediate UKMT, IOQM', 'Start a small independent project'],
+          ['11', 'Senior UKMT, IOQM, AMC 12', 'Admissions-test practice and university shortlisting'],
+          ['12', 'Senior UKMT, BMO Round 1 if eligible', 'Applications, essays and interviews'],
+        ],
+      },
+      { kind: 'h2', text: 'Avoid the common traps' },
+      {
+        kind: 'ul',
+        items: [
+          "Collecting many certificates without depth in any.",
+          "Starting too late to build real skill.",
+          "Letting contest preparation damage school grades.",
+        ],
+      },
+      { kind: 'h2', text: 'How we can help' },
+      {
+        kind: 'p',
+        text: "BuzzyBrains Academy's maths olympiad batches in Pune and online are capped at 12 students and mentored by IIT alumni. A free diagnostic is a good way to find the right starting level. " + UNI,
+      },
+    ],
+    faq: [
+      {
+        question: 'When should my child start UKMT?',
+        answer: 'Grade 7 or 8 is a comfortable start, with the Junior Challenge as the first step.',
+      },
+      {
+        question: 'How many contests are enough?',
+        answer: 'Two or three taken consistently over several years are better than many taken once.',
       },
     ],
   },
