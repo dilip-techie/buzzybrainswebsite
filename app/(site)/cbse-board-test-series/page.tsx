@@ -12,14 +12,14 @@ import ResultsShowcase from '@/components/test-series/ResultsShowcase';
 import PricingSection from '@/components/test-series/PricingSection';
 import FaqSection from '@/components/test-series/FaqSection';
 import FinalCta from '@/components/test-series/FinalCta';
-import { heroContent, heroStats, heroMock, topScorers, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
+import { heroContent, heroStats, heroMock, scorerGroups, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
 
 export default function CbseTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
       <Hero {...heroContent} stats={heroStats} {...heroMock} />
-      <ResultsShowcase scorers={topScorers} />
+      <ResultsShowcase groups={scorerGroups} />
       <WhySection features={whyFeatures} />
       <StructureSection stages={structureStages} />
       <SubjectsSection

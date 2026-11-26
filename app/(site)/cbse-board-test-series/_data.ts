@@ -2,21 +2,15 @@ import { DEFAULT_FEATURES } from "@/components/test-series/WhySection";
 import { DEFAULT_PAPERS } from "@/components/test-series/StructureSection";
 import { DEFAULT_GROUPS } from "@/components/test-series/PricingSection";
 import type { PackGroup, Addon } from "@/components/test-series/PricingSection";
-import type { TopScorer } from "@/components/test-series/ResultsShowcase";
+import type { TopScorer, ScorerGroup } from "@/components/test-series/ResultsShowcase";
 import type { SubjectGrade } from "@/components/test-series/SubjectsSection";
 
 export const heroContent = {
   breadcrumbLabel: "CBSE Board Test Series",
-  badge: "CBSE  |  GRADE 12 RESULTS  |  BOARDS 2027",
+  badge: "CBSE  |  GRADE 10 & 12 RESULTS  |  BOARDS 2027",
   description:
     "The BuzzyBrains CBSE Test Series puts Grade 10 & 12 students through full-length papers set to the exact CBSE Sample Question Paper (SQP) blueprint — then hands back a marked, examiner-annotated scorecard within 72 hours, so you know precisely what to fix before the real thing.",
 };
-
-export const heroStats = [
-  { value: "99.0%", label: "Top Class 12 score, Boards 2026" },
-  { value: "96.8%", label: "Average of featured students" },
-  { value: "8", label: "Full-length papers per subject" },
-];
 
 export const heroMock = {
   mockSubject: "Physics · CBSE Class XII",
@@ -40,6 +34,29 @@ export const topScorers: TopScorer[] = [
   { initials: "AP", name: "Aditya Patel", score: 96.2, year: "2026", stream: "Science", quote: "What I liked most was the detailed solutions. Whenever I got an answer wrong, I could understand the correct approach. It saved me time during revision." },
   { initials: "SM", name: "Sneha Mehta", score: 97.8, year: "2026", stream: "Humanities", quote: "I was initially quite nervous about the board exams. Giving timed mock tests regularly made me more comfortable with the paper format. It was a good way to check my preparation." },
   { initials: "YA", name: "Yash Agarwal", score: 93.8, year: "2026", stream: "Science", quote: "I wasn't very confident in Maths initially. Solving chapter-wise tests and then full-length papers helped me practise regularly. I also got better at identifying the topics I needed to revise." },
+];
+
+export const class10Scorers: TopScorer[] = [
+  { initials: "AS", name: "Ananya Sharma", score: 98.8, year: "2026", stream: "Class 10", quote: "I started giving mock tests about 2 months before boards. Initially, I couldn't complete the papers on time, but with regular practice, I improved a lot. The answer explanations were also very useful." },
+  { initials: "RV", name: "Rohan Verma", score: 96.4, year: "2026", stream: "Class 10", quote: "The chapter-wise tests were really helpful, especially for Science and Maths. I could easily find out which chapters I wasn't prepared for. It made my revision much more organised." },
+  { initials: "PG", name: "Priya Gupta", score: 99.0, year: "2026", stream: "Class 10", quote: "I liked the variety of questions in the sample papers. There were assertion-reason, case-based and competency-based questions too. It helped me get comfortable with different question types." },
+  { initials: "AP", name: "Aarav Patel", score: 95.2, year: "2026", stream: "Class 10", quote: "Earlier I used to just read chapters and think I was prepared. After attempting these tests, I realised where I was actually losing marks. Reviewing my mistakes helped me improve." },
+  { initials: "MS", name: "Mehak Singh", score: 97.6, year: "2026", stream: "Class 10", quote: "The full-length tests were probably the most helpful part for me. I got used to the 3-hour exam format and learned how much time to spend on each section. My confidence definitely improved." },
+  { initials: "KM", name: "Kabir Mehta", score: 93.6, year: "2026", stream: "Class 10", quote: "I joined because I needed more practice in Maths. The different levels of questions helped me understand the concepts better. The solutions were easy to follow and useful for revision." },
+];
+
+export const scorerGroups: ScorerGroup[] = [
+  { label: "Class 12", board: "CBSE", scorers: topScorers },
+  { label: "Class 10", board: "CBSE", scorers: class10Scorers },
+];
+
+const allScorers = [...topScorers, ...class10Scorers];
+const avgAll = allScorers.reduce((t, x) => t + x.score, 0) / allScorers.length;
+
+export const heroStats = [
+  { value: `${Math.max(...allScorers.map((x) => x.score)).toFixed(1)}%`, label: "Top score, Boards 2026" },
+  { value: `${avgAll.toFixed(1)}%`, label: `Average of ${allScorers.length} featured students` },
+  { value: "8", label: "Full-length papers per subject" },
 ];
 
 export const whyFeatures = DEFAULT_FEATURES.map((f, i) =>
