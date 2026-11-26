@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     url: 'https://buzzybrainsacademy.com',
     type: 'website',
     locale: 'en_IN',
+    alternateLocale: ['en_US', 'en_CA', 'en_SG', 'en_AU'],
     siteName: 'BuzzyBrains Academy',
     images: [
       {
