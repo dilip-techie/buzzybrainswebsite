@@ -84,7 +84,7 @@ export default function ResultsShowcase({
   ];
 
   return (
-    <section id="ts-results" className="relative scroll-mt-4 overflow-hidden bg-[#0E2148] py-24 text-[#FAF7EF]">
+    <section id="ts-results" className="relative scroll-mt-12 overflow-hidden bg-[#0E2148] py-24 text-[#FAF7EF]">
       <div className="pointer-events-none absolute inset-0 opacity-[0.05] paper-ruled" />
       <div
         className="pointer-events-none absolute -left-40 top-10 h-[28rem] w-[28rem] rounded-full"
