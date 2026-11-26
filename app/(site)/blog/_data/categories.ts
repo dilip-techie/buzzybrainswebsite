@@ -58,7 +58,7 @@ export const CATEGORY_PILLAR_HREF: Record<BlogCategory, string> = {
   commerce: '/commerce-tuitions',
   ipmat: '/ipmat-exam',
   cat: '/cat-exam',
-  'coding-olympiad': '/coding-lab',
+  'coding-olympiad': '/coding-olympiads',
   'board-exams': '/test-series',
 };
 

@@ -49,6 +49,7 @@ const routes: { path: string; changeFrequency: ChangeFreq; priority: number }[] 
   { path: '/cat-exam', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/olympiad-math', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/olympiads', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/coding-olympiads', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/sof-olympiads', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/sof-imo-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },
   { path: '/ioqm-coaching-pune', changeFrequency: 'monthly', priority: 0.65 },

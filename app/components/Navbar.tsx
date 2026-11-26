@@ -86,6 +86,7 @@ const OLYMPIAD_PREP_MEGA_MENU: MegaMenuGroup[] = [
     subtitle: 'ZIO · INOI · IOI pipeline',
     column: 3,
     items: [
+      { href: '/coding-olympiads', label: 'Coding Olympiads Guide (India & World)' },
       { href: '/coding-lab', label: 'Code Ninja Program' },
       { href: '/programming-classes', label: 'Programming Classes (Python, Java, Web Dev)' },
       { href: '/blog/informatics-olympiad-pipeline-zio-inoi-ioi-explained', label: 'ZIO / INOI / IOI Guide' },
