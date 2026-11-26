@@ -8,17 +8,22 @@ import WhySection from '@/components/test-series/WhySection';
 import StructureSection from '@/components/test-series/StructureSection';
 import SubjectsSection from '@/components/test-series/SubjectsSection';
 import ScorecardSection from '@/components/test-series/ScorecardSection';
-import ResultsSection from '@/components/test-series/ResultsSection';
+import ResultsShowcase from '@/components/test-series/ResultsShowcase';
 import PricingSection from '@/components/test-series/PricingSection';
 import FaqSection from '@/components/test-series/FaqSection';
 import FinalCta from '@/components/test-series/FinalCta';
-import { heroContent, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
+import { heroContent, heroStats, scorerGroups, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
 
 export default function MaharashtraTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
-      <Hero {...heroContent} />
+      <Hero {...heroContent} stats={heroStats} />
+      <ResultsShowcase
+        title="What our Maharashtra Board students say."
+        subtitle="Maharashtra HSC students who trained on the BuzzyBrains test series — in their own words."
+        groups={scorerGroups}
+      />
       <WhySection features={whyFeatures} />
       <StructureSection stages={structureStages} />
       <SubjectsSection
@@ -27,7 +32,6 @@ export default function MaharashtraTestSeriesPage() {
         footerNote="Class 12 (HSC) subjects above cover the PCM, PCB and Commerce stream packs, with English available as an add-on — see pricing below, or ask us on WhatsApp for your exact subject list."
       />
       <ScorecardSection paperLabel="Paper 05 · Algebra · SSC X" />
-      <ResultsSection />
       <PricingSection
         groups={pricingGroups}
         addons={addons}
