@@ -5,7 +5,13 @@ import { useState } from 'react';
 export interface TopScorer {
   initials: string;
   name: string;
+  /** Numeric value used for ranking and the progress bar (a percentage). */
   score: number;
+  /** Big text on the card; defaults to `score` as a percentage. Use for
+   * grade-count results such as "9 A* Grades". */
+  headline?: string;
+  /** Text next to the headline; defaults to "in Boards {year}". */
+  caption?: string;
   year: string;
   stream: string;
   quote: string;
@@ -16,6 +22,10 @@ export interface ScorerGroup {
   label: string;
   board: string;
   scorers: TopScorer[];
+  /** Override the four headline stats (needed when results are not percentages). */
+  stats?: { value: string; label: string }[];
+  /** Badge on the leading card(s); defaults to "TOP SCORE". */
+  topLabel?: string;
 }
 
 export interface ResultsShowcaseProps {
@@ -59,7 +69,7 @@ export default function ResultsShowcase({
   const above95 = scorers.filter((x) => x.score >= 95).length;
   const above90 = scorers.filter((x) => x.score >= 90).length;
 
-  const stats = [
+  const stats = group.stats ?? [
     { value: `${top.score.toFixed(1)}%`, label: `Top score · ${top.name}` },
     { value: `${avg.toFixed(1)}%`, label: `Average of featured ${group.label} students` },
     { value: `${above95} of ${scorers.length}`, label: 'Scored 95% or above' },
@@ -130,16 +140,16 @@ export default function ResultsShowcase({
                     <p className="font-ledger text-[12px] text-[#5E7FB5]">{group.label} {group.board}</p>
                   </div>
                 </div>
-                {i === 0 && (
+                {s.score === top.score && (
                   <span className="rotate-3 rounded-sm border-2 border-[#B23A2E] px-2 py-1 font-ledger text-[11px] font-bold tracking-wider text-[#B23A2E]">
-                    TOP SCORE
+                    {group.topLabel ?? 'TOP SCORE'}
                   </span>
                 )}
               </div>
 
-              <div className="mt-6 flex items-end gap-3">
-                <span className="font-display text-[56px] font-bold leading-none text-[#0E2148]">{s.score.toFixed(1)}%</span>
-                <span className="pb-2 font-ledger text-[12px] tracking-wide text-[#0E2148]/55">in Boards {s.year}</span>
+              <div className="mt-6 flex flex-wrap items-end gap-x-3 gap-y-1">
+                <span className={`font-display font-bold leading-none text-[#0E2148] ${(s.headline ?? '').length > 14 ? 'text-[30px]' : 'text-[44px] sm:text-[48px]'}`}>{s.headline ?? `${s.score.toFixed(1)}%`}</span>
+                <span className="pb-2 font-ledger text-[12px] tracking-wide text-[#0E2148]/55">{s.caption ?? `in Boards ${s.year}`}</span>
               </div>
               <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-[#0E2148]/10">
                 <div className="h-full rounded-full bg-[#C9A227]" style={{ width: `${s.score}%` }} />

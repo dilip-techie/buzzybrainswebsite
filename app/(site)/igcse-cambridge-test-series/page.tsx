@@ -8,17 +8,23 @@ import WhySection from '@/components/test-series/WhySection';
 import StructureSection from '@/components/test-series/StructureSection';
 import SubjectsSection from '@/components/test-series/SubjectsSection';
 import ScorecardSection from '@/components/test-series/ScorecardSection';
+import ResultsShowcase from '@/components/test-series/ResultsShowcase';
 import TrustSection from '@/components/test-series/TrustSection';
 import PricingSection from '@/components/test-series/PricingSection';
 import FaqSection from '@/components/test-series/FaqSection';
 import FinalCta from '@/components/test-series/FinalCta';
-import { heroContent, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
+import { heroContent, heroStats, scorerGroups, whyFeatures, structureStages, subjectGrades, pricingGroups, addons } from './_data';
 
 export default function IgcseTestSeriesPage() {
   return (
     <main className={`ts-page ${testSeriesFontVars}`}>
       <DiscountPopup />
-      <Hero {...heroContent} />
+      <Hero {...heroContent} stats={heroStats} />
+      <ResultsShowcase
+        title="Straight A*s, built paper by paper."
+        subtitle="Cambridge IGCSE students who trained on the BuzzyBrains test series — in their own words."
+        groups={scorerGroups}
+      />
       <WhySection features={whyFeatures} />
       <StructureSection stages={structureStages} />
       <SubjectsSection
