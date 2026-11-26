@@ -4511,6 +4511,94 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     readingMinutes: 8
   },
   {
+    slug: "ukmt-mathematical-challenges-complete-guide-for-indian-students",
+    title: "UKMT Mathematical Challenges: A Complete Guide for Indian Students",
+    description: "The UK Mathematics Trust runs the Junior, Intermediate and Senior Mathematical Challenges — among the most respected school maths contests in the world. Here is what UKMT is, how it works and who should take it.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 8
+  },
+  {
+    slug: "ukmt-junior-intermediate-senior-challenge-which-level-should-your-child-take",
+    title: "UKMT Junior, Intermediate or Senior: Which Level Should Your Child Take?",
+    description: "Choosing the right UKMT Mathematical Challenge level is the first decision. Here is how eligibility works, how Indian grades map to UK years and how to decide when a student could sit two levels.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "benefits-of-ukmt-mathematical-challenges-for-students",
+    title: "7 Benefits of UKMT Mathematical Challenges for Students",
+    description: "Beyond a certificate, UKMT builds problem-solving skill, exam stamina and an international profile. Here are seven concrete benefits for students and parents.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "ukmt-exam-format-marking-scheme-and-timing-explained",
+    title: "UKMT Exam Format, Marking Scheme and Timing Explained",
+    description: "How many questions, how long, how marks are awarded and how the certificates work. A plain-English explanation of the UKMT Mathematical Challenge format.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "how-to-prepare-for-ukmt-mathematical-challenge-step-by-step",
+    title: "How to Prepare for the UKMT Mathematical Challenge: A Step-by-Step Plan",
+    description: "A practical 8 to 12 week preparation plan for the Junior, Intermediate and Senior Mathematical Challenges, from topic review to timed past papers and error logs.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 8
+  },
+  {
+    slug: "ukmt-kangaroo-and-olympiad-rounds-what-happens-after-the-challenge",
+    title: "UKMT Kangaroo and Olympiad Rounds: What Happens After the Challenge",
+    description: "Top scorers in the Mathematical Challenges are invited to follow-on rounds such as the Kangaroo papers and the Olympiads. Here is how the UKMT ladder works.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "ukmt-vs-amc-vs-math-kangaroo-vs-ioqm-which-maths-contest-to-choose",
+    title: "UKMT vs AMC vs Math Kangaroo vs IOQM: Which Maths Contest Should You Choose?",
+    description: "A side-by-side comparison of UKMT, AMC, Math Kangaroo and IOQM — format, difficulty, recognition and who each one suits.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "ukmt-challenges-for-igcse-and-ib-students-why-they-are-a-natural-fit",
+    title: "UKMT Challenges for IGCSE and IB Students: Why They Are a Natural Fit",
+    description: "IGCSE, Cambridge and IB students already study maths in a UK-style framework, which makes UKMT an ideal competition. Here is how the two connect.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "common-ukmt-mistakes-and-how-to-avoid-them",
+    title: "Common UKMT Mistakes and How to Avoid Them",
+    description: "From over-guessing the late questions to ignoring the time limit, these are the most common mistakes students make in the UKMT Mathematical Challenges.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
+    slug: "ukmt-as-a-stepping-stone-to-bmo-imo-and-top-universities",
+    title: "UKMT as a Stepping Stone to the BMO, IMO and Top Universities",
+    description: "How the UKMT ladder leads from the Mathematical Challenge to the British Mathematical Olympiad, and what a strong record means for university applications.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 7
+  },
+  {
+    slug: "ukmt-preparation-resources-books-past-papers-and-practice-routine",
+    title: "UKMT Preparation Resources: Books, Past Papers and a Weekly Practice Routine",
+    description: "The best resources for UKMT preparation — official past papers, problem-solving books and a weekly routine that fits around school.",
+    category: "olympiad",
+    datePublished: "2026-11-26",
+    readingMinutes: 6
+  },
+  {
     slug: "why-every-school-student-should-try-a-computing-olympiad",
     title: "Why Every School Student Should Try a Computing Olympiad",
     description: "A computing olympiad is not only for future programmers. Here are the skills it builds, from logical thinking to resilience, and why trying one is worthwhile for almost any school student.",

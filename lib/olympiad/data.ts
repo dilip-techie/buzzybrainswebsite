@@ -279,6 +279,18 @@ export const mathsOlympiadTracks: Track[] = [
     color: 'brand',
     href: '/blog/sasmo-singapore-maths-olympiad-why-indian-students-take-it',
   },
+  {
+    id: 'ukmt',
+    code: 'UKMT',
+    name: 'UKMT Mathematical Challenges',
+    grades: 'Junior, Intermediate & Senior levels',
+    blurb: "The UK Mathematics Trust's Junior, Intermediate and Senior Mathematical Challenges — multiple-choice papers that reward clever reasoning, with follow-on Kangaroo and Olympiad rounds for top scorers and a respected UK-curriculum benchmark for IGCSE and IB students.",
+    meta: [['Format', 'Multiple choice'], ['Levels', 'Junior · Intermediate · Senior']],
+    topics: ['Problem Solving', 'Number & Algebra', 'Geometry & Logic'],
+    outcome: 'A UK benchmark with follow-on Kangaroo and Olympiad rounds',
+    color: 'brand',
+    href: '/blog/ukmt-mathematical-challenges-complete-guide-for-indian-students',
+  },
 ];
 
 export const mathsOlympiadFaqs = [

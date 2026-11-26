@@ -27,7 +27,7 @@ const SUBJECTS = [
     icon: Calculator,
     gradient: 'linear-gradient(135deg,#1E3A8A,#2563EB)',
     description: 'From school-level reasoning to the world’s toughest proof-based problems.',
-    competitions: ['IMO', 'AMC 8', 'AMC 10', 'AMC 12', 'AIME', 'IOQM', 'PRMO', 'RMO', 'INMO', 'SOF IMO', 'Kangaroo Math'],
+    competitions: ['IMO', 'AMC 8', 'AMC 10', 'AMC 12', 'AIME', 'IOQM', 'PRMO', 'RMO', 'INMO', 'SOF IMO', 'Kangaroo Math', 'UKMT'],
   },
   {
     id: 'physics',
