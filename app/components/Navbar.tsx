@@ -21,6 +21,20 @@ interface MegaMenuGroup {
   column: number;
 }
 
+/** Splits a trailing bracketed note, e.g. "IIT-JEE (Grades 9–12)", into the
+ * item name and a second-line note ("Grades 9–12"), the same way a group
+ * title carries its subtitle underneath. */
+function MenuLabel({ label }: { label: string }) {
+  const m = label.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  if (!m) return <>{label}</>;
+  return (
+    <>
+      {m[1]}
+      <small className="menu-item-note">{m[2]}</small>
+    </>
+  );
+}
+
 const TEST_SERIES_MENU: MegaMenuItem[] = [
   { href: '/test-series', label: 'All Boards — Test Series Home' },
   { href: '/cbse-board-test-series', label: 'CBSE Board Test Series' },
@@ -129,10 +143,10 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     subtitle: 'USA · Canada · Singapore · Australia',
     column: 3,
     items: [
-      { href: '/online-coaching-usa', label: 'Coaching for Students in the USA' },
-      { href: '/online-coaching-canada', label: 'Coaching for Students in Canada' },
-      { href: '/online-coaching-singapore', label: 'Coaching for Students in Singapore' },
-      { href: '/online-coaching-australia', label: 'Coaching for Students in Australia' },
+      { href: '/online-coaching-usa', label: 'US Students' },
+      { href: '/online-coaching-canada', label: 'Canadian Students' },
+      { href: '/online-coaching-singapore', label: 'Singapore Students' },
+      { href: '/online-coaching-australia', label: 'Australian Students' },
     ],
     footerLink: { href: '/online-coaching-for-nri-students', label: 'All countries →' },
   },
@@ -305,7 +319,7 @@ export default function Navbar() {
                               <ul>
                                 {group.items.map((item) => (
                                   <li key={item.href}>
-                                    <Link prefetch={false} href={item.href}>{item.label}</Link>
+                                    <Link prefetch={false} href={item.href}><MenuLabel label={item.label} /></Link>
                                   </li>
                                 ))}
                               </ul>
@@ -331,7 +345,7 @@ export default function Navbar() {
                       <ul>
                         {link.simpleItems.map((item) => (
                           <li key={item.href}>
-                            <Link prefetch={false} href={item.href}>{item.label}</Link>
+                            <Link prefetch={false} href={item.href}><MenuLabel label={item.label} /></Link>
                           </li>
                         ))}
                       </ul>
@@ -399,7 +413,7 @@ export default function Navbar() {
                       <span className="mobile-menu-group-title">{group.title}</span>
                       {group.items.map((item) => (
                         <Link prefetch={false} key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
-                          {item.label}
+                          <MenuLabel label={item.label} />
                         </Link>
                       ))}
                     </div>
@@ -424,7 +438,7 @@ export default function Navbar() {
                   <div className="mobile-menu-group">
                     {link.simpleItems.map((item) => (
                       <Link prefetch={false} key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
-                        {item.label}
+                        <MenuLabel label={item.label} />
                       </Link>
                     ))}
                   </div>
