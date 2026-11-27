@@ -118,6 +118,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/top-rankers-program', label: 'Top Rankers JEE/NEET' },
       { href: '/foundation', label: 'Elite Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
+      { href: '/olympiads', label: 'Olympiad Prep (Maths · Science · Coding)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
       { href: '/12th-board-pcb', label: 'NEET (Grades 9–12)' },
     ],
