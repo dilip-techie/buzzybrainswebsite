@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import ShortVideoSection from '@/components/olympiad/ShortVideoSection';
 import type { ShortVideo } from '@/components/olympiad/videos';
 
@@ -62,8 +63,10 @@ export function BestInstituteTemplate({
   data,
   offer,
   pricing,
+  heroImage,
 }: {
   data: BestInstituteData;
+  heroImage?: { src: string; alt: string; width: number; height: number };
   offer?: React.ReactNode;
   /** Optional pricing section, shown after the info table. */
   pricing?: React.ReactNode;
@@ -81,6 +84,17 @@ export function BestInstituteTemplate({
             <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
             <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
           </div>
+          {heroImage && (
+            <Image
+              src={heroImage.src}
+              alt={heroImage.alt}
+              width={heroImage.width}
+              height={heroImage.height}
+              priority
+              sizes="(max-width: 1100px) 100vw, 1100px"
+              style={{ width: '100%', maxWidth: 1100, height: 'auto', margin: '32px auto 0', borderRadius: 20, boxShadow: '0 20px 50px rgba(15,23,42,.25)' }}
+            />
+          )}
         </div>
       </section>
 

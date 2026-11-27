@@ -10,6 +10,7 @@ const CONFIG: CountryPageConfig = {
     'Live online IB, AP, SAT, AMC, UKMT and olympiad coaching for students in Canada from IIT/IIM-alumni faculty. One-to-one classes. Inaugural 20% off.',
   keywords:
     'online math tutoring Canada, IB tutoring Canada, AP tutoring Canada, math olympiad coaching Canada, Euclid Fermat Pascal preparation, SAT coaching Canada, AMC preparation Canada, UKMT preparation',
+  ogImage: '/images/international/og-canada.png',
   ogTitle: 'Online Maths, Science, IB, AP & Olympiad Coaching in Canada',
   ogDescription:
     'Live online IB, AP, SAT, AMC, UKMT and olympiad coaching for students in Canada from IIT/IIM-alumni faculty. One-to-one classes. Inaugural 20% off.',

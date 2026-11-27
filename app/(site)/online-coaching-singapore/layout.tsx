@@ -10,6 +10,7 @@ const CONFIG: CountryPageConfig = {
     'Live online SASMO, SMO, AMC, UKMT, IB, IGCSE and SAT coaching for students in Singapore from IIT/IIM-alumni faculty. Inaugural 20% off.',
   keywords:
     'SASMO coaching Singapore, Singapore Mathematical Olympiad coaching, math olympiad tuition Singapore, IB tuition Singapore, IGCSE tuition Singapore, SAT tutoring Singapore, AMC preparation Singapore, UKMT preparation',
+  ogImage: '/images/international/og-singapore.png',
   ogTitle: 'Online Maths Olympiad, IB, IGCSE & SAT Coaching in Singapore',
   ogDescription:
     'Live online SASMO, SMO, AMC, UKMT, IB, IGCSE and SAT coaching for students in Singapore from IIT/IIM-alumni faculty. One-to-one classes. Inaugural 20% off.',
