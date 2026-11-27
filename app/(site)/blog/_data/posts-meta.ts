@@ -4719,6 +4719,86 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     readingMinutes: 6
   },
   {
+    slug: "how-us-universities-treat-maths-contest-results-amc-aime-and-ukmt",
+    title: "How US Universities Treat Maths Contest Results Like AMC, AIME and UKMT",
+    description: "US universities read applications as a whole. Here is how contest results such as AMC, AIME and UKMT fit in, where to list them, and what they cannot do.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "what-canadian-universities-look-for-from-maths-and-science-applicants",
+    title: "What Canadian Universities Look For From Maths and Science Applicants",
+    description: "Canadian universities usually admit on school grades in required subjects, and some programs ask for more. Here is how to plan for maths, science and engineering applications.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "contest-and-exam-calendar-for-students-in-the-usa-sat-ap-amc-and-ukmt",
+    title: "A Contest and Exam Calendar for Students in the USA: SAT, AP, AMC and UKMT",
+    description: "A month-by-month view of the main tests and contests for students in the USA, so families can plan preparation without clashes.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "sat-study-plan-by-grade-when-to-start-and-what-to-do-each-year",
+    title: "SAT Study Plan by Grade: When to Start and What to Do Each Year",
+    description: "A grade-by-grade plan for SAT preparation, from building maths and reading foundations in Grade 9 to final practice tests in Grade 12.",
+    category: "sat-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "how-to-prepare-for-ap-exams-study-plan-and-how-scores-work",
+    title: "How to Prepare for AP Exams: A Study Plan and How Scores Work",
+    description: "AP exams are scored 1 to 5 and held each May. Here is how scoring works and a practical plan from September to the exam.",
+    category: "ap-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "ib-vs-cambridge-a-level-in-singapore-which-should-your-child-choose",
+    title: "IB vs Cambridge A-Level in Singapore: Which Should Your Child Choose?",
+    description: "International schools in Singapore offer the IB Diploma and Cambridge A-Levels. Here is how they differ and how to choose for a child heading to universities in Singapore, the UK or the USA.",
+    category: "ib",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "hsc-vce-or-ib-how-australian-students-decide",
+    title: "HSC, VCE or IB: How Australian Students Decide",
+    description: "Australian senior students follow a state certificate or the IB Diploma. Here is how to compare them and what to consider for university entry in Australia and abroad.",
+    category: "ib",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "how-to-build-a-maths-profile-for-us-university-applications-from-grade-8",
+    title: "How to Build a Maths Profile for US University Applications From Grade 8",
+    description: "A grade-by-grade plan to build a credible maths profile for US universities, using school results, contests and independent projects.",
+    category: "ivy-colleges",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "balancing-school-sat-ap-and-maths-contests-without-burning-out",
+    title: "Balancing School, SAT, AP and Maths Contests Without Burning Out",
+    description: "Students who take on school, tests and contests need a plan. Here is how to schedule the year, set priorities and protect rest.",
+    category: "sat-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "computer-science-for-school-students-ap-cs-ib-cs-and-coding-olympiads-compared",
+    title: "Computer Science for School Students: AP CS, IB CS and Coding Olympiads Compared",
+    description: "Students interested in computing have several routes. Here is how AP Computer Science, IB Computer Science and coding olympiads differ and how they fit together.",
+    category: "coding-olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
     slug: "why-every-school-student-should-try-a-computing-olympiad",
     title: "Why Every School Student Should Try a Computing Olympiad",
     description: "A computing olympiad is not only for future programmers. Here are the skills it builds, from logical thinking to resilience, and why trying one is worthwhile for almost any school student.",
