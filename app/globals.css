@@ -361,6 +361,7 @@ button{font-family:inherit;cursor:pointer}
   background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
   box-shadow:var(--shadow-lg);padding:30px 32px;
   display:grid;grid-template-columns:repeat(3,1fr);gap:32px;
+  max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain;
   opacity:0;visibility:hidden;pointer-events:none;
   transform:translateY(-6px);
   transition:opacity .2s var(--ease),transform .2s var(--ease),visibility .2s;
@@ -383,7 +384,7 @@ button{font-family:inherit;cursor:pointer}
 .nav-mega-group ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px}
 .nav-mega-group li{margin:0}
 .nav-mega-group ul a{
-  display:block;padding:8px 10px;margin:0 -10px;border-radius:8px;
+  display:block;padding:6px 10px;margin:0 -10px;border-radius:8px;
   font-size:13.5px;font-weight:600;color:var(--text-2);
   transition:background .15s,color .15s;
 }
@@ -2172,3 +2173,6 @@ button{font-family:inherit;cursor:pointer}
   .hero-split-text .lede{margin-left:auto !important;margin-right:auto !important}
   .hero-split-text .hero-ctas{justify-content:center !important}
 }
+
+/* Second line under a menu item, e.g. the grades: same treatment as a group subtitle. */
+.menu-item-note{display:block;margin-top:1px;font-size:11.5px;font-weight:600;line-height:1.25;color:var(--text-3);opacity:.85}
