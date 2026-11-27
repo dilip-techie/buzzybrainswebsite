@@ -12,7 +12,8 @@ interface MegaMenuItem {
 
 interface MegaMenuGroup {
   title: string;
-  subtitle: string;
+  /** Optional second line under the group title. */
+  subtitle?: string;
   items: MegaMenuItem[];
   footerLink?: MegaMenuItem;
   /** Desktop mega-menu column (1-indexed) this group renders in. Groups
@@ -140,7 +141,6 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   },
   {
     title: 'Students Abroad',
-    subtitle: 'USA · Canada · Singapore · Australia',
     column: 3,
     items: [
       { href: '/online-coaching-usa', label: 'US Students' },
@@ -153,7 +153,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   {
     title: 'Commerce, Law & MBA Prep',
     subtitle: 'IPMAT · CLAT · CA · CAT',
-    column: 1,
+    column: 3,
     items: [
       { href: '/commerce-tuitions', label: 'Commerce (Grades 11–12)' },
       { href: '/ca-foundation-coaching-pune', label: 'CA Prep (Grade 12)' },
@@ -315,7 +315,7 @@ export default function Navbar() {
                           {link.groups.filter((g) => g.column === col).map((group) => (
                             <div className="nav-mega-group" key={group.title}>
                               <h4>{group.title}</h4>
-                              <span className="nav-mega-sub">{group.subtitle}</span>
+                              {group.subtitle && <span className="nav-mega-sub">{group.subtitle}</span>}
                               <ul>
                                 {group.items.map((item) => (
                                   <li key={item.href}>
