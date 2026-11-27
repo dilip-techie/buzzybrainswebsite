@@ -3,12 +3,12 @@ import { DATA as NRI } from '../online-coaching-for-nri-students/_data';
 
 export const DATA: BestInstituteData = {
   h1: 'Online Maths Olympiad, IB, IGCSE & SAT Coaching for Students in Singapore',
-  heroEyebrow: '🇸🇬 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
+  heroEyebrow: '🇸🇬 Live online · IIT/IIM-alumni faculty · One-to-one classes',
   heroLede:
     'SASMO, Singapore Mathematical Olympiad, AMC, UKMT, IB/IGCSE, SAT and AP, plus Maths, Science, Computer Science & Economics, taught live online by IIT/IIM-alumni faculty, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Singapore?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Singapore. We support maths olympiads and contests (SASMO, the Singapore Mathematical Olympiad, AMC, UKMT, Math Kangaroo and WMI), IB and IGCSE, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside MOE and international-school curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Singapore. We support maths olympiads and contests (SASMO, the Singapore Mathematical Olympiad, AMC, UKMT, Math Kangaroo and WMI), IB and IGCSE, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside MOE and international-school curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in one-to-one classes at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Singapore students learn through a mix of systems: the MOE route (PSLE, then O-Level or A-Level, or the Integrated Programme) and international schools offering IB or Cambridge IGCSE. Maths is strong across all of them, and maths competitions are well established, with SASMO and the Singapore Mathematical Olympiad among the best known.",
     "That is why international benchmarks help here. AMC, UKMT and Math Kangaroo give students a way to measure themselves against peers worldwide, and the problem-solving skills they build lift school results in IB, IGCSE and A-Level Mathematics. Students aiming at overseas universities often add the SAT or AP exams, and the same team can cover them.",
@@ -26,8 +26,8 @@ export const DATA: BestInstituteData = {
       text: 'IB/IGCSE support sits alongside SASMO, AMC, UKMT and SAT/AP preparation.',
     },
     {
-      title: 'Small batches.',
-      text: 'Live online batches are capped at 12 students, with individual attention and clear doubts.',
+      title: 'One-to-one classes.',
+      text: 'Every class is one-to-one, so the pace, topics and doubts are tailored to your child.',
     },
     {
       title: 'IIT/IIM-alumni faculty.',
@@ -50,7 +50,7 @@ export const DATA: BestInstituteData = {
     ['IB Diploma and Cambridge IGCSE / A-Level', 'International-school students', 'Maths, Sciences, Computer Science and Economics'],
     ['SAT and AP', 'Students applying to US universities', 'Digital SAT and AP subject preparation'],
   ],
-  facultyHeading: 'Who Teaches the Singapore Batches',
+  facultyHeading: 'Who Teaches Singapore Students',
   facultyIntro: 'The same faculty who teach in Pune. There is no separate, junior "online team."',
   faculty: NRI.faculty,
   commonMistakesHeading: 'Common Mistakes Singapore Students Make When Preparing for Maths Contests',
@@ -101,7 +101,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'Is there an inaugural discount?',
       answer:
-        'Yes. We are offering new international students an inaugural 20% discount. The terms are confirmed when you enquire.',
+        'Yes. New international students get an inaugural 20% discount on all programs, available until 31 December 2026.',
     },
   ],
   ctaText:

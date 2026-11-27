@@ -3,19 +3,19 @@ import { DATA as NRI } from '../online-coaching-for-nri-students/_data';
 
 export const DATA: BestInstituteData = {
   h1: 'Online SAT, AP, AMC & Olympiad Coaching for Students in the USA',
-  heroEyebrow: '🇺🇸 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
+  heroEyebrow: '🇺🇸 Live online · IIT/IIM-alumni faculty · One-to-one classes',
   heroLede:
     'SAT, AP, AMC 8/10/12, IB/IGCSE, UKMT and Maths, Science, Computer Science & Economics — taught live online by the same IIT/IIM-alumni faculty who teach at our Pune campus, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in the USA?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in the United States preparing for the SAT, AP exams, the AMC contest series (AMC 8, 10 and 12, leading to AIME), IB and IGCSE, UKMT challenges and other olympiads, plus Mathematics, Science, Computer Science and Economics. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in the United States preparing for the SAT, AP exams, the AMC contest series (AMC 8, 10 and 12, leading to AIME), IB and IGCSE, UKMT challenges and other olympiads, plus Mathematics, Science, Computer Science and Economics. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in one-to-one classes at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "US college admissions are holistic. Strong grades matter, but admissions readers also look for evidence of depth: a high SAT or AP result, and achievement in contests such as the AMC series that show a student can solve problems the school syllabus never asked of them. Test requirements differ from one university to another and change over time, so always check each university's current policy.",
     "The AMC pathway is the clearest example. AMC 8 is open to students in Grade 8 and below, AMC 10 and AMC 12 to students in Grade 10 and Grade 12 and below, and top scorers are invited on to AIME. These contests reward creative reasoning, not memorised methods, which is the same skill that lifts SAT Math and AP Calculus and Statistics results.",
     "Our program is built to cover this whole pattern with one team. A student can prepare for the SAT and AP exams alongside contest and olympiad training, with Computer Science and Economics available both as AP subjects and as IB/IGCSE subjects. We begin with a free diagnostic call so the plan matches the student's grade, goals and schedule.",
   ],
   whyUsHeading: 'Why US Families Choose BuzzyBrains for Online Coaching',
-  whyUsIntro: 'The reasons are practical: exam-specific depth, one team across tests and contests, and small batches.',
+  whyUsIntro: 'The reasons are practical: exam-specific depth, one team across tests and contests, and one-to-one attention.',
   whyUsBullets: [
     {
       title: 'Exam-specific coaching.',
@@ -26,8 +26,8 @@ export const DATA: BestInstituteData = {
       text: 'SAT and AP preparation sits alongside AMC, UKMT and olympiad training, so a student does not juggle separate tutors.',
     },
     {
-      title: 'Small batches.',
-      text: 'Live online batches are capped at 12 students, so every student gets individual attention and doubts are cleared.',
+      title: 'One-to-one classes.',
+      text: 'Every class is one-to-one, so the pace, topics and doubts are tailored to your child.',
     },
     {
       title: 'IIT/IIM-alumni faculty.',
@@ -50,7 +50,7 @@ export const DATA: BestInstituteData = {
     ['UKMT Mathematical Challenges', 'Junior, Intermediate and Senior levels', 'An international benchmark, entered through a registered school'],
     ['IB and IGCSE', 'International-school students', 'Subject mastery in Maths, Sciences, Computer Science and Economics'],
   ],
-  facultyHeading: 'Who Teaches the US Batches',
+  facultyHeading: 'Who Teaches US Students',
   facultyIntro: 'The same faculty who teach in Pune. There is no separate, junior "online team."',
   faculty: NRI.faculty,
   commonMistakesHeading: 'Common Mistakes US Students Make When Preparing for the SAT, AP and AMC',
@@ -89,9 +89,9 @@ export const DATA: BestInstituteData = {
         'Yes. AMC 8 is open to students in Grade 8 and below and AMC 10 and AMC 12 to students in Grade 10 and Grade 12 and below. Registration and dates are set by the MAA, so check their current instructions.',
     },
     {
-      question: 'Is one-to-one coaching available?',
+      question: 'Are classes one-to-one?',
       answer:
-        'Yes. Besides group batches capped at 12 students, one-to-one online coaching is available across Mathematics, Physics, Chemistry and Biology.',
+        'Yes. International programs are taught as one-to-one live online classes, so the pace, topics and doubts are tailored to your child.',
     },
     {
       question: 'How is payment handled from the USA?',
@@ -101,7 +101,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'Is there an inaugural discount?',
       answer:
-        'Yes. We are offering new international students an inaugural 20% discount. The terms are confirmed when you enquire.',
+        'Yes. New international students get an inaugural 20% discount on all programs, available until 31 December 2026.',
     },
   ],
   ctaText:

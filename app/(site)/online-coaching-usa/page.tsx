@@ -1,7 +1,8 @@
 import { BestInstituteTemplate } from '@/components/local-seo/BestInstituteTemplate';
 import InauguralOffer from '@/components/local-seo/InauguralOffer';
+import InternationalPricing from '@/components/local-seo/InternationalPricing';
 import { DATA } from './_data';
 
 export default function OnlineCoachingUsaPage() {
-  return <BestInstituteTemplate data={DATA} offer={<InauguralOffer place='the USA' />} />;
+  return <BestInstituteTemplate data={DATA} pricing={<InternationalPricing />} offer={<InauguralOffer place='the USA' />} />;
 }

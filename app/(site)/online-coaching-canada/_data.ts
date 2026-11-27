@@ -3,19 +3,19 @@ import { DATA as NRI } from '../online-coaching-for-nri-students/_data';
 
 export const DATA: BestInstituteData = {
   h1: 'Online Maths, Science, IB, AP & Olympiad Coaching for Students in Canada',
-  heroEyebrow: '🇨🇦 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
+  heroEyebrow: '🇨🇦 Live online · IIT/IIM-alumni faculty · One-to-one classes',
   heroLede:
     'IB, AP, SAT, AMC, UKMT and Maths, Science, Computer Science & Economics for students in Ontario, British Columbia, Alberta and across Canada, taught live online by IIT/IIM-alumni faculty, at convenient local timings, with every session recorded.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Canada?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Canada. We support IB Diploma and AP courses, SAT preparation for students applying to US universities, the AMC and UKMT contests, olympiads, and Mathematics, Science, Computer Science and Economics alongside provincial curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Canada. We support IB Diploma and AP courses, SAT preparation for students applying to US universities, the AMC and UKMT contests, olympiads, and Mathematics, Science, Computer Science and Economics alongside provincial curricula. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in one-to-one classes at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Canadian schools follow provincial curricula, such as Ontario's OSSD, British Columbia's and Alberta's programs, and many offer IB or AP courses as well. Canadian universities such as the University of Toronto, the University of Waterloo, UBC and McGill generally admit on school grades in the required subjects, and some programs ask for extra material, so check each program's current requirements.",
     "Strong mathematics is the common thread. Canadian students often start with the University of Waterloo's CEMC contests (Gauss, Pascal, Cayley, Fermat and Euclid by grade) and can go on to the Canadian Open Mathematics Challenge and the Canadian Mathematical Olympiad. The problem-solving and proof skills these contests reward are the same ones we train for AMC, UKMT and olympiads, so preparation carries across.",
     "Students applying to US universities may also sit the SAT or AP exams. We cover these alongside school subjects, starting with a free diagnostic call so that the plan fits the student's province, grade and goals.",
   ],
   whyUsHeading: 'Why Canadian Families Choose BuzzyBrains for Online Coaching',
-  whyUsIntro: 'The reasons are practical: depth in maths and science, one team across school and contests, and small batches.',
+  whyUsIntro: 'The reasons are practical: depth in maths and science, one team across school and contests, and one-to-one attention.',
   whyUsBullets: [
     {
       title: 'Depth in maths and science.',
@@ -26,8 +26,8 @@ export const DATA: BestInstituteData = {
       text: 'IB/AP support sits alongside AMC, UKMT and olympiad training, so a student does not juggle separate tutors.',
     },
     {
-      title: 'Small batches.',
-      text: 'Live online batches are capped at 12 students, with individual attention and clear doubts.',
+      title: 'One-to-one classes.',
+      text: 'Every class is one-to-one, so the pace, topics and doubts are tailored to your child.',
     },
     {
       title: 'IIT/IIM-alumni faculty.',
@@ -50,7 +50,7 @@ export const DATA: BestInstituteData = {
     ['IB Diploma and AP exams', 'Grades 11 to 12 (AP from Grade 9)', 'Maths, Sciences, Computer Science and Economics'],
     ['SAT', 'Students applying to US universities', 'Digital SAT preparation'],
   ],
-  facultyHeading: 'Who Teaches the Canadian Batches',
+  facultyHeading: 'Who Teaches Canadian Students',
   facultyIntro: 'The same faculty who teach in Pune. There is no separate, junior "online team."',
   faculty: NRI.faculty,
   commonMistakesHeading: 'Common Mistakes Canadian Students Make When Preparing for Maths Contests and Exams',
@@ -101,7 +101,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'Is there an inaugural discount?',
       answer:
-        'Yes. We are offering new international students an inaugural 20% discount. The terms are confirmed when you enquire.',
+        'Yes. New international students get an inaugural 20% discount on all programs, available until 31 December 2026.',
     },
   ],
   ctaText:

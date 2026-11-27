@@ -12,7 +12,7 @@ const CONFIG: CountryPageConfig = {
     'Australian Mathematics Competition coaching, maths olympiad tutoring Australia, HSC maths tutoring online, VCE maths tutoring online, IB tutoring Australia, SAT tutoring Australia, AMC 10 preparation Australia, UKMT preparation',
   ogTitle: 'Online Maths Olympiad, IB, SAT & AP Coaching in Australia',
   ogDescription:
-    'Live online Australian Mathematics Competition, AMC, UKMT, olympiad, IB, SAT and AP coaching for students in Australia from IIT/IIM-alumni faculty. Batches capped at 12. Inaugural 20% off.',
+    'Live online Australian Mathematics Competition, AMC, UKMT, olympiad, IB, SAT and AP coaching for students in Australia from IIT/IIM-alumni faculty. One-to-one classes. Inaugural 20% off.',
 };
 
 export const metadata = buildCountryMetadata(CONFIG);

@@ -3,12 +3,12 @@ import { DATA as NRI } from '../online-coaching-for-nri-students/_data';
 
 export const DATA: BestInstituteData = {
   h1: 'Online Maths Olympiad, IB, SAT & AP Coaching for Students in Australia',
-  heroEyebrow: '🇦🇺 Live online · IIT/IIM-alumni faculty · Batches capped at 12',
+  heroEyebrow: '🇦🇺 Live online · IIT/IIM-alumni faculty · One-to-one classes',
   heroLede:
     'Australian Mathematics Competition, AMC (USA), UKMT, olympiads, IB, SAT and AP, plus Maths, Science, Computer Science & Economics for students in Sydney, Melbourne, Brisbane, Perth and across Australia, taught live online by IIT/IIM-alumni faculty at convenient local timings.',
   whatIsHeading: "What Is BuzzyBrains Academy's Program for Students in Australia?",
   whatIsAnswer:
-    "It is live, faculty-led online coaching for students in Australia. We support maths contests and olympiads (including the Australian Mathematics Competition, the American AMC series and UKMT), IB, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside state curricula such as the NSW HSC and the VCE. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in batches capped at 12 students, at convenient local timings, and every session is recorded.",
+    "It is live, faculty-led online coaching for students in Australia. We support maths contests and olympiads (including the Australian Mathematics Competition, the American AMC series and UKMT), IB, SAT and AP for students applying abroad, and Mathematics, Science, Computer Science and Economics alongside state curricula such as the NSW HSC and the VCE. Classes are taught by the same IIT/IIM-alumni faculty who teach at BuzzyBrains Academy in Pune, in one-to-one classes at convenient local timings, and every session is recorded.",
   contextParagraphs: [
     "Australian students follow state-based senior certificates, including the NSW HSC, the VCE in Victoria, the QCE in Queensland and the WACE in Western Australia, with IB offered at many international schools. University entry for most students runs through an ATAR rank, so strong results in mathematics and the sciences matter.",
     "Contests add depth beyond the syllabus. The Australian Mathematics Competition (AMC), run by the Australian Maths Trust, is the best-known local contest, and the Maths Challenge for Young Australians and the Australian Mathematical Olympiad sit above it. Note that the American AMC series (AMC 8, 10 and 12) is a different contest run by the MAA in the USA, and students can take it as well. UKMT is another international option.",
@@ -26,8 +26,8 @@ export const DATA: BestInstituteData = {
       text: 'HSC, VCE and IB support sits alongside the Australian and American AMC, UKMT and olympiad training.',
     },
     {
-      title: 'Small batches.',
-      text: 'Live online batches are capped at 12 students, with individual attention and clear doubts.',
+      title: 'One-to-one classes.',
+      text: 'Every class is one-to-one, so the pace, topics and doubts are tailored to your child.',
     },
     {
       title: 'IIT/IIM-alumni faculty.',
@@ -50,7 +50,7 @@ export const DATA: BestInstituteData = {
     ['NSW HSC, VCE, QCE, WACE and IB', 'Years 11 to 12', 'Maths, Sciences, Computer Science and Economics support'],
     ['SAT and AP', 'Students applying to US universities', 'Digital SAT and AP subject preparation'],
   ],
-  facultyHeading: 'Who Teaches the Australian Batches',
+  facultyHeading: 'Who Teaches Australian Students',
   facultyIntro: 'The same faculty who teach in Pune. There is no separate, junior "online team."',
   faculty: NRI.faculty,
   commonMistakesHeading: 'Common Mistakes Australian Students Make When Preparing for Maths Contests and Senior Exams',
@@ -101,7 +101,7 @@ export const DATA: BestInstituteData = {
     {
       question: 'Is there an inaugural discount?',
       answer:
-        'Yes. We are offering new international students an inaugural 20% discount. The terms are confirmed when you enquire.',
+        'Yes. New international students get an inaugural 20% discount on all programs, available until 31 December 2026.',
     },
   ],
   ctaText:

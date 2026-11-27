@@ -58,7 +58,16 @@ function slugifyHeading(text: string): string {
     .replace(/\s+/g, '-');
 }
 
-export function BestInstituteTemplate({ data, offer }: { data: BestInstituteData; offer?: React.ReactNode }) {
+export function BestInstituteTemplate({
+  data,
+  offer,
+  pricing,
+}: {
+  data: BestInstituteData;
+  offer?: React.ReactNode;
+  /** Optional pricing section, shown after the info table. */
+  pricing?: React.ReactNode;
+}) {
   return (
     <main className="bb-landing bb-page-shell">
       <section className="hero">
@@ -120,6 +129,8 @@ export function BestInstituteTemplate({ data, offer }: { data: BestInstituteData
                 </tbody>
               </table>
             </div>
+
+            {pricing}
 
             <h2 id={slugifyHeading(data.facultyHeading)}>{data.facultyHeading}</h2>
             <p>{data.facultyIntro}</p>

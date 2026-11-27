@@ -1,22 +1,21 @@
 import OfferBanner from '@/components/OfferBanner';
 
-/** Inaugural launch offer shown on the country landing pages. No price,
- * end date or seat count is stated, because none has been set; terms are
- * confirmed when the family enquires. */
+/** Inaugural launch offer shown on the country landing pages: 20% off every
+ * program, available until 31 December 2026 (see lib/pricing/international.ts). */
 export default function InauguralOffer({ place }: { place: string }) {
   return (
     <OfferBanner
       tag="INAUGURAL OFFER"
       title={`Inaugural launch offer: 20% off for students in ${place}`}
-      lede="We are opening our live online programs to families abroad, and new students get an inaugural 20% discount."
+      lede="We are opening our live online programs to families abroad, and new students get an inaugural 20% discount on every program."
       points={[
-        'Live online batches capped at 12 students',
+        'One-to-one live online classes',
         'Taught by IIT/IIM-alumni faculty',
         'Free diagnostic call to choose the right program',
       ]}
       ctaLabel="Claim the 20% inaugural offer"
       href="/#contact"
-      footnote="Offer terms are confirmed when you enquire."
+      footnote="Offer available until 31 December 2026. Prices in USD."
     />
   );
 }
