@@ -2176,3 +2176,6 @@ button{font-family:inherit;cursor:pointer}
 
 /* Second line under a menu item, e.g. the grades: same treatment as a group subtitle. */
 .menu-item-note{display:block;margin-top:1px;font-size:11.5px;font-weight:600;line-height:1.25;color:var(--text-3);opacity:.85}
+
+/* A group with no subtitle: keep the same gap between its title and its links. */
+.nav-mega-group h4 + ul{margin-top:9px}
