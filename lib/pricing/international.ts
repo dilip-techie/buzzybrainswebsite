@@ -27,7 +27,7 @@ export const PRICES: PriceRow[] = [
   { program: 'AMC 10', detail: `Package of ${PACKAGE_CLASSES}`, from: 1500, unit: 'package' },
   { program: 'AMC 12', detail: `Package of ${PACKAGE_CLASSES}`, from: 2000, unit: 'package' },
   { program: 'UKMT Mathematical Challenges', detail: `Package of ${PACKAGE_CLASSES}; price depends on the grade level`, from: 1000, to: 2000, unit: 'package' },
-  { program: 'IB and IGCSE subjects (Maths, Science, Computer Science, Economics)', detail: 'One-to-one, billed per hour of teaching', from: 20, to: 30, unit: 'hour' },
+  { program: 'IB and IGCSE subjects (Maths, Science, Computer Science, Economics)', detail: 'One-to-one, billed per hour of teaching', from: 25, to: 30, unit: 'hour' },
 ];
 
 export const discounted = (price: number): number => Math.round(price * (1 - INAUGURAL_DISCOUNT_PCT / 100));

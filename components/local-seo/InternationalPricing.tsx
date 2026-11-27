@@ -43,7 +43,7 @@ export default function InternationalPricing() {
         </table>
       </div>
       <p style={{ fontSize: 14, opacity: 0.8 }}>
-        The inaugural price applies to enrolments made until {OFFER_END}; the standard price applies afterwards. See
+        No taxes are added to these prices. The inaugural price applies to enrolments made until {OFFER_END}; the standard price applies afterwards. See
         our <Link href="/refund-policy">refund policy</Link> and{' '}
         <Link href="/terms-and-conditions">terms and conditions</Link>.
       </p>
