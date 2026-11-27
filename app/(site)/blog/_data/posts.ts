@@ -8,6 +8,7 @@ import type { BlogCategory } from './categories';
 import { ZCO_POSTS } from './posts-zco';
 import { ZIO_POSTS } from './posts-zio';
 import { UKMT_POSTS } from './posts-ukmt';
+import { INTERNATIONAL_POSTS } from './posts-international';
 import { COMPUTING_ADVANTAGE_POSTS } from './posts-computing-advantages';
 
 export type BlogBlock =
@@ -51642,6 +51643,7 @@ export const BLOG_POSTS: BlogPost[] = [
   ...ZCO_POSTS,
   ...ZIO_POSTS,
   ...UKMT_POSTS,
+  ...INTERNATIONAL_POSTS,
   ...COMPUTING_ADVANTAGE_POSTS,
 ];
 
