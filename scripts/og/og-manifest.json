@@ -4629,7 +4629,7 @@
     "category": "SAT Exam",
     "path": "/images/og/sat-vs-act-which-test-should-students-in-the-usa-and-canada-take.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "The Digital SAT: Format, Scoring and How to Prepare",
@@ -4637,7 +4637,7 @@
     "category": "SAT Exam",
     "path": "/images/og/digital-sat-format-scoring-and-how-to-prepare.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AP vs IB: Which Is Better for US and Canadian University Applications?",
@@ -4645,7 +4645,7 @@
     "category": "AP Exam",
     "path": "/images/og/ap-vs-ib-which-is-better-for-us-and-canadian-university-applications.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Is the AMC Worth It? AMC 8, 10 and 12 and the Path to AIME",
@@ -4653,7 +4653,7 @@
     "category": "Olympiad",
     "path": "/images/og/is-the-amc-worth-it-amc-8-10-12-and-the-path-to-aime.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "American AMC vs Australian Mathematics Competition: Which Is Which?",
@@ -4661,7 +4661,7 @@
     "category": "Olympiad",
     "path": "/images/og/american-amc-vs-australian-mathematics-competition-which-is-which.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "Canadian Maths Contests Explained: Gauss, Pascal, Cayley, Fermat and Euclid",
@@ -4669,7 +4669,7 @@
     "category": "Olympiad",
     "path": "/images/og/canadian-maths-contests-gauss-pascal-cayley-fermat-euclid-explained.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "SASMO and the Singapore Mathematical Olympiad: Which Should Your Child Take?",
@@ -4677,7 +4677,7 @@
     "category": "Olympiad",
     "path": "/images/og/sasmo-and-the-singapore-mathematical-olympiad-which-should-your-child-take.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AP Computer Science A vs Computer Science Principles: Which Should You Take?",
@@ -4685,7 +4685,7 @@
     "category": "AP Exam",
     "path": "/images/og/ap-computer-science-a-vs-computer-science-principles-which-to-take.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "AP Microeconomics vs Macroeconomics: Which Should You Take First?",
@@ -4693,13 +4693,93 @@
     "category": "AP Exam",
     "path": "/images/og/ap-microeconomics-vs-macroeconomics-which-should-you-take-first.png",
     "dimensions": "1200x630",
-    "status": "created"
+    "status": "skipped"
   },
   {
     "title": "How Students Outside the UK Can Enter the UKMT Challenges: Step by Step",
     "slug": "how-students-outside-the-uk-can-enter-ukmt-challenges-step-by-step",
     "category": "Olympiad",
     "path": "/images/og/how-students-outside-the-uk-can-enter-ukmt-challenges-step-by-step.png",
+    "dimensions": "1200x630",
+    "status": "skipped"
+  },
+  {
+    "title": "How US Universities Treat Maths Contest Results Like AMC, AIME and UKMT",
+    "slug": "how-us-universities-treat-maths-contest-results-amc-aime-and-ukmt",
+    "category": "Ivy Colleges",
+    "path": "/images/og/how-us-universities-treat-maths-contest-results-amc-aime-and-ukmt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "What Canadian Universities Look For From Maths and Science Applicants",
+    "slug": "what-canadian-universities-look-for-from-maths-and-science-applicants",
+    "category": "Ivy Colleges",
+    "path": "/images/og/what-canadian-universities-look-for-from-maths-and-science-applicants.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "A Contest and Exam Calendar for Students in the USA: SAT, AP, AMC and UKMT",
+    "slug": "contest-and-exam-calendar-for-students-in-the-usa-sat-ap-amc-and-ukmt",
+    "category": "Olympiad",
+    "path": "/images/og/contest-and-exam-calendar-for-students-in-the-usa-sat-ap-amc-and-ukmt.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "SAT Study Plan by Grade: When to Start and What to Do Each Year",
+    "slug": "sat-study-plan-by-grade-when-to-start-and-what-to-do-each-year",
+    "category": "SAT Exam",
+    "path": "/images/og/sat-study-plan-by-grade-when-to-start-and-what-to-do-each-year.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Prepare for AP Exams: A Study Plan and How Scores Work",
+    "slug": "how-to-prepare-for-ap-exams-study-plan-and-how-scores-work",
+    "category": "AP Exam",
+    "path": "/images/og/how-to-prepare-for-ap-exams-study-plan-and-how-scores-work.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "IB vs Cambridge A-Level in Singapore: Which Should Your Child Choose?",
+    "slug": "ib-vs-cambridge-a-level-in-singapore-which-should-your-child-choose",
+    "category": "IB",
+    "path": "/images/og/ib-vs-cambridge-a-level-in-singapore-which-should-your-child-choose.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "HSC, VCE or IB: How Australian Students Decide",
+    "slug": "hsc-vce-or-ib-how-australian-students-decide",
+    "category": "IB",
+    "path": "/images/og/hsc-vce-or-ib-how-australian-students-decide.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "How to Build a Maths Profile for US University Applications From Grade 8",
+    "slug": "how-to-build-a-maths-profile-for-us-university-applications-from-grade-8",
+    "category": "Ivy Colleges",
+    "path": "/images/og/how-to-build-a-maths-profile-for-us-university-applications-from-grade-8.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Balancing School, SAT, AP and Maths Contests Without Burning Out",
+    "slug": "balancing-school-sat-ap-and-maths-contests-without-burning-out",
+    "category": "SAT Exam",
+    "path": "/images/og/balancing-school-sat-ap-and-maths-contests-without-burning-out.png",
+    "dimensions": "1200x630",
+    "status": "created"
+  },
+  {
+    "title": "Computer Science for School Students: AP CS, IB CS and Coding Olympiads Compared",
+    "slug": "computer-science-for-school-students-ap-cs-ib-cs-and-coding-olympiads-compared",
+    "category": "Coding Olympiads",
+    "path": "/images/og/computer-science-for-school-students-ap-cs-ib-cs-and-coding-olympiads-compared.png",
     "dimensions": "1200x630",
     "status": "created"
   },
