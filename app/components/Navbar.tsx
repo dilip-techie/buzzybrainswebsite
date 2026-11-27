@@ -100,7 +100,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     subtitle: 'CBSE · ICSE · State',
     column: 1,
     items: [
-      { href: '/top-rankers-program', label: 'Top Rankers Program — JEE & NEET' },
+      { href: '/top-rankers-program', label: 'Top Rankers JEE/NEET' },
       { href: '/foundation', label: 'Elite Foundation (Grades 6–10)' },
       { href: '/olympiad-math', label: 'Maths Excellence (Grades 4–12)' },
       { href: '/12th-board-pcm', label: 'IIT-JEE (Grades 9–12)' },
