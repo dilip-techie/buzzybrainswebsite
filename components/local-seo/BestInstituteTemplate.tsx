@@ -94,6 +94,9 @@ export function BestInstituteTemplate({
                 width={heroImage.width}
                 height={heroImage.height}
                 priority
+                // Already a small, pre-optimised WebP (~65 KB): serve it straight from /public so it
+                // never depends on the /_next/image optimiser.
+                unoptimized
                 sizes="(max-width: 900px) 100vw, 560px"
               />
             </div>
