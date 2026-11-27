@@ -90,6 +90,10 @@ export default function Footer() {
               <li><Link prefetch={false} href="/ivy-league-counselling">Ivy League Counselling</Link></li>
               <li><Link prefetch={false} href="/international-boards-coaching-pune">International Boards Coaching Pune — Guide</Link></li>
               <li><Link prefetch={false} href="/online-coaching-for-nri-students">Online Coaching for NRI Students</Link></li>
+              <li><Link prefetch={false} href="/online-coaching-usa">Coaching for Students in the USA</Link></li>
+              <li><Link prefetch={false} href="/online-coaching-canada">Coaching for Students in Canada</Link></li>
+              <li><Link prefetch={false} href="/online-coaching-singapore">Coaching for Students in Singapore</Link></li>
+              <li><Link prefetch={false} href="/online-coaching-australia">Coaching for Students in Australia</Link></li>
             </ul>
           </nav>
           <nav aria-label="Footer specialized tracks links">
