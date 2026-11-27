@@ -4,5 +4,5 @@ import InternationalPricing from '@/components/local-seo/InternationalPricing';
 import { DATA } from './_data';
 
 export default function OnlineCoachingUsaPage() {
-  return <BestInstituteTemplate data={DATA} heroImage={{ src: '/images/international/hero-usa.webp', alt: 'World map showing live online one-to-one classes from Pune, India to students in the USA', width: 1600, height: 720 }} pricing={<InternationalPricing />} offer={<InauguralOffer place='the USA' />} />;
+  return <BestInstituteTemplate data={DATA} heroImage={{ src: '/images/international/visual-usa.webp', alt: 'World map showing live online one-to-one classes from Pune, India to students in the USA', width: 1200, height: 900 }} pricing={<InternationalPricing />} offer={<InauguralOffer place='the USA' />} />;
 }

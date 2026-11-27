@@ -109,18 +109,6 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
     footerLink: { href: '/#contact', label: 'Book a free demo →' },
   },
   {
-    title: 'Students Abroad',
-    subtitle: 'USA · Canada · Singapore · Australia',
-    column: 1,
-    items: [
-      { href: '/online-coaching-usa', label: 'Coaching for Students in the USA' },
-      { href: '/online-coaching-canada', label: 'Coaching for Students in Canada' },
-      { href: '/online-coaching-singapore', label: 'Coaching for Students in Singapore' },
-      { href: '/online-coaching-australia', label: 'Coaching for Students in Australia' },
-    ],
-    footerLink: { href: '/online-coaching-for-nri-students', label: 'All countries →' },
-  },
-  {
     title: 'International Pathways',
     subtitle: 'CIE · IGCSE · IB',
     column: 2,
@@ -135,6 +123,18 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
       { href: '/online-coaching-for-nri-students', label: 'Online Coaching for NRI Students' },
     ],
     footerLink: { href: '/international-boards', label: 'Compare pathways →' },
+  },
+  {
+    title: 'Students Abroad',
+    subtitle: 'USA · Canada · Singapore · Australia',
+    column: 3,
+    items: [
+      { href: '/online-coaching-usa', label: 'Coaching for Students in the USA' },
+      { href: '/online-coaching-canada', label: 'Coaching for Students in Canada' },
+      { href: '/online-coaching-singapore', label: 'Coaching for Students in Singapore' },
+      { href: '/online-coaching-australia', label: 'Coaching for Students in Australia' },
+    ],
+    footerLink: { href: '/online-coaching-for-nri-students', label: 'All countries →' },
   },
   {
     title: 'Commerce, Law & MBA Prep',
