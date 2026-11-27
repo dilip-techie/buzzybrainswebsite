@@ -16,11 +16,13 @@ export interface CountryPageConfig {
   keywords: string;
   ogTitle: string;
   ogDescription: string;
+  /** Path under /public of the 1200x630 share image. */
+  ogImage?: string;
 }
 
 export function buildCountryMetadata(c: CountryPageConfig): Metadata {
   const url = `${SITE_URL}${c.path}`;
-  const image = { url: `${SITE_URL}/images/buzzybrains_social.jpg`, width: 1200, height: 630, alt: c.ogTitle };
+  const image = { url: `${SITE_URL}${c.ogImage ?? '/images/buzzybrains_social.jpg'}`, width: 1200, height: 630, alt: c.ogTitle };
   return {
     title: c.title,
     description: c.description,
