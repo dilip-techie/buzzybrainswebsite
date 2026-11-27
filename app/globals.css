@@ -2160,3 +2160,15 @@ button{font-family:inherit;cursor:pointer}
   background:linear-gradient(110deg,#FDE68A 0%,#F59E0B 45%,#FCD34D 70%,#FFF7D6 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
+
+/* Side-by-side hero (text left, visual right); the visual moves above the text on small screens. */
+.hero-split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center}
+.hero-split-text{text-align:left}
+.hero-split-visual img{width:100%;height:auto;border-radius:22px;box-shadow:0 24px 60px rgba(15,23,42,.28)}
+@media(max-width:900px){
+  .hero-split{grid-template-columns:1fr;gap:28px}
+  .hero-split-visual{order:-1;max-width:560px;margin:0 auto}
+  .hero-split-text{text-align:center}
+  .hero-split-text .lede{margin-left:auto !important;margin-right:auto !important}
+  .hero-split-text .hero-ctas{justify-content:center !important}
+}

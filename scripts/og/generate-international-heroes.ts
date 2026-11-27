@@ -5,7 +5,7 @@
  * Usage:  npx tsx scripts/og/generate-international-heroes.ts
  *
  * Output (public/images/international/):
- *   hero-{country}.png   1600x720   shown at the top of each page (converted to .webp for the site)
+ *   visual-{country}.png 1200x900   map-only visual beside the hero text (converted to .webp for the site)
  *   og-{country}.png     1200x630   used for Open Graph / Twitter cards
  *
  * The art is a branded graphic (graticule, nodes and an arc from Pune to the
@@ -183,13 +183,38 @@ function html(c: Country, width: number, height: number): string {
   </body></html>`;
 }
 
+/** Map-only visual for the side-by-side hero: no headline, so it never duplicates the page's H1. */
+function visualHtml(c: Country, width: number, height: number): string {
+  const mapW = width - 120;
+  const mapH = Math.round(height * 0.66);
+  const chips = c.chips.map((t) => `<span class="chip">${esc(t)}</span>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>
+    *{box-sizing:border-box;margin:0}
+    body{width:${width}px;height:${height}px;overflow:hidden;font-family:Inter,sans-serif;color:#fff;position:relative;
+      background:radial-gradient(900px 700px at 70% 15%, ${COLORS.navy2} 0%, ${COLORS.navy} 65%)}
+    .glow{position:absolute;right:-140px;top:-160px;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle, rgba(11,81,193,.5), transparent 66%)}
+    .glow2{position:absolute;left:-180px;bottom:-240px;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle, rgba(236,166,38,.2), transparent 65%)}
+    .tag{position:absolute;left:60px;top:48px;display:flex;align-items:center;gap:14px}
+    .tag img{width:56px;height:56px;border-radius:14px;background:#fff;padding:3px}
+    .pill{border:1.5px solid ${COLORS.amber};color:${COLORS.amberLight};border-radius:999px;padding:8px 20px;font-size:17px;font-weight:800;letter-spacing:.16em}
+    .map{position:absolute;left:60px;top:${Math.round(height * 0.14)}px}
+    .chips{position:absolute;left:60px;right:60px;bottom:54px;display:flex;flex-wrap:wrap;gap:10px}
+    .chip{background:rgba(94,160,228,.14);border:1px solid rgba(94,160,228,.4);color:#dbeafe;border-radius:10px;padding:9px 18px;font-size:19px;font-weight:700}
+  </style></head><body>
+    <div class="glow"></div><div class="glow2"></div>
+    <div class="tag"><img src="${logo}" alt=""/><span class="pill">LIVE · ONE-TO-ONE · ONLINE</span></div>
+    <div class="map">${mapSvg(c, mapW, mapH)}</div>
+    <div class="chips">${chips}</div>
+  </body></html>`;
+}
+
 async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   const browser = await chromium.launch();
   for (const c of COUNTRIES) {
-    for (const [name, w, h] of [['hero', 1600, 720], ['og', 1200, 630]] as const) {
+    for (const [name, w, h] of [['visual', 1200, 900], ['og', 1200, 630]] as const) {
       const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
-      await page.setContent(html(c, w, h), { waitUntil: 'load' });
+      await page.setContent(name === 'visual' ? visualHtml(c, w, h) : html(c, w, h), { waitUntil: 'load' });
       await page.screenshot({ path: path.join(OUT, `${name}-${c.slug}.png`), type: 'png' });
       await page.close();
       console.log(`wrote ${name}-${c.slug}.png`);

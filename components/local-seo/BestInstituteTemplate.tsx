@@ -74,26 +74,29 @@ export function BestInstituteTemplate({
   return (
     <main className="bb-landing bb-page-shell">
       <section className="hero">
-        <div className="container article-shell center">
-          <span className="eyebrow">{data.heroEyebrow ?? '📍 Amanora, Hadapsar, Pune'}</span>
-          <h1 style={{ fontSize: 'clamp(30px,4.4vw,50px)' }}>{data.h1}</h1>
-          <p className="lede" style={{ margin: '0 auto 8px', maxWidth: 680 }}>
-            {data.heroLede}
-          </p>
-          <div className="hero-ctas" style={{ justifyContent: 'center', marginTop: 20 }}>
-            <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
-            <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
+        <div className={heroImage ? 'container hero-split' : 'container article-shell center'}>
+          <div className={heroImage ? 'hero-split-text' : undefined}>
+            <span className="eyebrow">{data.heroEyebrow ?? '📍 Amanora, Hadapsar, Pune'}</span>
+            <h1 style={{ fontSize: 'clamp(30px,4.4vw,50px)' }}>{data.h1}</h1>
+            <p className="lede" style={{ margin: heroImage ? '0 0 8px' : '0 auto 8px', maxWidth: 680 }}>
+              {data.heroLede}
+            </p>
+            <div className="hero-ctas" style={{ justifyContent: heroImage ? 'flex-start' : 'center', marginTop: 20 }}>
+              <Link prefetch={false} href="/#contact" className="btn btn-primary">Book a Free Demo Class</Link>
+              <a href="tel:+919850570525" className="btn btn-ghost">Call +91 98505 70525</a>
+            </div>
           </div>
           {heroImage && (
-            <Image
-              src={heroImage.src}
-              alt={heroImage.alt}
-              width={heroImage.width}
-              height={heroImage.height}
-              priority
-              sizes="(max-width: 1100px) 100vw, 1100px"
-              style={{ width: '100%', maxWidth: 1100, height: 'auto', margin: '32px auto 0', borderRadius: 20, boxShadow: '0 20px 50px rgba(15,23,42,.25)' }}
-            />
+            <div className="hero-split-visual">
+              <Image
+                src={heroImage.src}
+                alt={heroImage.alt}
+                width={heroImage.width}
+                height={heroImage.height}
+                priority
+                sizes="(max-width: 900px) 100vw, 560px"
+              />
+            </div>
           )}
         </div>
       </section>
