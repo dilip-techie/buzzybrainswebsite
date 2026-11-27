@@ -139,7 +139,7 @@ const PROGRAMS_MEGA_MENU: MegaMenuGroup[] = [
   {
     title: 'Commerce, Law & MBA Prep',
     subtitle: 'IPMAT · CLAT · CA · CAT',
-    column: 3,
+    column: 1,
     items: [
       { href: '/commerce-tuitions', label: 'Commerce (Grades 11–12)' },
       { href: '/ca-foundation-coaching-pune', label: 'CA Prep (Grade 12)' },
