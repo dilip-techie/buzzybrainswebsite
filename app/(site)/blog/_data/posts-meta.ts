@@ -4639,6 +4639,86 @@ export const BLOG_POSTS_META: BlogPostMeta[] = [
     readingMinutes: 8
   },
   {
+    slug: "sat-vs-act-which-test-should-students-in-the-usa-and-canada-take",
+    title: "SAT vs ACT: Which Test Should Students in the USA and Canada Take?",
+    description: "Most US universities accept both the SAT and the ACT. Here is how they differ, how to choose with one practice test of each, and what to check before you commit.",
+    category: "sat-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "digital-sat-format-scoring-and-how-to-prepare",
+    title: "The Digital SAT: Format, Scoring and How to Prepare",
+    description: "The SAT is now digital and adaptive. Here is how the test is structured, how it is scored, and a practical way to prepare for it.",
+    category: "sat-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 7
+  },
+  {
+    slug: "ap-vs-ib-which-is-better-for-us-and-canadian-university-applications",
+    title: "AP vs IB: Which Is Better for US and Canadian University Applications?",
+    description: "AP and the IB Diploma are both respected by universities. Here is how they differ, who each suits, and how US and Canadian universities treat them.",
+    category: "ap-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 7
+  },
+  {
+    slug: "is-the-amc-worth-it-amc-8-10-12-and-the-path-to-aime",
+    title: "Is the AMC Worth It? AMC 8, 10 and 12 and the Path to AIME",
+    description: "The American Mathematics Competitions are the best-known maths contests for students applying to US universities. Here is what each level involves and who should take them.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 7
+  },
+  {
+    slug: "american-amc-vs-australian-mathematics-competition-which-is-which",
+    title: "American AMC vs Australian Mathematics Competition: Which Is Which?",
+    description: "Two different maths contests share the AMC name. Here is how to tell the American Mathematics Competitions and the Australian Mathematics Competition apart, and which to take.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "canadian-maths-contests-gauss-pascal-cayley-fermat-euclid-explained",
+    title: "Canadian Maths Contests Explained: Gauss, Pascal, Cayley, Fermat and Euclid",
+    description: "The University of Waterloo's CEMC contests are the best-known maths contests for Canadian students. Here is which contest suits which grade and what comes next.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
+    slug: "sasmo-and-the-singapore-mathematical-olympiad-which-should-your-child-take",
+    title: "SASMO and the Singapore Mathematical Olympiad: Which Should Your Child Take?",
+    description: "Singapore has a strong culture of maths competitions. Here is how SASMO and the Singapore Mathematical Olympiad differ and how to pair them with international contests.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "ap-computer-science-a-vs-computer-science-principles-which-to-take",
+    title: "AP Computer Science A vs Computer Science Principles: Which Should You Take?",
+    description: "AP offers two computer science courses. Here is how Computer Science A and Computer Science Principles differ and which to take first.",
+    category: "ap-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "ap-microeconomics-vs-macroeconomics-which-should-you-take-first",
+    title: "AP Microeconomics vs Macroeconomics: Which Should You Take First?",
+    description: "AP Economics is split into two separate courses. Here is what each covers and how to choose between them.",
+    category: "ap-exam",
+    datePublished: "2026-11-27",
+    readingMinutes: 5
+  },
+  {
+    slug: "how-students-outside-the-uk-can-enter-ukmt-challenges-step-by-step",
+    title: "How Students Outside the UK Can Enter the UKMT Challenges: Step by Step",
+    description: "Students in Singapore, Australia, Canada and the USA can enter the UKMT Mathematical Challenges through a registered school. Here is the process, the dates and the time-zone rule.",
+    category: "olympiad",
+    datePublished: "2026-11-27",
+    readingMinutes: 6
+  },
+  {
     slug: "why-every-school-student-should-try-a-computing-olympiad",
     title: "Why Every School Student Should Try a Computing Olympiad",
     description: "A computing olympiad is not only for future programmers. Here are the skills it builds, from logical thinking to resilience, and why trying one is worthwhile for almost any school student.",
